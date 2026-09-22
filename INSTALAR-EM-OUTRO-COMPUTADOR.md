@@ -1,0 +1,62 @@
+# TCC Assistente em outro computador
+
+Este repositório contém todo o código necessário para abrir o suplemento do TCC em outro Windows. Segredos, certificados privados e dependências geradas ficam fora do Git por segurança e são recriados durante a instalação.
+
+## Requisitos
+
+- Windows 10 ou 11;
+- Git;
+- Node.js 22 ou superior, com npm;
+- Microsoft Word 365 ou Word 2019 ou superior.
+
+Revit e AutoCAD são opcionais. Os conectores Autodesk só são usados quando os produtos 2027 estão instalados.
+
+## Instalação inicial
+
+Abra o PowerShell e execute:
+
+```powershell
+git clone https://github.com/leonardosena87/tcc2.git
+cd tcc2\tcc-assistente
+.\Instalar.cmd
+```
+
+Durante a instalação, aceite o certificado **Developer CA for Microsoft Office Add-ins** quando o Windows perguntar. O instalador instala as dependências, gera o certificado local, registra o suplemento no Word e inicia o servidor local.
+
+Depois, abra o Word e execute:
+
+```powershell
+.\Abrir-no-Word.cmd
+```
+
+Se o painel não aparecer, feche o Word completamente, execute `.\Iniciar.cmd` e abra novamente um documento em branco.
+
+## Configurar a IA do Sena Imóveis
+
+As credenciais não são versionadas. Para usar a mesma IA do projeto Sena, faça login na conta Firebase que tem acesso ao projeto e execute:
+
+```powershell
+firebase login
+cd tcc-assistente
+.\scripts\configure-sena.ps1
+```
+
+O script recupera o segredo de forma local e o protege com o armazenamento de credenciais do Windows. Alternativamente, é possível informar uma chave OpenAI própria pelo painel de Configuração.
+
+## Atualizar depois
+
+Para trazer a versão mais recente para esse computador:
+
+```powershell
+cd tcc2
+git pull
+cd tcc-assistente
+npm ci
+.\Iniciar.cmd
+```
+
+Não copie `node_modules`, certificados ou arquivos de credenciais entre computadores. Eles são específicos de cada instalação.
+
+## Arquivos aceitos
+
+O painel permite anexar PDF, DOC, DOCX, XLS e XLSX. As sugestões podem ser revisadas e aplicadas diretamente no documento Word aberto pelo botão **Aplicar sugestões no Word**.

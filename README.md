@@ -13,6 +13,18 @@ Consulte [as instruções do TCC Assistente](tcc-assistente/LEIA-ME.md). No Wind
 
 O suplemento roda localmente; versionar no GitHub não publica nem hospeda o serviço. A configuração OpenAI precisa ser fornecida separadamente. Chaves, certificados privados, arquivos temporários e dependências instaladas não fazem parte do repositório.
 
+### Instalar em outro computador
+
+No novo Windows, instale Git, Node.js 22 ou superior e Microsoft Word 365/2019 ou superior. Depois, no PowerShell:
+
+```powershell
+git clone https://github.com/leonardosena87/tcc2.git
+cd tcc2\tcc-assistente
+.\Instalar.cmd
+```
+
+Confirme a instalação do certificado local quando o Windows solicitar. Para abrir o suplemento em uma nova sessão, execute `.\Abrir-no-Word.cmd` dentro de `tcc-assistente`. A chave OpenAI, o certificado HTTPS e `node_modules` são configurados localmente e não são enviados ao GitHub. Para usar a mesma IA do projeto Sena Imóveis, faça login no Firebase e execute `scripts\configure-sena.ps1`; o guia completo está em [INSTALAR-EM-OUTRO-COMPUTADOR.md](INSTALAR-EM-OUTRO-COMPUTADOR.md).
+
 ## Desenvolvimento
 
 ```powershell

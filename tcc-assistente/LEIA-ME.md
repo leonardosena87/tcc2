@@ -26,14 +26,14 @@ Selecionar um arquivo só o lê na memória do painel. O envio acontece ao clica
 
 Testes: `npm test` inclui limites, assinaturas dos formatos, envio de anexos e exportação OOXML. `node scripts/smoke-attachments.mjs` faz uma chamada real cobrada com três arquivos sintéticos; não usa seus documentos de TCC.
 
-Verificação realizada: os 18 testes passaram e uma chamada real com PDF, DOCX e XLSX sintéticos identificou os três códigos de teste e a quantidade da planilha corretamente, retornando uma tabela por arquivo. `.doc` e `.xls` são aceitos pela integração conforme a documentação da API, mas não foram exercitados nesse teste real. A exportação foi verificada estruturalmente; o download pelo WebView do Word ainda depende do comportamento da versão instalada.
+Verificação realizada: os 22 testes passaram e uma chamada real com PDF, DOCX e XLSX sintéticos identificou os três códigos de teste e a quantidade da planilha corretamente, retornando uma tabela por arquivo. `.doc` e `.xls` são aceitos pela integração conforme a documentação da API, mas não foram exercitados nesse teste real. A exportação foi verificada estruturalmente; o download pelo WebView do Word ainda depende do comportamento da versão instalada.
 
 ## Começar
 
 1. Execute **Instalar.cmd** na primeira instalação. Ele instala as dependências, solicita o certificado HTTPS de desenvolvimento da Microsoft, registra o suplemento e abre um documento de teste no Word. Se aparecer a confirmação do certificado “Developer CA for Microsoft Office Add-ins”, confirme no Windows. Não é necessário habilitar macros ou desabilitar proteções do Office.
 2. Nas próximas vezes, execute **Iniciar.cmd**. Para abrir também o documento de teste com o painel, use **Abrir-no-Word.cmd**.
 3. No documento em que pretende trabalhar, abra **Página Inicial → Suplementos → Mais suplementos / Meus suplementos → TCC Assistente**. Em algumas versões do Word ele aparece na área de suplementos de desenvolvedor. Uma vez adicionado ao documento, use **Página Inicial → TCC Assistente → Abrir assistente**. Se não aparecer na sessão já aberta, salve seu trabalho e reabra o Word.
-4. No painel, abra **Conexão com a OpenAI**, informe sua chave da API e clique em **Conectar**. O modelo é configurável; o padrão inicial é `gpt-6-astra`. Se sua conta não tiver acesso, informe um modelo compatível com Responses API e Structured Outputs disponível na sua conta.
+4. A instalação do projeto Sena já pode carregar a credencial local configurada por `scripts/configure-sena.ps1`. Se preferir uma chave própria, abra **Conexão com a OpenAI**, informe a chave e clique em **Conectar**. O modelo é configurável; o padrão do suplemento é `gpt-5.6-sol`.
 5. Selecione um parágrafo, clique em **Revisar escrita** e depois em **Enviar para a IA**. Confira a proposta, edite se necessário e clique em **Substituir trecho**.
 
 O botão Conectar configura a chave; a primeira solicitação é que verifica efetivamente o acesso ao modelo. A chave permanece apenas na memória do processo local e precisa ser informada de novo após encerrar o serviço. Alternativamente, o serviço aceita as variáveis de ambiente `OPENAI_API_KEY` e `OPENAI_MODEL`. Não coloque chaves no código ou em arquivos desta pasta sincronizada pelo OneDrive.
