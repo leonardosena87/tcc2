@@ -1,0 +1,27 @@
+# Credenciais e configuracao privada
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+*.key
+*.pem
+*.pfx
+*.p12
+*.clixml
+openai.xml
+
+# Dependencias, builds e arquivos locais
+node_modules/
+**/bin/
+**/obj/
+.runtime/
+*.log
+firebase-debug.log*
+~$*
+*.tmp
+Thumbs.db
+Desktop.ini
+
+# Placeholder sem conteudo na primeira importacao
+/TCC 2 - Leonardo, Danyela e Arthur.pdf
