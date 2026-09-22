@@ -6,7 +6,7 @@ import { PublicError, buildRequest, parseResponse, validateDataset } from './cor
 import {createDownload} from './downloads.mjs';
 const publicDir = fileURLToPath(new URL('../public/', import.meta.url));
 const mime = {'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.png':'image/png'};
-const staticFiles = new Set(['index.html','app.js','word.js','style.css','files.css','icon-16.png','icon-32.png','icon-80.png']);
+const staticFiles = new Set(['index.html','app.js','word.js','suggestions.js','style.css','files.css','icon-16.png','icon-32.png','icon-80.png']);
 export function createHandler({origin = 'https://localhost:3443', exportDir, apiKey = '', model = 'gpt-6-astra', fetchImpl = fetch} = {}) {
   const token = randomBytes(32).toString('hex');
   let busy = false;

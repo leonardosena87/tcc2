@@ -6,7 +6,13 @@ Para atualizar a credencial após uma rotação, execute `scripts/configure-sena
 
 Suplemento para Word no Windows, com painel de redação conectado à API OpenAI e conectores locais para **Revit 2027 e AutoCAD 2027**. O código está nesta pasta e pode ser ampliado conforme o seu TCC.
 
-## Anexos PDF Word e Excel
+## Aplicar sugestões no documento
+
+Cada resposta da IA agora oferece **Aplicar sugestões no Word**. Escolha **Documento Word aberto** ou **Parágrafos da seleção atual** e clique para gerar e aplicar as revisões. O clique autoriza uma nova chamada à IA e a alteração dos parágrafos correspondentes. O resultado informa quantos parágrafos foram alterados; Ctrl+Z desfaz no Word. A seleção atua nos parágrafos que ela abrange, inclusive quando apenas parte de um parágrafo estiver selecionada.
+
+O sistema confere o texto original e o conteúdo capturado antes de escrever. Se o documento mudar durante a análise, a aplicação é bloqueada. Parágrafos com tabelas, campos, imagens, notas e links são preservados. A formatação interna de parágrafos substituídos pode mudar. O limite é de 500 parágrafos e 120.000 caracteres; para textos maiores, aplique por seção. O botão atua somente no documento Word aberto, não nos arquivos anexados nem na geometria Autodesk. O comando antigo **Inserir resposta após a seleção** continua disponível para inserir os comentários da IA como texto.
+
+## Trabalhar com os anexos
 
 No painel, use **Anexar PDF, Word ou Excel** ou arraste os arquivos para essa área. São aceitos `.pdf`, `.doc`, `.docx`, `.xls` e `.xlsx`: até 5 arquivos, 10 MB por arquivo e 20 MB no total. Os arquivos marcados são enviados à OpenAI junto com cada novo pedido, para manter o contexto durante a conversa. Desmarque para excluir de um pedido; Remover libera o anexo do painel. Nova conversa remove histórico e anexos. Fechar/recarregar o painel também perde os anexos locais.
 

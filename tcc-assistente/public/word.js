@@ -46,3 +46,18 @@ export async function insertAtCursor(text) {
     await context.sync();
   });
 }
+export async function captureSuggestions(scope='document') {
+  requireWord();
+  const context=new Word.RequestContext();
+  const source=scope==='selection'?context.document.getSelection():context.document.body;
+  source.load('text');const paragraphs=source.paragraphs;paragraphs.load('items');await context.sync();
+  if(!source.text.trim())throw new Error(scope==='selection'?'Selecione os parágrafos a alterar no Word.':'O documento está vazio. Insira um texto antes de aplicar sugestões.');
+  if(source.text.length>LIMIT||paragraphs.items.length>500)throw new Error('O documento excede o limite de revisão. Escolha Seleção atual e selecione uma seção menor.');
+  const items=paragraphs.items.map((p,index)=>{const range=p.getRange('Content');range.load('text');return {index,range,result:range.getOoxml()};});await context.sync();
+  const eligible=items.filter(item=>item.range.text.trim()&&!complex.test(item.result.value));
+  if(!eligible.length)throw new Error('Não há parágrafos de texto simples para alterar. Tabelas, campos, notas, links e imagens são preservados.');
+  for(const item of eligible){item.original=item.range.text;item.xml=item.result.value;item.range.track();}
+  await context.sync();
+  return {context,items:eligible,paragraphs:eligible.map(item=>({index:item.index,text:item.original})),skipped:items.length-eligible.length};
+}
+export async function releaseSuggestions(snapshot){if(!snapshot)return;for(const item of snapshot.items)item.range.untrack();try{await snapshot.context.sync();}catch{/* O documento pode ter sido fechado. */}}
