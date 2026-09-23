@@ -29,7 +29,9 @@ Depois, abra o Word pelo script:
 .\Abrir-no-Word.cmd
 ```
 
-Nas próximas vezes, use `.\Iniciar.cmd`: ele inicia o servidor, atualiza o registro do manifesto e abre o Word com o suplemento carregado.
+O instalador configura o servidor local para iniciar automaticamente quando você entrar no Windows. Para iniciar imediatamente após a instalação, use `.\Iniciar.cmd`.
+
+Abra o TCC Assistente uma primeira vez em cada documento pelo grupo **TCC Assistente** na faixa **Página Inicial**. O Word salva essa preferência dentro do arquivo e abre o painel automaticamente quando aquele documento for aberto novamente. Documentos novos precisam ser ativados uma vez.
 
 Se o painel não aparecer, feche o Word completamente, execute `.\Iniciar.cmd` e abra novamente um documento em branco.
 

@@ -31,8 +31,8 @@ Verificação realizada: os 22 testes passaram e uma chamada real com PDF, DOCX 
 ## Começar
 
 1. Execute **Instalar.cmd** na primeira instalação. Ele instala as dependências, solicita o certificado HTTPS de desenvolvimento da Microsoft, registra o suplemento e abre um documento de teste no Word. Se aparecer a confirmação do certificado “Developer CA for Microsoft Office Add-ins”, confirme no Windows. Não é necessário habilitar macros ou desabilitar proteções do Office.
-2. Nas próximas vezes, execute **Iniciar.cmd**. Ele inicia o servidor, atualiza o registro do manifesto e abre o Word com o suplemento carregado. Para abrir também o documento de teste com o painel, use **Abrir-no-Word.cmd**.
-3. No documento em que pretende trabalhar, abra **Página Inicial → Suplementos → Mais suplementos / Meus suplementos → TCC Assistente**. Em algumas versões do Word ele aparece na área de suplementos de desenvolvedor. Uma vez adicionado ao documento, use **Página Inicial → TCC Assistente → Abrir assistente**. Se o Word foi aberto pelo ícone normal, o suplemento precisa ser adicionado ao documento atual; o carregamento automático ocorre no documento aberto por `Iniciar.cmd` ou `Abrir-no-Word.cmd`.
+2. O instalador configura o servidor local para iniciar quando você entrar no Windows. Para uso imediato após a instalação, execute **Iniciar.cmd**; ele inicia o serviço e abre o Word com o suplemento carregado.
+3. Em cada documento, abra o suplemento uma primeira vez por **Página Inicial → TCC Assistente → Abrir assistente** (ou por **Suplementos → Meus suplementos**). O Word grava a preferência nesse documento e abrirá o painel automaticamente nas próximas vezes em que esse mesmo arquivo for aberto. Documentos novos precisam dessa ativação inicial.
 4. A instalação do projeto Sena já pode carregar a credencial local configurada por `scripts/configure-sena.ps1`. Se preferir uma chave própria, abra **Conexão com a OpenAI**, informe a chave e clique em **Conectar**. O modelo é configurável; o padrão do suplemento é `gpt-5.6-sol`.
 5. Selecione um parágrafo, clique em **Revisar escrita** e depois em **Enviar para a IA**. Confira a proposta, edite se necessário e clique em **Substituir trecho**.
 
@@ -82,7 +82,7 @@ O servidor escuta somente em `127.0.0.1:3443`, com HTTPS em `https://localhost:3
 
 Isso não equivale a uma garantia de retenção zero na plataforma: aplicam-se as políticas da conta/API. Ao clicar em Enviar, o pedido, histórico e contextos marcados são enviados à OpenAI. As exportações Autodesk ficam em `%LOCALAPPDATA%\TccAssistente\exports`, fora desta pasta do OneDrive, até serem removidas manualmente. Atualizar a lista não envia esses arquivos à OpenAI.
 
-Use **Parar.cmd** para encerrar o serviço iniciado por Iniciar.cmd. O script verifica se o PID ainda corresponde a este servidor antes de encerrá-lo. O serviço não inicia automaticamente com o Windows.
+Use **Parar.cmd** para encerrar o serviço local. O script verifica se o PID ainda corresponde a este servidor antes de encerrá-lo. O instalador configura o início automático do serviço quando você entrar no Windows.
 
 ## Desenvolvimento
 

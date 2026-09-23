@@ -74,5 +74,9 @@ $('refresh-exports').onclick=()=>action(refreshExports);
 $('exports').onchange=()=>action(async()=>{dataset=null;$('include-dataset').checked=false;if(!$('exports').value){$('dataset-preview').textContent='Nenhuma exportação carregada.';return;}dataset=await api(`/api/export?name=${encodeURIComponent($('exports').value)}`);$('dataset-preview').textContent=datasetSummary(dataset)+'\n\nAmostra dos primeiros 5 elementos:\n'+JSON.stringify(dataset.elements.slice(0,5),null,2);status('Exportação carregada. Marque o envio dos dados se quiser usá-los na conversa.');});
 $('insert-dataset').onclick=()=>action(async()=>{if(!dataset)throw new Error('Selecione uma exportação.');await insertAtCursor(datasetSummary(dataset));status('Resumo da seleção Autodesk inserido no Word.');});
 async function boot(){try{const r=await fetch('/api/session');if(!r.ok)throw new Error();const data=await r.json();token=data.token;connection(data);status('Serviço local conectado. Abra no Word para ler e editar documentos.');await refreshExports();lock(false);}catch{status('Não foi possível conectar. Execute Iniciar.cmd e reabra o painel.',true);}}
-if(window.Office){Office.onReady(info=>{wordReady=info.host===Office.HostType.Word;setWordReady(wordReady);if(wordReady)status('Conectado ao Word. Selecione um trecho para começar.');});}
+if(window.Office){Office.onReady(info=>{wordReady=info.host===Office.HostType.Word;setWordReady(wordReady);if(wordReady){
+  status('Conectado ao Word. Este documento abrirá o painel automaticamente nas próximas vezes.');
+  Office.context.document.settings.set('Office.AutoShowTaskpaneWithDocument',true);
+  Office.context.document.settings.saveAsync(result=>{if(result.status!==Office.AsyncResultStatus.Succeeded)status('Não foi possível gravar a abertura automática neste documento. Salve-o e tente novamente.',true);});
+}});}
 boot();
