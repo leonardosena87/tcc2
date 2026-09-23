@@ -9,18 +9,20 @@ export function validateEdits(edits, paragraphs) {
 export async function applyEdits(snapshot, edits) {
   const valid=validateEdits(edits,snapshot.paragraphs);
   snapshot.appliedTargets??=[];
-  // Preflight the complete scope before queuing any mutation.
-  for(const item of snapshot.items)item.range.load('text');
-  const xml=snapshot.items.map(item=>item.range.getOoxml());
-  await snapshot.context.sync();
-  for(let i=0;i<snapshot.items.length;i++){
-    const item=snapshot.items[i];
-    if(item.range.text!==item.original||xml[i].value!==item.xml)throw new Error('O documento mudou durante a análise. Nada foi aplicado; tente novamente.');
-  }
+  snapshot.complexSkipped=0;
+  if(!valid.length)return 0;
   for(const edit of valid){
+    const item=snapshot.items.find(candidate=>candidate.index===edit.index);
+    if(!item)throw new Error('Não encontrei todos os parágrafos da proposta. Nada foi aplicado.');
+    if(item.range.text!==item.original)throw new Error('O documento mudou durante a análise. Nada foi aplicado; tente novamente.');
+    if(item.result?.value&&/<w:(?:tbl|drawing|pict|fldSimple|fldChar|footnoteReference|endnoteReference|hyperlink|sdt|object)(?:\s|\/?>)/.test(item.result.value))item.complex=true;
+  }
+  const safe=valid.filter(edit=>!snapshot.items.find(item=>item.index===edit.index).complex);
+  snapshot.complexSkipped=valid.length-safe.length;
+  for(const edit of safe){
     const changed=snapshot.items.find(item=>item.index===edit.index).range.insertText(edit.revised,'Replace');
     if(changed?.font)changed.font.highlightColor='#FFFF00';
     snapshot.appliedTargets.push({index:edit.index,revised:edit.revised});
   }
-  await snapshot.context.sync();return valid.length;
+  if(safe.length)await snapshot.context.sync();return safe.length;
 }

@@ -10,7 +10,7 @@ test('plano recusa original errado, índices protegidos, duplicações e exclus�
   for(const edits of [[{...edit,original:'Inventado'}],[{...edit,index:1}],[edit,edit],[{...edit,revised:''}]])assert.throws(()=>validateEdits(edits,paragraphs));
 });
 test('verifica todo o escopo antes de escrever qualquer parágrafo',async()=>{
-  const captured=snapshot();captured.items[1].range.text='Mudança durante a análise';
+  const captured=snapshot();captured.items[0].range.text='Mudança durante a análise';
   await assert.rejects(applyEdits(captured,[edit]),/documento mudou/);
   assert.ok(captured.items.every(x=>!x.range.written));
 });

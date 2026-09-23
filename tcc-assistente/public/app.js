@@ -30,7 +30,7 @@ function addSuggestionAction(suggestions){
       },applyEdits);
       const count=result.count;appliedTargets=result.targets;
       if(count){button.dataset.applied='true';button.textContent='Sugestões aplicadas';scope.dataset.applied='true';done.hidden=false;}
-      outcome.textContent=count?`${count} parágrafo(s) alterado(s) e destacados em amarelo. ${result.skipped?`${result.skipped} parágrafo(s) vazio(s) ou com conteúdo complexo preservado(s). `:''}`:`Nenhum parágrafo alterado. ${answer}`;
+      outcome.textContent=count?`${count} parágrafo(s) alterado(s) e destacados em amarelo. ${result.skipped?`${result.skipped} parágrafo(s) vazios foram ignorados. `:''}${result.complexSkipped?`${result.complexSkipped} parágrafo(s) com tabelas, links, campos ou imagens foram preservados. `:''}`:`Nenhum parágrafo alterado. ${result.complexSkipped?`${result.complexSkipped} parágrafo(s) com conteúdo complexo foram preservados. `:''}${answer}`;
       status(outcome.textContent);
     }catch(e){outcome.textContent=e.message;throw e;}
   });

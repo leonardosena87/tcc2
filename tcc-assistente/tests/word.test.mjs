@@ -35,7 +35,7 @@ test('captura seleção dentro de Word.run e mantém índices do documento',asyn
   const context={document:{getSelection(){order.push('getSelection');return selection;},body},sync:async()=>{order.push('sync');}};
   globalThis.Word={run:fn=>fn(context)};setWordReady(true);
   let requestData;
-  const result=await applySuggestionsInWord('selection',async paragraphs=>{order.push('request');requestData=paragraphs;return [];},async(snapshot)=>{order.push('apply');assert.equal(snapshot.context,context);return 1;});
+  const result=await applySuggestionsInWord('selection',async paragraphs=>{order.push('request');requestData=paragraphs;return [{index:1,original:'Trecho selecionado',revised:'Texto revisado'}];},async(snapshot)=>{order.push('apply');assert.equal(snapshot.context,context);return 1;});
   assert.deepEqual(order.slice(0,2),['getSelection','sync']);
   assert.deepEqual(requestData,[{index:1,text:'Trecho selecionado'}]);
   assert.equal(result.count,1);
