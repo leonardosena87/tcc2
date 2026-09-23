@@ -14,6 +14,11 @@ test('verifica todo o escopo antes de escrever qualquer parágrafo',async()=>{
   await assert.rejects(applyEdits(captured,[edit]),/documento mudou/);
   assert.ok(captured.items.every(x=>!x.range.written));
 });
+test('aceita marcadores de parágrafo e quebras equivalentes retornados pelo Word',async()=>{
+  const captured=snapshot();captured.items[0].range.text='Texto original\r';
+  assert.equal(await applyEdits(captured,[edit]),1);
+  assert.equal(captured.items[0].range.written,'Texto revisado');
+});
 test('aplica somente mudanças válidas e preserva outros parágrafos',async()=>{
   const captured=snapshot();assert.equal(await applyEdits(captured,[edit]),1);
   assert.equal(captured.items[0].range.written,'Texto revisado');assert.equal(captured.items[1].range.written,undefined);

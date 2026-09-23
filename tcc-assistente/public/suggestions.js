@@ -6,6 +6,13 @@ export function validateEdits(edits, paragraphs) {
     seen.add(edit.index);return edit;
   }).filter(edit=>edit.original!==edit.revised);
 }
+function normalizeWordText(value) {
+  return String(value??'')
+    .replace(/\r\n?/g,'\n')
+    .replace(/[\v\u000b]/g,'\n')
+    .replace(/\u00a0/g,' ')
+    .replace(/\n$/,'');
+}
 export async function applyEdits(snapshot, edits) {
   const valid=validateEdits(edits,snapshot.paragraphs);
   snapshot.appliedTargets??=[];
@@ -14,8 +21,8 @@ export async function applyEdits(snapshot, edits) {
   for(const edit of valid){
     const item=snapshot.items.find(candidate=>candidate.index===edit.index);
     if(!item)throw new Error('Não encontrei todos os parágrafos da proposta. Nada foi aplicado.');
-    if(item.range.text!==item.original)throw new Error('O documento mudou durante a análise. Nada foi aplicado; tente novamente.');
     if(item.result?.value&&/<w:(?:tbl|drawing|pict|fldSimple|fldChar|footnoteReference|endnoteReference|hyperlink|sdt|object)(?:\s|\/?>)/.test(item.result.value))item.complex=true;
+    if(!item.complex&&normalizeWordText(item.range.text)!==normalizeWordText(item.original))throw new Error('O documento mudou durante a análise. Nada foi aplicado; tente novamente.');
   }
   const safe=valid.filter(edit=>!snapshot.items.find(item=>item.index===edit.index).complex);
   snapshot.complexSkipped=valid.length-safe.length;
