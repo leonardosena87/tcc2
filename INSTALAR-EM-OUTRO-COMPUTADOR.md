@@ -33,6 +33,8 @@ Nas próximas vezes, use `.\Iniciar.cmd`: ele inicia o servidor, atualiza o regi
 
 Se o painel não aparecer, feche o Word completamente, execute `.\Iniciar.cmd` e abra novamente um documento em branco.
 
+Se o Word for aberto pelo ícone normal, entre em **Página Inicial → Suplementos → Meus suplementos**, selecione **TCC Assistente** e clique em **Adicionar**. O carregamento automático ocorre no documento aberto pelos scripts do projeto.
+
 ## Configurar a IA do Sena Imóveis
 
 As credenciais não são versionadas. Para usar a mesma IA do projeto Sena, faça login na conta Firebase que tem acesso ao projeto e execute:
