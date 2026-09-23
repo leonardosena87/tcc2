@@ -46,19 +46,47 @@ export async function insertAtCursor(text) {
     await context.sync();
   });
 }
-export async function captureSuggestions(scope='document') {
+export async function applySuggestionsInWord(scope, requestEdits, applyEdits) {
   requireWord();
-  const context=new Word.RequestContext();
-  const source=scope==='selection'?context.document.getSelection():context.document.body;
-  source.load('text');const paragraphs=source.paragraphs;paragraphs.load('items');await context.sync();
-  if(!source.text.trim())throw new Error(scope==='selection'?'Selecione os parágrafos a alterar no Word.':'O documento está vazio. Insira um texto antes de aplicar sugestões.');
-  if(source.text.length>LIMIT||paragraphs.items.length>500)throw new Error('O documento excede o limite de revisão. Escolha Seleção atual e selecione uma seção menor.');
-  const items=paragraphs.items.map((p,index)=>{const range=p.getRange('Content');range.load('text');return {index,range,result:range.getOoxml()};});await context.sync();
-  const eligible=items.filter(item=>item.range.text.trim()&&!complex.test(item.result.value));
-  if(!eligible.length)throw new Error('Não há parágrafos de texto simples para alterar. Tabelas, campos, notas, links e imagens são preservados.');
-  for(const item of eligible){item.original=item.range.text;item.xml=item.result.value;item.range.track();}
-  await context.sync();
-  return {context,items:eligible,paragraphs:eligible.map(item=>({index:item.index,text:item.original})),skipped:items.length-eligible.length,highlights:[]};
+  return Word.run(async context=>{
+    // Resolve the selection first, then map intersecting paragraphs to stable
+    // document-wide indexes. This also avoids holding a transient selection
+    // proxy after the pane takes focus.
+    const selection=scope==='selection'?context.document.getSelection():null;
+    if(selection)selection.load('text');
+    const paragraphs=context.document.body.paragraphs;paragraphs.load('items');await context.sync();
+    if(selection&&!selection.text.trim())throw new Error('Selecione os parágrafos no documento antes de clicar no botão.');
+    if(!selection&&paragraphs.items.length===0)throw new Error('O documento está vazio. Insira um texto antes de aplicar sugestões.');
+    const items=paragraphs.items.map((paragraph,index)=>{
+      const range=paragraph.getRange('Content');
+      return {index,range,relation:selection?range.compareLocationWith(selection):null};
+    });
+    if(selection){await context.sync();for(const item of items)item.inSelection=['Contains','ContainsStart','ContainsEnd','Inside','InsideStart','InsideEnd','Equal','OverlapsBefore','OverlapsAfter'].includes(item.relation.value);}
+    const scoped=selection?items.filter(item=>item.inSelection):items;
+    if(scoped.length>500||selection.text?.length>LIMIT)throw new Error('O escopo excede o limite de revisão. Selecione uma seção menor.');
+    for(const item of scoped){item.range.load('text');item.result=item.range.getOoxml();}await context.sync();
+    const eligible=scoped.filter(item=>item.range.text.trim()&&!complex.test(item.result.value));
+    if(!eligible.length)throw new Error('Não há parágrafos de texto simples para alterar. Tabelas, campos, notas, links e imagens são preservados.');
+    for(const item of eligible){item.original=item.range.text;item.xml=item.result.value;}
+    const snapshot={context,items:eligible,paragraphs:eligible.map(item=>({index:item.index,text:item.original})),skipped:scoped.length-eligible.length,appliedTargets:[]};
+    const edits=await requestEdits(snapshot.paragraphs);
+    const count=await applyEdits(snapshot,edits);
+    return {count,skipped:snapshot.skipped,targets:snapshot.appliedTargets};
+  });
+}
+export async function clearSuggestionHighlights(targets){
+  if(!targets?.length)return 0;
+  return Word.run(async context=>{
+    const paragraphs=context.document.body.paragraphs;paragraphs.load('items');await context.sync();
+    const cleared=[];
+    for(const target of targets){
+      const paragraph=paragraphs.items[target.index];if(!paragraph)continue;
+      paragraph.load('text');await context.sync();
+      if(paragraph.text!==target.revised)continue;
+      paragraph.getRange('Content').font.highlightColor='None';cleared.push(target);
+    }
+    await context.sync();return cleared.length;
+  });
 }
 export async function releaseSuggestions(snapshot){
   if(!snapshot)return;

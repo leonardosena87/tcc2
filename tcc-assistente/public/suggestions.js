@@ -8,6 +8,7 @@ export function validateEdits(edits, paragraphs) {
 }
 export async function applyEdits(snapshot, edits) {
   const valid=validateEdits(edits,snapshot.paragraphs);
+  snapshot.appliedTargets??=[];
   // Preflight the complete scope before queuing any mutation.
   for(const item of snapshot.items)item.range.load('text');
   const xml=snapshot.items.map(item=>item.range.getOoxml());
@@ -18,15 +19,8 @@ export async function applyEdits(snapshot, edits) {
   }
   for(const edit of valid){
     const changed=snapshot.items.find(item=>item.index===edit.index).range.insertText(edit.revised,'Replace');
-    if(changed?.font){changed.font.highlightColor='#FFFF00';snapshot.highlights?.push(changed);}
+    if(changed?.font)changed.font.highlightColor='#FFFF00';
+    snapshot.appliedTargets.push({index:edit.index,revised:edit.revised});
   }
   await snapshot.context.sync();return valid.length;
-}
-export async function clearSuggestionHighlights(snapshot){
-  if(!snapshot?.highlights?.length)return;
-  for(const range of snapshot.highlights){try{range.font.highlightColor='None';}catch{/* Range já não está disponível. */}}
-  try{await snapshot.context.sync();}catch{/* O documento pode ter sido fechado. */}
-  for(const range of snapshot.highlights){try{range.untrack();}catch{/* Limpeza best-effort. */}}
-  try{await snapshot.context.sync();}catch{/* O documento pode ter sido fechado. */}
-  snapshot.highlights=[];
 }

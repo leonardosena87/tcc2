@@ -1,5 +1,5 @@
-import {setWordReady,capture,discardTarget,applyReplacement,insertAtCursor,captureSuggestions,releaseSuggestions} from './word.js';
-import {applyEdits,clearSuggestionHighlights} from './suggestions.js';
+import {setWordReady,capture,discardTarget,applyReplacement,insertAtCursor,applySuggestionsInWord,clearSuggestionHighlights} from './word.js';
+import {applyEdits} from './suggestions.js';
 const $=id=>document.getElementById(id);
 let token='',history=[],dataset=null,busy=false,wordReady=false,attachments=[];
 function status(message,error=false){$('status').textContent=message;$('status').classList.toggle('error',error);}
@@ -18,23 +18,23 @@ function addSuggestionAction(suggestions){
   const button=document.createElement('button');button.className='primary';button.textContent='Aplicar sugestões no Word';
   const done=document.createElement('button');done.className='secondary';done.textContent='Concluído — remover destaques';done.hidden=true;
   const outcome=document.createElement('p');outcome.className='hint';outcome.setAttribute('role','status');
-  let pendingCapture=null;let appliedSnapshot=null;
-  const primeCapture=()=>{if(!pendingCapture)pendingCapture=captureSuggestions(scope.value);return pendingCapture;};
-  scope.onchange=()=>{pendingCapture=null;appliedSnapshot=null;done.hidden=true;};
-  button.addEventListener('mousedown',()=>{if(!busy)primeCapture().catch(()=>{});});
+  let appliedTargets=null;
   button.onclick=()=>action(async()=>{
-    let snapshot;
     try{
-      await clearProposal();snapshot=await (pendingCapture??captureSuggestions(scope.value));pendingCapture=null;
-      status('Preparando e aplicando sugestões ao Word…');outcome.textContent='Analisando os parágrafos…';
-      const result=await api('/api/chat',{mode:'apply',prompt:'Aplique as sugestões acadêmicas pertinentes ao texto, preservando as informações existentes.',suggestions,paragraphs:snapshot.paragraphs});
-      const count=await applyEdits(snapshot,result.edits);
-      if(count){button.dataset.applied='true';button.textContent='Sugestões aplicadas';scope.dataset.applied='true';appliedSnapshot=snapshot;done.hidden=false;}
-      outcome.textContent=count?`${count} parágrafo(s) alterado(s). ${snapshot.skipped?`${snapshot.skipped} parágrafo(s) vazio(s) ou com conteúdo complexo preservado(s). `:''}Ctrl+Z desfaz no Word.`:`Nenhum parágrafo alterado. ${result.answer}`;
+      status('Lendo e revisando os parágrafos no Word…');outcome.textContent='Lendo o documento…';
+      let answer='';
+      const result=await applySuggestionsInWord(scope.value,async paragraphs=>{
+        outcome.textContent='Enviando os parágrafos para revisão…';
+        const response=await api('/api/chat',{mode:'apply',prompt:'Aplique as sugestões acadêmicas pertinentes ao texto, preservando as informações existentes.',suggestions,paragraphs});
+        answer=response.answer;return response.edits;
+      },applyEdits);
+      const count=result.count;appliedTargets=result.targets;
+      if(count){button.dataset.applied='true';button.textContent='Sugestões aplicadas';scope.dataset.applied='true';done.hidden=false;}
+      outcome.textContent=count?`${count} parágrafo(s) alterado(s) e destacados em amarelo. ${result.skipped?`${result.skipped} parágrafo(s) vazio(s) ou com conteúdo complexo preservado(s). `:''}`:`Nenhum parágrafo alterado. ${answer}`;
       status(outcome.textContent);
-    }catch(e){outcome.textContent=e.message;throw e;}finally{await releaseSuggestions(snapshot);}
+    }catch(e){outcome.textContent=e.message;throw e;}
   });
-  done.onclick=()=>action(async()=>{await clearSuggestionHighlights(appliedSnapshot);appliedSnapshot=null;done.hidden=true;status('Destaques removidos. As alterações permanecem no documento.');});
+  done.onclick=()=>action(async()=>{const count=await clearSuggestionHighlights(appliedTargets);appliedTargets=null;done.hidden=true;status(`${count} destaque(s) removido(s). As alterações permanecem no documento.`);});
   box.append(label,hint,button,done,outcome);message.insertBefore(box,message.querySelector('button'));
 }
 async function download(body){const data=await api('/api/download',body);const bytes=Uint8Array.from(atob(data.base64),x=>x.charCodeAt(0));const url=URL.createObjectURL(new Blob([bytes],{type:data.mime}));const link=document.createElement('a');link.href=url;link.download=data.name;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);status('Arquivo gerado. Confira o download solicitado ao Word/navegador.');}
