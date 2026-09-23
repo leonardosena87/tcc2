@@ -8,10 +8,14 @@ export function validateEdits(edits, paragraphs) {
 }
 function normalizeWordText(value) {
   return String(value??'')
+    .normalize('NFC')
     .replace(/\r\n?/g,'\n')
     .replace(/[\v\u000b]/g,'\n')
     .replace(/\u00a0/g,' ')
-    .replace(/\n$/,'');
+    .replace(/[\u200b-\u200d\u2060\ufeff]/g,'')
+    .replace(/[\u0007\n]+$/g,'')
+    .replace(/\s+/g,' ')
+    .trim();
 }
 export async function applyEdits(snapshot, edits) {
   const valid=validateEdits(edits,snapshot.paragraphs);
@@ -21,7 +25,7 @@ export async function applyEdits(snapshot, edits) {
   for(const edit of valid){
     const item=snapshot.items.find(candidate=>candidate.index===edit.index);
     if(!item)throw new Error('Não encontrei todos os parágrafos da proposta. Nada foi aplicado.');
-    if(item.result?.value&&/<w:(?:tbl|drawing|pict|fldSimple|fldChar|footnoteReference|endnoteReference|hyperlink|sdt|object)(?:\s|\/?>)/.test(item.result.value))item.complex=true;
+    if(item.range.text?.includes('\u0007')||item.result?.value&&/<w:(?:tbl|drawing|pict|fldSimple|fldChar|footnoteReference|endnoteReference|hyperlink|sdt|object)(?:\s|\/?>)/.test(item.result.value))item.complex=true;
     if(!item.complex&&normalizeWordText(item.range.text)!==normalizeWordText(item.original))throw new Error('O documento mudou durante a análise. Nada foi aplicado; tente novamente.');
   }
   const safe=valid.filter(edit=>!snapshot.items.find(item=>item.index===edit.index).complex);

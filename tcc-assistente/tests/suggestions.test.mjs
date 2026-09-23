@@ -15,9 +15,15 @@ test('verifica todo o escopo antes de escrever qualquer parágrafo',async()=>{
   assert.ok(captured.items.every(x=>!x.range.written));
 });
 test('aceita marcadores de parágrafo e quebras equivalentes retornados pelo Word',async()=>{
-  const captured=snapshot();captured.items[0].range.text='Texto original\r';
+  const captured=snapshot();captured.items[0].range.text='Texto\u00a0original\r\n';
   assert.equal(await applyEdits(captured,[edit]),1);
   assert.equal(captured.items[0].range.written,'Texto revisado');
+});
+test('preserva parágrafos que ainda carregam o marcador de fim de célula do Word',async()=>{
+  const captured=snapshot();captured.items[0].range.text='Texto original\u0007';
+  assert.equal(await applyEdits(captured,[edit]),0);
+  assert.equal(captured.complexSkipped,1);
+  assert.equal(captured.items[0].range.written,undefined);
 });
 test('aplica somente mudanças válidas e preserva outros parágrafos',async()=>{
   const captured=snapshot();assert.equal(await applyEdits(captured,[edit]),1);
