@@ -23,11 +23,13 @@ cd tcc2\tcc-assistente
 
 Durante a instalação, aceite o certificado **Developer CA for Microsoft Office Add-ins** quando o Windows perguntar. O instalador instala as dependências, gera o certificado local, registra o suplemento no Word e inicia o servidor local.
 
-Depois, abra o Word e execute:
+Depois, abra o Word pelo script:
 
 ```powershell
 .\Abrir-no-Word.cmd
 ```
+
+Nas próximas vezes, use `.\Iniciar.cmd`: ele inicia o servidor, atualiza o registro do manifesto e abre o Word com o suplemento carregado.
 
 Se o painel não aparecer, feche o Word completamente, execute `.\Iniciar.cmd` e abra novamente um documento em branco.
 

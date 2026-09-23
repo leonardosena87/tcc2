@@ -31,7 +31,7 @@ Verificação realizada: os 22 testes passaram e uma chamada real com PDF, DOCX 
 ## Começar
 
 1. Execute **Instalar.cmd** na primeira instalação. Ele instala as dependências, solicita o certificado HTTPS de desenvolvimento da Microsoft, registra o suplemento e abre um documento de teste no Word. Se aparecer a confirmação do certificado “Developer CA for Microsoft Office Add-ins”, confirme no Windows. Não é necessário habilitar macros ou desabilitar proteções do Office.
-2. Nas próximas vezes, execute **Iniciar.cmd**. Para abrir também o documento de teste com o painel, use **Abrir-no-Word.cmd**.
+2. Nas próximas vezes, execute **Iniciar.cmd**. Ele inicia o servidor, atualiza o registro do manifesto e abre o Word com o suplemento carregado. Para abrir também o documento de teste com o painel, use **Abrir-no-Word.cmd**.
 3. No documento em que pretende trabalhar, abra **Página Inicial → Suplementos → Mais suplementos / Meus suplementos → TCC Assistente**. Em algumas versões do Word ele aparece na área de suplementos de desenvolvedor. Uma vez adicionado ao documento, use **Página Inicial → TCC Assistente → Abrir assistente**. Se não aparecer na sessão já aberta, salve seu trabalho e reabra o Word.
 4. A instalação do projeto Sena já pode carregar a credencial local configurada por `scripts/configure-sena.ps1`. Se preferir uma chave própria, abra **Conexão com a OpenAI**, informe a chave e clique em **Conectar**. O modelo é configurável; o padrão do suplemento é `gpt-5.6-sol`.
 5. Selecione um parágrafo, clique em **Revisar escrita** e depois em **Enviar para a IA**. Confira a proposta, edite se necessário e clique em **Substituir trecho**.
