@@ -16,6 +16,17 @@ export async function applyEdits(snapshot, edits) {
     const item=snapshot.items[i];
     if(item.range.text!==item.original||xml[i].value!==item.xml)throw new Error('O documento mudou durante a análise. Nada foi aplicado; tente novamente.');
   }
-  for(const edit of valid)snapshot.items.find(item=>item.index===edit.index).range.insertText(edit.revised,'Replace');
+  for(const edit of valid){
+    const changed=snapshot.items.find(item=>item.index===edit.index).range.insertText(edit.revised,'Replace');
+    if(changed?.font){changed.font.highlightColor='#FFFF00';snapshot.highlights?.push(changed);}
+  }
   await snapshot.context.sync();return valid.length;
+}
+export async function clearSuggestionHighlights(snapshot){
+  if(!snapshot?.highlights?.length)return;
+  for(const range of snapshot.highlights){try{range.font.highlightColor='None';}catch{/* Range já não está disponível. */}}
+  try{await snapshot.context.sync();}catch{/* O documento pode ter sido fechado. */}
+  for(const range of snapshot.highlights){try{range.untrack();}catch{/* Limpeza best-effort. */}}
+  try{await snapshot.context.sync();}catch{/* O documento pode ter sido fechado. */}
+  snapshot.highlights=[];
 }

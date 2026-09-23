@@ -58,7 +58,7 @@ export async function captureSuggestions(scope='document') {
   if(!eligible.length)throw new Error('Não há parágrafos de texto simples para alterar. Tabelas, campos, notas, links e imagens são preservados.');
   for(const item of eligible){item.original=item.range.text;item.xml=item.result.value;item.range.track();}
   await context.sync();
-  return {context,items:eligible,paragraphs:eligible.map(item=>({index:item.index,text:item.original})),skipped:items.length-eligible.length};
+  return {context,items:eligible,paragraphs:eligible.map(item=>({index:item.index,text:item.original})),skipped:items.length-eligible.length,highlights:[]};
 }
 export async function releaseSuggestions(snapshot){
   if(!snapshot)return;

@@ -1,5 +1,5 @@
 import {setWordReady,capture,discardTarget,applyReplacement,insertAtCursor,captureSuggestions,releaseSuggestions} from './word.js';
-import {applyEdits} from './suggestions.js';
+import {applyEdits,clearSuggestionHighlights} from './suggestions.js';
 const $=id=>document.getElementById(id);
 let token='',history=[],dataset=null,busy=false,wordReady=false,attachments=[];
 function status(message,error=false){$('status').textContent=message;$('status').classList.toggle('error',error);}
@@ -16,20 +16,26 @@ function addSuggestionAction(suggestions){
   const scope=document.createElement('select');scope.setAttribute('aria-label','Onde aplicar estas sugestões');scope.append(new Option('Documento Word aberto','document'),new Option('Parágrafos da seleção atual','selection'));label.append(scope);
   const hint=document.createElement('p');hint.className='hint';hint.textContent='Revisa os parágrafos de texto do Word aberto com estas sugestões. Não altera os anexos. Formatação interna pode mudar; Ctrl+Z desfaz no Word.';
   const button=document.createElement('button');button.className='primary';button.textContent='Aplicar sugestões no Word';
+  const done=document.createElement('button');done.className='secondary';done.textContent='Concluído — remover destaques';done.hidden=true;
   const outcome=document.createElement('p');outcome.className='hint';outcome.setAttribute('role','status');
+  let pendingCapture=null;let appliedSnapshot=null;
+  const primeCapture=()=>{if(!pendingCapture)pendingCapture=captureSuggestions(scope.value);return pendingCapture;};
+  scope.onchange=()=>{pendingCapture=null;appliedSnapshot=null;done.hidden=true;};
+  button.addEventListener('mousedown',()=>{if(!busy)primeCapture().catch(()=>{});});
   button.onclick=()=>action(async()=>{
     let snapshot;
     try{
-      await clearProposal();snapshot=await captureSuggestions(scope.value);
+      await clearProposal();snapshot=await (pendingCapture??captureSuggestions(scope.value));pendingCapture=null;
       status('Preparando e aplicando sugestões ao Word…');outcome.textContent='Analisando os parágrafos…';
       const result=await api('/api/chat',{mode:'apply',prompt:'Aplique as sugestões acadêmicas pertinentes ao texto, preservando as informações existentes.',suggestions,paragraphs:snapshot.paragraphs});
       const count=await applyEdits(snapshot,result.edits);
-      if(count){button.dataset.applied='true';button.textContent='Sugestões aplicadas';scope.dataset.applied='true';}
+      if(count){button.dataset.applied='true';button.textContent='Sugestões aplicadas';scope.dataset.applied='true';appliedSnapshot=snapshot;done.hidden=false;}
       outcome.textContent=count?`${count} parágrafo(s) alterado(s). ${snapshot.skipped?`${snapshot.skipped} parágrafo(s) vazio(s) ou com conteúdo complexo preservado(s). `:''}Ctrl+Z desfaz no Word.`:`Nenhum parágrafo alterado. ${result.answer}`;
       status(outcome.textContent);
     }catch(e){outcome.textContent=e.message;throw e;}finally{await releaseSuggestions(snapshot);}
   });
-  box.append(label,hint,button,outcome);message.insertBefore(box,message.querySelector('button'));
+  done.onclick=()=>action(async()=>{await clearSuggestionHighlights(appliedSnapshot);appliedSnapshot=null;done.hidden=true;status('Destaques removidos. As alterações permanecem no documento.');});
+  box.append(label,hint,button,done,outcome);message.insertBefore(box,message.querySelector('button'));
 }
 async function download(body){const data=await api('/api/download',body);const bytes=Uint8Array.from(atob(data.base64),x=>x.charCodeAt(0));const url=URL.createObjectURL(new Blob([bytes],{type:data.mime}));const link=document.createElement('a');link.href=url;link.download=data.name;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);status('Arquivo gerado. Confira o download solicitado ao Word/navegador.');}
 function renderAttachments(){const list=$('attachment-list');list.replaceChildren();for(const item of attachments){const row=document.createElement('div');row.className='attachment';const label=document.createElement('label');label.className='check';const check=document.createElement('input');check.type='checkbox';check.checked=item.selected;check.onchange=()=>item.selected=check.checked;label.append(check,document.createTextNode(`${item.name} · ${(item.size/1024/1024).toFixed(2)} MB`));const remove=document.createElement('button');remove.className='text-button';remove.textContent='Remover';remove.onclick=()=>{if(busy)return;attachments=attachments.filter(x=>x!==item);renderAttachments();};row.append(label,remove);list.append(row);}}

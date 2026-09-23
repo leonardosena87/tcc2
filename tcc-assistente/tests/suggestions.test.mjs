@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {validateEdits,applyEdits} from '../public/suggestions.js';
+import {validateEdits,applyEdits,clearSuggestionHighlights} from '../public/suggestions.js';
 import {buildRequest} from '../server/core.mjs';
 const paragraphs=[{index:0,text:'Texto original'},{index:2,text:'Outro parágrafo'}];
 const edit={index:0,original:'Texto original',revised:'Texto revisado'};
@@ -17,6 +17,11 @@ test('verifica todo o escopo antes de escrever qualquer parágrafo',async()=>{
 test('aplica somente mudanças válidas e preserva outros parágrafos',async()=>{
   const captured=snapshot();assert.equal(await applyEdits(captured,[edit]),1);
   assert.equal(captured.items[0].range.written,'Texto revisado');assert.equal(captured.items[1].range.written,undefined);
+});
+test('remove destaques sem falhar se um range já foi invalidado',async()=>{
+  const range={font:{highlightColor:'#FFFF00'},untrack(){throw new Error('ItemNotFound');}};
+  const snapshot={highlights:[range],context:{sync:async()=>{}}};
+  await clearSuggestionHighlights(snapshot);assert.equal(range.font.highlightColor,'None');assert.deepEqual(snapshot.highlights,[]);
 });
 test('modo apply solicita mudanças estruturadas com fonte exata',()=>{
   const result=buildRequest({mode:'apply',prompt:'Aplicar',suggestions:'Melhorar clareza',paragraphs},'test');
