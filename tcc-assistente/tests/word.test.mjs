@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {setWordReady,capture,applyReplacement,discardTarget,insertAtCursor} from '../public/word.js';
+import {setWordReady,capture,applyReplacement,discardTarget,insertAtCursor,releaseSuggestions} from '../public/word.js';
 function host(){
   const first={text:'Original',xml:'<w:p><w:r><w:t>Original</w:t></w:r></w:p>',load(){},getOoxml(){return {value:this.xml};},track(){},untrack(){},insertText(text,where){this.inserted={text,where};}};
   const second={...first,text:'Outra seleção'};
@@ -23,6 +23,10 @@ test('conteúdo com tabelas ou campos não é substituído',async()=>{
 });
 test('inserção de resposta não substitui a seleção atual',async()=>{
   const h=host();await insertAtCursor('Resposta');assert.equal(h.first.inserted.where,'End');
+});
+test('limpeza de sugestões tolera ranges invalidados após aplicação',async()=>{
+  const snapshot={items:[{range:{untrack(){throw new Error('ItemNotFound');}}}],context:{sync:async()=>{}}};
+  await releaseSuggestions(snapshot);
 });
 test('fora do Word falha claramente; conversa sem contexto continua disponível',async()=>{
   setWordReady(false);await assert.rejects(capture({selection:true}),/dentro do Word/);

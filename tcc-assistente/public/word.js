@@ -60,4 +60,10 @@ export async function captureSuggestions(scope='document') {
   await context.sync();
   return {context,items:eligible,paragraphs:eligible.map(item=>({index:item.index,text:item.original})),skipped:items.length-eligible.length};
 }
-export async function releaseSuggestions(snapshot){if(!snapshot)return;for(const item of snapshot.items)item.range.untrack();try{await snapshot.context.sync();}catch{/* O documento pode ter sido fechado. */}}
+export async function releaseSuggestions(snapshot){
+  if(!snapshot)return;
+  // A substituição pode invalidar os ranges rastreados. Nesse caso o Word
+  // retorna ItemNotFound ao chamar untrack; a limpeza é apenas best-effort.
+  for(const item of snapshot.items){try{item.range.untrack();}catch{/* Range já invalidado após a aplicação. */}}
+  try{await snapshot.context.sync();}catch{/* O documento pode ter sido fechado ou alterado. */}
+}
