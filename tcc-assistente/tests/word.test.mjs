@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {setWordReady,capture,applyReplacement,discardTarget,insertAtCursor,releaseSuggestions,applySuggestionsInWord,clearSuggestionHighlights} from '../public/word.js';
+import {applyEdits} from '../public/suggestions.js';
 function host(){
   const first={text:'Original',xml:'<w:p><w:r><w:t>Original</w:t></w:r></w:p>',load(){},getOoxml(){return {value:this.xml};},track(){},untrack(){},insertText(text,where){this.inserted={text,where};}};
   const second={...first,text:'Outra seleção'};
@@ -46,6 +47,21 @@ test('captura o documento inteiro sem tentar ler uma seleção inexistente',asyn
   globalThis.Word={run:fn=>fn(context)};setWordReady(true);
   const result=await applySuggestionsInWord('document',async values=>{assert.deepEqual(values,[{index:0,text:'Parágrafo'}]);return [];},async()=>0);
   assert.equal(result.count,0);
+});
+test('localiza o parágrafo se o Word deslocar seu índice durante a análise',async()=>{
+  const makeParagraph=text=>({getRange(){return {text,load(){},getOoxml(){return {value:'<w:p/>'};},insertText(value){this.written=value;return {font:{}};}};}});
+  const contextFor=values=>({document:{body:{paragraphs:{items:values.map(makeParagraph),load(){}}}},sync:async()=>{}});
+  const contexts=[contextFor(['Antes','Alvo']),contextFor(['Novo parágrafo','Antes','Alvo'])];
+  globalThis.Word={run:fn=>fn(contexts.shift())};setWordReady(true);
+  const result=await applySuggestionsInWord('document',async()=>[{index:1,original:'Alvo',revised:'Alvo revisado'}],(snapshot,edits)=>applyEdits(snapshot,edits));
+  assert.equal(result.count,1);assert.deepEqual(result.targets,[{index:2,revised:'Alvo revisado'}]);
+});
+test('não escolhe um parágrafo vizinho quando o texto de origem está duplicado',async()=>{
+  const makeParagraph=text=>({getRange(){return {text,load(){},getOoxml(){return {value:'<w:p/>'};},insertText(value){this.written=value;return {font:{}};}};}});
+  const contextFor=values=>({document:{body:{paragraphs:{items:values.map(makeParagraph),load(){}}}},sync:async()=>{}});
+  const contexts=[contextFor(['Alvo','Outro']),contextFor(['Novo','Alvo','Alvo'])];
+  globalThis.Word={run:fn=>fn(contexts.shift())};setWordReady(true);
+  await assert.rejects(applySuggestionsInWord('document',async()=>[{index:0,original:'Alvo',revised:'Alvo revisado'}],(snapshot,edits)=>applyEdits(snapshot,edits)),/mais de um parágrafo igual/);
 });
 test('remove destaques em novo Word.run usando índices e texto revisado',async()=>{
   const range={font:{highlightColor:null}};

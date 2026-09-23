@@ -1,3 +1,4 @@
+import {normalizeWordText} from './suggestions.js';
 let ready = false;
 let target = null;
 const LIMIT = 120000;
@@ -86,10 +87,34 @@ export async function applySuggestionsInWord(scope, requestEdits, applyEdits) {
     if(!indexes.size)return {count:0,skipped:captured.skipped,complexSkipped:0,targets:[]};
     const paragraphs=context.document.body.paragraphs;paragraphs.load('items');await context.sync();
     const source=new Map(captured.items.map(item=>[item.index,item]));
-    const items=[...indexes].map(index=>{
+    const targets=[...indexes].map(index=>{
       const item=source.get(index);const paragraph=paragraphs.items[index];
-      if(!item||!paragraph)throw new Error('O documento mudou durante a análise. Refaça a aplicação das sugestões.');
-      const range=paragraph.getRange('Content');range.load('text');return {...item,range,result:range.getOoxml()};
+      if(!item)throw new Error('Uma sugestão não corresponde ao texto lido do documento. Gere as sugestões novamente.');
+      const range=paragraph?.getRange('Content')??null;range?.load('text');
+      return {index,item,range};
+    });
+    await context.sync();
+    const searchIndexes=new Set();
+    for(const target of targets)if(!target.range||normalizeWordText(target.range.text)!==normalizeWordText(target.item.text)){
+      for(let index=Math.max(0,target.index-5);index<=Math.min(paragraphs.items.length-1,target.index+5);index++)searchIndexes.add(index);
+    }
+    const nearby=[];
+    const nearbyPositions=[...searchIndexes];
+    for(let start=0;start<nearbyPositions.length;start+=50){
+      const batch=nearbyPositions.slice(start,start+50).map(index=>{const range=paragraphs.items[index].getRange('Content');range.load('text');return {index,range};});
+      await context.sync();nearby.push(...batch);
+    }
+    const assigned=new Set();
+    const items=targets.map(target=>{
+      let match=target.range&&normalizeWordText(target.range.text)===normalizeWordText(target.item.text)?{index:target.index,range:target.range}:null;
+      if(!match){
+        const candidates=nearby.filter(candidate=>Math.abs(candidate.index-target.index)<=5&&!assigned.has(candidate.index)&&normalizeWordText(candidate.range.text)===normalizeWordText(target.item.text));
+        if(candidates.length!==1)throw new Error(candidates.length?'Encontrei mais de um parágrafo igual perto da sugestão. Nenhuma alteração foi aplicada; gere as sugestões novamente.':'O texto original da sugestão não foi localizado perto do parágrafo esperado. Nada foi aplicado; gere as sugestões novamente.');
+        match=candidates[0];
+      }
+      if(assigned.has(match.index))throw new Error('Duas sugestões apontaram para o mesmo parágrafo. Nada foi aplicado; gere as sugestões novamente.');
+      assigned.add(match.index);
+      return {...target.item,original:target.item.text,range:match.range,wordIndex:match.index,result:match.range.getOoxml()};
     });
     await context.sync();
     const snapshot={context,items,paragraphs:captured.paragraphs,skipped:captured.skipped,appliedTargets:[],complexSkipped:0};
@@ -105,7 +130,7 @@ export async function clearSuggestionHighlights(targets){
     for(const target of targets){
       const paragraph=paragraphs.items[target.index];if(!paragraph)continue;
       paragraph.load('text');await context.sync();
-      if(paragraph.text!==target.revised)continue;
+      if(normalizeWordText(paragraph.text)!==normalizeWordText(target.revised))continue;
       paragraph.getRange('Content').font.highlightColor='None';cleared.push(target);
     }
     await context.sync();return cleared.length;

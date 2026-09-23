@@ -6,7 +6,7 @@ export function validateEdits(edits, paragraphs) {
     seen.add(edit.index);return edit;
   }).filter(edit=>edit.original!==edit.revised);
 }
-function normalizeWordText(value) {
+export function normalizeWordText(value) {
   return String(value??'')
     .normalize('NFC')
     .replace(/\r\n?/g,'\n')
@@ -31,9 +31,10 @@ export async function applyEdits(snapshot, edits) {
   const safe=valid.filter(edit=>!snapshot.items.find(item=>item.index===edit.index).complex);
   snapshot.complexSkipped=valid.length-safe.length;
   for(const edit of safe){
-    const changed=snapshot.items.find(item=>item.index===edit.index).range.insertText(edit.revised,'Replace');
+    const item=snapshot.items.find(candidate=>candidate.index===edit.index);
+    const changed=item.range.insertText(edit.revised,'Replace');
     if(changed?.font)changed.font.highlightColor='#FFFF00';
-    snapshot.appliedTargets.push({index:edit.index,revised:edit.revised});
+    snapshot.appliedTargets.push({index:item.wordIndex??edit.index,revised:edit.revised});
   }
   if(safe.length)await snapshot.context.sync();return safe.length;
 }
