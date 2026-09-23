@@ -48,10 +48,8 @@ export async function insertAtCursor(text) {
 }
 export async function applySuggestionsInWord(scope, requestEdits, applyEdits) {
   requireWord();
-  return Word.run(async context=>{
-    // Resolve the selection first, then map intersecting paragraphs to stable
-    // document-wide indexes. This also avoids holding a transient selection
-    // proxy after the pane takes focus.
+  const captured=await Word.run(async context=>{
+    // Resolve the selection first and return only plain values from this batch.
     const selection=scope==='selection'?context.document.getSelection():null;
     if(selection)selection.load('text');
     const paragraphs=context.document.body.paragraphs;paragraphs.load('items');await context.sync();
@@ -63,13 +61,25 @@ export async function applySuggestionsInWord(scope, requestEdits, applyEdits) {
     });
     if(selection){await context.sync();for(const item of items)item.inSelection=['Contains','ContainsStart','ContainsEnd','Inside','InsideStart','InsideEnd','Equal','OverlapsBefore','OverlapsAfter'].includes(item.relation.value);}
     const scoped=selection?items.filter(item=>item.inSelection):items;
-    if(scoped.length>500||selection.text?.length>LIMIT)throw new Error('O escopo excede o limite de revisão. Selecione uma seção menor.');
+    if(scoped.length>500||(selection?.text?.length??0)>LIMIT)throw new Error('O escopo excede o limite de revisão. Selecione uma seção menor.');
     for(const item of scoped){item.range.load('text');item.result=item.range.getOoxml();}await context.sync();
     const eligible=scoped.filter(item=>item.range.text.trim()&&!complex.test(item.result.value));
     if(!eligible.length)throw new Error('Não há parágrafos de texto simples para alterar. Tabelas, campos, notas, links e imagens são preservados.');
-    for(const item of eligible){item.original=item.range.text;item.xml=item.result.value;}
-    const snapshot={context,items:eligible,paragraphs:eligible.map(item=>({index:item.index,text:item.original})),skipped:scoped.length-eligible.length,appliedTargets:[]};
-    const edits=await requestEdits(snapshot.paragraphs);
+    const result=eligible.map(item=>({index:item.index,text:item.range.text,xml:item.result.value}));
+    return {paragraphs:result.map(({index,text})=>({index,text})),items:result,skipped:scoped.length-eligible.length};
+  });
+  // The network request runs with no live Word proxies. Reopen a fresh batch
+  // afterwards and verify the exact paragraphs before making any change.
+  const edits=await requestEdits(captured.paragraphs);
+  return Word.run(async context=>{
+    const paragraphs=context.document.body.paragraphs;paragraphs.load('items');await context.sync();
+    const items=captured.items.map(item=>{
+      const paragraph=paragraphs.items[item.index];
+      if(!paragraph)throw new Error('O documento mudou durante a análise. Refaça a aplicação das sugestões.');
+      const range=paragraph.getRange('Content');range.load('text');return {...item,range,result:range.getOoxml()};
+    });
+    await context.sync();
+    const snapshot={context,items,paragraphs:captured.paragraphs,skipped:captured.skipped,appliedTargets:[]};
     const count=await applyEdits(snapshot,edits);
     return {count,skipped:snapshot.skipped,targets:snapshot.appliedTargets};
   });

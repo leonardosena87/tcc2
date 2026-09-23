@@ -28,7 +28,7 @@ test('limpeza de sugestões tolera ranges invalidados após aplicação',async()
   const snapshot={items:[{range:{untrack(){throw new Error('ItemNotFound');}}}],context:{sync:async()=>{}}};
   await releaseSuggestions(snapshot);
 });
-test('aplica sugestões dentro do mesmo Word.run e mantém índices do documento',async()=>{
+test('captura seleção dentro de Word.run e mantém índices do documento',async()=>{
   const order=[];const selection={text:'Trecho selecionado',load(){}};
   const makeParagraph=(text,relation)=>({text,getRange(){return {text,load(){},getOoxml(){return {value:'<w:p/>'};},compareLocationWith(){return {value:relation};},insertText(value){this.inserted=value;return {font:{}};}};}});
   const body={paragraphs:{items:[makeParagraph('Antes','Before'),makeParagraph('Trecho selecionado','Equal'),makeParagraph('Depois','After')],load(){}}};
@@ -39,6 +39,13 @@ test('aplica sugestões dentro do mesmo Word.run e mantém índices do documento
   assert.deepEqual(order.slice(0,2),['getSelection','sync']);
   assert.deepEqual(requestData,[{index:1,text:'Trecho selecionado'}]);
   assert.equal(result.count,1);
+});
+test('captura o documento inteiro sem tentar ler uma seleção inexistente',async()=>{
+  const paragraph={getRange(){return {text:'Parágrafo',load(){},getOoxml(){return {value:'<w:p/>'};}};}};
+  const context={document:{getSelection(){throw new Error('não deveria obter seleção');},body:{paragraphs:{items:[paragraph],load(){}}}},sync:async()=>{}};
+  globalThis.Word={run:fn=>fn(context)};setWordReady(true);
+  const result=await applySuggestionsInWord('document',async values=>{assert.deepEqual(values,[{index:0,text:'Parágrafo'}]);return [];},async()=>0);
+  assert.equal(result.count,0);
 });
 test('remove destaques em novo Word.run usando índices e texto revisado',async()=>{
   const range={font:{highlightColor:null}};
