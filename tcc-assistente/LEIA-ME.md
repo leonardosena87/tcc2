@@ -31,10 +31,11 @@ Verificação realizada: os 22 testes passaram e uma chamada real com PDF, DOCX 
 ## Começar
 
 1. Execute **Instalar.cmd** na primeira instalação. Ele instala as dependências, solicita o certificado HTTPS de desenvolvimento da Microsoft, registra o suplemento e abre um documento de teste no Word. Se aparecer a confirmação do certificado “Developer CA for Microsoft Office Add-ins”, confirme no Windows. Não é necessário habilitar macros ou desabilitar proteções do Office.
-2. O instalador configura o servidor local para iniciar quando você entrar no Windows. Para uso imediato após a instalação, execute **Iniciar.cmd**; ele inicia o serviço e abre o Word com o suplemento carregado.
-3. Em cada documento, abra o suplemento uma primeira vez por **Página Inicial → TCC Assistente → Abrir assistente** (ou por **Suplementos → Meus suplementos**). O Word grava a preferência nesse documento e abrirá o painel automaticamente nas próximas vezes em que esse mesmo arquivo for aberto. Documentos novos precisam dessa ativação inicial.
-4. A instalação do projeto Sena já pode carregar a credencial local configurada por `scripts/configure-sena.ps1`. Se preferir uma chave própria, abra **Conexão com a OpenAI**, informe a chave e clique em **Conectar**. O modelo é configurável; o padrão do suplemento é `gpt-5.6-sol`.
-5. Selecione um parágrafo, clique em **Revisar escrita** e depois em **Enviar para a IA**. Confira a proposta, edite se necessário e clique em **Substituir trecho**.
+2. Se quiser que os documentos em branco novos abram o painel automaticamente, salve e feche todas as janelas do Word e execute **Configurar-Abertura-Automatica.cmd** uma vez. Ele configura o Normal.dotm e cria uma cópia de segurança fora do repositório. Para reverter, feche o Word e execute **Desativar-Abertura-Automatica.cmd**.
+3. O instalador configura o servidor local para iniciar quando você entrar no Windows. Para uso imediato, execute **Iniciar.cmd**; ele inicia o serviço e abre o Word com o suplemento carregado.
+4. O Word guarda a abertura automática em cada arquivo. Sem a configuração do Normal.dotm, abra o suplemento uma vez em cada documento novo por **Página Inicial → TCC Assistente → Abrir assistente**. Documentos existentes que ainda não têm essa preferência também precisam dessa ativação inicial.
+5. A instalação do projeto Sena já pode carregar a credencial local configurada por `scripts/configure-sena.ps1`. Se preferir uma chave própria, abra **Conexão com a OpenAI**, informe a chave e clique em **Conectar**. O modelo é configurável; o padrão do suplemento é `gpt-5.6-sol`.
+6. Selecione um parágrafo, clique em **Revisar escrita** e depois em **Enviar para a IA**. Confira a proposta, edite se necessário e clique em **Substituir trecho**.
 
 O botão Conectar configura a chave; a primeira solicitação é que verifica efetivamente o acesso ao modelo. A chave permanece apenas na memória do processo local e precisa ser informada de novo após encerrar o serviço. Alternativamente, o serviço aceita as variáveis de ambiente `OPENAI_API_KEY` e `OPENAI_MODEL`. Não coloque chaves no código ou em arquivos desta pasta sincronizada pelo OneDrive.
 

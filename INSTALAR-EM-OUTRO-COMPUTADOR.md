@@ -23,6 +23,8 @@ cd tcc2\tcc-assistente
 
 Durante a instalação, aceite o certificado **Developer CA for Microsoft Office Add-ins** quando o Windows perguntar. O instalador instala as dependências, gera o certificado local, registra o suplemento no Word e inicia o servidor local.
 
+Se quiser que documentos em branco novos também abram o painel automaticamente, salve e feche todas as janelas do Word e execute `Configurar-Abertura-Automatica.cmd` uma vez. Ele atualiza `Normal.dotm` com a configuração e guarda o modelo anterior em `%LOCALAPPDATA%\TccAssistente\backups`. Para desfazer, feche o Word e execute `Desativar-Abertura-Automatica.cmd`. Essa configuração é local e precisa ser feita em cada computador.
+
 Depois, abra o Word pelo script:
 
 ```powershell
@@ -31,7 +33,7 @@ Depois, abra o Word pelo script:
 
 O instalador configura o servidor local para iniciar automaticamente quando você entrar no Windows. Para iniciar imediatamente após a instalação, use `.\Iniciar.cmd`.
 
-Abra o TCC Assistente uma primeira vez em cada documento pelo grupo **TCC Assistente** na faixa **Página Inicial**. O Word salva essa preferência dentro do arquivo e abre o painel automaticamente quando aquele documento for aberto novamente. Documentos novos precisam ser ativados uma vez.
+Se não configurar `Normal.dotm`, abra o TCC Assistente uma primeira vez em cada documento pelo grupo **TCC Assistente** na faixa **Página Inicial**. O Word salva essa preferência dentro do arquivo e abre o painel automaticamente quando aquele documento for aberto novamente. Documentos existentes sem essa preferência precisam ser ativados uma vez.
 
 Se o painel não aparecer, feche o Word completamente, execute `.\Iniciar.cmd` e abra novamente um documento em branco.
 
