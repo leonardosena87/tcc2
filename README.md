@@ -15,7 +15,9 @@ O suplemento roda localmente; versionar no GitHub não publica nem hospeda o ser
 
 ### Instalar em outro computador
 
-No novo Windows, instale Git, Node.js 22 ou superior e Microsoft Word 365/2019 ou superior. Depois, no PowerShell:
+O suplemento completo está na pasta [`tcc-assistente`](tcc-assistente). Você pode [baixar o projeto em ZIP](https://github.com/leonardosena87/tcc2/archive/refs/heads/main.zip), extrair os arquivos e executar `tcc-assistente/Instalar.cmd`. O novo computador precisa de Windows, Node.js 22 ou superior e Microsoft Word 365/2019 ou superior.
+
+Se preferir usar Git, execute no PowerShell:
 
 ```powershell
 git clone https://github.com/leonardosena87/tcc2.git
@@ -23,7 +25,9 @@ cd tcc2\tcc-assistente
 .\Instalar.cmd
 ```
 
-Confirme a instalação do certificado local quando o Windows solicitar. Para abrir o suplemento em uma nova sessão, execute `.\Abrir-no-Word.cmd` dentro de `tcc-assistente`. A chave OpenAI, o certificado HTTPS e `node_modules` são configurados localmente e não são enviados ao GitHub. Para usar a mesma IA do projeto Sena Imóveis, faça login no Firebase e execute `scripts\configure-sena.ps1`; o guia completo está em [INSTALAR-EM-OUTRO-COMPUTADOR.md](INSTALAR-EM-OUTRO-COMPUTADOR.md).
+Confirme o certificado local quando o Windows solicitar. Para abrir o painel automaticamente em documentos em branco novos, salve e feche o Word e execute `tcc-assistente/Configurar-Abertura-Automatica.cmd` uma vez. O instalador já configura o início do serviço com o Windows; `Configurar-Inicio-Automatico.cmd` repara essa configuração se a pasta mudar de lugar.
+
+A chave da IA precisa ser configurada no novo computador. Para usar a mesma IA do Sena Imóveis, siga [o guia de instalação e configuração da IA](INSTALAR-EM-OUTRO-COMPUTADOR.md). Chaves, certificados privados e dependências não são enviados ao GitHub.
 
 ## Desenvolvimento
 

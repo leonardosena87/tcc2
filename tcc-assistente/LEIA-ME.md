@@ -6,6 +6,8 @@ Para atualizar a credencial após uma rotação, execute `scripts/configure-sena
 
 Suplemento para Word no Windows, com painel de redação conectado à API OpenAI e conectores locais para **Revit 2027 e AutoCAD 2027**. O código está nesta pasta e pode ser ampliado conforme o seu TCC.
 
+Para instalar em outra máquina, siga [o guia de download e instalação](../INSTALAR-EM-OUTRO-COMPUTADOR.md), com opções por ZIP ou Git e configuração da mesma IA do Sena Imóveis.
+
 ## Aplicar sugestões no documento
 
 Cada resposta da IA agora oferece **Aplicar sugestões no Word**. Escolha **Documento Word aberto** ou **Parágrafos da seleção atual** e clique para gerar e aplicar as revisões. O clique autoriza uma nova chamada à IA e a alteração dos parágrafos correspondentes. O resultado informa quantos parágrafos foram alterados; Ctrl+Z desfaz no Word. A seleção atua nos parágrafos que ela abrange, inclusive quando apenas parte de um parágrafo estiver selecionada.
