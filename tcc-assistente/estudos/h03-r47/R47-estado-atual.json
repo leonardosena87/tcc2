@@ -1,0 +1,56 @@
+{
+  "atUtc": "2026-10-28T22:11:26.131283+00:00",
+  "revision": "H03/R47",
+  "proposalRunId": "cdd31967-6778-4f2c-a854-6dfeee9b3a06",
+  "CAD": {
+    "nativeProject": "D:\\TCC\\outputs\\H03_CAD_R47_PILARES_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R47_PILARES_NAO_EXECUTAR.prj",
+    "columnSegments": 22,
+    "logicalBeams": 0,
+    "slabs": 0,
+    "geometryAuditPassed": true,
+    "reopenedAndReexported": true,
+    "geometryAndGuidsPersisted": true,
+    "remainingNativeComplementation": {
+      "logicalBeams": 29,
+      "slabs": 11
+    }
+  },
+  "BIM": {
+    "nativeProject": "D:\\TCC\\outputs\\H03_BIM_R46_IFC_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+    "unchangedSinceR46": true,
+    "columnSegments": 22,
+    "logicalBeams": 29,
+    "beamSolids": 32,
+    "slabs": 0,
+    "remainingNativeComplementation": {
+      "slabs": 11
+    }
+  },
+  "stageElapsedMs": 1778682.9168,
+  "wholeFlowRankingAvailable": false,
+  "calculationPerformed": false,
+  "structuralApproval": false,
+  "monographEdited": false,
+  "observedUiRecovery": [
+    "b maior que h recusado, P11 representado por 20x30 cm a 90 graus",
+    "comando converter em fundacoes aberto e cancelado sem selecao",
+    "Ctrl+A acionou abertura; cancelada sem descartar trabalho",
+    "selecao por arraste sem efeito util; onze pilares selecionados por rotulos",
+    "sobrescrita de IFC recusada; segunda exportacao salva com outro nome"
+  ],
+  "limits": [
+    "Conferencia geometrica nao comprova conectividade analitica ou dimensionamento.",
+    "Tempo exploratorio inclui operacao, recuperacoes, desenvolvimento do auditor e latencias.",
+    "Nao e comparacao de tempo total nem repeticao controlada.",
+    "11 posicoes em tres croquis representam 22 trechos entre os niveis; nao 33 trechos."
+  ],
+  "pending": [
+    "29 vigas nativas CAD",
+    "11 lajes em cada ramo",
+    "parametros nativos de materiais, cobrimentos e analise harmonizados",
+    "acoes completas, vento, combinacoes e apoios idealizados",
+    "compatibilizacao e conectividade analitica",
+    "calculo e verificacoes ELU/ELS/estabilidade",
+    "comparacao com escopos equivalentes"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "stage": "H03 R47 - CAD - complementacao nativa de pilares e auditoria",
+  "start": {
+    "utc": "2026-10-28T21:38:49.963Z",
+    "mono": 27411.1169
+  },
+  "end": {
+    "utc": "2026-10-28T22:08:28.647Z",
+    "mono": 1806094.0337
+  },
+  "elapsedMs": 1778682.9168,
+  "classification": "intervalo exploratorio assistido; nao comparavel ao fluxo inteiro",
+  "includes": [
+    "preparacao da copia",
+    "inicializacao e abertura do Eberick",
+    "lancamento e copia de pilares",
+    "recuperacao de foco e comandos",
+    "consulta a documentacao",
+    "desenvolvimento e execucao do auditor",
+    "exportacao e reabertura",
+    "latencias de IA e ferramentas e retomada de contexto",
+    "tentativa de gravacao do cronometro corrigida"
+  ],
+  "excludes": [
+    "consolidacao posterior",
+    "vigas e lajes nativas",
+    "cargas completas e calculo estrutural"
+  ],
+  "activeHumanTimeMs": null,
+  "modelInferenceTimeMs": null
+}
