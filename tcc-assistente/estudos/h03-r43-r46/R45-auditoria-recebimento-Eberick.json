@@ -1,0 +1,83 @@
+{
+  "scope": "Desenho CAD recebido e reexportado pelo Eberick, em escala 1:50. Não é auditoria estrutural.",
+  "floors": [
+    {
+      "floor": "N1",
+      "source": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-N1.dxf",
+      "readback": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\R45-Eberick-N1.dxf",
+      "sourceCounts": {
+        "LWPOLYLINE": 32,
+        "TEXT": 34
+      },
+      "receivedCounts": {
+        "LWPOLYLINE": 32,
+        "MTEXT": 34
+      },
+      "polylineContoursMatch": true,
+      "textContentsMatch": true,
+      "missingContourSignatures": 0,
+      "extraContourSignatures": 0,
+      "layerRenaming": {
+        "TCC_LAJES": "TCC LAJES",
+        "TCC_NOTAS": "TCC NOTAS",
+        "TCC_PILARES": "TCC PILARES",
+        "TCC_VIGAS": "TCC VIGAS"
+      },
+      "layerEntityCountsMatchUnderExplicitMapping": true,
+      "paperExportScale": 50,
+      "sourceMetersToExportDrawingUnits": 2,
+      "drawingRepresentationChanges": [
+        "TEXT convertido em MTEXT",
+        "Sublinhado substituído por espaço nos nomes de camadas",
+        "Fonte, altura e posicionamento tipográfico não preservados de modo idêntico; conteúdo confrontado separadamente."
+      ],
+      "fullTypographyEquivalenceVerified": false,
+      "nativeStructuralElementConversionVerified": false,
+      "sensitivityControls": {
+        "missingPolylineDetected": true,
+        "missingTextDetected": true,
+        "incorrectScaleDetected": true
+      }
+    },
+    {
+      "floor": "N2",
+      "source": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-N2.dxf",
+      "readback": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\R45-Eberick-N2.dxf",
+      "sourceCounts": {
+        "LWPOLYLINE": 30,
+        "TEXT": 32
+      },
+      "receivedCounts": {
+        "LWPOLYLINE": 30,
+        "MTEXT": 32
+      },
+      "polylineContoursMatch": true,
+      "textContentsMatch": true,
+      "missingContourSignatures": 0,
+      "extraContourSignatures": 0,
+      "layerRenaming": {
+        "TCC_LAJES": "TCC LAJES",
+        "TCC_NOTAS": "TCC NOTAS",
+        "TCC_PILARES": "TCC PILARES",
+        "TCC_VIGAS": "TCC VIGAS"
+      },
+      "layerEntityCountsMatchUnderExplicitMapping": true,
+      "paperExportScale": 50,
+      "sourceMetersToExportDrawingUnits": 2,
+      "drawingRepresentationChanges": [
+        "TEXT convertido em MTEXT",
+        "Sublinhado substituído por espaço nos nomes de camadas",
+        "Fonte, altura e posicionamento tipográfico não preservados de modo idêntico; conteúdo confrontado separadamente."
+      ],
+      "fullTypographyEquivalenceVerified": false,
+      "nativeStructuralElementConversionVerified": false,
+      "sensitivityControls": {
+        "missingPolylineDetected": true,
+        "missingTextDetected": true,
+        "incorrectScaleDetected": true
+      }
+    }
+  ],
+  "allContoursAndTextContentsMatch": true,
+  "interpretation": "A ausência de divergência nos contornos não converte linhas em vigas, pilares ou lajes calculáveis. Alterações tipográficas e nomes de camadas são registradas sem classificá-las automaticamente como erro estrutural."
+}

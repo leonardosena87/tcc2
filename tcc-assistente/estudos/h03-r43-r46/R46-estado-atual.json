@@ -1,0 +1,64 @@
+{
+  "atUtc": "2026-10-28T18:58:12.750026+00:00",
+  "revision": "H03/R43-R46",
+  "proposalRunId": "cdd31967-6778-4f2c-a854-6dfeee9b3a06",
+  "nativeAuthors": {
+    "Revit": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-Revit.rvt",
+    "AutoCAD": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-AutoCAD.dwg"
+  },
+  "CAD": {
+    "nativeProject": "D:\\TCC\\outputs\\H03_CAD_R45_BASE_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R45_BASE_NAO_EXECUTAR.prj",
+    "referenceFloors": [
+      "N1",
+      "N2"
+    ],
+    "contoursReceived": 62,
+    "textContentsReceived": 66,
+    "reopened": true,
+    "drawingAuditPassed": true,
+    "nativeStructuralLaunchPerformed": false,
+    "expectedNativeComplementation": {
+      "columnSegments": 22,
+      "logicalBeams": 29,
+      "slabs": 11
+    }
+  },
+  "BIM": {
+    "nativeProject": "D:\\TCC\\outputs\\H03_BIM_R46_IFC_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+    "input": "D:\\TCC\\outputs\\Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR\\H03-R44-geometria-nominal.ifc",
+    "inputIsAdapted": true,
+    "columnSegmentsReceived": 22,
+    "logicalBeamsReceived": 29,
+    "beamSolidsExported": 32,
+    "slabsReceived": 0,
+    "slabsExpectedForComplementation": 11,
+    "geometryAuditPassed": true,
+    "reopenedAndReexported": true,
+    "geometryAndIdentityPersisted": true,
+    "schemaValidationErrorsInNativeExport": 8,
+    "nativeImportWarningRecorded": true
+  },
+  "sharedConceptionChanges": [
+    "P11 continuo",
+    "V4A/V4B e respectivas alturas experimentais",
+    "Varanda em balanco"
+  ],
+  "bimTransferTreatment": {
+    "nominalGeometryRecordsAdapted": 17,
+    "emptyStoreysRemoved": 2
+  },
+  "calculationPerformed": false,
+  "structuralApproval": false,
+  "wholeFlowRankingAvailable": false,
+  "monographEdited": false,
+  "pending": [
+    "Lancamento nativo CAD e complementacao BIM em novas revisoes",
+    "Lajes e varanda; verificacao de continuidade e apoios",
+    "Materiais, cobrimentos, aco e parametros de analise em ambos",
+    "Paredes, escada, varanda/guarda-corpo, telhado e reservatorio de 1000 L",
+    "Vento e combinacoes justificados; apoios idealizados",
+    "Compatibilizacao completa e modelo analitico",
+    "Verificacoes ELU/ELS e estabilidade depois de completar entradas",
+    "Comparacao final sob mesmo criterio de aceitacao com tempos completos"
+  ]
+}
