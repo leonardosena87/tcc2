@@ -1,0 +1,193 @@
+{
+  "revision": "H03/R71",
+  "atUtc": "2026-10-29T23:23:57.232908+00:00",
+  "status": "Duas referencias dimensionais e tres bases de estudo; nao selecionadas ou aplicadas",
+  "sourceRoofMap": {
+    "path": "D:\\TCC\\outputs\\Cobertura-H03-R60-REACOES-PARCIAIS-NAO-EXECUTAR\\R60-arranjo-reacoes.json",
+    "sha256": "7de42c0d7afb8ffe26b9ff3fac353858c5bea2b45e8bf30ab6363472dcdce5bd"
+  },
+  "planRegionP2": {
+    "id": "P2",
+    "name": "Agua elevada do abrigo do reservatorio",
+    "box": [
+      6.55,
+      0,
+      9.65,
+      3.9
+    ],
+    "slopeDirection": [
+      -1,
+      0
+    ],
+    "status": "Pendente: cotas, abrigo, caminho das reacoes e apoio do tanque",
+    "nominalProjectedAreaM2": 12.090000000000002
+  },
+  "clearPlanHypothesisM": [
+    6.625,
+    0.075,
+    9.575000000000001,
+    3.8249999999999997
+  ],
+  "clearPlanHypothesisSource": "Eixos P2 R60 menos metade de parede acabada15cm; nao detalhe executivo ou nova medicao",
+  "candidateCenterM": [
+    8.100000000000001,
+    1.95
+  ],
+  "candidateCenterSelectedForStudyOnly": true,
+  "models": [
+    {
+      "id": "ref-circular",
+      "manufacturer": "Fortlev",
+      "capacityL": 1000,
+      "heightWithLidM": 0.97,
+      "topXDimensionM": 1.52,
+      "topYDimensionM": 1.52,
+      "baseDimensionsM": [
+        1.16,
+        1.16
+      ],
+      "baseShape": "circular",
+      "url": "https://www.fortlev.com.br/produtos/reservatorios/caixa-dagua-de-polietileno-1000l/",
+      "referenceOnlyNotSelected": true,
+      "dimensionsApproximate": true,
+      "tareKN": null,
+      "referenceCenterM": [
+        8.100000000000001,
+        1.95
+      ],
+      "candidatePlanEnvelopeM": [
+        7.340000000000002,
+        1.19,
+        8.860000000000001,
+        2.71
+      ],
+      "studySideClearancesM": [
+        0.7150000000000005,
+        1.1149999999999998
+      ],
+      "studyVerticalServiceReserveM": 0.6,
+      "nominalGrossRemainingHeightM": 0.33000000000000007,
+      "heightPlusStudyServiceReserveM": 1.5699999999999998,
+      "roofSlopeProfileAndMemberDepthIncluded": false,
+      "verticalInstallationApproved": false,
+      "studyLateralClearanceCheck": true,
+      "grossVerticalReserveFitsNominal130": false
+    },
+    {
+      "id": "ref-retangular-baixa",
+      "manufacturer": "Bakof Tec",
+      "capacityL": 1000,
+      "heightWithLidM": 0.68,
+      "topXDimensionM": 1.23,
+      "topYDimensionM": 1.88,
+      "baseDimensionsM": [
+        0.88,
+        1.53
+      ],
+      "baseShape": "retangular",
+      "url": "https://www.bakof.com.br/produtos/4",
+      "referenceOnlyNotSelected": true,
+      "dimensionsApproximate": true,
+      "tareKN": null,
+      "referenceCenterM": [
+        8.100000000000001,
+        1.95
+      ],
+      "candidatePlanEnvelopeM": [
+        7.485000000000001,
+        1.01,
+        8.715000000000002,
+        2.8899999999999997
+      ],
+      "studySideClearancesM": [
+        0.8600000000000005,
+        0.9349999999999998
+      ],
+      "studyVerticalServiceReserveM": 0.6,
+      "nominalGrossRemainingHeightM": 0.62,
+      "heightPlusStudyServiceReserveM": 1.28,
+      "roofSlopeProfileAndMemberDepthIncluded": false,
+      "verticalInstallationApproved": false,
+      "studyLateralClearanceCheck": true,
+      "grossVerticalReserveFitsNominal130": true
+    }
+  ],
+  "visualSectionReadings": {
+    "reservoirCapacityL": 1000,
+    "localRaisedBaseDifferenceM": 0.6,
+    "localGrossHeightDimensionM": 1.3,
+    "localRoofSloped": true,
+    "absoluteStructuralBaseElevationM": null,
+    "dimension130IsClearServiceEnvelope": false
+  },
+  "water": {
+    "volumeM3": 1.0,
+    "referenceDensityHypothesisKgM3": 1000,
+    "standardGravityMS2": 9.80665,
+    "physicalReferenceWeightKN": 9.80665,
+    "nominalStudyWeightKN": 10.0,
+    "nominalStudyIsNormativeCitation": false,
+    "nominalRoundingPercent": 1.971621297792825,
+    "notNativeTfConversion": true
+  },
+  "baseAlternatives": [
+    {
+      "thicknessHypothesisM": 0.08,
+      "areaM2": 2.7,
+      "concreteUnitWeightKNm3": 25,
+      "baseSelfWeightKN": 5.4,
+      "fullWaterPlusBaseKN": 15.4,
+      "totalIncludingTareAndPedestalKN": null,
+      "waterPlusBaseEquivalentKNm2": 5.703703703703703,
+      "dimensionsArePreliminaryNotDesigned": true,
+      "nativeApplied": false
+    },
+    {
+      "thicknessHypothesisM": 0.1,
+      "areaM2": 2.7,
+      "concreteUnitWeightKNm3": 25,
+      "baseSelfWeightKN": 6.75,
+      "fullWaterPlusBaseKN": 16.75,
+      "totalIncludingTareAndPedestalKN": null,
+      "waterPlusBaseEquivalentKNm2": 6.203703703703703,
+      "dimensionsArePreliminaryNotDesigned": true,
+      "nativeApplied": false
+    },
+    {
+      "thicknessHypothesisM": 0.12,
+      "areaM2": 2.7,
+      "concreteUnitWeightKNm3": 25,
+      "baseSelfWeightKN": 8.1,
+      "fullWaterPlusBaseKN": 18.1,
+      "totalIncludingTareAndPedestalKN": null,
+      "waterPlusBaseEquivalentKNm2": 6.703703703703704,
+      "dimensionsArePreliminaryNotDesigned": true,
+      "nativeApplied": false
+    }
+  ],
+  "candidateBasePlanM": [
+    7.425000000000002,
+    0.95,
+    8.775000000000002,
+    2.95
+  ],
+  "fullAssemblyWeightKN": null,
+  "pedestalWeightKN": null,
+  "tareConfirmed": false,
+  "loadActionClassificationFinalized": false,
+  "nativeLoadsApplied": false,
+  "supportLoadPathDesigned": false,
+  "architecturalHeightsChanged": false,
+  "modelSelected": false,
+  "eluElsApproved": false,
+  "operationalSources": [
+    {
+      "url": "https://www.fortlev.com.br/wp-content/uploads/2020/01/Manual_tecnico_fortlev_caixa_dagua_2020-06.pdf",
+      "consulted": "Base continua/rígida/nivelada e espaco lateral; nao se transferiu prescricao de uma marca a outra"
+    },
+    {
+      "url": "https://bakof.com.br//storage/produtos/4/arquivos/151d4279da2695905e75d4466da41001.pdf",
+      "consulted": "Apoio integral, plano, rigido e nivelado; nao dimensiona a estrutura de apoio"
+    }
+  ]
+}

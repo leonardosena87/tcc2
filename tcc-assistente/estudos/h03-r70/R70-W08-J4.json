@@ -1,0 +1,80 @@
+{
+  "revision": "H03/R70",
+  "atUtc": "2026-10-29T23:20:05.099098+00:00",
+  "status": "W08/J4 identificada como fachada especial; apoio/carga nativa continuam pendentes",
+  "sources": [
+    {
+      "path": "D:\\TCC\\PROJETO ARQUITETONICO-A0.pdf",
+      "sha256": "3a57561f03e2c0e92964b19e577a02939b04fc93cdf1ef27cad6f79ad2deb12d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Compatibilizacao-H03-R68-PORTA-P3-ESTUDO\\R68-referencia-arquitetonica-estudo.json",
+      "sha256": "11f7ceb45a14fd078afdad05df6f52f90078d4666393477e57251b8a71b308e4"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Cobertura-H03-R56-ESTUDO-NAO-EXECUTAR\\R56-geometria-exportada.json",
+      "sha256": "6fc2486f4eecd19985a4c4d87886822bb76ee40cee80e07c352db25bca0aabf7"
+    }
+  ],
+  "visualReadings": {
+    "windowSchedule": {
+      "tag": "J4",
+      "widthM": 1.6,
+      "heightM": 3.2,
+      "sillM": 0.2
+    },
+    "sectionAA": {
+      "stairGroundFinishedM": 0.22,
+      "landingFinishedM": 1.7,
+      "upperFinishedM": 3.25
+    },
+    "visualReadingNotSurvey": true
+  },
+  "conditionalWindowVerticalEnvelope": {
+    "baseFinishedHypothesisM": 0.22,
+    "bottomM": 0.42000000000000004,
+    "topM": 3.62,
+    "crossesStructuralN1Plane": true
+  },
+  "windowPlanReference": {
+    "id": "T-J4-01",
+    "tag": "J4",
+    "x": 4.7,
+    "y": 0,
+    "x2": 6.3,
+    "y2": 0,
+    "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+    "coordinateUncertaintyM": 0.05,
+    "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+  },
+  "nativeBoundingBoxChecks": {
+    "CAD": {
+      "windowBoxIntersections": [],
+      "beamsAtN1UnderW08": []
+    },
+    "BIM": {
+      "windowBoxIntersections": [],
+      "beamsAtN1UnderW08": []
+    }
+  },
+  "conditionalMasonryTakeoff": {
+    "knownLengthExcludingColumnsM": 1.9500000000000002,
+    "baseFinishedHypothesisM": 0.22,
+    "roofSoffitM": 6.09,
+    "grossAreaM2": 11.446500000000002,
+    "openingAreaM2": 5.120000000000001,
+    "netMasonryAreaM2": 6.326500000000001,
+    "areaWeightHypothesisKNm2": 1.565,
+    "weightKN": 9.900972500000002,
+    "includesJoineryLintelsFinishesOnConcrete": false,
+    "baseIsAdoptedNativeWallDatum": false,
+    "notApprovedLoad": true
+  },
+  "w08BaseResolved": false,
+  "analyticalSupportDefined": false,
+  "nativeLoadValue": null,
+  "nativeFilesEdited": false,
+  "intersectionsAbsentProveAnalyticalCompatibility": false,
+  "foundationDesigned": false,
+  "designApproved": false
+}
