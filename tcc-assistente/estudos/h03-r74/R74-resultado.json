@@ -1,0 +1,119 @@
+{
+  "revision": "H03/R74",
+  "atUtc": "2026-10-29T23:37:56.547309+00:00",
+  "scope": "Triagem parcial de limites dimensionais e informacao normativa; nao calculo ELU/ELS",
+  "sources": [
+    {
+      "id": "norma-exemplar-local",
+      "path": "D:\\TCC\\materiais\\normas\\ABNT NBR 6118-2026.pdf",
+      "sha256": "3fb0ef6a7600593e3f0c1991f73ecffe08da7cb7543b5ac80290dd7dfd7b791e",
+      "clauses": [
+        "13.2.2",
+        "13.2.3",
+        "13.2.4.1/tabela13.2",
+        "14.6.4.3",
+        "18.3.2.2"
+      ],
+      "visualTableCheck": "PDF94/pagina impressa76"
+    },
+    {
+      "id": "geometria-R56",
+      "path": "D:\\TCC\\outputs\\Cobertura-H03-R56-ESTUDO-NAO-EXECUTAR\\R56-geometria-exportada.json",
+      "sha256": "6fc2486f4eecd19985a4c4d87886822bb76ee40cee80e07c352db25bca0aabf7"
+    },
+    {
+      "id": "release-AltoQi",
+      "url": "https://suporte.altoqi.com.br/hc/pt-br/novo-conhe%C3%A7a-a-atualiza%C3%A7%C3%A3o-2026-08-do-altoqi-eberick",
+      "published": "2026-09-17",
+      "consulted": "2026-10-29",
+      "topic": "Alteracao no criterio de redistribuicao, limite0,75 na atualizacao2026-08"
+    }
+  ],
+  "installedSoftware": {
+    "observedUtc": "2026-10-29T23:35:44.129Z",
+    "program": "AltoQi Eberick",
+    "displayTitle": "AltoQi Eberick 2025 Infinity",
+    "update": "2025-04",
+    "version": "18.306",
+    "application": "Infinity",
+    "source": "Menu Ajuda > Sobre, leitura real por UI",
+    "executableFileVersionMetadataAvailable": false,
+    "softwareUpdated": false,
+    "nativeProjectOpened": false
+  },
+  "full6118_2026ImplementationConfirmed": false,
+  "softwareUpdated": false,
+  "dimensionalRecords": 130,
+  "perBranchCheckedCounts": {
+    "CAD": {
+      "IfcColumn": 22,
+      "IfcBeam": 32,
+      "IfcSlab": 11
+    },
+    "BIM": {
+      "IfcColumn": 22,
+      "IfcBeam": 32,
+      "IfcSlab": 11
+    }
+  },
+  "minimumGeometryChecksImplementedPassed": true,
+  "geometryPassingIsDesignApproval": false,
+  "balconyGammaN": {
+    "required": 1.25,
+    "actsOn": "esforcos solicitantes finais de calculo no dimensionamento da laje em balanco",
+    "actsOnWholeBuildingMass": false,
+    "shouldBeMultipliedTwice": false,
+    "nativeApplicationVerified": false
+  },
+  "reinforcementLayoutExample": {
+    "clause": "18.3.2.2",
+    "widthMM": 200,
+    "nominalCoverMM": 30,
+    "stirrupDiameterHypothesisMM": 6.3,
+    "aggregateMaxMM": 25,
+    "nominalInsideWidthMM": 127.4,
+    "minimumHorizontalClearSpacingMM": 30.0,
+    "examples": [
+      {
+        "barCount": 2,
+        "longitudinalDiameterMM": 16,
+        "nominalInsideWidthMM": 127.4,
+        "computedHorizontalClearSpacingMM": 95.4,
+        "requiredHorizontalClearSpacingMM": 30.0,
+        "nominalSpacingPass": true,
+        "exampleOnlyNotSelectedReinforcement": true
+      },
+      {
+        "barCount": 3,
+        "longitudinalDiameterMM": 16,
+        "nominalInsideWidthMM": 127.4,
+        "computedHorizontalClearSpacingMM": 39.7,
+        "requiredHorizontalClearSpacingMM": 30.0,
+        "nominalSpacingPass": true,
+        "exampleOnlyNotSelectedReinforcement": true
+      },
+      {
+        "barCount": 4,
+        "longitudinalDiameterMM": 16,
+        "nominalInsideWidthMM": 127.4,
+        "computedHorizontalClearSpacingMM": 21.133333333333336,
+        "requiredHorizontalClearSpacingMM": 30.0,
+        "nominalSpacingPass": false,
+        "exampleOnlyNotSelectedReinforcement": true
+      }
+    ],
+    "nativeReinforcementDefined": false,
+    "bendsTolerancesAndJointsVerified": false
+  },
+  "redistributionCriterion": {
+    "clause": "14.6.4.3",
+    "deltaMinimum": 0.75,
+    "C25NeutralAxisRatioGeneralMaximum": 0.45,
+    "actualDelta": null,
+    "actualNeutralAxisRatio": null,
+    "nativeCurrentCriterionVerified": false
+  },
+  "structuralApproval": false,
+  "monographEdited": false,
+  "nativeEngineeringFilesEdited": false
+}
