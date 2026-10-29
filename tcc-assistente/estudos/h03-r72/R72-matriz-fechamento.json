@@ -1,0 +1,134 @@
+[
+  {
+    "id": "P01",
+    "subject": "Acoes Q do telhado e combinacoes",
+    "evidenceRevisions": "R65/R66",
+    "state": "Plano13pontos em A1/A2 nao aplicado; configuracao Q cancelada, fatores originais mantidos",
+    "completionCriterion": "Aplicar acao justificada, reler fatores/combinacoes e conferir13pontos por ramo",
+    "category": "entrada comum pendente",
+    "branch": "ambos",
+    "transferDefectProven": false,
+    "closed": false
+  },
+  {
+    "id": "P02",
+    "subject": "Vento",
+    "evidenceRevisions": "R63/R66",
+    "state": "Vento e combinacoes completos nao verificados",
+    "completionCriterion": "Definir parametros locais/envoltoria/pressao interna e conferir casos e combinacoes",
+    "category": "entrada comum pendente",
+    "branch": "ambos",
+    "transferDefectProven": false,
+    "closed": false
+  },
+  {
+    "id": "P03",
+    "subject": "Reservatorio P2",
+    "evidenceRevisions": "R71",
+    "state": "1000L mantidos; centro/base e modelo somente candidatos, tara/cota absoluta pendentes",
+    "completionCriterion": "Fechar altimetria, instalacao e peso completo; dimensionar apoio e verificar cheio/vazio",
+    "category": "concepcao comum pendente",
+    "branch": "ambos",
+    "transferDefectProven": false,
+    "closed": false
+  },
+  {
+    "id": "P04",
+    "subject": "Telhado P1 e P2",
+    "evidenceRevisions": "R60/R65",
+    "state": "A1/A2 parciais; varandaP1 e regiao elevadaP2 nao entram nas reacoes atuais",
+    "completionCriterion": "Fechar cobrimento, apoios, pesos e reacoes das regioes excluidas",
+    "category": "concepcao comum pendente",
+    "branch": "ambos",
+    "transferDefectProven": false,
+    "closed": false
+  },
+  {
+    "id": "P05",
+    "subject": "Paredes, esquadrias e vergas",
+    "evidenceRevisions": "R55/R56/R67/R68/R70",
+    "state": "Matriz bruta e areas condicionais; nenhuma carga de parede aplicada; W08 especial",
+    "completionCriterion": "Rever aberturas com referenciaP3R68, peitorisJ1, tara/vergas, apoioW08 e distribuicao local",
+    "category": "entrada comum pendente",
+    "branch": "ambos",
+    "transferDefectProven": false,
+    "closed": false
+  },
+  {
+    "id": "P06",
+    "subject": "Escada e guarda-corpo",
+    "evidenceRevisions": "R48/R53/R70",
+    "state": "Faixa de laje/circulacao nao substitui lance real de escada, patamar ou guarda-corpo",
+    "completionCriterion": "Definir modelo/reacoes/protecao e aplicar parcelas sem duplicar as ja adotadas",
+    "category": "concepcao comum pendente",
+    "branch": "ambos",
+    "transferDefectProven": false,
+    "closed": false
+  },
+  {
+    "id": "P07",
+    "subject": "Vinculos, apoios e rigidez",
+    "evidenceRevisions": "R52/R54/R56/R63",
+    "state": "Comandos de continuidade/apoios e processamento parcial existentes; nao validam grelha final",
+    "completionCriterion": "Conferir malha, liberacoes, rigidezes, apoios idealizados e balanco de varanda",
+    "category": "verificacao comum pendente",
+    "branch": "ambos",
+    "transferDefectProven": false,
+    "closed": false
+  },
+  {
+    "id": "P08",
+    "subject": "Materiais completos e detalhamento",
+    "evidenceRevisions": "R51",
+    "state": "C25/CAAII/cobrimentos lidos e quatro campos ajustados por ramo; cadastro mecanico completo do aco nao conferido",
+    "completionCriterion": "Conferir aco, granulometria/espacamento real e detalhamento, sem inferir por nome do IFC",
+    "category": "verificacao comum pendente",
+    "branch": "ambos",
+    "transferDefectProven": false,
+    "closed": false
+  },
+  {
+    "id": "P09",
+    "subject": "ELU/ELS e estabilidade",
+    "evidenceRevisions": "R63/R64",
+    "state": "Processamento exploratorio com acoes incompletas; sem dimensionamento/ELS aprovado",
+    "completionCriterion": "Apos entradas completas avaliar resistencia, fissuras, deformacoes, estabilidade e revisar concepcao",
+    "category": "verificacao comum pendente",
+    "branch": "ambos",
+    "transferDefectProven": false,
+    "closed": false
+  },
+  {
+    "id": "P10",
+    "subject": "Fontes Revit/AutoCAD",
+    "evidenceRevisions": "R56",
+    "state": "Revisao das alturasN2 existe no receptor; fontes e textos CAD ainda exigem sincronizacao",
+    "completionCriterion": "Atualizar ambos segundo a hipotese aceita e conferir nova transferencia com hashes",
+    "category": "atualizacao comum pendente",
+    "branch": "ambos",
+    "transferDefectProven": false,
+    "closed": false
+  },
+  {
+    "id": "P11",
+    "subject": "Ensaio pareado e tempos finais",
+    "evidenceRevisions": "R69",
+    "state": "112arquivos inventariados; sem tempos completos comparaveis",
+    "completionCriterion": "Congelar entradas e executar protocolo equivalente e prospectivo, sem somar registros sobrepostos",
+    "category": "metodo de comparacao pendente",
+    "branch": "ambos",
+    "transferDefectProven": false,
+    "closed": false
+  },
+  {
+    "id": "P12",
+    "subject": "Pacote de entrega e resultados",
+    "evidenceRevisions": "R72",
+    "state": "Resultados parciais documentados, sem ranking global",
+    "completionCriterion": "Salvar nativos finais, evidencias, tabelas/figuras e limites; fechar texto apenas com resultados obtidos",
+    "category": "documentacao final pendente",
+    "branch": "ambos",
+    "transferDefectProven": false,
+    "closed": false
+  }
+]

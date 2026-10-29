@@ -1,0 +1,139 @@
+{
+  "revision": "H03/R72",
+  "atUtc": "2026-10-29T23:28:28.192042+00:00",
+  "scope": "Consolidacao retrospectiva de evidencias, nao nova transferencia ou calculo",
+  "sources": [
+    {
+      "id": "receiptState",
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\R46-estado-atual.json",
+      "sha256": "022a1992798ef5f9a78a997c5b1f43a4f99b7241de3a999685be5c6ad96b738d"
+    },
+    {
+      "id": "cadDrawing",
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\R45-auditoria-recebimento-Eberick.json",
+      "sha256": "c5f802de8e6be0e297cceb15d3d99f661c4c4da54476eb82ff9d55d3ef9efa50"
+    },
+    {
+      "id": "bimGeometry",
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\R46-auditoria-pilares-vigas.json",
+      "sha256": "3e3df75a58e13aeae2f13670a53fff62f203054046faffdf9e5fe309cca865f0"
+    },
+    {
+      "id": "geometry",
+      "path": "D:\\TCC\\outputs\\Cobertura-H03-R56-ESTUDO-NAO-EXECUTAR\\R56-geometria-exportada.json",
+      "sha256": "6fc2486f4eecd19985a4c4d87886822bb76ee40cee80e07c352db25bca0aabf7"
+    },
+    {
+      "id": "persistence",
+      "path": "D:\\TCC\\outputs\\Verificacao-H03-R57-NAO-EXECUTAR\\R57-resultado.json",
+      "sha256": "5634bc6f31a9be99a3b0f77bd6d6955c7b703690103b99c782f9354cf0d2f996"
+    },
+    {
+      "id": "roofG",
+      "path": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\R64-resultado.json",
+      "sha256": "0637a4f2943c622e3fad9182410452214ac22906ed313ae0f542a0ea5aaac80a"
+    },
+    {
+      "id": "roofQ",
+      "path": "D:\\TCC\\outputs\\Cobertura-H03-R65-PLANO-Q-NAO-APLICADO\\R65-plano-Q.json",
+      "sha256": "60f7b24d363808ccaf3cad5243a39cda7913034f8bc038d31be2305b0c04999a"
+    },
+    {
+      "id": "timeInventory",
+      "path": "D:\\TCC\\outputs\\Resultados-H03-R69-TEMPOS-EXPLORATORIOS\\R69-inventario-tempos.json",
+      "sha256": "837f989b79e591a10e1492e4943b423c47e606b645fb55f3a16bea5db8efcb3a"
+    }
+  ],
+  "initialTypedAvailability": [
+    {
+      "element": "Trecho de pilar",
+      "denominator": 22,
+      "CAD_initialNative": 0,
+      "BIM_initialNative": 22,
+      "CAD_complemented": 22,
+      "BIM_complemented": 0,
+      "CAD_initialPercent": 0.0,
+      "BIM_initialPercent": 100.0
+    },
+    {
+      "element": "Viga logica",
+      "denominator": 29,
+      "CAD_initialNative": 0,
+      "BIM_initialNative": 29,
+      "CAD_complemented": 29,
+      "BIM_complemented": 0,
+      "CAD_initialPercent": 0.0,
+      "BIM_initialPercent": 100.0
+    },
+    {
+      "element": "Laje",
+      "denominator": 11,
+      "CAD_initialNative": 0,
+      "BIM_initialNative": 0,
+      "CAD_complemented": 11,
+      "BIM_complemented": 11,
+      "CAD_initialPercent": 0.0,
+      "BIM_initialPercent": 0.0
+    }
+  ],
+  "initialTypedAggregate": {
+    "denominatorLogicalElements": 62,
+    "CAD_native": 0,
+    "BIM_native": 51,
+    "CAD_percent": 0.0,
+    "BIM_percent": 82.25806451612904,
+    "notErrorRate": true,
+    "notOverallQualityScore": true
+  },
+  "complementedLogicalElements": {
+    "CAD": 62,
+    "BIM": 11,
+    "notCorrectionOperationsCount": true,
+    "notDefectCount": true
+  },
+  "cadDrawingContent": {
+    "contoursReceived": 62,
+    "contoursExpected": 62,
+    "textContentsReceived": 66,
+    "textContentsExpected": 66,
+    "typographyIdenticalVerified": false
+  },
+  "bimInputTreatment": {
+    "nominalGeometryRecordsAdapted": 17,
+    "emptyStoreysRemoved": 2
+  },
+  "currentReceiverGeometryCheckpoint": {
+    "revision": "R56, preservacaoR57",
+    "solidCounts": {
+      "IfcBeam": 32,
+      "IfcColumn": 22,
+      "IfcSlab": 11
+    },
+    "uniquePairs": 65,
+    "sameNamePairs": 18,
+    "sameNameNotMatchingCriterion": true,
+    "logicalBeams": 29,
+    "auxiliaryFootingsExcludedPerBranch": 11,
+    "analyticalConnectivityProven": false
+  },
+  "roofGCheckpoint": {
+    "revision": "R64",
+    "individualReads": 26,
+    "pointsPerBranch": 13,
+    "displayPrecisionToleranceKN": 5.1e-06,
+    "allPointsMatchBetweenBranches": true,
+    "roofComplete": false
+  },
+  "closedFinalFlow": false,
+  "fullFlowTimes": {
+    "CAD": null,
+    "BIM": null
+  },
+  "isolatedAIEffort": {
+    "tokens": null,
+    "cost": null,
+    "inferenceSeconds": null
+  },
+  "finalRankingAllowed": false,
+  "structuralApproval": false
+}
