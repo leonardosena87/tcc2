@@ -1,0 +1,49 @@
+{
+  "revision": "H03/R66",
+  "atUtc": "2026-10-29T23:01:54.242646+00:00",
+  "status": "Consulta CAD concluida; ajuste incompleto cancelado; BIM nao inspecionado nesta revisao",
+  "protectedFilesChecked": 80,
+  "states": {
+    "CAD": {
+      "nativeProject": "D:\\TCC\\outputs\\H03_CAD_R66_Q_TELHADO_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "nativeSha256": "54fcf16ae2f44cbb32bf7ef27eb8ff60cdcc913e2d396b1b68b961dc62c2d411",
+      "byteIdenticalToR64": true,
+      "zipIntegrityPassed": true,
+      "engineeringChangesSaved": false,
+      "roofQApplied": false,
+      "actionsInspectedThisRevision": true
+    },
+    "BIM": {
+      "nativeProject": "D:\\TCC\\outputs\\H03_BIM_R66_Q_TELHADO_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "nativeSha256": "42c9d4a847963e1160d90cb6f7d4da13b2a5ece830224bb0f3cb680e5173a8ae",
+      "byteIdenticalToR64": true,
+      "zipIntegrityPassed": true,
+      "engineeringChangesSaved": false,
+      "roofQApplied": false,
+      "actionsInspectedThisRevision": false
+    }
+  },
+  "observedCADQFactors": [
+    0.7,
+    0.6,
+    0.4
+  ],
+  "intendedResidentialFactors": [
+    0.5,
+    0.4,
+    0.3
+  ],
+  "normativeBasis": "Exemplar local NBR6118:2026, tabela11.2, PDF85/pagina67, acesso restrito/residencial",
+  "factorChangeSaved": false,
+  "partialPsi0EntryCanceledAndReadBack": true,
+  "newActionCreated": false,
+  "roofQApplied": false,
+  "newProcessingPerformed": false,
+  "uiBlock": "Ativacao da janela principal perde foco de dialogo; indices de campos frequentemente retornam not available in cached app state",
+  "technicalTransferDefectProven": false,
+  "prospectiveComparableDurationAvailable": false,
+  "timingLimit": "Inicio de cronometro anterior permaneceu apenas em runtime reiniciado; nao reconstruir duracao por timestamps de arquivos",
+  "sourceRvtDwgEdited": false,
+  "monographEdited": false,
+  "eluElsApproved": false
+}

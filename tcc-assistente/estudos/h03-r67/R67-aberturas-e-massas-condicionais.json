@@ -1,0 +1,949 @@
+{
+  "revision": "H03/R67",
+  "atUtc": "2026-10-29T23:04:07.620679+00:00",
+  "status": "11 aberturas analisadas; massa liquida condicional, nao aplicada",
+  "sources": [
+    {
+      "path": "D:\\TCC\\outputs\\Paredes-H03-R55-ESTUDO-NAO-EXECUTAR\\R55-paredes-referencia.json",
+      "sha256": "a41898d50e14d418e47f628ddf6f46eb369c696e2a2b93a75bfca467b85b9710"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Cobertura-H03-R56-ESTUDO-NAO-EXECUTAR\\R56-paredes-trechos.json",
+      "sha256": "00688b11fa0a7a4e5a58d5daf5644c5271bd004ddcc6d9e7a8eb2eaa746d09e8"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Cobertura-H03-R56-ESTUDO-NAO-EXECUTAR\\R56-geometria-exportada.json",
+      "sha256": "6fc2486f4eecd19985a4c4d87886822bb76ee40cee80e07c352db25bca0aabf7"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Verificacao-H03-R57-NAO-EXECUTAR\\R57-resultado.json",
+      "sha256": "5634bc6f31a9be99a3b0f77bd6d6955c7b703690103b99c782f9354cf0d2f996"
+    }
+  ],
+  "referenceGeometry": "IFC R56 com preservacao da superestrutura verificada em R57; nao nova exportacao R67",
+  "areaWeightHypothesisKNm2": 1.565,
+  "openingCount": 11,
+  "walls": [
+    {
+      "wallId": "W01",
+      "wallName": "Fachada esquerda / quarto 16 m²",
+      "knownGrossMasonryAreaM2": 10.224,
+      "partialKnownGrossAreaM2": 10.224,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 1.6,
+      "conditionalNetMasonryAreaM2": 8.624,
+      "conditionalNetMasonryWeightKN": 13.49656,
+      "grossMasonryWeightKN": 16.00056,
+      "openingIds": [
+        "S-J1-01"
+      ],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W02",
+      "wallName": "Fachada esquerda / quarto 13 m²",
+      "knownGrossMasonryAreaM2": 8.094,
+      "partialKnownGrossAreaM2": 8.094,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 1.6000000000000005,
+      "conditionalNetMasonryAreaM2": 6.493999999999999,
+      "conditionalNetMasonryWeightKN": 10.163109999999998,
+      "grossMasonryWeightKN": 12.66711,
+      "openingIds": [
+        "S-J1-02"
+      ],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W03",
+      "wallName": "Fachada superior / quarto",
+      "knownGrossMasonryAreaM2": 11.927999999999999,
+      "partialKnownGrossAreaM2": 11.927999999999999,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 0,
+      "conditionalNetMasonryAreaM2": 11.927999999999999,
+      "conditionalNetMasonryWeightKN": 18.667319999999997,
+      "grossMasonryWeightKN": 18.667319999999997,
+      "openingIds": [],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W04",
+      "wallName": "Fachada superior / suíte",
+      "knownGrossMasonryAreaM2": 14.341999999999999,
+      "partialKnownGrossAreaM2": 14.341999999999999,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 1.5999999999999996,
+      "conditionalNetMasonryAreaM2": 12.741999999999999,
+      "conditionalNetMasonryWeightKN": 19.941229999999997,
+      "grossMasonryWeightKN": 22.44523,
+      "openingIds": [
+        "S-J1-03"
+      ],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W05",
+      "wallName": "Fachada direita / banheiro",
+      "knownGrossMasonryAreaM2": 10.26,
+      "partialKnownGrossAreaM2": 10.26,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 0,
+      "conditionalNetMasonryAreaM2": 10.26,
+      "conditionalNetMasonryWeightKN": 16.0569,
+      "grossMasonryWeightKN": 16.0569,
+      "openingIds": [],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W06",
+      "wallName": "Suíte / varanda",
+      "knownGrossMasonryAreaM2": 8.094,
+      "partialKnownGrossAreaM2": 8.094,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 4.2,
+      "conditionalNetMasonryAreaM2": 3.8939999999999992,
+      "conditionalNetMasonryWeightKN": 6.094109999999999,
+      "grossMasonryWeightKN": 12.66711,
+      "openingIds": [
+        "S-P4-01"
+      ],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W07",
+      "wallName": "Fachada inferior / quarto",
+      "knownGrossMasonryAreaM2": 11.927999999999999,
+      "partialKnownGrossAreaM2": 11.927999999999999,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 0,
+      "conditionalNetMasonryAreaM2": 11.927999999999999,
+      "conditionalNetMasonryWeightKN": 18.667319999999997,
+      "grossMasonryWeightKN": 18.667319999999997,
+      "openingIds": [],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W08",
+      "wallName": "Fachada inferior / caixa da escada",
+      "knownGrossMasonryAreaM2": null,
+      "partialKnownGrossAreaM2": 0,
+      "unknownHeightSegmentCount": 1,
+      "conditionalOpeningDeductionM2": 0,
+      "conditionalNetMasonryAreaM2": null,
+      "conditionalNetMasonryWeightKN": null,
+      "grossMasonryWeightKN": null,
+      "openingIds": [],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W09",
+      "wallName": "Fachada inferior / banheiro esquerdo",
+      "knownGrossMasonryAreaM2": 4.1325,
+      "partialKnownGrossAreaM2": 4.1325,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 0.47999999999999987,
+      "conditionalNetMasonryAreaM2": 3.6525000000000003,
+      "conditionalNetMasonryWeightKN": 5.7161625,
+      "grossMasonryWeightKN": 6.4673625,
+      "openingIds": [
+        "S-J2-01"
+      ],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W10",
+      "wallName": "Fachada inferior / banheiro direito",
+      "knownGrossMasonryAreaM2": 4.1325,
+      "partialKnownGrossAreaM2": 4.1325,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 0.4800000000000004,
+      "conditionalNetMasonryAreaM2": 3.6525,
+      "conditionalNetMasonryWeightKN": 5.716162499999999,
+      "grossMasonryWeightKN": 6.4673625,
+      "openingIds": [
+        "S-J2-02"
+      ],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W11",
+      "wallName": "Divisória entre quartos",
+      "knownGrossMasonryAreaM2": 11.927999999999999,
+      "partialKnownGrossAreaM2": 11.927999999999999,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 0,
+      "conditionalNetMasonryAreaM2": 11.927999999999999,
+      "conditionalNetMasonryWeightKN": 18.667319999999997,
+      "grossMasonryWeightKN": 18.667319999999997,
+      "openingIds": [],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W12",
+      "wallName": "Quarto inferior / hall e escada",
+      "knownGrossMasonryAreaM2": 10.223999999999998,
+      "partialKnownGrossAreaM2": 10.223999999999998,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 1.4700000000000004,
+      "conditionalNetMasonryAreaM2": 8.753999999999998,
+      "conditionalNetMasonryWeightKN": 13.700009999999995,
+      "grossMasonryWeightKN": 16.000559999999997,
+      "openingIds": [
+        "S-P2-01"
+      ],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W13",
+      "wallName": "Quarto superior / acesso pelo hall",
+      "knownGrossMasonryAreaM2": 2.556,
+      "partialKnownGrossAreaM2": 2.556,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 1.4700000000000004,
+      "conditionalNetMasonryAreaM2": 1.0859999999999996,
+      "conditionalNetMasonryWeightKN": 1.6995899999999993,
+      "grossMasonryWeightKN": 4.00014,
+      "openingIds": [
+        "S-P2-02"
+      ],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W14",
+      "wallName": "Quarto superior / suíte",
+      "knownGrossMasonryAreaM2": 5.537999999999999,
+      "partialKnownGrossAreaM2": 5.537999999999999,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 0,
+      "conditionalNetMasonryAreaM2": 5.537999999999999,
+      "conditionalNetMasonryWeightKN": 8.66697,
+      "grossMasonryWeightKN": 8.66697,
+      "openingIds": [],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W15",
+      "wallName": "Retorno horizontal da suíte sobre o hall",
+      "knownGrossMasonryAreaM2": 3.1339999999999995,
+      "partialKnownGrossAreaM2": 3.1339999999999995,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 0,
+      "conditionalNetMasonryAreaM2": 3.1339999999999995,
+      "conditionalNetMasonryWeightKN": 4.904709999999999,
+      "grossMasonryWeightKN": 4.904709999999999,
+      "openingIds": [],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W16",
+      "wallName": "Suíte / porta para o hall",
+      "knownGrossMasonryAreaM2": 3.1339999999999995,
+      "partialKnownGrossAreaM2": 3.1339999999999995,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 1.4700000000000004,
+      "conditionalNetMasonryAreaM2": 1.663999999999999,
+      "conditionalNetMasonryWeightKN": 2.6041599999999985,
+      "grossMasonryWeightKN": 4.904709999999999,
+      "openingIds": [
+        "S-P2-03"
+      ],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W17",
+      "wallName": "Suíte / faixa sobre o hall",
+      "knownGrossMasonryAreaM2": 2.698,
+      "partialKnownGrossAreaM2": 2.698,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 0,
+      "conditionalNetMasonryAreaM2": 2.698,
+      "conditionalNetMasonryWeightKN": 4.22237,
+      "grossMasonryWeightKN": 4.22237,
+      "openingIds": [],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W18",
+      "wallName": "Suíte / banheiros",
+      "knownGrossMasonryAreaM2": 8.1225,
+      "partialKnownGrossAreaM2": 8.1225,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 1.05,
+      "conditionalNetMasonryAreaM2": 7.072500000000001,
+      "conditionalNetMasonryWeightKN": 11.0684625,
+      "grossMasonryWeightKN": 12.7117125,
+      "openingIds": [
+        "S-P3-02"
+      ],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W19",
+      "wallName": "Hall e escada / banheiro esquerdo",
+      "knownGrossMasonryAreaM2": 10.4025,
+      "partialKnownGrossAreaM2": 10.4025,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 1.2600000000000002,
+      "conditionalNetMasonryAreaM2": 9.1425,
+      "conditionalNetMasonryWeightKN": 14.3080125,
+      "grossMasonryWeightKN": 16.2799125,
+      "openingIds": [
+        "S-P3-01"
+      ],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W20",
+      "wallName": "Divisória entre banheiros",
+      "knownGrossMasonryAreaM2": 11.707,
+      "partialKnownGrossAreaM2": 11.707,
+      "unknownHeightSegmentCount": 0,
+      "conditionalOpeningDeductionM2": 0,
+      "conditionalNetMasonryAreaM2": 11.707,
+      "conditionalNetMasonryWeightKN": 18.321455,
+      "grossMasonryWeightKN": 18.321455,
+      "openingIds": [],
+      "netWeightExcludesJoineryLintelsFinishesOnConcrete": true,
+      "readyForNativeApplication": false
+    }
+  ],
+  "openings": [
+    {
+      "id": "S-J1-01",
+      "wallId": "W01",
+      "tag": "J1",
+      "axis": "y",
+      "rawStartM": 1.15,
+      "rawWidthM": 1.6,
+      "nominalWidthM": 1.6,
+      "heightM": 1.0,
+      "nominalStartM": 1.15,
+      "nominalEndM": 2.75,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.6,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.0
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.6,
+      "conditionalDeductionRangeM2": [
+        1.5999999999999999,
+        1.6000000000000003
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": null,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.6000000000000003,
+          "knownHeightMasonryOverlapWidthM": 1.6000000000000003,
+          "conditionalMasonryDeductionM2": 1.6000000000000003
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.6,
+          "knownHeightMasonryOverlapWidthM": 1.6,
+          "conditionalMasonryDeductionM2": 1.6
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.5999999999999999,
+          "knownHeightMasonryOverlapWidthM": 1.5999999999999999,
+          "conditionalMasonryDeductionM2": 1.5999999999999999
+        }
+      ]
+    },
+    {
+      "id": "S-J1-02",
+      "wallId": "W02",
+      "tag": "J1",
+      "axis": "y",
+      "rawStartM": 4.7,
+      "rawWidthM": 1.5999999999999996,
+      "nominalWidthM": 1.6,
+      "heightM": 1.0,
+      "nominalStartM": 4.7,
+      "nominalEndM": 6.300000000000001,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.6,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.0
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.6000000000000005,
+      "conditionalDeductionRangeM2": [
+        1.6000000000000005,
+        1.6000000000000005
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": null,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.6000000000000005,
+          "knownHeightMasonryOverlapWidthM": 1.6000000000000005,
+          "conditionalMasonryDeductionM2": 1.6000000000000005
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.6000000000000005,
+          "knownHeightMasonryOverlapWidthM": 1.6000000000000005,
+          "conditionalMasonryDeductionM2": 1.6000000000000005
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.6000000000000005,
+          "knownHeightMasonryOverlapWidthM": 1.6000000000000005,
+          "conditionalMasonryDeductionM2": 1.6000000000000005
+        }
+      ]
+    },
+    {
+      "id": "S-J1-03",
+      "wallId": "W04",
+      "tag": "J1",
+      "axis": "x",
+      "rawStartM": 6.75,
+      "rawWidthM": 1.5999999999999996,
+      "nominalWidthM": 1.6,
+      "heightM": 1.0,
+      "nominalStartM": 6.75,
+      "nominalEndM": 8.35,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.6,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.0
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.5999999999999996,
+      "conditionalDeductionRangeM2": [
+        1.5999999999999988,
+        1.6000000000000005
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": null,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.5999999999999988,
+          "knownHeightMasonryOverlapWidthM": 1.5999999999999988,
+          "conditionalMasonryDeductionM2": 1.5999999999999988
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.5999999999999996,
+          "knownHeightMasonryOverlapWidthM": 1.5999999999999996,
+          "conditionalMasonryDeductionM2": 1.5999999999999996
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.6000000000000005,
+          "knownHeightMasonryOverlapWidthM": 1.6000000000000005,
+          "conditionalMasonryDeductionM2": 1.6000000000000005
+        }
+      ]
+    },
+    {
+      "id": "S-P4-01",
+      "wallId": "W06",
+      "tag": "P4",
+      "axis": "y",
+      "rawStartM": 4.45,
+      "rawWidthM": 2.0,
+      "nominalWidthM": 2.0,
+      "heightM": 2.1,
+      "nominalStartM": 4.45,
+      "nominalEndM": 6.45,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 4.2,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.0
+      ],
+      "nominalConditionalMasonryDeductionM2": 4.2,
+      "conditionalDeductionRangeM2": [
+        4.2,
+        4.2
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 2.0,
+          "knownHeightMasonryOverlapWidthM": 2.0,
+          "conditionalMasonryDeductionM2": 4.2
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 2.0,
+          "knownHeightMasonryOverlapWidthM": 2.0,
+          "conditionalMasonryDeductionM2": 4.2
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 2.0,
+          "knownHeightMasonryOverlapWidthM": 2.0,
+          "conditionalMasonryDeductionM2": 4.2
+        }
+      ]
+    },
+    {
+      "id": "S-J2-01",
+      "wallId": "W09",
+      "tag": "J2",
+      "axis": "x",
+      "rawStartM": 6.95,
+      "rawWidthM": 0.7999999999999998,
+      "nominalWidthM": 0.8,
+      "heightM": 0.6,
+      "nominalStartM": 6.949999999999999,
+      "nominalEndM": 7.749999999999999,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 0.48,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.0
+      ],
+      "nominalConditionalMasonryDeductionM2": 0.47999999999999987,
+      "conditionalDeductionRangeM2": [
+        0.47999999999999987,
+        0.47999999999999987
+      ],
+      "sillM": 1.5,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7999999999999998,
+          "knownHeightMasonryOverlapWidthM": 0.7999999999999998,
+          "conditionalMasonryDeductionM2": 0.47999999999999987
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7999999999999998,
+          "knownHeightMasonryOverlapWidthM": 0.7999999999999998,
+          "conditionalMasonryDeductionM2": 0.47999999999999987
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7999999999999998,
+          "knownHeightMasonryOverlapWidthM": 0.7999999999999998,
+          "conditionalMasonryDeductionM2": 0.47999999999999987
+        }
+      ]
+    },
+    {
+      "id": "S-J2-02",
+      "wallId": "W10",
+      "tag": "J2",
+      "axis": "x",
+      "rawStartM": 8.5,
+      "rawWidthM": 0.8000000000000007,
+      "nominalWidthM": 0.8,
+      "heightM": 0.6,
+      "nominalStartM": 8.5,
+      "nominalEndM": 9.3,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 0.48,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.0
+      ],
+      "nominalConditionalMasonryDeductionM2": 0.4800000000000004,
+      "conditionalDeductionRangeM2": [
+        0.4800000000000004,
+        0.4800000000000004
+      ],
+      "sillM": 1.5,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.8000000000000007,
+          "knownHeightMasonryOverlapWidthM": 0.8000000000000007,
+          "conditionalMasonryDeductionM2": 0.4800000000000004
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.8000000000000007,
+          "knownHeightMasonryOverlapWidthM": 0.8000000000000007,
+          "conditionalMasonryDeductionM2": 0.4800000000000004
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.8000000000000007,
+          "knownHeightMasonryOverlapWidthM": 0.8000000000000007,
+          "conditionalMasonryDeductionM2": 0.4800000000000004
+        }
+      ]
+    },
+    {
+      "id": "S-P2-01",
+      "wallId": "W12",
+      "tag": "P2",
+      "axis": "y",
+      "rawStartM": 3.05,
+      "rawWidthM": 0.7000000000000002,
+      "nominalWidthM": 0.7,
+      "heightM": 2.1,
+      "nominalStartM": 3.05,
+      "nominalEndM": 3.75,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.47,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.04999999999999982
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.4700000000000004,
+      "conditionalDeductionRangeM2": [
+        1.3650000000000009,
+        1.4700000000000004
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.04999999999999982,
+          "masonryOverlapWidthM": 0.6500000000000004,
+          "knownHeightMasonryOverlapWidthM": 0.6500000000000004,
+          "conditionalMasonryDeductionM2": 1.3650000000000009
+        }
+      ]
+    },
+    {
+      "id": "S-P2-02",
+      "wallId": "W13",
+      "tag": "P2",
+      "axis": "y",
+      "rawStartM": 4.05,
+      "rawWidthM": 0.7000000000000002,
+      "nominalWidthM": 0.7,
+      "heightM": 2.1,
+      "nominalStartM": 4.050000000000001,
+      "nominalEndM": 4.750000000000001,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.47,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.049999999999998934
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.4700000000000004,
+      "conditionalDeductionRangeM2": [
+        1.3650000000000027,
+        1.4700000000000004
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.049999999999998934,
+          "masonryOverlapWidthM": 0.6500000000000012,
+          "knownHeightMasonryOverlapWidthM": 0.6500000000000012,
+          "conditionalMasonryDeductionM2": 1.3650000000000027
+        },
+        {
+          "translationM": -8.881784197001252e-16,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        }
+      ]
+    },
+    {
+      "id": "S-P2-03",
+      "wallId": "W16",
+      "tag": "P2",
+      "axis": "y",
+      "rawStartM": 4.05,
+      "rawWidthM": 0.7000000000000002,
+      "nominalWidthM": 0.7,
+      "heightM": 2.1,
+      "nominalStartM": 4.050000000000001,
+      "nominalEndM": 4.750000000000001,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.47,
+      "nominalColumnOverlapWidthM": 0,
+      "columnOverlapWidthRangeM": [
+        0,
+        0
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.4700000000000004,
+      "conditionalDeductionRangeM2": [
+        1.4700000000000004,
+        1.4700000000000004
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        }
+      ]
+    },
+    {
+      "id": "S-P3-02",
+      "wallId": "W18",
+      "tag": "P3",
+      "axis": "x",
+      "rawStartM": 9.05,
+      "rawWidthM": 0.5999999999999996,
+      "nominalWidthM": 0.6,
+      "heightM": 2.1,
+      "nominalStartM": 9.05,
+      "nominalEndM": 9.65,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.26,
+      "nominalColumnOverlapWidthM": 0.09999999999999964,
+      "columnOverlapWidthRangeM": [
+        0.049999999999998934,
+        0.09999999999999964
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.05,
+      "conditionalDeductionRangeM2": [
+        0.9449999999999985,
+        1.1550000000000016
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.049999999999998934,
+          "masonryOverlapWidthM": 0.5500000000000007,
+          "knownHeightMasonryOverlapWidthM": 0.5500000000000007,
+          "conditionalMasonryDeductionM2": 1.1550000000000016
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.09999999999999964,
+          "masonryOverlapWidthM": 0.5,
+          "knownHeightMasonryOverlapWidthM": 0.5,
+          "conditionalMasonryDeductionM2": 1.05
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.09999999999999964,
+          "masonryOverlapWidthM": 0.4499999999999993,
+          "knownHeightMasonryOverlapWidthM": 0.4499999999999993,
+          "conditionalMasonryDeductionM2": 0.9449999999999985
+        }
+      ]
+    },
+    {
+      "id": "S-P3-01",
+      "wallId": "W19",
+      "tag": "P3",
+      "axis": "y",
+      "rawStartM": 3.1263166666666664,
+      "rawWidthM": 0.601133333333332,
+      "nominalWidthM": 0.6,
+      "heightM": 2.1,
+      "nominalStartM": 3.126883333333333,
+      "nominalEndM": 3.726883333333333,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.26,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.0
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.2600000000000002,
+      "conditionalDeductionRangeM2": [
+        1.2600000000000002,
+        1.2600000000000002
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.6000000000000001,
+          "knownHeightMasonryOverlapWidthM": 0.6000000000000001,
+          "conditionalMasonryDeductionM2": 1.2600000000000002
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.6000000000000001,
+          "knownHeightMasonryOverlapWidthM": 0.6000000000000001,
+          "conditionalMasonryDeductionM2": 1.2600000000000002
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.6000000000000001,
+          "knownHeightMasonryOverlapWidthM": 0.6000000000000001,
+          "conditionalMasonryDeductionM2": 1.2600000000000002
+        }
+      ]
+    }
+  ],
+  "nominalGeometricColumnOverlapOpeningIds": [
+    "S-P3-02"
+  ],
+  "possibleColumnOverlapUnderStudyUncertainty": [
+    "S-P2-01",
+    "S-P2-02",
+    "S-P3-02"
+  ],
+  "unknownWallIds": [
+    "W08"
+  ],
+  "nativeEdited": false,
+  "loadsApplied": false,
+  "analyticalLoadPathVerified": false,
+  "fullBuildingMassCalculated": false,
+  "structuralApproval": false
+}

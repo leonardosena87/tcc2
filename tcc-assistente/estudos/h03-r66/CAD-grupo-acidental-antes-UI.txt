@@ -1,0 +1,94 @@
+Window: "AltoQi Eberick 2025 Infinity - [H03_CAD_R66_Q_TELHADO_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [H03_CAD_R66_Q_TELHADO_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		60659 diálogo Ações Secondary Actions: Raise
+			60660 text Tipo
+			60661 árvore Tipo ID: 110
+				60662 item da árvore (selectable) Permanente
+				60663 item da árvore (selectable) Protensão
+				60664 item da árvore (selectable) Retração
+				60665 item da árvore (selectable) Acidental
+					60693 item da árvore (selectable) Acidental
+					60694 item da árvore (selectable) Água
+				60666 item da árvore (selectable) Subpressão
+				60667 item da árvore (selectable) Temperatura
+				60668 item da árvore (selectable) Vento
+				60669 item da árvore (selectable) Sismo
+				60670 item da árvore (selectable) Desaprumo
+			60671 botão + ID: 111
+			60672 botão (disabled) - ID: 112
+			60752 grupo Grupo ID: 380
+			60753 text Nome ID: 382
+			60754 editar (settable, string) Nome Value: Acidental ID: 381
+			60755 botão de opção (selectable, disabled) Não simultâneas: as ações não ocorrem na mesma combinação ID: 390
+			60756 botão de opção (selectable, disabled) Permanentes simultâneas: apenas permanentes, ocorrem sempre juntas como favoráveis ou desfavoráveis ID: 391
+			60757 botão de opção (selectable, disabled) Acidentais simultâneas: apenas acidentais, permite ter mais que um coeficiente principal na mesma combinação ID: 392
+			60758 botão de opção (selectable, disabled) Acidentais simultâneas ou não: apenas acidentais, permite ter mais que um coeficiente principal na mesma combinação ID: 393
+			60759 botão de opção (selectable, disabled) Excepcionais não simultâneas: as ações não ocorrem na mesma condição ID: 394
+			60681 botão OK ID: 1
+			60682 botão Cancelar ID: 2
+			60683 botão Ajuda ID: 9
+			60684 tabulação ID: 12320
+				60685 item de tabulação (selectable) Ações
+				60686 item de tabulação (selectable) Combinações
+			60687 barra de título (settable, string) Value: Ações
+				60688 botão Ajuda de contexto
+		30 Barra de status
+		76 painel
+			77 botão de divisão
+				78 elevador
+				79 painel
+					80 tabulação Notícias
+						60760 item de tabulação (selectable) Notícias
+					83 painel
+						58842 painel
+							58843 painel (disabled) status.altoqi.com.br
+								58844 painel (disabled)
+								58845 região status.altoqi.com.br - Conteúdo da Web
+									58846 região
+										58847 região
+										58848 região
+											58849 região
+												58850 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													58851 gráfico
+													58852 título Hum… Não consigo chegar a esta página
+													58853 text status.altoqi.com.br
+													58854 text se recusou a se conectar.
+													58855 text Tente:
+													58856 Lista
+														58857 item de lista •Verificando a conexão
+														58858 item de lista •Verificação de proxy e firewall
+															58859 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													58860 text ERR_CONNECTION_REFUSED
+													58861 botão Atualizar ID: reload-button
+													58862 text Microsoft Edge
+												58863 região
+				87 painel
+					88 tabulação
+						60761 item de tabulação (selectable)
+					91 painel
+						92 janela Edificação Secondary Actions: Raise
+							93 painel
+								94 painel Projeto
+									95 painel
+									60614 árvore ID: 101
+										60615 item da árvore (selectable, disabled) Pavimentos
+											60616 item da árvore (selectable, disabled) N2
+											60617 item da árvore (selectable, disabled) N1
+											60618 item da árvore (selectable, disabled) N0
+										60619 item da árvore (selectable, disabled) Pilares em prumada
+										60620 item da árvore (selectable, disabled) Cortes
+										60621 item da árvore (selectable, disabled) Gerenciador de desenhos
+										60622 item da árvore (selectable, disabled) Modelos 3D
+		106 barra de menus
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```

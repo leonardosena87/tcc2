@@ -1,0 +1,158 @@
+Window: "AltoQi Eberick 2025 Infinity - [H03_CAD_R66_Q_TELHADO_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [H03_CAD_R66_Q_TELHADO_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		4781 diálogo Ações Secondary Actions: Raise
+			4782 text Tipo
+			4783 árvore Tipo ID: 110
+				4784 item da árvore (selectable) Permanente
+				4785 item da árvore (selectable) Protensão
+				4786 item da árvore (selectable) Retração
+				4787 item da árvore (selectable) Acidental
+					4860 item da árvore (selectable) Acidental
+					4861 item da árvore (selectable) Água
+				4788 item da árvore (selectable) Subpressão
+				4789 item da árvore (selectable) Temperatura
+				4790 item da árvore (selectable) Vento
+				4791 item da árvore (selectable) Sismo
+				4792 item da árvore (selectable) Desaprumo
+			4793 botão + ID: 111
+			4794 botão (disabled) - ID: 112
+			4911 grupo Ação ID: 120
+			4912 text Nome ID: 128
+			4913 editar (settable, string) Nome Value: Acidental ID: 121
+			4914 text Indicação ID: 127
+			4915 editar (settable, string) Indicação Value: Q ID: 122
+			4916 caixa de seleção (disabled) Considerar para as lajes ID: 125
+			4917 text Variabilidade ID: 126
+			4918 botão de opção (selectable, disabled) Permanente ID: 115
+			4919 botão de opção (selectable, disabled) Acidental direta ID: 116
+			4920 botão de opção (selectable, disabled) Acidental indireta ID: 117
+			4921 botão de opção (selectable, disabled) Excepcional ID: 118
+			4922 grupo Coef. de ponderação ID: 130
+			4923 text Concreto ID: 215
+			4924 text Aço ID: 218
+			4925 text Alvenaria ID: 214
+			4926 text Normais (desfavorável) ID: 136
+			4927 editar (settable, string) Normais (desfavorável) Value: 1.40 ID: 131
+			4928 editar (settable, string) Value: 1.50 ID: 216
+			4929 editar (disabled, settable, string) Value: 1.40 ID: 212
+			4930 text Normais (favorável) ID: 135
+			4931 editar (disabled, settable, string) Normais (favorável) Value: 0.00 ID: 132
+			4932 editar (disabled, settable, string) Value: 0.00 ID: 217
+			4933 editar (disabled, settable, string) Value: 0.00 ID: 213
+			4934 text Excepcionais (desfavorável) ID: 219
+			4935 editar (settable, string) Excepcionais (desfavorável) Value: 1.00 ID: 221
+			4936 editar (settable, string) Value: 1.00 ID: 222
+			4937 editar (settable, string) Value: 1.00 ID: 223
+			4938 text Excepcionais (favorável) ID: 224
+			4939 editar (disabled, settable, string) Excepcionais (favorável) Value: 0.00 ID: 225
+			4940 editar (disabled, settable, string) Value: 0.00 ID: 226
+			4941 editar (disabled, settable, string) Value: 0.00 ID: 227
+			4942 text Fundações ID: 134
+			4943 editar (settable, string) Fundações Value: 1.00 ID: 133
+			4944 text Construção ID: 206
+			4945 editar (settable, string) Construção Value: 1.20 ID: 137
+			4946 text Incêndio ID: 139
+			4947 editar (settable, string) Incêndio Value: 1.00 ID: 138
+			4948 grupo Fatores de combinação ID: 151
+			4949 text y ID: 155
+			4950 text 0 ID: 158
+			4951 text = ID: 162
+			4952 editar (settable, string) = Value: 0.70 ID: 152
+			4953 text y ID: 156
+			4954 text 1 ID: 159
+			4955 text = ID: 163
+			4956 editar (settable, string) = Value: 0.60 ID: 153
+			4957 text y ID: 157
+			4958 text 2 ID: 161
+			4959 text = ID: 164
+			4960 editar (settable, string) = Value: 0.40 ID: 154
+			4961 text Combinações ID: 140
+			4803 botão OK ID: 1
+			4804 botão Cancelar ID: 2
+			4805 botão Ajuda ID: 9
+			4806 tabulação ID: 12320
+				4807 item de tabulação (selectable) Ações
+				4808 item de tabulação (selectable) Combinações
+			4809 barra de título (settable, string) Value: Ações
+				4810 botão Ajuda de contexto
+		3723 Barra de status
+			4962 custom
+				4963 text Comando
+				4964 editar (settable, string)
+				4965 text 1008.6,190.0
+				4966 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					4967 Lista
+						4968 item de lista (selectable) 1:1
+						4969 item de lista (selectable) 1:2
+						4970 item de lista (selectable) 1:5
+						4971 item de lista (selectable) 1:10
+						4972 item de lista (selectable) 1:12.5
+						4973 item de lista (selectable) 1:15
+						4974 item de lista (selectable) 1:20
+						4975 item de lista (selectable) 1:25
+						4976 item de lista (selectable) 1:30
+						4977 item de lista (selectable) 1:40
+						4978 item de lista (selectable) 1:50
+						4979 item de lista (selectable) 1:60
+						4980 item de lista (selectable) 1:75
+						4981 item de lista (selectable) 1:100
+						4982 item de lista (selectable) 1:200
+						4983 item de lista (selectable) 1:250
+						4984 item de lista (selectable) 1:500
+						4985 item de lista (selectable) 1:1000
+			4986 botão Atualizar
+			4987 botão Enquadrar
+			4988 botão Aproximar
+			4989 botão Afastar
+			4990 botão Zoom
+			4991 botão Zoom anterior
+			4992 botão Deslocar
+			4993 caixa de seleção Ortogonal
+			4994 caixa de seleção Captura personalizada
+			4995 botão Opções da captura personalizada
+			4996 caixa de seleção Quadrante
+			4997 caixa de seleção Centro
+			4998 caixa de seleção Ponto médio
+			4999 caixa de seleção Extremidade
+			5000 caixa de seleção Ponto no elemento
+			5001 caixa de seleção Intersecção
+			5002 caixa de seleção Perpendicular
+			5003 caixa de seleção Ponto intermediário
+			5004 caixa de seleção Ponto quadrante
+			5005 caixa de seleção Ponto na intersecção
+			5006 caixa de seleção Ponto relativo
+		3769 painel
+			3770 botão de divisão
+				3771 elevador
+				3772 painel
+					3773 tabulação Croqui-N2
+						5007 item de tabulação (selectable) Notícias
+						5008 item de tabulação (selectable) Croqui-N2
+					3776 painel
+						3777 painel
+							3778 painel Croqui-N2
+								3779 painel TCadPlotWindow
+				3780 painel
+					3781 tabulação
+						5009 item de tabulação (selectable)
+						5010 item de tabulação (selectable)
+					3784 painel
+						3785 janela Edificação Secondary Actions: Raise
+							3786 painel
+								3787 painel Projeto
+									3788 painel
+									3789 árvore ID: 101
+										3790 item da árvore (selectable, disabled) Pavimentos
+											3791 item da árvore (selectable, disabled) N2
+											3792 item da árvore (selectable, disabled) N1
+											3793 item da árvore (selectable, disabled) N0
+										3794 item da árvore (selectable, disabled) Pilares em prumada
+										3795 item da árvore (selectable, disabled) Cortes
+										3796 item da árvore (selectable, disabled) Gerenciador de desenhos
+										3797 item da árvore (selectable, disabled) Modelos 3D
+		3798 barra de menus
+
+Document text: ```
+Comando
+1008.6,190.0
+```
