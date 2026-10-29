@@ -1,0 +1,107 @@
+{
+  "nativeProject": "D:\\TCC\\outputs\\H03_CAD_R54_APOIOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+  "nativeSha256": "685e618c734342bfc2cc11e9a21fd59b5064784eaef0433fd8cb7828068e2e1d",
+  "frozenFiles": [
+    {
+      "path": "D:\\TCC\\outputs\\H03_CAD_R54_APOIOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "frozen": "D:\\TCC\\outputs\\Apoios-H03-R54-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_CAD_R54_APOIOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "frozen": "D:\\TCC\\outputs\\Apoios-H03-R54-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "685e618c734342bfc2cc11e9a21fd59b5064784eaef0433fd8cb7828068e2e1d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_CAD_R54_APOIOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "frozen": "D:\\TCC\\outputs\\Apoios-H03-R54-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256": "ee69de782842b7d26f7d7e0586e58760f518e14fcdabe02e226ec4b6d5534d7c"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_CAD_R54_APOIOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "frozen": "D:\\TCC\\outputs\\Apoios-H03-R54-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256": "685e618c734342bfc2cc11e9a21fd59b5064784eaef0433fd8cb7828068e2e1d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_CAD_R54_APOIOS_NAO_EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "frozen": "D:\\TCC\\outputs\\Apoios-H03-R54-NAO-EXECUTAR\\congelado-CAD\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "158a6063f372a9619b016609a50ac443265c42a261c40c3197ca712679fd01ac"
+    }
+  ],
+  "assignedInOneBatch": 11,
+  "readAfterReopenSamples": [
+    {
+      "nativeName": "P1",
+      "referencePositionM": [
+        0,
+        0
+      ],
+      "barHeightCm": 10,
+      "barHeightMode": "Fixo",
+      "support": "Rotulado",
+      "pillarLink": "Engastado",
+      "bCm": 20,
+      "hCm": 30,
+      "rotationDeg": 0,
+      "depthDfCm": 0,
+      "elevationCm": 0,
+      "readAfterReopen": true,
+      "evidence": "D:\\TCC\\outputs\\Apoios-H03-R54-NAO-EXECUTAR\\CAD-P1-N0-reaberto-UI.txt",
+      "evidenceSha256": "bec70583b02437ddcaabb32390f4918c4d646e56facb5db369ad93fcfbe484b6"
+    },
+    {
+      "nativeName": "P9",
+      "referencePositionM": [
+        9.65,
+        7.05
+      ],
+      "barHeightCm": 10,
+      "barHeightMode": "Fixo",
+      "support": "Rotulado",
+      "pillarLink": "Engastado",
+      "bCm": 20,
+      "hCm": 30,
+      "rotationDeg": 0,
+      "depthDfCm": 0,
+      "elevationCm": 0,
+      "readAfterReopen": true,
+      "evidence": "D:\\TCC\\outputs\\Apoios-H03-R54-NAO-EXECUTAR\\CAD-P9-N0-reaberto-UI.txt",
+      "evidenceSha256": "12d71b73d3d98dedf87235a3bc8cff26af55209377ae13bab66b5b5ce6b8e360"
+    },
+    {
+      "nativeName": "P11",
+      "referencePositionM": [
+        6.55,
+        3.9
+      ],
+      "barHeightCm": 10,
+      "barHeightMode": "Fixo",
+      "support": "Rotulado",
+      "pillarLink": "Engastado",
+      "bCm": 20,
+      "hCm": 30,
+      "rotationDeg": 90,
+      "depthDfCm": 0,
+      "elevationCm": 0,
+      "readAfterReopen": true,
+      "evidence": "D:\\TCC\\outputs\\Apoios-H03-R54-NAO-EXECUTAR\\CAD-P11-N0-reaberto-UI.txt",
+      "evidenceSha256": "d95857a2451856c62577e741a29b137096a2f8e30b76c8a31cbe23b92f2da1b9"
+    }
+  ],
+  "all11IndividuallyReadAfterReopen": false,
+  "saveCloseReopenPerformed": true,
+  "studyHypothesis": {
+    "support": "Rotulado",
+    "barHeightMode": "Fixo",
+    "barHeightCm": 10,
+    "depthDfCm": 0,
+    "realFoundationDesigned": false,
+    "soilPropertiesKnown": false,
+    "analyticalBaseCoordinatesVerified": false,
+    "auxiliaryBarSensitivityVerified": false
+  },
+  "structuralAnalysisPerformed": false,
+  "fullLoadSetComplete": false,
+  "newIFCExportPerformed": false,
+  "postRevisionSuperstructureGeometryAuditPending": true
+}

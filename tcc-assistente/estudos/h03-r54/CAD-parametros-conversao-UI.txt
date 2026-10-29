@@ -1,0 +1,158 @@
+Window: "AltoQi Eberick 2025 Infinity - [H03_CAD_R54_APOIOS_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [H03_CAD_R54_APOIOS_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		94672 diálogo Converter em pilares de fundação Secondary Actions: Raise
+			94673 grupo Tipo da fundação ID: 844
+			94674 botão de opção (selectable) Bloco ID: 806
+			94675 botão de opção (selectable) Sapata ID: 807
+			94676 caixa de seleção Divisa ID: 752
+			94677 botão de opção (selectable) Tubulão ID: 1202
+			94678 botão (disabled) ... ID: 751
+			94679 botão de opção (selectable) Estaca isolada ID: 1201
+			94680 text Tipo ID: 1204
+			94681 caixa de combinação (disabled, settable, string) Tipo Value: retangular ID: 1203
+				94682 text (settable, string) Tipo Value: retangular
+				94683 botão Abrir ID: DropDown
+			94684 text Nome ID: 1208
+			94685 caixa de combinação (disabled, settable, string) Nome Value: R20 ID: 1209
+				94686 text (settable, string) Nome Value: R20
+				94687 botão Abrir ID: DropDown
+			94688 grupo Dados da fundação ID: 1205
+			94689 text Apoio ID: 1206
+			94690 caixa de combinação (settable, string) Apoio Value: Rotulado ID: 826
+				94691 text (settable, string) Apoio Value: Rotulado
+				94692 botão Abrir ID: DropDown
+			94693 botão ... ID: 827
+			94694 text Altura barra ID: 1207
+			94695 caixa de combinação (settable, string) Altura barra Value: Fixo ID: 1210
+				94696 text (settable, string) Altura barra Value: Fixo
+				94697 botão Abrir ID: DropDown
+			94698 editar (settable, string) Value: 10 ID: 803
+			94699 text cm ID: 804
+			94700 text Profundidade (df) ID: 1216
+			94701 editar (settable, string) Profundidade (df) Value: 0 ID: 1214
+			94702 text cm ID: 1212
+			94703 text Altura do Arranque (ha) ID: 1215
+			94704 editar (disabled, settable, string) Altura do Arranque (ha) Value: 100 ID: 1213
+			94705 text cm ID: 1211
+			94706 botão OK ID: 1
+			94707 botão Cancelar ID: 2
+			94708 botão Ajuda ID: 9
+			94709 barra de título (settable, string) Value: Converter em pilares de fundação
+		168 Barra de status
+			95160 custom
+				95161 text Converter em fundações-Selecione (11 sel.)
+				95162 editar (settable, string)
+				95163 text -17.0,736.3
+				95164 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					95165 Lista
+						95166 item de lista (selectable) 1:1
+						95167 item de lista (selectable) 1:2
+						95168 item de lista (selectable) 1:5
+						95169 item de lista (selectable) 1:10
+						95170 item de lista (selectable) 1:12.5
+						95171 item de lista (selectable) 1:15
+						95172 item de lista (selectable) 1:20
+						95173 item de lista (selectable) 1:25
+						95174 item de lista (selectable) 1:30
+						95175 item de lista (selectable) 1:40
+						95176 item de lista (selectable) 1:50
+						95177 item de lista (selectable) 1:60
+						95178 item de lista (selectable) 1:75
+						95179 item de lista (selectable) 1:100
+						95180 item de lista (selectable) 1:200
+						95181 item de lista (selectable) 1:250
+						95182 item de lista (selectable) 1:500
+						95183 item de lista (selectable) 1:1000
+			95184 botão Atualizar
+			95185 botão Enquadrar
+			95186 botão Aproximar
+			95187 botão Afastar
+			95188 botão Zoom
+			95189 botão Zoom anterior
+			95190 botão Deslocar
+			95191 caixa de seleção Ortogonal
+			95192 caixa de seleção Captura personalizada
+			95193 botão Opções da captura personalizada
+			95194 caixa de seleção Quadrante
+			95195 caixa de seleção Centro
+			95196 caixa de seleção Ponto médio
+			95197 caixa de seleção Extremidade
+			95198 caixa de seleção Ponto no elemento
+			95199 caixa de seleção Intersecção
+			95200 caixa de seleção Perpendicular
+			95201 caixa de seleção Ponto intermediário
+			95202 caixa de seleção Ponto quadrante
+			95203 caixa de seleção Ponto na intersecção
+			95204 caixa de seleção Ponto relativo
+		169 painel
+			170 botão de divisão
+				171 elevador
+				172 painel
+					173 tabulação Croqui-N0
+						95205 item de tabulação (selectable) Notícias
+						95206 item de tabulação (selectable) Croqui-N0
+					175 painel
+						79771 painel
+							79772 painel Croqui-N0
+								79773 painel TCadPlotWindow
+				198 painel
+					199 tabulação
+						95207 item de tabulação (selectable)
+						95208 item de tabulação (selectable)
+					201 painel
+						202 janela Edificação Secondary Actions: Raise
+							203 painel
+								204 painel Projeto
+									205 painel
+									79664 árvore ID: 101
+										79665 item da árvore (selectable, disabled) Pavimentos
+											79666 item da árvore (selectable, disabled) N2
+											79667 item da árvore (selectable, disabled) N1
+											79668 item da árvore (selectable, disabled) N0
+										79669 item da árvore (selectable, disabled) Cortes
+										79670 item da árvore (selectable, disabled) Gerenciador de desenhos
+										79671 item da árvore (selectable, disabled) Modelos 3D
+		215 barra de menus
+		94672 diálogo Converter em pilares de fundação Secondary Actions: Raise
+			94673 grupo Tipo da fundação ID: 844
+			94674 botão de opção (selectable) Bloco ID: 806
+			94675 botão de opção (selectable) Sapata ID: 807
+			94676 caixa de seleção Divisa ID: 752
+			94677 botão de opção (selectable) Tubulão ID: 1202
+			94678 botão (disabled) ... ID: 751
+			94679 botão de opção (selectable) Estaca isolada ID: 1201
+			94680 text Tipo ID: 1204
+			94681 caixa de combinação (disabled, settable, string) Tipo Value: retangular ID: 1203
+				94682 text (settable, string) Tipo Value: retangular
+				94683 botão Abrir ID: DropDown
+			94684 text Nome ID: 1208
+			94685 caixa de combinação (disabled, settable, string) Nome Value: R20 ID: 1209
+				94686 text (settable, string) Nome Value: R20
+				94687 botão Abrir ID: DropDown
+			94688 grupo Dados da fundação ID: 1205
+			94689 text Apoio ID: 1206
+			94690 caixa de combinação (settable, string) Apoio Value: Rotulado ID: 826
+				94691 text (settable, string) Apoio Value: Rotulado
+				94692 botão Abrir ID: DropDown
+			94693 botão ... ID: 827
+			94694 text Altura barra ID: 1207
+			94695 caixa de combinação (settable, string) Altura barra Value: Fixo ID: 1210
+				94696 text (settable, string) Altura barra Value: Fixo
+				94697 botão Abrir ID: DropDown
+			94698 editar (settable, string) Value: 10 ID: 803
+			94699 text cm ID: 804
+			94700 text Profundidade (df) ID: 1216
+			94701 editar (settable, string) Profundidade (df) Value: 0 ID: 1214
+			94702 text cm ID: 1212
+			94703 text Altura do Arranque (ha) ID: 1215
+			94704 editar (disabled, settable, string) Altura do Arranque (ha) Value: 100 ID: 1213
+			94705 text cm ID: 1211
+			94706 botão OK ID: 1
+			94707 botão Cancelar ID: 2
+			94708 botão Ajuda ID: 9
+			94709 barra de título (settable, string) Value: Converter em pilares de fundação
+
+Document text: ```
+Converter em fundações-Selecione (11 sel.)
+-17.0,736.3
+```

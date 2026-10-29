@@ -1,0 +1,74 @@
+{
+  "revision": "H03/R55",
+  "atUtc": "2026-10-29T14:01:45.546503+00:00",
+  "sourceGeometryRevision": "IFC R53; auditoria pos-conversao R54 pendente",
+  "sameReferenceForBothBranches": true,
+  "sourceSpatialBoundingBoxesEqual": true,
+  "protectedR54FilesChecked": 36,
+  "wallCount": 20,
+  "segmentCount": 59,
+  "slabSupportedWalls": [
+    "W15",
+    "W16",
+    "W20"
+  ],
+  "ceilingInterferenceWallIds": [
+    "W01",
+    "W02",
+    "W03",
+    "W04",
+    "W05",
+    "W06",
+    "W07",
+    "W09",
+    "W10",
+    "W11",
+    "W12",
+    "W13",
+    "W14",
+    "W15",
+    "W19",
+    "W20"
+  ],
+  "allLoadsApplied": false,
+  "nativeFilesModified": false,
+  "calculationPerformed": false,
+  "inputs": [
+    {
+      "path": "D:\\TCC\\outputs\\Compatibilizacao-H01-R06\\paredes-superior-referencia.json",
+      "sha256": "323786a2318b4b66111a885657bfae232b750c27fb5b671a6f674246287565c4"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Concepcao-H03-R34-ESTUDO-NAO-ADOTADO\\R34-referencia-arquitetonica.json",
+      "sha256": "53d10b1dd4b4e8169c7e6482eb62e7b8951ac524107627be47a4b726811ca8fd"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Cargas-H03-R53-PARCIAL-NAO-EXECUTAR\\IFC-CAD\\Modelo 3D.IFC",
+      "sha256": "5543c12ce8267aec286ce04b6a49519b4b5cd90c97e2b81c77b1beaccc261dec"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Cargas-H03-R53-PARCIAL-NAO-EXECUTAR\\IFC-BIM\\Modelo 3D.IFC",
+      "sha256": "f6d5b81f6f639bab259314311684427bfac73b26f5a8f6f16e74ba429047b210"
+    }
+  ],
+  "wallCompositionHypothesis": {
+    "finishedThicknessM": 0.15,
+    "ceramicBlockM": 0.115,
+    "finishEachFaceM": 0.0175,
+    "uncoatedWallKNm2": 0.9,
+    "finishDensityKNm3": 19,
+    "areaWeightKNm2": 1.565,
+    "source": "Exemplar local NBR 6120:2019, Tabela 2, PDF17/pagina impressa11; 1,565 calculado por composicao, nao valor diretamente tabelado",
+    "manufacturerConfirmed": false
+  },
+  "limits": [
+    "Caixas envolventes trianguladas de elementos ortogonais; nao verifica contatos/ligacoes analiticas, excentricidades ou resistencia.",
+    "Trechos nos pilares excluidos da alvenaria; acabamento sobre concreto, encontros de paredes, vergas/contravergas e esquadrias pendentes.",
+    "Nenhum desconto de vao aplicado. Altura cheia ate intradorso e hipotese, ainda nao liberada para lancamento.",
+    "W08 permanece sem altura/carga definida: base junto a escada pendente, nunca tratada como zero.",
+    "Forro a 2,80m acima do piso local e referencia de triagem; confirmar extensao/espessura do sistema por ambiente.",
+    "Nao somar cargas brutas como quantitativo final. Faltam paredes terreas, muros, platibandas e abrigo do tanque.",
+    "Nomes nativos CAD/BIM no CSV correspondidos por classe e caixa espacial; nao implica igualdade de numeracao ou vinculos.",
+    "Conflitos de forro sao comuns da concepcao; nao atribuidos como defeitos de transferencia."
+  ]
+}

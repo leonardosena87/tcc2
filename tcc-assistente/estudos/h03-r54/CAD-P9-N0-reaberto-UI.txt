@@ -1,0 +1,176 @@
+Window: "AltoQi Eberick 2025 Infinity - [H03_CAD_R54_APOIOS_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [H03_CAD_R54_APOIOS_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		168 Barra de status
+			102906 custom
+				102907 text Comando (1 sel.)
+				102908 editar (settable, string)
+				102909 text 965.0,705.5
+				102910 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					102911 Lista
+						102912 item de lista (selectable) 1:1
+						102913 item de lista (selectable) 1:2
+						102914 item de lista (selectable) 1:5
+						102915 item de lista (selectable) 1:10
+						102916 item de lista (selectable) 1:12.5
+						102917 item de lista (selectable) 1:15
+						102918 item de lista (selectable) 1:20
+						102919 item de lista (selectable) 1:25
+						102920 item de lista (selectable) 1:30
+						102921 item de lista (selectable) 1:40
+						102922 item de lista (selectable) 1:50
+						102923 item de lista (selectable) 1:60
+						102924 item de lista (selectable) 1:75
+						102925 item de lista (selectable) 1:100
+						102926 item de lista (selectable) 1:200
+						102927 item de lista (selectable) 1:250
+						102928 item de lista (selectable) 1:500
+						102929 item de lista (selectable) 1:1000
+			102930 botão Atualizar
+			102931 botão Enquadrar
+			102932 botão Aproximar
+			102933 botão Afastar
+			102934 botão Zoom
+			102935 botão Zoom anterior
+			102936 botão Deslocar
+			102937 caixa de seleção Ortogonal
+			102938 caixa de seleção Captura personalizada
+			102939 botão Opções da captura personalizada
+			102940 caixa de seleção Quadrante
+			102941 caixa de seleção Centro
+			102942 caixa de seleção Ponto médio
+			102943 caixa de seleção Extremidade
+			102944 caixa de seleção Ponto no elemento
+			102945 caixa de seleção Intersecção
+			102946 caixa de seleção Perpendicular
+			102947 caixa de seleção Ponto intermediário
+			102948 caixa de seleção Ponto quadrante
+			102949 caixa de seleção Ponto na intersecção
+			102950 caixa de seleção Ponto relativo
+		169 painel
+			170 botão de divisão
+				171 elevador
+				172 painel
+					173 tabulação Croqui-N0
+						102951 item de tabulação (selectable) Notícias
+						102952 item de tabulação (selectable) Croqui-N0
+					175 painel
+						98891 painel
+							98892 painel Croqui-N0
+								98893 painel TCadPlotWindow
+				198 painel
+					199 tabulação
+						102953 item de tabulação (selectable)
+						102954 item de tabulação (selectable)
+					201 painel
+						202 janela Edificação Secondary Actions: Raise
+							203 painel
+								204 painel Projeto
+									205 painel
+									98831 árvore ID: 101
+										98832 item da árvore (selectable, disabled) Pavimentos
+											98833 item da árvore (selectable, disabled) N2
+											98834 item da árvore (selectable, disabled) N1
+											98835 item da árvore (selectable, disabled) N0
+										98836 item da árvore (selectable, disabled) Cortes
+										98837 item da árvore (selectable, disabled) Gerenciador de desenhos
+										98838 item da árvore (selectable, disabled) Modelos 3D
+		215 barra de menus
+		102955 diálogo Pilar de fundação Secondary Actions: Raise
+			102956 grupo Pilar ID: 1237
+			102957 text Nome
+			102958 editar (settable, string) Nome Value: P9 ID: 801
+			102959 text Ambiente ID: 798
+			102960 caixa de combinação (settable, string) Ambiente Value: Externo ID: 828
+				102961 text (settable, string) Ambiente Value: Externo
+				102962 botão Abrir ID: DropDown
+			102963 grupo Modelo ID: 1238
+			102964 text Altura barra ID: 804
+			102965 caixa de combinação (settable, string) Altura barra Value: Fixo ID: 1014
+				102966 text (settable, string) Altura barra Value: Fixo
+				102967 botão Abrir ID: DropDown
+			102968 editar (settable, string) Value: 10 ID: 803
+			102969 text cm ID: 1240
+			102970 text Vínculo pilar ID: 1241
+			102971 caixa de combinação (settable, string) Vínculo pilar Value: Engastado ID: 821
+				102972 text (settable, string) Vínculo pilar Value: Engastado
+				102973 botão Abrir ID: DropDown
+			102974 text Vínculo apoio ID: 1242
+			102975 caixa de combinação (settable, string) Vínculo apoio Value: Rotulado ID: 826
+				102976 text (settable, string) Vínculo apoio Value: Rotulado
+				102977 botão Abrir ID: DropDown
+			102978 botão ... ID: 827
+			102979 grupo Seção do pilar ID: 843
+			102980 text Tipo ID: 1243
+			102981 caixa de combinação (settable, string) Tipo Value: retangular ID: 809
+				102982 text (settable, string) Tipo Value: retangular
+				102983 botão Abrir ID: DropDown
+			102984 text ID: 818
+			102985 text b ID: 814
+			102986 editar (settable, string) b Value: 20 ID: 810
+			102987 text cm ID: 1244
+			102988 text h ID: 815
+			102989 editar (settable, string) h Value: 30 ID: 811
+			102990 text cm ID: 1246
+			102991 text b1 ID: 816
+			102992 editar (disabled, settable, string) b1 Value: 0 ID: 812
+			102993 text cm ID: 1245
+			102994 text h1 ID: 817
+			102995 editar (disabled, settable, string) h1 Value: 0 ID: 813
+			102996 text cm ID: 1247
+			102997 text Ângulo de abertura ID: 855
+			102998 editar (disabled, settable, string) Ângulo de abertura Value: 90 ID: 856
+			102999 text o ID: 857
+			103000 text Ângulo de rotação ID: 858
+			103001 editar (settable, string) Ângulo de rotação Value: 0 ID: 802
+			103002 text o ID: 859
+			103003 text Elevação ID: 860
+			103004 editar (settable, string) Elevação Value: 0 ID: 820
+			103005 text cm ID: 861
+			103006 caixa de seleção Manter seção constante na prumada ID: 834
+			103007 grupo Fundação ID: 844
+			103008 botão de opção (selectable) Bloco ID: 806
+			103009 botão de opção (selectable) Sapata ID: 807
+			103010 caixa de seleção Divisa ID: 1234
+			103011 botão de opção (selectable) Tubulão ID: 1202
+			103012 botão (disabled) ... ID: 1233
+			103013 text Associação ID: 845
+			103014 editar (disabled) Associação ID: 835
+			103015 botão ... ID: 836
+			103016 text Rotação ID: 1001
+			103017 caixa de combinação (settable, string) Rotação Value: 0° com o pilar ID: 1002
+				103018 text (settable, string) Rotação Value: 0° com o pilar
+				103019 botão Abrir ID: DropDown
+			103020 text Ângulo ID: 1003
+			103021 editar (disabled, settable, string) Ângulo Value: 0 ID: 1004
+			103022 text o ID: 1005
+			103023 text Profundidade (df) ID: 1008
+			103024 editar (settable, string) Profundidade (df) Value: 0 ID: 1006
+			103025 text cm ID: 1007
+			103026 text Altura do arranque (ha) ID: 1013
+			103027 editar (disabled, settable, string) Altura do arranque (ha) Value: 100 ID: 1012
+			103028 text cm ID: 1011
+			103029 grupo Capitel ID: 846
+			103030 caixa de seleção Usar capitel ID: 837
+			103031 text Ângulo de rotação ID: 847
+			103032 editar (disabled, settable, string) Ângulo de rotação Value: 0 ID: 838
+			103033 text o ID: 848
+			103034 text b ID: 849
+			103035 editar (disabled, settable, string) b Value: 100 ID: 840
+			103036 text cm ID: 850
+			103037 text Espessura ID: 851
+			103038 editar (disabled, settable, string) Espessura Value: 30 ID: 839
+			103039 text cm ID: 852
+			103040 text h ID: 853
+			103041 editar (disabled, settable, string) h Value: 100 ID: 841
+			103042 text cm ID: 854
+			103043 botão OK ID: 1
+			103044 botão Cancelar ID: 2
+			103045 botão Desenho... ID: 547
+			103046 botão Cargas... ID: 822
+			103047 botão Ajuda ID: 9
+			103048 barra de título (settable, string) Value: Pilar de fundação
+
+Document text: ```
+Editar
+965.0,705.5
+```

@@ -1,0 +1,643 @@
+{
+  "walls": [
+    {
+      "id": "W01",
+      "name": "Fachada esquerda / quarto 16 m²",
+      "x": 0,
+      "y": 0,
+      "x2": 0,
+      "y2": 3.9,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.25,
+      "openings": [
+        {
+          "tag": "J1",
+          "widthM": 1.6,
+          "heightM": 1.0,
+          "material": "Alumínio",
+          "sillM": null,
+          "sillMeaning": "Tabela informa varia",
+          "positionAlongWallM": null,
+          "tareKN": null
+        }
+      ],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 3.9,
+      "openingAreaReferenceM2": 1.6,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [
+        {
+          "id": "S-J1-01",
+          "tag": "J1",
+          "x": 0,
+          "y": 1.15,
+          "x2": 0,
+          "y2": 2.75,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        }
+      ],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W02",
+      "name": "Fachada esquerda / quarto 13 m²",
+      "x": 0,
+      "y": 3.9,
+      "x2": 0,
+      "y2": 7.05,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.25,
+      "openings": [
+        {
+          "tag": "J1",
+          "widthM": 1.6,
+          "heightM": 1.0,
+          "material": "Alumínio",
+          "sillM": null,
+          "sillMeaning": "Tabela informa varia",
+          "positionAlongWallM": null,
+          "tareKN": null
+        }
+      ],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 3.15,
+      "openingAreaReferenceM2": 1.6,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [
+        {
+          "id": "S-J1-02",
+          "tag": "J1",
+          "x": 0,
+          "y": 4.7,
+          "x2": 0,
+          "y2": 6.3,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        }
+      ],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W03",
+      "name": "Fachada superior / quarto",
+      "x": 0,
+      "y": 7.05,
+      "x2": 4.4,
+      "y2": 7.05,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.25,
+      "openings": [],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 4.4,
+      "openingAreaReferenceM2": 0,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W04",
+      "name": "Fachada superior / suíte",
+      "x": 4.4,
+      "y": 7.05,
+      "x2": 9.65,
+      "y2": 7.05,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.25,
+      "openings": [
+        {
+          "tag": "J1",
+          "widthM": 1.6,
+          "heightM": 1.0,
+          "material": "Alumínio",
+          "sillM": null,
+          "sillMeaning": "Tabela informa varia",
+          "positionAlongWallM": null,
+          "tareKN": null
+        }
+      ],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 5.25,
+      "openingAreaReferenceM2": 1.6,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [
+        {
+          "id": "S-J1-03",
+          "tag": "J1",
+          "x": 6.75,
+          "y": 7.05,
+          "x2": 8.35,
+          "y2": 7.05,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        }
+      ],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W05",
+      "name": "Fachada direita / banheiro",
+      "x": 9.65,
+      "y": 0,
+      "x2": 9.65,
+      "y2": 3.9,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.24,
+      "openings": [],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 3.9,
+      "openingAreaReferenceM2": 0,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W06",
+      "name": "Suíte / varanda",
+      "x": 9.65,
+      "y": 3.9,
+      "x2": 9.65,
+      "y2": 7.05,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.25,
+      "openings": [
+        {
+          "tag": "P4",
+          "widthM": 2.0,
+          "heightM": 2.1,
+          "material": "Vidro",
+          "positionAlongWallM": null,
+          "tareKN": null
+        }
+      ],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 3.15,
+      "openingAreaReferenceM2": 4.2,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [
+        {
+          "id": "S-P4-01",
+          "tag": "P4",
+          "x": 9.65,
+          "y": 4.45,
+          "x2": 9.65,
+          "y2": 6.45,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        }
+      ],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W07",
+      "name": "Fachada inferior / quarto",
+      "x": 0,
+      "y": 0,
+      "x2": 4.4,
+      "y2": 0,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.25,
+      "openings": [],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 4.4,
+      "openingAreaReferenceM2": 0,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W08",
+      "name": "Fachada inferior / caixa da escada",
+      "x": 4.4,
+      "y": 0,
+      "x2": 6.55,
+      "y2": 0,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": null,
+      "openings": [],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 2.15,
+      "openingAreaReferenceM2": 0,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W09",
+      "name": "Fachada inferior / banheiro esquerdo",
+      "x": 6.55,
+      "y": 0,
+      "x2": 8.1,
+      "y2": 0,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.24,
+      "openings": [
+        {
+          "tag": "J2",
+          "widthM": 0.8,
+          "heightM": 0.6,
+          "material": "Alumínio",
+          "sillM": 1.5,
+          "positionAlongWallM": null,
+          "tareKN": null
+        }
+      ],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 1.55,
+      "openingAreaReferenceM2": 0.48,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [
+        {
+          "id": "S-J2-01",
+          "tag": "J2",
+          "x": 6.95,
+          "y": 0,
+          "x2": 7.75,
+          "y2": 0,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        }
+      ],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W10",
+      "name": "Fachada inferior / banheiro direito",
+      "x": 8.1,
+      "y": 0,
+      "x2": 9.65,
+      "y2": 0,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.24,
+      "openings": [
+        {
+          "tag": "J2",
+          "widthM": 0.8,
+          "heightM": 0.6,
+          "material": "Alumínio",
+          "sillM": 1.5,
+          "positionAlongWallM": null,
+          "tareKN": null
+        }
+      ],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 1.55,
+      "openingAreaReferenceM2": 0.48,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [
+        {
+          "id": "S-J2-02",
+          "tag": "J2",
+          "x": 8.5,
+          "y": 0,
+          "x2": 9.3,
+          "y2": 0,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        }
+      ],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W11",
+      "name": "Divisória entre quartos",
+      "x": 0,
+      "y": 3.9,
+      "x2": 4.4,
+      "y2": 3.9,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.25,
+      "openings": [],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 4.4,
+      "openingAreaReferenceM2": 0,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W12",
+      "name": "Quarto inferior / hall e escada",
+      "x": 4.4,
+      "y": 0,
+      "x2": 4.4,
+      "y2": 3.9,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.25,
+      "openings": [
+        {
+          "tag": "P2",
+          "widthM": 0.7,
+          "heightM": 2.1,
+          "material": "Madeira",
+          "positionAlongWallM": null,
+          "tareKN": null
+        }
+      ],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 3.9,
+      "openingAreaReferenceM2": 1.47,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [
+        {
+          "id": "S-P2-01",
+          "tag": "P2",
+          "x": 4.4,
+          "y": 3.05,
+          "x2": 4.4,
+          "y2": 3.75,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        }
+      ],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W13",
+      "name": "Quarto superior / acesso pelo hall",
+      "x": 4.4,
+      "y": 3.9,
+      "x2": 4.4,
+      "y2": 4.95,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.25,
+      "openings": [
+        {
+          "tag": "P2",
+          "widthM": 0.7,
+          "heightM": 2.1,
+          "material": "Madeira",
+          "positionAlongWallM": null,
+          "tareKN": null
+        }
+      ],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 1.05,
+      "openingAreaReferenceM2": 1.47,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [
+        {
+          "id": "S-P2-02",
+          "tag": "P2",
+          "x": 4.4,
+          "y": 4.05,
+          "x2": 4.4,
+          "y2": 4.75,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        }
+      ],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W14",
+      "name": "Quarto superior / suíte",
+      "x": 4.4,
+      "y": 4.95,
+      "x2": 4.4,
+      "y2": 7.05,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.25,
+      "openings": [],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 2.1,
+      "openingAreaReferenceM2": 0,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W15",
+      "name": "Retorno horizontal da suíte sobre o hall",
+      "x": 4.4,
+      "y": 4.95,
+      "x2": 5.45,
+      "y2": 4.95,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.25,
+      "openings": [],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 1.05,
+      "openingAreaReferenceM2": 0,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W16",
+      "name": "Suíte / porta para o hall",
+      "x": 5.45,
+      "y": 3.9,
+      "x2": 5.45,
+      "y2": 4.95,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.25,
+      "openings": [
+        {
+          "tag": "P2",
+          "widthM": 0.7,
+          "heightM": 2.1,
+          "material": "Madeira",
+          "positionAlongWallM": null,
+          "tareKN": null
+        }
+      ],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 1.05,
+      "openingAreaReferenceM2": 1.47,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [
+        {
+          "id": "S-P2-03",
+          "tag": "P2",
+          "x": 5.45,
+          "y": 4.05,
+          "x2": 5.45,
+          "y2": 4.75,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        }
+      ],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W17",
+      "name": "Suíte / faixa sobre o hall",
+      "x": 5.45,
+      "y": 3.9,
+      "x2": 6.55,
+      "y2": 3.9,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.25,
+      "openings": [],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 1.1,
+      "openingAreaReferenceM2": 0,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W18",
+      "name": "Suíte / banheiros",
+      "x": 6.55,
+      "y": 3.9,
+      "x2": 9.65,
+      "y2": 3.9,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.24,
+      "openings": [
+        {
+          "tag": "P3",
+          "widthM": 0.6,
+          "heightM": 2.1,
+          "material": "Madeira",
+          "positionAlongWallM": null,
+          "tareKN": null
+        }
+      ],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 3.1,
+      "openingAreaReferenceM2": 1.26,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [
+        {
+          "id": "S-P3-02",
+          "tag": "P3",
+          "x": 9.05,
+          "y": 3.9,
+          "x2": 9.65,
+          "y2": 3.9,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        }
+      ],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W19",
+      "name": "Hall e escada / banheiro esquerdo",
+      "x": 6.55,
+      "y": 0,
+      "x2": 6.55,
+      "y2": 3.9,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.24,
+      "openings": [
+        {
+          "tag": "P3",
+          "widthM": 0.6,
+          "heightM": 2.1,
+          "material": "Madeira",
+          "positionAlongWallM": null,
+          "tareKN": null
+        }
+      ],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 3.9,
+      "openingAreaReferenceM2": 1.26,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [
+        {
+          "id": "S-P3-01",
+          "tag": "P3",
+          "x": 6.55,
+          "y": 3.1263166666666664,
+          "x2": 6.55,
+          "y2": 3.7274499999999984,
+          "source": "Identificacao manual da porta P3 no recorte superior e conferência de vetores do PDF: x=915.36..923.76 pt, top=1287.68..1321.76 pt; eixo local nominal x=6.55 m.",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        }
+      ],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    },
+    {
+      "id": "W20",
+      "name": "Divisória entre banheiros",
+      "x": 8.1,
+      "y": 0,
+      "x2": 8.1,
+      "y2": 3.9,
+      "origin": "Leitura manual revisada da planta e cotas; não reconhecimento automático de paredes",
+      "finishedThicknessM": 0.15,
+      "baseFinishedElevationM": 3.24,
+      "openings": [],
+      "wallAreaWeightKNm2Hypothesis": 1.565,
+      "appliedToEberick": false,
+      "complete": false,
+      "lengthBetweenAxesM": 3.9,
+      "openingAreaReferenceM2": 0,
+      "openingDeductionApplied": false,
+      "openingReferencesR34": [],
+      "openingPositionStatus": "Triagem manual R34; confirmar faces e alturas antes de descontar"
+    }
+  ]
+}

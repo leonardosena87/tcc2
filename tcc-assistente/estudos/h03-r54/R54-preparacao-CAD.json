@@ -1,0 +1,50 @@
+{
+  "branch": "CAD",
+  "nativeProject": "D:\\TCC\\outputs\\H03_CAD_R54_APOIOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+  "files": [
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R53-PARCIAL-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "copy": "D:\\TCC\\outputs\\H03_CAD_R54_APOIOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R53-PARCIAL-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "copy": "D:\\TCC\\outputs\\H03_CAD_R54_APOIOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "67bfab0df874e69de8e819b5e0256e32dfefb72d8a6ae64a46612c11b53d7ec0"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R53-PARCIAL-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "copy": "D:\\TCC\\outputs\\H03_CAD_R54_APOIOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256": "3fc512685747210bd438f1ef872b5d0371e07518339b1577a13d8d7bbe407ba4"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R53-PARCIAL-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "copy": "D:\\TCC\\outputs\\H03_CAD_R54_APOIOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256": "67bfab0df874e69de8e819b5e0256e32dfefb72d8a6ae64a46612c11b53d7ec0"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R53-PARCIAL-NAO-EXECUTAR\\congelado-CAD\\_DADOS_\\EdificacaoEberick.ini",
+      "copy": "D:\\TCC\\outputs\\H03_CAD_R54_APOIOS_NAO_EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "f03699ba1e189db042800057b8505c3c0048410d433f4baf391f9973fc7ddf75"
+    }
+  ],
+  "studyHypothesis": {
+    "support": "Rotulado",
+    "barHeightMode": "Fixo",
+    "barHeightCm": 10,
+    "depthDfCm": 0,
+    "realFoundationDesigned": false,
+    "soilPropertiesKnown": false,
+    "analyticalBaseCoordinatesVerified": false,
+    "auxiliaryBarSensitivityVerified": false
+  },
+  "excludeFromSuperstructureQuantities": [
+    "Cadastros auxiliares de fundacao",
+    "Barras auxiliares abaixo de N0"
+  ],
+  "references": [
+    "https://suporte.altoqi.com.br/hc/pt-br/articles/360012152833",
+    "https://suporte.altoqi.com.br/hc/pt-br/articles/115002375753"
+  ],
+  "status": "Preparado; alteracoes nativas ainda nao realizadas."
+}
