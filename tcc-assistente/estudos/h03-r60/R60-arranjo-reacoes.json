@@ -1,0 +1,909 @@
+{
+  "revision": "H03/R60",
+  "atUtc": "2026-10-29T17:51:38.088563+00:00",
+  "scope": "Arranjo de estudo e mapa parcial de reacoes, sem dimensionamento metalico ou lancamento nativo",
+  "geometrySource": {
+    "path": "D:\\TCC\\outputs\\Cobertura-H03-R56-ESTUDO-NAO-EXECUTAR\\R56-geometria-exportada.json",
+    "sha256": "6fc2486f4eecd19985a4c4d87886822bb76ee40cee80e07c352db25bca0aabf7",
+    "meaning": "Geometria R56 conferida em R57 antes do processamento R58; nao nova exportacao R60"
+  },
+  "roofCalibration": {
+    "originPdfTopLeftCoordinates": [
+      2040.48,
+      710.36
+    ],
+    "pointsPerMeter": 28.34645669291339,
+    "sourceScale": "1:100",
+    "references": [
+      {
+        "axis": "x",
+        "pdf": 2226.24,
+        "nominalM": 6.55,
+        "measuredM": 6.553199999999991,
+        "residualM": 0.003199999999990766
+      },
+      {
+        "axis": "x",
+        "pdf": 2314.08,
+        "nominalM": 9.65,
+        "measuredM": 9.651999999999996,
+        "residualM": 0.001999999999995339
+      },
+      {
+        "axis": "x",
+        "pdf": 2342.4,
+        "nominalM": 10.65,
+        "measuredM": 10.651066666666669,
+        "residualM": 0.0010666666666683255
+      },
+      {
+        "axis": "y",
+        "pdf": 599.84,
+        "nominalM": 3.9,
+        "measuredM": 3.898899999999999,
+        "residualM": -0.001100000000000989
+      },
+      {
+        "axis": "y",
+        "pdf": 510.56,
+        "nominalM": 7.05,
+        "measuredM": 7.0485,
+        "residualM": -0.0015000000000000568
+      }
+    ],
+    "method": "Eixos nominais de paredes identificados visualmente entre contornos PDF; calibracao da escala nao torna cotas ausentes em cotas executivas"
+  },
+  "planes": [
+    {
+      "id": "A1",
+      "name": "Agua inferior esquerda",
+      "box": [
+        0,
+        0,
+        6.55,
+        3.9
+      ],
+      "slopeDirection": [
+        0,
+        -1
+      ],
+      "status": "Arranjo metalico hipotetico e reacoes calculadas nesta R60",
+      "nominalProjectedAreaM2": 25.544999999999998
+    },
+    {
+      "id": "A2",
+      "name": "Agua superior sobre corpo principal",
+      "box": [
+        0,
+        3.9,
+        9.65,
+        7.05
+      ],
+      "slopeDirection": [
+        0,
+        1
+      ],
+      "status": "Parcela parcial da agua superior; exclui avanco da varanda",
+      "nominalProjectedAreaM2": 30.3975
+    },
+    {
+      "id": "P1",
+      "name": "Avanco da agua superior sobre varanda",
+      "box": [
+        9.65,
+        3.9,
+        10.65,
+        7.05
+      ],
+      "slopeDirection": [
+        0,
+        1
+      ],
+      "status": "Pendente: sem viga N2 sob borda externa; projetar suporte/balanco e ligacoes",
+      "nominalProjectedAreaM2": 3.15
+    },
+    {
+      "id": "P2",
+      "name": "Agua elevada do abrigo do reservatorio",
+      "box": [
+        6.55,
+        0,
+        9.65,
+        3.9
+      ],
+      "slopeDirection": [
+        -1,
+        0
+      ],
+      "status": "Pendente: cotas, abrigo, caminho das reacoes e apoio do tanque",
+      "nominalProjectedAreaM2": 12.090000000000002
+    }
+  ],
+  "roofPlanesAreNominalAxisAreas": true,
+  "netSheetAreaClaimed": false,
+  "partialProjectedAreaM2": 55.942499999999995,
+  "pendingProjectedAreaM2": 15.240000000000002,
+  "gHorizontalKNm2": 0.330897761180176,
+  "qRoofHorizontalKNm2": 0.25,
+  "rafters": [
+    {
+      "id": "A1-M01",
+      "plane": "A1",
+      "xM": 1.1,
+      "yStartM": 0,
+      "yEndM": 3.9,
+      "tributaryX": [
+        0,
+        2.2
+      ],
+      "tributaryWidthM": 2.2,
+      "horizontalSpanM": 3.9,
+      "inclinedSpanM": 3.9194514922371466,
+      "tributaryProjectedAreaM2": 8.58,
+      "gTotalKN": 2.83910279092591,
+      "qTotalKN": 2.145,
+      "gEachEndKN": 1.419551395462955,
+      "qEachEndKN": 1.0725,
+      "model": "Barra metalica inclinada biapoiada, carga vertical uniforme em projecao horizontal, sem empuxo horizontal idealizado",
+      "designVerified": false
+    },
+    {
+      "id": "A1-M02",
+      "plane": "A1",
+      "xM": 3.3000000000000003,
+      "yStartM": 0,
+      "yEndM": 3.9,
+      "tributaryX": [
+        2.2,
+        4.4
+      ],
+      "tributaryWidthM": 2.2,
+      "horizontalSpanM": 3.9,
+      "inclinedSpanM": 3.9194514922371466,
+      "tributaryProjectedAreaM2": 8.58,
+      "gTotalKN": 2.83910279092591,
+      "qTotalKN": 2.145,
+      "gEachEndKN": 1.419551395462955,
+      "qEachEndKN": 1.0725,
+      "model": "Barra metalica inclinada biapoiada, carga vertical uniforme em projecao horizontal, sem empuxo horizontal idealizado",
+      "designVerified": false
+    },
+    {
+      "id": "A1-M03",
+      "plane": "A1",
+      "xM": 5.475,
+      "yStartM": 0,
+      "yEndM": 3.9,
+      "tributaryX": [
+        4.4,
+        6.55
+      ],
+      "tributaryWidthM": 2.1499999999999995,
+      "horizontalSpanM": 3.9,
+      "inclinedSpanM": 3.9194514922371466,
+      "tributaryProjectedAreaM2": 8.384999999999998,
+      "gTotalKN": 2.774577727495775,
+      "qTotalKN": 2.0962499999999995,
+      "gEachEndKN": 1.3872888637478875,
+      "qEachEndKN": 1.0481249999999998,
+      "model": "Barra metalica inclinada biapoiada, carga vertical uniforme em projecao horizontal, sem empuxo horizontal idealizado",
+      "designVerified": false
+    },
+    {
+      "id": "A2-M01",
+      "plane": "A2",
+      "xM": 1.1,
+      "yStartM": 3.9,
+      "yEndM": 7.05,
+      "tributaryX": [
+        0,
+        2.2
+      ],
+      "tributaryWidthM": 2.2,
+      "horizontalSpanM": 3.15,
+      "inclinedSpanM": 3.16571082065308,
+      "tributaryProjectedAreaM2": 6.930000000000001,
+      "gTotalKN": 2.2931214849786197,
+      "qTotalKN": 1.7325000000000002,
+      "gEachEndKN": 1.1465607424893098,
+      "qEachEndKN": 0.8662500000000001,
+      "model": "Barra metalica inclinada biapoiada, carga vertical uniforme em projecao horizontal, sem empuxo horizontal idealizado",
+      "designVerified": false
+    },
+    {
+      "id": "A2-M02",
+      "plane": "A2",
+      "xM": 3.3000000000000003,
+      "yStartM": 3.9,
+      "yEndM": 7.05,
+      "tributaryX": [
+        2.2,
+        4.4
+      ],
+      "tributaryWidthM": 2.2,
+      "horizontalSpanM": 3.15,
+      "inclinedSpanM": 3.16571082065308,
+      "tributaryProjectedAreaM2": 6.930000000000001,
+      "gTotalKN": 2.2931214849786197,
+      "qTotalKN": 1.7325000000000002,
+      "gEachEndKN": 1.1465607424893098,
+      "qEachEndKN": 0.8662500000000001,
+      "model": "Barra metalica inclinada biapoiada, carga vertical uniforme em projecao horizontal, sem empuxo horizontal idealizado",
+      "designVerified": false
+    },
+    {
+      "id": "A2-M03",
+      "plane": "A2",
+      "xM": 5.475,
+      "yStartM": 3.9,
+      "yEndM": 7.05,
+      "tributaryX": [
+        4.4,
+        6.55
+      ],
+      "tributaryWidthM": 2.1499999999999995,
+      "horizontalSpanM": 3.15,
+      "inclinedSpanM": 3.16571082065308,
+      "tributaryProjectedAreaM2": 6.772499999999998,
+      "gTotalKN": 2.2410050875927414,
+      "qTotalKN": 1.6931249999999995,
+      "gEachEndKN": 1.1205025437963707,
+      "qEachEndKN": 0.8465624999999998,
+      "model": "Barra metalica inclinada biapoiada, carga vertical uniforme em projecao horizontal, sem empuxo horizontal idealizado",
+      "designVerified": false
+    },
+    {
+      "id": "A2-M04",
+      "plane": "A2",
+      "xM": 7.324999999999999,
+      "yStartM": 3.9,
+      "yEndM": 7.05,
+      "tributaryX": [
+        6.55,
+        8.1
+      ],
+      "tributaryWidthM": 1.5499999999999998,
+      "horizontalSpanM": 3.15,
+      "inclinedSpanM": 3.16571082065308,
+      "tributaryProjectedAreaM2": 4.882499999999999,
+      "gTotalKN": 1.615608318962209,
+      "qTotalKN": 1.2206249999999998,
+      "gEachEndKN": 0.8078041594811045,
+      "qEachEndKN": 0.6103124999999999,
+      "model": "Barra metalica inclinada biapoiada, carga vertical uniforme em projecao horizontal, sem empuxo horizontal idealizado",
+      "designVerified": false
+    },
+    {
+      "id": "A2-M05",
+      "plane": "A2",
+      "xM": 8.875,
+      "yStartM": 3.9,
+      "yEndM": 7.05,
+      "tributaryX": [
+        8.1,
+        9.65
+      ],
+      "tributaryWidthM": 1.5500000000000007,
+      "horizontalSpanM": 3.15,
+      "inclinedSpanM": 3.16571082065308,
+      "tributaryProjectedAreaM2": 4.882500000000002,
+      "gTotalKN": 1.61560831896221,
+      "qTotalKN": 1.2206250000000005,
+      "gEachEndKN": 0.807804159481105,
+      "qEachEndKN": 0.6103125000000003,
+      "model": "Barra metalica inclinada biapoiada, carga vertical uniforme em projecao horizontal, sem empuxo horizontal idealizado",
+      "designVerified": false
+    }
+  ],
+  "purlins": [
+    {
+      "plane": "A1",
+      "yRowsM": [
+        0,
+        1.3,
+        2.6,
+        3.9
+      ],
+      "maxSheetSpanAlongSlopeM": 1.3064838307457156
+    },
+    {
+      "plane": "A2",
+      "yRowsM": [
+        3.9,
+        5.475,
+        7.05
+      ],
+      "maxSheetSpanAlongSlopeM": 1.58285541032654
+    }
+  ],
+  "reactionNodes": [
+    {
+      "xM": 1.1,
+      "yM": 0,
+      "zConcreteBeamTopM": 6.39,
+      "gDownKN": 1.419551395462955,
+      "qRoofDownKN": 1.0725,
+      "sourceRafters": [
+        "A1-M01"
+      ],
+      "id": "RC01",
+      "nativeTargets": {
+        "CAD": {
+          "name": "V1_1",
+          "guid": "1JL$vTqomHyOy801fzsd4G",
+          "min": [
+            0.1,
+            -0.1,
+            6.09
+          ],
+          "max": [
+            4.3,
+            0.1,
+            6.39
+          ]
+        },
+        "BIM": {
+          "name": "V4",
+          "guid": "2MjmMsqlqHyOy801fzsd4G",
+          "min": [
+            0.1,
+            -0.1,
+            6.09
+          ],
+          "max": [
+            4.3,
+            0.1,
+            6.39
+          ]
+        }
+      },
+      "appliedToNative": false,
+      "forceZConventionKN": -1.419551395462955
+    },
+    {
+      "xM": 3.3000000000000003,
+      "yM": 0,
+      "zConcreteBeamTopM": 6.39,
+      "gDownKN": 1.419551395462955,
+      "qRoofDownKN": 1.0725,
+      "sourceRafters": [
+        "A1-M02"
+      ],
+      "id": "RC02",
+      "nativeTargets": {
+        "CAD": {
+          "name": "V1_1",
+          "guid": "1JL$vTqomHyOy801fzsd4G",
+          "min": [
+            0.1,
+            -0.1,
+            6.09
+          ],
+          "max": [
+            4.3,
+            0.1,
+            6.39
+          ]
+        },
+        "BIM": {
+          "name": "V4",
+          "guid": "2MjmMsqlqHyOy801fzsd4G",
+          "min": [
+            0.1,
+            -0.1,
+            6.09
+          ],
+          "max": [
+            4.3,
+            0.1,
+            6.39
+          ]
+        }
+      },
+      "appliedToNative": false,
+      "forceZConventionKN": -1.419551395462955
+    },
+    {
+      "xM": 5.475,
+      "yM": 0,
+      "zConcreteBeamTopM": 6.39,
+      "gDownKN": 1.3872888637478875,
+      "qRoofDownKN": 1.0481249999999998,
+      "sourceRafters": [
+        "A1-M03"
+      ],
+      "id": "RC03",
+      "nativeTargets": {
+        "CAD": {
+          "name": "V3",
+          "guid": "3TYVoZqomHyOy801fzsd4G",
+          "min": [
+            4.5,
+            -0.1,
+            6.09
+          ],
+          "max": [
+            6.45,
+            0.1,
+            6.39
+          ]
+        },
+        "BIM": {
+          "name": "V4",
+          "guid": "2MjmP9qlqHyOy801fzsd4G",
+          "min": [
+            4.5,
+            -0.1,
+            6.09
+          ],
+          "max": [
+            6.45,
+            0.1,
+            6.39
+          ]
+        }
+      },
+      "appliedToNative": false,
+      "forceZConventionKN": -1.3872888637478875
+    },
+    {
+      "xM": 1.1,
+      "yM": 3.9,
+      "zConcreteBeamTopM": 6.39,
+      "gDownKN": 2.566112137952265,
+      "qRoofDownKN": 1.9387500000000002,
+      "sourceRafters": [
+        "A1-M01",
+        "A2-M01"
+      ],
+      "id": "RC04",
+      "nativeTargets": {
+        "CAD": {
+          "name": "V2_1",
+          "guid": "1JL$yoqomHyOy801fzsd4G",
+          "min": [
+            0.1,
+            3.8,
+            6.09
+          ],
+          "max": [
+            4.3,
+            4.0,
+            6.39
+          ]
+        },
+        "BIM": {
+          "name": "V2",
+          "guid": "2MjmMpqlqHyOy801fzsd4G",
+          "min": [
+            0.1,
+            3.8,
+            6.09
+          ],
+          "max": [
+            4.3,
+            4.0,
+            6.39
+          ]
+        }
+      },
+      "appliedToNative": false,
+      "forceZConventionKN": -2.566112137952265
+    },
+    {
+      "xM": 3.3000000000000003,
+      "yM": 3.9,
+      "zConcreteBeamTopM": 6.39,
+      "gDownKN": 2.566112137952265,
+      "qRoofDownKN": 1.9387500000000002,
+      "sourceRafters": [
+        "A1-M02",
+        "A2-M02"
+      ],
+      "id": "RC05",
+      "nativeTargets": {
+        "CAD": {
+          "name": "V2_1",
+          "guid": "1JL$yoqomHyOy801fzsd4G",
+          "min": [
+            0.1,
+            3.8,
+            6.09
+          ],
+          "max": [
+            4.3,
+            4.0,
+            6.39
+          ]
+        },
+        "BIM": {
+          "name": "V2",
+          "guid": "2MjmMpqlqHyOy801fzsd4G",
+          "min": [
+            0.1,
+            3.8,
+            6.09
+          ],
+          "max": [
+            4.3,
+            4.0,
+            6.39
+          ]
+        }
+      },
+      "appliedToNative": false,
+      "forceZConventionKN": -2.566112137952265
+    },
+    {
+      "xM": 5.475,
+      "yM": 3.9,
+      "zConcreteBeamTopM": 6.39,
+      "gDownKN": 2.507791407544258,
+      "qRoofDownKN": 1.8946874999999994,
+      "sourceRafters": [
+        "A1-M03",
+        "A2-M03"
+      ],
+      "id": "RC06",
+      "nativeTargets": {
+        "CAD": {
+          "name": "V2",
+          "guid": "2yA$grqomHyOy801fzsd4G",
+          "min": [
+            4.5,
+            3.8,
+            6.09
+          ],
+          "max": [
+            6.4,
+            4.0,
+            6.39
+          ]
+        },
+        "BIM": {
+          "name": "V2",
+          "guid": "2MjmNEqlqHyOy801fzsd4G",
+          "min": [
+            4.5,
+            3.8,
+            6.09
+          ],
+          "max": [
+            6.4,
+            4.0,
+            6.39
+          ]
+        }
+      },
+      "appliedToNative": false,
+      "forceZConventionKN": -2.507791407544258
+    },
+    {
+      "xM": 7.324999999999999,
+      "yM": 3.9,
+      "zConcreteBeamTopM": 6.39,
+      "gDownKN": 0.8078041594811045,
+      "qRoofDownKN": 0.6103124999999999,
+      "sourceRafters": [
+        "A2-M04"
+      ],
+      "id": "RC07",
+      "nativeTargets": {
+        "CAD": {
+          "name": "V13_1",
+          "guid": "1JL$y1qomHyOy801fzsd4G",
+          "min": [
+            6.7,
+            3.8,
+            6.09
+          ],
+          "max": [
+            9.55,
+            4.0,
+            6.39
+          ]
+        },
+        "BIM": {
+          "name": "V3",
+          "guid": "2MjmNHqlqHyOy801fzsd4G",
+          "min": [
+            6.7,
+            3.8,
+            6.09
+          ],
+          "max": [
+            9.55,
+            4.0,
+            6.39
+          ]
+        }
+      },
+      "appliedToNative": false,
+      "forceZConventionKN": -0.8078041594811045
+    },
+    {
+      "xM": 8.875,
+      "yM": 3.9,
+      "zConcreteBeamTopM": 6.39,
+      "gDownKN": 0.807804159481105,
+      "qRoofDownKN": 0.6103125000000003,
+      "sourceRafters": [
+        "A2-M05"
+      ],
+      "id": "RC08",
+      "nativeTargets": {
+        "CAD": {
+          "name": "V13_1",
+          "guid": "1JL$y1qomHyOy801fzsd4G",
+          "min": [
+            6.7,
+            3.8,
+            6.09
+          ],
+          "max": [
+            9.55,
+            4.0,
+            6.39
+          ]
+        },
+        "BIM": {
+          "name": "V3",
+          "guid": "2MjmNHqlqHyOy801fzsd4G",
+          "min": [
+            6.7,
+            3.8,
+            6.09
+          ],
+          "max": [
+            9.55,
+            4.0,
+            6.39
+          ]
+        }
+      },
+      "appliedToNative": false,
+      "forceZConventionKN": -0.807804159481105
+    },
+    {
+      "xM": 1.1,
+      "yM": 7.05,
+      "zConcreteBeamTopM": 6.39,
+      "gDownKN": 1.1465607424893098,
+      "qRoofDownKN": 0.8662500000000001,
+      "sourceRafters": [
+        "A2-M01"
+      ],
+      "id": "RC09",
+      "nativeTargets": {
+        "CAD": {
+          "name": "V3_1",
+          "guid": "1JL$zYqomHyOy801fzsd4G",
+          "min": [
+            0.1,
+            6.95,
+            6.09
+          ],
+          "max": [
+            4.3,
+            7.15,
+            6.39
+          ]
+        },
+        "BIM": {
+          "name": "V1",
+          "guid": "2MjmMmqlqHyOy801fzsd4G",
+          "min": [
+            0.1,
+            6.95,
+            6.09
+          ],
+          "max": [
+            4.3,
+            7.15,
+            6.39
+          ]
+        }
+      },
+      "appliedToNative": false,
+      "forceZConventionKN": -1.1465607424893098
+    },
+    {
+      "xM": 3.3000000000000003,
+      "yM": 7.05,
+      "zConcreteBeamTopM": 6.39,
+      "gDownKN": 1.1465607424893098,
+      "qRoofDownKN": 0.8662500000000001,
+      "sourceRafters": [
+        "A2-M02"
+      ],
+      "id": "RC10",
+      "nativeTargets": {
+        "CAD": {
+          "name": "V3_1",
+          "guid": "1JL$zYqomHyOy801fzsd4G",
+          "min": [
+            0.1,
+            6.95,
+            6.09
+          ],
+          "max": [
+            4.3,
+            7.15,
+            6.39
+          ]
+        },
+        "BIM": {
+          "name": "V1",
+          "guid": "2MjmMmqlqHyOy801fzsd4G",
+          "min": [
+            0.1,
+            6.95,
+            6.09
+          ],
+          "max": [
+            4.3,
+            7.15,
+            6.39
+          ]
+        }
+      },
+      "appliedToNative": false,
+      "forceZConventionKN": -1.1465607424893098
+    },
+    {
+      "xM": 5.475,
+      "yM": 7.05,
+      "zConcreteBeamTopM": 6.39,
+      "gDownKN": 1.1205025437963707,
+      "qRoofDownKN": 0.8465624999999998,
+      "sourceRafters": [
+        "A2-M03"
+      ],
+      "id": "RC11",
+      "nativeTargets": {
+        "CAD": {
+          "name": "V5_1",
+          "guid": "1JL$$8qomHyOy801fzsd4G",
+          "min": [
+            4.5,
+            6.95,
+            6.09
+          ],
+          "max": [
+            9.55,
+            7.15,
+            6.39
+          ]
+        },
+        "BIM": {
+          "name": "V1",
+          "guid": "2MjmMgqlqHyOy801fzsd4G",
+          "min": [
+            4.5,
+            6.95,
+            6.09
+          ],
+          "max": [
+            9.55,
+            7.15,
+            6.39
+          ]
+        }
+      },
+      "appliedToNative": false,
+      "forceZConventionKN": -1.1205025437963707
+    },
+    {
+      "xM": 7.324999999999999,
+      "yM": 7.05,
+      "zConcreteBeamTopM": 6.39,
+      "gDownKN": 0.8078041594811045,
+      "qRoofDownKN": 0.6103124999999999,
+      "sourceRafters": [
+        "A2-M04"
+      ],
+      "id": "RC12",
+      "nativeTargets": {
+        "CAD": {
+          "name": "V5_1",
+          "guid": "1JL$$8qomHyOy801fzsd4G",
+          "min": [
+            4.5,
+            6.95,
+            6.09
+          ],
+          "max": [
+            9.55,
+            7.15,
+            6.39
+          ]
+        },
+        "BIM": {
+          "name": "V1",
+          "guid": "2MjmMgqlqHyOy801fzsd4G",
+          "min": [
+            4.5,
+            6.95,
+            6.09
+          ],
+          "max": [
+            9.55,
+            7.15,
+            6.39
+          ]
+        }
+      },
+      "appliedToNative": false,
+      "forceZConventionKN": -0.8078041594811045
+    },
+    {
+      "xM": 8.875,
+      "yM": 7.05,
+      "zConcreteBeamTopM": 6.39,
+      "gDownKN": 0.807804159481105,
+      "qRoofDownKN": 0.6103125000000003,
+      "sourceRafters": [
+        "A2-M05"
+      ],
+      "id": "RC13",
+      "nativeTargets": {
+        "CAD": {
+          "name": "V5_1",
+          "guid": "1JL$$8qomHyOy801fzsd4G",
+          "min": [
+            4.5,
+            6.95,
+            6.09
+          ],
+          "max": [
+            9.55,
+            7.15,
+            6.39
+          ]
+        },
+        "BIM": {
+          "name": "V1",
+          "guid": "2MjmMgqlqHyOy801fzsd4G",
+          "min": [
+            4.5,
+            6.95,
+            6.09
+          ],
+          "max": [
+            9.55,
+            7.15,
+            6.39
+          ]
+        }
+      },
+      "appliedToNative": false,
+      "forceZConventionKN": -0.807804159481105
+    }
+  ],
+  "equilibrium": {
+    "verticalGKN": 18.511248004821994,
+    "verticalQRoofKN": 13.985625,
+    "verticalAndFirstMomentsPassed": true
+  },
+  "partialCoverageOnly": true,
+  "pointReactionsAreProposedNotMeasured": true,
+  "metalMembersSized": false,
+  "steelWeightAllowanceStillHypothesis": true,
+  "roofVariableSimultaneityWithSlabUnresolved": true,
+  "nativeModelsEdited": false,
+  "excluded": [
+    "Varanda P1",
+    "Abrigo elevado P2",
+    "Policarbonato",
+    "Platibandas/calhas/arremates ainda nao quantificados",
+    "Reservatorio 1000 L, tara, base e apoio",
+    "Vento, succao, ancoragens e combinacoes"
+  ],
+  "pending": [
+    "Definir apoios elevados com articulacao/deslizamento e contraventamento para a hipotese sem empuxo horizontal.",
+    "Conferir altimetria e espaco dos perfis sob o telhado, preservando a arquitetura.",
+    "Dimensionar metal/ancoragens e avaliar efeitos locais nas vigas de concreto.",
+    "Nao equiparar area nominal por eixos a quantidade liquida de telhas.",
+    "Tratar P1/P2 separadamente e completar acoes antes da verificacao ELU/ELS."
+  ]
+}

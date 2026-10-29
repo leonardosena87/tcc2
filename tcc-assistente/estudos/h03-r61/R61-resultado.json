@@ -1,0 +1,113 @@
+{
+  "revision": "H03/R61",
+  "atUtc": "2026-10-29T18:17:41.166307+00:00",
+  "scope": "Piloto nativo apenas RC01 e RC02 de 13 pontos G do arranjo parcial R60",
+  "appliedGPointIds": [
+    "RC01",
+    "RC02"
+  ],
+  "pendingGPointIds": [
+    "RC03",
+    "RC04",
+    "RC05",
+    "RC06",
+    "RC07",
+    "RC08",
+    "RC09",
+    "RC10",
+    "RC11",
+    "RC12",
+    "RC13"
+  ],
+  "typedFzKN": [
+    -1.419551,
+    -1.419551
+  ],
+  "expectedAppliedGDownKN": 2.839102,
+  "roofVariableLoadsApplied": false,
+  "summaries": {
+    "CAD": {
+      "loads": {
+        "selfWeightTf": 75.69,
+        "additionalTf": 8.49,
+        "liveTf": 17.11,
+        "totalTf": 101.29,
+        "approxAreaM2": 132.81,
+        "ratioKgfM2": 762.66
+      },
+      "displayedAdditionalDeltaTf": 0.2900000000000009,
+      "expectedDeltaKN": 2.839102,
+      "expectedDeltaTfUsingStandardGravity": 0.2895078339698062,
+      "roundingCompatibilityToleranceTf": 0.01,
+      "summaryPreservedAfterReopen": true,
+      "individualSampleRead": "RC01",
+      "allNodesReadIndividually": false,
+      "structuralAdequacyApproved": false
+    },
+    "BIM": {
+      "loads": {
+        "selfWeightTf": 75.69,
+        "additionalTf": 8.49,
+        "liveTf": 17.11,
+        "totalTf": 101.29,
+        "approxAreaM2": 132.81,
+        "ratioKgfM2": 762.66
+      },
+      "displayedAdditionalDeltaTf": 0.2900000000000009,
+      "expectedDeltaKN": 2.839102,
+      "expectedDeltaTfUsingStandardGravity": 0.2895078339698062,
+      "roundingCompatibilityToleranceTf": 0.01,
+      "summaryPreservedAfterReopen": true,
+      "individualSampleRead": "RC02",
+      "allNodesReadIndividually": false,
+      "structuralAdequacyApproved": false
+    }
+  },
+  "summaryTextsEqualAtDisplayedPrecision": true,
+  "protectedR58FilesChecked": 67,
+  "r60ManifestFilesChecked": 8,
+  "protectedR59FilesChecked": 7,
+  "prospectiveAssistedTimes": {
+    "CAD": {
+      "startUtc": "2026-10-29T17:52:39.099Z",
+      "startMonotonicMs": 3321521.7753,
+      "scope": "Ensaio CAD de lancamento de reacoes G R60, inclui descoberta de interface/raciocinio/latencia; nao fluxo completo",
+      "endUtc": "2026-10-29T18:02:29.207Z",
+      "durationMs": 590106.2488000002,
+      "actualScope": "Piloto de apenas RC01 e RC02 (2 de 13), consultar no RC01 e recalcular/salvar; demais nao aplicados",
+      "rankingAllowed": false
+    },
+    "BIM": {
+      "startUtc": "2026-10-29T18:02:56.527Z",
+      "startMonotonicMs": 3938948.0862,
+      "scope": "Piloto BIM RC01 e RC02: abrir, criar nos, aplicar G, conferir, processar e salvar; raciocinio/latencia incluidos",
+      "endUtc": "2026-10-29T18:14:32.879Z",
+      "durationMs": 696351.5369000006,
+      "actualScope": "Piloto RC01 e RC02, 2 de 13, consulta RC02, processamento e salvamento; inclui latencia, raciocinio e interrupcao de contexto",
+      "rankingAllowed": false
+    }
+  },
+  "observedProcessingTimes": {
+    "CAD": {
+      "startUtc": "2026-10-29T18:01:25.792Z",
+      "startMonotonicMs": 3848213.0228,
+      "endUtc": "2026-10-29T18:01:42.455Z",
+      "durationMs": 16662.605500000063,
+      "scope": "Intervalo observado ate leitura da conclusao; inclui latencia"
+    },
+    "BIM": {
+      "startUtc": "2026-10-29T18:10:40.492Z",
+      "startMonotonicMs": 4402914.0017,
+      "endUtc": "2026-10-29T18:11:00.244Z",
+      "durationMs": 19752.780899999663,
+      "scope": "Intervalo observado ate leitura da conclusao; inclui latencia"
+    }
+  },
+  "fullFlowRankingAllowed": false,
+  "elementDesignPerformed": false,
+  "elsVerified": false,
+  "windAndCombinationsComplete": false,
+  "postPilotIFCAudited": false,
+  "monographEdited": false,
+  "sourceRvtDwgEdited": false
+}

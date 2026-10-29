@@ -1,0 +1,141 @@
+Window: "AltoQi Eberick 2025 Infinity - [H03_CAD_R61_TELHADO_G_PARCIAL_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [H03_CAD_R61_TELHADO_G_PARCIAL_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		38135 diálogo Nó Secondary Actions: Raise
+			38136 grupo Posição
+			38137 text X
+			38138 editar (settable, string) X Value: 110 ID: 544
+			38139 text Y
+			38140 editar (settable, string) Y Value: 0 ID: 545
+			38141 grupo Desenho ID: 905
+			38142 text Nível
+			38143 caixa de combinação (settable, string) Nível Value: CR-Vigas ID: 106
+				38144 text (settable, string) Nível Value: CR-Vigas
+				38145 botão Abrir ID: DropDown
+			38146 text Cor
+			38147 caixa de combinação (settable, string) Cor Value: ???? ID: 546
+				38148 text (settable, string) Cor Value: ????
+				38149 botão Abrir ID: DropDown
+			38150 text Tipo de linha
+			38151 caixa de combinação (settable, string) Tipo de linha Value:  ID: 543
+				38152 text (settable, string) Tipo de linha Value: 
+				38153 botão Abrir ID: DropDown
+			38154 grupo Furo ID: 900
+			38155 text Dimensão: ID: 901
+			38156 text <nenhum> ID: 902
+			38157 botão Lançar... ID: 903
+			38158 botão Remover ID: 904
+			38159 botão OK ID: 1
+			38160 botão Cancelar ID: 2
+			38161 botão Cargas... ID: 822
+			38162 botão Ajuda ID: 9
+			38163 barra de título (settable, string) Value: Nó
+		1 Barra de status
+			38164 custom
+				38165 text Editar
+				38166 editar (settable, string)
+				38167 text 111.5,-2.7
+				38168 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					38169 Lista
+						38170 item de lista (selectable) 1:1
+						38171 item de lista (selectable) 1:2
+						38172 item de lista (selectable) 1:5
+						38173 item de lista (selectable) 1:10
+						38174 item de lista (selectable) 1:12.5
+						38175 item de lista (selectable) 1:15
+						38176 item de lista (selectable) 1:20
+						38177 item de lista (selectable) 1:25
+						38178 item de lista (selectable) 1:30
+						38179 item de lista (selectable) 1:40
+						38180 item de lista (selectable) 1:50
+						38181 item de lista (selectable) 1:60
+						38182 item de lista (selectable) 1:75
+						38183 item de lista (selectable) 1:100
+						38184 item de lista (selectable) 1:200
+						38185 item de lista (selectable) 1:250
+						38186 item de lista (selectable) 1:500
+						38187 item de lista (selectable) 1:1000
+			38188 botão Atualizar
+			38189 botão Enquadrar
+			38190 botão Aproximar
+			38191 botão Afastar
+			38192 botão Zoom
+			38193 botão Zoom anterior
+			38194 botão Deslocar
+			38195 caixa de seleção Ortogonal
+			38196 caixa de seleção Captura personalizada
+			38197 botão Opções da captura personalizada
+			38198 caixa de seleção Quadrante
+			38199 caixa de seleção Centro
+			38200 caixa de seleção Ponto médio
+			38201 caixa de seleção Extremidade
+			38202 caixa de seleção Ponto no elemento
+			38203 caixa de seleção Intersecção
+			38204 caixa de seleção Perpendicular
+			38205 caixa de seleção Ponto intermediário
+			38206 caixa de seleção Ponto quadrante
+			38207 caixa de seleção Ponto na intersecção
+			38208 caixa de seleção Ponto relativo
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Croqui-N2
+						38209 item de tabulação (selectable) Notícias
+						38210 item de tabulação (selectable) Croqui-N2
+					8 painel
+						32576 painel
+							32577 painel Croqui-N2
+								32578 painel TCadPlotWindow
+				31 painel
+					32 tabulação
+						38211 item de tabulação (selectable)
+						38212 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									38 painel
+									32502 árvore ID: 101
+										32503 item da árvore (selectable, disabled) Pavimentos
+											32504 item da árvore (selectable, disabled) N2
+											32505 item da árvore (selectable, disabled) N1
+											32506 item da árvore (selectable, disabled) N0
+										32507 item da árvore (selectable, disabled) Pilares em prumada
+										32508 item da árvore (selectable, disabled) Cortes
+										32509 item da árvore (selectable, disabled) Gerenciador de desenhos
+										32510 item da árvore (selectable, disabled) Modelos 3D
+		47 barra de menus
+		38135 diálogo Nó Secondary Actions: Raise
+			38136 grupo Posição
+			38137 text X
+			38138 editar (settable, string) X Value: 110 ID: 544
+			38139 text Y
+			38140 editar (settable, string) Y Value: 0 ID: 545
+			38141 grupo Desenho ID: 905
+			38142 text Nível
+			38143 caixa de combinação (settable, string) Nível Value: CR-Vigas ID: 106
+				38144 text (settable, string) Nível Value: CR-Vigas
+				38145 botão Abrir ID: DropDown
+			38146 text Cor
+			38147 caixa de combinação (settable, string) Cor Value: ???? ID: 546
+				38148 text (settable, string) Cor Value: ????
+				38149 botão Abrir ID: DropDown
+			38150 text Tipo de linha
+			38151 caixa de combinação (settable, string) Tipo de linha Value:  ID: 543
+				38152 text (settable, string) Tipo de linha Value: 
+				38153 botão Abrir ID: DropDown
+			38154 grupo Furo ID: 900
+			38155 text Dimensão: ID: 901
+			38156 text <nenhum> ID: 902
+			38157 botão Lançar... ID: 903
+			38158 botão Remover ID: 904
+			38159 botão OK ID: 1
+			38160 botão Cancelar ID: 2
+			38161 botão Cargas... ID: 822
+			38162 botão Ajuda ID: 9
+			38163 barra de título (settable, string) Value: Nó
+
+Document text: ```
+Editar
+111.5,-2.7
+```
