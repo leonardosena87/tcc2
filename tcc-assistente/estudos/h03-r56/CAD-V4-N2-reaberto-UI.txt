@@ -1,0 +1,188 @@
+Window: "AltoQi Eberick 2025 Infinity - [H03_CAD_R56_COBERTURA_ESTUDO_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [H03_CAD_R56_COBERTURA_ESTUDO_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		9322 diálogo Viga Secondary Actions: Raise
+			9323 grupo Dados da viga ID: 101
+			9324 text Nome ID: 102
+			9325 editar (settable, string) Nome Value: V4_1 ID: 801
+			9326 text Ambiente ID: 105
+			9327 caixa de combinação (settable, string) Ambiente Value: Externo ID: 828
+				9328 text (settable, string) Ambiente Value: Externo
+				9329 botão Abrir ID: DropDown
+			9330 botão Modelo... ID: 902
+			9331 grupo Seção do trecho ID: 201
+			9332 text Tipo ID: 202
+			9333 caixa de combinação (settable, string) Tipo Value: retangular ID: 809
+				9334 text (settable, string) Tipo Value: retangular
+				9335 botão Abrir ID: DropDown
+			9336 text bw ID: 203
+			9337 editar (settable, string) bw Value: 20 ID: 810
+			9338 text cm ID: 814
+			9339 text h ID: 204
+			9340 editar (settable, string) h Value: 30 ID: 811
+			9341 text cm ID: 815
+			9342 text bf ID: 205
+			9343 editar (disabled, settable, string) bf Value: 0 ID: 565
+			9344 text cm ID: 816
+			9345 text hf ID: 206
+			9346 editar (disabled, settable, string) hf Value: 0 ID: 566
+			9347 text cm ID: 817
+			9348 caixa de seleção Obter elevação para viga invertida ID: 941
+			9349 text Elevação ID: 207
+			9350 editar (settable, string) / Value: 0 ID: 507
+			9351 text cm ID: 506
+			9352 caixa de seleção Manter seção constante na viga ID: 550
+			9353 text ID: 818
+			9354 grupo Cargas no trecho ID: 301
+			9355 text Carga de parede ID: 302
+			9356 text 0.00 kN/m ID: 508
+			9357 text Carga extra ID: 303
+			9358 editar (disabled, settable, string) Carga extra Value: 0 ID: 564
+			9359 text kN/m ID: 567
+			9360 text Temperatura e retração ID: 1282
+			9361 editar (disabled, settable, string) Temperatura e retração Value: 0 ID: 1113
+			9362 text °C ID: 1114
+			9363 botão Lançar... ID: 510
+			9364 botão Remover ID: 509
+			9365 botão Editar... ID: 501
+			9366 botão Remover ID: 651
+			9367 botão Editar... ID: 1280
+			9368 botão Remover ID: 1281
+			9369 botão OK ID: 1
+			9370 botão Cancelar ID: 2
+			9371 botão Desenho... ID: 547
+			9372 botão Ajuda ID: 9
+			9373 text ID: 1115
+			9374 barra de título (settable, string) Value: Viga
+		1 Barra de status
+			9375 custom
+				9376 text Editar
+				9377 editar (settable, string)
+				9378 text 778.9,-2.7
+				9379 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					9380 Lista
+						9381 item de lista (selectable) 1:1
+						9382 item de lista (selectable) 1:2
+						9383 item de lista (selectable) 1:5
+						9384 item de lista (selectable) 1:10
+						9385 item de lista (selectable) 1:12.5
+						9386 item de lista (selectable) 1:15
+						9387 item de lista (selectable) 1:20
+						9388 item de lista (selectable) 1:25
+						9389 item de lista (selectable) 1:30
+						9390 item de lista (selectable) 1:40
+						9391 item de lista (selectable) 1:50
+						9392 item de lista (selectable) 1:60
+						9393 item de lista (selectable) 1:75
+						9394 item de lista (selectable) 1:100
+						9395 item de lista (selectable) 1:200
+						9396 item de lista (selectable) 1:250
+						9397 item de lista (selectable) 1:500
+						9398 item de lista (selectable) 1:1000
+			9399 botão Atualizar
+			9400 botão Enquadrar
+			9401 botão Aproximar
+			9402 botão Afastar
+			9403 botão Zoom
+			9404 botão Zoom anterior
+			9405 botão Deslocar
+			9406 caixa de seleção Ortogonal
+			9407 caixa de seleção Captura personalizada
+			9408 botão Opções da captura personalizada
+			9409 caixa de seleção Quadrante
+			9410 caixa de seleção Centro
+			9411 caixa de seleção Ponto médio
+			9412 caixa de seleção Extremidade
+			9413 caixa de seleção Ponto no elemento
+			9414 caixa de seleção Intersecção
+			9415 caixa de seleção Perpendicular
+			9416 caixa de seleção Ponto intermediário
+			9417 caixa de seleção Ponto quadrante
+			9418 caixa de seleção Ponto na intersecção
+			9419 caixa de seleção Ponto relativo
+		47 painel
+			48 botão de divisão
+				49 elevador
+				50 painel
+					51 tabulação Croqui-N2
+						9420 item de tabulação (selectable) Notícias
+						9421 item de tabulação (selectable) Croqui-N2
+					54 painel
+						8821 painel
+							8822 painel Croqui-N2
+								8823 painel TCadPlotWindow
+				58 painel
+					59 tabulação
+						9422 item de tabulação (selectable)
+						9423 item de tabulação (selectable)
+					62 painel
+						63 janela Edificação Secondary Actions: Raise
+							64 painel
+								65 painel Projeto
+									66 painel
+									8754 árvore ID: 101
+										8755 item da árvore (selectable, disabled) Pavimentos
+											8756 item da árvore (selectable, disabled) N2
+											8757 item da árvore (selectable, disabled) N1
+											8758 item da árvore (selectable, disabled) N0
+										8759 item da árvore (selectable, disabled) Cortes
+										8760 item da árvore (selectable, disabled) Gerenciador de desenhos
+										8761 item da árvore (selectable, disabled) Modelos 3D
+		76 barra de menus
+		9322 diálogo Viga Secondary Actions: Raise
+			9323 grupo Dados da viga ID: 101
+			9324 text Nome ID: 102
+			9325 editar (settable, string) Nome Value: V4_1 ID: 801
+			9326 text Ambiente ID: 105
+			9327 caixa de combinação (settable, string) Ambiente Value: Externo ID: 828
+				9328 text (settable, string) Ambiente Value: Externo
+				9329 botão Abrir ID: DropDown
+			9330 botão Modelo... ID: 902
+			9331 grupo Seção do trecho ID: 201
+			9332 text Tipo ID: 202
+			9333 caixa de combinação (settable, string) Tipo Value: retangular ID: 809
+				9334 text (settable, string) Tipo Value: retangular
+				9335 botão Abrir ID: DropDown
+			9336 text bw ID: 203
+			9337 editar (settable, string) bw Value: 20 ID: 810
+			9338 text cm ID: 814
+			9339 text h ID: 204
+			9340 editar (settable, string) h Value: 30 ID: 811
+			9341 text cm ID: 815
+			9342 text bf ID: 205
+			9343 editar (disabled, settable, string) bf Value: 0 ID: 565
+			9344 text cm ID: 816
+			9345 text hf ID: 206
+			9346 editar (disabled, settable, string) hf Value: 0 ID: 566
+			9347 text cm ID: 817
+			9348 caixa de seleção Obter elevação para viga invertida ID: 941
+			9349 text Elevação ID: 207
+			9350 editar (settable, string) / Value: 0 ID: 507
+			9351 text cm ID: 506
+			9352 caixa de seleção Manter seção constante na viga ID: 550
+			9353 text ID: 818
+			9354 grupo Cargas no trecho ID: 301
+			9355 text Carga de parede ID: 302
+			9356 text 0.00 kN/m ID: 508
+			9357 text Carga extra ID: 303
+			9358 editar (disabled, settable, string) Carga extra Value: 0 ID: 564
+			9359 text kN/m ID: 567
+			9360 text Temperatura e retração ID: 1282
+			9361 editar (disabled, settable, string) Temperatura e retração Value: 0 ID: 1113
+			9362 text °C ID: 1114
+			9363 botão Lançar... ID: 510
+			9364 botão Remover ID: 509
+			9365 botão Editar... ID: 501
+			9366 botão Remover ID: 651
+			9367 botão Editar... ID: 1280
+			9368 botão Remover ID: 1281
+			9369 botão OK ID: 1
+			9370 botão Cancelar ID: 2
+			9371 botão Desenho... ID: 547
+			9372 botão Ajuda ID: 9
+			9373 text ID: 1115
+			9374 barra de título (settable, string) Value: Viga
+
+Document text: ```
+Editar
+778.9,-2.7
+```

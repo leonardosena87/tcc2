@@ -1,0 +1,475 @@
+{
+  "branch": "BIM",
+  "before": "D:\\TCC\\outputs\\Cargas-H03-R53-PARCIAL-NAO-EXECUTAR\\IFC-BIM\\Modelo 3D.IFC",
+  "beforeSha256": "f6d5b81f6f639bab259314311684427bfac73b26f5a8f6f16e74ba429047b210",
+  "source": "D:\\TCC\\outputs\\Cobertura-H03-R56-ESTUDO-NAO-EXECUTAR\\IFC-BIM\\Modelo 3D.IFC",
+  "sha256": "3e1818d8296fa2fda34fd4f205e88a2602cd99ae5e8955d2f53645e1124a483b",
+  "counts": {
+    "IfcColumn": 22,
+    "IfcBeam": 32,
+    "IfcSlab": 11,
+    "IfcFooting": 11
+  },
+  "roofBeams": [
+    {
+      "name": "V1",
+      "guid": "2MjmMgqlqHyOy801fzsd4G",
+      "oldHeightM": 0.55,
+      "newHeightM": 0.3,
+      "min": [
+        4.5,
+        6.95,
+        6.09
+      ],
+      "max": [
+        9.55,
+        7.15,
+        6.39
+      ]
+    },
+    {
+      "name": "V1",
+      "guid": "2MjmMmqlqHyOy801fzsd4G",
+      "oldHeightM": 0.45,
+      "newHeightM": 0.3,
+      "min": [
+        0.1,
+        6.95,
+        6.09
+      ],
+      "max": [
+        4.3,
+        7.15,
+        6.39
+      ]
+    },
+    {
+      "name": "V2",
+      "guid": "2MjmMpqlqHyOy801fzsd4G",
+      "oldHeightM": 0.45,
+      "newHeightM": 0.3,
+      "min": [
+        0.1,
+        3.8,
+        6.09
+      ],
+      "max": [
+        4.3,
+        4.0,
+        6.39
+      ]
+    },
+    {
+      "name": "V2",
+      "guid": "2MjmNEqlqHyOy801fzsd4G",
+      "oldHeightM": 0.3,
+      "newHeightM": 0.3,
+      "min": [
+        4.5,
+        3.8,
+        6.09
+      ],
+      "max": [
+        6.4,
+        4.0,
+        6.39
+      ]
+    },
+    {
+      "name": "V3",
+      "guid": "2MjmNHqlqHyOy801fzsd4G",
+      "oldHeightM": 0.3,
+      "newHeightM": 0.3,
+      "min": [
+        6.7,
+        3.8,
+        6.09
+      ],
+      "max": [
+        9.55,
+        4.0,
+        6.39
+      ]
+    },
+    {
+      "name": "V4",
+      "guid": "2MjmP9qlqHyOy801fzsd4G",
+      "oldHeightM": 0.55,
+      "newHeightM": 0.3,
+      "min": [
+        4.5,
+        -0.1,
+        6.09
+      ],
+      "max": [
+        6.45,
+        0.1,
+        6.39
+      ]
+    },
+    {
+      "name": "V4",
+      "guid": "2MjmMsqlqHyOy801fzsd4G",
+      "oldHeightM": 0.45,
+      "newHeightM": 0.3,
+      "min": [
+        0.1,
+        -0.1,
+        6.09
+      ],
+      "max": [
+        4.3,
+        0.1,
+        6.39
+      ]
+    },
+    {
+      "name": "V4",
+      "guid": "2MjmP3qlqHyOy801fzsd4G",
+      "oldHeightM": 0.55,
+      "newHeightM": 0.3,
+      "min": [
+        6.65,
+        -0.1,
+        6.09
+      ],
+      "max": [
+        9.55,
+        0.1,
+        6.39
+      ]
+    },
+    {
+      "name": "V5",
+      "guid": "2MjmMyqlqHyOy801fzsd4G",
+      "oldHeightM": 0.4,
+      "newHeightM": 0.3,
+      "min": [
+        -0.1,
+        0.15,
+        6.09
+      ],
+      "max": [
+        0.1,
+        3.75,
+        6.39
+      ]
+    },
+    {
+      "name": "V5",
+      "guid": "2MjmN5qlqHyOy801fzsd4G",
+      "oldHeightM": 0.35,
+      "newHeightM": 0.3,
+      "min": [
+        -0.1,
+        4.05,
+        6.09
+      ],
+      "max": [
+        0.1,
+        6.9,
+        6.39
+      ]
+    },
+    {
+      "name": "V6",
+      "guid": "2MjmN2qlqHyOy801fzsd4G",
+      "oldHeightM": 0.4,
+      "newHeightM": 0.3,
+      "min": [
+        4.3,
+        0.15,
+        6.09
+      ],
+      "max": [
+        4.5,
+        3.75,
+        6.39
+      ]
+    },
+    {
+      "name": "V6",
+      "guid": "2MjmNBqlqHyOy801fzsd4G",
+      "oldHeightM": 0.35,
+      "newHeightM": 0.3,
+      "min": [
+        4.3,
+        4.05,
+        6.09
+      ],
+      "max": [
+        4.5,
+        6.9,
+        6.39
+      ]
+    },
+    {
+      "name": "V7",
+      "guid": "2MjmMvqlqHyOy801fzsd4G",
+      "oldHeightM": 0.4,
+      "newHeightM": 0.3,
+      "min": [
+        6.45,
+        0.15,
+        6.09
+      ],
+      "max": [
+        6.65,
+        3.8,
+        6.39
+      ]
+    },
+    {
+      "name": "V8",
+      "guid": "2MjmM$qlqHyOy801fzsd4G",
+      "oldHeightM": 0.4,
+      "newHeightM": 0.3,
+      "min": [
+        9.55,
+        0.15,
+        6.09
+      ],
+      "max": [
+        9.75,
+        3.75,
+        6.39
+      ]
+    },
+    {
+      "name": "V8",
+      "guid": "2MjmN8qlqHyOy801fzsd4G",
+      "oldHeightM": 0.35,
+      "newHeightM": 0.3,
+      "min": [
+        9.55,
+        4.05,
+        6.09
+      ],
+      "max": [
+        9.75,
+        6.9,
+        6.39
+      ]
+    }
+  ],
+  "changedRoofBeamSolids": [
+    {
+      "name": "V1",
+      "guid": "2MjmMgqlqHyOy801fzsd4G",
+      "oldHeightM": 0.55,
+      "newHeightM": 0.3,
+      "min": [
+        4.5,
+        6.95,
+        6.09
+      ],
+      "max": [
+        9.55,
+        7.15,
+        6.39
+      ]
+    },
+    {
+      "name": "V1",
+      "guid": "2MjmMmqlqHyOy801fzsd4G",
+      "oldHeightM": 0.45,
+      "newHeightM": 0.3,
+      "min": [
+        0.1,
+        6.95,
+        6.09
+      ],
+      "max": [
+        4.3,
+        7.15,
+        6.39
+      ]
+    },
+    {
+      "name": "V2",
+      "guid": "2MjmMpqlqHyOy801fzsd4G",
+      "oldHeightM": 0.45,
+      "newHeightM": 0.3,
+      "min": [
+        0.1,
+        3.8,
+        6.09
+      ],
+      "max": [
+        4.3,
+        4.0,
+        6.39
+      ]
+    },
+    {
+      "name": "V4",
+      "guid": "2MjmP9qlqHyOy801fzsd4G",
+      "oldHeightM": 0.55,
+      "newHeightM": 0.3,
+      "min": [
+        4.5,
+        -0.1,
+        6.09
+      ],
+      "max": [
+        6.45,
+        0.1,
+        6.39
+      ]
+    },
+    {
+      "name": "V4",
+      "guid": "2MjmMsqlqHyOy801fzsd4G",
+      "oldHeightM": 0.45,
+      "newHeightM": 0.3,
+      "min": [
+        0.1,
+        -0.1,
+        6.09
+      ],
+      "max": [
+        4.3,
+        0.1,
+        6.39
+      ]
+    },
+    {
+      "name": "V4",
+      "guid": "2MjmP3qlqHyOy801fzsd4G",
+      "oldHeightM": 0.55,
+      "newHeightM": 0.3,
+      "min": [
+        6.65,
+        -0.1,
+        6.09
+      ],
+      "max": [
+        9.55,
+        0.1,
+        6.39
+      ]
+    },
+    {
+      "name": "V5",
+      "guid": "2MjmMyqlqHyOy801fzsd4G",
+      "oldHeightM": 0.4,
+      "newHeightM": 0.3,
+      "min": [
+        -0.1,
+        0.15,
+        6.09
+      ],
+      "max": [
+        0.1,
+        3.75,
+        6.39
+      ]
+    },
+    {
+      "name": "V5",
+      "guid": "2MjmN5qlqHyOy801fzsd4G",
+      "oldHeightM": 0.35,
+      "newHeightM": 0.3,
+      "min": [
+        -0.1,
+        4.05,
+        6.09
+      ],
+      "max": [
+        0.1,
+        6.9,
+        6.39
+      ]
+    },
+    {
+      "name": "V6",
+      "guid": "2MjmN2qlqHyOy801fzsd4G",
+      "oldHeightM": 0.4,
+      "newHeightM": 0.3,
+      "min": [
+        4.3,
+        0.15,
+        6.09
+      ],
+      "max": [
+        4.5,
+        3.75,
+        6.39
+      ]
+    },
+    {
+      "name": "V6",
+      "guid": "2MjmNBqlqHyOy801fzsd4G",
+      "oldHeightM": 0.35,
+      "newHeightM": 0.3,
+      "min": [
+        4.3,
+        4.05,
+        6.09
+      ],
+      "max": [
+        4.5,
+        6.9,
+        6.39
+      ]
+    },
+    {
+      "name": "V7",
+      "guid": "2MjmMvqlqHyOy801fzsd4G",
+      "oldHeightM": 0.4,
+      "newHeightM": 0.3,
+      "min": [
+        6.45,
+        0.15,
+        6.09
+      ],
+      "max": [
+        6.65,
+        3.8,
+        6.39
+      ]
+    },
+    {
+      "name": "V8",
+      "guid": "2MjmM$qlqHyOy801fzsd4G",
+      "oldHeightM": 0.4,
+      "newHeightM": 0.3,
+      "min": [
+        9.55,
+        0.15,
+        6.09
+      ],
+      "max": [
+        9.75,
+        3.75,
+        6.39
+      ]
+    },
+    {
+      "name": "V8",
+      "guid": "2MjmN8qlqHyOy801fzsd4G",
+      "oldHeightM": 0.35,
+      "newHeightM": 0.3,
+      "min": [
+        9.55,
+        4.05,
+        6.09
+      ],
+      "max": [
+        9.75,
+        6.9,
+        6.39
+      ]
+    }
+  ],
+  "unchangedSuperstructureSolidCount": 50,
+  "allRoofBeamHeights30cm": true,
+  "allSuperstructureGuidsNamesPreserved": true,
+  "slabsGeometryAndRawLoadsPreserved": true,
+  "columnsAndN1BeamsGeometryPreserved": true,
+  "auxiliaryFootingsExcludedFromSuperstructure": true,
+  "footingMeaning": "Cadastros geometricos auxiliares herdados da R54, sem sondagem/dimensionamento. Nao sao fundacoes executivas.",
+  "supportReleasesVerifiedByIFC": false,
+  "analyticalBarHeightVerified": false,
+  "structuralCalculationPerformed": false
+}

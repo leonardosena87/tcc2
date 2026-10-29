@@ -1,0 +1,2078 @@
+{
+  "segments": [
+    {
+      "wallId": "W01",
+      "fromM": 0,
+      "toM": 0.15,
+      "lengthM": 0.15,
+      "p1": [
+        0,
+        0
+      ],
+      "p2": [
+        0,
+        0.15
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P1"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W01",
+      "fromM": 0.15,
+      "toM": 3.75,
+      "lengthM": 3.6,
+      "p1": [
+        0,
+        0.15
+      ],
+      "p2": [
+        0,
+        3.75
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V6"
+      ],
+      "lowerNativeNamesBIM": [
+        "V7"
+      ],
+      "upperNativeNames": [
+        "V6_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V5"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W01",
+      "fromM": 3.75,
+      "toM": 3.9,
+      "lengthM": 0.15,
+      "p1": [
+        0,
+        3.75
+      ],
+      "p2": [
+        0,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P2"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W02",
+      "fromM": 3.9,
+      "toM": 4.05,
+      "lengthM": 0.15,
+      "p1": [
+        0,
+        3.9
+      ],
+      "p2": [
+        0,
+        4.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P2"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W02",
+      "fromM": 4.05,
+      "toM": 6.9,
+      "lengthM": 2.85,
+      "p1": [
+        0,
+        4.05
+      ],
+      "p2": [
+        0,
+        6.9
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V10"
+      ],
+      "lowerNativeNamesBIM": [
+        "V8"
+      ],
+      "upperNativeNames": [
+        "V10_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V5"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W02",
+      "fromM": 6.9,
+      "toM": 7.05,
+      "lengthM": 0.15,
+      "p1": [
+        0,
+        6.9
+      ],
+      "p2": [
+        0,
+        7.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P3"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W03",
+      "fromM": 0,
+      "toM": 0.1,
+      "lengthM": 0.1,
+      "p1": [
+        0,
+        7.05
+      ],
+      "p2": [
+        0.1,
+        7.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P3"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W03",
+      "fromM": 0.1,
+      "toM": 4.3,
+      "lengthM": 4.2,
+      "p1": [
+        0.1,
+        7.05
+      ],
+      "p2": [
+        4.3,
+        7.05
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V3"
+      ],
+      "lowerNativeNamesBIM": [
+        "V1"
+      ],
+      "upperNativeNames": [
+        "V3_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V1"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W03",
+      "fromM": 4.3,
+      "toM": 4.4,
+      "lengthM": 0.1,
+      "p1": [
+        4.3,
+        7.05
+      ],
+      "p2": [
+        4.4,
+        7.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P6"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W04",
+      "fromM": 4.4,
+      "toM": 4.5,
+      "lengthM": 0.1,
+      "p1": [
+        4.4,
+        7.05
+      ],
+      "p2": [
+        4.5,
+        7.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P6"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W04",
+      "fromM": 4.5,
+      "toM": 9.55,
+      "lengthM": 5.05,
+      "p1": [
+        4.5,
+        7.05
+      ],
+      "p2": [
+        9.55,
+        7.05
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V5"
+      ],
+      "lowerNativeNamesBIM": [
+        "V1"
+      ],
+      "upperNativeNames": [
+        "V5_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V1"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W04",
+      "fromM": 9.55,
+      "toM": 9.65,
+      "lengthM": 0.1,
+      "p1": [
+        9.55,
+        7.05
+      ],
+      "p2": [
+        9.65,
+        7.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P9"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W05",
+      "fromM": 0,
+      "toM": 0.15,
+      "lengthM": 0.15,
+      "p1": [
+        9.65,
+        0
+      ],
+      "p2": [
+        9.65,
+        0.15
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P7"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W05",
+      "fromM": 0.15,
+      "toM": 3.75,
+      "lengthM": 3.6,
+      "p1": [
+        9.65,
+        0.15
+      ],
+      "p2": [
+        9.65,
+        3.75
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V8"
+      ],
+      "lowerNativeNamesBIM": [
+        "V12"
+      ],
+      "upperNativeNames": [
+        "V8_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V8"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W05",
+      "fromM": 3.75,
+      "toM": 3.9,
+      "lengthM": 0.15,
+      "p1": [
+        9.65,
+        3.75
+      ],
+      "p2": [
+        9.65,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P8"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W06",
+      "fromM": 3.9,
+      "toM": 4.05,
+      "lengthM": 0.15,
+      "p1": [
+        9.65,
+        3.9
+      ],
+      "p2": [
+        9.65,
+        4.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P8"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W06",
+      "fromM": 4.05,
+      "toM": 6.9,
+      "lengthM": 2.85,
+      "p1": [
+        9.65,
+        4.05
+      ],
+      "p2": [
+        9.65,
+        6.9
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V12"
+      ],
+      "lowerNativeNamesBIM": [
+        "V12"
+      ],
+      "upperNativeNames": [
+        "V12_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V8"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W06",
+      "fromM": 6.9,
+      "toM": 7.05,
+      "lengthM": 0.15,
+      "p1": [
+        9.65,
+        6.9
+      ],
+      "p2": [
+        9.65,
+        7.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P9"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W07",
+      "fromM": 0,
+      "toM": 0.1,
+      "lengthM": 0.1,
+      "p1": [
+        0,
+        0
+      ],
+      "p2": [
+        0.1,
+        0
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P1"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W07",
+      "fromM": 0.1,
+      "toM": 4.3,
+      "lengthM": 4.2,
+      "p1": [
+        0.1,
+        0
+      ],
+      "p2": [
+        4.3,
+        0
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V1"
+      ],
+      "lowerNativeNamesBIM": [
+        "V5"
+      ],
+      "upperNativeNames": [
+        "V1_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V4"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W07",
+      "fromM": 4.3,
+      "toM": 4.4,
+      "lengthM": 0.1,
+      "p1": [
+        4.3,
+        0
+      ],
+      "p2": [
+        4.4,
+        0
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P4"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W08",
+      "fromM": 4.4,
+      "toM": 4.5,
+      "lengthM": 0.1,
+      "p1": [
+        4.4,
+        0
+      ],
+      "p2": [
+        4.5,
+        0
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P4"
+      ],
+      "baseFinishedM": null,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": null,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W08",
+      "fromM": 4.5,
+      "toM": 6.45,
+      "lengthM": 1.95,
+      "p1": [
+        4.5,
+        0
+      ],
+      "p2": [
+        6.45,
+        0
+      ],
+      "route": "sem-apoio-geometrico",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [
+        "V3"
+      ],
+      "upperNativeNamesBIM": [
+        "V4"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": null,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": null,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W08",
+      "fromM": 6.45,
+      "toM": 6.55,
+      "lengthM": 0.1,
+      "p1": [
+        6.45,
+        0
+      ],
+      "p2": [
+        6.55,
+        0
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P10"
+      ],
+      "baseFinishedM": null,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": null,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W09",
+      "fromM": 6.55,
+      "toM": 6.65,
+      "lengthM": 0.1,
+      "p1": [
+        6.55,
+        0
+      ],
+      "p2": [
+        6.65,
+        0
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P10"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W09",
+      "fromM": 6.65,
+      "toM": 8.1,
+      "lengthM": 1.45,
+      "p1": [
+        6.65,
+        0
+      ],
+      "p2": [
+        8.1,
+        0
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V4"
+      ],
+      "lowerNativeNamesBIM": [
+        "V6"
+      ],
+      "upperNativeNames": [
+        "V4_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V4"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W10",
+      "fromM": 8.1,
+      "toM": 9.55,
+      "lengthM": 1.45,
+      "p1": [
+        8.1,
+        0
+      ],
+      "p2": [
+        9.55,
+        0
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V4"
+      ],
+      "lowerNativeNamesBIM": [
+        "V6"
+      ],
+      "upperNativeNames": [
+        "V4_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V4"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W10",
+      "fromM": 9.55,
+      "toM": 9.65,
+      "lengthM": 0.1,
+      "p1": [
+        9.55,
+        0
+      ],
+      "p2": [
+        9.65,
+        0
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P7"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W11",
+      "fromM": 0,
+      "toM": 0.1,
+      "lengthM": 0.1,
+      "p1": [
+        0,
+        3.9
+      ],
+      "p2": [
+        0.1,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P2"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W11",
+      "fromM": 0.1,
+      "toM": 4.3,
+      "lengthM": 4.2,
+      "p1": [
+        0.1,
+        3.9
+      ],
+      "p2": [
+        4.3,
+        3.9
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V2"
+      ],
+      "lowerNativeNamesBIM": [
+        "V2"
+      ],
+      "upperNativeNames": [
+        "V2_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V2"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W11",
+      "fromM": 4.3,
+      "toM": 4.4,
+      "lengthM": 0.1,
+      "p1": [
+        4.3,
+        3.9
+      ],
+      "p2": [
+        4.4,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P5"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W12",
+      "fromM": 0,
+      "toM": 0.15,
+      "lengthM": 0.15,
+      "p1": [
+        4.4,
+        0
+      ],
+      "p2": [
+        4.4,
+        0.15
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P4"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W12",
+      "fromM": 0.15,
+      "toM": 2.75,
+      "lengthM": 2.6,
+      "p1": [
+        4.4,
+        0.15
+      ],
+      "p2": [
+        4.4,
+        2.75
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V7"
+      ],
+      "lowerNativeNamesBIM": [
+        "V9"
+      ],
+      "upperNativeNames": [
+        "V7_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V6"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W12",
+      "fromM": 2.75,
+      "toM": 2.85,
+      "lengthM": 0.1,
+      "p1": [
+        4.4,
+        2.75
+      ],
+      "p2": [
+        4.4,
+        2.85
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V15",
+        "V7"
+      ],
+      "lowerNativeNamesBIM": [
+        "V4",
+        "V9"
+      ],
+      "upperNativeNames": [
+        "V7_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V6"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W12",
+      "fromM": 2.85,
+      "toM": 2.95,
+      "lengthM": 0.1,
+      "p1": [
+        4.4,
+        2.85
+      ],
+      "p2": [
+        4.4,
+        2.95
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V15",
+        "V7"
+      ],
+      "lowerNativeNamesBIM": [
+        "V4",
+        "V9"
+      ],
+      "upperNativeNames": [
+        "V7_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V6"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W12",
+      "fromM": 2.95,
+      "toM": 3.75,
+      "lengthM": 0.8,
+      "p1": [
+        4.4,
+        2.95
+      ],
+      "p2": [
+        4.4,
+        3.75
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V7"
+      ],
+      "lowerNativeNamesBIM": [
+        "V9"
+      ],
+      "upperNativeNames": [
+        "V7_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V6"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W12",
+      "fromM": 3.75,
+      "toM": 3.9,
+      "lengthM": 0.15,
+      "p1": [
+        4.4,
+        3.75
+      ],
+      "p2": [
+        4.4,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P5"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W13",
+      "fromM": 3.9,
+      "toM": 4.05,
+      "lengthM": 0.15,
+      "p1": [
+        4.4,
+        3.9
+      ],
+      "p2": [
+        4.4,
+        4.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P5"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W13",
+      "fromM": 4.05,
+      "toM": 4.95,
+      "lengthM": 0.9,
+      "p1": [
+        4.4,
+        4.05
+      ],
+      "p2": [
+        4.4,
+        4.95
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V11"
+      ],
+      "lowerNativeNamesBIM": [
+        "V10"
+      ],
+      "upperNativeNames": [
+        "V11_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V6"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W14",
+      "fromM": 4.95,
+      "toM": 6.9,
+      "lengthM": 1.95,
+      "p1": [
+        4.4,
+        4.95
+      ],
+      "p2": [
+        4.4,
+        6.9
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V11"
+      ],
+      "lowerNativeNamesBIM": [
+        "V10"
+      ],
+      "upperNativeNames": [
+        "V11_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V6"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W14",
+      "fromM": 6.9,
+      "toM": 7.05,
+      "lengthM": 0.15,
+      "p1": [
+        4.4,
+        6.9
+      ],
+      "p2": [
+        4.4,
+        7.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P6"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W15",
+      "fromM": 4.4,
+      "toM": 4.5,
+      "lengthM": 0.1,
+      "p1": [
+        4.4,
+        4.95
+      ],
+      "p2": [
+        4.5,
+        4.95
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V11"
+      ],
+      "lowerNativeNamesBIM": [
+        "V10"
+      ],
+      "upperNativeNames": [
+        "V11_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V6"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W15",
+      "fromM": 4.5,
+      "toM": 5.45,
+      "lengthM": 0.95,
+      "p1": [
+        4.5,
+        4.95
+      ],
+      "p2": [
+        5.45,
+        4.95
+      ],
+      "route": "laje",
+      "lowerNativeNames": [
+        "L4"
+      ],
+      "lowerNativeNamesBIM": [
+        "L4"
+      ],
+      "upperNativeNames": [
+        "L4"
+      ],
+      "upperNativeNamesBIM": [
+        "L4"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.25,
+      "grossHeightReferenceM": 3.0,
+      "grossLinearKNm": 4.695,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W16",
+      "fromM": 3.9,
+      "toM": 4.0,
+      "lengthM": 0.1,
+      "p1": [
+        5.45,
+        3.9
+      ],
+      "p2": [
+        5.45,
+        4.0
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V14"
+      ],
+      "lowerNativeNamesBIM": [
+        "V2"
+      ],
+      "upperNativeNames": [
+        "V2"
+      ],
+      "upperNativeNamesBIM": [
+        "V2"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W16",
+      "fromM": 4.0,
+      "toM": 4.95,
+      "lengthM": 0.95,
+      "p1": [
+        5.45,
+        4.0
+      ],
+      "p2": [
+        5.45,
+        4.95
+      ],
+      "route": "laje",
+      "lowerNativeNames": [
+        "L4"
+      ],
+      "lowerNativeNamesBIM": [
+        "L4"
+      ],
+      "upperNativeNames": [
+        "L4"
+      ],
+      "upperNativeNamesBIM": [
+        "L4"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.25,
+      "grossHeightReferenceM": 3.0,
+      "grossLinearKNm": 4.695,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W17",
+      "fromM": 5.45,
+      "toM": 6.4,
+      "lengthM": 0.95,
+      "p1": [
+        5.45,
+        3.9
+      ],
+      "p2": [
+        6.4,
+        3.9
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V14"
+      ],
+      "lowerNativeNamesBIM": [
+        "V2"
+      ],
+      "upperNativeNames": [
+        "V2"
+      ],
+      "upperNativeNamesBIM": [
+        "V2"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W17",
+      "fromM": 6.4,
+      "toM": 6.55,
+      "lengthM": 0.15,
+      "p1": [
+        6.4,
+        3.9
+      ],
+      "p2": [
+        6.55,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P11"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W18",
+      "fromM": 6.55,
+      "toM": 6.7,
+      "lengthM": 0.15,
+      "p1": [
+        6.55,
+        3.9
+      ],
+      "p2": [
+        6.7,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P11"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W18",
+      "fromM": 6.7,
+      "toM": 9.55,
+      "lengthM": 2.85,
+      "p1": [
+        6.7,
+        3.9
+      ],
+      "p2": [
+        9.55,
+        3.9
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V13"
+      ],
+      "lowerNativeNamesBIM": [
+        "V3"
+      ],
+      "upperNativeNames": [
+        "V13_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V3"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W18",
+      "fromM": 9.55,
+      "toM": 9.65,
+      "lengthM": 0.1,
+      "p1": [
+        9.55,
+        3.9
+      ],
+      "p2": [
+        9.65,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P8"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W19",
+      "fromM": 0,
+      "toM": 0.15,
+      "lengthM": 0.15,
+      "p1": [
+        6.55,
+        0
+      ],
+      "p2": [
+        6.55,
+        0.15
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P10"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W19",
+      "fromM": 0.15,
+      "toM": 2.75,
+      "lengthM": 2.6,
+      "p1": [
+        6.55,
+        0.15
+      ],
+      "p2": [
+        6.55,
+        2.75
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V9"
+      ],
+      "lowerNativeNamesBIM": [
+        "V11"
+      ],
+      "upperNativeNames": [
+        "V9_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V7"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W19",
+      "fromM": 2.75,
+      "toM": 2.85,
+      "lengthM": 0.1,
+      "p1": [
+        6.55,
+        2.75
+      ],
+      "p2": [
+        6.55,
+        2.85
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V15",
+        "V9"
+      ],
+      "lowerNativeNamesBIM": [
+        "V4",
+        "V11"
+      ],
+      "upperNativeNames": [
+        "V9_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V7"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W19",
+      "fromM": 2.85,
+      "toM": 2.95,
+      "lengthM": 0.1,
+      "p1": [
+        6.55,
+        2.85
+      ],
+      "p2": [
+        6.55,
+        2.95
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V15",
+        "V9"
+      ],
+      "lowerNativeNamesBIM": [
+        "V4",
+        "V11"
+      ],
+      "upperNativeNames": [
+        "V9_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V7"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W19",
+      "fromM": 2.95,
+      "toM": 3.8,
+      "lengthM": 0.85,
+      "p1": [
+        6.55,
+        2.95
+      ],
+      "p2": [
+        6.55,
+        3.8
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V9"
+      ],
+      "lowerNativeNamesBIM": [
+        "V11"
+      ],
+      "upperNativeNames": [
+        "V9_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V7"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W19",
+      "fromM": 3.8,
+      "toM": 3.9,
+      "lengthM": 0.1,
+      "p1": [
+        6.55,
+        3.8
+      ],
+      "p2": [
+        6.55,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P11"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W20",
+      "fromM": 0,
+      "toM": 0.1,
+      "lengthM": 0.1,
+      "p1": [
+        8.1,
+        0
+      ],
+      "p2": [
+        8.1,
+        0.1
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V4"
+      ],
+      "lowerNativeNamesBIM": [
+        "V6"
+      ],
+      "upperNativeNames": [
+        "V4_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V4"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W20",
+      "fromM": 0.1,
+      "toM": 3.8,
+      "lengthM": 3.7,
+      "p1": [
+        8.1,
+        0.1
+      ],
+      "p2": [
+        8.1,
+        3.8
+      ],
+      "route": "laje",
+      "lowerNativeNames": [
+        "L3"
+      ],
+      "lowerNativeNamesBIM": [
+        "L3"
+      ],
+      "upperNativeNames": [
+        "L3"
+      ],
+      "upperNativeNamesBIM": [
+        "L3"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.25,
+      "grossHeightReferenceM": 3.01,
+      "grossLinearKNm": 4.71065,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    },
+    {
+      "wallId": "W20",
+      "fromM": 3.8,
+      "toM": 3.9,
+      "lengthM": 0.1,
+      "p1": [
+        8.1,
+        3.8
+      ],
+      "p2": [
+        8.1,
+        3.9
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V13"
+      ],
+      "lowerNativeNamesBIM": [
+        "V3"
+      ],
+      "upperNativeNames": [
+        "V13_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V3"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56"
+    }
+  ],
+  "source": "R55 eixos/aberturas e IFC R56; carga bruta preliminar sem descontos",
+  "allLoadsApplied": false
+}

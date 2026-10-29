@@ -1,0 +1,138 @@
+Window: "AltoQi Eberick 2025 Infinity - [H03_CAD_R56_COBERTURA_ESTUDO_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [H03_CAD_R56_COBERTURA_ESTUDO_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		7580 diálogo Aplicar para Secondary Actions: Raise
+			7581 text Pavimentos
+			7582 Lista Pavimentos ID: 101
+				7583 item de lista (selectable) N2
+				7584 item de lista (selectable) N1
+				7585 item de lista (selectable) N0
+			7586 botão OK ID: 1
+			7587 botão Cancelar ID: 2
+			7588 barra de título (settable, string) Value: Aplicar para
+		3935 diálogo Copiar dados (Viga) Secondary Actions: Raise
+			3936 caixa de seleção Viga sem rigidez: Não ID: 150
+			3937 caixa de seleção Ambiente: Externo ID: 151
+			3938 caixa de seleção Seção: 20 x 30 cm ID: 153
+			3939 caixa de seleção Elevação: 0 cm ID: 154
+			3940 caixa de seleção bw: 20 cm ID: 155
+			3941 caixa de seleção h: 30 cm ID: 156
+			3942 text Aplicar à ID: 159
+			3943 botão de opção (selectable) Seleção ID: 161
+			3944 botão de opção (selectable) Viga inteira ID: 160
+			3945 caixa de seleção Carga de parede: ID: 163
+			3946 text Grupo: Nenhum ID: 168
+			3947 text Carregamentos: 0 kN/m ID: 169
+			3948 caixa de seleção Carga extra: 0 kN/m ID: 164
+			3949 caixa de seleção Variação de temperatura ID: 166
+			3950 caixa de seleção Retração ID: 167
+			3951 caixa de seleção Considerar travamento horizontal pela laje ID: 170
+			3952 caixa de seleção Adotar Protensão: Não ID: 171
+			3953 barra de título (settable, string) Value: Copiar dados (Viga)
+		1 Barra de status
+			7589 custom
+				7590 text Copiar dados-Selecione destino ou <Enter> para lista
+				7591 editar (settable, string)
+				7592 text 199.3,706.1
+				7593 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					7594 Lista
+						7595 item de lista (selectable) 1:1
+						7596 item de lista (selectable) 1:2
+						7597 item de lista (selectable) 1:5
+						7598 item de lista (selectable) 1:10
+						7599 item de lista (selectable) 1:12.5
+						7600 item de lista (selectable) 1:15
+						7601 item de lista (selectable) 1:20
+						7602 item de lista (selectable) 1:25
+						7603 item de lista (selectable) 1:30
+						7604 item de lista (selectable) 1:40
+						7605 item de lista (selectable) 1:50
+						7606 item de lista (selectable) 1:60
+						7607 item de lista (selectable) 1:75
+						7608 item de lista (selectable) 1:100
+						7609 item de lista (selectable) 1:200
+						7610 item de lista (selectable) 1:250
+						7611 item de lista (selectable) 1:500
+						7612 item de lista (selectable) 1:1000
+			7613 botão Atualizar
+			7614 botão Enquadrar
+			7615 botão Aproximar
+			7616 botão Afastar
+			7617 botão Zoom
+			7618 botão Zoom anterior
+			7619 botão Deslocar
+			7620 caixa de seleção Ortogonal
+			7621 caixa de seleção Captura personalizada
+			7622 botão Opções da captura personalizada
+			7623 caixa de seleção Quadrante
+			7624 caixa de seleção Centro
+			7625 caixa de seleção Ponto médio
+			7626 caixa de seleção Extremidade
+			7627 caixa de seleção Ponto no elemento
+			7628 caixa de seleção Intersecção
+			7629 caixa de seleção Perpendicular
+			7630 caixa de seleção Ponto intermediário
+			7631 caixa de seleção Ponto quadrante
+			7632 caixa de seleção Ponto na intersecção
+			7633 caixa de seleção Ponto relativo
+		47 painel
+			48 botão de divisão
+				49 elevador
+				50 painel
+					51 tabulação Croqui-N2
+						7634 item de tabulação (selectable) Notícias
+						7635 item de tabulação (selectable) Croqui-N2
+					54 painel
+						1568 painel
+							1569 painel Croqui-N2
+								1570 painel TCadPlotWindow
+				58 painel
+					59 tabulação
+						7636 item de tabulação (selectable)
+						7637 item de tabulação (selectable)
+					62 painel
+						63 janela Edificação Secondary Actions: Raise
+							64 painel
+								65 painel Projeto
+									66 painel
+									1497 árvore ID: 101
+										1498 item da árvore (selectable, disabled) Pavimentos
+											1499 item da árvore (selectable, disabled) N2
+											1500 item da árvore (selectable, disabled) N1
+											1501 item da árvore (selectable, disabled) N0
+										1502 item da árvore (selectable, disabled) Cortes
+										1503 item da árvore (selectable, disabled) Gerenciador de desenhos
+										1504 item da árvore (selectable, disabled) Modelos 3D
+		76 barra de menus
+		7580 diálogo Aplicar para Secondary Actions: Raise
+			7581 text Pavimentos
+			7582 Lista Pavimentos ID: 101
+				7583 item de lista (selectable) N2
+				7584 item de lista (selectable) N1
+				7585 item de lista (selectable) N0
+			7586 botão OK ID: 1
+			7587 botão Cancelar ID: 2
+			7588 barra de título (settable, string) Value: Aplicar para
+		3935 diálogo Copiar dados (Viga) Secondary Actions: Raise
+			3936 caixa de seleção Viga sem rigidez: Não ID: 150
+			3937 caixa de seleção Ambiente: Externo ID: 151
+			3938 caixa de seleção Seção: 20 x 30 cm ID: 153
+			3939 caixa de seleção Elevação: 0 cm ID: 154
+			3940 caixa de seleção bw: 20 cm ID: 155
+			3941 caixa de seleção h: 30 cm ID: 156
+			3942 text Aplicar à ID: 159
+			3943 botão de opção (selectable) Seleção ID: 161
+			3944 botão de opção (selectable) Viga inteira ID: 160
+			3945 caixa de seleção Carga de parede: ID: 163
+			3946 text Grupo: Nenhum ID: 168
+			3947 text Carregamentos: 0 kN/m ID: 169
+			3948 caixa de seleção Carga extra: 0 kN/m ID: 164
+			3949 caixa de seleção Variação de temperatura ID: 166
+			3950 caixa de seleção Retração ID: 167
+			3951 caixa de seleção Considerar travamento horizontal pela laje ID: 170
+			3952 caixa de seleção Adotar Protensão: Não ID: 171
+			3953 barra de título (settable, string) Value: Copiar dados (Viga)
+
+Document text: ```
+Copiar dados-Selecione destino ou <Enter> para lista
+199.3,706.1
+```
