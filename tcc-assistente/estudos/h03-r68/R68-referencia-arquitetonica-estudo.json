@@ -1,0 +1,656 @@
+{
+  "schema": "tcc-triagem-apoios/2-estudo-r34",
+  "units": "m",
+  "scope": "Referencia de estudo R68; corrige apenas posicao X da porta S-P3-02. Demais lacunas R34 preservadas; nao arquitetura executiva.",
+  "source": "D:\\TCC\\PROJETO ARQUITETONICO-A0.pdf",
+  "sourceSha256": "3a57561f03e2c0e92964b19e577a02939b04fc93cdf1ef27cad6f79ad2deb12d",
+  "coordinateSystem": {
+    "origin": "Encontro nominal das paredes esquerda e inferior do corpo principal, em cada piso",
+    "xDirection": "Direita na planta",
+    "yDirection": "Para cima na planta",
+    "groundOriginPdf": {
+      "x": 548.28,
+      "y": 663.8
+    },
+    "upperOriginPdf": {
+      "x": 548.28,
+      "y": 1499
+    },
+    "pdfUnitsPerM": 56.69291338582678
+  },
+  "columnSection": {
+    "b": 0.2,
+    "h": 0.3,
+    "rotationDeg": 0,
+    "meaning": "Seção de triagem igual à H01; não dimensionada. Sobrepassa parede acabada de 15cm."
+  },
+  "floors": [
+    {
+      "id": "T",
+      "name": "Térreo",
+      "walls": [
+        {
+          "id": "T01",
+          "x": 0,
+          "y": 0,
+          "x2": 9.65,
+          "y2": 0,
+          "finishedThicknessM": 0.15,
+          "source": "Eixos nominais interpretados da planta térrea; vãos informados separadamente"
+        },
+        {
+          "id": "T02",
+          "x": 0,
+          "y": 7.05,
+          "x2": 9.65,
+          "y2": 7.05,
+          "finishedThicknessM": 0.15,
+          "source": "Eixos nominais interpretados da planta térrea; vãos informados separadamente"
+        },
+        {
+          "id": "T03",
+          "x": 0,
+          "y": 0,
+          "x2": 0,
+          "y2": 7.05,
+          "finishedThicknessM": 0.15,
+          "source": "Eixos nominais interpretados da planta térrea; vãos informados separadamente"
+        },
+        {
+          "id": "T04",
+          "x": 9.65,
+          "y": 0,
+          "x2": 9.65,
+          "y2": 7.05,
+          "finishedThicknessM": 0.15,
+          "source": "Eixos nominais interpretados da planta térrea; vãos informados separadamente"
+        },
+        {
+          "id": "T05",
+          "x": 4.4,
+          "y": 0,
+          "x2": 4.4,
+          "y2": 7.05,
+          "finishedThicknessM": 0.15,
+          "source": "Eixos nominais interpretados da planta térrea; vãos informados separadamente"
+        },
+        {
+          "id": "T06",
+          "x": 6.55,
+          "y": 0,
+          "x2": 6.55,
+          "y2": 3.9,
+          "finishedThicknessM": 0.15,
+          "source": "Eixos nominais interpretados da planta térrea; vãos informados separadamente"
+        },
+        {
+          "id": "T07",
+          "x": 0,
+          "y": 3.9,
+          "x2": 4.4,
+          "y2": 3.9,
+          "finishedThicknessM": 0.15,
+          "source": "Eixos nominais interpretados da planta térrea; vãos informados separadamente"
+        },
+        {
+          "id": "T08",
+          "x": 6.55,
+          "y": 3.9,
+          "x2": 9.65,
+          "y2": 3.9,
+          "finishedThicknessM": 0.15,
+          "source": "Eixos nominais interpretados da planta térrea; vãos informados separadamente"
+        }
+      ],
+      "openings": [
+        {
+          "id": "T-J1-01",
+          "tag": "J1",
+          "x": 1.4,
+          "y": 7.05,
+          "x2": 3,
+          "y2": 7.05,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "T-J1-02",
+          "tag": "J1",
+          "x": 6.225,
+          "y": 7.05,
+          "x2": 7.825,
+          "y2": 7.05,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "T-P4-01",
+          "tag": "P4",
+          "x": 0,
+          "y": 4.45,
+          "x2": 0,
+          "y2": 6.45,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "T-P4-02",
+          "tag": "P4",
+          "x": 1.25,
+          "y": 3.9,
+          "x2": 3.25,
+          "y2": 3.9,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "T-P2-01",
+          "tag": "P2",
+          "x": 4.4,
+          "y": 4.05,
+          "x2": 4.4,
+          "y2": 4.75,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "T-P2-02",
+          "tag": "P2",
+          "x": 8.75,
+          "y": 3.9,
+          "x2": 9.45,
+          "y2": 3.9,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "T-J1-03",
+          "tag": "J1",
+          "x": 0,
+          "y": 1.15,
+          "x2": 0,
+          "y2": 2.75,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "T-J1-04",
+          "tag": "J1",
+          "x": 9.65,
+          "y": 1.15,
+          "x2": 9.65,
+          "y2": 2.75,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "T-P1-01",
+          "tag": "P1",
+          "x": 0.2,
+          "y": 0,
+          "x2": 1,
+          "y2": 0,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "T-P1-02",
+          "tag": "P1",
+          "x": 8.65,
+          "y": 0,
+          "x2": 9.45,
+          "y2": 0,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "T-J4-01",
+          "tag": "J4",
+          "x": 4.7,
+          "y": 0,
+          "x2": 6.3,
+          "y2": 0,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "T-P5-01",
+          "tag": "P5",
+          "x": 9.65,
+          "y": 5.85,
+          "x2": 9.65,
+          "y2": 6.85,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        }
+      ]
+    },
+    {
+      "id": "S",
+      "name": "Pavimento superior",
+      "walls": [
+        {
+          "id": "W01",
+          "x": 0,
+          "y": 0,
+          "x2": 0,
+          "y2": 3.9,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W02",
+          "x": 0,
+          "y": 3.9,
+          "x2": 0,
+          "y2": 7.05,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W03",
+          "x": 0,
+          "y": 7.05,
+          "x2": 4.4,
+          "y2": 7.05,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W04",
+          "x": 4.4,
+          "y": 7.05,
+          "x2": 9.65,
+          "y2": 7.05,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W05",
+          "x": 9.65,
+          "y": 0,
+          "x2": 9.65,
+          "y2": 3.9,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W06",
+          "x": 9.65,
+          "y": 3.9,
+          "x2": 9.65,
+          "y2": 7.05,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W07",
+          "x": 0,
+          "y": 0,
+          "x2": 4.4,
+          "y2": 0,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W08",
+          "x": 4.4,
+          "y": 0,
+          "x2": 6.55,
+          "y2": 0,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W09",
+          "x": 6.55,
+          "y": 0,
+          "x2": 8.1,
+          "y2": 0,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W10",
+          "x": 8.1,
+          "y": 0,
+          "x2": 9.65,
+          "y2": 0,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W11",
+          "x": 0,
+          "y": 3.9,
+          "x2": 4.4,
+          "y2": 3.9,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W12",
+          "x": 4.4,
+          "y": 0,
+          "x2": 4.4,
+          "y2": 3.9,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W13",
+          "x": 4.4,
+          "y": 3.9,
+          "x2": 4.4,
+          "y2": 4.95,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W14",
+          "x": 4.4,
+          "y": 4.95,
+          "x2": 4.4,
+          "y2": 7.05,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W15",
+          "x": 4.4,
+          "y": 4.95,
+          "x2": 5.45,
+          "y2": 4.95,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W16",
+          "x": 5.45,
+          "y": 3.9,
+          "x2": 5.45,
+          "y2": 4.95,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W17",
+          "x": 5.45,
+          "y": 3.9,
+          "x2": 6.55,
+          "y2": 3.9,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W18",
+          "x": 6.55,
+          "y": 3.9,
+          "x2": 9.65,
+          "y2": 3.9,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W19",
+          "x": 6.55,
+          "y": 0,
+          "x2": 6.55,
+          "y2": 3.9,
+          "finishedThicknessM": 0.15
+        },
+        {
+          "id": "W20",
+          "x": 8.1,
+          "y": 0,
+          "x2": 8.1,
+          "y2": 3.9,
+          "finishedThicknessM": 0.15
+        }
+      ],
+      "openings": [
+        {
+          "id": "S-J1-01",
+          "tag": "J1",
+          "x": 0,
+          "y": 1.15,
+          "x2": 0,
+          "y2": 2.75,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "S-J1-02",
+          "tag": "J1",
+          "x": 0,
+          "y": 4.7,
+          "x2": 0,
+          "y2": 6.3,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "S-J1-03",
+          "tag": "J1",
+          "x": 6.75,
+          "y": 7.05,
+          "x2": 8.35,
+          "y2": 7.05,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "S-P4-01",
+          "tag": "P4",
+          "x": 9.65,
+          "y": 4.45,
+          "x2": 9.65,
+          "y2": 6.45,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "S-P2-01",
+          "tag": "P2",
+          "x": 4.4,
+          "y": 3.05,
+          "x2": 4.4,
+          "y2": 3.75,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "S-P2-02",
+          "tag": "P2",
+          "x": 4.4,
+          "y": 4.05,
+          "x2": 4.4,
+          "y2": 4.75,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "S-P2-03",
+          "tag": "P2",
+          "x": 5.45,
+          "y": 4.05,
+          "x2": 5.45,
+          "y2": 4.75,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "S-P3-01",
+          "tag": "P3",
+          "x": 6.55,
+          "y": 3.1263166666666664,
+          "x2": 6.55,
+          "y2": 3.7274499999999984,
+          "source": "Identificacao manual da porta P3 no recorte superior e conferência de vetores do PDF: x=915.36..923.76 pt, top=1287.68..1321.76 pt; eixo local nominal x=6.55 m.",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "S-P3-02",
+          "tag": "P3",
+          "x": 8.873633333333332,
+          "y": 3.9,
+          "x2": 9.473633333333334,
+          "y2": 3.9,
+          "source": "R68: largura nominal0,60m centralizada na abertura vetorial P3 direita da prancha; limites claros PDF1051,44..1085,28pt; eixo nominaly3,90m preservado",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "S-J2-01",
+          "tag": "J2",
+          "x": 6.95,
+          "y": 0,
+          "x2": 7.75,
+          "y2": 0,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        },
+        {
+          "id": "S-J2-02",
+          "tag": "J2",
+          "x": 8.5,
+          "y": 0,
+          "x2": 9.3,
+          "y2": 0,
+          "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+          "coordinateUncertaintyM": 0.05,
+          "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C01",
+      "x": 2.2,
+      "y": 0,
+      "b": 0.2,
+      "h": 0.3,
+      "scope": "Pilar contínuo proposto em estudo, desde N0; não inserido nos modelos"
+    },
+    {
+      "id": "C02",
+      "x": 2.2,
+      "y": 7.05,
+      "b": 0.2,
+      "h": 0.3,
+      "scope": "Pilar contínuo proposto em estudo, desde N0; não inserido nos modelos"
+    },
+    {
+      "id": "C03",
+      "x": 2.2,
+      "y": 3.9,
+      "b": 0.2,
+      "h": 0.3,
+      "scope": "Pilar contínuo proposto em estudo, desde N0; não inserido nos modelos"
+    },
+    {
+      "id": "C04",
+      "x": 7.025,
+      "y": 7.05,
+      "b": 0.2,
+      "h": 0.3,
+      "scope": "Pilar contínuo proposto em estudo, desde N0; não inserido nos modelos"
+    },
+    {
+      "id": "C05",
+      "x": 4.4,
+      "y": 1.95,
+      "b": 0.2,
+      "h": 0.3,
+      "scope": "Pilar contínuo proposto em estudo, desde N0; não inserido nos modelos"
+    },
+    {
+      "id": "C06",
+      "x": 4.4,
+      "y": 5.475,
+      "b": 0.2,
+      "h": 0.3,
+      "scope": "Pilar contínuo proposto em estudo, desde N0; não inserido nos modelos"
+    },
+    {
+      "id": "C07",
+      "x": 6.55,
+      "y": 0,
+      "b": 0.2,
+      "h": 0.3,
+      "scope": "Pilar contínuo proposto em estudo, desde N0; não inserido nos modelos"
+    },
+    {
+      "id": "C08",
+      "x": 6.55,
+      "y": 3.9,
+      "b": 0.2,
+      "h": 0.3,
+      "scope": "Pilar contínuo proposto em estudo, desde N0; não inserido nos modelos"
+    },
+    {
+      "id": "C09",
+      "x": 8.1,
+      "y": 0,
+      "b": 0.2,
+      "h": 0.3,
+      "scope": "Pilar contínuo proposto em estudo, desde N0; não inserido nos modelos"
+    },
+    {
+      "id": "C10",
+      "x": 8.1,
+      "y": 3.9,
+      "b": 0.2,
+      "h": 0.3,
+      "scope": "Pilar contínuo proposto em estudo, desde N0; não inserido nos modelos"
+    },
+    {
+      "id": "C11",
+      "x": 0,
+      "y": 1.95,
+      "b": 0.2,
+      "h": 0.3,
+      "scope": "Pilar contínuo proposto em estudo, desde N0; não inserido nos modelos"
+    },
+    {
+      "id": "C12",
+      "x": 9.65,
+      "y": 1.95,
+      "b": 0.2,
+      "h": 0.3,
+      "scope": "Pilar contínuo proposto em estudo, desde N0; não inserido nos modelos"
+    },
+    {
+      "id": "C13",
+      "x": 9.65,
+      "y": 5.475,
+      "b": 0.2,
+      "h": 0.3,
+      "scope": "Pilar contínuo proposto em estudo, desde N0; não inserido nos modelos"
+    },
+    {
+      "id": "C14",
+      "x": 8.1,
+      "y": 1.95,
+      "b": 0.2,
+      "h": 0.3,
+      "scope": "Pilar contínuo proposto em estudo, desde N0; não inserido nos modelos"
+    }
+  ],
+  "limitations": [
+    "Localizações de aberturas aproximadas a partir dos recortes; rever vetores e cotas antes de lançamento.",
+    "Não modela giro das folhas, passagem livre real, instalações, pé-direito da escada, fundações ou capacidade estrutural.",
+    "Coincidência de eixo com parede não significa seção contida na espessura da parede.",
+    "Paredes térreas e superiores têm distribuições diferentes; pilar novo não pode nascer apenas no pavimento superior sem estudo específico."
+  ],
+  "parent": {
+    "path": "D:/TCC/outputs/Compatibilizacao-apoios-H01-R11/R11-entrada-triagem.json",
+    "sha256": "eda3243c60b39227ebaa42f0ba9d955f6c34845fc6a197f2f658ff3f27d9ca86"
+  },
+  "parentReferencePath": "D:\\TCC\\outputs\\Concepcao-H03-R34-ESTUDO-NAO-ADOTADO\\R34-referencia-arquitetonica.json",
+  "parentReferenceSha256": "53d10b1dd4b4e8169c7e6482eb62e7b8951ac524107627be47a4b726811ca8fd"
+}

@@ -1,0 +1,98 @@
+{
+  "revision": "H03/R68",
+  "atUtc": "2026-10-29T23:09:04.450177+00:00",
+  "openingId": "S-P3-02",
+  "wallId": "W18",
+  "pdfClearXPoints": [
+    1051.44,
+    1085.28
+  ],
+  "pdfOuterFrameXPoints": [
+    1049.04,
+    1087.68
+  ],
+  "originXPdfPoints": 548.28,
+  "pdfPointsPerM": 56.69291338582678,
+  "clearRawLocalIntervalM": [
+    8.875183333333334,
+    9.472083333333332
+  ],
+  "clearRawWidthM": 0.596899999999998,
+  "nominalClearWidthM": 0.6,
+  "updatedNominalLocalIntervalM": [
+    8.873633333333332,
+    9.473633333333334
+  ],
+  "oldApproximateIntervalM": [
+    9.05,
+    9.65
+  ],
+  "centerCorrectionM": -0.17636666666666834,
+  "outerFrameLocalIntervalM": [
+    8.832849999999999,
+    9.514416666666667
+  ],
+  "columnGeometryByBranch": {
+    "CAD": [
+      {
+        "type": "IfcColumn",
+        "name": "P8",
+        "guid": "1ZyH5uqniHyOy801fzsd4G",
+        "min": [
+          9.55,
+          3.75,
+          3.2
+        ],
+        "max": [
+          9.75,
+          4.05,
+          6.39
+        ],
+        "topAreaM2": 0.06
+      }
+    ],
+    "BIM": [
+      {
+        "type": "IfcColumn",
+        "name": "P7",
+        "guid": "2MjmLWqlqHyOy801fzsd4G",
+        "min": [
+          9.55,
+          3.75,
+          3.2
+        ],
+        "max": [
+          9.75,
+          4.05,
+          6.39
+        ],
+        "topAreaM2": 0.06
+      }
+    ]
+  },
+  "oldNominalColumnOverlapM": 0.09999999999999964,
+  "updatedNominalClearOverlapM": 0,
+  "updatedClearGapToColumnM": 0.07636666666666692,
+  "updatedClearGapRangeStudyM": [
+    0.026366666666666913,
+    0.1263666666666669
+  ],
+  "outerFrameGapToColumnM": 0.0355833333333333,
+  "outerFrameGapRangeStudyM": [
+    -0.014416666666666703,
+    0.0855833333333333
+  ],
+  "clearOpeningTriagedWithoutOverlap": true,
+  "outerFrameStillNeedsFaceCheck": true,
+  "structuralColumnMoved": false,
+  "originalArchitectureEdited": false,
+  "geometrySource": {
+    "path": "D:\\TCC\\outputs\\Cobertura-H03-R56-ESTUDO-NAO-EXECUTAR\\R56-geometria-exportada.json",
+    "sha256": "6fc2486f4eecd19985a4c4d87886822bb76ee40cee80e07c352db25bca0aabf7",
+    "revision": "R56 geometry preserved in R57; no new R68 export"
+  },
+  "nativeRvtDwgPrjEdited": false,
+  "loadsApplied": false,
+  "fullCompatibilityApproved": false,
+  "interpretation": "R67 aparente conflito do vao claro decorre da referencia aproximada; contorno externo/folgas e posicoes executivas continuam a conferir"
+}
