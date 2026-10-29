@@ -1,0 +1,77 @@
+Window: "AltoQi Eberick 2025 Infinity - [H03_CAD_R58_DIAGNOSTICO_PARCIAL_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [H03_CAD_R58_DIAGNOSTICO_PARCIAL_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		1 Barra de status
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Notícias
+						31010 item de tabulação (selectable) Notícias
+					8 painel
+						28226 painel
+							28227 painel status.altoqi.com.br
+								28228 painel (disabled)
+								28229 região status.altoqi.com.br - Conteúdo da Web
+									28230 região
+										28231 região
+										28232 região
+											28233 região
+												28234 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													28235 gráfico
+													28236 título Hum… Não consigo chegar a esta página
+													28237 text status.altoqi.com.br
+													28238 text se recusou a se conectar.
+													28239 text Tente:
+													28240 Lista
+														28241 item de lista •Verificando a conexão
+														28242 item de lista •Verificação de proxy e firewall
+															28243 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													28244 text ERR_CONNECTION_REFUSED
+													28245 botão Atualizar ID: reload-button
+													28246 text Microsoft Edge
+												28247 região
+				31 painel
+					32 tabulação
+						31011 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									38 painel
+									30987 árvore ID: 101
+										30988 item da árvore (selectable) Pavimentos
+											30989 item da árvore (selectable) N2
+											30990 item da árvore (selectable) N1
+											30991 item da árvore (selectable) N0
+										30992 item da árvore (selectable) Pilares em prumada
+										30993 item da árvore (selectable) Cortes
+										30994 item da árvore (selectable) Gerenciador de desenhos
+										30995 item da árvore (selectable) Modelos 3D
+		47 barra de menus
+		31012 diálogo Análise Estática Linear Secondary Actions: Raise
+			31013 tabulação ID: 634
+				31014 item de tabulação (selectable) Resultados
+			31015 botão OK ID: 1
+			31016 botão Imprimir... ID: 644
+			31017 botão Relatórios... ID: 631
+			31018 botão Diagnóstico... ID: 1347
+			31019 botão Ajuda ID: 9
+			31020 editar Value: Cargas verticais: Peso próprio = 75.69 tf Adicional = 8.20 tf Acidental = 17.11 tf Total = 101.00 tf Área aproximada = 132.81 m² Relação = 760.52 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.00 cm (limite 0.42) X- = 0.00 cm (limite 0.42) Y+ = 0.00 cm (limite 0.42) Y- = 0.00 cm (limite 0.42) AVISO: Os deslocamentos horizontais não foram verificados Verificação de estabilidade (Gama-Z): X+ = 1.09 (limite 1.10) X- = 1.08 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+8.82%) Vento X+: 0.96 »» 1.10 (+13.92%) Vento X-: 0.96 »» 1.10 (+13.92%) Vento Y+: 1.06 »» 1.15 (+7.92%) Vento Y-: 1.06 »» 1.15 (+7.92%) Desaprumo X+: 0.09 »» 0.10 (+13.72%) Desaprumo X-: 0.09 »» 0.10 (+13.72%) Desaprumo Y+: 0.06 »» 0.07 (+7.76%) Desaprumo Y-: 0.06 »» 0.07 (+7.76%)
+				31021 barra de rolagem (settable, float) Vertical Value: 0 ID: NonClientVerticalScrollBar
+					31022 botão Uma linha acima ID: UpButton
+					31023 elevador Posição ID: ScrollbarThumb
+					31024 botão Uma página abaixo ID: DownPageButton
+					31025 botão Uma linha abaixo ID: DownButton
+			31026 barra de título (settable, string) Value: Análise Estática Linear
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```

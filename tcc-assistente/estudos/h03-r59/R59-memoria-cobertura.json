@@ -1,0 +1,109 @@
+{
+  "revision": "H03/R59",
+  "atUtc": "2026-10-29T17:34:10.898487+00:00",
+  "scope": "Memoria unitaria de cargas, sem edicao de modelos",
+  "userAccepted": {
+    "sheet": "Fibrocimento ondulado 6 mm",
+    "roofSlopePercent": 10,
+    "supportSystem": "Estrutura metalica leve",
+    "weightsAndReactionsMayBeStudyHypotheses": true
+  },
+  "sources": {
+    "architecture": {
+      "path": "D:\\TCC\\PROJETO ARQUITETONICO-A0.pdf",
+      "sha256": "3a57561f03e2c0e92964b19e577a02939b04fc93cdf1ef27cad6f79ad2deb12d",
+      "observed": "Planta com tres anotacoes fibrocimento a 10%; cobertura de policarbonato a 5% separada; corte BB com reservatorio 1000 L e ressalto local de 0,60 m"
+    },
+    "norm": {
+      "path": "D:\\TCC\\materiais\\normas\\ABNT NBR 6120-2019.pdf",
+      "sha256": "807c22009de912321bf743704cc4b5ad454ef0a68721b50f8d34bf2182f567b7",
+      "editionRead": "ABNT NBR 6120:2019, exemplar local",
+      "catalogCurrentEditionIndependentlyConfirmed": false,
+      "table5": {
+        "pdfPage": 19,
+        "printedPage": 13,
+        "sheetPermanentInclinedKNm2": 0.18,
+        "inclusions": [
+          "sobreposicao",
+          "fixacao",
+          "absorcao de agua"
+        ]
+      },
+      "section64": {
+        "pdfPage": 35,
+        "printedPage": 29,
+        "roofMaintenanceHorizontalKNm2": 0.25,
+        "meaning": "Cobertura acessivel apenas para manutencao, i=10%; nao substituir automaticamente a sobrecarga da laje"
+      }
+    },
+    "manufacturer": {
+      "url": "https://www.brasilit.com.br/sites/brasilit.com.br/files/produto/arquivos/Guia%20T%C3%A9cnico%20Brasilit%202026.pdf",
+      "pdfPage": 37,
+      "printedPage": 37,
+      "referenceMassPerAreaKgM2": 18,
+      "meaning": "Referencia comercial corroborativa; nao somada a carga normativa nem especificacao obrigatoria de compra"
+    }
+  },
+  "loads": {
+    "slopeRadians": 0.09966865249116204,
+    "slopeDegrees": 5.710593137499643,
+    "inclinedAreaPerHorizontalArea": 1.004987562112089,
+    "sheetInclinedKNm2": 0.18,
+    "sheetHorizontalKNm2": 0.180897761180176,
+    "steelHorizontalAllowanceKNm2": 0.15,
+    "steelAllowanceIsHypothesis": true,
+    "steelMembersQuantified": false,
+    "roofPermanentHorizontalKNm2": 0.330897761180176,
+    "roofMaintenanceHorizontalKNm2": 0.25,
+    "existingSlabForroG2KNm2": 0.25,
+    "existingSlabLiveQKNm2": 1.0,
+    "roofPermanentAppliedToSlabG2": false,
+    "roofMaintenanceAddedToSlabQ": false
+  },
+  "sensitivity": [
+    {
+      "steelAllowanceKNm2": 0.1,
+      "sheetHorizontalKNm2": 0.180897761180176,
+      "totalRoofPermanentKNm2": 0.280897761180176
+    },
+    {
+      "steelAllowanceKNm2": 0.15,
+      "sheetHorizontalKNm2": 0.180897761180176,
+      "totalRoofPermanentKNm2": 0.330897761180176
+    },
+    {
+      "steelAllowanceKNm2": 0.2,
+      "sheetHorizontalKNm2": 0.180897761180176,
+      "totalRoofPermanentKNm2": 0.38089776118017604
+    }
+  ],
+  "parametricReactionExample": {
+    "meaning": "Exemplo de barra simplesmente apoiada, sob carregamento uniforme; nao reacao extraida da arquitetura ou Eberick",
+    "tributaryWidthM": 1.5,
+    "spanM": 3.9,
+    "linePermanentKNm": 0.496346641770264,
+    "lineVariableKNm": 0.375,
+    "leftPermanentKN": 0.9678759514520148,
+    "rightPermanentKN": 0.9678759514520148,
+    "leftVariableKN": 0.73125,
+    "rightVariableKN": 0.73125,
+    "windIncluded": false,
+    "stiffnessRedistributionIncluded": false,
+    "actualNativeElement": null
+  },
+  "actualRoofAreaM2": null,
+  "actualRoofTotalPermanentKN": null,
+  "actualRoofSupportReactions": null,
+  "loadPathDefined": false,
+  "nativeModelsEdited": false,
+  "monographEdited": false,
+  "pending": [
+    "Mapear as tres aguas, recortes, bordas, calhas e eventual area do abrigo do reservatorio em coordenadas H03.",
+    "Definir terças/tesouras, comprimentos tributarios e pontos/linhas reais de apoio na estrutura de concreto.",
+    "Quantificar os perfis, ligacoes e contraventamentos para substituir a reserva de peso.",
+    "Avaliar apoios locais, vento/succao e combinacoes; nao distribuir pontualmente ou sobre lajes por conveniencia.",
+    "Manter sobrecarga da laje distinta da cobertura e decidir simultaneidade; nao somar nem substituir automaticamente.",
+    "Detalhar reservatorio, base, tara, cota e paredes do abrigo; nao incluir no peso unitario das telhas.",
+    "Consultar catalogo ABNT antes de fechar a versao normativa do trabalho e a verificacao final."
+  ]
+}

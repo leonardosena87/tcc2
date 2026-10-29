@@ -1,0 +1,13 @@
+{
+  "atUtc": "2026-10-29T17:35:26.725794+00:00",
+  "manifestFilesChecked": 65,
+  "pythonSourcesParsed": true,
+  "syntheticAssistantTests": {
+    "passed": 9,
+    "failed": 0,
+    "command": "node --test tests/exchange.test.mjs tests/structural.test.mjs",
+    "notNativeStructuralDesignValidation": true
+  },
+  "liveAICallsPerformed": false,
+  "fullWorkflowRankingAllowed": false
+}

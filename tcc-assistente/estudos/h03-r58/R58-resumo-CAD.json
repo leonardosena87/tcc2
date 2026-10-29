@@ -1,0 +1,78 @@
+{
+  "loads": {
+    "selfWeightTf": 75.69,
+    "additionalTf": 8.2,
+    "liveTf": 17.11,
+    "totalTf": 101.0,
+    "approxAreaM2": 132.81,
+    "ratioKgfM2": 760.52
+  },
+  "gammaZ": {
+    "X+": 1.09,
+    "X-": 1.08,
+    "Y+": 1.06,
+    "Y-": 1.05
+  },
+  "pDelta": [
+    {
+      "case": "Acidental",
+      "beforeCm": 0.01,
+      "afterCm": 0.01,
+      "variationPercent": 8.82
+    },
+    {
+      "case": "Vento X+",
+      "beforeCm": 0.96,
+      "afterCm": 1.1,
+      "variationPercent": 13.92
+    },
+    {
+      "case": "Vento X-",
+      "beforeCm": 0.96,
+      "afterCm": 1.1,
+      "variationPercent": 13.92
+    },
+    {
+      "case": "Vento Y+",
+      "beforeCm": 1.06,
+      "afterCm": 1.15,
+      "variationPercent": 7.92
+    },
+    {
+      "case": "Vento Y-",
+      "beforeCm": 1.06,
+      "afterCm": 1.15,
+      "variationPercent": 7.92
+    },
+    {
+      "case": "Desaprumo X+",
+      "beforeCm": 0.09,
+      "afterCm": 0.1,
+      "variationPercent": 13.72
+    },
+    {
+      "case": "Desaprumo X-",
+      "beforeCm": 0.09,
+      "afterCm": 0.1,
+      "variationPercent": 13.72
+    },
+    {
+      "case": "Desaprumo Y+",
+      "beforeCm": 0.06,
+      "afterCm": 0.07,
+      "variationPercent": 7.76
+    },
+    {
+      "case": "Desaprumo Y-",
+      "beforeCm": 0.06,
+      "afterCm": 0.07,
+      "variationPercent": 7.76
+    }
+  ],
+  "warningsVisibleInSummary": [
+    "Relação de carga por área não usual para edifícios",
+    "Os deslocamentos horizontais não foram verificados"
+  ],
+  "summaryPreservedAfterNativeReopen": true,
+  "structuralAdequacyApproved": false
+}

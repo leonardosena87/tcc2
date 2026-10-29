@@ -1,0 +1,223 @@
+{
+  "revision": "H03/R58",
+  "atUtc": "2026-10-29T17:29:58.922927+00:00",
+  "operation": {
+    "atUtc": "2026-10-29T17:28:37.685Z",
+    "bothNativeProjectsSaved": true,
+    "bothClosedNormallyBeforeFreeze": true,
+    "CADOpeningWarning": true,
+    "CADIntegrityCheckPerformed": true,
+    "BIMOpeningWarning": false,
+    "CADReopenedWithoutWarning": true,
+    "BIMReopenedWithoutWarning": true,
+    "wholeFlowRankingAllowed": false,
+    "newEngineeringLoadsApplied": false,
+    "newSectionsEdited": false,
+    "liveOpenAIApiCallsPerformed": false,
+    "roofHypothesisUserAccepted": "Telha ondulada de fibrocimento 6 mm, inclinacao 10%, estrutura metalica leve; pesos e reacoes como hipoteses documentadas; ainda nao aplicada nesta R58"
+  },
+  "summaries": {
+    "CAD": {
+      "loads": {
+        "selfWeightTf": 75.69,
+        "additionalTf": 8.2,
+        "liveTf": 17.11,
+        "totalTf": 101.0,
+        "approxAreaM2": 132.81,
+        "ratioKgfM2": 760.52
+      },
+      "gammaZ": {
+        "X+": 1.09,
+        "X-": 1.08,
+        "Y+": 1.06,
+        "Y-": 1.05
+      },
+      "pDelta": [
+        {
+          "case": "Acidental",
+          "beforeCm": 0.01,
+          "afterCm": 0.01,
+          "variationPercent": 8.82
+        },
+        {
+          "case": "Vento X+",
+          "beforeCm": 0.96,
+          "afterCm": 1.1,
+          "variationPercent": 13.92
+        },
+        {
+          "case": "Vento X-",
+          "beforeCm": 0.96,
+          "afterCm": 1.1,
+          "variationPercent": 13.92
+        },
+        {
+          "case": "Vento Y+",
+          "beforeCm": 1.06,
+          "afterCm": 1.15,
+          "variationPercent": 7.92
+        },
+        {
+          "case": "Vento Y-",
+          "beforeCm": 1.06,
+          "afterCm": 1.15,
+          "variationPercent": 7.92
+        },
+        {
+          "case": "Desaprumo X+",
+          "beforeCm": 0.09,
+          "afterCm": 0.1,
+          "variationPercent": 13.72
+        },
+        {
+          "case": "Desaprumo X-",
+          "beforeCm": 0.09,
+          "afterCm": 0.1,
+          "variationPercent": 13.72
+        },
+        {
+          "case": "Desaprumo Y+",
+          "beforeCm": 0.06,
+          "afterCm": 0.07,
+          "variationPercent": 7.76
+        },
+        {
+          "case": "Desaprumo Y-",
+          "beforeCm": 0.06,
+          "afterCm": 0.07,
+          "variationPercent": 7.76
+        }
+      ],
+      "warningsVisibleInSummary": [
+        "Relação de carga por área não usual para edifícios",
+        "Os deslocamentos horizontais não foram verificados"
+      ],
+      "summaryPreservedAfterNativeReopen": true,
+      "structuralAdequacyApproved": false
+    },
+    "BIM": {
+      "loads": {
+        "selfWeightTf": 75.69,
+        "additionalTf": 8.2,
+        "liveTf": 17.11,
+        "totalTf": 101.0,
+        "approxAreaM2": 132.81,
+        "ratioKgfM2": 760.52
+      },
+      "gammaZ": {
+        "X+": 1.09,
+        "X-": 1.08,
+        "Y+": 1.06,
+        "Y-": 1.05
+      },
+      "pDelta": [
+        {
+          "case": "Acidental",
+          "beforeCm": 0.01,
+          "afterCm": 0.01,
+          "variationPercent": 8.82
+        },
+        {
+          "case": "Vento X+",
+          "beforeCm": 0.96,
+          "afterCm": 1.1,
+          "variationPercent": 13.92
+        },
+        {
+          "case": "Vento X-",
+          "beforeCm": 0.96,
+          "afterCm": 1.1,
+          "variationPercent": 13.92
+        },
+        {
+          "case": "Vento Y+",
+          "beforeCm": 1.06,
+          "afterCm": 1.15,
+          "variationPercent": 7.92
+        },
+        {
+          "case": "Vento Y-",
+          "beforeCm": 1.06,
+          "afterCm": 1.15,
+          "variationPercent": 7.92
+        },
+        {
+          "case": "Desaprumo X+",
+          "beforeCm": 0.09,
+          "afterCm": 0.1,
+          "variationPercent": 13.72
+        },
+        {
+          "case": "Desaprumo X-",
+          "beforeCm": 0.09,
+          "afterCm": 0.1,
+          "variationPercent": 13.72
+        },
+        {
+          "case": "Desaprumo Y+",
+          "beforeCm": 0.06,
+          "afterCm": 0.07,
+          "variationPercent": 7.76
+        },
+        {
+          "case": "Desaprumo Y-",
+          "beforeCm": 0.06,
+          "afterCm": 0.07,
+          "variationPercent": 7.76
+        }
+      ],
+      "warningsVisibleInSummary": [
+        "Relação de carga por área não usual para edifícios",
+        "Os deslocamentos horizontais não foram verificados"
+      ],
+      "summaryPreservedAfterNativeReopen": true,
+      "structuralAdequacyApproved": false
+    }
+  },
+  "summaryTextsEqualAtDisplayedPrecision": true,
+  "protectedR57FilesChecked": 46,
+  "times": {
+    "CAD": {
+      "startUtc": "2026-10-29T17:22:21.855Z",
+      "startMonotonicMs": 1504276.7247,
+      "scope": "Abrir copia CAD R58, processar diagnostico parcial, ler resultados e salvar; inclui raciocinio, latencia e descoberta; nao fluxo completo",
+      "endUtc": "2026-10-29T17:24:05.286Z",
+      "durationMs": 103431.13170000003,
+      "rankingAllowed": false,
+      "scopeIncludesIntegrityCheck": true
+    },
+    "BIM": {
+      "startUtc": "2026-10-29T17:24:05.287Z",
+      "startMonotonicMs": 1607708.7205,
+      "scope": "Abrir copia BIM R58, processar diagnostico parcial, ler resultados e salvar; inclui raciocinio e latencia; nao fluxo completo",
+      "endUtc": "2026-10-29T17:25:24.953Z",
+      "durationMs": 79665.01239999989,
+      "rankingAllowed": false,
+      "scopeIncludesIntegrityCheck": false
+    }
+  },
+  "observedProcessingTimes": {
+    "CAD": {
+      "startUtc": "2026-10-29T17:23:13.876Z",
+      "startMonotonicMs": 1556297.4004,
+      "endUtc": "2026-10-29T17:23:30.423Z",
+      "durationMs": 16546.996600000188,
+      "meaning": "Intervalo observado ate leitura da conclusao, inclui latencia entre capturas; nao tempo puro do solver"
+    },
+    "BIM": {
+      "startUtc": "2026-10-29T17:24:47.191Z",
+      "startMonotonicMs": 1649611.5135,
+      "endUtc": "2026-10-29T17:24:59.988Z",
+      "durationMs": 12797.747400000226,
+      "meaning": "Intervalo observado ate leitura da conclusao, inclui latencia entre capturas; nao tempo puro do solver"
+    }
+  },
+  "partialLoadsOnly": true,
+  "structuralProcessingPerformed": true,
+  "elementDesignPerformed": false,
+  "elsDisplacementsVerified": false,
+  "realFoundationsDesigned": false,
+  "fullFlowRankingAllowed": false,
+  "perElementForcesCompared": false,
+  "postProcessingIFCGeometryAudited": false
+}
