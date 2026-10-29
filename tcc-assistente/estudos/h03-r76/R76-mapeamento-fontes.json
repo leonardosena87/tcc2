@@ -1,0 +1,535 @@
+{
+  "revision": "H03/R76",
+  "createdUtc": "2026-10-29T23:44:00.538255+00:00",
+  "sources": [
+    {
+      "source": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-Revit.rvt",
+      "relative": "outputs/Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR/H03-R43-Revit.rvt",
+      "sha256": "5676e5968ff43c545a4a71414d288dc642bd28848a578432afd9f772e4cc07a3",
+      "bytes": 8818688,
+      "role": "autoria anterior as revisoes no receptor",
+      "revision": "R43"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-AutoCAD.dwg",
+      "relative": "outputs/Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR/H03-R43-AutoCAD.dwg",
+      "sha256": "516a0feba35680e66817820fce503d9a68912995a98a8ff19bb45b67160038a2",
+      "bytes": 23508,
+      "role": "autoria anterior as revisoes no receptor",
+      "revision": "R43"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-proposta.json",
+      "relative": "outputs/Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR/H03-R43-proposta.json",
+      "sha256": "db5c48d601802de23aa4c2ef9035f1457d2f8a0efea2d93f9bd9a12dd20b7ca4",
+      "bytes": 30473,
+      "role": "autoria anterior as revisoes no receptor",
+      "revision": "R43"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-N1.dxf",
+      "relative": "outputs/Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR/H03-R43-N1.dxf",
+      "sha256": "322f0a6c9534093486549f6dfe53cd90b57e4158cd564ba90e96b63148ccde5e",
+      "bytes": 23807,
+      "role": "autoria anterior as revisoes no receptor",
+      "revision": "R43"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-N2.dxf",
+      "relative": "outputs/Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR/H03-R43-N2.dxf",
+      "sha256": "3c36bbeae7ba6c858f49223a719d9e2d480341712ae717e40a4165f0857d73c4",
+      "bytes": 23192,
+      "role": "autoria anterior as revisoes no receptor",
+      "revision": "R43"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-Revit.ifc",
+      "relative": "outputs/Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR/H03-R43-Revit.ifc",
+      "sha256": "0e9b39c4480e7555d8586b0ac9bd738c2821943069a7d5a50d0a9ab77cdd42d5",
+      "bytes": 137300,
+      "role": "autoria anterior as revisoes no receptor",
+      "revision": "R43"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\LEIA-ME-R43.md",
+      "relative": "outputs/Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR/LEIA-ME-R43.md",
+      "sha256": "fbd1287c770142da8cc41c0546524218c0e284e93a8d9aa1f1c207087f28b217",
+      "bytes": 8152,
+      "role": "autoria anterior as revisoes no receptor",
+      "revision": "R43"
+    },
+    {
+      "source": "D:\\TCC\\PROJETO ARQUITETONICO-A0.pdf",
+      "relative": "arquitetura/PROJETO ARQUITETONICO-A0.pdf",
+      "sha256": "3a57561f03e2c0e92964b19e577a02939b04fc93cdf1ef27cad6f79ad2deb12d",
+      "bytes": 1375801,
+      "role": "arquitetura de referencia",
+      "revision": "origem"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR\\H03-R44-geometria-nominal.ifc",
+      "relative": "outputs/Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR/H03-R44-geometria-nominal.ifc",
+      "sha256": "78cd1c8197c04abf42c6075bfc748c6dd3ea89b1bc2612eee948773aeb289fa6",
+      "bytes": 148090,
+      "role": "IFC adaptado de entrada; dependencia relativa BIM",
+      "revision": "R44"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR\\H03-R44-geometria-nominal.adaptacao.json",
+      "relative": "outputs/Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR/H03-R44-geometria-nominal.adaptacao.json",
+      "sha256": "114c235b202aa483bf5f282787456d4751de2a3016d2fa257ef0cb9843879a4f",
+      "bytes": 100018,
+      "role": "IFC adaptado de entrada; dependencia relativa BIM",
+      "revision": "R44"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR\\LEIA-ME-R44.md",
+      "relative": "outputs/Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR/LEIA-ME-R44.md",
+      "sha256": "2df5eee68acd431514ed6ec1fe6ea847dc431b0508a5e5e439bf3acf664492c8",
+      "bytes": 4107,
+      "role": "IFC adaptado de entrada; dependencia relativa BIM",
+      "revision": "R44"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-CAD\\_DADOS_\\ConfigFolder.qib",
+      "relative": "outputs/H03_CAD_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/_DADOS_/ConfigFolder.qib",
+      "sha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5",
+      "bytes": 6198,
+      "role": "nativo CAD com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-CAD\\_DADOS_\\EdificacaoEberick.ini",
+      "relative": "outputs/H03_CAD_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/_DADOS_/EdificacaoEberick.ini",
+      "sha256": "fbf0d5c4d2e43b469da99c5304ff2e9e1a44937c4e5dd821a3297a873ab1310c",
+      "bytes": 232,
+      "role": "nativo CAD com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "relative": "outputs/H03_CAD_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "bytes": 7850,
+      "role": "nativo CAD com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "relative": "outputs/H03_CAD_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "54fcf16ae2f44cbb32bf7ef27eb8ff60cdcc913e2d396b1b68b961dc62c2d411",
+      "bytes": 286456,
+      "role": "nativo CAD com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "relative": "outputs/H03_CAD_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256": "0153a568149231507be5e55166bfa6b413eee76f634ffb6ba22151bec9ece75f",
+      "bytes": 184541,
+      "role": "nativo CAD com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "relative": "outputs/H03_CAD_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "sha256": "2ac91457fccbac2d4c72cec441163ff815500f8a5ca641fb578bfab5d6ac9390",
+      "bytes": 254656,
+      "role": "nativo CAD com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "relative": "outputs/H03_CAD_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "sha256": "9f5cd63cf4114cde26b48fc873fa63ff4d4d8447b1f171e0dd0d31896c7f8a06",
+      "bytes": 239536,
+      "role": "nativo CAD com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "relative": "outputs/H03_CAD_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256": "54fcf16ae2f44cbb32bf7ef27eb8ff60cdcc913e2d396b1b68b961dc62c2d411",
+      "bytes": 286456,
+      "role": "nativo CAD com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "relative": "outputs/H03_CAD_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "sha256": "2ac91457fccbac2d4c72cec441163ff815500f8a5ca641fb578bfab5d6ac9390",
+      "bytes": 254656,
+      "role": "nativo CAD com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "relative": "outputs/H03_CAD_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "sha256": "9f5cd63cf4114cde26b48fc873fa63ff4d4d8447b1f171e0dd0d31896c7f8a06",
+      "bytes": 239536,
+      "role": "nativo CAD com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "relative": "outputs/H03_CAD_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "sha256": "b6a9dde99df8975e7e79bcac43c5a500b3fd0411e74bfb1fe909db50ad39b062",
+      "bytes": 5286499,
+      "role": "nativo CAD com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "relative": "outputs/H03_CAD_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "sha256": "9feb47b709f93dc2bf2d4648b96af666af904c9519a7a52405ec5aba532679f9",
+      "bytes": 4938953,
+      "role": "nativo CAD com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\_DADOS_\\ConfigFolder.qib",
+      "relative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/_DADOS_/ConfigFolder.qib",
+      "sha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3",
+      "bytes": 6198,
+      "role": "nativo BIM com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\_DADOS_\\EdificacaoEberick.ini",
+      "relative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/_DADOS_/EdificacaoEberick.ini",
+      "sha256": "c2d9f93ed63454a482710fb0bc16b072331801bd8bd81362b168e354c7b4afd0",
+      "bytes": 269,
+      "role": "nativo BIM com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "relative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "bytes": 7850,
+      "role": "nativo BIM com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "relative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256": "42c9d4a847963e1160d90cb6f7d4da13b2a5ece830224bb0f3cb680e5173a8ae",
+      "bytes": 298947,
+      "role": "nativo BIM com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "relative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "sha256": "8fbe23c2913389f7b941c4d918ce62fe6d870e31d6379f465ea4d6d87e5e52dd",
+      "bytes": 205794,
+      "role": "nativo BIM com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "relative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "sha256": "dea334ec8ec79709c853d300e1b922574c13cb62ae9d688fbf2ac36b81e884d8",
+      "bytes": 254655,
+      "role": "nativo BIM com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "relative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "sha256": "a5ffa8e759a7a53b842a6c7ac3f0caa663a07eb978584b358db3bebc2dfe7d32",
+      "bytes": 239535,
+      "role": "nativo BIM com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "relative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "sha256": "42c9d4a847963e1160d90cb6f7d4da13b2a5ece830224bb0f3cb680e5173a8ae",
+      "bytes": 298947,
+      "role": "nativo BIM com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "relative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "sha256": "dea334ec8ec79709c853d300e1b922574c13cb62ae9d688fbf2ac36b81e884d8",
+      "bytes": 254655,
+      "role": "nativo BIM com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "relative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "sha256": "a5ffa8e759a7a53b842a6c7ac3f0caa663a07eb978584b358db3bebc2dfe7d32",
+      "bytes": 239535,
+      "role": "nativo BIM com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "relative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "sha256": "151c0d28e895a2ceca4f72c1d5b2e5c4c1156a731c6fb24d6539ecc91b847b24",
+      "bytes": 5286499,
+      "role": "nativo BIM com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "relative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "sha256": "43fd1432c71880e7670f837de317cb8e14c65e7b0cead2f68211d1df40bd9e20",
+      "bytes": 4938953,
+      "role": "nativo BIM com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "relative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D/H03-R44-geometria-nominal.oq3d",
+      "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183",
+      "bytes": 12965,
+      "role": "nativo BIM com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "relative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D/Planificacao_H03-R44-geometria-nominal.ini",
+      "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f",
+      "bytes": 284,
+      "role": "nativo BIM com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "relative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D/Vinculo_H03-R44-geometria-nominal.ini",
+      "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571",
+      "bytes": 140,
+      "role": "nativo BIM com dependencias congeladas",
+      "revision": "R64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Verificacao-H03-R57-NAO-EXECUTAR\\IFC-CAD\\Modelo 3D.IFC",
+      "relative": "outputs/Verificacao-H03-R57-NAO-EXECUTAR/IFC-CAD/Modelo 3D.IFC",
+      "sha256": "cf2c62e9ca989a2307bf237b4ef0a24c17c33f520770cd88a23cb79f43cb318d",
+      "bytes": 179072,
+      "role": "IFC de controle do receptor, geometria R57",
+      "revision": "R57"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Verificacao-H03-R57-NAO-EXECUTAR\\IFC-BIM\\Modelo 3D.IFC",
+      "relative": "outputs/Verificacao-H03-R57-NAO-EXECUTAR/IFC-BIM/Modelo 3D.IFC",
+      "sha256": "4b8941190bede59eeebb80c550233328122fc0ef48679c71e86e82fb65cc1179",
+      "bytes": 179107,
+      "role": "IFC de controle do receptor, geometria R57",
+      "revision": "R57"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R63-AUDITORIA-G-NAO-EXECUTAR\\LEIA-ME-R63.md",
+      "relative": "outputs/Cargas-H03-R63-AUDITORIA-G-NAO-EXECUTAR/LEIA-ME-R63.md",
+      "sha256": "faab14afaaaee929deb9e083cc9e0d3af43016d28c102853fec71b070d9153e5",
+      "bytes": 7490,
+      "role": "resultado parcial ou protocolo",
+      "revision": "63"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\LEIA-ME-R64.md",
+      "relative": "outputs/Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR/LEIA-ME-R64.md",
+      "sha256": "9e6a096e809aa51c2720416110b8a10b97d7a25fde12dbb727c243e3ed3f3773",
+      "bytes": 4924,
+      "role": "resultado parcial ou protocolo",
+      "revision": "64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\R64-resultado.json",
+      "relative": "outputs/Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR/R64-resultado.json",
+      "sha256": "0637a4f2943c622e3fad9182410452214ac22906ed313ae0f542a0ea5aaac80a",
+      "bytes": 2813,
+      "role": "resultado parcial ou protocolo",
+      "revision": "64"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Cobertura-H03-R65-PLANO-Q-NAO-APLICADO\\LEIA-ME-R65.md",
+      "relative": "outputs/Cobertura-H03-R65-PLANO-Q-NAO-APLICADO/LEIA-ME-R65.md",
+      "sha256": "4eabb3f73cf7afb618f5f9eaa954fcdbd632f7afd3a8cb028d4d48beaef14329",
+      "bytes": 5357,
+      "role": "resultado parcial ou protocolo",
+      "revision": "65"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Compatibilizacao-H03-R68-PORTA-P3-ESTUDO\\LEIA-ME-R68.md",
+      "relative": "outputs/Compatibilizacao-H03-R68-PORTA-P3-ESTUDO/LEIA-ME-R68.md",
+      "sha256": "c34fd9dd4e5c85cb2cca150379a365ce5bb330525b0c6549c044bd95034c3d2f",
+      "bytes": 3083,
+      "role": "resultado parcial ou protocolo",
+      "revision": "68"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Compatibilizacao-H03-R68-PORTA-P3-ESTUDO\\R68-referencia-arquitetonica-estudo.json",
+      "relative": "outputs/Compatibilizacao-H03-R68-PORTA-P3-ESTUDO/R68-referencia-arquitetonica-estudo.json",
+      "sha256": "11f7ceb45a14fd078afdad05df6f52f90078d4666393477e57251b8a71b308e4",
+      "bytes": 20218,
+      "role": "resultado parcial ou protocolo",
+      "revision": "68"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Resultados-H03-R69-TEMPOS-EXPLORATORIOS\\LEIA-ME-R69.md",
+      "relative": "outputs/Resultados-H03-R69-TEMPOS-EXPLORATORIOS/LEIA-ME-R69.md",
+      "sha256": "0aa096b05efa65bc1f9c8f01d5cd40558307b5ad5f5bf55c9623c57948d505f3",
+      "bytes": 4109,
+      "role": "resultado parcial ou protocolo",
+      "revision": "69"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Resultados-H03-R69-TEMPOS-EXPLORATORIOS\\PROTOCOLO-ENSAIO-PAREADO.md",
+      "relative": "outputs/Resultados-H03-R69-TEMPOS-EXPLORATORIOS/PROTOCOLO-ENSAIO-PAREADO.md",
+      "sha256": "af7e50f1ca2e81891881617f51ba0585b344d843c1af9b9f9be6c9179ee773e8",
+      "bytes": 8503,
+      "role": "resultado parcial ou protocolo",
+      "revision": "69"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Resultados-H03-R69-TEMPOS-EXPLORATORIOS\\R69-inventario-tempos.json",
+      "relative": "outputs/Resultados-H03-R69-TEMPOS-EXPLORATORIOS/R69-inventario-tempos.json",
+      "sha256": "837f989b79e591a10e1492e4943b423c47e606b645fb55f3a16bea5db8efcb3a",
+      "bytes": 117387,
+      "role": "resultado parcial ou protocolo",
+      "revision": "69"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Compatibilizacao-H03-R70-W08-J4-ESTUDO\\LEIA-ME-R70.md",
+      "relative": "outputs/Compatibilizacao-H03-R70-W08-J4-ESTUDO/LEIA-ME-R70.md",
+      "sha256": "d71012dbaf97c8843328b5d41813845f2a03a9d96a7ac98452c7539712fed58e",
+      "bytes": 3183,
+      "role": "resultado parcial ou protocolo",
+      "revision": "70"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Reservatorio-H03-R71-ALTERNATIVAS-NAO-APLICADO\\LEIA-ME-R71.md",
+      "relative": "outputs/Reservatorio-H03-R71-ALTERNATIVAS-NAO-APLICADO/LEIA-ME-R71.md",
+      "sha256": "95346299e67853020f6d6723a76fbc1bf70aed621e1752df94f77bb5700ac56a",
+      "bytes": 5477,
+      "role": "resultado parcial ou protocolo",
+      "revision": "71"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Reservatorio-H03-R71-ALTERNATIVAS-NAO-APLICADO\\R71-reservatorio-alternativas.json",
+      "relative": "outputs/Reservatorio-H03-R71-ALTERNATIVAS-NAO-APLICADO/R71-reservatorio-alternativas.json",
+      "sha256": "3bdaead4bd88870db2f34436863bd649d5b939249b9fdb9afa5cbc5d914bbbe9",
+      "bytes": 6046,
+      "role": "resultado parcial ou protocolo",
+      "revision": "71"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Resultados-H03-R72-PARCIAIS-NAO-FINAIS\\LEIA-ME-R72.md",
+      "relative": "outputs/Resultados-H03-R72-PARCIAIS-NAO-FINAIS/LEIA-ME-R72.md",
+      "sha256": "ecb084b3d42aaf3ddbb789b7edd06959d718594d7d6b9e141d58ba7f2ff27f95",
+      "bytes": 7370,
+      "role": "resultado parcial ou protocolo",
+      "revision": "72"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Resultados-H03-R72-PARCIAIS-NAO-FINAIS\\R72-resultados-parciais.json",
+      "relative": "outputs/Resultados-H03-R72-PARCIAIS-NAO-FINAIS/R72-resultados-parciais.json",
+      "sha256": "ad66a2bcfd7f2a44ba2ce150756a231c77b3634ac5dee637f97d428d815fe138",
+      "bytes": 4412,
+      "role": "resultado parcial ou protocolo",
+      "revision": "72"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Resultados-H03-R72-PARCIAIS-NAO-FINAIS\\R72-matriz-fechamento.csv",
+      "relative": "outputs/Resultados-H03-R72-PARCIAIS-NAO-FINAIS/R72-matriz-fechamento.csv",
+      "sha256": "caeb15a8ff713c6a70c6965eeb2c085298fa3d7c14cacce8b716b68ff19b146c",
+      "bytes": 3107,
+      "role": "resultado parcial ou protocolo",
+      "revision": "72"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Resultados-H03-R72-PARCIAIS-NAO-FINAIS\\R72-mapa-CAD-BIM-65-solidos.csv",
+      "relative": "outputs/Resultados-H03-R72-PARCIAIS-NAO-FINAIS/R72-mapa-CAD-BIM-65-solidos.csv",
+      "sha256": "98268ad40322a0fbd43cbb6aed5ab9b7a8ab648f7c293e1b7d4289e35f3e8916",
+      "bytes": 11745,
+      "role": "resultado parcial ou protocolo",
+      "revision": "72"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Normativa-H03-R74-TRIAGEM-NAO-DIMENSIONADO\\LEIA-ME-R74.md",
+      "relative": "outputs/Normativa-H03-R74-TRIAGEM-NAO-DIMENSIONADO/LEIA-ME-R74.md",
+      "sha256": "c1f5990cf6f95b1cccb103f700f0798826ca51a2f007c7809ef30596110aacaf",
+      "bytes": 5833,
+      "role": "resultado parcial ou protocolo",
+      "revision": "74"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Normativa-H03-R74-TRIAGEM-NAO-DIMENSIONADO\\R74-resultado.json",
+      "relative": "outputs/Normativa-H03-R74-TRIAGEM-NAO-DIMENSIONADO/R74-resultado.json",
+      "sha256": "2b7bf4af78e7c4954a03c2bd38d5c560ccbb063d3dc7e6da23f46efd8ebaacc7",
+      "bytes": 3963,
+      "role": "resultado parcial ou protocolo",
+      "revision": "74"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Normativa-H03-R74-TRIAGEM-NAO-DIMENSIONADO\\R74-complemento-matriz-fechamento.json",
+      "relative": "outputs/Normativa-H03-R74-TRIAGEM-NAO-DIMENSIONADO/R74-complemento-matriz-fechamento.json",
+      "sha256": "b6e49e94581149105aa9c51f84a97a6a8bf7a3a5328fbd20bd899c001d87868e",
+      "bytes": 591,
+      "role": "resultado parcial ou protocolo",
+      "revision": "74"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Normativa-H03-R74-TRIAGEM-NAO-DIMENSIONADO\\R74-versao-instalada.json",
+      "relative": "outputs/Normativa-H03-R74-TRIAGEM-NAO-DIMENSIONADO/R74-versao-instalada.json",
+      "sha256": "aa5eb5b01b0cf0b5be22046b8bf6e01d8a3ec1c1fbcff56083891b033e0b5620",
+      "bytes": 369,
+      "role": "resultado parcial ou protocolo",
+      "revision": "74"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Resultados-H03-R75-FIGURA-PARCIAL\\LEIA-ME-R75.md",
+      "relative": "outputs/Resultados-H03-R75-FIGURA-PARCIAL/LEIA-ME-R75.md",
+      "sha256": "c556251b061be9c914c298cf62d6499d2df63692a98a9f6d2555271be4acb29a",
+      "bytes": 993,
+      "role": "resultado parcial ou protocolo",
+      "revision": "75"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Resultados-H03-R75-FIGURA-PARCIAL\\R75-fluxos-resultados-parciais.png",
+      "relative": "outputs/Resultados-H03-R75-FIGURA-PARCIAL/R75-fluxos-resultados-parciais.png",
+      "sha256": "381b5fec9d8a63c46a6f01310e68ce3e0e81390dc82ee26efec0fa713a7b7069",
+      "bytes": 273902,
+      "role": "resultado parcial ou protocolo",
+      "revision": "75"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Resultados-H03-R75-FIGURA-PARCIAL\\R75-fluxos-resultados-parciais.svg",
+      "relative": "outputs/Resultados-H03-R75-FIGURA-PARCIAL/R75-fluxos-resultados-parciais.svg",
+      "sha256": "e68ac0d1ea9a293821be312156174cc5309469c740f37f7238cd0ea056816783",
+      "bytes": 144260,
+      "role": "resultado parcial ou protocolo",
+      "revision": "75"
+    }
+  ],
+  "nativeProjects": {
+    "CAD": {
+      "projectRelative": "outputs/H03_CAD_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "prjSha256": "54fcf16ae2f44cbb32bf7ef27eb8ff60cdcc913e2d396b1b68b961dc62c2d411",
+      "originalState": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\R64-estado-CAD.json"
+    },
+    "BIM": {
+      "projectRelative": "outputs/H03_BIM_R64_CONFERENCIA_INDIVIDUAL_NAO_EXECUTAR/Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "prjSha256": "42c9d4a847963e1160d90cb6f7d4da13b2a5ece830224bb0f3cb680e5173a8ae",
+      "originalState": "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\R64-estado-BIM.json"
+    }
+  },
+  "relativeBIMExternalTarget": "outputs/Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR/H03-R44-geometria-nominal.ifc",
+  "excludedNativeLogs": [
+    "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_25408.log",
+    "D:\\TCC\\outputs\\Cargas-H03-R64-CONFERENCIA-INDIVIDUAL-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_25408.log"
+  ],
+  "sourceAuthoringRevision": "R43",
+  "receiverEngineeringRevision": "R64",
+  "sourceNativeRevisionsSynchronized": false,
+  "localCopyOnly": true,
+  "externallySent": false,
+  "appOpeningRepeated": false,
+  "crossMachinePortabilityVerified": false,
+  "structuralApproval": false
+}
