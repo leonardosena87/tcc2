@@ -1,0 +1,18 @@
+{
+  "stage": "H03/R49 - lajes CAD ate primeira auditoria",
+  "startedAtUtc": "2026-10-29T00:16:58.242Z",
+  "finishedAtUtc": "2026-10-29T00:41:01.966Z",
+  "elapsedWallMs": 1443724.6172000002,
+  "interruptedByUser": true,
+  "interruptionDurationMs": null,
+  "activeOperatorTimeMs": null,
+  "modelInferenceTimeMs": null,
+  "comparableProductivityTime": false,
+  "totalFlow": false,
+  "limits": [
+    "Intervalo monotono iniciado antes da copia R49; inclui interrupcoes de turnos sem pausa instrumentada.",
+    "Duracao bruta documentada; nao usar como tempo ativo nem ranking de produtividade.",
+    "Inclui interface, pesquisa, recuperacoes, auditoria, latencias e esperas.",
+    "Reabertura e validacao de apoio do balanco ainda pendentes."
+  ]
+}
