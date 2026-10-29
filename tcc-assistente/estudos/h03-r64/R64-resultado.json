@@ -1,0 +1,99 @@
+{
+  "revision": "H03/R64",
+  "atUtc": "2026-10-29T22:01:53.214259+00:00",
+  "status": "26 leituras individuais validadas: 13 pontos G A1/A2 em cada ramo",
+  "protectedR63FilesChecked": 84,
+  "readCount": 26,
+  "roofGPointsPerBranch": 13,
+  "displayPrecisionToleranceKN": 5.1e-06,
+  "intendedRoundedRoofGDownKN": 18.511247,
+  "comparison": [
+    {
+      "id": "RC01",
+      "equalDisplayedComponentsAndCoordinates": true
+    },
+    {
+      "id": "RC02",
+      "equalDisplayedComponentsAndCoordinates": true
+    },
+    {
+      "id": "RC03",
+      "equalDisplayedComponentsAndCoordinates": true
+    },
+    {
+      "id": "RC04",
+      "equalDisplayedComponentsAndCoordinates": true
+    },
+    {
+      "id": "RC05",
+      "equalDisplayedComponentsAndCoordinates": true
+    },
+    {
+      "id": "RC06",
+      "equalDisplayedComponentsAndCoordinates": true
+    },
+    {
+      "id": "RC07",
+      "equalDisplayedComponentsAndCoordinates": true
+    },
+    {
+      "id": "RC08",
+      "equalDisplayedComponentsAndCoordinates": true
+    },
+    {
+      "id": "RC09",
+      "equalDisplayedComponentsAndCoordinates": true
+    },
+    {
+      "id": "RC10",
+      "equalDisplayedComponentsAndCoordinates": true
+    },
+    {
+      "id": "RC11",
+      "equalDisplayedComponentsAndCoordinates": true
+    },
+    {
+      "id": "RC12",
+      "equalDisplayedComponentsAndCoordinates": true
+    },
+    {
+      "id": "RC13",
+      "equalDisplayedComponentsAndCoordinates": true
+    }
+  ],
+  "allExpectedReadingsPassed": true,
+  "engineeringEditsPerformed": false,
+  "recalculationPerformed": false,
+  "fullTransferEquivalenceProven": false,
+  "roofLoadCaseComplete": false,
+  "eluElsApproved": false,
+  "sourceRvtDwgEdited": false,
+  "monographEdited": false,
+  "fullFlowRankingAllowed": false,
+  "isolatedAIEffortMeasured": false,
+  "prospectiveAssistedAuditTimes": {
+    "CAD": {
+      "branch": "CAD",
+      "startUtc": "2026-10-29T21:27:05.417Z",
+      "startMs": 1793309225417,
+      "scope": "Leitura individual 13 cargas G, copia R63; inclui UI/raciocinio/latencia, nao transferencia",
+      "endUtc": "2026-10-29T22:00:45.051Z",
+      "durationMs": 2019634,
+      "rankingAllowed": false
+    },
+    "BIM": {
+      "branch": "BIM",
+      "startUtc": "2026-10-29T20:34:08.619Z",
+      "startMs": 1793306048619,
+      "scope": "Auditoria individual das 13 cargas G apos abrir copia R63; inclui UI/raciocinio/latencia; nao tempo de transferencia",
+      "endUtc": "2026-10-29T21:26:45.317Z",
+      "durationMs": 3156698,
+      "rankingAllowed": false
+    }
+  },
+  "excludedDiagnosticCaptures": [
+    "BIM-RC01-captura-inicial-INVALIDA.txt",
+    "BIM-RC02-captura-inicial-INVALIDA.txt",
+    "BIM-RC03-captura-inicial-INVALIDA.txt"
+  ]
+}
