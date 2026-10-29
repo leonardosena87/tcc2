@@ -1,0 +1,118 @@
+{
+  "branch": "CAD",
+  "revision": "H03/R51",
+  "atUtc": "2026-10-29T11:34:19.115031+00:00",
+  "nativeProject": "D:\\TCC\\outputs\\H03_CAD_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+  "evidenceMethod": "Leitura visual na interface Materiais e durabilidade, Classes e Barras do Eberick; salvar, fechar, reabrir e ler novamente.",
+  "screenshotFilesSaved": false,
+  "observedAfterReopen": {
+    "application": "Projeto inteiro",
+    "concreteClass": "C-25",
+    "fckMpa": 25,
+    "gammaC": 1.4,
+    "fcdMpaDisplayed": 17.86,
+    "EciMpaDisplayed": 28000,
+    "EcsMpaDisplayed": 24150,
+    "fctmMpaDisplayed": 2.56,
+    "fctkInfMpaDisplayed": 1.8,
+    "fctkSupMpaDisplayed": 3.33,
+    "fctdMpaDisplayed": 1.28,
+    "unitWeightKnM3": 25,
+    "aggregateType": "granito",
+    "environmentalClass": "II (moderada)",
+    "aggregateDimensionMm": 25,
+    "slumpNominalCm": 10,
+    "cementFamily": "CP-II",
+    "nominalCoverCm": {
+      "beamExternal": 3,
+      "beamInternal": 3,
+      "columnExternal": 3,
+      "columnInternal": 3,
+      "slab": 2.5
+    },
+    "steelClassesInObservedActiveRows": [
+      "CA50"
+    ],
+    "observedActiveDiametersCommonMm": [
+      6.3,
+      8,
+      10,
+      12.5,
+      16
+    ],
+    "ca60Diameter5Active": false,
+    "displayedCrackWidthsMm": {
+      "soil": 0.2,
+      "water": 0.1,
+      "other": 0.3
+    },
+    "crackCombination": "Frequentes"
+  },
+  "changes": [
+    {
+      "field": "aggregateDimensionMm",
+      "before": 19,
+      "after": 25
+    },
+    {
+      "field": "C25.slumpNominalCm",
+      "before": 5,
+      "after": 10
+    },
+    {
+      "field": "C25.cementFamily",
+      "before": "CP-IV",
+      "after": "CP-II"
+    },
+    {
+      "field": "CA60.5mm.active",
+      "before": true,
+      "after": false
+    }
+  ],
+  "classification": "Adequacao de parametros no receptor; nao atribuida a erro de transferencia sem evidencia.",
+  "changedFieldCount": 4,
+  "parameterPersistenceChecked": true,
+  "geometryReexportedThisRevision": false,
+  "structuralCalculationPerformed": false,
+  "balconySupportVerified": false,
+  "frozenFiles": [
+    {
+      "path": "D:\\TCC\\outputs\\H03_CAD_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "frozen": "D:\\TCC\\outputs\\Conferencia-H03-R51-PARAMETROS-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_CAD_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "frozen": "D:\\TCC\\outputs\\Conferencia-H03-R51-PARAMETROS-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "c14f038dabbde84fc649f12147f2f822e2d5ff04a53a38a947b7d456ee0516d9"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_CAD_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "frozen": "D:\\TCC\\outputs\\Conferencia-H03-R51-PARAMETROS-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256": "c16317067ef05d313aa4b2584f4bd08da6f7fb3b27b01de516f4ecbda91aa5bd"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_CAD_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "frozen": "D:\\TCC\\outputs\\Conferencia-H03-R51-PARAMETROS-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256": "c14f038dabbde84fc649f12147f2f822e2d5ff04a53a38a947b7d456ee0516d9"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_CAD_R51_PARAMETROS_NAO_EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "frozen": "D:\\TCC\\outputs\\Conferencia-H03-R51-PARAMETROS-NAO-EXECUTAR\\congelado-CAD\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "d753b776ac2ba016dd1b64a14d489afcf2430e8cd62b5358be2acfce6de607b1"
+    }
+  ],
+  "limits": [
+    "C25 e cobrimentos 2.5/3 cm foram observados, nao constituem certificacao normativa.",
+    "Nao se comprova origem por IFC/DWG de valores globais; ha valores do receptor nos dois ramos.",
+    "Agregado granito mantido conforme cadastro e modulos ja adotados; origem/material real nao ensaiado.",
+    "Programa oferece CP-II sem subtipo E; especificacao CP-II-E permanece documentada fora deste campo.",
+    "Abatimento 10 e nominal; tolerancia +/-2 nao possui campo separado observado. Escada com 6+/-2 pendente de modelagem/classe propria.",
+    "Fundacoes e parametros de contato com solo nao alterados; escopo limitado a superestrutura.",
+    "Aco CA50 identificado no cadastro; propriedades mecanicas completas e selecoes particulares ainda exigem conferencia.",
+    "Custos e carbono padrao nao foram conferidos; nao utilizar como resultado economico/ambiental.",
+    "Geometria R49/R50 foi auditada antes; R51 ainda nao reexportada apos alterar parametros."
+  ],
+  "bitolaSelectionsObserved": null
+}

@@ -1,0 +1,23 @@
+{
+  "revision": "H03/R52",
+  "branches": {
+    "CAD": "D:\\TCC\\outputs\\H03_CAD_R52_VINCULOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+    "BIM": "D:\\TCC\\outputs\\H03_BIM_R52_VINCULOS_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj"
+  },
+  "sameAssignedBalconyHypothesis": true,
+  "analyticalLinkVerified": false,
+  "completeLoads": false,
+  "structuralCalculationPerformed": false,
+  "preservedR51Files": 23,
+  "nextSteps": [
+    "Conferir toda conectividade e apoios idealizados da superestrutura.",
+    "Completar cargas, escada e reservatorio antes de processar.",
+    "Conferir grelha e continuidade efetiva da varanda quando o modelo puder ser processado."
+  ],
+  "geometryControlledAfterParametersAndAssignedLink": true,
+  "sameSpatialMultisetCADBIM": true,
+  "schemaErrorsByBranch": {
+    "CAD": 8,
+    "BIM": 8
+  }
+}

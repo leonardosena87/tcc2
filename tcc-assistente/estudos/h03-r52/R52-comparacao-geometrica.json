@@ -1,0 +1,16 @@
+{
+  "sameSpatialMultiset": true,
+  "counts": {
+    "CAD": {
+      "IfcColumn": 22,
+      "IfcBeam": 32,
+      "IfcSlab": 11
+    },
+    "BIM": {
+      "IfcColumn": 22,
+      "IfcBeam": 32,
+      "IfcSlab": 11
+    }
+  },
+  "limits": "Compara classes, caixas envolventes e areas superiores com multiplicidade, nao vinculos, malhas completas ou calculo."
+}

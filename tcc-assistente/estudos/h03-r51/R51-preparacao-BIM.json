@@ -1,0 +1,49 @@
+{
+  "branch": "BIM",
+  "atUtc": "2026-10-29T01:35:32.981902+00:00",
+  "nativeProject": "D:\\TCC\\outputs\\H03_BIM_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+  "files": [
+    {
+      "source": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "copy": "D:\\TCC\\outputs\\H03_BIM_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "copy": "D:\\TCC\\outputs\\H03_BIM_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256": "a81f75070b1415b93bc92e424df10409f2f82a2433c59d7abeee477cdeabc015"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "copy": "D:\\TCC\\outputs\\H03_BIM_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "sha256": "361d4f9efb9d1c25e46bbd6a2c7cdf55a79708a39002129cec6aea1a07f459a4"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "copy": "D:\\TCC\\outputs\\H03_BIM_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "sha256": "a81f75070b1415b93bc92e424df10409f2f82a2433c59d7abeee477cdeabc015"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "copy": "D:\\TCC\\outputs\\H03_BIM_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "copy": "D:\\TCC\\outputs\\H03_BIM_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "copy": "D:\\TCC\\outputs\\H03_BIM_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571"
+    }
+  ],
+  "elapsedScriptMs": 45.13569999835454,
+  "status": "Copia preparada; parametros ainda nao conferidos.",
+  "limits": [
+    "Preserva nome-base para recursos relativos; pasta identifica R51.",
+    "Copia do estado congelado proprio de cada ramo; nao transplanta CAD para BIM ou vice-versa.",
+    "Tempo de script separado do intervalo assistido, que pode inclui-lo."
+  ]
+}

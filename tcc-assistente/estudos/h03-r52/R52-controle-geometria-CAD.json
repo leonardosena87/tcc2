@@ -1,0 +1,21 @@
+{
+  "branch": "CAD",
+  "source": "D:\\TCC\\outputs\\Conferencia-H03-R52-VINCULOS-NAO-EXECUTAR\\IFC-CAD\\Modelo 3D.IFC",
+  "baseline": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\R49-apos-reabrir.ifc",
+  "sha256": "718c5a951d6acd6a1911d26d8c72cf14f57fb52230626d552e1076bc01883c90",
+  "counts": {
+    "IfcColumn": 22,
+    "IfcBeam": 32,
+    "IfcSlab": 11
+  },
+  "changedGuids": [],
+  "missingGuids": [],
+  "sameGeometryNamesGuidsAndTopAreas": true,
+  "computationalToleranceM": 1e-05,
+  "analyticalLinkVerified": false,
+  "structuralCalculationPerformed": false,
+  "limits": [
+    "Compara geometria nominal exportada por caixas envolventes e areas superiores, nomes e GUIDs.",
+    "Geometria inalterada nao comprova ligacao analitica nem os parametros globais conferidos na interface."
+  ]
+}

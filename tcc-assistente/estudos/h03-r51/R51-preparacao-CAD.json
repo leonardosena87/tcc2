@@ -1,0 +1,34 @@
+{
+  "branch": "CAD",
+  "atUtc": "2026-10-29T01:45:48.881573+00:00",
+  "nativeProject": "D:\\TCC\\outputs\\H03_CAD_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+  "files": [
+    {
+      "source": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\congelado\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "copy": "D:\\TCC\\outputs\\H03_CAD_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\congelado\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "copy": "D:\\TCC\\outputs\\H03_CAD_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "f6042fb722f07d2ed67def6ba6ec0e403892f1e57e5afe293a49e8d70a79b763"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\congelado\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "copy": "D:\\TCC\\outputs\\H03_CAD_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256": "c16317067ef05d313aa4b2584f4bd08da6f7fb3b27b01de516f4ecbda91aa5bd"
+    },
+    {
+      "source": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\congelado\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "copy": "D:\\TCC\\outputs\\H03_CAD_R51_PARAMETROS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256": "fd7b0e5240a95d09494450f7b8b7a75d8be86c7215540ae16278b39452f919c8"
+    }
+  ],
+  "elapsedScriptMs": 33.77159999217838,
+  "status": "Copia preparada; parametros ainda nao conferidos.",
+  "limits": [
+    "Preserva nome-base para recursos relativos; pasta identifica R51.",
+    "Copia do estado congelado proprio de cada ramo; nao transplanta CAD para BIM ou vice-versa.",
+    "Tempo de script separado do intervalo assistido, que pode inclui-lo."
+  ]
+}

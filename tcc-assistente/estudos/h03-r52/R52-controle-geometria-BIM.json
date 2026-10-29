@@ -1,0 +1,21 @@
+{
+  "branch": "BIM",
+  "source": "D:\\TCC\\outputs\\Conferencia-H03-R52-VINCULOS-NAO-EXECUTAR\\IFC-BIM\\Modelo 3D.IFC",
+  "baseline": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\R50-onze-lajes-reaberto.ifc",
+  "sha256": "c3d8c94ef6cf413d5b1f2c4fbda6637f53a425bf14d6adecb266de7b474a9e2c",
+  "counts": {
+    "IfcColumn": 22,
+    "IfcBeam": 32,
+    "IfcSlab": 11
+  },
+  "changedGuids": [],
+  "missingGuids": [],
+  "sameGeometryNamesGuidsAndTopAreas": true,
+  "computationalToleranceM": 1e-05,
+  "analyticalLinkVerified": false,
+  "structuralCalculationPerformed": false,
+  "limits": [
+    "Compara geometria nominal exportada por caixas envolventes e areas superiores, nomes e GUIDs.",
+    "Geometria inalterada nao comprova ligacao analitica nem os parametros globais conferidos na interface."
+  ]
+}

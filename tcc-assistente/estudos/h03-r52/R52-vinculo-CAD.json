@@ -1,0 +1,70 @@
+{
+  "revision": "H03/R52",
+  "branch": "CAD",
+  "atUtc": "2026-10-29T11:25:15.109000+00:00",
+  "nativeProject": "D:\\TCC\\outputs\\H03_CAD_R52_VINCULOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+  "action": "Modelo > Lajes > Engastar; selecionar uma viga comum a L4 e L6 no N1 e confirmar Enter.",
+  "assignedHypothesis": "Continuidade entre a laje interna e a varanda macica no bordo comum.",
+  "selectedBeamAxisM": {
+    "x": 9.65,
+    "yStart": 3.9,
+    "yEnd": 7.05,
+    "levelZ": 3.2
+  },
+  "nativeSlabNames": [
+    "L4",
+    "L6"
+  ],
+  "selectedBeamCount": 1,
+  "assignmentCommandAccepted": true,
+  "saveCloseReopenPerformed": true,
+  "croquiObservedAfterReopen": true,
+  "priorLinkStateVerified": false,
+  "analyticalLinkVerified": false,
+  "balconyStructuralSafetyVerified": false,
+  "geometryReexportedThisRevision": false,
+  "structuralCalculationPerformed": false,
+  "beforeNativeSha256": "c14f038dabbde84fc649f12147f2f822e2d5ff04a53a38a947b7d456ee0516d9",
+  "afterNativeSha256": "770b47df01343c2630b93c77411c4b7167de18953fb1d29444487526ee6842f5",
+  "frozenFiles": [
+    {
+      "path": "D:\\TCC\\outputs\\H03_CAD_R52_VINCULOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "frozen": "D:\\TCC\\outputs\\Conferencia-H03-R52-VINCULOS-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_CAD_R52_VINCULOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "frozen": "D:\\TCC\\outputs\\Conferencia-H03-R52-VINCULOS-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "770b47df01343c2630b93c77411c4b7167de18953fb1d29444487526ee6842f5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_CAD_R52_VINCULOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "frozen": "D:\\TCC\\outputs\\Conferencia-H03-R52-VINCULOS-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256": "5fcbcc6d76f1a72a3e6b0d297a3d5aead027e7ff2db8623f2005d8467d2ffb14"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_CAD_R52_VINCULOS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "frozen": "D:\\TCC\\outputs\\Conferencia-H03-R52-VINCULOS-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256": "770b47df01343c2630b93c77411c4b7167de18953fb1d29444487526ee6842f5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_CAD_R52_VINCULOS_NAO_EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "frozen": "D:\\TCC\\outputs\\Conferencia-H03-R52-VINCULOS-NAO-EXECUTAR\\congelado-CAD\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "71cd22f434e01f90af9c39ca87991db626f20d9f9ea341e134c742ab27db7906"
+    }
+  ],
+  "classification": "Hipotese comum de vinculacao atribuida separadamente nos dois receptores; nao classificada como erro de transferencia.",
+  "technicalReferences": [
+    "https://suporte.altoqi.com.br/hc/pt-br/articles/115003725214",
+    "https://suporte.altoqi.com.br/hc/pt-br/articles/115004249154"
+  ],
+  "limits": [
+    "Atribuicao confirmada pela sequencia de UI e pelo arquivo alterado; croqui observado apos reabrir.",
+    "Nao foi extraido parametro interno de vinculo nem gerada grelha processada; persistencia analitica permanece pendente.",
+    "Nao se verificou se o vinculo anterior era rotulado ou ja continuo. Nao contar a acao como defeito comprovado.",
+    "Nao se configurou engaste direto na viga nem se validou comportamento de torcao.",
+    "Nao se alteraram as demais ligacoes entre lajes; auditoria de toda a conectividade ainda pendente.",
+    "A escolha exige verificacao de continuidade efetiva, armadura negativa, ancoragem, esforcos e deformacoes no calculo.",
+    "Relatorios normativos da estrutura, cargas completas e apoios idealizados ainda pendentes."
+  ]
+}
