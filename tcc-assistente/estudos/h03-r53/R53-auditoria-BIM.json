@@ -1,0 +1,325 @@
+{
+  "branch": "BIM",
+  "source": "D:\\TCC\\outputs\\Cargas-H03-R53-PARCIAL-NAO-EXECUTAR\\IFC-BIM\\Modelo 3D.IFC",
+  "sha256": "f6d5b81f6f639bab259314311684427bfac73b26f5a8f6f16e74ba429047b210",
+  "baseline": "D:\\TCC\\outputs\\Conferencia-H03-R52-VINCULOS-NAO-EXECUTAR\\IFC-BIM\\Modelo 3D.IFC",
+  "baselineSha256": "c3d8c94ef6cf413d5b1f2c4fbda6637f53a425bf14d6adecb266de7b474a9e2c",
+  "counts": {
+    "IfcColumn": 22,
+    "IfcBeam": 32,
+    "IfcSlab": 11
+  },
+  "slabs": [
+    {
+      "level": "N1",
+      "type": "IfcSlab",
+      "name": "L1",
+      "guid": "1v_lPEqpKHyOy801fzsd4G",
+      "min": [
+        0.10000000000000009,
+        0.09999999999999987,
+        3.06
+      ],
+      "max": [
+        4.300000000000001,
+        3.8,
+        3.2
+      ],
+      "topAreaM2": 15.540000000000004,
+      "rawLoads": {
+        "Revestimento (G2)": 100.0,
+        "Acidental (Q)": 150.0
+      },
+      "expectedNativeUI": {
+        "Q_kNm2": 1.5,
+        "G2partial_kNm2": 1.0
+      },
+      "nativeUIAllIndividuallyReadAfterReopen": false
+    },
+    {
+      "level": "N1",
+      "type": "IfcSlab",
+      "name": "L2",
+      "guid": "2e8FJ4qpKHyOy801fzsd4G",
+      "min": [
+        0.10000000000000009,
+        4.0,
+        3.06
+      ],
+      "max": [
+        4.300000000000001,
+        6.950000000000001,
+        3.2
+      ],
+      "topAreaM2": 12.390000000000008,
+      "rawLoads": {
+        "Revestimento (G2)": 100.0,
+        "Acidental (Q)": 150.0
+      },
+      "expectedNativeUI": {
+        "Q_kNm2": 1.5,
+        "G2partial_kNm2": 1.0
+      },
+      "nativeUIAllIndividuallyReadAfterReopen": false
+    },
+    {
+      "level": "N1",
+      "type": "IfcSlab",
+      "name": "L3",
+      "guid": "2nnpy0qpKHyOy801fzsd4G",
+      "min": [
+        6.6499999999999995,
+        0.09999999999999987,
+        3.06
+      ],
+      "max": [
+        9.549999999999999,
+        3.8,
+        3.2
+      ],
+      "topAreaM2": 10.729999999999999,
+      "rawLoads": {
+        "Revestimento (G2)": 100.0,
+        "Acidental (Q)": 150.0
+      },
+      "expectedNativeUI": {
+        "Q_kNm2": 1.5,
+        "G2partial_kNm2": 1.0
+      },
+      "nativeUIAllIndividuallyReadAfterReopen": false
+    },
+    {
+      "level": "N1",
+      "type": "IfcSlab",
+      "name": "L4",
+      "guid": "2w8NWTqpKHyOy801fzsd4G",
+      "min": [
+        4.5,
+        4.0,
+        3.06
+      ],
+      "max": [
+        9.55,
+        6.950000000000001,
+        3.2
+      ],
+      "topAreaM2": 14.897500000000008,
+      "rawLoads": {
+        "Revestimento (G2)": 100.0,
+        "Acidental (Q)": 150.0
+      },
+      "expectedNativeUI": {
+        "Q_kNm2": 1.5,
+        "G2partial_kNm2": 1.0
+      },
+      "nativeUIAllIndividuallyReadAfterReopen": false
+    },
+    {
+      "level": "N1",
+      "type": "IfcSlab",
+      "name": "L5",
+      "guid": "32$XwJqpKHyOy801fzsd4G",
+      "min": [
+        4.500000000000001,
+        2.95,
+        3.06
+      ],
+      "max": [
+        6.45,
+        3.8,
+        3.2
+      ],
+      "topAreaM2": 1.6574999999999986,
+      "rawLoads": {
+        "Revestimento (G2)": 100.0,
+        "Acidental (Q)": 250.0
+      },
+      "expectedNativeUI": {
+        "Q_kNm2": 2.5,
+        "G2partial_kNm2": 1.0
+      },
+      "nativeUIAllIndividuallyReadAfterReopen": false
+    },
+    {
+      "level": "N1",
+      "type": "IfcSlab",
+      "name": "L6",
+      "guid": "1vQy8aqpSHyOy801fzsd4G",
+      "min": [
+        9.75,
+        3.8,
+        3.06
+      ],
+      "max": [
+        10.725000000000001,
+        7.1000000000000005,
+        3.2
+      ],
+      "topAreaM2": 3.2175000000000056,
+      "rawLoads": {
+        "Revestimento (G2)": 100.0,
+        "Acidental (Q)": 250.0
+      },
+      "expectedNativeUI": {
+        "Q_kNm2": 2.5,
+        "G2partial_kNm2": 1.0
+      },
+      "nativeUIAllIndividuallyReadAfterReopen": false
+    },
+    {
+      "level": "N2",
+      "type": "IfcSlab",
+      "name": "L1",
+      "guid": "3WCpm9qpKHyOy801fzsd4G",
+      "min": [
+        0.10000000000000009,
+        0.09999999999999987,
+        6.250000000000001
+      ],
+      "max": [
+        4.300000000000001,
+        3.8,
+        6.390000000000001
+      ],
+      "topAreaM2": 15.540000000000004,
+      "rawLoads": {
+        "Revestimento (G2)": 25.0,
+        "Acidental (Q)": 100.0
+      },
+      "expectedNativeUI": {
+        "Q_kNm2": 1.0,
+        "G2partial_kNm2": 0.25
+      },
+      "nativeUIAllIndividuallyReadAfterReopen": false
+    },
+    {
+      "level": "N2",
+      "type": "IfcSlab",
+      "name": "L2",
+      "guid": "3yzSrLqpKHyOy801fzsd4G",
+      "min": [
+        0.10000000000000009,
+        4.0,
+        6.250000000000001
+      ],
+      "max": [
+        4.300000000000001,
+        6.950000000000001,
+        6.390000000000001
+      ],
+      "topAreaM2": 12.390000000000008,
+      "rawLoads": {
+        "Revestimento (G2)": 25.0,
+        "Acidental (Q)": 100.0
+      },
+      "expectedNativeUI": {
+        "Q_kNm2": 1.0,
+        "G2partial_kNm2": 0.25
+      },
+      "nativeUIAllIndividuallyReadAfterReopen": false
+    },
+    {
+      "level": "N2",
+      "type": "IfcSlab",
+      "name": "L3",
+      "guid": "0716r6qpOHyOy801fzsd4G",
+      "min": [
+        6.6499999999999995,
+        0.09999999999999987,
+        6.250000000000001
+      ],
+      "max": [
+        9.549999999999999,
+        3.8,
+        6.390000000000001
+      ],
+      "topAreaM2": 10.729999999999999,
+      "rawLoads": {
+        "Revestimento (G2)": 25.0,
+        "Acidental (Q)": 100.0
+      },
+      "expectedNativeUI": {
+        "Q_kNm2": 1.0,
+        "G2partial_kNm2": 0.25
+      },
+      "nativeUIAllIndividuallyReadAfterReopen": false
+    },
+    {
+      "level": "N2",
+      "type": "IfcSlab",
+      "name": "L4",
+      "guid": "0G_t0BqpOHyOy801fzsd4G",
+      "min": [
+        4.5,
+        4.0,
+        6.250000000000001
+      ],
+      "max": [
+        9.55,
+        6.950000000000001,
+        6.390000000000001
+      ],
+      "topAreaM2": 14.897500000000008,
+      "rawLoads": {
+        "Revestimento (G2)": 25.0,
+        "Acidental (Q)": 100.0
+      },
+      "expectedNativeUI": {
+        "Q_kNm2": 1.0,
+        "G2partial_kNm2": 0.25
+      },
+      "nativeUIAllIndividuallyReadAfterReopen": false
+    },
+    {
+      "level": "N2",
+      "type": "IfcSlab",
+      "name": "L5",
+      "guid": "0RtoqOqpOHyOy801fzsd4G",
+      "min": [
+        4.500000000000001,
+        0.09999999999999987,
+        6.250000000000001
+      ],
+      "max": [
+        6.45,
+        3.8,
+        6.390000000000001
+      ],
+      "topAreaM2": 7.214999999999998,
+      "rawLoads": {
+        "Revestimento (G2)": 25.0,
+        "Acidental (Q)": 100.0
+      },
+      "expectedNativeUI": {
+        "Q_kNm2": 1.0,
+        "G2partial_kNm2": 0.25
+      },
+      "nativeUIAllIndividuallyReadAfterReopen": false
+    }
+  ],
+  "sameGeometryNamesGuidsAndTopAreas": true,
+  "changedGuids": [],
+  "all11RawLoadFieldsMatchPlannedPattern": true,
+  "UIToIFCRatioObserved": 100,
+  "IFCPropertyExplicitUnitsMissing": true,
+  "nativeUIReadAfterReopenSamples": [
+    "L4/N1",
+    "L6/N1",
+    "L4/N2"
+  ],
+  "limits": [
+    "Razao empirica entre campos desta exportacao e UI; nao certifica unidade padrao IFC nem conversao geral.",
+    "Leitura nativa apos reabrir por amostragem em 3 paineis; os outros 8 foram conferidos pelos campos exportados.",
+    "Geometria por caixas envolventes/areas superiores, nomes e GUIDs; nao comprova malha integral, vinculos ou calculo.",
+    "Acoes parciais: paredes, telhado, tanque, bordas, escada, vento e combinacoes continuam pendentes."
+  ],
+  "calculationPerformed": false,
+  "completeLoads": false,
+  "analyticalLinksVerified": false,
+  "auditRuntime": {
+    "startUtc": "2026-10-29T12:58:59.912943+00:00",
+    "endUtc": "2026-10-29T12:59:00.502476+00:00",
+    "durationMs": 589.3187999899965,
+    "scope": "Somente execucao do auditor IFC; exclui preparacao do script, UI e revisao tecnica."
+  }
+}

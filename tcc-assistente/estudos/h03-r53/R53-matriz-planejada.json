@@ -1,0 +1,134 @@
+{
+  "revision": "H03/R53",
+  "createdAtUtc": "2026-10-29T12:35:59.471031+00:00",
+  "matrix": [
+    {
+      "level": "N1",
+      "nativeName": "L1",
+      "Q_kNm2": 1.5,
+      "G2partial_kNm2": 1.0,
+      "interpretation": "Uso residencial; piso 5 cm com peso especifico hipotetico 20 kN/m3",
+      "nativeApplied": false
+    },
+    {
+      "level": "N1",
+      "nativeName": "L2",
+      "Q_kNm2": 1.5,
+      "G2partial_kNm2": 1.0,
+      "interpretation": "Uso residencial; piso 5 cm com peso especifico hipotetico 20 kN/m3",
+      "nativeApplied": false
+    },
+    {
+      "level": "N1",
+      "nativeName": "L3",
+      "Q_kNm2": 1.5,
+      "G2partial_kNm2": 1.0,
+      "interpretation": "Uso residencial; piso 5 cm com peso especifico hipotetico 20 kN/m3",
+      "nativeApplied": false
+    },
+    {
+      "level": "N1",
+      "nativeName": "L4",
+      "Q_kNm2": 1.5,
+      "G2partial_kNm2": 1.0,
+      "interpretation": "Uso residencial; piso 5 cm com peso especifico hipotetico 20 kN/m3",
+      "nativeApplied": false
+    },
+    {
+      "level": "N1",
+      "nativeName": "L5",
+      "Q_kNm2": 2.5,
+      "G2partial_kNm2": 1.0,
+      "interpretation": "Faixa de circulacao junto a escada: carga de escada/uso restrito adotada provisoriamente; escada real pendente",
+      "nativeApplied": false
+    },
+    {
+      "level": "N1",
+      "nativeName": "L6",
+      "Q_kNm2": 2.5,
+      "G2partial_kNm2": 1.0,
+      "interpretation": "Varanda residencial; guarda-corpo e impermeabilizacao pendentes",
+      "nativeApplied": false
+    },
+    {
+      "level": "N2",
+      "nativeName": "L1",
+      "Q_kNm2": 1.0,
+      "G2partial_kNm2": 0.25,
+      "interpretation": "Cobertura de concreto com acesso apenas para manutencao; somente forro acartonado na permanente adicional",
+      "nativeApplied": false
+    },
+    {
+      "level": "N2",
+      "nativeName": "L2",
+      "Q_kNm2": 1.0,
+      "G2partial_kNm2": 0.25,
+      "interpretation": "Cobertura de concreto com acesso apenas para manutencao; somente forro acartonado na permanente adicional",
+      "nativeApplied": false
+    },
+    {
+      "level": "N2",
+      "nativeName": "L3",
+      "Q_kNm2": 1.0,
+      "G2partial_kNm2": 0.25,
+      "interpretation": "Cobertura de concreto com acesso apenas para manutencao; somente forro acartonado na permanente adicional",
+      "nativeApplied": false
+    },
+    {
+      "level": "N2",
+      "nativeName": "L4",
+      "Q_kNm2": 1.0,
+      "G2partial_kNm2": 0.25,
+      "interpretation": "Cobertura de concreto com acesso apenas para manutencao; somente forro acartonado na permanente adicional",
+      "nativeApplied": false
+    },
+    {
+      "level": "N2",
+      "nativeName": "L5",
+      "Q_kNm2": 1.0,
+      "G2partial_kNm2": 0.25,
+      "interpretation": "Cobertura de concreto com acesso apenas para manutencao; somente forro acartonado na permanente adicional",
+      "nativeApplied": false
+    }
+  ],
+  "scope": "Parcelas uniformes parciais; nao constituem carregamento completo nem autorizacao de processamento conclusivo.",
+  "sources": [
+    {
+      "path": "D:/TCC/materiais/normas/ABNT NBR 6120-2019.pdf",
+      "sha256": "807c22009de912321bf743704cc4b5ad454ef0a68721b50f8d34bf2182f567b7",
+      "table": "10",
+      "pdfPages": [
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "path": "D:/TCC/outputs/Cargas-N1-H02-R31-PARCIAL-NAO-EXECUTAR/R31-cargas-lajes.csv",
+      "role": "Historico; nao transplantado como geometria H03"
+    },
+    {
+      "url": "https://suporte.altoqi.com.br/hc/pt-br/articles/115003144013",
+      "role": "Campos e copia de cargas nativas"
+    }
+  ],
+  "selfWeightReference_kNm2": 3.5,
+  "pending": [
+    "Paredes por trecho e aberturas",
+    "Telhado e caminho de suas reacoes",
+    "Reservatorio 1000 L: posicao, apoio, tara e base",
+    "Guarda-corpo e borda da varanda",
+    "Impermeabilizacao e camadas finais",
+    "Escada e reacoes",
+    "Vento e combinacoes",
+    "Apoios idealizados N0 e ligacoes analiticas",
+    "Verificacao ELU/ELS e alturas"
+  ],
+  "noSPT": true,
+  "scopeSuperstructureOnly": true,
+  "calculationPerformed": false,
+  "wholeFlowRankingAllowed": false,
+  "selfWeightHandling": "Previsto pelo programa; nao duplicado em G2; verificar resultados no processamento.",
+  "selfWeightProcessingVerified": false
+}
