@@ -1,0 +1,31 @@
+{
+  "stage": "H03/R48 - complementacao CAD: vigas",
+  "clock": "performance.now monotonic plus UTC bounds",
+  "startedAtUtc": "2026-10-28T23:37:38.106Z",
+  "launchSavedAtUtc": "2026-10-29T00:09:03.323Z",
+  "finishedAtUtc": "2026-10-29T00:12:43.460Z",
+  "launchElapsedMs": 1885217.553100001,
+  "postLaunchVerificationElapsedMs": 220136.76259999909,
+  "elapsedMs": 2105354.3157,
+  "includes": [
+    "preparo de copia R47",
+    "lancamento UI de 29 vigas logicas por 30 objetos nativos e copia entre pavimentos",
+    "recuperacao de comandos e foco",
+    "pesquisa auxiliar de coordenadas",
+    "exportacao IFC",
+    "desenvolvimento e execucao do auditor",
+    "fechamento reabertura e nova exportacao",
+    "latencias de ferramentas e contexto"
+  ],
+  "activeOperatorTimeMs": null,
+  "modelInferenceTimeMs": null,
+  "apiTokenCount": null,
+  "apiCost": null,
+  "controlledRepetition": false,
+  "totalFlow": false,
+  "limits": [
+    "Tempo exploratorio assistido; nao separa atividade de espera ou inferencia.",
+    "Nao constitui comparacao de produtividade total com o ramo BIM.",
+    "As duas parcelas sao consecutivas; nao somar novamente ao total."
+  ]
+}

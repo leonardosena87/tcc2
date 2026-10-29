@@ -1,0 +1,55 @@
+{
+  "atUtc": "2026-10-29T00:16:05.358601+00:00",
+  "revision": "H03/R48",
+  "proposalRunId": "cdd31967-6778-4f2c-a854-6dfeee9b3a06",
+  "proposalSha256": "db5c48d601802de23aa4c2ef9035f1457d2f8a0efea2d93f9bd9a12dd20b7ca4",
+  "CAD": {
+    "nativeProject": "D:\\TCC\\outputs\\H03_CAD_R48_VIGAS_NAO_EXECUTAR\\Projeto Eberick\\H03_CAD_R48_VIGAS_NAO_EXECUTAR.prj",
+    "columnSegments": 22,
+    "logicalBeams": 29,
+    "nativeBeamNamesByLevel": 30,
+    "beamSolids": 32,
+    "slabs": 0,
+    "geometryAuditPassed": true,
+    "reopenedAndReexported": true,
+    "geometryAndGuidsPersisted": true
+  },
+  "BIM": {
+    "nativeProject": "D:\\TCC\\outputs\\H03_BIM_R46_IFC_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+    "unchangedSinceR46": true,
+    "columnSegments": 22,
+    "logicalBeams": 29,
+    "beamSolids": 32,
+    "slabs": 0
+  },
+  "stageElapsedMs": 2105354.3157,
+  "launchElapsedMs": 1885217.553100001,
+  "wholeFlowRankingAvailable": false,
+  "nativeSlabsPendingPerBranch": 11,
+  "calculationPerformed": false,
+  "structuralApproval": false,
+  "monographEdited": false,
+  "observedOperations": [
+    "13 vigas comuns lancadas em N1 e copiadas para N2 pelo Eberick",
+    "V4A-N1 20x16 cm e V15-N1 20x30 cm especificas do nivel N1",
+    "V4A-N2 20x30 cm e complemento de V2-N2 20x55 cm lancados separadamente",
+    "V2-N2 e representada por dois nomes nativos; conciliada como uma viga logica",
+    "comando Unificar aberto por engano e cancelado antes de selecionar",
+    "Escape no campo de coordenadas nao encerrou o comando; troca de croqui recuperou o foco",
+    "destino IFC herdado apontava R47; alterado para pasta R48 antes de gerar",
+    "IFC de trabalho sobrescrito na segunda exportacao depois de arquivar o inicial"
+  ],
+  "limits": [
+    "Auditoria geometrica e persistencia nao comprovam conectividade ou dimensionamento.",
+    "Oito erros de esquema IFC permanecem nas listas opcionais vazias de identificacao.",
+    "Tempo exploratorio assistido com documentacao, recuperacoes e latencias; sem total comparavel.",
+    "Nao se copiou o modelo BIM para completar o receptor CAD."
+  ],
+  "pending": [
+    "11 lajes em cada receptor, incluindo contorno especifico da varanda em N1",
+    "materiais cobrimentos e parametros nativos harmonizados",
+    "cargas vento combinacoes e apoios idealizados",
+    "compatibilizacao arquitetonica e conectividade analitica",
+    "calculo verificacoes ELU/ELS estabilidade e comparacao em escopos iguais"
+  ]
+}
