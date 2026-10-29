@@ -1,0 +1,63 @@
+{
+  "schema": "IFC4",
+  "statementCount": 8,
+  "statements": [
+    {
+      "level": "error",
+      "message": "With attribute:\n    <attribute MiddleNames?: <list [1:?] of <type IfcLabel: <string>>>>\nValue:\n    ()\nNot valid\n",
+      "type": "schema",
+      "instance": "#22=IfcPerson($,$,'',(),(),(),(),())",
+      "attribute": "MiddleNames"
+    },
+    {
+      "level": "error",
+      "message": "With attribute:\n    <attribute PrefixTitles?: <list [1:?] of <type IfcLabel: <string>>>>\nValue:\n    ()\nNot valid\n",
+      "type": "schema",
+      "instance": "#22=IfcPerson($,$,'',(),(),(),(),())",
+      "attribute": "PrefixTitles"
+    },
+    {
+      "level": "error",
+      "message": "With attribute:\n    <attribute SuffixTitles?: <list [1:?] of <type IfcLabel: <string>>>>\nValue:\n    ()\nNot valid\n",
+      "type": "schema",
+      "instance": "#22=IfcPerson($,$,'',(),(),(),(),())",
+      "attribute": "SuffixTitles"
+    },
+    {
+      "level": "error",
+      "message": "With attribute:\n    <attribute Roles?: <list [1:?] of <entity IfcActorRole>>>\nValue:\n    ()\nNot valid\n",
+      "type": "schema",
+      "instance": "#22=IfcPerson($,$,'',(),(),(),(),())",
+      "attribute": "Roles"
+    },
+    {
+      "level": "error",
+      "message": "With attribute:\n    <attribute Addresses?: <list [1:?] of <entity IfcAddress>>>\nValue:\n    ()\nNot valid\n",
+      "type": "schema",
+      "instance": "#22=IfcPerson($,$,'',(),(),(),(),())",
+      "attribute": "Addresses"
+    },
+    {
+      "level": "error",
+      "message": "With attribute:\n    <attribute Roles?: <list [1:?] of <entity IfcActorRole>>>\nValue:\n    ()\nNot valid\n",
+      "type": "schema",
+      "instance": "#23=IfcOrganization($,'',$,(),())",
+      "attribute": "Roles"
+    },
+    {
+      "level": "error",
+      "message": "With attribute:\n    <attribute Addresses?: <list [1:?] of <entity IfcAddress>>>\nValue:\n    ()\nNot valid\n",
+      "type": "schema",
+      "instance": "#23=IfcOrganization($,'',$,(),())",
+      "attribute": "Addresses"
+    },
+    {
+      "level": "error",
+      "message": "With attribute:\n    <attribute Roles?: <list [1:?] of <entity IfcActorRole>>>\nValue:\n    ()\nNot valid\n",
+      "type": "schema",
+      "instance": "#24=IfcPersonAndOrganization(#22,#23,())",
+      "attribute": "Roles"
+    }
+  ],
+  "limits": "Validacao de esquema IFC; nao corresponde a validacao estrutural nem normativa da edificacao."
+}

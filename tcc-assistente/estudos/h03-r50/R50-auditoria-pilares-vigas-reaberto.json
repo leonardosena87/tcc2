@@ -1,0 +1,1381 @@
+{
+  "columnSegments": [
+    {
+      "nativeGuid": "2MjmKwqlqHyOy801fzsd4G",
+      "nativeName": "P1",
+      "matchedSourceIds": [
+        "P3-N1"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLmqlqHyOy801fzsd4G",
+      "nativeName": "P10",
+      "matchedSourceIds": [
+        "P10-N1"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLsqlqHyOy801fzsd4G",
+      "nativeName": "P11",
+      "matchedSourceIds": [
+        "P7-N1"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmL0qlqHyOy801fzsd4G",
+      "nativeName": "P2",
+      "matchedSourceIds": [
+        "P6-N1"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmL6qlqHyOy801fzsd4G",
+      "nativeName": "P3",
+      "matchedSourceIds": [
+        "P9-N1"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLCqlqHyOy801fzsd4G",
+      "nativeName": "P4",
+      "matchedSourceIds": [
+        "P2-N1"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLIqlqHyOy801fzsd4G",
+      "nativeName": "P5",
+      "matchedSourceIds": [
+        "P5-N1"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLOqlqHyOy801fzsd4G",
+      "nativeName": "P6",
+      "matchedSourceIds": [
+        "P11-N1"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLUqlqHyOy801fzsd4G",
+      "nativeName": "P7",
+      "matchedSourceIds": [
+        "P8-N1"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLaqlqHyOy801fzsd4G",
+      "nativeName": "P8",
+      "matchedSourceIds": [
+        "P1-N1"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLgqlqHyOy801fzsd4G",
+      "nativeName": "P9",
+      "matchedSourceIds": [
+        "P4-N1"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmKyqlqHyOy801fzsd4G",
+      "nativeName": "P1",
+      "matchedSourceIds": [
+        "P3-N2"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLoqlqHyOy801fzsd4G",
+      "nativeName": "P10",
+      "matchedSourceIds": [
+        "P10-N2"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLuqlqHyOy801fzsd4G",
+      "nativeName": "P11",
+      "matchedSourceIds": [
+        "P7-N2"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmL2qlqHyOy801fzsd4G",
+      "nativeName": "P2",
+      "matchedSourceIds": [
+        "P6-N2"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmL8qlqHyOy801fzsd4G",
+      "nativeName": "P3",
+      "matchedSourceIds": [
+        "P9-N2"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLEqlqHyOy801fzsd4G",
+      "nativeName": "P4",
+      "matchedSourceIds": [
+        "P2-N2"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLKqlqHyOy801fzsd4G",
+      "nativeName": "P5",
+      "matchedSourceIds": [
+        "P5-N2"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLQqlqHyOy801fzsd4G",
+      "nativeName": "P6",
+      "matchedSourceIds": [
+        "P11-N2"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLWqlqHyOy801fzsd4G",
+      "nativeName": "P7",
+      "matchedSourceIds": [
+        "P8-N2"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLcqlqHyOy801fzsd4G",
+      "nativeName": "P8",
+      "matchedSourceIds": [
+        "P1-N2"
+      ],
+      "boundsMatchUnique": true
+    },
+    {
+      "nativeGuid": "2MjmLiqlqHyOy801fzsd4G",
+      "nativeName": "P9",
+      "matchedSourceIds": [
+        "P4-N2"
+      ],
+      "boundsMatchUnique": true
+    }
+  ],
+  "columnSegmentsMatching": 22,
+  "missingColumnIds": [],
+  "duplicateColumnIds": [],
+  "beams": [
+    {
+      "sourceId": "V1-N1",
+      "nativeNames": [
+        "V5"
+      ],
+      "nativePartGuids": [
+        "2MjmM7qlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          0.1,
+          4.300000000000001
+        ]
+      ],
+      "columnCutsM": [
+        [
+          0,
+          0.1
+        ],
+        [
+          4.300000000000001,
+          4.4
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          0.10000000000000009,
+          4.300000000000001
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V2-N1",
+      "nativeNames": [
+        "V6"
+      ],
+      "nativePartGuids": [
+        "2MjmL_qlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          6.6499999999999995,
+          9.55
+        ]
+      ],
+      "columnCutsM": [
+        [
+          6.55,
+          6.6499999999999995
+        ],
+        [
+          9.55,
+          9.65
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          6.6499999999999995,
+          9.549999999999999
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V3-N1",
+      "nativeNames": [
+        "V2"
+      ],
+      "nativePartGuids": [
+        "2MjmM4qlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          0.1,
+          4.300000000000001
+        ]
+      ],
+      "columnCutsM": [
+        [
+          0,
+          0.1
+        ],
+        [
+          4.300000000000001,
+          4.4
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          0.10000000000000053,
+          4.300000000000001
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V4A-N1",
+      "nativeNames": [
+        "V2"
+      ],
+      "nativePartGuids": [
+        "2MjmMdqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          4.5,
+          6.3999999999999995
+        ]
+      ],
+      "columnCutsM": [
+        [
+          4.4,
+          4.5
+        ],
+        [
+          6.3999999999999995,
+          6.55
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          4.5,
+          6.4
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V4B-N1",
+      "nativeNames": [
+        "V3"
+      ],
+      "nativePartGuids": [
+        "2MjmMVqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          6.7,
+          9.55
+        ]
+      ],
+      "columnCutsM": [
+        [
+          6.55,
+          6.7
+        ],
+        [
+          9.55,
+          9.65
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          6.7,
+          9.55
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V5-N1",
+      "nativeNames": [
+        "V1"
+      ],
+      "nativePartGuids": [
+        "2MjmM1qlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          0.1,
+          4.300000000000001
+        ]
+      ],
+      "columnCutsM": [
+        [
+          0,
+          0.1
+        ],
+        [
+          4.300000000000001,
+          4.4
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          0.10000000000000053,
+          4.300000000000001
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V6-N1",
+      "nativeNames": [
+        "V1"
+      ],
+      "nativePartGuids": [
+        "2MjmLxqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          4.5,
+          9.55
+        ]
+      ],
+      "columnCutsM": [
+        [
+          4.4,
+          4.5
+        ],
+        [
+          9.55,
+          9.65
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          4.500000000000001,
+          9.55
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V7-N1",
+      "nativeNames": [
+        "V7"
+      ],
+      "nativePartGuids": [
+        "2MjmMGqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "columnCutsM": [
+        [
+          0,
+          0.15
+        ],
+        [
+          3.75,
+          3.9
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          0.1499999999999999,
+          3.75
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V8-N1",
+      "nativeNames": [
+        "V8"
+      ],
+      "nativePartGuids": [
+        "2MjmMSqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          4.05,
+          6.8999999999999995
+        ]
+      ],
+      "columnCutsM": [
+        [
+          3.9,
+          4.05
+        ],
+        [
+          6.8999999999999995,
+          7.05
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          4.050000000000001,
+          6.9
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V9-N1",
+      "nativeNames": [
+        "V9"
+      ],
+      "nativePartGuids": [
+        "2MjmPHqlqHyOy801fzsd4G",
+        "2MjmPJqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 2,
+      "expectedSolidIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "columnCutsM": [
+        [
+          0,
+          0.15
+        ],
+        [
+          3.75,
+          3.9
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          0.1499999999999999,
+          3.75
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V10-N1",
+      "nativeNames": [
+        "V10"
+      ],
+      "nativePartGuids": [
+        "2MjmMMqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          4.05,
+          6.8999999999999995
+        ]
+      ],
+      "columnCutsM": [
+        [
+          3.9,
+          4.05
+        ],
+        [
+          6.8999999999999995,
+          7.05
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          4.050000000000001,
+          6.9
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V11-N1",
+      "nativeNames": [
+        "V12"
+      ],
+      "nativePartGuids": [
+        "2MjmMDqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "columnCutsM": [
+        [
+          0,
+          0.15
+        ],
+        [
+          3.75,
+          3.9
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          0.1499999999999999,
+          3.75
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V12-N1",
+      "nativeNames": [
+        "V12"
+      ],
+      "nativePartGuids": [
+        "2MjmMPqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          4.05,
+          6.8999999999999995
+        ]
+      ],
+      "columnCutsM": [
+        [
+          3.9,
+          4.05
+        ],
+        [
+          6.8999999999999995,
+          7.05
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          4.050000000000001,
+          6.9
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V13-N1",
+      "nativeNames": [
+        "V11"
+      ],
+      "nativePartGuids": [
+        "2MjmPUqlqHyOy801fzsd4G",
+        "2MjmPWqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 2,
+      "expectedSolidIntervalsM": [
+        [
+          0.15,
+          3.8
+        ]
+      ],
+      "columnCutsM": [
+        [
+          0,
+          0.15
+        ],
+        [
+          3.8,
+          3.9
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          0.1499999999999999,
+          3.8000000000000003
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V15-N1",
+      "nativeNames": [
+        "V4"
+      ],
+      "nativePartGuids": [
+        "2MjmMaqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          4.4,
+          6.55
+        ]
+      ],
+      "columnCutsM": [],
+      "observedSolidIntervalsM": [
+        [
+          4.4,
+          6.550000000000001
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V1-N2",
+      "nativeNames": [
+        "V4"
+      ],
+      "nativePartGuids": [
+        "2MjmMsqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          0.1,
+          4.300000000000001
+        ]
+      ],
+      "columnCutsM": [
+        [
+          0,
+          0.1
+        ],
+        [
+          4.300000000000001,
+          4.4
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          0.10000000000000053,
+          4.300000000000001
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V2-N2",
+      "nativeNames": [
+        "V4"
+      ],
+      "nativePartGuids": [
+        "2MjmP9qlqHyOy801fzsd4G",
+        "2MjmP3qlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 2,
+      "expectedSolidIntervalsM": [
+        [
+          4.5,
+          6.45
+        ],
+        [
+          6.6499999999999995,
+          9.55
+        ]
+      ],
+      "columnCutsM": [
+        [
+          4.4,
+          4.5
+        ],
+        [
+          6.45,
+          6.6499999999999995
+        ],
+        [
+          9.55,
+          9.65
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          4.5,
+          6.45
+        ],
+        [
+          6.649999999999999,
+          9.549999999999999
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V3-N2",
+      "nativeNames": [
+        "V2"
+      ],
+      "nativePartGuids": [
+        "2MjmMpqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          0.1,
+          4.300000000000001
+        ]
+      ],
+      "columnCutsM": [
+        [
+          0,
+          0.1
+        ],
+        [
+          4.300000000000001,
+          4.4
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          0.10000000000000053,
+          4.300000000000001
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V4A-N2",
+      "nativeNames": [
+        "V2"
+      ],
+      "nativePartGuids": [
+        "2MjmNEqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          4.5,
+          6.3999999999999995
+        ]
+      ],
+      "columnCutsM": [
+        [
+          4.4,
+          4.5
+        ],
+        [
+          6.3999999999999995,
+          6.55
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          4.5,
+          6.4
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V4B-N2",
+      "nativeNames": [
+        "V3"
+      ],
+      "nativePartGuids": [
+        "2MjmNHqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          6.7,
+          9.55
+        ]
+      ],
+      "columnCutsM": [
+        [
+          6.55,
+          6.7
+        ],
+        [
+          9.55,
+          9.65
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          6.7,
+          9.55
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V5-N2",
+      "nativeNames": [
+        "V1"
+      ],
+      "nativePartGuids": [
+        "2MjmMmqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          0.1,
+          4.300000000000001
+        ]
+      ],
+      "columnCutsM": [
+        [
+          0,
+          0.1
+        ],
+        [
+          4.300000000000001,
+          4.4
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          0.10000000000000053,
+          4.300000000000001
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V6-N2",
+      "nativeNames": [
+        "V1"
+      ],
+      "nativePartGuids": [
+        "2MjmMgqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          4.5,
+          9.55
+        ]
+      ],
+      "columnCutsM": [
+        [
+          4.4,
+          4.5
+        ],
+        [
+          9.55,
+          9.65
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          4.500000000000001,
+          9.55
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V7-N2",
+      "nativeNames": [
+        "V5"
+      ],
+      "nativePartGuids": [
+        "2MjmMyqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "columnCutsM": [
+        [
+          0,
+          0.15
+        ],
+        [
+          3.75,
+          3.9
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          0.1499999999999999,
+          3.75
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V8-N2",
+      "nativeNames": [
+        "V5"
+      ],
+      "nativePartGuids": [
+        "2MjmN5qlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          4.05,
+          6.8999999999999995
+        ]
+      ],
+      "columnCutsM": [
+        [
+          3.9,
+          4.05
+        ],
+        [
+          6.8999999999999995,
+          7.05
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          4.050000000000001,
+          6.9
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V9-N2",
+      "nativeNames": [
+        "V6"
+      ],
+      "nativePartGuids": [
+        "2MjmN2qlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "columnCutsM": [
+        [
+          0,
+          0.15
+        ],
+        [
+          3.75,
+          3.9
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          0.1499999999999999,
+          3.75
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V10-N2",
+      "nativeNames": [
+        "V6"
+      ],
+      "nativePartGuids": [
+        "2MjmNBqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          4.05,
+          6.8999999999999995
+        ]
+      ],
+      "columnCutsM": [
+        [
+          3.9,
+          4.05
+        ],
+        [
+          6.8999999999999995,
+          7.05
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          4.050000000000001,
+          6.9
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V11-N2",
+      "nativeNames": [
+        "V8"
+      ],
+      "nativePartGuids": [
+        "2MjmM$qlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "columnCutsM": [
+        [
+          0,
+          0.15
+        ],
+        [
+          3.75,
+          3.9
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          0.1499999999999999,
+          3.75
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V12-N2",
+      "nativeNames": [
+        "V8"
+      ],
+      "nativePartGuids": [
+        "2MjmN8qlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          4.05,
+          6.8999999999999995
+        ]
+      ],
+      "columnCutsM": [
+        [
+          3.9,
+          4.05
+        ],
+        [
+          6.8999999999999995,
+          7.05
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          4.050000000000001,
+          6.9
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    },
+    {
+      "sourceId": "V13-N2",
+      "nativeNames": [
+        "V7"
+      ],
+      "nativePartGuids": [
+        "2MjmMvqlqHyOy801fzsd4G"
+      ],
+      "exportedParts": 1,
+      "expectedSolidIntervalsM": [
+        [
+          0.15,
+          3.8
+        ]
+      ],
+      "columnCutsM": [
+        [
+          0,
+          0.15
+        ],
+        [
+          3.8,
+          3.9
+        ]
+      ],
+      "observedSolidIntervalsM": [
+        [
+          0.1499999999999999,
+          3.8
+        ]
+      ],
+      "checks": {
+        "partsPresent": true,
+        "width": true,
+        "height": true,
+        "topElevation": true,
+        "coverageOutsideColumnFaces": true,
+        "noDuplicatedAxialOverlap": true
+      }
+    }
+  ],
+  "matchedLogicalBeams": 29,
+  "logicalBeamsPassing": 29,
+  "unmatchedBeamParts": [],
+  "geometryPass": true,
+  "atUtc": "2026-10-29T01:30:18.045073+00:00",
+  "sourceIfc": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\R50-onze-lajes-reaberto.ifc",
+  "sourceSha256": "cbd42c6731cf84364a48f5d837bd67cfb943555acb775054c2272fb665417446",
+  "proposalRunId": "cdd31967-6778-4f2c-a854-6dfeee9b3a06",
+  "proposalSha256": "db5c48d601802de23aa4c2ef9035f1457d2f8a0efea2d93f9bd9a12dd20b7ca4",
+  "rulesSource": "D:\\TCC\\outputs\\Reauditoria-H02-R17-NAO-EXECUTAR\\auditar-geometria-h02-r17.py",
+  "rulesSha256": "6fd9f7f388acad0fe604f1a9825ff5091ba3e06454f12c99ba698e49619d7254",
+  "comparisonToleranceM": 1e-05,
+  "exportedCounts": {
+    "IfcColumn": 22,
+    "IfcBeam": 32,
+    "IfcSlab": 11
+  },
+  "sensitivityControls": {
+    "missingBeamPartDetected": true,
+    "changedBeamHeightDetected": true,
+    "duplicatedBeamPartDetected": true
+  },
+  "schemaValidationMessageCount": 8,
+  "structuralCalculationPerformed": false,
+  "missingSlabIds": [],
+  "limits": [
+    "Escopo: 22 trechos de pilares e 29 vigas logicas (32 solidos).",
+    "Onze lajes presentes e conferidas por auditoria especifica.",
+    "Nao verifica materiais, cargas, conectividade analitica, ELU/ELS ou estabilidade."
+  ]
+}

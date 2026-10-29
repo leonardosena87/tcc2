@@ -1,0 +1,22 @@
+{
+  "startedAtUtc": "2026-10-29T01:08:17.582Z",
+  "finishedAtUtc": "2026-10-29T01:19:37.279Z",
+  "elapsedMs": 679697.3165999986,
+  "scope": "abrir copia BIM R50, lancar dez lajes internas, salvar exportar auditar",
+  "includes": [
+    "interface",
+    "recuperacoes de menu",
+    "latencias",
+    "desenvolvimento e execucao da auditoria"
+  ],
+  "slabsCompleted": 10,
+  "slabsPending": 1,
+  "controlledRepetition": false,
+  "totalFlow": false,
+  "activeTimeMs": null,
+  "limits": [
+    "Preparo anterior da copia excluido.",
+    "Varanda e reabertura excluidas e pendentes.",
+    "Nao comparar diretamente com onze lajes CAD nem somar com tempos de escopos distintos para ranking."
+  ]
+}

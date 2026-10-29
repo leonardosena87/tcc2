@@ -1,0 +1,28 @@
+{
+  "cadIfc": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\R49-apos-reabrir.ifc",
+  "bimIfc": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\R50-onze-lajes-reaberto.ifc",
+  "cadSha256": "1bb05f8531a5f0aeb2c57b24bb0c3484f9643858ee776b7d818de376f12c5d50",
+  "bimSha256": "cbd42c6731cf84364a48f5d837bd67cfb943555acb775054c2272fb665417446",
+  "counts": {
+    "CAD": {
+      "IfcColumn": 22,
+      "IfcBeam": 32,
+      "IfcSlab": 11
+    },
+    "BIM": {
+      "IfcColumn": 22,
+      "IfcBeam": 32,
+      "IfcSlab": 11
+    }
+  },
+  "sameSpatialMultiset": true,
+  "cadOnlySignatures": [],
+  "bimOnlySignatures": [],
+  "tolerance": "Assinaturas arredondadas a cinco casas em m e m2; auditorias por origem usam tolerancia absoluta 1e-5.",
+  "limits": [
+    "Compara classe, caixas envolventes e areas superiores, com multiplicidade; nao compara malhas completas.",
+    "Nomes/GUIDs diferem entre fluxos; cada fluxo preservou a propria identidade na reabertura.",
+    "Equivalencia geometrica nao comprova equivalencia de modelo analitico, materiais, cargas ou calculo.",
+    "Ensaio exploratorio; tempos de escopos distintos nao sustentam ranking geral."
+  ]
+}

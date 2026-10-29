@@ -1,0 +1,503 @@
+{
+  "atUtc": "2026-10-29T01:30:19.179063+00:00",
+  "revision": "H03/R50",
+  "nativeProject": "D:\\TCC\\outputs\\H03_BIM_R50_LAJES_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+  "softwareObserved": "AltoQi Eberick 2025 Infinity; versao completa ainda nao consultada no Sobre.",
+  "columns": 22,
+  "logicalBeams": 29,
+  "beamSolids": 32,
+  "slabs": 11,
+  "initialGeometryPass": true,
+  "reopenedGeometryPass": true,
+  "sameGeometryNamesGuidsAndTopAreas": true,
+  "cadBimSpatialComparisonPass": true,
+  "balconySupportVerified": false,
+  "materialsVerifiedInNativeUI": false,
+  "structuralCalculationPerformed": false,
+  "frozenFiles": [
+    {
+      "path": "D:\\TCC\\outputs\\H03_BIM_R50_LAJES_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ERRLOG",
+      "frozen": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ERRLOG",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_BIM_R50_LAJES_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "frozen": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_BIM_R50_LAJES_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "frozen": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256": "a81f75070b1415b93bc92e424df10409f2f82a2433c59d7abeee477cdeabc015"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_BIM_R50_LAJES_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "frozen": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "sha256": "361d4f9efb9d1c25e46bbd6a2c7cdf55a79708a39002129cec6aea1a07f459a4"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_BIM_R50_LAJES_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "frozen": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "sha256": "a81f75070b1415b93bc92e424df10409f2f82a2433c59d7abeee477cdeabc015"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_BIM_R50_LAJES_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "frozen": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_BIM_R50_LAJES_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "frozen": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_BIM_R50_LAJES_NAO_EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "frozen": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_BIM_R50_LAJES_NAO_EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "frozen": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "fb17f6ce6dc3c00cbcf07e388f31ef1fa8a0906a0c60b8458553a793756a73e4"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\H03_BIM_R50_LAJES_NAO_EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "frozen": "D:\\TCC\\outputs\\Complementacao-H03-R50-LAJES-BIM-NAO-EXECUTAR\\congelado-onze-lajes\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "fe04e5b59c09c362e097e2e8f83e7e7f9dcd7ea413c70a9dc8d6f2a74d08e1e4"
+    }
+  ],
+  "preservedFiles": [
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\auditar-h03-r43.mjs",
+      "sha256": "89a9f15536f3c102dd6ed0b91b121bbdf4b37df3569e664b1ab3713c969f909c"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\figura-h03-r43.py",
+      "sha256": "366a8477f012e2701d82646d996112a0588c00b543f80184beb3ecd2af732669"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\gerar-h03-r43.mjs",
+      "sha256": "43a4f031489ae41da423389a5ccd9b9acc64b2fbd2e4ff179a5c283fbac32dd8"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-AutoCAD.dwg",
+      "sha256": "516a0feba35680e66817820fce503d9a68912995a98a8ff19bb45b67160038a2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-AutoCAD.dxf",
+      "sha256": "af24ee7bb2e5b7b2406c976433ebfdf78946d6cb8cbf6e9e5117ac6cfe1663b2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-AutoCAD.lsp",
+      "sha256": "de67319c50aa0423f0b53316b96b6adb10e6eac481aa3c3b0b1454b374acfc86"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-N1-manifesto.json",
+      "sha256": "f94fda7714652ef29357369bb5981041267381b6b6f05bad928e2eb626a3c56e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-N1.dxf",
+      "sha256": "322f0a6c9534093486549f6dfe53cd90b57e4158cd564ba90e96b63148ccde5e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-N2-manifesto.json",
+      "sha256": "63a006ff55abdad0a5ec2b6b36bedab26cbb830a9c107b1d9771496600698dce"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-N2.dxf",
+      "sha256": "3c36bbeae7ba6c858f49223a719d9e2d480341712ae717e40a4165f0857d73c4"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-proposta.json",
+      "sha256": "db5c48d601802de23aa4c2ef9035f1457d2f8a0efea2d93f9bd9a12dd20b7ca4"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-Revit.0001.rvt",
+      "sha256": "d9581481db8cce004b4d760e2647fd21ec07615acdb73ff2536fc861c24d5a35"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-Revit.0002.rvt",
+      "sha256": "b62ccfeca4d816e57310530be9600b5501864eb37e7929906aa472dd19e17e11"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-Revit.ifc",
+      "sha256": "0e9b39c4480e7555d8586b0ac9bd738c2821943069a7d5a50d0a9ab77cdd42d5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-Revit.rvt",
+      "sha256": "5676e5968ff43c545a4a71414d288dc642bd28848a578432afd9f772e4cc07a3"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\LEIA-ME-R43.md",
+      "sha256": "fbd1287c770142da8cc41c0546524218c0e284e93a8d9aa1f1c207087f28b217"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\R43-alteracoes-e-triagem.json",
+      "sha256": "ced7f344f29ca8943538c78b523d085ef680ccb3c07703f89827920a15aeb8a2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\R43-auditoria-nativa.json",
+      "sha256": "2f8f7cb3f8dcc1e151ae98dc9bd13729c9391d605638f64945827b564a4d6b73"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\R43-AutoCAD-releitura.dxf",
+      "sha256": "3b6feb7b0942e38b6d3bfd681f76152592348bd9f2dbc30037b5c11f808be852"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\R43-concepcao-e-forro.png",
+      "sha256": "5464e9426f631066c308c0686aafe3af1616ce1737400f0fb8b5fbc8c60b31ee"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\R43-concepcao-e-forro.svg",
+      "sha256": "72552fe1c9505d438d0b0475b3c7beed6952e284834ba9be99092d71311a77ac"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\R43-preservacao-origens.json",
+      "sha256": "8c21edfab2456841f0a888e7770b997370e1a90f09fdb7b845a697b5240adcdc"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\R43-revit-criacao-salva.json",
+      "sha256": "731112ce460cafa85d2598f55cfebea73988bab339adf43272119710eb48e997"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\R43-Revit-leitura-nativa.json",
+      "sha256": "93291adb113213ba88c528d1a535d26665fc58fcbeb34a10140ebbbfb78797cd"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\R43-revit-primeira-tentativa-nao-salva.json",
+      "sha256": "30b38e9e3b47ddb4c67034bdfa7c37b56c5f002c977f05b7c4e921c36913d5ba"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\R43-tempo-autocad-assistido.json",
+      "sha256": "c8475ee7fbf554fc4f40aaa6bbdfe4bc5888f9aa795570dfb5a79c71c1b3595c"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\R43-tempo-exportacao-IFC-assistido.json",
+      "sha256": "04b054e756cbb2c3b8005366254dd48e58d9b84682f4fc95c69534dd3d441d9d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\R43-tempo-revit-assistido.json",
+      "sha256": "6847472a07d51e7a5d26ac54612d0ed829cdcd51e394512f8f7b8f915ad2161e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\R43-tempo-script.json",
+      "sha256": "b8a70a1ada456c78c39707f9ccf04ec227313017a708e17e4488077e449fe387"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR\\H03-R44-3niveis.ifc",
+      "sha256": "438345ae38463cc3943f45fd3728c3c910bd982913c7cfa3324daf0a51e53e20"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR\\H03-R44-geometria-nominal.adaptacao.json",
+      "sha256": "114c235b202aa483bf5f282787456d4751de2a3016d2fa257ef0cb9843879a4f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR\\H03-R44-geometria-nominal.ifc",
+      "sha256": "78cd1c8197c04abf42c6075bfc748c6dd3ea89b1bc2612eee948773aeb289fa6"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR\\LEIA-ME-R44.md",
+      "sha256": "2df5eee68acd431514ed6ec1fe6ea847dc431b0508a5e5e439bf3acf664492c8"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR\\preparar-h03-r44.py",
+      "sha256": "fd2707660d2d9a3666322e9cd9eb427df00354ce3b9c2e7bab2fd882c12e4a1b"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR\\R44-estado-receptor.json",
+      "sha256": "6a42d727c1f8cae6aebd2c1f837fead78aedb6c6ad054a1e2660fdf2e5ecc921"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR\\R44-IFC-bruto-auditoria.json",
+      "sha256": "fb5e633ad9a40c63914664ffbfd3ab7a1070919b27e116f2f813bb641ef96152"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR\\R44-preparacao.json",
+      "sha256": "5d91bd4a3ccb6da38c3c345a52eb84539bd91b0da26b727e76f5a69637c6944b"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R44-ESTUDO-NAO-EXECUTAR\\R44-tentativa-menu-tempo.json",
+      "sha256": "32151fa4c8347c0b203de03135f4e3cfcda38a43a0f83ade46e808559d4788b4"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\auditar-cad-h03-r45.py",
+      "sha256": "0052dd47a270bba7182b154fd038a6766f76bad3aa91a8943836c587bf642ebe"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\congelado\\H03_CAD_R45_BASE_NAO_EXECUTAR.ERRLOG",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\congelado\\H03_CAD_R45_BASE_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\congelado\\H03_CAD_R45_BASE_NAO_EXECUTAR.prj",
+      "sha256": "59a7ac49a8ceec8b18da2987e3994372e6e4d3c4f047ba2f7bca9b70fe9d9d3b"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\congelado\\H03_CAD_R45_BASE_NAO_EXECUTAR.prj-cad",
+      "sha256": "992add2a3bb395bd59d713ff54cf0fde4697811952774961449007ab231b93eb"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\congelado\\H03_CAD_R45_BASE_NAO_EXECUTAR.sav",
+      "sha256": "59a7ac49a8ceec8b18da2987e3994372e6e4d3c4f047ba2f7bca9b70fe9d9d3b"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\converter-N1.log",
+      "sha256": "7396bccc314249e53362296e0d8208b23093801e362bcca188910b7ab21adcc2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\converter-N1.scr",
+      "sha256": "09c0dbf88fb0bf447657b8bef70f9ecc9734294875b9da81eac02ae17aa3f427"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\converter-N2.log",
+      "sha256": "825d36230b4804833c605b2515c36635dfbc64ed20b361208bbdc1bd1779b935"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\converter-N2.scr",
+      "sha256": "0641ee7e9636923a2de03d49ad017a8eac74e7c36dc04685b8c4651eb2d2a41f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\H03-R45-N1.bak",
+      "sha256": "a6c15c87d3d460f419bc4d3821b60698fbc3f1717f1c602905132d74e035c6d2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\H03-R45-N1.dwg",
+      "sha256": "608b033fd1cb5b4edc1f528a1b64f542afbe278c01ce3cdcb1fe9f0ba7006a34"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\H03-R45-N2.bak",
+      "sha256": "40c36178b9e427ed37062dc85b3b5a326f049b46013c9ff9859f94a835d9e5e5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\H03-R45-N2.dwg",
+      "sha256": "3a6fe2ffd32f6364b9865c05b32d3e83bf13c438dad2b87fcf78221a4538b329"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\LEIA-ME-R45.md",
+      "sha256": "694f22ce9aa697785f6a300d232f7b8a48a3950d39c1d0f2ced38cbda5934d76"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\R45-auditoria-recebimento-Eberick.json",
+      "sha256": "c5f802de8e6be0e297cceb15d3d99f661c4c4da54476eb82ff9d55d3ef9efa50"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\R45-Eberick-N1.dxf",
+      "sha256": "0fd2b5771120ea30a22827aaf74ae9fac6f34d196c41a8af2f496054c233daf3"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\R45-Eberick-N2.dxf",
+      "sha256": "225adb566904c5607c2be302dc55fafa05abfc90ba45a2cb09720dcb47eb9637"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R45-CAD-NAO-EXECUTAR\\R45-tempo-base-CAD.json",
+      "sha256": "1f9a257d96d6d2feb99bd2b8cf3fdda651a6c150ba6b23b3e325bf7d44bc6b78"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\auditar-h03-r46.py",
+      "sha256": "2e0dbd838abcac09bd6ab77cc33720e97df0c113410de960d561089e44d5e2ba"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\conferir-reabertura-h03-r46.py",
+      "sha256": "aa53fc32e2f14e4d10eec1f7d970c8265e129bd72f2a634c6c0b08d70c1e3cb6"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\congelado\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\congelado\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256": "2e28f5c367d31512a0b4a92bea770e3d1501575b5ca8b6d03e166a3a1d4bb87c"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\congelado\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "sha256": "211ce8826c84817b88a782d0d9b8227792cd42b3c288c9f0ed65f36097f901d1"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\congelado\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "sha256": "9504430aa9e99357c8e42eef4f5b41dca0ffabdf226a0f94ea0dc7475452782f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\congelado\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\congelado\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\congelado\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\consolidar-h03-r46.py",
+      "sha256": "2b985293dfb6be855bd6e5c129858a4c182730b4b48118cf35480dd25be30b57"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\LEIA-ME-R46.md",
+      "sha256": "c3c9465ce928d5a82ce21b957178cb7317f5d7fe6d615bb9638f1ea6b5f568e5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\R46-auditoria-pilares-vigas.json",
+      "sha256": "3e3df75a58e13aeae2f13670a53fff62f203054046faffdf9e5fe309cca865f0"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\R46-auditoria-relatorio-importacao.json",
+      "sha256": "bd845fd5db463ffd81a8dec88647a03a07bdf7d3fbb09229cddf8fb42ffa9322"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\R46-estado-atual.json",
+      "sha256": "022a1992798ef5f9a78a997c5b1f43a4f99b7241de3a999685be5c6ad96b738d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\R46-estados-congelados.json",
+      "sha256": "46ebe70bb37a7aadf25708d47d5050fd2d0be6650a0c2cdd88ec5088ef650b29"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\R46-estrutura-apos-reabrir.ifc",
+      "sha256": "d525aec784aebd56ef26b7f59e5dd9dc8d6c341f6b83a2a5bc978c5c2ad85f06"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\R46-estrutura-recebida-Eberick.ifc",
+      "sha256": "369036f34fe09a8c2b8d1e1af0a2480371131e946de8db56063703ea7fa36e5c"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\R46-geometria-inicial.json",
+      "sha256": "cf1dae2f9a99c6a7c5c40fcef76b029d2d8b689250dad7d548ffca33c6ea5700"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\R46-preservacao-origens.json",
+      "sha256": "ffb3423bc742062da2997b879b481c53a5a86e855430eceacb12c1df129eec47"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\R46-reabertura.json",
+      "sha256": "34b7da17ae5bb3be5fccd5e68ae9f80d725848ce54d6a00bbbf043ff21ac93f8"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\R46-relatorio-importacao.docx",
+      "sha256": "1aaa2d12b010926858afc479596a0f76b1ca8e633e36b043c3d92c3aab78d55f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\R46-relatorio-importacao.txt",
+      "sha256": "c19ecb9340f8265b966cc2abfef15555a73715617061a8d9d1561b5f90e3f489"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\R46-tempo-importacao-BIM.json",
+      "sha256": "e6ae58ecbac29d661211ffe28b148e706999ba694b65e72ad81d02f5d49849f0"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R46-BIM-NAO-EXECUTAR\\R46-tempos-parciais-consolidados.json",
+      "sha256": "aef9eefba4d474604ac6cf16711f33cc94dea69784c1a43432809f39998f4a8f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\auditar-lajes-h03-r49.py",
+      "sha256": "3fa3dd228a1a7ab91e5684d92e3793f7d03b6e04a4298cd2d588d0996a66ceb9"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\conferir-reabertura-h03-r49.py",
+      "sha256": "54599c16780fdc089e9cc410318a0a93fae7e235fcdfe7ed329cfaba17f34b36"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\consolidar-h03-r49.py",
+      "sha256": "1346a5a4615ebb360d497f9f249c1cb88e81b5f44c7c477b6291ad6ee07a059c"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\LEIA-ME-R49.md",
+      "sha256": "0e2449307dd91ded351da68cc9abc3c29df93c55f5dfe47c82c69d17561bf782"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\Modelo 3D.IFC",
+      "sha256": "1bb05f8531a5f0aeb2c57b24bb0c3484f9643858ee776b7d818de376f12c5d50"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\preparar-h03-r49.py",
+      "sha256": "a07cdd80d7273989498e1bf86a203142e7d0ee206ea1e25b82515db528bc2534"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\R49-apos-reabrir.ifc",
+      "sha256": "1bb05f8531a5f0aeb2c57b24bb0c3484f9643858ee776b7d818de376f12c5d50"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\R49-auditoria-lajes-inicial.json",
+      "sha256": "b329f5a5b16987c49f5d80a978a22be348d576a192006cb170d6c06ae053adfb"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\R49-auditoria-pilares-vigas.json",
+      "sha256": "74ff41d685acdbafb1d1ebc135ad2f4f13e71f9c6d832ca754c0df12476ebfd0"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\R49-estado-parcial.json",
+      "sha256": "36fd570a537fa6c4dc27f02a57712d8e152e7e50975432218dcd03bbf7907bd9"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\R49-manifesto.json",
+      "sha256": "7e69b21af76a9b3f512696379e51fba740f96da2c0b79a1fec3459beb79b30ec"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\R49-origens.json",
+      "sha256": "ccb5883ceeb0dfc13fd4a811fba5eb846fd10a214cf5e9b7f676fe7033278b73"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\R49-persistencia-concluida.md",
+      "sha256": "5c0cdf0eab2999b1645ed9d8f9672c4fafc3f175a0491af5d35ae4d10f14cf78"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\R49-primeira-exportacao.ifc",
+      "sha256": "c23c7d4036def6fa38e12d41051d385fbcafa3a87a4f3e9c5fa07dc1002e3200"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\R49-reabertura.json",
+      "sha256": "a14f794720d67741960488d2eea83d26365ddb42205ce8f0a5fe249fc3294963"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\R49-tempo-bruto-interrompido.json",
+      "sha256": "74d9a25e9d3a8b5b334f4403b4bb619baa1f31e4932515d529ff9009033b1594"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\R49-tempo-reabertura.json",
+      "sha256": "253c69b7ce1638aaa0f9e7e840a6978453e949c3c393cf668f25abf6e9da4ad4"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\congelado\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ERRLOG",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\congelado\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\congelado\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "f6042fb722f07d2ed67def6ba6ec0e403892f1e57e5afe293a49e8d70a79b763"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\congelado\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256": "c16317067ef05d313aa4b2584f4bd08da6f7fb3b27b01de516f4ecbda91aa5bd"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\congelado\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256": "fd7b0e5240a95d09494450f7b8b7a75d8be86c7215540ae16278b39452f919c8"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\congelado\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "95b1c2a33cd8cfa119a39d341a7f0c727ce83a23609ac7e62ad97253320a2584"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Complementacao-H03-R49-LAJES-CAD-NAO-EXECUTAR\\congelado\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "747e83c17fe7cd526d26d56a873610b4e2a6f5657724b9c3209fcb65342042fb"
+    }
+  ],
+  "timingFiles": [
+    "R50-tempo-dez-lajes.json",
+    "R50-tempo-varanda.json",
+    "R50-tempo-reabertura.json"
+  ],
+  "nextSteps": [
+    "Criar copias seguintes antes de alterar vinculos, materiais ou cargas.",
+    "Verificar vinculo/engastamento da varanda e conectividade analitica nos dois ramos.",
+    "Harmonizar materiais, cobrimentos, cargas e apoios idealizados da superestrutura.",
+    "Somente apos entradas completas processar e avaliar ELU/ELS/estabilidade.",
+    "Comparar esforcos por escopos equivalentes no protocolo; sem ranking de tempos parciais."
+  ]
+}
