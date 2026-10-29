@@ -1,0 +1,18 @@
+{
+  "atUtc": "2026-10-29T17:19:13.476080+00:00",
+  "manifestFilesChecked": 44,
+  "protectedR56FilesChecked": 45,
+  "nativeLaunchChecks": 6,
+  "nativeLaunchMessages": 0,
+  "superstructureObjectsPerBranch": 65,
+  "auxiliaryGuidChangesPerBranch": 11,
+  "syntheticTests": {
+    "command": "node --test tests/exchange.test.mjs tests/structural.test.mjs",
+    "passed": 9,
+    "failed": 0,
+    "meaning": "Testes sinteticos de exportacao e triagem; nao calculo estrutural, nem validacao de operacao dentro do Revit/AutoCAD."
+  },
+  "liveAICallsPerformed": false,
+  "structuralProcessingPerformed": false,
+  "fullWorkflowRankingAllowed": false
+}

@@ -1,0 +1,75 @@
+Window: "AltoQi Eberick 2025 Infinity - [H03_CAD_R57_VERIFICACAO_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [H03_CAD_R57_VERIFICACAO_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		181 diálogo AltoQi Eberick 2025 Infinity Secondary Actions: Raise
+			182 botão Sim ID: 6
+			183 botão Não ID: 7
+			184 Imagem ID: 20
+			185 text Detectou-se que ocorreu um erro durante a última edição deste projeto. Esse problema pode ter sido causado por informações inconsistentes salvas no arquivo. Portanto, recomenda-se usar o comando 'Verificar projeto danificado'. Essa operação pode levar alguns instantes e, ao final, a estrutura estará limpa e deverá ser reprocessada. Deseja verificar projeto danificado agora? ID: 65535
+			186 barra de título (settable, string) Value: AltoQi Eberick 2025 Infinity
+				187 botão (disabled) Fechar
+		1 Barra de status
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Notícias
+						198 item de tabulação (selectable) Notícias
+					8 painel
+						9 painel
+							10 painel (disabled) status.altoqi.com.br
+								11 painel (disabled)
+								12 região status.altoqi.com.br - Conteúdo da Web
+									13 região
+										14 região
+										15 região
+											16 região
+												17 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													18 gráfico
+													19 título Hum… Não consigo chegar a esta página
+													20 text status.altoqi.com.br
+													21 text se recusou a se conectar.
+													22 text Tente:
+													23 Lista
+														24 item de lista •Verificando a conexão
+														25 item de lista •Verificação de proxy e firewall
+															26 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													27 text ERR_CONNECTION_REFUSED
+													28 botão Atualizar ID: reload-button
+													29 text Microsoft Edge
+												30 região
+				31 painel
+					32 tabulação
+						199 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									38 painel
+									190 árvore ID: 101
+										191 item da árvore (selectable, disabled) Pavimentos
+											192 item da árvore (selectable, disabled) N2
+											193 item da árvore (selectable, disabled) N1
+											194 item da árvore (selectable, disabled) N0
+										195 item da árvore (selectable, disabled) Cortes
+										196 item da árvore (selectable, disabled) Gerenciador de desenhos
+										197 item da árvore (selectable, disabled) Modelos 3D
+		47 barra de menus
+		181 diálogo AltoQi Eberick 2025 Infinity Secondary Actions: Raise
+			182 botão Sim ID: 6
+			183 botão Não ID: 7
+			184 Imagem ID: 20
+			185 text Detectou-se que ocorreu um erro durante a última edição deste projeto. Esse problema pode ter sido causado por informações inconsistentes salvas no arquivo. Portanto, recomenda-se usar o comando 'Verificar projeto danificado'. Essa operação pode levar alguns instantes e, ao final, a estrutura estará limpa e deverá ser reprocessada. Deseja verificar projeto danificado agora? ID: 65535
+			186 barra de título (settable, string) Value: AltoQi Eberick 2025 Infinity
+				187 botão (disabled) Fechar
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```

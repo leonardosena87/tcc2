@@ -1,0 +1,138 @@
+{
+  "revision": "H03/R57",
+  "atUtc": "2026-10-29T17:18:30.820982+00:00",
+  "checks": [
+    {
+      "branch": "CAD",
+      "level": "N2",
+      "result": "Nao foram detectados problemas no lancamento deste pavimento.",
+      "detectedMessages": 0,
+      "evidence": "D:\\TCC\\outputs\\Verificacao-H03-R57-NAO-EXECUTAR\\CAD-N2-lancamento-UI.txt",
+      "sha256": "4df7d71ae6930edd83089d9107598c9ccd32013e683f01575ab43b2b4f3301c4"
+    },
+    {
+      "branch": "CAD",
+      "level": "N1",
+      "result": "Nao foram detectados problemas no lancamento deste pavimento.",
+      "detectedMessages": 0,
+      "evidence": "D:\\TCC\\outputs\\Verificacao-H03-R57-NAO-EXECUTAR\\CAD-N1-lancamento-UI.txt",
+      "sha256": "9caa7c301935ec7c396307d79b23dc8d91f87f4dfe461b7003f7d9a73ea7e10e"
+    },
+    {
+      "branch": "CAD",
+      "level": "N0",
+      "result": "Nao foram detectados problemas no lancamento deste pavimento.",
+      "detectedMessages": 0,
+      "evidence": "D:\\TCC\\outputs\\Verificacao-H03-R57-NAO-EXECUTAR\\CAD-N0-lancamento-UI.txt",
+      "sha256": "a374e630c3a4a9702dfc40f04fd435bb060bc23447e048c858bc501e186768ad"
+    },
+    {
+      "branch": "BIM",
+      "level": "N2",
+      "result": "Nao foram detectados problemas no lancamento deste pavimento.",
+      "detectedMessages": 0,
+      "evidence": "D:\\TCC\\outputs\\Verificacao-H03-R57-NAO-EXECUTAR\\BIM-N2-lancamento-UI.txt",
+      "sha256": "17a5994ca3048b648f409fe6ba92449911d63c2a6a9986ae8add554a0746dfe7"
+    },
+    {
+      "branch": "BIM",
+      "level": "N1",
+      "result": "Nao foram detectados problemas no lancamento deste pavimento.",
+      "detectedMessages": 0,
+      "evidence": "D:\\TCC\\outputs\\Verificacao-H03-R57-NAO-EXECUTAR\\BIM-N1-lancamento-UI.txt",
+      "sha256": "44235b41f6eb817f817be76533cc7b109ebea1dfe7837e6b11e7145c04677ddf"
+    },
+    {
+      "branch": "BIM",
+      "level": "N0",
+      "result": "Nao foram detectados problemas no lancamento deste pavimento.",
+      "detectedMessages": 0,
+      "evidence": "D:\\TCC\\outputs\\Verificacao-H03-R57-NAO-EXECUTAR\\BIM-N0-lancamento-UI.txt",
+      "sha256": "2d7fe62f774eaa9a4e5170e7098e3dd1b88dfa033fa1233cca19d758d1a6bb08"
+    }
+  ],
+  "audits": {
+    "CAD": {
+      "source": "D:\\TCC\\outputs\\Verificacao-H03-R57-NAO-EXECUTAR\\IFC-CAD\\Modelo 3D.IFC",
+      "sha256": "cf2c62e9ca989a2307bf237b4ef0a24c17c33f520770cd88a23cb79f43cb318d",
+      "baseline": "D:\\TCC\\outputs\\Cobertura-H03-R56-ESTUDO-NAO-EXECUTAR\\IFC-CAD\\Modelo 3D.IFC",
+      "baselineSha256": "539d5b91b12e6df72a63820e68bdaca19f1a2a34e271c692edd36cb8c177696f",
+      "objectsChecked": 76,
+      "counts": {
+        "IfcColumn": 22,
+        "IfcBeam": 32,
+        "IfcSlab": 11,
+        "IfcFooting": 11
+      },
+      "superstructureObjectsChecked": 65,
+      "superstructureNamesGuidsBoxesTopAreasAndExportedPropertiesPreserved": true,
+      "auxiliaryGuidChanges": 11,
+      "auxiliaryNamesBoxesTopAreasAndExportedPropertiesPreserved": true,
+      "matchingAuxiliaries": "Correspondencia unica por nome e caixa; comparacao de todos os demais campos extraidos, exceto GUID",
+      "analyticalModelVerified": false
+    },
+    "BIM": {
+      "source": "D:\\TCC\\outputs\\Verificacao-H03-R57-NAO-EXECUTAR\\IFC-BIM\\Modelo 3D.IFC",
+      "sha256": "4b8941190bede59eeebb80c550233328122fc0ef48679c71e86e82fb65cc1179",
+      "baseline": "D:\\TCC\\outputs\\Cobertura-H03-R56-ESTUDO-NAO-EXECUTAR\\IFC-BIM\\Modelo 3D.IFC",
+      "baselineSha256": "3e1818d8296fa2fda34fd4f205e88a2602cd99ae5e8955d2f53645e1124a483b",
+      "objectsChecked": 76,
+      "counts": {
+        "IfcColumn": 22,
+        "IfcBeam": 32,
+        "IfcSlab": 11,
+        "IfcFooting": 11
+      },
+      "superstructureObjectsChecked": 65,
+      "superstructureNamesGuidsBoxesTopAreasAndExportedPropertiesPreserved": true,
+      "auxiliaryGuidChanges": 11,
+      "auxiliaryNamesBoxesTopAreasAndExportedPropertiesPreserved": true,
+      "matchingAuxiliaries": "Correspondencia unica por nome e caixa; comparacao de todos os demais campos extraidos, exceto GUID",
+      "analyticalModelVerified": false
+    }
+  },
+  "zeroMessagesInAllSixLaunchChecks": true,
+  "protectedR56FilesChecked": 45,
+  "CADOpeningIntegrityWarning": true,
+  "CADIntegrityVerificationExecuted": true,
+  "CADReopenedWithoutRepeatingWarning": true,
+  "warningRootCauseProven": false,
+  "warningClassification": "Ocorrencia operacional local sem causa comprovada; nao atribuida a erro de transferencia CAD/DWG.",
+  "supportsIdealizedOnly": true,
+  "realFoundationsDesigned": false,
+  "completeLoads": false,
+  "structuralCalculationPerformed": false,
+  "CADBIMWholeFlowRankingAllowed": false,
+  "times": {
+    "CAD": {
+      "startUtc": "2026-10-29T16:57:56.256Z",
+      "startMonotonicMs": 38679.656,
+      "scope": "Abrir copia R57 CAD e verificar lancamento em N2/N1/N0; inclui raciocinio/latencia e descoberta do comando; nao fluxo completo",
+      "endUtc": "2026-10-29T17:03:18.578Z",
+      "durationMs": 322320.5805,
+      "scopeIncludesIntegrityVerification": true,
+      "launchChecks": [
+        "N2",
+        "N1",
+        "N0"
+      ],
+      "rankingAllowed": false,
+      "formatted": "5 min 22.321 s"
+    },
+    "BIM": {
+      "startUtc": "2026-10-29T17:03:34.720Z",
+      "startMonotonicMs": 377142.0702,
+      "scope": "Abrir copia R57 BIM, verificar N2/N1/N0 e salvar; inclui raciocinio/latencia; nao fluxo completo",
+      "endUtc": "2026-10-29T17:07:17.949Z",
+      "durationMs": 223229.06289999996,
+      "scopeIncludesIntegrityVerification": false,
+      "launchChecks": [
+        "N2",
+        "N1",
+        "N0"
+      ],
+      "rankingAllowed": false,
+      "formatted": "3 min 43.229 s"
+    }
+  }
+}

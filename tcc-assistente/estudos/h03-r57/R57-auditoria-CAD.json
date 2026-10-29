@@ -1,0 +1,19 @@
+{
+  "source": "D:\\TCC\\outputs\\Verificacao-H03-R57-NAO-EXECUTAR\\IFC-CAD\\Modelo 3D.IFC",
+  "sha256": "cf2c62e9ca989a2307bf237b4ef0a24c17c33f520770cd88a23cb79f43cb318d",
+  "baseline": "D:\\TCC\\outputs\\Cobertura-H03-R56-ESTUDO-NAO-EXECUTAR\\IFC-CAD\\Modelo 3D.IFC",
+  "baselineSha256": "539d5b91b12e6df72a63820e68bdaca19f1a2a34e271c692edd36cb8c177696f",
+  "objectsChecked": 76,
+  "counts": {
+    "IfcColumn": 22,
+    "IfcBeam": 32,
+    "IfcSlab": 11,
+    "IfcFooting": 11
+  },
+  "superstructureObjectsChecked": 65,
+  "superstructureNamesGuidsBoxesTopAreasAndExportedPropertiesPreserved": true,
+  "auxiliaryGuidChanges": 11,
+  "auxiliaryNamesBoxesTopAreasAndExportedPropertiesPreserved": true,
+  "matchingAuxiliaries": "Correspondencia unica por nome e caixa; comparacao de todos os demais campos extraidos, exceto GUID",
+  "analyticalModelVerified": false
+}
