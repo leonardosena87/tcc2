@@ -1,0 +1,77 @@
+Window: "AltoQi Eberick 2025 Infinity - [H03_CAD_R63_AUDITORIA_G_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [H03_CAD_R63_AUDITORIA_G_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		60 Barra de status
+		106 painel
+			107 botão de divisão
+				108 elevador
+				109 painel
+					110 tabulação Notícias
+						20921 item de tabulação (selectable) Notícias
+					113 painel
+						20638 painel
+							20639 painel status.altoqi.com.br
+								20640 painel (disabled)
+								20641 região status.altoqi.com.br - Conteúdo da Web
+									20642 região
+										20643 região
+										20644 região
+											20645 região
+												20646 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													20647 gráfico
+													20648 título Hum… Não consigo chegar a esta página
+													20649 text status.altoqi.com.br
+													20650 text se recusou a se conectar.
+													20651 text Tente:
+													20652 Lista
+														20653 item de lista •Verificando a conexão
+														20654 item de lista •Verificação de proxy e firewall
+															20655 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													20656 text ERR_CONNECTION_REFUSED
+													20657 botão Atualizar ID: reload-button
+													20658 text Microsoft Edge
+												20659 região
+				117 painel
+					118 tabulação
+						20922 item de tabulação (selectable)
+					121 painel
+						122 janela Edificação Secondary Actions: Raise
+							123 painel
+								124 painel Projeto
+									125 painel
+									20842 árvore ID: 101
+										20843 item da árvore (selectable, disabled) Pavimentos
+											20844 item da árvore (selectable, disabled) N2
+											20845 item da árvore (selectable, disabled) N1
+											20846 item da árvore (selectable, disabled) N0
+										20847 item da árvore (selectable, disabled) Pilares em prumada
+										20848 item da árvore (selectable, disabled) Cortes
+										20849 item da árvore (selectable, disabled) Gerenciador de desenhos
+										20850 item da árvore (selectable, disabled) Modelos 3D
+		135 barra de menus
+		20923 diálogo Análise Estática Linear Secondary Actions: Raise
+			20924 tabulação ID: 634
+				20925 item de tabulação (selectable) Resultados
+			20926 botão OK ID: 1
+			20927 botão Imprimir... ID: 644
+			20928 botão Relatórios... ID: 631
+			20929 botão Diagnóstico... ID: 1347
+			20930 botão Ajuda ID: 9
+			20931 editar Value: Cargas verticais: Peso próprio = 75.69 tf Adicional = 10.05 tf Acidental = 17.11 tf Total = 102.86 tf Área aproximada = 132.81 m² Relação = 774.46 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.00 cm (limite 0.42) X- = 0.00 cm (limite 0.42) Y+ = 0.00 cm (limite 0.42) Y- = 0.00 cm (limite 0.42) AVISO: Os deslocamentos horizontais não foram verificados Verificação de estabilidade (Gama-Z): X+ = 1.09 (limite 1.10) X- = 1.08 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+9.06%) Vento X+: 0.96 »» 1.10 (+14.23%) Vento X-: 0.96 »» 1.10 (+14.23%) Vento Y+: 1.06 »» 1.15 (+8.08%) Vento Y-: 1.06 »» 1.15 (+8.08%) Desaprumo X+: 0.09 »» 0.11 (+13.99%) Desaprumo X-: 0.09 »» 0.11 (+13.99%) Desaprumo Y+: 0.06 »» 0.07 (+7.91%) Desaprumo Y-: 0.06 »» 0.07 (+7.91%)
+				20932 barra de rolagem (settable, float) Vertical Value: 0 ID: NonClientVerticalScrollBar
+					20933 botão Uma linha acima ID: UpButton
+					20934 elevador Posição ID: ScrollbarThumb
+					20935 botão Uma página abaixo ID: DownPageButton
+					20936 botão Uma linha abaixo ID: DownButton
+			20937 barra de título (settable, string) Value: Análise Estática Linear
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```

@@ -1,0 +1,82 @@
+{
+  "revision": "H03/R63",
+  "atUtc": "2026-10-29T19:56:12.856212+00:00",
+  "status": "Resumos parciais CAD/BIM coincidentes e persistentes; auditoria individual incompleta",
+  "protectedR62FilesChecked": 66,
+  "intendedRoofGReactionNodes": 13,
+  "intendedRoundedRoofGDownKN": 18.511247,
+  "addedBimGDownKN": 15.672145,
+  "cadCorrectionsThisRevision": [
+    "RC07",
+    "RC08",
+    "RC13"
+  ],
+  "cadRC12CorrectionFromR62Persisted": true,
+  "sampledBimRC07": {
+    "xCm": 732.5,
+    "yCm": 390,
+    "fzKN": -0.807804
+  },
+  "nativeDisplayCalibration": {
+    "node": "RC12",
+    "fzKN": -0.807804,
+    "fzDisplayedTf": -0.0807804,
+    "observedKNPerDisplayedTf": 10.0,
+    "physicalStandardKNPerTf": 9.80665,
+    "inputUnitsRestoredToKN": true,
+    "forcesRescaledToFitSummary": false
+  },
+  "displayedSummary": {
+    "ownTf": 75.69,
+    "additionalTf": 10.05,
+    "accidentalTf": 17.11,
+    "totalTf": 102.86,
+    "areaM2": 132.81,
+    "ratioKgfM2": 774.46
+  },
+  "displayedSummaryTextIdentical": true,
+  "bothSummariesPersistedAfterReopen": true,
+  "all13LoadsIndividuallyRead": false,
+  "aggregateEqualityProvesAllForcesAndPositions": false,
+  "fullTransferEquivalenceProven": false,
+  "roofLoadCaseComplete": false,
+  "missingLoadTechnicalRootCauseProven": false,
+  "cadDwgTransferDefectProven": false,
+  "prospectiveAssistedTimeCAD": {
+    "startUtc": "2026-10-29T19:01:03.623Z",
+    "startMonotonicMs": 7426044.9553,
+    "scope": "Auditoria/correcao CAD das cargas permanentes R62; inclui UI, raciocinio e latencia; nao tempo de transferencia",
+    "endUtc": "2026-10-29T19:26:44.309Z",
+    "durationMs": 1540686.0905000009,
+    "actualScope": "Leitura RC07/08/13 zerados e correcao, RC12 persistente, recalculo e amostra conversao kN/tf; inclui intervalo entre mensagens",
+    "rankingAllowed": false
+  },
+  "prospectiveAssistedTimeBIM": {
+    "startUtc": "2026-10-29T19:29:03.199Z",
+    "startMonotonicMs": 9105619.8708,
+    "scope": "Ampliacao BIM RC03..RC13 G com conferencias; inclui raciocinio e latencia",
+    "endUtc": "2026-10-29T19:52:53.955Z",
+    "elapsedMs": 1430756.2092000004
+  },
+  "observedProcessingTimeCAD": {
+    "startUtc": "2026-10-29T19:19:57.053Z",
+    "startMonotonicMs": 8559474.5463,
+    "endUtc": "2026-10-29T19:20:23.098Z",
+    "durationMs": 26044.441100001335,
+    "scope": "Ate leitura da conclusao; inclui latencia"
+  },
+  "observedProcessingTimeBIM": {
+    "startedAt": "2026-10-29T19:51:50.377Z",
+    "startMs": 1793303510377,
+    "scope": "Clique OK processamento ate primeira observacao da conclusao; inclui captura e latencia assistida.",
+    "endedAt": "2026-10-29T19:52:08.695Z",
+    "elapsedMs": 18318
+  },
+  "fullFlowRankingAllowed": false,
+  "isolatedAIEffortMeasured": false,
+  "newIFCExportPerformed": false,
+  "sourceRvtDwgEdited": false,
+  "monographEdited": false,
+  "eluElsApproved": false,
+  "foundationDesigned": false
+}

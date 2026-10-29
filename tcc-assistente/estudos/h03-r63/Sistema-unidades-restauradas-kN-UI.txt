@@ -1,0 +1,251 @@
+Window: "AltoQi Eberick 2025 Infinity - [H03_CAD_R63_AUDITORIA_G_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [H03_CAD_R63_AUDITORIA_G_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		16477 diálogo Sistema Secondary Actions: Raise
+			16478 grupo Unidades de medida
+			16479 grupo Cargas
+			16480 text Concentrada
+			16481 caixa de combinação (settable, string) Concentrada Value: kN ID: 101
+				16482 text (settable, string) Concentrada Value: kN
+				16483 botão Abrir ID: DropDown
+			16484 text Distribuída linear
+			16485 caixa de combinação (settable, string) Distribuída linear Value: kN/m ID: 102
+				16486 text (settable, string) Distribuída linear Value: kN/m
+				16487 botão Abrir ID: DropDown
+			16488 text Distribuída por área
+			16489 caixa de combinação (settable, string) Distribuída por área Value: kN/m² ID: 103
+				16490 text (settable, string) Distribuída por área Value: kN/m²
+				16491 botão Abrir ID: DropDown
+			16492 grupo
+			16493 text Pressão e tensão
+			16494 caixa de combinação (settable, string) Pressão e tensão Value: MPa ID: 107
+				16495 text (settable, string) Pressão e tensão Value: MPa
+				16496 botão Abrir ID: DropDown
+			16497 text Pressão admissível e coesão
+			16498 caixa de combinação (settable, string) Pressão admissível e coesão Value: kN/m² ID: 108
+				16499 text (settable, string) Pressão admissível e coesão Value: kN/m²
+				16500 botão Abrir ID: DropDown
+			16501 text Coeficiente de recalque
+			16502 caixa de combinação (settable, string) Coeficiente de recalque Value: kN/m³ ID: 109
+				16503 text (settable, string) Coeficiente de recalque Value: kN/m³
+				16504 botão Abrir ID: DropDown
+			16505 text Peso específico
+			16506 caixa de combinação (settable, string) Peso específico Value: kN/m³ ID: 110
+				16507 text (settable, string) Peso específico Value: kN/m³
+				16508 botão Abrir ID: DropDown
+			16509 grupo Reações
+			16510 text Concentrada
+			16511 caixa de combinação (settable, string) Concentrada Value: kN ID: 104
+				16512 text (settable, string) Concentrada Value: kN
+				16513 botão Abrir ID: DropDown
+			16514 text Distribuída linear
+			16515 caixa de combinação (settable, string) Distribuída linear Value: kN/m ID: 105
+				16516 text (settable, string) Distribuída linear Value: kN/m
+				16517 botão Abrir ID: DropDown
+			16518 text Distribuída por área
+			16519 caixa de combinação (settable, string) Distribuída por área Value: kN/m² ID: 106
+				16520 text (settable, string) Distribuída por área Value: kN/m²
+				16521 botão Abrir ID: DropDown
+			16522 grupo
+			16523 text Momento
+			16524 caixa de combinação (settable, string) Momento Value: kN.m ID: 111
+				16525 text (settable, string) Momento Value: kN.m
+				16526 botão Abrir ID: DropDown
+			16527 text Comprimento
+			16528 caixa de combinação (settable, string) Comprimento Value: cm ID: 113
+				16529 text (settable, string) Comprimento Value: cm
+				16530 botão Abrir ID: DropDown
+			16531 text Seção
+			16532 caixa de combinação (settable, string) Seção Value: cm ID: 112
+				16533 text (settable, string) Seção Value: cm
+				16534 botão Abrir ID: DropDown
+			16535 botão SI ID: 10
+			16536 botão MK*S ID: 11
+			16537 botão Sist. Europeu ID: 12
+			16538 botão Sist. Inglês ID: 14
+			16539 grupo Pastas padrões
+			16540 text Edificações
+			16541 editar Edificações Value: D:\TCC\outputs\ ID: 117
+			16542 botão ... ID: 120
+			16543 text Modelos
+			16544 editar Modelos Value: C:\Users\Public\AltoQi\Eberick\2025-04\Modelos ID: 118
+			16545 botão ... ID: 119
+			16546 grupo Geral
+			16547 caixa de seleção Salvar o projeto automaticamente a cada ID: 125
+			16548 editar (disabled, settable, string) Value: 30 ID: 126
+			16549 text min
+			16550 caixa de seleção Destacar linha corrente do grid ID: 128
+			16551 caixa de seleção Abrir o AltoQi Builder ao realizar atualizações na janela Arquivos ID: 136
+			16552 grupo Plano de corte
+			16553 text Modo de corte
+			16554 caixa de combinação (settable, string) Modo de corte Value: Otimizado ID: 137
+				16555 text (settable, string) Modo de corte Value: Otimizado
+				16556 botão Abrir ID: DropDown
+			16557 botão OK ID: 1
+			16558 botão Cancelar ID: 2
+			16559 botão Ajuda ID: 9
+			16560 barra de título (settable, string) Value: Sistema
+		60 Barra de status
+			16715 custom
+				16716 text Comando
+				16717 editar (settable, string)
+				16718 text 290.3,492.5
+				16719 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					16720 Lista
+						16721 item de lista (selectable) 1:1
+						16722 item de lista (selectable) 1:2
+						16723 item de lista (selectable) 1:5
+						16724 item de lista (selectable) 1:10
+						16725 item de lista (selectable) 1:12.5
+						16726 item de lista (selectable) 1:15
+						16727 item de lista (selectable) 1:20
+						16728 item de lista (selectable) 1:25
+						16729 item de lista (selectable) 1:30
+						16730 item de lista (selectable) 1:40
+						16731 item de lista (selectable) 1:50
+						16732 item de lista (selectable) 1:60
+						16733 item de lista (selectable) 1:75
+						16734 item de lista (selectable) 1:100
+						16735 item de lista (selectable) 1:200
+						16736 item de lista (selectable) 1:250
+						16737 item de lista (selectable) 1:500
+						16738 item de lista (selectable) 1:1000
+			16739 botão Atualizar
+			16740 botão Enquadrar
+			16741 botão Aproximar
+			16742 botão Afastar
+			16743 botão Zoom
+			16744 botão Zoom anterior
+			16745 botão Deslocar
+			16746 caixa de seleção Ortogonal
+			16747 caixa de seleção Captura personalizada
+			16748 botão Opções da captura personalizada
+			16749 caixa de seleção Quadrante
+			16750 caixa de seleção Centro
+			16751 caixa de seleção Ponto médio
+			16752 caixa de seleção Extremidade
+			16753 caixa de seleção Ponto no elemento
+			16754 caixa de seleção Intersecção
+			16755 caixa de seleção Perpendicular
+			16756 caixa de seleção Ponto intermediário
+			16757 caixa de seleção Ponto quadrante
+			16758 caixa de seleção Ponto na intersecção
+			16759 caixa de seleção Ponto relativo
+		106 painel
+			107 botão de divisão
+				108 elevador
+				109 painel
+					110 tabulação Croqui-N2
+						16760 item de tabulação (selectable) Notícias
+						16761 item de tabulação (selectable) Croqui-N2
+					113 painel
+						114 painel
+							115 painel Croqui-N2
+								116 painel TCadPlotWindow
+				117 painel
+					118 tabulação
+						16762 item de tabulação (selectable)
+						16763 item de tabulação (selectable)
+					121 painel
+						122 janela Edificação Secondary Actions: Raise
+							123 painel
+								124 painel Projeto
+									125 painel
+									126 árvore ID: 101
+										8261 item da árvore (selectable, disabled) Pavimentos
+											8262 item da árvore (selectable, disabled) N2
+											8263 item da árvore (selectable, disabled) N1
+											8264 item da árvore (selectable, disabled) N0
+										8265 item da árvore (selectable, disabled) Pilares em prumada
+										8266 item da árvore (selectable, disabled) Cortes
+										8267 item da árvore (selectable, disabled) Gerenciador de desenhos
+										8268 item da árvore (selectable, disabled) Modelos 3D
+		135 barra de menus
+		16477 diálogo Sistema Secondary Actions: Raise
+			16478 grupo Unidades de medida
+			16479 grupo Cargas
+			16480 text Concentrada
+			16481 caixa de combinação (settable, string) Concentrada Value: kN ID: 101
+				16482 text (settable, string) Concentrada Value: kN
+				16483 botão Abrir ID: DropDown
+			16484 text Distribuída linear
+			16485 caixa de combinação (settable, string) Distribuída linear Value: kN/m ID: 102
+				16486 text (settable, string) Distribuída linear Value: kN/m
+				16487 botão Abrir ID: DropDown
+			16488 text Distribuída por área
+			16489 caixa de combinação (settable, string) Distribuída por área Value: kN/m² ID: 103
+				16490 text (settable, string) Distribuída por área Value: kN/m²
+				16491 botão Abrir ID: DropDown
+			16492 grupo
+			16493 text Pressão e tensão
+			16494 caixa de combinação (settable, string) Pressão e tensão Value: MPa ID: 107
+				16495 text (settable, string) Pressão e tensão Value: MPa
+				16496 botão Abrir ID: DropDown
+			16497 text Pressão admissível e coesão
+			16498 caixa de combinação (settable, string) Pressão admissível e coesão Value: kN/m² ID: 108
+				16499 text (settable, string) Pressão admissível e coesão Value: kN/m²
+				16500 botão Abrir ID: DropDown
+			16501 text Coeficiente de recalque
+			16502 caixa de combinação (settable, string) Coeficiente de recalque Value: kN/m³ ID: 109
+				16503 text (settable, string) Coeficiente de recalque Value: kN/m³
+				16504 botão Abrir ID: DropDown
+			16505 text Peso específico
+			16506 caixa de combinação (settable, string) Peso específico Value: kN/m³ ID: 110
+				16507 text (settable, string) Peso específico Value: kN/m³
+				16508 botão Abrir ID: DropDown
+			16509 grupo Reações
+			16510 text Concentrada
+			16511 caixa de combinação (settable, string) Concentrada Value: kN ID: 104
+				16512 text (settable, string) Concentrada Value: kN
+				16513 botão Abrir ID: DropDown
+			16514 text Distribuída linear
+			16515 caixa de combinação (settable, string) Distribuída linear Value: kN/m ID: 105
+				16516 text (settable, string) Distribuída linear Value: kN/m
+				16517 botão Abrir ID: DropDown
+			16518 text Distribuída por área
+			16519 caixa de combinação (settable, string) Distribuída por área Value: kN/m² ID: 106
+				16520 text (settable, string) Distribuída por área Value: kN/m²
+				16521 botão Abrir ID: DropDown
+			16522 grupo
+			16523 text Momento
+			16524 caixa de combinação (settable, string) Momento Value: kN.m ID: 111
+				16525 text (settable, string) Momento Value: kN.m
+				16526 botão Abrir ID: DropDown
+			16527 text Comprimento
+			16528 caixa de combinação (settable, string) Comprimento Value: cm ID: 113
+				16529 text (settable, string) Comprimento Value: cm
+				16530 botão Abrir ID: DropDown
+			16531 text Seção
+			16532 caixa de combinação (settable, string) Seção Value: cm ID: 112
+				16533 text (settable, string) Seção Value: cm
+				16534 botão Abrir ID: DropDown
+			16535 botão SI ID: 10
+			16536 botão MK*S ID: 11
+			16537 botão Sist. Europeu ID: 12
+			16538 botão Sist. Inglês ID: 14
+			16539 grupo Pastas padrões
+			16540 text Edificações
+			16541 editar Edificações Value: D:\TCC\outputs\ ID: 117
+			16542 botão ... ID: 120
+			16543 text Modelos
+			16544 editar Modelos Value: C:\Users\Public\AltoQi\Eberick\2025-04\Modelos ID: 118
+			16545 botão ... ID: 119
+			16546 grupo Geral
+			16547 caixa de seleção Salvar o projeto automaticamente a cada ID: 125
+			16548 editar (disabled, settable, string) Value: 30 ID: 126
+			16549 text min
+			16550 caixa de seleção Destacar linha corrente do grid ID: 128
+			16551 caixa de seleção Abrir o AltoQi Builder ao realizar atualizações na janela Arquivos ID: 136
+			16552 grupo Plano de corte
+			16553 text Modo de corte
+			16554 caixa de combinação (settable, string) Modo de corte Value: Otimizado ID: 137
+				16555 text (settable, string) Modo de corte Value: Otimizado
+				16556 botão Abrir ID: DropDown
+			16557 botão OK ID: 1
+			16558 botão Cancelar ID: 2
+			16559 botão Ajuda ID: 9
+			16560 barra de título (settable, string) Value: Sistema
+
+Document text: ```
+Comando
+290.3,492.5
+```

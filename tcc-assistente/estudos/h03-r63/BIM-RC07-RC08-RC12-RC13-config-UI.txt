@@ -1,0 +1,144 @@
+Window: "AltoQi Eberick 2025 Infinity - [H03_BIM_R63_AUDITORIA_G_NAO_EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [H03_BIM_R63_AUDITORIA_G_NAO_EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+		88035 diálogo Carga concentrada Secondary Actions: Raise
+			88036 grupo ID: 118
+			88037 text Ação ID: 121
+			88038 caixa de combinação (settable, string) Ação Value: Adicional ID: 115
+				88039 text (settable, string) Ação Value: Adicional
+				88040 botão Abrir ID: DropDown
+			88041 text Cargas ID: 119
+			88042 text Fx ID: 122
+			88043 editar (settable, string) Fx Value: 0 ID: 112
+			88044 text kN ID: 111
+			88045 text Fy ID: 123
+			88046 editar (settable, string) Fy Value: 0 ID: 110
+			88047 text kN ID: 109
+			88048 text Fz ID: 124
+			88049 editar (settable, string) Fz Value: -0.807804 ID: 108
+			88050 text kN ID: 107
+			88051 text Momentos ID: 120
+			88052 text Mx ID: 125
+			88053 editar (settable, string) Mx Value: 0 ID: 106
+			88054 text kN.m ID: 105
+			88055 text My ID: 126
+			88056 editar (settable, string) My Value: 0 ID: 104
+			88057 text kN.m ID: 103
+			88058 text Mz ID: 127
+			88059 editar (settable, string) Mz Value: 0 ID: 102
+			88060 text kN.m ID: 101
+			88061 botão OK ID: 1
+			88062 botão Cancelar ID: 2
+			88063 botão Ajuda ID: 9
+			88064 barra de título (settable, string) Value: Carga concentrada
+		60 Barra de status
+			88212 custom
+				88213 text Comando
+				88214 editar (settable, string)
+				88215 text 547.5,387.9
+				88216 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					88217 Lista
+						88218 item de lista (selectable) 1:1
+						88219 item de lista (selectable) 1:2
+						88220 item de lista (selectable) 1:5
+						88221 item de lista (selectable) 1:10
+						88222 item de lista (selectable) 1:12.5
+						88223 item de lista (selectable) 1:15
+						88224 item de lista (selectable) 1:20
+						88225 item de lista (selectable) 1:25
+						88226 item de lista (selectable) 1:30
+						88227 item de lista (selectable) 1:40
+						88228 item de lista (selectable) 1:50
+						88229 item de lista (selectable) 1:60
+						88230 item de lista (selectable) 1:75
+						88231 item de lista (selectable) 1:100
+						88232 item de lista (selectable) 1:200
+						88233 item de lista (selectable) 1:250
+						88234 item de lista (selectable) 1:500
+						88235 item de lista (selectable) 1:1000
+			88236 botão Atualizar
+			88237 botão Enquadrar
+			88238 botão Aproximar
+			88239 botão Afastar
+			88240 botão Zoom
+			88241 botão Zoom anterior
+			88242 botão Deslocar
+			88243 caixa de seleção Ortogonal
+			88244 caixa de seleção Captura personalizada
+			88245 botão Opções da captura personalizada
+			88246 caixa de seleção Quadrante
+			88247 caixa de seleção Centro
+			88248 caixa de seleção Ponto médio
+			88249 caixa de seleção Extremidade
+			88250 caixa de seleção Ponto no elemento
+			88251 caixa de seleção Intersecção
+			88252 caixa de seleção Perpendicular
+			88253 caixa de seleção Ponto intermediário
+			88254 caixa de seleção Ponto quadrante
+			88255 caixa de seleção Ponto na intersecção
+			88256 caixa de seleção Ponto relativo
+		106 painel
+			107 botão de divisão
+				108 elevador
+				109 painel
+					110 tabulação Croqui-TCC-cdd31967-N2
+						88257 item de tabulação (selectable) Notícias
+						88258 item de tabulação (selectable) Croqui-TCC-cdd31967-N2
+					113 painel
+						21349 painel
+							21350 painel Croqui-TCC-cdd31967-N2
+								21351 painel TCadPlotWindow
+				117 painel
+					118 tabulação
+						88259 item de tabulação (selectable)
+						88260 item de tabulação (selectable)
+					121 painel
+						122 janela Edificação Secondary Actions: Raise
+							123 painel
+								124 painel Projeto
+									125 painel
+									21222 árvore ID: 101
+										21223 item da árvore (selectable, disabled) Pavimentos
+											21224 item da árvore (selectable, disabled) TCC-cdd31967-N2
+											21225 item da árvore (selectable, disabled) TCC-cdd31967-N1
+											21226 item da árvore (selectable, disabled) TCC-cdd31967-N0
+										21227 item da árvore (selectable, disabled) Pilares em prumada
+										21228 item da árvore (selectable, disabled) Cortes
+										21229 item da árvore (selectable, disabled) Gerenciador de desenhos
+										21230 item da árvore (selectable, disabled) Modelos 3D
+											21231 item da árvore (selectable, disabled) H03-R44-geometria-nominal
+		135 barra de menus
+		88035 diálogo Carga concentrada Secondary Actions: Raise
+			88036 grupo ID: 118
+			88037 text Ação ID: 121
+			88038 caixa de combinação (settable, string) Ação Value: Adicional ID: 115
+				88039 text (settable, string) Ação Value: Adicional
+				88040 botão Abrir ID: DropDown
+			88041 text Cargas ID: 119
+			88042 text Fx ID: 122
+			88043 editar (settable, string) Fx Value: 0 ID: 112
+			88044 text kN ID: 111
+			88045 text Fy ID: 123
+			88046 editar (settable, string) Fy Value: 0 ID: 110
+			88047 text kN ID: 109
+			88048 text Fz ID: 124
+			88049 editar (settable, string) Fz Value: -0.807804 ID: 108
+			88050 text kN ID: 107
+			88051 text Momentos ID: 120
+			88052 text Mx ID: 125
+			88053 editar (settable, string) Mx Value: 0 ID: 106
+			88054 text kN.m ID: 105
+			88055 text My ID: 126
+			88056 editar (settable, string) My Value: 0 ID: 104
+			88057 text kN.m ID: 103
+			88058 text Mz ID: 127
+			88059 editar (settable, string) Mz Value: 0 ID: 102
+			88060 text kN.m ID: 101
+			88061 botão OK ID: 1
+			88062 botão Cancelar ID: 2
+			88063 botão Ajuda ID: 9
+			88064 barra de título (settable, string) Value: Carga concentrada
+
+Document text: ```
+Comando
+547.5,387.9
+```
