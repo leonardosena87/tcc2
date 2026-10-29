@@ -1,0 +1,161 @@
+Window: "AltoQi Eberick 2025 Infinity - [H03_CAD_R62_TELHADO_G_PARCIAL_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [H03_CAD_R62_TELHADO_G_PARCIAL_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		55675 diálogo (disabled) Carga concentrada Secondary Actions: Raise
+			55950 diálogo AltoQi Eberick 2025 Infinity Secondary Actions: Raise
+				55951 botão OK ID: 2
+				55952 Imagem ID: 20
+				55953 text O valor de "Carga Concentrada no Eixo Z" deve ser um número real. ID: 65535
+				55954 barra de título (settable, string) Value: AltoQi Eberick 2025 Infinity
+					55955 botão Fechar
+			55676 grupo ID: 118
+			55677 text Ação ID: 121
+			55678 caixa de combinação (settable, string) Ação Value: Adicional ID: 115
+				55679 text (settable, string) Ação Value: Adicional
+				55680 botão Abrir ID: DropDown
+			55681 text Cargas ID: 119
+			55682 text Fx ID: 122
+			55683 editar (settable, string) Fx Value: 0 ID: 112
+			55684 text kN ID: 111
+			55685 text Fy ID: 123
+			55686 editar (settable, string) Fy Value: 0 ID: 110
+			55687 text kN ID: 109
+			55688 text Fz ID: 124
+			55689 editar (settable, string) Fz Value: --1.146561 ID: 108
+			55690 text kN ID: 107
+			55691 text Momentos ID: 120
+			55692 text Mx ID: 125
+			55693 editar (settable, string) Mx Value: 0 ID: 106
+			55694 text kN.m ID: 105
+			55695 text My ID: 126
+			55696 editar (settable, string) My Value: 0 ID: 104
+			55697 text kN.m ID: 103
+			55698 text Mz ID: 127
+			55699 editar (settable, string) Mz Value: 0 ID: 102
+			55700 text kN.m ID: 101
+			55701 botão OK ID: 1
+			55702 botão Cancelar ID: 2
+			55703 botão Ajuda ID: 9
+			55704 barra de título (settable, string) Value: Carga concentrada
+		1 Barra de status
+			56005 custom
+				56006 text Comando
+				56007 editar (settable, string)
+				56008 text -7.7 ,641.5
+				56009 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					56010 Lista
+						56011 item de lista (selectable) 1:1
+						56012 item de lista (selectable) 1:2
+						56013 item de lista (selectable) 1:5
+						56014 item de lista (selectable) 1:10
+						56015 item de lista (selectable) 1:12.5
+						56016 item de lista (selectable) 1:15
+						56017 item de lista (selectable) 1:20
+						56018 item de lista (selectable) 1:25
+						56019 item de lista (selectable) 1:30
+						56020 item de lista (selectable) 1:40
+						56021 item de lista (selectable) 1:50
+						56022 item de lista (selectable) 1:60
+						56023 item de lista (selectable) 1:75
+						56024 item de lista (selectable) 1:100
+						56025 item de lista (selectable) 1:200
+						56026 item de lista (selectable) 1:250
+						56027 item de lista (selectable) 1:500
+						56028 item de lista (selectable) 1:1000
+			56029 botão Atualizar
+			56030 botão Enquadrar
+			56031 botão Aproximar
+			56032 botão Afastar
+			56033 botão Zoom
+			56034 botão Zoom anterior
+			56035 botão Deslocar
+			56036 caixa de seleção Ortogonal
+			56037 caixa de seleção Captura personalizada
+			56038 botão Opções da captura personalizada
+			56039 caixa de seleção Quadrante
+			56040 caixa de seleção Centro
+			56041 caixa de seleção Ponto médio
+			56042 caixa de seleção Extremidade
+			56043 caixa de seleção Ponto no elemento
+			56044 caixa de seleção Intersecção
+			56045 caixa de seleção Perpendicular
+			56046 caixa de seleção Ponto intermediário
+			56047 caixa de seleção Ponto quadrante
+			56048 caixa de seleção Ponto na intersecção
+			56049 caixa de seleção Ponto relativo
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Croqui-N2
+						56050 item de tabulação (selectable) Notícias
+						56051 item de tabulação (selectable) Croqui-N2
+					8 painel
+						48690 painel
+							48691 painel Croqui-N2
+								48692 painel TCadPlotWindow
+				31 painel
+					32 tabulação
+						56052 item de tabulação (selectable)
+						56053 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									38 painel
+									48622 árvore ID: 101
+										48623 item da árvore (selectable, disabled) Pavimentos
+											48624 item da árvore (selectable, disabled) N2
+											48625 item da árvore (selectable, disabled) N1
+											48626 item da árvore (selectable, disabled) N0
+										48627 item da árvore (selectable, disabled) Pilares em prumada
+										48628 item da árvore (selectable, disabled) Cortes
+										48629 item da árvore (selectable, disabled) Gerenciador de desenhos
+										48630 item da árvore (selectable, disabled) Modelos 3D
+		47 barra de menus
+		55950 diálogo AltoQi Eberick 2025 Infinity Secondary Actions: Raise
+			55951 botão OK ID: 2
+			55952 Imagem ID: 20
+			55953 text O valor de "Carga Concentrada no Eixo Z" deve ser um número real. ID: 65535
+			55954 barra de título (settable, string) Value: AltoQi Eberick 2025 Infinity
+				55955 botão Fechar
+		55675 diálogo (disabled) Carga concentrada Secondary Actions: Raise
+			55950 diálogo AltoQi Eberick 2025 Infinity Secondary Actions: Raise
+				55951 botão OK ID: 2
+				55952 Imagem ID: 20
+				55953 text O valor de "Carga Concentrada no Eixo Z" deve ser um número real. ID: 65535
+				55954 barra de título (settable, string) Value: AltoQi Eberick 2025 Infinity
+					55955 botão Fechar
+			55676 grupo ID: 118
+			55677 text Ação ID: 121
+			55678 caixa de combinação (settable, string) Ação Value: Adicional ID: 115
+				55679 text (settable, string) Ação Value: Adicional
+				55680 botão Abrir ID: DropDown
+			55681 text Cargas ID: 119
+			55682 text Fx ID: 122
+			55683 editar (settable, string) Fx Value: 0 ID: 112
+			55684 text kN ID: 111
+			55685 text Fy ID: 123
+			55686 editar (settable, string) Fy Value: 0 ID: 110
+			55687 text kN ID: 109
+			55688 text Fz ID: 124
+			55689 editar (settable, string) Fz Value: --1.146561 ID: 108
+			55690 text kN ID: 107
+			55691 text Momentos ID: 120
+			55692 text Mx ID: 125
+			55693 editar (settable, string) Mx Value: 0 ID: 106
+			55694 text kN.m ID: 105
+			55695 text My ID: 126
+			55696 editar (settable, string) My Value: 0 ID: 104
+			55697 text kN.m ID: 103
+			55698 text Mz ID: 127
+			55699 editar (settable, string) Mz Value: 0 ID: 102
+			55700 text kN.m ID: 101
+			55701 botão OK ID: 1
+			55702 botão Cancelar ID: 2
+			55703 botão Ajuda ID: 9
+			55704 barra de título (settable, string) Value: Carga concentrada
+
+Document text: ```
+Comando
+-7.7 ,641.5
+```

@@ -1,0 +1,52 @@
+{
+  "revision": "H03/R62",
+  "atUtc": "2026-10-29T18:33:32.057204+00:00",
+  "status": "Diagnostico CAD incompleto, nao usar como par comparativo",
+  "protectedR61FilesChecked": 71,
+  "plannedNewGDownKN": 15.672145,
+  "expectedDeltaTfUsingStandardGravity": 1.5981140348640974,
+  "displayedAdditionalBeforeTf": 8.49,
+  "displayedAdditionalAttemptTf": 9.73,
+  "displayedTotalAttemptTf": 102.53,
+  "loadIncreaseAccepted": false,
+  "observedMissingLoad": {
+    "node": "RC12",
+    "xCm": 732.5,
+    "yCm": 705,
+    "action": "Adicional",
+    "readFzKN": 0,
+    "typedCorrectionFzKN": -0.807804,
+    "correctionConfirmedInNodeDialog": true,
+    "projectSavedAfterCorrection": true,
+    "persistenceAfterReopenVerified": false
+  },
+  "allOtherNodesReadIndividually": false,
+  "otherMissingLoadsProven": false,
+  "conversionFactorNativeConfirmed": false,
+  "technicalRootCauseProven": false,
+  "cadDwgTransferDefectProven": false,
+  "bimExpanded": false,
+  "bimCopyUnchangedFromR61": true,
+  "summaryPredatesRC12Correction": true,
+  "postCorrectionReprocessingPerformed": false,
+  "prospectiveAssistedTimeCAD": {
+    "startUtc": "2026-10-29T18:19:36.798Z",
+    "startMonotonicMs": 4939219.6269,
+    "scope": "Ampliacao CAD RC03..RC13 G: abrir, nos, cargas, verificacao e salvar; inclui raciocinio e latencia",
+    "endUtc": "2026-10-29T18:31:57.459Z",
+    "durationMs": 740661.1398,
+    "actualScope": "Tentativa 11 nos/G, processamento divergente, consulta RC12 zerado e correcao individual salva; nao reprocessado apos correcao; BIM nao iniciado",
+    "rankingAllowed": false
+  },
+  "observedProcessingTimeCAD": {
+    "startUtc": "2026-10-29T18:27:12.916Z",
+    "startMonotonicMs": 5395336.9291,
+    "endUtc": "2026-10-29T18:27:37.790Z",
+    "durationMs": 24874.42669999972,
+    "scope": "Intervalo ate leitura da conclusao, inclui latencia"
+  },
+  "fullFlowRankingAllowed": false,
+  "eluElsApproved": false,
+  "sourceRvtDwgEdited": false,
+  "monographEdited": false
+}

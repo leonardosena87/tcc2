@@ -1,0 +1,143 @@
+Window: "AltoQi Eberick 2025 Infinity - [H03_CAD_R62_TELHADO_G_PARCIAL_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [H03_CAD_R62_TELHADO_G_PARCIAL_NAO_EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		55008 diálogo Carga concentrada Secondary Actions: Raise
+			55009 grupo ID: 118
+			55010 text Ação ID: 121
+			55011 caixa de combinação (settable, string) Ação Value: Adicional ID: 115
+				55012 text (settable, string) Ação Value: Adicional
+				55013 botão Abrir ID: DropDown
+			55014 text Cargas ID: 119
+			55015 text Fx ID: 122
+			55016 editar (settable, string) Fx Value: 0 ID: 112
+			55017 text kN ID: 111
+			55018 text Fy ID: 123
+			55019 editar (settable, string) Fy Value: 0 ID: 110
+			55020 text kN ID: 109
+			55021 text Fz ID: 124
+			55022 editar (settable, string) Fz Value: -0.807804 ID: 108
+			55023 text kN ID: 107
+			55024 text Momentos ID: 120
+			55025 text Mx ID: 125
+			55026 editar (settable, string) Mx Value: 0 ID: 106
+			55027 text kN.m ID: 105
+			55028 text My ID: 126
+			55029 editar (settable, string) My Value: 0 ID: 104
+			55030 text kN.m ID: 103
+			55031 text Mz ID: 127
+			55032 editar (settable, string) Mz Value: 0 ID: 102
+			55033 text kN.m ID: 101
+			55034 botão OK ID: 1
+			55035 botão Cancelar ID: 2
+			55036 botão Ajuda ID: 9
+			55037 barra de título (settable, string) Value: Carga concentrada
+		1 Barra de status
+			55087 custom
+				55088 text Comando
+				55089 editar (settable, string)
+				55090 text 548.7,389.8
+				55091 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					55092 Lista
+						55093 item de lista (selectable) 1:1
+						55094 item de lista (selectable) 1:2
+						55095 item de lista (selectable) 1:5
+						55096 item de lista (selectable) 1:10
+						55097 item de lista (selectable) 1:12.5
+						55098 item de lista (selectable) 1:15
+						55099 item de lista (selectable) 1:20
+						55100 item de lista (selectable) 1:25
+						55101 item de lista (selectable) 1:30
+						55102 item de lista (selectable) 1:40
+						55103 item de lista (selectable) 1:50
+						55104 item de lista (selectable) 1:60
+						55105 item de lista (selectable) 1:75
+						55106 item de lista (selectable) 1:100
+						55107 item de lista (selectable) 1:200
+						55108 item de lista (selectable) 1:250
+						55109 item de lista (selectable) 1:500
+						55110 item de lista (selectable) 1:1000
+			55111 botão Atualizar
+			55112 botão Enquadrar
+			55113 botão Aproximar
+			55114 botão Afastar
+			55115 botão Zoom
+			55116 botão Zoom anterior
+			55117 botão Deslocar
+			55118 caixa de seleção Ortogonal
+			55119 caixa de seleção Captura personalizada
+			55120 botão Opções da captura personalizada
+			55121 caixa de seleção Quadrante
+			55122 caixa de seleção Centro
+			55123 caixa de seleção Ponto médio
+			55124 caixa de seleção Extremidade
+			55125 caixa de seleção Ponto no elemento
+			55126 caixa de seleção Intersecção
+			55127 caixa de seleção Perpendicular
+			55128 caixa de seleção Ponto intermediário
+			55129 caixa de seleção Ponto quadrante
+			55130 caixa de seleção Ponto na intersecção
+			55131 caixa de seleção Ponto relativo
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Croqui-N2
+						55132 item de tabulação (selectable) Notícias
+						55133 item de tabulação (selectable) Croqui-N2
+					8 painel
+						48690 painel
+							48691 painel Croqui-N2
+								48692 painel TCadPlotWindow
+				31 painel
+					32 tabulação
+						55134 item de tabulação (selectable)
+						55135 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									38 painel
+									48622 árvore ID: 101
+										48623 item da árvore (selectable, disabled) Pavimentos
+											48624 item da árvore (selectable, disabled) N2
+											48625 item da árvore (selectable, disabled) N1
+											48626 item da árvore (selectable, disabled) N0
+										48627 item da árvore (selectable, disabled) Pilares em prumada
+										48628 item da árvore (selectable, disabled) Cortes
+										48629 item da árvore (selectable, disabled) Gerenciador de desenhos
+										48630 item da árvore (selectable, disabled) Modelos 3D
+		47 barra de menus
+		55008 diálogo Carga concentrada Secondary Actions: Raise
+			55009 grupo ID: 118
+			55010 text Ação ID: 121
+			55011 caixa de combinação (settable, string) Ação Value: Adicional ID: 115
+				55012 text (settable, string) Ação Value: Adicional
+				55013 botão Abrir ID: DropDown
+			55014 text Cargas ID: 119
+			55015 text Fx ID: 122
+			55016 editar (settable, string) Fx Value: 0 ID: 112
+			55017 text kN ID: 111
+			55018 text Fy ID: 123
+			55019 editar (settable, string) Fy Value: 0 ID: 110
+			55020 text kN ID: 109
+			55021 text Fz ID: 124
+			55022 editar (settable, string) Fz Value: -0.807804 ID: 108
+			55023 text kN ID: 107
+			55024 text Momentos ID: 120
+			55025 text Mx ID: 125
+			55026 editar (settable, string) Mx Value: 0 ID: 106
+			55027 text kN.m ID: 105
+			55028 text My ID: 126
+			55029 editar (settable, string) My Value: 0 ID: 104
+			55030 text kN.m ID: 103
+			55031 text Mz ID: 127
+			55032 editar (settable, string) Mz Value: 0 ID: 102
+			55033 text kN.m ID: 101
+			55034 botão OK ID: 1
+			55035 botão Cancelar ID: 2
+			55036 botão Ajuda ID: 9
+			55037 barra de título (settable, string) Value: Carga concentrada
+
+Document text: ```
+Comando
+548.7,389.8
+```
