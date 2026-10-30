@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { PublicError, buildRequest, parseResponse, validateDataset } from './core.mjs';
 import {createDownload} from './downloads.mjs';
+import {buildDemoRequest,parseDemoResponse} from './revit-demo.mjs';
 const publicDir = fileURLToPath(new URL('../public/', import.meta.url));
 const mime = {'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.png':'image/png'};
 const staticFiles = new Set(['index.html','app.js','word.js','suggestions.js','style.css','files.css','icon-16.png','icon-32.png','icon-80.png']);
@@ -55,6 +56,18 @@ export function createHandler({origin = 'https://localhost:3443', exportDir, api
         }
         if(url.pathname === '/api/download' && req.method === 'POST') {
           const body=await json(req);try{return send(res,200,createDownload(body));}catch(e){throw new PublicError(e.message);}
+        }
+        if(url.pathname === '/api/revit-demo/plan' && req.method === 'POST') {
+          const request=buildDemoRequest(await json(req,30000),model);
+          if(!apiKey)throw new PublicError('Configure a chave OpenAI no TCC Assistente antes de gerar com IA.',503);
+          if(busy)throw new PublicError('Já existe um pedido em andamento.',429);
+          busy=true;const started=performance.now(),startedAtUtc=new Date().toISOString();
+          try{
+            const response=await fetchImpl('https://api.openai.com/v1/responses',{method:'POST',headers:{Authorization:`Bearer ${apiKey}`,'Content-Type':'application/json'},body:JSON.stringify(request),signal:AbortSignal.timeout(90000)});
+            if(!response.ok)throw new PublicError(({401:'A chave OpenAI não foi aceita.',404:'O modelo configurado não está disponível.',429:'Limite ou saldo da API atingido.'})[response.status]??`Falha ao gerar a prévia (HTTP ${response.status}).`,502);
+            const result=parseDemoResponse(await response.json());
+            return send(res,200,{...result,model,mode:'openai',startedAtUtc,elapsedMs:performance.now()-started,scope:'Solicitação de interpretação à API; não inclui modelagem ou revisão.'});
+          }finally{busy=false;}
         }
         if(url.pathname === '/api/chat' && req.method === 'POST') {
           const body=await json(req,30*1024*1024); const request=buildRequest(body,model);
