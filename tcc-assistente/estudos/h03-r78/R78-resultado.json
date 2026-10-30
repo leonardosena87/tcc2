@@ -1,0 +1,62 @@
+{
+  "revision": "H03/R78",
+  "atUtc": "2026-10-30T11:50:23.492523+00:00",
+  "scope": "Harmonização assistida dos fatores da ação Acidental/Q nos receptores nativos; conferência após fechar e reabrir",
+  "branches": [
+    {
+      "branch": "CAD",
+      "editableFieldsCompared": 20,
+      "displayedFieldsChanged": [
+        "152",
+        "153",
+        "154"
+      ],
+      "persistedFactors": [
+        0.5,
+        0.4,
+        0.3
+      ],
+      "intervalMs": 290004.4343,
+      "manualEntryReportedByUser": true,
+      "nativeProject": "D:\\TCC\\outputs\\02-H03-R78-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj"
+    },
+    {
+      "branch": "BIM",
+      "editableFieldsCompared": 20,
+      "displayedFieldsChanged": [
+        "152",
+        "153",
+        "154"
+      ],
+      "persistedFactors": [
+        0.5,
+        0.4,
+        0.3
+      ],
+      "intervalMs": 173056.0024,
+      "manualEntryReportedByUser": true,
+      "nativeProject": "D:\\TCC\\outputs\\03-H03-R78-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj"
+    }
+  ],
+  "classification": "Ajuste metodológico comum; não atribuído à transferência DWG ou IFC",
+  "normativeReference": {
+    "path": "D:\\TCC\\materiais\\normas\\ABNT NBR 6118-2026.pdf",
+    "sha256": "3fb0ef6a7600593e3f0c1991f73ecffe08da7cb7543b5ac80290dd7dfd7b791e",
+    "clause": "Tabela 11.2, página impressa 67/PDF85; ocupação residencial/acesso restrito"
+  },
+  "roofMaintenanceQApplied": false,
+  "customRoofActionCreated": false,
+  "structuralReprocessingPerformed": false,
+  "completeLoadCases": false,
+  "fullNormativeComplianceEstablished": false,
+  "comparisonRankingAllowed": false,
+  "aiEffort": {
+    "nativeAutomaticFieldEditFailed": true,
+    "humanEntryRequestsCompleted": 2,
+    "changedConfigurationValuesObserved": 6,
+    "manualTypingDurationMs": null,
+    "tokenUsage": null,
+    "apiCost": null
+  },
+  "sourceR77AllFilesUnchanged": true
+}

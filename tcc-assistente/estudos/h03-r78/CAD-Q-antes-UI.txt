@@ -1,0 +1,137 @@
+Window: "AltoQi Eberick 2025 Infinity - [02-H03-R78-CAD-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [02-H03-R78-CAD-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		172 diálogo Ações Secondary Actions: Raise
+			173 text Tipo
+			174 árvore Tipo ID: 110
+				175 item da árvore (selectable) Permanente
+				176 item da árvore (selectable) Protensão
+				177 item da árvore (selectable) Retração
+				178 item da árvore (selectable) Acidental
+					204 item da árvore (selectable) Acidental
+					205 item da árvore (selectable) Água
+				179 item da árvore (selectable) Subpressão
+				180 item da árvore (selectable) Temperatura
+				181 item da árvore (selectable) Vento
+				182 item da árvore (selectable) Sismo
+				183 item da árvore (selectable) Desaprumo
+			184 botão + ID: 111
+			185 botão (disabled) - ID: 112
+			210 grupo Ação ID: 120
+			211 text Nome ID: 128
+			212 editar (settable, string) Nome Value: Acidental ID: 121
+			213 text Indicação ID: 127
+			214 editar (settable, string) Indicação Value: Q ID: 122
+			215 caixa de seleção (disabled) Considerar para as lajes ID: 125
+			216 text Variabilidade ID: 126
+			217 botão de opção (selectable, disabled) Permanente ID: 115
+			218 botão de opção (selectable, disabled) Acidental direta ID: 116
+			219 botão de opção (selectable, disabled) Acidental indireta ID: 117
+			220 botão de opção (selectable, disabled) Excepcional ID: 118
+			221 grupo Coef. de ponderação ID: 130
+			222 text Concreto ID: 215
+			223 text Aço ID: 218
+			224 text Alvenaria ID: 214
+			225 text Normais (desfavorável) ID: 136
+			226 editar (settable, string) Normais (desfavorável) Value: 1.40 ID: 131
+			227 editar (settable, string) Value: 1.50 ID: 216
+			228 editar (disabled, settable, string) Value: 1.40 ID: 212
+			229 text Normais (favorável) ID: 135
+			230 editar (disabled, settable, string) Normais (favorável) Value: 0.00 ID: 132
+			231 editar (disabled, settable, string) Value: 0.00 ID: 217
+			232 editar (disabled, settable, string) Value: 0.00 ID: 213
+			233 text Excepcionais (desfavorável) ID: 219
+			234 editar (settable, string) Excepcionais (desfavorável) Value: 1.00 ID: 221
+			235 editar (settable, string) Value: 1.00 ID: 222
+			236 editar (settable, string) Value: 1.00 ID: 223
+			237 text Excepcionais (favorável) ID: 224
+			238 editar (disabled, settable, string) Excepcionais (favorável) Value: 0.00 ID: 225
+			239 editar (disabled, settable, string) Value: 0.00 ID: 226
+			240 editar (disabled, settable, string) Value: 0.00 ID: 227
+			241 text Fundações ID: 134
+			242 editar (settable, string) Fundações Value: 1.00 ID: 133
+			243 text Construção ID: 206
+			244 editar (settable, string) Construção Value: 1.20 ID: 137
+			245 text Incêndio ID: 139
+			246 editar (settable, string) Incêndio Value: 1.00 ID: 138
+			247 grupo Fatores de combinação ID: 151
+			248 text y ID: 155
+			249 text 0 ID: 158
+			250 text = ID: 162
+			251 editar (settable, string) = Value: 0.70 ID: 152
+			252 text y ID: 156
+			253 text 1 ID: 159
+			254 text = ID: 163
+			255 editar (settable, string) = Value: 0.60 ID: 153
+			256 text y ID: 157
+			257 text 2 ID: 161
+			258 text = ID: 164
+			259 editar (settable, string) = Value: 0.40 ID: 154
+			260 text Combinações ID: 140
+			194 botão OK ID: 1
+			195 botão Cancelar ID: 2
+			196 botão Ajuda ID: 9
+			197 tabulação ID: 12320
+				198 item de tabulação (selectable) Ações
+				199 item de tabulação (selectable) Combinações
+			200 barra de título (settable, string) Value: Ações
+				201 botão Ajuda de contexto
+		1 Barra de status
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Notícias
+						261 item de tabulação (selectable) Notícias
+					8 painel
+						9 painel
+							10 painel (disabled) status.altoqi.com.br
+								11 painel (disabled)
+								12 região status.altoqi.com.br - Conteúdo da Web
+									13 região
+										14 região
+										15 região
+											16 região
+												17 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													18 gráfico
+													19 título Hum… Não consigo chegar a esta página
+													20 text status.altoqi.com.br
+													21 text se recusou a se conectar.
+													22 text Tente:
+													23 Lista
+														24 item de lista •Verificando a conexão
+														25 item de lista •Verificação de proxy e firewall
+															26 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													27 text ERR_CONNECTION_REFUSED
+													28 botão Atualizar ID: reload-button
+													29 text Microsoft Edge
+												30 região
+				31 painel
+					32 tabulação
+						262 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									39 painel
+									121 árvore ID: 101
+										122 item da árvore (selectable, disabled) Pavimentos
+											123 item da árvore (selectable, disabled) N2
+											124 item da árvore (selectable, disabled) N1
+											125 item da árvore (selectable, disabled) N0
+										126 item da árvore (selectable, disabled) Pilares em prumada
+										127 item da árvore (selectable, disabled) Cortes
+										128 item da árvore (selectable, disabled) Gerenciador de desenhos
+										129 item da árvore (selectable, disabled) Modelos 3D
+		40 barra de menus
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```
