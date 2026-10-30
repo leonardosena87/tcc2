@@ -1,0 +1,138 @@
+{
+  "schema": "tcc-esboco/1",
+  "runId": "fc40a6de-62d9-4cf7-a9ef-73059b88f7d8",
+  "createdAt": "2026-10-30T18:26:39.119Z",
+  "units": "m",
+  "reviewed": true,
+  "status": "DEMONSTRACAO DIDATICA - GEOMETRIA NAO DIMENSIONADA - NAO EXECUTAR",
+  "reviewMeaning": "Conferencia das entradas geometricas para demonstracao. Nao e aprovacao estrutural.",
+  "source": {
+    "name": "Exemplo didatico independente do TCC",
+    "studyCase": "Pórtico de um pavimento, 6 x 4 m entre eixos, quatro pilares, quatro vigas e uma laje. Dimensoes ilustrativas."
+  },
+  "parameters": {
+    "xs": [
+      0,
+      6
+    ],
+    "ys": [
+      0,
+      4
+    ],
+    "zs": [
+      0.2,
+      3.2
+    ],
+    "columnB": 0.2,
+    "columnH": 0.3,
+    "beamB": 0.2,
+    "beamH": 0.4,
+    "slabH": 0.14
+  },
+  "elements": [
+    {
+      "id": "DEMO-P1",
+      "kind": "column",
+      "level": 0,
+      "x": 0,
+      "y": 0,
+      "b": 0.2,
+      "h": 0.3,
+      "z0": 0.2,
+      "z1": 3.2
+    },
+    {
+      "id": "DEMO-P2",
+      "kind": "column",
+      "level": 0,
+      "x": 6,
+      "y": 0,
+      "b": 0.2,
+      "h": 0.3,
+      "z0": 0.2,
+      "z1": 3.2
+    },
+    {
+      "id": "DEMO-P3",
+      "kind": "column",
+      "level": 0,
+      "x": 6,
+      "y": 4,
+      "b": 0.2,
+      "h": 0.3,
+      "z0": 0.2,
+      "z1": 3.2
+    },
+    {
+      "id": "DEMO-P4",
+      "kind": "column",
+      "level": 0,
+      "x": 0,
+      "y": 4,
+      "b": 0.2,
+      "h": 0.3,
+      "z0": 0.2,
+      "z1": 3.2
+    },
+    {
+      "id": "DEMO-V1",
+      "kind": "beam",
+      "level": 0,
+      "x": 0,
+      "y": 0,
+      "x2": 6,
+      "y2": 0,
+      "b": 0.2,
+      "h": 0.4,
+      "z": 3.2
+    },
+    {
+      "id": "DEMO-V2",
+      "kind": "beam",
+      "level": 0,
+      "x": 6,
+      "y": 0,
+      "x2": 6,
+      "y2": 4,
+      "b": 0.2,
+      "h": 0.4,
+      "z": 3.2
+    },
+    {
+      "id": "DEMO-V3",
+      "kind": "beam",
+      "level": 0,
+      "x": 6,
+      "y": 4,
+      "x2": 0,
+      "y2": 4,
+      "b": 0.2,
+      "h": 0.4,
+      "z": 3.2
+    },
+    {
+      "id": "DEMO-V4",
+      "kind": "beam",
+      "level": 0,
+      "x": 0,
+      "y": 4,
+      "x2": 0,
+      "y2": 0,
+      "b": 0.2,
+      "h": 0.4,
+      "z": 3.2
+    },
+    {
+      "id": "DEMO-L1",
+      "kind": "slab",
+      "level": 0,
+      "x": 0,
+      "y": 0,
+      "x2": 6,
+      "y2": 4,
+      "h": 0.14,
+      "z": 3.2
+    }
+  ],
+  "events": []
+}
