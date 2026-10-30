@@ -1,0 +1,138 @@
+Window: "AltoQi Eberick 2025 Infinity - [01-H03-R77-BIM-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [01-H03-R77-BIM-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+		21067 diálogo Ações Secondary Actions: Raise
+			21068 text Tipo
+			21069 árvore Tipo ID: 110
+				21070 item da árvore (selectable) Permanente
+				21071 item da árvore (selectable) Protensão
+				21072 item da árvore (selectable) Retração
+				21073 item da árvore (selectable) Acidental
+					21099 item da árvore (selectable) Acidental
+					21100 item da árvore (selectable) Água
+				21074 item da árvore (selectable) Subpressão
+				21075 item da árvore (selectable) Temperatura
+				21076 item da árvore (selectable) Vento
+				21077 item da árvore (selectable) Sismo
+				21078 item da árvore (selectable) Desaprumo
+			21079 botão + ID: 111
+			21080 botão (disabled) - ID: 112
+			21103 grupo Ação ID: 120
+			21104 text Nome ID: 128
+			21105 editar (settable, string) Nome Value: Acidental ID: 121
+			21106 text Indicação ID: 127
+			21107 editar (settable, string) Indicação Value: Q ID: 122
+			21108 caixa de seleção (disabled) Considerar para as lajes ID: 125
+			21109 text Variabilidade ID: 126
+			21110 botão de opção (selectable, disabled) Permanente ID: 115
+			21111 botão de opção (selectable, disabled) Acidental direta ID: 116
+			21112 botão de opção (selectable, disabled) Acidental indireta ID: 117
+			21113 botão de opção (selectable, disabled) Excepcional ID: 118
+			21114 grupo Coef. de ponderação ID: 130
+			21115 text Concreto ID: 215
+			21116 text Aço ID: 218
+			21117 text Alvenaria ID: 214
+			21118 text Normais (desfavorável) ID: 136
+			21119 editar (settable, string) Normais (desfavorável) Value: 1.40 ID: 131
+			21120 editar (settable, string) Value: 1.50 ID: 216
+			21121 editar (disabled, settable, string) Value: 1.40 ID: 212
+			21122 text Normais (favorável) ID: 135
+			21123 editar (disabled, settable, string) Normais (favorável) Value: 0.00 ID: 132
+			21124 editar (disabled, settable, string) Value: 0.00 ID: 217
+			21125 editar (disabled, settable, string) Value: 0.00 ID: 213
+			21126 text Excepcionais (desfavorável) ID: 219
+			21127 editar (settable, string) Excepcionais (desfavorável) Value: 1.00 ID: 221
+			21128 editar (settable, string) Value: 1.00 ID: 222
+			21129 editar (settable, string) Value: 1.00 ID: 223
+			21130 text Excepcionais (favorável) ID: 224
+			21131 editar (disabled, settable, string) Excepcionais (favorável) Value: 0.00 ID: 225
+			21132 editar (disabled, settable, string) Value: 0.00 ID: 226
+			21133 editar (disabled, settable, string) Value: 0.00 ID: 227
+			21134 text Fundações ID: 134
+			21135 editar (settable, string) Fundações Value: 1.00 ID: 133
+			21136 text Construção ID: 206
+			21137 editar (settable, string) Construção Value: 1.20 ID: 137
+			21138 text Incêndio ID: 139
+			21139 editar (settable, string) Incêndio Value: 1.00 ID: 138
+			21140 grupo Fatores de combinação ID: 151
+			21141 text y ID: 155
+			21142 text 0 ID: 158
+			21143 text = ID: 162
+			21144 editar (settable, string) = Value: 0.70 ID: 152
+			21145 text y ID: 156
+			21146 text 1 ID: 159
+			21147 text = ID: 163
+			21148 editar (settable, string) = Value: 0.60 ID: 153
+			21149 text y ID: 157
+			21150 text 2 ID: 161
+			21151 text = ID: 164
+			21152 editar (settable, string) = Value: 0.40 ID: 154
+			21153 text Combinações ID: 140
+			21089 botão OK ID: 1
+			21090 botão Cancelar ID: 2
+			21091 botão Ajuda ID: 9
+			21092 tabulação ID: 12320
+				21093 item de tabulação (selectable) Ações
+				21094 item de tabulação (selectable) Combinações
+			21095 barra de título (settable, string) Value: Ações
+				21096 botão Ajuda de contexto
+		3723 Barra de status
+		3769 painel
+			3770 botão de divisão
+				3771 elevador
+				3772 painel
+					3773 tabulação Notícias
+						21154 item de tabulação (selectable) Notícias
+					3776 painel
+						7658 painel
+							7659 painel (disabled) status.altoqi.com.br
+								7660 painel (disabled)
+								7661 região status.altoqi.com.br - Conteúdo da Web
+									7662 região
+										7663 região
+										7664 região
+											7665 região
+												7666 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													7667 gráfico
+													7668 título Hum… Não consigo chegar a esta página
+													7669 text status.altoqi.com.br
+													7670 text se recusou a se conectar.
+													7671 text Tente:
+													7672 Lista
+														7673 item de lista •Verificando a conexão
+														7674 item de lista •Verificação de proxy e firewall
+															7675 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													7676 text ERR_CONNECTION_REFUSED
+													7677 botão Atualizar ID: reload-button
+													7678 text Microsoft Edge
+												7679 região
+				3780 painel
+					3781 tabulação
+						21155 item de tabulação (selectable)
+					3784 painel
+						3785 janela Edificação Secondary Actions: Raise
+							3786 painel
+								3787 painel Projeto
+									3788 painel
+									20917 árvore ID: 101
+										20918 item da árvore (selectable, disabled) Pavimentos
+											20919 item da árvore (selectable, disabled) TCC-cdd31967-N2
+											20920 item da árvore (selectable, disabled) TCC-cdd31967-N1
+											20921 item da árvore (selectable, disabled) TCC-cdd31967-N0
+										20922 item da árvore (selectable, disabled) Pilares em prumada
+										20923 item da árvore (selectable, disabled) Cortes
+										20924 item da árvore (selectable, disabled) Gerenciador de desenhos
+										20925 item da árvore (selectable, disabled) Modelos 3D
+											20926 item da árvore (selectable, disabled) H03-R44-geometria-nominal
+		3798 barra de menus
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```

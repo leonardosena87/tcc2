@@ -1,0 +1,166 @@
+Window: "AltoQi Eberick 2025 Infinity - [00-H03-R77-CAD-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [00-H03-R77-CAD-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		20380 diálogo Vento Secondary Actions: Raise
+			20381 grupo Velocidade básica
+			20382 text Velocidade
+			20383 editar (settable, string) Velocidade Value: 42 ID: 103
+			20384 text m/s
+			20385 botão Mapa... ID: 129
+			20386 grupo Aplicação do vento
+			20387 text Ângulo
+			20388 editar (settable, string) Ângulo Value: 0 ID: 127
+			20389 text o
+			20390 Cata-vento o ID: 128
+				20391 botão Mais ID: MoreButton
+				20392 botão Menos ID: LessButton
+			20393 grupo o
+			20394 text Casos
+			20395 editar (disabled, settable, string) Casos Value: 4 ID: 140
+			20396 Cata-vento ID: 141
+				20397 botão Mais ID: MoreButton
+				20398 botão Menos ID: LessButton
+			20399 botão Forças médias... ID: 125
+			20400 grupo Tipo de análise ID: 116
+			20401 botão de opção (selectable) Vento estático ID: 117
+			20402 botão de opção (selectable) Vento dinâmico ID: 118
+			20403 grupo Edificação ID: 119
+			20404 text Fator S1 (topográfico) ID: 144
+			20405 text 1.00 ID: 145
+			20406 botão ... ID: 146
+			20407 text Fator S3 (estatístico) ID: 147
+			20408 text 1.00 ID: 148
+			20409 botão ... ID: 149
+			20410 text Maior dimensão horizontal ou vertical ID: 130
+			20411 caixa de combinação (settable, string) Maior dimensão horizontal ou vertical Value: Menor que 20 m ID: 120
+				20412 text (settable, string) Maior dimensão horizontal ou vertical Value: Menor que 20 m
+				20413 botão Abrir ID: DropDown
+			20414 text Rugosidade do terreno ID: 131
+			20415 text Categoria II ID: 121
+			20416 botão ... ID: 122
+			20417 text Razão de amortecimento crítico ID: 132
+			20418 editar (settable, string) Razão de amortecimento crítico Value: 0.02 ID: 123
+			20419 botão ... ID: 124
+			20420 text Fator de vizinhança ID: 151
+			20421 editar (settable, string) Fator de vizinhança Value: 1.00 ID: 150
+			20422 grupo Verificação de conforto ID: 134
+			20423 text Probabilidade de ocorrência ID: 135
+			20424 editar (settable, string) Probabilidade de ocorrência Value: 0.63 ID: 138
+			20425 text Período de recorrência em anos ID: 136
+			20426 editar (settable, string) Período de recorrência em anos Value: 1 ID: 139
+			20427 botão OK ID: 1
+			20428 botão Cancelar ID: 2
+			20429 botão Ajuda ID: 9
+			20430 text ID: 126
+			20431 barra de título (settable, string) Value: Vento
+		3723 Barra de status
+		3769 painel
+			3770 botão de divisão
+				3771 elevador
+				3772 painel
+					3773 tabulação Notícias
+						20432 item de tabulação (selectable) Notícias
+					3776 painel
+						7658 painel
+							7659 painel (disabled) status.altoqi.com.br
+								7660 painel (disabled)
+								7661 região status.altoqi.com.br - Conteúdo da Web
+									7662 região
+										7663 região
+										7664 região
+											7665 região
+												7666 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													7667 gráfico
+													7668 título Hum… Não consigo chegar a esta página
+													7669 text status.altoqi.com.br
+													7670 text se recusou a se conectar.
+													7671 text Tente:
+													7672 Lista
+														7673 item de lista •Verificando a conexão
+														7674 item de lista •Verificação de proxy e firewall
+															7675 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													7676 text ERR_CONNECTION_REFUSED
+													7677 botão Atualizar ID: reload-button
+													7678 text Microsoft Edge
+												7679 região
+				3780 painel
+					3781 tabulação
+						20433 item de tabulação (selectable)
+					3784 painel
+						3785 janela Edificação Secondary Actions: Raise
+							3786 painel
+								3787 painel Projeto
+									3788 painel
+									20000 árvore ID: 101
+										20001 item da árvore (selectable, disabled) Pavimentos
+											20002 item da árvore (selectable, disabled) N2
+											20003 item da árvore (selectable, disabled) N1
+											20004 item da árvore (selectable, disabled) N0
+										20005 item da árvore (selectable, disabled) Pilares em prumada
+										20006 item da árvore (selectable, disabled) Cortes
+										20007 item da árvore (selectable, disabled) Gerenciador de desenhos
+										20008 item da árvore (selectable, disabled) Modelos 3D
+		3798 barra de menus
+		20380 diálogo Vento Secondary Actions: Raise
+			20381 grupo Velocidade básica
+			20382 text Velocidade
+			20383 editar (settable, string) Velocidade Value: 42 ID: 103
+			20384 text m/s
+			20385 botão Mapa... ID: 129
+			20386 grupo Aplicação do vento
+			20387 text Ângulo
+			20388 editar (settable, string) Ângulo Value: 0 ID: 127
+			20389 text o
+			20390 Cata-vento o ID: 128
+				20391 botão Mais ID: MoreButton
+				20392 botão Menos ID: LessButton
+			20393 grupo o
+			20394 text Casos
+			20395 editar (disabled, settable, string) Casos Value: 4 ID: 140
+			20396 Cata-vento ID: 141
+				20397 botão Mais ID: MoreButton
+				20398 botão Menos ID: LessButton
+			20399 botão Forças médias... ID: 125
+			20400 grupo Tipo de análise ID: 116
+			20401 botão de opção (selectable) Vento estático ID: 117
+			20402 botão de opção (selectable) Vento dinâmico ID: 118
+			20403 grupo Edificação ID: 119
+			20404 text Fator S1 (topográfico) ID: 144
+			20405 text 1.00 ID: 145
+			20406 botão ... ID: 146
+			20407 text Fator S3 (estatístico) ID: 147
+			20408 text 1.00 ID: 148
+			20409 botão ... ID: 149
+			20410 text Maior dimensão horizontal ou vertical ID: 130
+			20411 caixa de combinação (settable, string) Maior dimensão horizontal ou vertical Value: Menor que 20 m ID: 120
+				20412 text (settable, string) Maior dimensão horizontal ou vertical Value: Menor que 20 m
+				20413 botão Abrir ID: DropDown
+			20414 text Rugosidade do terreno ID: 131
+			20415 text Categoria II ID: 121
+			20416 botão ... ID: 122
+			20417 text Razão de amortecimento crítico ID: 132
+			20418 editar (settable, string) Razão de amortecimento crítico Value: 0.02 ID: 123
+			20419 botão ... ID: 124
+			20420 text Fator de vizinhança ID: 151
+			20421 editar (settable, string) Fator de vizinhança Value: 1.00 ID: 150
+			20422 grupo Verificação de conforto ID: 134
+			20423 text Probabilidade de ocorrência ID: 135
+			20424 editar (settable, string) Probabilidade de ocorrência Value: 0.63 ID: 138
+			20425 text Período de recorrência em anos ID: 136
+			20426 editar (settable, string) Período de recorrência em anos Value: 1 ID: 139
+			20427 botão OK ID: 1
+			20428 botão Cancelar ID: 2
+			20429 botão Ajuda ID: 9
+			20430 text ID: 126
+			20431 barra de título (settable, string) Value: Vento
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```

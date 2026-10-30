@@ -1,0 +1,338 @@
+{
+  "revision": "H03/R77",
+  "atUtc": "2026-10-30T00:04:44.297728+00:00",
+  "status": "Ambos ramos abertos visualmente; Q/vento auditados, sem alteracao de engenharia",
+  "Q": {
+    "CAD": {
+      "psi0": 0.7,
+      "psi1": 0.6,
+      "psi2": 0.4,
+      "gammaConcreteNormalUnfavorable": 1.4,
+      "changed": false
+    },
+    "BIM": {
+      "psi0": 0.7,
+      "psi1": 0.6,
+      "psi2": 0.4,
+      "gammaConcreteNormalUnfavorable": 1.4,
+      "changed": false
+    }
+  },
+  "wind": {
+    "CAD": {
+      "basicSpeedDisplayedMS": 42,
+      "angleDeg": 0,
+      "cases": 4,
+      "analysis": "estatico; leitura visual",
+      "S1": 1.0,
+      "S3": 1.0,
+      "terrainRoughnessCategory": "II",
+      "dimensionClass": "Menor que20m",
+      "criticalDampingRatioDisplayed": 0.02,
+      "neighborhoodFactorDisplayed": 1.0,
+      "comfortFields": {
+        "probability": 0.63,
+        "recurrenceYears": 1,
+        "notULSReturnPeriod": true
+      },
+      "calculateAutomatically": true,
+      "useSketchFacades": true,
+      "obtainDragFromStructure": true,
+      "turbulence": "Baixa",
+      "singleDragValueAllLevels": false,
+      "arbitraryHeightCheckbox": false,
+      "inactiveArbitraryHeightFieldCM": 639,
+      "siteJustificationVerified": false,
+      "edited": false
+    },
+    "BIM": {
+      "basicSpeedDisplayedMS": 42,
+      "angleDeg": 0,
+      "cases": 4,
+      "analysis": "estatico; leitura visual",
+      "S1": 1.0,
+      "S3": 1.0,
+      "terrainRoughnessCategory": "II",
+      "dimensionClass": "Menor que20m",
+      "criticalDampingRatioDisplayed": 0.02,
+      "neighborhoodFactorDisplayed": 1.0,
+      "comfortFields": {
+        "probability": 0.63,
+        "recurrenceYears": 1,
+        "notULSReturnPeriod": true
+      },
+      "calculateAutomatically": true,
+      "useSketchFacades": true,
+      "obtainDragFromStructure": true,
+      "turbulence": "Baixa",
+      "singleDragValueAllLevels": false,
+      "arbitraryHeightCheckbox": false,
+      "inactiveArbitraryHeightFieldCM": 639,
+      "siteJustificationVerified": false,
+      "edited": false
+    }
+  },
+  "forceTableRows": 24,
+  "tableValuesMatchBetweenBranches": true,
+  "perCaseDisplayedMagnitudeSumsKN": {
+    "CAD": {
+      "X+": 32.32,
+      "X-": 32.32,
+      "Y+": 53.94,
+      "Y-": 53.94
+    },
+    "BIM": {
+      "X+": 32.32,
+      "X-": 32.32,
+      "Y+": 53.94,
+      "Y-": 53.94
+    }
+  },
+  "theseSumsAreNotSupportReactionsOrNetWind": true,
+  "fullGeneratedCombinationsAudited": false,
+  "BIMCombinationOptionsVisuallyRead": true,
+  "CADCombinationOptionsSource": "R66, geometria/PRJ de base preservados",
+  "QAttempt": {
+    "branch": "CAD",
+    "setValueError": "element 20166 is not available in cached app state for Eberick.exe",
+    "raiseError": "element 20089 has no cached secondary actions for Eberick.exe",
+    "typeTextDidNotChangeDisplayedPsi": true,
+    "configurationCanceled": true,
+    "BIMEditingNotRetried": true
+  },
+  "QRoofActionCreated": false,
+  "QRoofLoadsApplied": false,
+  "nativeWindEdited": false,
+  "processingPerformed": false,
+  "nativeStates": {
+    "CAD": {
+      "nativeProject": "D:\\TCC\\outputs\\00-H03-R77-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "nativeSha256": "54fcf16ae2f44cbb32bf7ef27eb8ff60cdcc913e2d396b1b68b961dc62c2d411",
+      "prjEngineeringByteIdenticalR64": true,
+      "prjZipIntegrityPassed": true,
+      "metadataChangedFromR64": [
+        "_DADOS_\\EdificacaoEberick.ini"
+      ],
+      "missingOldProcessLogs": [
+        {
+          "path": "D:\\TCC\\outputs\\00-H03-R77-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_25408.log",
+          "originalFrozenPreserved": true
+        }
+      ],
+      "frozenFiles": [
+        {
+          "path": "D:\\TCC\\outputs\\00-H03-R77-CAD-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-CAD\\_DADOS_\\ConfigFolder.qib",
+          "sha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\00-H03-R77-CAD-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-CAD\\_DADOS_\\EdificacaoEberick.ini",
+          "sha256": "44602571929c90631daf6069ff5615425fab43730b9d57405bd5b214bd3d02b1",
+          "byteIdenticalR64": false
+        },
+        {
+          "path": "D:\\TCC\\outputs\\00-H03-R77-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+          "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\00-H03-R77-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+          "sha256": "54fcf16ae2f44cbb32bf7ef27eb8ff60cdcc913e2d396b1b68b961dc62c2d411",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\00-H03-R77-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+          "sha256": "0153a568149231507be5e55166bfa6b413eee76f634ffb6ba22151bec9ece75f",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\00-H03-R77-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+          "sha256": "2ac91457fccbac2d4c72cec441163ff815500f8a5ca641fb578bfab5d6ac9390",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\00-H03-R77-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+          "sha256": "9f5cd63cf4114cde26b48fc873fa63ff4d4d8447b1f171e0dd0d31896c7f8a06",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\00-H03-R77-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+          "sha256": "54fcf16ae2f44cbb32bf7ef27eb8ff60cdcc913e2d396b1b68b961dc62c2d411",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\00-H03-R77-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+          "sha256": "2ac91457fccbac2d4c72cec441163ff815500f8a5ca641fb578bfab5d6ac9390",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\00-H03-R77-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+          "sha256": "9f5cd63cf4114cde26b48fc873fa63ff4d4d8447b1f171e0dd0d31896c7f8a06",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\00-H03-R77-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+          "sha256": "b6a9dde99df8975e7e79bcac43c5a500b3fd0411e74bfb1fe909db50ad39b062",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\00-H03-R77-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+          "sha256": "9feb47b709f93dc2bf2d4648b96af666af904c9519a7a52405ec5aba532679f9",
+          "byteIdenticalR64": true
+        }
+      ]
+    },
+    "BIM": {
+      "nativeProject": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "nativeSha256": "42c9d4a847963e1160d90cb6f7d4da13b2a5ece830224bb0f3cb680e5173a8ae",
+      "prjEngineeringByteIdenticalR64": true,
+      "prjZipIntegrityPassed": true,
+      "metadataChangedFromR64": [
+        "_DADOS_\\EdificacaoEberick.ini"
+      ],
+      "missingOldProcessLogs": [
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_25408.log",
+          "originalFrozenPreserved": true
+        }
+      ],
+      "frozenFiles": [
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-BIM\\_DADOS_\\ConfigFolder.qib",
+          "sha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-BIM\\_DADOS_\\EdificacaoEberick.ini",
+          "sha256": "60e38f8fc2beca8ec46d29db2c74e8b98ffb994432663476c9370ede04cffc12",
+          "byteIdenticalR64": false
+        },
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+          "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+          "sha256": "42c9d4a847963e1160d90cb6f7d4da13b2a5ece830224bb0f3cb680e5173a8ae",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+          "sha256": "8fbe23c2913389f7b941c4d918ce62fe6d870e31d6379f465ea4d6d87e5e52dd",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+          "sha256": "dea334ec8ec79709c853d300e1b922574c13cb62ae9d688fbf2ac36b81e884d8",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+          "sha256": "a5ffa8e759a7a53b842a6c7ac3f0caa663a07eb978584b358db3bebc2dfe7d32",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+          "sha256": "42c9d4a847963e1160d90cb6f7d4da13b2a5ece830224bb0f3cb680e5173a8ae",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+          "sha256": "dea334ec8ec79709c853d300e1b922574c13cb62ae9d688fbf2ac36b81e884d8",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+          "sha256": "a5ffa8e759a7a53b842a6c7ac3f0caa663a07eb978584b358db3bebc2dfe7d32",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+          "sha256": "151c0d28e895a2ceca4f72c1d5b2e5c4c1156a731c6fb24d6539ecc91b847b24",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+          "sha256": "43fd1432c71880e7670f837de317cb8e14c65e7b0cead2f68211d1df40bd9e20",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+          "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+          "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f",
+          "byteIdenticalR64": true
+        },
+        {
+          "path": "D:\\TCC\\outputs\\01-H03-R77-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+          "frozen": "D:\\TCC\\outputs\\Cargas-H03-R77-Q-TELHADO-NAO-EXECUTAR\\congelado-BIM\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+          "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571",
+          "byteIdenticalR64": true
+        }
+      ]
+    }
+  },
+  "assistedTimes": {
+    "CAD": {
+      "branch": "CAD",
+      "startUtc": "2026-10-29T23:47:23.498Z",
+      "startMonotonicMs": 3147725.9351,
+      "scope": "Abertura visual, tentativa cancelada de editar fatores Q, consulta de mapa e quatro tabelas de vento, fechamento; inclui raciocinio e latencias",
+      "rankingAllowed": false,
+      "endUtc": "2026-10-29T23:55:46.696Z",
+      "durationMs": 503198.58100000024,
+      "QConfigurationApplied": false,
+      "roofQApplied": false,
+      "windSettingsEdited": false
+    },
+    "BIM": {
+      "branch": "BIM",
+      "startUtc": "2026-10-29T23:56:16.682Z",
+      "startMonotonicMs": 3680910.8314,
+      "scope": "Abrir copia, consultar Q e opcoes de combinacoes, quatro tabelas de vento, cancelar e fechar; inclui raciocinio e latencias",
+      "rankingAllowed": false,
+      "endUtc": "2026-10-30T00:00:39.299Z",
+      "durationMs": 262616.80129999993,
+      "QConfigurationApplied": false,
+      "roofQApplied": false,
+      "windSettingsEdited": false,
+      "closureConfirmed": true,
+      "closureConfirmationIncluded": true
+    }
+  },
+  "rankingAllowed": false,
+  "structuralApproval": false,
+  "fullFlowTimes": null,
+  "isolatedAIEffort": null,
+  "monographEdited": false
+}
