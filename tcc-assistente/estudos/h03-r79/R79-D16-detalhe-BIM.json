@@ -1,0 +1,67 @@
+{
+  "branch": "BIM",
+  "beam": "V2",
+  "floor": "N1",
+  "nativeReportedNode": 2,
+  "nativeSupport": "P5",
+  "negativeMomentShownKNm": -38.17,
+  "sectionRowsCM": [
+    [
+      20,
+      16
+    ],
+    [
+      20,
+      45
+    ]
+  ],
+  "barRows": {
+    "extensionCM": [
+      199.6,
+      440.0
+    ],
+    "clearSpanCM": [
+      190,
+      420
+    ],
+    "levelCM": [
+      320,
+      320
+    ],
+    "elevationCM": [
+      0,
+      0
+    ]
+  },
+  "negativeRebarFailure": [
+    {
+      "diameterMM": 8.0,
+      "code": "A07",
+      "message": "Taxa de armadura > que a configurada."
+    },
+    {
+      "diameterMM": 10.0,
+      "code": "A07",
+      "message": "Taxa de armadura > que a configurada."
+    },
+    {
+      "diameterMM": 12.5,
+      "code": "A07",
+      "message": "Taxa de armadura > que a configurada."
+    },
+    {
+      "diameterMM": 16.0,
+      "code": "A07",
+      "message": "Taxa de armadura > que a configurada."
+    },
+    {
+      "diameterMM": 20.0,
+      "code": "A07",
+      "message": "Taxa de armadura > que a configurada."
+    }
+  ],
+  "maximumConfiguredRebarPercent": 2,
+  "maximumConfiguredCGPercent": 10,
+  "evidence": "BIM-N1-V2-*.png e BIM-V2-no2-bitolas-A07-UI.*",
+  "conclusion": "D16 explicado na interface por A07 para todas as cinco bitolas; nenhuma correção aplicada"
+}

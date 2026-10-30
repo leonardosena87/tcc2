@@ -1,0 +1,198 @@
+Window: "AltoQi Eberick 2025 Infinity - [05-H03-R79-BIM-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [05-H03-R79-BIM-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+		4336 diálogo Dimensionamento [Vigas] Secondary Actions: Raise
+			4411 grupo Limites ID: 2001
+			4412 text Relação máxima entre altura e CG da armadura ID: 2002
+			4413 editar (settable, string) Relação máxima entre altura e CG da armadura Value: 10 ID: 2003
+			4414 text % ID: 2004
+			4415 text Taxa de armadura máxima ID: 2005
+			4416 editar (settable, string) Taxa de armadura máxima Value: 2 ID: 2006
+			4417 text % ID: 2007
+			4418 text Diâmetro do vibrador ID: 2008
+			4419 editar (settable, string) Diâmetro do vibrador Value: 3 ID: 2009
+			4420 text cm ID: 2010
+			4421 caixa de seleção Permitir abertura próxima ao apoio ID: 2011
+			4422 caixa de seleção Permitir abertura próxima à variação de seção ID: 2059
+			4423 grupo Armadura de tração ID: 2015
+			4424 text Tensão mínima para considerar ID: 2016
+			4425 editar (settable, string) Tensão mínima para considerar Value: 1 ID: 2017
+			4426 text % ID: 2018
+			4427 caixa de seleção Usar armadura mínima da seção ID: 2019
+			4428 caixa de seleção Adotar armadura de pele como armadura de tração ID: 2020
+			4429 botão de opção (selectable, disabled) Em vigas que já possuem armadura de pele ID: 2021
+			4430 botão de opção (selectable, disabled) Em vigas com tensão de tração maior que ID: 2022
+			4431 editar (disabled, settable, string) Value: 50 ID: 2023
+			4432 text % fctk ID: 2024
+			4433 text Percentual a ser resistido pela armadura de pele ID: 2025
+			4434 editar (disabled, settable, string) Percentual a ser resistido pela armadura de pele Value: 50 ID: 2026
+			4435 text % ID: 2027
+			4436 grupo Armadura de torção ID: 2028
+			4437 text Tensão mínima para considerar ID: 2029
+			4438 editar (settable, string) Tensão mínima para considerar Value: 10 ID: 2030
+			4439 text % ID: 2031
+			4440 text Diâmetro mínimo ID: 2032
+			4441 caixa de combinação (settable, string) Diâmetro mínimo Value: 8.0 ID: 2033
+				4442 text (settable, string) Diâmetro mínimo Value: 8.0
+				4443 botão Abrir ID: DropDown
+			4444 text Espaçamento máximo ID: 2034
+			4445 editar (settable, string) Espaçamento máximo Value: 40 ID: 2035
+			4446 text cm ID: 2036
+			4447 grupo Verificação em nós semirígidos ID: 2056
+			4448 caixa de seleção Dispensar erro de abertura das fissuras em seção com redistribuição ID: 2057
+			4449 caixa de seleção Dispensar limites de redistribuição se atendida LN e abertura de fissuras ID: 2058
+			4450 grupo Armadura de pele
+			4451 text Diâmetro mínimo
+			4452 caixa de combinação (settable, string) Diâmetro mínimo Value: 6.3 ID: 2037
+				4453 text (settable, string) Diâmetro mínimo Value: 6.3
+				4454 botão Abrir ID: DropDown
+			4455 text Espaçamento máximo
+			4456 editar (settable, string) Espaçamento máximo Value: 15 ID: 2038
+			4457 text cm
+			4458 text Altura inicial
+			4459 editar (settable, string) Altura inicial Value: 60 ID: 2039
+			4460 text cm
+			4461 grupo Armadura de suspensão
+			4462 caixa de seleção Permitir viga maior apoiando em menor ID: 2044
+			4463 text Tipo de estribo
+			4464 caixa de combinação (settable, string) Tipo de estribo Value: Aberto ID: 2049
+				4465 text (settable, string) Tipo de estribo Value: Aberto
+				4466 botão Abrir ID: DropDown
+			4467 text Diâmetro mínimo
+			4468 caixa de combinação (settable, string) Diâmetro mínimo Value: 10.0 ID: 2051
+				4469 text (settable, string) Diâmetro mínimo Value: 10.0
+				4470 botão Abrir ID: DropDown
+			4471 text Espaçamento mínimo
+			4472 editar (settable, string) Espaçamento mínimo Value: 5 ID: 2055
+			4473 text cm
+			4474 caixa de seleção Adotar armadura de suspensão para vigas não penduradas ID: 2052
+			4475 grupo Armadura de compressão ID: 2012
+			4476 text Diâmetro mínimo ID: 2013
+			4477 caixa de combinação (settable, string) Diâmetro mínimo Value: 10.0 ID: 2014
+				4478 text (settable, string) Diâmetro mínimo Value: 10.0
+				4479 botão Abrir ID: DropDown
+			4480 grupo Apoio sobre pilares extremos
+			4481 caixa de seleção Usar armadura mínima para apoios com ID: 2040
+			4482 text largura superior a
+			4483 editar (settable, string) largura superior a Value: 12 ID: 2041
+			4484 text cm ID: 2042
+			4485 text Largura máxima de desenho
+			4486 editar (settable, string) Largura máxima de desenho Value: 80 ID: 2043
+			4487 text cm
+			4488 botão Estribos... ID: 2045
+			4489 botão Ancoragem... ID: 2047
+			4490 botão Coeficientes... ID: 2046
+			4491 botão Inteligência artificial... ID: 2060
+			4492 botão OK ID: 1
+			4493 botão Cancelar ID: 2
+			4494 botão Ajuda ID: 9
+			4495 tabulação ID: 12320
+				4496 item de tabulação (selectable) Pilares e NR
+				4497 item de tabulação (selectable) Pilares PM
+				4498 item de tabulação (selectable) Vigas
+				4499 item de tabulação (selectable) Vigas PM
+				4500 item de tabulação (selectable) Lajes
+				4501 item de tabulação (selectable) Sapatas
+				4502 item de tabulação (selectable) Blocos
+				4503 item de tabulação (selectable) Muros
+				4504 item de tabulação (selectable) Alvenaria
+				4505 item de tabulação (selectable) Protensão
+			4403 barra de título (settable, string) Value: Dimensionamento [Vigas]
+				4404 botão Ajuda de contexto
+		3393 Barra de status
+		3394 painel
+			3395 botão de divisão
+				3396 elevador
+				3397 painel
+					3398 tabulação Vigas-TCC-cdd31967-N1
+						4509 item de tabulação (selectable) Notícias
+						4510 item de tabulação (selectable) Vigas-TCC-cdd31967-N1
+					3400 painel
+						3523 painel
+							3524 painel Projeto
+								3525 painel PaneSplitter
+									3526 painel HSplitter
+										3527 painel paneTabela
+											3528 painel ID: 997
+												3529 painel
+													3530 editar Value: V2 ID: 1796
+												3531 painel
+												3532 painel
+												3533 barra de rolagem (settable, float) Value: 0
+													3534 botão Uma linha acima ID: UpButton
+													3535 elevador Posição ID: ScrollbarThumb
+													3536 botão Uma página abaixo ID: DownPageButton
+													3537 botão Uma linha abaixo ID: DownButton
+											3538 painel ID: 998
+												3539 painel
+												3540 painel
+												3541 painel
+												3542 barra de rolagem (settable, float) Value: 0
+													3543 botão Uma linha acima ID: UpButton
+													3544 botão Uma página acima ID: UpPageButton
+													3545 elevador Posição ID: ScrollbarThumb
+													3546 botão Uma página abaixo ID: DownPageButton
+													3547 botão Uma linha abaixo ID: DownButton
+											3548 painel ID: 2040
+											3549 painel ID: 10012
+											3550 painel (disabled) ID: 2190
+											3551 painel (disabled) ID: 2191
+											3552 painel ID: 2041
+											3553 painel ID: 2042
+											3554 painel (disabled) ID: 2043
+											3555 painel ID: 10417
+											3556 painel ID: 10016
+											3557 painel ID: 10011
+											3558 painel ID: 2045
+											3559 painel ID: 1885
+											3560 painel (disabled) ID: 2061
+											3561 painel ID: 10017
+											3562 painel (disabled) ID: 1883
+											3563 painel (disabled) ID: 1886
+											3564 painel (disabled) ID: 1882
+											3565 painel ID: 2046
+											3566 botão de opção (selectable) ID: 10415
+											3567 botão de opção (selectable) ID: 10416
+											3568 botão de opção (selectable) ID: 10418
+											3569 painel ID: 1100
+										3570 painel VSplitter
+											3571 painel paneCroqui
+												3572 painel CAD
+													3573 painel
+											3574 painel paneCAD
+												3575 botão de opção (selectable) ID: 1874
+												3576 botão de opção (selectable) ID: 1875
+												3577 botão de opção (selectable) ID: 1876
+												3578 botão de opção (selectable) ID: 1877
+												3579 botão de opção (selectable, disabled) ID: 1878
+												3580 botão de opção (selectable) ID: 1879
+												3581 painel CAD
+													3582 painel
+														3583 painel ID: 600
+				3423 painel
+					3424 tabulação
+						4511 item de tabulação (selectable)
+					3426 painel
+						3427 janela Edificação Secondary Actions: Raise
+							3428 painel
+								3429 painel Projeto
+									3430 painel
+									3431 árvore ID: 101
+										3432 item da árvore (selectable, disabled) Pavimentos
+											3433 item da árvore (selectable, disabled) TCC-cdd31967-N2
+											3434 item da árvore (selectable, disabled) TCC-cdd31967-N1
+												3474 item da árvore (selectable, disabled) Croqui
+												3475 item da árvore (selectable, disabled) Forma
+												3476 item da árvore (selectable, disabled) Desenho
+												3477 item da árvore (selectable, disabled) H03-R44-geometria-nominal
+												3478 item da árvore (selectable, disabled) Lajes
+												3479 item da árvore (selectable, disabled) Pilares
+												3480 item da árvore (selectable, disabled) Vigas
+											3435 item da árvore (selectable, disabled) TCC-cdd31967-N0
+										3436 item da árvore (selectable, disabled) Pilares em prumada
+										3437 item da árvore (selectable, disabled) Cortes
+										3438 item da árvore (selectable, disabled) Gerenciador de desenhos
+										3439 item da árvore (selectable, disabled) Modelos 3D
+											3440 item da árvore (selectable, disabled) H03-R44-geometria-nominal
+		3441 barra de menus
+
+The focused UI element is 4336 diálogo Dimensionamento [Vigas] Secondary Actions: Raise.

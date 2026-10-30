@@ -1,0 +1,141 @@
+Window: "AltoQi Eberick 2025 Infinity - [04-H03-R79-CAD-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [04-H03-R79-CAD-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		2303 janela Status dos elementos Secondary Actions: Raise
+			2304 árvore ID: 1001
+				2540 barra de rolagem (settable, float) Vertical Value: 75 ID: NonClientVerticalScrollBar
+					2541 botão Uma linha acima ID: UpButton
+					2542 botão Uma página acima ID: UpPageButton
+					2543 elevador Posição ID: ScrollbarThumb
+					2544 botão Uma página abaixo ID: DownPageButton
+					2545 botão Uma linha abaixo ID: DownButton
+				2305 item da árvore (selectable) N0
+					2306 item da árvore (selectable) Sapata(s)
+					2307 item da árvore (selectable) Pilar(es)
+				2308 item da árvore (selectable) N1
+					2309 item da árvore (selectable) Viga(s)
+					2310 item da árvore (selectable) Laje(s)
+					2311 item da árvore (selectable) Pilar(es)
+				2312 item da árvore (selectable) N2
+					2313 item da árvore (selectable) Viga(s)
+						2535 item da árvore (selectable) 15 Viga(s) com aviso(s)
+							2546 item da árvore (selectable) V2
+							2547 item da árvore (selectable) V3
+							2548 item da árvore (selectable) V1_1
+							2549 item da árvore (selectable) V2_1
+							2550 item da árvore (selectable) V3_1
+							2551 item da árvore (selectable) V4_1
+							2552 item da árvore (selectable) V5_1
+							2553 item da árvore (selectable) V6_1
+							2554 item da árvore (selectable) V7_1
+							2555 item da árvore (selectable) V8_1
+							2556 item da árvore (selectable) V9_1
+							2557 item da árvore (selectable) V10_1
+							2558 item da árvore (selectable) V11_1
+							2559 item da árvore (selectable) V12_1
+							2560 item da árvore (selectable) V13_1
+					2314 item da árvore (selectable) Laje(s)
+					2315 item da árvore (selectable) Pilar(es)
+			2316 painel ID: 1003
+			2317 text Mensagens:
+			2318 barra de título (settable, string) Value: Status dos elementos
+				2319 barra de menus Sistema ID: MenuBar
+					2536 item de menu Sistema
+				2321 botão Minimizar
+				2322 botão (disabled) Maximizar
+				2323 botão Fechar
+		1 Barra de status
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Vigas-N2
+						2561 item de tabulação (selectable) Notícias
+						2562 item de tabulação (selectable) Vigas-N2
+					8 painel
+						1998 painel
+							1999 painel Projeto
+								2000 painel PaneSplitter
+									2001 painel HSplitter
+										2002 painel paneTabela
+											2003 painel ID: 997
+												2004 painel
+													2005 editar Value: V2 ID: 1796
+												2006 painel
+												2007 painel
+												2008 barra de rolagem (settable, float) Value: 0
+													2009 botão Uma linha acima ID: UpButton
+													2010 elevador Posição ID: ScrollbarThumb
+													2011 botão Uma página abaixo ID: DownPageButton
+													2012 botão Uma linha abaixo ID: DownButton
+											2013 painel ID: 998
+												2014 painel
+												2015 painel
+												2016 painel
+												2017 barra de rolagem (settable, float) Value: 0
+													2018 botão Uma linha acima ID: UpButton
+													2019 botão Uma página acima ID: UpPageButton
+													2020 elevador Posição ID: ScrollbarThumb
+													2021 botão Uma página abaixo ID: DownPageButton
+													2022 botão Uma linha abaixo ID: DownButton
+											2023 painel ID: 2040
+											2024 painel ID: 10012
+											2025 painel ID: 2190
+											2026 painel ID: 2191
+											2027 painel ID: 2041
+											2028 painel (disabled) ID: 2042
+											2029 painel ID: 2043
+											2030 painel ID: 10417
+											2031 painel ID: 10016
+											2032 painel ID: 10011
+											2033 painel ID: 2045
+											2034 painel ID: 1885
+											2035 painel (disabled) ID: 2061
+											2036 painel ID: 10017
+											2037 painel (disabled) ID: 1883
+											2038 painel (disabled) ID: 1886
+											2039 painel (disabled) ID: 1882
+											2040 painel ID: 2046
+											2041 botão de opção (selectable) ID: 10415
+											2042 botão de opção (selectable) ID: 10416
+											2043 botão de opção (selectable) ID: 10418
+											2044 painel ID: 1100
+										2045 painel VSplitter
+											2046 painel paneCroqui
+												2047 painel CAD
+													2048 painel
+											2049 painel paneCAD
+												2050 botão de opção (selectable) ID: 1874
+												2051 botão de opção (selectable) ID: 1875
+												2052 botão de opção (selectable) ID: 1876
+												2053 botão de opção (selectable) ID: 1877
+												2054 botão de opção (selectable, disabled) ID: 1878
+												2055 botão de opção (selectable) ID: 1879
+												2056 painel CAD
+													2057 painel
+														2058 painel ID: 600
+				31 painel
+					32 tabulação
+						2563 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									39 painel
+									1661 árvore ID: 101
+										1913 item da árvore (selectable) Pavimentos
+											1914 item da árvore (selectable) N2
+												1972 item da árvore (selectable) Croqui
+												1973 item da árvore (selectable) Forma
+												1974 item da árvore (selectable) Desenho
+												1975 item da árvore (selectable) Lajes
+												1976 item da árvore (selectable) Pilares
+												1977 item da árvore (selectable) Vigas
+											1915 item da árvore (selectable) N1
+											1916 item da árvore (selectable) N0
+										1917 item da árvore (selectable) Pilares em prumada
+										1918 item da árvore (selectable) Cortes
+										1919 item da árvore (selectable) Gerenciador de desenhos
+										1920 item da árvore (selectable) Modelos 3D
+		40 barra de menus
+
+The focused UI element is 2304 árvore ID: 1001.

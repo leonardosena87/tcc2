@@ -1,0 +1,42 @@
+{
+  "sourceCrosswalk": "D:\\TCC\\outputs\\Resultados-H03-R72-PARCIAIS-NAO-FINAIS\\R72-mapa-CAD-BIM-65-solidos.json",
+  "physicalLine": "N1; y=3,90m; x=0..6,55m",
+  "BIM": {
+    "group": "V2",
+    "components": [
+      "V3-N1 da proposta R43",
+      "V4A-N1 da proposta R43"
+    ],
+    "supportP5MdKNm": -38.17,
+    "negativeArmature": "D16/A07 no nó2"
+  },
+  "CAD": {
+    "groups": [
+      "V2",
+      "V14"
+    ],
+    "V2": {
+      "sectionCM": [
+        20,
+        45
+      ],
+      "supportP2MdKNm": -33.2,
+      "supportP5MdKNm": -38.17,
+      "negativeRebarAtP2": "4 phi8",
+      "negativeRebarAtP5": "3 phi10"
+    },
+    "V14": {
+      "sectionCM": [
+        20,
+        16
+      ],
+      "supportP5MdKNm": -8.49,
+      "supportP11MdKNm": -6.55,
+      "negativeRebarAtBothSupports": "4 phi8"
+    }
+  },
+  "inference": "O agrupamento diferente é hipótese explicativa para a seleção de momentos/seções no detalhamento; a causa causal exige teste controlado de agrupamento, faces de apoio e critérios.",
+  "equivalentSupportNamesNotAssumed": true,
+  "analyticalConnectivityProven": false,
+  "causeAttributedToIFCTransfer": false
+}

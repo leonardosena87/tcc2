@@ -1,0 +1,720 @@
+{
+  "branch": "CAD",
+  "source": "D:\\TCC\\outputs\\Vigas-H03-R79-EXPLORATORIO-NAO-EXECUTAR\\CAD-status-arvore-completa-UI.txt",
+  "sourceSha256": "bc51ca2fe612f8e205e52c76884ed572963f567b35078bba48618d3e7eee6fc0",
+  "groups": [
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "apoio auxiliar/sapata",
+      "nativeGroupLabel": "11 Sapata(s) com erro(s)",
+      "count": 11
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "pilar",
+      "nativeGroupLabel": "11 Pilar(es) com aviso(s)",
+      "count": 11
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeGroupLabel": "15 Viga(s) com aviso(s)",
+      "count": 15
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "laje",
+      "nativeGroupLabel": "6 Laje(s) com aviso(s)",
+      "count": 6
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "pilar",
+      "nativeGroupLabel": "1 Pilar(es) com aviso(s)",
+      "count": 1
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeGroupLabel": "15 Viga(s) com aviso(s)",
+      "count": 15
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "laje",
+      "nativeGroupLabel": "5 Laje(s) com aviso(s)",
+      "count": 5
+    }
+  ],
+  "messages": [
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "apoio auxiliar/sapata",
+      "nativeElement": "S3",
+      "kind": "Erro",
+      "code": "D42",
+      "message": "Altura da sapata maior que a permitida.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "apoio auxiliar/sapata",
+      "nativeElement": "S7",
+      "kind": "Erro",
+      "code": "D42",
+      "message": "Altura da sapata maior que a permitida.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "apoio auxiliar/sapata",
+      "nativeElement": "S8",
+      "kind": "Erro",
+      "code": "D42",
+      "message": "Altura da sapata maior que a permitida.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "apoio auxiliar/sapata",
+      "nativeElement": "S4",
+      "kind": "Erro",
+      "code": "D42",
+      "message": "Altura da sapata maior que a permitida.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "apoio auxiliar/sapata",
+      "nativeElement": "S9",
+      "kind": "Erro",
+      "code": "D42",
+      "message": "Altura da sapata maior que a permitida.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "apoio auxiliar/sapata",
+      "nativeElement": "S1",
+      "kind": "Erro",
+      "code": "D42",
+      "message": "Altura da sapata maior que a permitida.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "apoio auxiliar/sapata",
+      "nativeElement": "S10",
+      "kind": "Erro",
+      "code": "D42",
+      "message": "Altura da sapata maior que a permitida.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "apoio auxiliar/sapata",
+      "nativeElement": "S5",
+      "kind": "Erro",
+      "code": "D42",
+      "message": "Altura da sapata maior que a permitida.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "apoio auxiliar/sapata",
+      "nativeElement": "S11",
+      "kind": "Erro",
+      "code": "D42",
+      "message": "Altura da sapata maior que a permitida.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "apoio auxiliar/sapata",
+      "nativeElement": "S2",
+      "kind": "Erro",
+      "code": "D42",
+      "message": "Altura da sapata maior que a permitida.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "apoio auxiliar/sapata",
+      "nativeElement": "S6",
+      "kind": "Erro",
+      "code": "D42",
+      "message": "Altura da sapata maior que a permitida.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "pilar",
+      "nativeElement": "P1",
+      "kind": "Aviso",
+      "code": "07",
+      "message": "Pilar não travado no pavimento.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "pilar",
+      "nativeElement": "P7",
+      "kind": "Aviso",
+      "code": "07",
+      "message": "Pilar não travado no pavimento.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "pilar",
+      "nativeElement": "P9",
+      "kind": "Aviso",
+      "code": "07",
+      "message": "Pilar não travado no pavimento.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "pilar",
+      "nativeElement": "P2",
+      "kind": "Aviso",
+      "code": "07",
+      "message": "Pilar não travado no pavimento.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "pilar",
+      "nativeElement": "P3",
+      "kind": "Aviso",
+      "code": "07",
+      "message": "Pilar não travado no pavimento.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "pilar",
+      "nativeElement": "P4",
+      "kind": "Aviso",
+      "code": "07",
+      "message": "Pilar não travado no pavimento.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "pilar",
+      "nativeElement": "P5",
+      "kind": "Aviso",
+      "code": "07",
+      "message": "Pilar não travado no pavimento.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "pilar",
+      "nativeElement": "P6",
+      "kind": "Aviso",
+      "code": "07",
+      "message": "Pilar não travado no pavimento.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "pilar",
+      "nativeElement": "P10",
+      "kind": "Aviso",
+      "code": "07",
+      "message": "Pilar não travado no pavimento.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "pilar",
+      "nativeElement": "P11",
+      "kind": "Aviso",
+      "code": "07",
+      "message": "Pilar não travado no pavimento.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N0",
+      "elementType": "pilar",
+      "nativeElement": "P8",
+      "kind": "Aviso",
+      "code": "07",
+      "message": "Pilar não travado no pavimento.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V2",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V3",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V4",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V5",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V6",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V7",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V8",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V9",
+      "kind": "Aviso",
+      "code": "98",
+      "message": "Verificar ancoragem da armadura de pele (nó 3)",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V9",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V10",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V11",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V12",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V13",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V14",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "viga",
+      "nativeElement": "V15",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "laje",
+      "nativeElement": "L1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "laje",
+      "nativeElement": "L2",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "laje",
+      "nativeElement": "L3",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "laje",
+      "nativeElement": "L4",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "laje",
+      "nativeElement": "L5",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "laje",
+      "nativeElement": "L6",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N1",
+      "elementType": "pilar",
+      "nativeElement": "P2",
+      "kind": "Aviso",
+      "code": "10",
+      "message": "Pilar com bitola ou nº de barras menor que no lance acima.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V2",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V3",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V1_1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V2_1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V3_1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V4_1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V5_1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V6_1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V7_1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V8_1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V9_1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V10_1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V11_1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V12_1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V13_1",
+      "kind": "Aviso",
+      "code": "08",
+      "message": "Viga com carga negativa.",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "viga",
+      "nativeElement": "V13_1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "laje",
+      "nativeElement": "L1",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "laje",
+      "nativeElement": "L2",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "laje",
+      "nativeElement": "L3",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "laje",
+      "nativeElement": "L4",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    },
+    {
+      "branch": "CAD",
+      "floor": "N2",
+      "elementType": "laje",
+      "nativeElement": "L5",
+      "kind": "Aviso",
+      "code": "123",
+      "message": "Deslocamentos não verificados. Necessário processar com verificação de deslocamentos",
+      "source": "árvore de status expandida pelo comando nativo"
+    }
+  ],
+  "interpretation": "Mensagens do programa; nao comprovam dimensionamento completo nem atendimento normativo",
+  "foundationsExcludedFromResearch": true
+}

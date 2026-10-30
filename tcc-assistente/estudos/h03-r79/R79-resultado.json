@@ -1,0 +1,52 @@
+{
+  "revision": "H03/R79",
+  "atUtc": "2026-10-30T15:14:26.161847+00:00",
+  "scope": "Análise estática linear/P-Delta e dimensionamento exploratório selecionando vigas N1/N2 com cargas parciais; posterior consulta de status",
+  "nativeProjects": [
+    {
+      "branch": "CAD",
+      "nativeProject": "D:\\TCC\\outputs\\04-H03-R79-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "nativeSha256": "c7b661c0ec618bd0a5d9ae78d0ffe432d1bdea37a72e7c3bdf4a86ca5c26a281"
+    },
+    {
+      "branch": "BIM",
+      "nativeProject": "D:\\TCC\\outputs\\05-H03-R79-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "nativeSha256": "c91682af8de57d3afebf228558cbb82470cf75d49bf7fea06e7c25bf4eb94c3d"
+    }
+  ],
+  "displayedGlobalSummaryEqual": true,
+  "beamMessages": {
+    "CAD": {
+      "totalMessages": 32,
+      "errorMessages": 0,
+      "countsByCode": {
+        "123": 30,
+        "98": 1,
+        "08": 1
+      }
+    },
+    "BIM": {
+      "totalMessages": 22,
+      "errorMessages": 1,
+      "countsByCode": {
+        "D16": 1,
+        "123": 19,
+        "98": 1,
+        "08": 1
+      }
+    }
+  },
+  "initialSelectedTypesOnlyBeams": true,
+  "statusReadOperationNotReadOnly": true,
+  "statusQueryTriggeredAdditionalCalculations": true,
+  "auxiliaryFootingD42DisplayedPerBranch": 11,
+  "additionalResultsOutsideScopeMustNotBeUsedAsFoundationDesign": true,
+  "D16RootUI": "A07 / taxa maior que configurada",
+  "causalRootCauseVerified": false,
+  "geometryReexportedThisRevision": false,
+  "finalQualityRankingAllowed": false,
+  "finalProductivityRankingAllowed": false,
+  "previousR78ProtectedFilesUnchanged": true,
+  "completeELUAndELSValidation": false,
+  "realFoundationDesignWithinResearchScope": false
+}

@@ -1,0 +1,68 @@
+{
+  "revision": "H03/R80",
+  "atUtc": "2026-10-30T15:16:26.196469+00:00",
+  "sources": [
+    {
+      "path": "D:\\TCC\\outputs\\Alternativa-H03-R43-ESTUDO-NAO-EXECUTAR\\H03-R43-proposta.json",
+      "sha256": "db5c48d601802de23aa4c2ef9035f1457d2f8a0efea2d93f9bd9a12dd20b7ca4"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Cobertura-H03-R56-ESTUDO-NAO-EXECUTAR\\R56-geometria-exportada.json",
+      "sha256": "6fc2486f4eecd19985a4c4d87886822bb76ee40cee80e07c352db25bca0aabf7"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Resultados-H03-R72-PARCIAIS-NAO-FINAIS\\R72-mapa-CAD-BIM-65-solidos.json",
+      "sha256": "97829b892cdc61c01e09bcfddbf7e1f035f6e1f2349c7c114f55db2ad71b294a"
+    }
+  ],
+  "summary": {
+    "CAD": {
+      "sourceUnits": 29,
+      "solids": 32,
+      "nativeGroupsInferred": 30,
+      "byFloor": {
+        "N1": {
+          "sourceUnits": 15,
+          "solids": 17,
+          "nativeGroups": 15
+        },
+        "N2": {
+          "sourceUnits": 14,
+          "solids": 15,
+          "nativeGroups": 15
+        }
+      },
+      "groupsMergingSourceUnits": 0,
+      "sourceUnitsSplitAcrossGroups": 1
+    },
+    "BIM": {
+      "sourceUnits": 29,
+      "solids": 32,
+      "nativeGroupsInferred": 20,
+      "byFloor": {
+        "N1": {
+          "sourceUnits": 15,
+          "solids": 17,
+          "nativeGroups": 12
+        },
+        "N2": {
+          "sourceUnits": 14,
+          "solids": 15,
+          "nativeGroups": 8
+        }
+      },
+      "groupsMergingSourceUnits": 9,
+      "sourceUnitsSplitAcrossGroups": 0
+    }
+  },
+  "toleranceNumericM": 1e-05,
+  "longitudinalMatchingAllowanceM": 0.2,
+  "matchingAllowanceIsNotConstructionTolerance": true,
+  "allSourceUnitsRepresentedBothBranches": true,
+  "allBeamPhysicalCrosswalksMatchSourceId": true,
+  "nativeGroupNamesConfirmedByStatusR79": true,
+  "causalOriginOfGroupingProven": false,
+  "finalErrorRateComputable": false,
+  "structuralApproval": false,
+  "originalsModified": false
+}
