@@ -45,6 +45,10 @@ Cada execução salva `pedido-e-previa.json`, `resultado.json` e `DEMO-IA-RESULT
 
 Esses tempos da palestra não substituem os ensaios pareados completos CAD/BIM do TCC. O antigo valor de 0,53 s pertence ao ensaio pelo importador anterior, não ao novo botão.
 
+## Segunda demonstração: variação geométrica
+
+O mesmo botão foi ensaiado com uma alternativa de 8 × 3 m, mantendo os 24 m² do exemplo de 6 × 4 m. Os dois caminhos usaram consulta real à IA e criaram arquivos independentes; uma exportação posterior conferiu os nove elementos físicos, a área da laje e os comprimentos das vigas. O [roteiro e os pedidos completos](../../estudos/palestra-ia-engenharia-20min/demonstracao-2/ROTEIRO.md) registram os ensaios e seus tempos. Não há edição do modelo anterior nem avaliação de equivalência estrutural.
+
 ## Serviço de IA
 
 A rota `POST /api/revit-demo/plan` usa as mesmas verificações de host, origem, sessão e concorrência do serviço existente em `https://localhost:3443`. Nenhuma chave fica no Revit, nos arquivos RVT ou nos registros de execução. O cliente valida normalmente o certificado HTTPS. Se o certificado local vencer, deve-se renová-lo pelo instalador oficial já utilizado pelo TCC Assistente. Não se deve desabilitar a verificação TLS.

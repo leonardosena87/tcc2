@@ -1,0 +1,85 @@
+{
+  "verifiedDate": "2026-10-30",
+  "software": "Revit 2027.2, build 27.2.0.39",
+  "runs": [
+    {
+      "label": "base-6x4",
+      "runId": "c5c4333f-aa22-4a8c-b04d-e1a160e3c675",
+      "folder": "20261030-161839-c5c4333f",
+      "mode": "openai",
+      "model": "gpt-5.6-sol",
+      "dimensionsM": [
+        6,
+        4
+      ],
+      "nativeSlabAreaM2": 24,
+      "nativeBeamLengthsM": [
+        4,
+        4,
+        6,
+        6
+      ],
+      "nativeBeamAxisSumM": 20,
+      "physicalCounts": {
+        "columns": 4,
+        "beams": 4,
+        "slabs": 1,
+        "total": 9
+      },
+      "aiSeconds": 3.01401529999997,
+      "usage": {
+        "inputTokens": 672,
+        "outputTokens": 143,
+        "totalTokens": 815
+      },
+      "geometrySeconds": 0.5254681,
+      "commandTotalSeconds": 72.2050841,
+      "rvtBytes": 8523776,
+      "rvtSha256": "f1c1900c7a8ac45b19fa18e89ee9b5b27393bed2054abdaf3368992ed29ecb9a",
+      "nativeReadbackPassed": true
+    },
+    {
+      "label": "alternativa-8x3",
+      "runId": "f53a01ee-657e-437e-ae84-10e58aa4fe2d",
+      "folder": "20261030-182943-f53a01ee",
+      "mode": "openai",
+      "model": "gpt-5.6-sol",
+      "dimensionsM": [
+        8,
+        3
+      ],
+      "nativeSlabAreaM2": 24,
+      "nativeBeamLengthsM": [
+        3,
+        3,
+        8,
+        8
+      ],
+      "nativeBeamAxisSumM": 22,
+      "physicalCounts": {
+        "columns": 4,
+        "beams": 4,
+        "slabs": 1,
+        "total": 9
+      },
+      "aiSeconds": 5.835544700000435,
+      "usage": {
+        "inputTokens": 693,
+        "outputTokens": 428,
+        "totalTokens": 1121
+      },
+      "geometrySeconds": 0.5661147,
+      "commandTotalSeconds": 86.0345958,
+      "rvtBytes": 8523776,
+      "rvtSha256": "aa30790268d3f084134d5c4ef7b47e022dbc763e12e37125247804c2dd4d3aab",
+      "nativeReadbackPassed": true
+    }
+  ],
+  "scope": "Variacao geometrica em dois arquivos independentes. Sem dimensionamento estrutural.",
+  "timingCaveat": "Comando total inclui digitacao, consulta, revisao e operacao da janela. Nao e comparacao controlada CAD/BIM. Nao somar parcelas ja incluidas no total.",
+  "limits": [
+    "Leitura nativa depois do salvamento, sem reabertura dos RVT nesta rodada",
+    "Capturas com enquadramentos diferentes; nao comparar dimensoes por pixels",
+    "Codigo do suplemento nao foi alterado nesta segunda demonstracao"
+  ]
+}
