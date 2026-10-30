@@ -1,0 +1,79 @@
+{
+  "revision": "H03/R81",
+  "atUtc": "2026-10-30T15:35:34.124211+00:00",
+  "trial": "Dividir grupo BIM V2/N1 em P5, nova copia isolada",
+  "before": {
+    "nativeBeamGroups20": true,
+    "error": "D16/no2; A07/taxa >2%",
+    "P5MdShownKNm": -38.17,
+    "sectionRowsCM": [
+      [
+        20,
+        16
+      ],
+      [
+        20,
+        45
+      ]
+    ]
+  },
+  "after": {
+    "nativeBeamGroups": 21,
+    "beamErrorMessages": 0,
+    "beamWarningCodes": {
+      "123": 21,
+      "98": 1,
+      "08": 1
+    },
+    "V2": {
+      "sectionCM": [
+        20,
+        16
+      ],
+      "nodes": [
+        "P6",
+        "P5"
+      ],
+      "MdKNm": [
+        -6.55,
+        -8.49
+      ],
+      "negativeRebar": [
+        "4 phi8",
+        "4 phi8"
+      ]
+    },
+    "V13": {
+      "sectionCM": [
+        20,
+        45
+      ],
+      "nodes": [
+        "P5",
+        "P4"
+      ],
+      "MdKNm": [
+        -38.17,
+        -33.2
+      ],
+      "negativeRebar": [
+        "3 phi10",
+        "4 phi8"
+      ]
+    }
+  },
+  "localCADValuesAndRebarMatch": true,
+  "globalSummaryDisplayedUnchanged": true,
+  "IFCGeometryMatchesControl89Parts": true,
+  "IFCChangedFieldsOnlyTwoTaxaArmaduraAndOneName": true,
+  "nativeDivisionCausallyRemovedD16InThisTrial": true,
+  "underlyingSolverAlgorithmProven": false,
+  "allInternalConnectivityUnchangedProven": false,
+  "originalImportCausedGroupingProven": false,
+  "adoptedAsFinalDesign": false,
+  "sectionsOrLoadsExplicitlyEdited": false,
+  "rebarLimitsRaised": false,
+  "ELUELSCompleted": false,
+  "productivityRankingAllowed": false,
+  "realFoundationDesign": false
+}

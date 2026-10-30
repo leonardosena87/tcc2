@@ -1,0 +1,131 @@
+{
+  "beforeControl": "D:\\TCC\\outputs\\Agrupamento-H03-R81-TESTE-NAO-EXECUTAR\\IFC-BIM-CONTROLE\\Modelo 3D.IFC",
+  "beforeControlSha256": "b140980bad9323e5e4e3a0792d1f0fa63d69cfe249c4c495e70b369a56870547",
+  "afterTest": "D:\\TCC\\outputs\\Agrupamento-H03-R81-TESTE-NAO-EXECUTAR\\IFC-BIM\\Modelo 3D.IFC",
+  "afterTestSha256": "930b8f48c0366a8d21d46182d16fc7f214b4df8112dbccf3600c291257f13ffe",
+  "historical": "D:\\TCC\\outputs\\Verificacao-H03-R57-NAO-EXECUTAR\\IFC-BIM\\Modelo 3D.IFC",
+  "historicalSha256": "4b8941190bede59eeebb80c550233328122fc0ef48679c71e86e82fb65cc1179",
+  "geometryMatchingUnique89": true,
+  "superstructureGeometricParts78Preserved": true,
+  "auxiliaryGeometry11Preserved": true,
+  "dimensionedBeamPartsPerBranch": 45,
+  "historicalBeamParts": 32,
+  "historicalBeam32ToControl45CoverageChecked": true,
+  "additionalPartitions13AreNot13NewBeamGroups": true,
+  "nameChanges": [
+    {
+      "type": "IfcBeam",
+      "beforeName": "V2",
+      "afterName": "V13",
+      "guidChanged": true,
+      "min": [
+        0.1,
+        3.8,
+        2.75
+      ],
+      "max": [
+        4.3,
+        4.0,
+        3.2
+      ],
+      "topAreasMatch": true,
+      "propertiesDiffer": {
+        "AltoQi_Eberick_Elemento": {
+          "old": {
+            "Elemento": "Viga",
+            "Tipo": "retangular",
+            "Seção_bw": 20.0,
+            "Seção_h": 45.0,
+            "Elevação": 0.0,
+            "Taxa de armadura": "Não calculado"
+          },
+          "new": {
+            "Elemento": "Viga",
+            "Tipo": "retangular",
+            "Seção_bw": 20.0,
+            "Seção_h": 45.0,
+            "Elevação": 0.0,
+            "Taxa de armadura": "0.22 %"
+          }
+        }
+      }
+    }
+  ],
+  "propertyChanges": [
+    {
+      "type": "IfcBeam",
+      "beforeName": "V2",
+      "afterName": "V2",
+      "guidChanged": true,
+      "min": [
+        4.5,
+        3.8,
+        3.04
+      ],
+      "max": [
+        6.4,
+        4.0,
+        3.2
+      ],
+      "topAreasMatch": true,
+      "propertiesDiffer": {
+        "AltoQi_Eberick_Elemento": {
+          "old": {
+            "Elemento": "Viga",
+            "Tipo": "retangular",
+            "Seção_bw": 20.0,
+            "Seção_h": 16.0,
+            "Elevação": 0.0,
+            "Taxa de armadura": "Não calculado"
+          },
+          "new": {
+            "Elemento": "Viga",
+            "Tipo": "retangular",
+            "Seção_bw": 20.0,
+            "Seção_h": 16.0,
+            "Elevação": 0.0,
+            "Taxa de armadura": "0.63 %"
+          }
+        }
+      }
+    },
+    {
+      "type": "IfcBeam",
+      "beforeName": "V2",
+      "afterName": "V13",
+      "guidChanged": true,
+      "min": [
+        0.1,
+        3.8,
+        2.75
+      ],
+      "max": [
+        4.3,
+        4.0,
+        3.2
+      ],
+      "topAreasMatch": true,
+      "propertiesDiffer": {
+        "AltoQi_Eberick_Elemento": {
+          "old": {
+            "Elemento": "Viga",
+            "Tipo": "retangular",
+            "Seção_bw": 20.0,
+            "Seção_h": 45.0,
+            "Elevação": 0.0,
+            "Taxa de armadura": "Não calculado"
+          },
+          "new": {
+            "Elemento": "Viga",
+            "Tipo": "retangular",
+            "Seção_bw": 20.0,
+            "Seção_h": 45.0,
+            "Elevação": 0.0,
+            "Taxa de armadura": "0.22 %"
+          }
+        }
+      }
+    }
+  ],
+  "analyticalConnectivityVerified": false
+}
