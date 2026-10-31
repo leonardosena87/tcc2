@@ -1,0 +1,416 @@
+{
+  "schema": "tcc-common-input-ledger/1",
+  "revision": "H03/R87",
+  "status": "MATRIZ COMUM PARCIAL; NAO LIBERADA PARA ENSAIO FINAL",
+  "confirmedUserDecisions": {
+    "municipality": "Vitória da Conquista",
+    "state": "BA",
+    "wallFinishedThicknessM": 0.15,
+    "slumpUnit": "cm",
+    "tankCapacityL": 1000,
+    "superstructureOnly": true,
+    "roofAccess": "apenas manutencao",
+    "ceiling": "gesso acartonado",
+    "roofSheetThicknessMM": 6,
+    "roofSlope": 0.1,
+    "roofSupport": "estrutura metalica leve",
+    "preserveArchitecturalHeights": true
+  },
+  "geometrySourceRunId": "7a6267fd-05fd-4d14-8736-98d210b978ad",
+  "location": {
+    "municipality": "Vitória da Conquista",
+    "state": "BA",
+    "siteCoordinates": null,
+    "windParametersFinalized": false
+  },
+  "scope": {
+    "superstructureOnly": true,
+    "geotechnicalReportAvailable": false,
+    "realFoundationsDesigned": false,
+    "supportIdealization": "Apoios idealizados do estudo; rigidez e vinculacoes ainda exigem conferencia."
+  },
+  "wall": {
+    "material": "bloco ceramico",
+    "finishedThicknessM": 0.15,
+    "blockBodyThicknessM": null,
+    "finishThicknessPerFaceM": null,
+    "unitSurfaceWeightKNM2": null,
+    "status": "Espessura acabada confirmada; composicao e peso completo nao definidos.",
+    "weightAppliedInNativeModel": false
+  },
+  "concrete": {
+    "class": "C25",
+    "fckMPa": 25,
+    "gammaCInformed": 1.4,
+    "EciGPaInformed": 28,
+    "EcsGPaInformed": 24.1,
+    "receiverEcsGPaObservedR51": {
+      "CAD": 24.15,
+      "BIM": 24.15
+    },
+    "differenceMeaning": "24,1 GPa informado e 24,150 GPa exibido sao mantidos separadamente; nao se substitui a entrada silenciosamente.",
+    "aggregateMaxMM": 25,
+    "aggregatePetrographyConfirmedByUser": null,
+    "receiverAggregateHypothesisR51": {
+      "CAD": "granito",
+      "BIM": "granito"
+    },
+    "petrographyMeaning": "Granito foi observado como hipotese no cadastro R51, sem caracterizacao de material real.",
+    "cementRequested": "CP II-E",
+    "receiverCementFamilyObservedR51": {
+      "CAD": "CP-II",
+      "BIM": "CP-II"
+    },
+    "cementSubtypeEVerifiedInNativeUI": false
+  },
+  "steel": {
+    "classRequested": "CA-50",
+    "fykMPaInformed": 500,
+    "receiverClassSeenInActiveRowsR51": {
+      "CAD": [
+        "CA50"
+      ],
+      "BIM": [
+        "CA50"
+      ]
+    },
+    "completeMechanicalSteelRegisterVerified": false
+  },
+  "environment": {
+    "class": "II",
+    "meaning": "Moderada urbana; premissa do estudo"
+  },
+  "nominalCoverMM": {
+    "slabs": 25,
+    "beams": 30,
+    "columns": 30
+  },
+  "slump": {
+    "slabsBeamsColumns": {
+      "nominal": 10,
+      "tolerance": 2,
+      "unit": "cm"
+    },
+    "stairs": {
+      "nominal": 6,
+      "tolerance": 2,
+      "unit": "cm"
+    },
+    "receiverNominalObservedR51": {
+      "CAD": 10,
+      "BIM": 10
+    },
+    "toleranceStoredInNativeFieldVerified": false
+  },
+  "slab": {
+    "system": "laje macica de concreto armado",
+    "nominalThicknessM": 0.14,
+    "designApproved": false
+  },
+  "levels": {
+    "valuesM": [
+      0.2,
+      3.2,
+      6.39
+    ],
+    "reference": "Datum do modelo; nao e cota de fundacao real",
+    "architecturalHeightsMayBeChanged": false
+  },
+  "beamSections": {
+    "mustUseElementValues": true,
+    "globalGeneratorDefaultHeightM": 0.55,
+    "globalDefaultDoesNotDescribeAllCurrentBeams": true,
+    "byElement": [
+      {
+        "sourceId": "V1-N1",
+        "level": 0,
+        "bM": 0.2,
+        "hM": 0.45,
+        "topM": 3.2
+      },
+      {
+        "sourceId": "V2-N1",
+        "level": 0,
+        "bM": 0.2,
+        "hM": 0.55,
+        "topM": 3.2
+      },
+      {
+        "sourceId": "V3-N1",
+        "level": 0,
+        "bM": 0.2,
+        "hM": 0.45,
+        "topM": 3.2
+      },
+      {
+        "sourceId": "V4A-N1",
+        "level": 0,
+        "bM": 0.2,
+        "hM": 0.16,
+        "topM": 3.2
+      },
+      {
+        "sourceId": "V4B-N1",
+        "level": 0,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 3.2
+      },
+      {
+        "sourceId": "V5-N1",
+        "level": 0,
+        "bM": 0.2,
+        "hM": 0.45,
+        "topM": 3.2
+      },
+      {
+        "sourceId": "V6-N1",
+        "level": 0,
+        "bM": 0.2,
+        "hM": 0.55,
+        "topM": 3.2
+      },
+      {
+        "sourceId": "V7-N1",
+        "level": 0,
+        "bM": 0.2,
+        "hM": 0.4,
+        "topM": 3.2
+      },
+      {
+        "sourceId": "V8-N1",
+        "level": 0,
+        "bM": 0.2,
+        "hM": 0.35,
+        "topM": 3.2
+      },
+      {
+        "sourceId": "V9-N1",
+        "level": 0,
+        "bM": 0.2,
+        "hM": 0.4,
+        "topM": 3.2
+      },
+      {
+        "sourceId": "V10-N1",
+        "level": 0,
+        "bM": 0.2,
+        "hM": 0.35,
+        "topM": 3.2
+      },
+      {
+        "sourceId": "V11-N1",
+        "level": 0,
+        "bM": 0.2,
+        "hM": 0.4,
+        "topM": 3.2
+      },
+      {
+        "sourceId": "V12-N1",
+        "level": 0,
+        "bM": 0.2,
+        "hM": 0.35,
+        "topM": 3.2
+      },
+      {
+        "sourceId": "V13-N1",
+        "level": 0,
+        "bM": 0.2,
+        "hM": 0.4,
+        "topM": 3.2
+      },
+      {
+        "sourceId": "V15-N1",
+        "level": 0,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 3.2
+      },
+      {
+        "sourceId": "V1-N2",
+        "level": 1,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 6.39
+      },
+      {
+        "sourceId": "V2-N2",
+        "level": 1,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 6.39
+      },
+      {
+        "sourceId": "V3-N2",
+        "level": 1,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 6.39
+      },
+      {
+        "sourceId": "V4A-N2",
+        "level": 1,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 6.39
+      },
+      {
+        "sourceId": "V4B-N2",
+        "level": 1,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 6.39
+      },
+      {
+        "sourceId": "V5-N2",
+        "level": 1,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 6.39
+      },
+      {
+        "sourceId": "V6-N2",
+        "level": 1,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 6.39
+      },
+      {
+        "sourceId": "V7-N2",
+        "level": 1,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 6.39
+      },
+      {
+        "sourceId": "V8-N2",
+        "level": 1,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 6.39
+      },
+      {
+        "sourceId": "V9-N2",
+        "level": 1,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 6.39
+      },
+      {
+        "sourceId": "V10-N2",
+        "level": 1,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 6.39
+      },
+      {
+        "sourceId": "V11-N2",
+        "level": 1,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 6.39
+      },
+      {
+        "sourceId": "V12-N2",
+        "level": 1,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 6.39
+      },
+      {
+        "sourceId": "V13-N2",
+        "level": 1,
+        "bM": 0.2,
+        "hM": 0.3,
+        "topM": 6.39
+      }
+    ]
+  },
+  "roof": {
+    "cover": "telha ondulada de fibrocimento",
+    "sheetThicknessMM": 6,
+    "slope": 0.1,
+    "support": "estrutura metalica leve",
+    "access": "apenas manutencao",
+    "ceiling": "gesso acartonado",
+    "fullReactionMapApplied": false,
+    "regionsP1P2Closed": false,
+    "metallicSupportDesigned": false
+  },
+  "tank": {
+    "capacityL": 1000,
+    "capacityConfirmed": true,
+    "positionAndSupportFinalized": false,
+    "tareKN": null,
+    "pedestalKN": null,
+    "fullAssemblyWeightKN": null,
+    "modelSelected": false,
+    "alternativesRevision": "R71",
+    "candidatePositionIsNotAcceptedLocation": true,
+    "nativeLoadsApplied": false
+  },
+  "normative": {
+    "localConcreteStandard": "ABNT NBR 6118:2026, exemplar local identificado na R74",
+    "sourcePremisesOriginallyMentioned": "2014",
+    "genericGeometryCheckerStillMentions": "2023",
+    "full2026ImplementationVerified": false,
+    "structuralComplianceAttested": false
+  },
+  "verificationScope": {
+    "receiverMaterialsCheckpoint": "R51, leitura depois de salvar/fechar/reabrir; nao e nova leitura R79/R85",
+    "qFactorsCheckpoint": "R78, fatores 0,50 / 0,40 / 0,30 conferidos; isso nao aplica Q_TELHADO",
+    "authoringGeometryCheckpoint": "R84 sobre R83; IDs/categorias, comprimentos/areas disponiveis e contornos/textos CAD",
+    "revitAuthoringMaterialPropertiesReadBack": false,
+    "transferCauseForMaterialSettingsProven": false
+  },
+  "staleMetadataFound": [
+    {
+      "field": "parameters.study.consistenciaInformada/unidade e pendencias",
+      "meaning": "A unidade cm ja foi confirmada pelo usuario; a pendencia historica nao deve ser repetida como pergunta aberta."
+    },
+    {
+      "field": "parameters.study.reservatorio",
+      "meaning": "Capacidade de 1.000L confirmada; posicao, tara e apoio continuam pendentes."
+    },
+    {
+      "field": "parameters.study.agregado.naturezaPetrografica",
+      "meaning": "Usuario nao confirmou petrografia; granito observado no Eberick e hipotese, nao ensaio de material."
+    },
+    {
+      "field": "parameters.beamH",
+      "meaning": "0,55m e um valor padrao do gerador; os elementos atuais possuem secoes proprias, com N2 em 0,30m."
+    },
+    {
+      "field": "studyHypothesis.id",
+      "meaning": "Identificacao H02-R12 e historica; o arquivo de autoria atual e H03/R83, conforme runId, eventos e hashes."
+    },
+    {
+      "field": "metadados de norma",
+      "meaning": "Mencionar 2026 no JSON nao comprova que o verificador 2023 ou o Eberick instalado implemente integralmente essa edicao."
+    }
+  ],
+  "approvedForFinalComparison": false,
+  "loadsComplete": false,
+  "eluElsApproved": false,
+  "nativeModelsChanged": false,
+  "monographChanged": false,
+  "sources": {
+    "proposal": {
+      "path": "outputs/Autoria-H03-R83-SINCRONIZACAO-GEOMETRICA-NAO-EXECUTAR/H03-R83-proposta.json",
+      "sha256": "54ecdb14a8dd7ce2f0183559c12b4214c124302560408138e39fff39746a7fc9"
+    },
+    "CAD": {
+      "path": "outputs/Conferencia-H03-R51-PARAMETROS-NAO-EXECUTAR/R51-parametros-CAD.json",
+      "sha256": "a6e6cafc57e830627d6d8463dd8788a016c9c424e742928f90116b89d1621a54"
+    },
+    "BIM": {
+      "path": "outputs/Conferencia-H03-R51-PARAMETROS-NAO-EXECUTAR/R51-parametros-BIM.json",
+      "sha256": "67ab499bad0fd69ecde535839ff474536ee91b3e0a81393d0ada8a318a6ec103"
+    },
+    "tank": {
+      "path": "outputs/Reservatorio-H03-R71-ALTERNATIVAS-NAO-APLICADO/R71-reservatorio-alternativas.json",
+      "sha256": "3bdaead4bd88870db2f34436863bd649d5b939249b9fdb9afa5cbc5d914bbbe9"
+    }
+  },
+  "createdAtUtc": "2026-10-31T00:24:38.246Z"
+}

@@ -1,0 +1,6415 @@
+{
+  "revision": "H03/R88",
+  "startedAtUtc": "2026-10-31T00:46:00.641128+00:00",
+  "sourceNominalSeparateVolumeM3": 30.413099999999982,
+  "sourceNominalUnionVolumeM3": 27.9009,
+  "sourceInternalOverlapM3": 2.5121999999999822,
+  "revitNativeVolumeParameterSumM3": 27.9009,
+  "revitSumMinusSourceUnionM3": 0.0,
+  "revitExportRoundingBoundM3": 3.1e-05,
+  "sourceRows": [
+    {
+      "sourceId": "P1-N1",
+      "kind": "column",
+      "box": [
+        -0.1,
+        0.1,
+        -0.15,
+        0.15,
+        0.2,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.18,
+      "revitVolumeM3": 0.1779
+    },
+    {
+      "sourceId": "P2-N1",
+      "kind": "column",
+      "box": [
+        -0.1,
+        0.1,
+        3.75,
+        4.05,
+        0.2,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.1799999999999999,
+      "revitVolumeM3": 0.1758
+    },
+    {
+      "sourceId": "P3-N1",
+      "kind": "column",
+      "box": [
+        -0.1,
+        0.1,
+        6.9,
+        7.2,
+        0.2,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.1799999999999999,
+      "revitVolumeM3": 0.1779
+    },
+    {
+      "sourceId": "P4-N1",
+      "kind": "column",
+      "box": [
+        4.3,
+        4.5,
+        -0.15,
+        0.15,
+        0.2,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.18000000000000016,
+      "revitVolumeM3": 0.1779
+    },
+    {
+      "sourceId": "P5-N1",
+      "kind": "column",
+      "box": [
+        4.3,
+        4.5,
+        3.75,
+        4.05,
+        0.2,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.18000000000000005,
+      "revitVolumeM3": 0.1716
+    },
+    {
+      "sourceId": "P6-N1",
+      "kind": "column",
+      "box": [
+        4.3,
+        4.5,
+        6.9,
+        7.2,
+        0.2,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.18000000000000005,
+      "revitVolumeM3": 0.1758
+    },
+    {
+      "sourceId": "P7-N1",
+      "kind": "column",
+      "box": [
+        9.55,
+        9.75,
+        -0.15,
+        0.15,
+        0.2,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.17999999999999935,
+      "revitVolumeM3": 0.1779
+    },
+    {
+      "sourceId": "P8-N1",
+      "kind": "column",
+      "box": [
+        9.55,
+        9.75,
+        3.75,
+        4.05,
+        0.2,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.17999999999999924,
+      "revitVolumeM3": 0.1723
+    },
+    {
+      "sourceId": "P9-N1",
+      "kind": "column",
+      "box": [
+        9.55,
+        9.75,
+        6.9,
+        7.2,
+        0.2,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.17999999999999924,
+      "revitVolumeM3": 0.1751
+    },
+    {
+      "sourceId": "V1-N1",
+      "kind": "beam",
+      "box": [
+        0.0,
+        4.4,
+        -0.1,
+        0.1,
+        2.75,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.3960000000000002,
+      "revitVolumeM3": 0.3192
+    },
+    {
+      "sourceId": "V2-N1",
+      "kind": "beam",
+      "box": [
+        6.55,
+        9.65,
+        -0.1,
+        0.1,
+        2.65,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.34100000000000025,
+      "revitVolumeM3": 0.2784
+    },
+    {
+      "sourceId": "V3-N1",
+      "kind": "beam",
+      "box": [
+        0.0,
+        4.4,
+        3.8,
+        4.0,
+        2.75,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.3960000000000006,
+      "revitVolumeM3": 0.2604
+    },
+    {
+      "sourceId": "V4A-N1",
+      "kind": "beam",
+      "box": [
+        4.4,
+        6.55,
+        3.8,
+        4.0,
+        3.04,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.06880000000000011,
+      "revitVolumeM3": 0.0076
+    },
+    {
+      "sourceId": "V4B-N1",
+      "kind": "beam",
+      "box": [
+        6.55,
+        9.65,
+        3.8,
+        4.0,
+        2.9,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.18600000000000036,
+      "revitVolumeM3": 0.0912
+    },
+    {
+      "sourceId": "V5-N1",
+      "kind": "beam",
+      "box": [
+        0.0,
+        4.4,
+        6.95,
+        7.15,
+        2.75,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.3960000000000006,
+      "revitVolumeM3": 0.3192
+    },
+    {
+      "sourceId": "V6-N1",
+      "kind": "beam",
+      "box": [
+        4.4,
+        9.65,
+        6.95,
+        7.15,
+        2.65,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.5775000000000008,
+      "revitVolumeM3": 0.4848
+    },
+    {
+      "sourceId": "V7-N1",
+      "kind": "beam",
+      "box": [
+        -0.1,
+        0.1,
+        0.0,
+        3.9,
+        2.8,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.3120000000000003,
+      "revitVolumeM3": 0.2376
+    },
+    {
+      "sourceId": "V8-N1",
+      "kind": "beam",
+      "box": [
+        -0.1,
+        0.1,
+        3.9,
+        7.05,
+        2.85,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.22050000000000006,
+      "revitVolumeM3": 0.1596
+    },
+    {
+      "sourceId": "V9-N1",
+      "kind": "beam",
+      "box": [
+        4.3,
+        4.5,
+        0.0,
+        3.9,
+        2.8,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.31200000000000055,
+      "revitVolumeM3": 0.225
+    },
+    {
+      "sourceId": "V10-N1",
+      "kind": "beam",
+      "box": [
+        4.3,
+        4.5,
+        3.9,
+        7.05,
+        2.85,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.22050000000000025,
+      "revitVolumeM3": 0.1197
+    },
+    {
+      "sourceId": "V11-N1",
+      "kind": "beam",
+      "box": [
+        9.55,
+        9.75,
+        0.0,
+        3.9,
+        2.8,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.31199999999999917,
+      "revitVolumeM3": 0.2376
+    },
+    {
+      "sourceId": "V12-N1",
+      "kind": "beam",
+      "box": [
+        9.55,
+        9.75,
+        3.9,
+        7.05,
+        2.85,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.22049999999999928,
+      "revitVolumeM3": 0.1197
+    },
+    {
+      "sourceId": "V13-N1",
+      "kind": "beam",
+      "box": [
+        6.45,
+        6.65,
+        0.0,
+        3.9,
+        2.8,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.31200000000000055,
+      "revitVolumeM3": 0.2276
+    },
+    {
+      "sourceId": "V15-N1",
+      "kind": "beam",
+      "box": [
+        4.4,
+        6.55,
+        2.75,
+        2.95,
+        2.9,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.1290000000000002,
+      "revitVolumeM3": 0.0897
+    },
+    {
+      "sourceId": "L1-N1",
+      "kind": "slab",
+      "box": [
+        0.0,
+        4.4,
+        0.0,
+        3.9,
+        3.06,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 2.4024000000000023,
+      "revitVolumeM3": 2.4024
+    },
+    {
+      "sourceId": "L2-N1",
+      "kind": "slab",
+      "box": [
+        0.0,
+        4.4,
+        3.9,
+        7.05,
+        3.06,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 1.940400000000002,
+      "revitVolumeM3": 1.9404
+    },
+    {
+      "sourceId": "L3-N1",
+      "kind": "slab",
+      "box": [
+        6.55,
+        9.65,
+        0.0,
+        3.9,
+        3.06,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 1.6926000000000017,
+      "revitVolumeM3": 1.6926
+    },
+    {
+      "sourceId": "L4-N1",
+      "kind": "slab",
+      "box": [
+        4.4,
+        9.65,
+        3.9,
+        7.05,
+        3.06,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 2.3152500000000016,
+      "revitVolumeM3": 2.31525
+    },
+    {
+      "sourceId": "L6-N1",
+      "kind": "slab",
+      "box": [
+        4.4,
+        6.55,
+        2.85,
+        3.9,
+        3.06,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.3160500000000001,
+      "revitVolumeM3": 0.31605
+    },
+    {
+      "sourceId": "P1-N2",
+      "kind": "column",
+      "box": [
+        -0.1,
+        0.1,
+        -0.15,
+        0.15,
+        3.2,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.19139999999999996,
+      "revitVolumeM3": 0.1893
+    },
+    {
+      "sourceId": "P2-N2",
+      "kind": "column",
+      "box": [
+        -0.1,
+        0.1,
+        3.75,
+        4.05,
+        3.2,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.19139999999999988,
+      "revitVolumeM3": 0.1872
+    },
+    {
+      "sourceId": "P3-N2",
+      "kind": "column",
+      "box": [
+        -0.1,
+        0.1,
+        6.9,
+        7.2,
+        3.2,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.19139999999999988,
+      "revitVolumeM3": 0.1893
+    },
+    {
+      "sourceId": "P4-N2",
+      "kind": "column",
+      "box": [
+        4.3,
+        4.5,
+        -0.15,
+        0.15,
+        3.2,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.19140000000000015,
+      "revitVolumeM3": 0.1872
+    },
+    {
+      "sourceId": "P5-N2",
+      "kind": "column",
+      "box": [
+        4.3,
+        4.5,
+        3.75,
+        4.05,
+        3.2,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.19140000000000004,
+      "revitVolumeM3": 0.183
+    },
+    {
+      "sourceId": "P6-N2",
+      "kind": "column",
+      "box": [
+        4.3,
+        4.5,
+        6.9,
+        7.2,
+        3.2,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.19140000000000004,
+      "revitVolumeM3": 0.1872
+    },
+    {
+      "sourceId": "P7-N2",
+      "kind": "column",
+      "box": [
+        9.55,
+        9.75,
+        -0.15,
+        0.15,
+        3.2,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.19139999999999927,
+      "revitVolumeM3": 0.1893
+    },
+    {
+      "sourceId": "P8-N2",
+      "kind": "column",
+      "box": [
+        9.55,
+        9.75,
+        3.75,
+        4.05,
+        3.2,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.19139999999999915,
+      "revitVolumeM3": 0.1872
+    },
+    {
+      "sourceId": "P9-N2",
+      "kind": "column",
+      "box": [
+        9.55,
+        9.75,
+        6.9,
+        7.2,
+        3.2,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.19139999999999915,
+      "revitVolumeM3": 0.1893
+    },
+    {
+      "sourceId": "V1-N2",
+      "kind": "beam",
+      "box": [
+        0.0,
+        4.4,
+        -0.1,
+        0.1,
+        6.09,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.2639999999999999,
+      "revitVolumeM3": 0.1932
+    },
+    {
+      "sourceId": "V2-N2",
+      "kind": "beam",
+      "box": [
+        4.4,
+        9.65,
+        -0.1,
+        0.1,
+        6.09,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.31499999999999984,
+      "revitVolumeM3": 0.2231
+    },
+    {
+      "sourceId": "V3-N2",
+      "kind": "beam",
+      "box": [
+        0.0,
+        4.4,
+        3.8,
+        4.0,
+        6.09,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.2640000000000001,
+      "revitVolumeM3": 0.1344
+    },
+    {
+      "sourceId": "V4A-N2",
+      "kind": "beam",
+      "box": [
+        4.4,
+        6.55,
+        3.8,
+        4.0,
+        6.09,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.129,
+      "revitVolumeM3": 0.0608
+    },
+    {
+      "sourceId": "V4B-N2",
+      "kind": "beam",
+      "box": [
+        6.55,
+        9.65,
+        3.8,
+        4.0,
+        6.09,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.18600000000000008,
+      "revitVolumeM3": 0.0912
+    },
+    {
+      "sourceId": "V5-N2",
+      "kind": "beam",
+      "box": [
+        0.0,
+        4.4,
+        6.95,
+        7.15,
+        6.09,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.2640000000000001,
+      "revitVolumeM3": 0.1932
+    },
+    {
+      "sourceId": "V6-N2",
+      "kind": "beam",
+      "box": [
+        4.4,
+        9.65,
+        6.95,
+        7.15,
+        6.09,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.3150000000000001,
+      "revitVolumeM3": 0.2323
+    },
+    {
+      "sourceId": "V7-N2",
+      "kind": "beam",
+      "box": [
+        -0.1,
+        0.1,
+        0.0,
+        3.9,
+        6.09,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.23399999999999987,
+      "revitVolumeM3": 0.1656
+    },
+    {
+      "sourceId": "V8-N2",
+      "kind": "beam",
+      "box": [
+        -0.1,
+        0.1,
+        3.9,
+        7.05,
+        6.09,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.1889999999999999,
+      "revitVolumeM3": 0.1311
+    },
+    {
+      "sourceId": "V9-N2",
+      "kind": "beam",
+      "box": [
+        4.3,
+        4.5,
+        0.0,
+        3.9,
+        6.09,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.23400000000000007,
+      "revitVolumeM3": 0.1152
+    },
+    {
+      "sourceId": "V10-N2",
+      "kind": "beam",
+      "box": [
+        4.3,
+        4.5,
+        3.9,
+        7.05,
+        6.09,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.18900000000000006,
+      "revitVolumeM3": 0.0912
+    },
+    {
+      "sourceId": "V11-N2",
+      "kind": "beam",
+      "box": [
+        9.55,
+        9.75,
+        0.0,
+        3.9,
+        6.09,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.23399999999999904,
+      "revitVolumeM3": 0.1656
+    },
+    {
+      "sourceId": "V12-N2",
+      "kind": "beam",
+      "box": [
+        9.55,
+        9.75,
+        3.9,
+        7.05,
+        6.09,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.18899999999999922,
+      "revitVolumeM3": 0.1311
+    },
+    {
+      "sourceId": "V13-N2",
+      "kind": "beam",
+      "box": [
+        6.45,
+        6.65,
+        0.0,
+        3.9,
+        6.09,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.23400000000000007,
+      "revitVolumeM3": 0.1168
+    },
+    {
+      "sourceId": "L1-N2",
+      "kind": "slab",
+      "box": [
+        0.0,
+        4.4,
+        0.0,
+        3.9,
+        6.25,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 2.4023999999999943,
+      "revitVolumeM3": 2.4024
+    },
+    {
+      "sourceId": "L2-N2",
+      "kind": "slab",
+      "box": [
+        0.0,
+        4.4,
+        3.9,
+        7.05,
+        6.25,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 1.9403999999999957,
+      "revitVolumeM3": 1.9404
+    },
+    {
+      "sourceId": "L3-N2",
+      "kind": "slab",
+      "box": [
+        6.55,
+        9.65,
+        0.0,
+        3.9,
+        6.25,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 1.6925999999999963,
+      "revitVolumeM3": 1.6926
+    },
+    {
+      "sourceId": "L4-N2",
+      "kind": "slab",
+      "box": [
+        4.4,
+        9.65,
+        3.9,
+        7.05,
+        6.25,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 2.3152499999999945,
+      "revitVolumeM3": 2.31525
+    },
+    {
+      "sourceId": "L5-N2",
+      "kind": "slab",
+      "box": [
+        4.4,
+        6.55,
+        0.0,
+        3.9,
+        6.25,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 1.173899999999997,
+      "revitVolumeM3": 1.1739
+    },
+    {
+      "sourceId": "P10-N1",
+      "kind": "column",
+      "box": [
+        6.45,
+        6.65,
+        -0.15,
+        0.15,
+        0.2,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.18000000000000016,
+      "revitVolumeM3": 0.1779
+    },
+    {
+      "sourceId": "P10-N2",
+      "kind": "column",
+      "box": [
+        6.45,
+        6.65,
+        -0.15,
+        0.15,
+        3.2,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.19140000000000015,
+      "revitVolumeM3": 0.1872
+    },
+    {
+      "sourceId": "P11-N1",
+      "kind": "column",
+      "box": [
+        6.4,
+        6.7,
+        3.8,
+        4.0,
+        0.2,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.18000000000000005,
+      "revitVolumeM3": 0.1716
+    },
+    {
+      "sourceId": "P11-N2",
+      "kind": "column",
+      "box": [
+        6.4,
+        6.7,
+        3.8,
+        4.0,
+        3.2,
+        6.39
+      ],
+      "nominalSeparateVolumeM3": 0.19140000000000004,
+      "revitVolumeM3": 0.183
+    },
+    {
+      "sourceId": "L7-VARANDA-N1",
+      "kind": "slab",
+      "box": [
+        9.65,
+        10.725,
+        3.8,
+        7.1,
+        3.06,
+        3.2
+      ],
+      "nominalSeparateVolumeM3": 0.4966500000000001,
+      "revitVolumeM3": 0.49665
+    }
+  ],
+  "ifcCheckpoints": {
+    "CAD_R57": {
+      "objects": [
+        {
+          "type": "IfcColumn",
+          "name": "P1",
+          "guid": "1hEz0gqnWHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999997,
+          "bboxVolumeM3": 0.18,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P10",
+          "guid": "0KFOcaqneHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.1799999999999993,
+          "bboxVolumeM3": 0.17999999999999935,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P11",
+          "guid": "1aoj6LqneHyOy801fzsd4G",
+          "box": [
+            6.4,
+            6.7,
+            3.8,
+            4.0,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.1800000000000006,
+          "bboxVolumeM3": 0.18000000000000058,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P2",
+          "guid": "33aLOhqnWHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            3.75,
+            4.05,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999994,
+          "bboxVolumeM3": 0.1799999999999999,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P3",
+          "guid": "3XaXoAqnWHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            6.9,
+            7.2,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.1800000000000004,
+          "bboxVolumeM3": 0.18000000000000044,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P4",
+          "guid": "0GpjxtqnaHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999935,
+          "bboxVolumeM3": 0.17999999999999935,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P5",
+          "guid": "0zEP43qnaHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            3.75,
+            4.05,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999927,
+          "bboxVolumeM3": 0.17999999999999924,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P6",
+          "guid": "1bbF7VqnaHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            6.9,
+            7.2,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999974,
+          "bboxVolumeM3": 0.17999999999999977,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P7",
+          "guid": "2HLPnLqnaHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999935,
+          "bboxVolumeM3": 0.17999999999999935,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P8",
+          "guid": "2$na$jqnaHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            3.75,
+            4.05,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999927,
+          "bboxVolumeM3": 0.17999999999999924,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P9",
+          "guid": "3i0ghxqnaHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            6.9,
+            7.2,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999974,
+          "bboxVolumeM3": 0.17999999999999977,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P1",
+          "guid": "1ZyH5SqniHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1914,
+          "bboxVolumeM3": 0.1914,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P10",
+          "guid": "1ZyH60qniHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999932,
+          "bboxVolumeM3": 0.1913999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P11",
+          "guid": "1ZyH64qniHyOy801fzsd4G",
+          "box": [
+            6.4,
+            6.7,
+            3.8,
+            4.0,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19140000000000065,
+          "bboxVolumeM3": 0.1914000000000006,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P2",
+          "guid": "1ZyH5WqniHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            3.75,
+            4.05,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1913999999999999,
+          "bboxVolumeM3": 0.1913999999999999,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P3",
+          "guid": "1ZyH5aqniHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            6.9,
+            7.2,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19140000000000043,
+          "bboxVolumeM3": 0.19140000000000046,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P4",
+          "guid": "1ZyH5eqniHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999932,
+          "bboxVolumeM3": 0.1913999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P5",
+          "guid": "1ZyH5iqniHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            3.75,
+            4.05,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1913999999999992,
+          "bboxVolumeM3": 0.19139999999999918,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P6",
+          "guid": "1ZyH5mqniHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            6.9,
+            7.2,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999976,
+          "bboxVolumeM3": 0.19139999999999976,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P7",
+          "guid": "1ZyH5qqniHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999932,
+          "bboxVolumeM3": 0.1913999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P8",
+          "guid": "1ZyH5uqniHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            3.75,
+            4.05,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1913999999999992,
+          "bboxVolumeM3": 0.19139999999999918,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P9",
+          "guid": "1ZyH5yqniHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            6.9,
+            7.2,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999976,
+          "bboxVolumeM3": 0.19139999999999976,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "0Ubls1qoaHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            -0.1,
+            0.1,
+            2.75,
+            3.2
+          ],
+          "meshVolumeM3": 0.37800000000000017,
+          "bboxVolumeM3": 0.3780000000000003,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V10",
+          "guid": "2z3S9nqoeHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            4.05,
+            6.9,
+            2.85,
+            3.2
+          ],
+          "meshVolumeM3": 0.19949999999999976,
+          "bboxVolumeM3": 0.1994999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V11",
+          "guid": "3WERLcqoeHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            4.05,
+            6.9,
+            2.85,
+            3.2
+          ],
+          "meshVolumeM3": 0.1994999999999991,
+          "bboxVolumeM3": 0.1994999999999991,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V12",
+          "guid": "04qZtUqoiHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            4.05,
+            6.9,
+            2.85,
+            3.2
+          ],
+          "meshVolumeM3": 0.1994999999999991,
+          "bboxVolumeM3": 0.1994999999999991,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V13",
+          "guid": "1P8G4pqoiHyOy801fzsd4G",
+          "box": [
+            6.7,
+            9.55,
+            3.8,
+            4.0,
+            2.9,
+            3.2
+          ],
+          "meshVolumeM3": 0.17100000000000012,
+          "bboxVolumeM3": 0.1710000000000001,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V14",
+          "guid": "1g4q1lqomHyOy801fzsd4G",
+          "box": [
+            4.5,
+            6.4,
+            3.8,
+            4.0,
+            3.04,
+            3.2
+          ],
+          "meshVolumeM3": 0.060800000000000104,
+          "bboxVolumeM3": 0.06080000000000012,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V15",
+          "guid": "2RmpXiqomHyOy801fzsd4G",
+          "box": [
+            4.4,
+            6.55,
+            2.75,
+            2.95,
+            2.9,
+            3.2
+          ],
+          "meshVolumeM3": 0.12900000000000003,
+          "bboxVolumeM3": 0.12900000000000006,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "0ybZq2qoaHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            3.8,
+            4.0,
+            2.75,
+            3.2
+          ],
+          "meshVolumeM3": 0.37800000000000056,
+          "bboxVolumeM3": 0.37800000000000056,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V3",
+          "guid": "1OaXyKqoaHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            6.95,
+            7.15,
+            2.75,
+            3.2
+          ],
+          "meshVolumeM3": 0.37799999999999884,
+          "bboxVolumeM3": 0.3779999999999989,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "2ZIb8mqoaHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            -0.1,
+            0.1,
+            2.65,
+            3.2
+          ],
+          "meshVolumeM3": 0.3189999999999999,
+          "bboxVolumeM3": 0.3189999999999999,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V5",
+          "guid": "31sdWjqoaHyOy801fzsd4G",
+          "box": [
+            4.5,
+            9.55,
+            6.95,
+            7.15,
+            2.65,
+            3.2
+          ],
+          "meshVolumeM3": 0.5554999999999978,
+          "bboxVolumeM3": 0.5554999999999979,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V6",
+          "guid": "0AyePMqoeHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            0.15,
+            3.75,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.28800000000000026,
+          "bboxVolumeM3": 0.2880000000000003,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V7",
+          "guid": "2RmpWwqomHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            0.15,
+            2.85,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.21599999999999941,
+          "bboxVolumeM3": 0.21599999999999944,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V7",
+          "guid": "2RmpWuqomHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            2.85,
+            3.75,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.0719999999999998,
+          "bboxVolumeM3": 0.0719999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V8",
+          "guid": "1Aq$xBqoeHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            0.15,
+            3.75,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.2879999999999993,
+          "bboxVolumeM3": 0.2879999999999992,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V9",
+          "guid": "2RmpX5qomHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            2.85,
+            3.8,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.0759999999999998,
+          "bboxVolumeM3": 0.07599999999999982,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V9",
+          "guid": "2RmpX7qomHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            0.15,
+            2.85,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.21599999999999941,
+          "bboxVolumeM3": 0.21599999999999944,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V10_1",
+          "guid": "1JL$w3qomHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            4.05,
+            6.9,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.17100000000000037,
+          "bboxVolumeM3": 0.1710000000000004,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V11_1",
+          "guid": "1JL$whqomHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            4.05,
+            6.9,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.17099999999999974,
+          "bboxVolumeM3": 0.1709999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V12_1",
+          "guid": "1JL$xLqomHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            4.05,
+            6.9,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.17099999999999974,
+          "bboxVolumeM3": 0.1709999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V13_1",
+          "guid": "1JL$y1qomHyOy801fzsd4G",
+          "box": [
+            6.7,
+            9.55,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.1710000000000006,
+          "bboxVolumeM3": 0.1710000000000006,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1_1",
+          "guid": "1JL$vTqomHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.25200000000000067,
+          "bboxVolumeM3": 0.25200000000000067,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "2yA$grqomHyOy801fzsd4G",
+          "box": [
+            4.5,
+            6.4,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.11400000000000038,
+          "bboxVolumeM3": 0.11400000000000039,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2_1",
+          "guid": "1JL$yoqomHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.25200000000000083,
+          "bboxVolumeM3": 0.2520000000000009,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V3",
+          "guid": "3TYVoZqomHyOy801fzsd4G",
+          "box": [
+            4.5,
+            6.45,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.11700000000000031,
+          "bboxVolumeM3": 0.1170000000000003,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V3_1",
+          "guid": "1JL$zYqomHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.2519999999999998,
+          "bboxVolumeM3": 0.2519999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4_1",
+          "guid": "1JL$_KqomHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.17400000000000038,
+          "bboxVolumeM3": 0.1740000000000004,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V5_1",
+          "guid": "1JL$$8qomHyOy801fzsd4G",
+          "box": [
+            4.5,
+            9.55,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.30299999999999977,
+          "bboxVolumeM3": 0.30299999999999966,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V6_1",
+          "guid": "1JL$$_qomHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            0.15,
+            3.75,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21600000000000055,
+          "bboxVolumeM3": 0.21600000000000052,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V7_1",
+          "guid": "1JM00sqomHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            0.15,
+            3.75,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21599999999999975,
+          "bboxVolumeM3": 0.21599999999999975,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V8_1",
+          "guid": "1JM01mqomHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            0.15,
+            3.75,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21599999999999975,
+          "bboxVolumeM3": 0.21599999999999975,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V9_1",
+          "guid": "1JM02iqomHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            0.15,
+            3.8,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21899999999999972,
+          "bboxVolumeM3": 0.21899999999999972,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L1",
+          "guid": "1J1uQkqouHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            0.1,
+            3.8,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 2.1756000000000024,
+          "bboxVolumeM3": 2.1756000000000024,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L2",
+          "guid": "1ptf9$qouHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            4.0,
+            6.95,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 1.7346000000000024,
+          "bboxVolumeM3": 1.7346000000000026,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L3",
+          "guid": "1ptfR5qouHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            0.1,
+            3.8,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 1.502200000000001,
+          "bboxVolumeM3": 1.502200000000001,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L4",
+          "guid": "1_MIkSqouHyOy801fzsd4G",
+          "box": [
+            4.5,
+            9.55,
+            4.0,
+            6.95,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 2.085650000000003,
+          "bboxVolumeM3": 2.085650000000003,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L5",
+          "guid": "26EsQMqouHyOy801fzsd4G",
+          "box": [
+            4.5,
+            6.45,
+            2.95,
+            3.8,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 0.23205,
+          "bboxVolumeM3": 0.23205,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L6",
+          "guid": "3ai3Ewqp0HyOy801fzsd4G",
+          "box": [
+            9.75,
+            10.725,
+            3.8,
+            7.1,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 0.4504500000000013,
+          "bboxVolumeM3": 0.4504500000000012,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L1",
+          "guid": "2NvO47qouHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            0.1,
+            3.8,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 2.1755999999999953,
+          "bboxVolumeM3": 2.1755999999999958,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L2",
+          "guid": "2Zt5m7qouHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            4.0,
+            6.95,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 1.7345999999999968,
+          "bboxVolumeM3": 1.734599999999997,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L3",
+          "guid": "2kTiu8qouHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            0.1,
+            3.8,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 1.5021999999999964,
+          "bboxVolumeM3": 1.5021999999999964,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L4",
+          "guid": "2qvYMJqouHyOy801fzsd4G",
+          "box": [
+            4.5,
+            9.55,
+            4.0,
+            6.95,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 2.0856499999999962,
+          "bboxVolumeM3": 2.0856499999999962,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L5",
+          "guid": "2x0xMUqouHyOy801fzsd4G",
+          "box": [
+            4.5,
+            6.45,
+            0.1,
+            3.8,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 1.0100999999999971,
+          "bboxVolumeM3": 1.0100999999999973,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        }
+      ],
+      "excludedAuxiliaryFootings": 11,
+      "ifcopenshellVersion": "0.9.0.post1",
+      "numpyVersion": "2.5.4",
+      "geometricCoordinatesUnit": "m",
+      "worldCoordinates": true,
+      "nominalSourceComparison": {
+        "unionAM3": 27.9009,
+        "unionBM3": 27.9009,
+        "intersectionM3": 27.9009,
+        "onlyAM3": 0.0,
+        "onlyBM3": 0.0,
+        "symmetricDifferenceM3": 0.0,
+        "computationalToleranceM3": 1e-06,
+        "sameOccupiedVolumeWithinDeclaredCriterion": true
+      },
+      "sumIndividualMeshVolumesM3": 27.912899999999983,
+      "internalOverlapM3": 0.011999999999982691,
+      "intersectionPairs": [
+        {
+          "nameA": "V15",
+          "guidA": "2RmpXiqomHyOy801fzsd4G",
+          "nameB": "V7",
+          "guidB": "2RmpWwqomHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            4.4,
+            4.5,
+            2.75,
+            2.85,
+            2.9,
+            3.2
+          ]
+        },
+        {
+          "nameA": "V15",
+          "guidA": "2RmpXiqomHyOy801fzsd4G",
+          "nameB": "V7",
+          "guidB": "2RmpWuqomHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            4.4,
+            4.5,
+            2.85,
+            2.95,
+            2.9,
+            3.2
+          ]
+        },
+        {
+          "nameA": "V15",
+          "guidA": "2RmpXiqomHyOy801fzsd4G",
+          "nameB": "V9",
+          "guidB": "2RmpX5qomHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            6.45,
+            6.55,
+            2.85,
+            2.95,
+            2.9,
+            3.2
+          ]
+        },
+        {
+          "nameA": "V15",
+          "guidA": "2RmpXiqomHyOy801fzsd4G",
+          "nameB": "V9",
+          "guidB": "2RmpX7qomHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            6.45,
+            6.55,
+            2.75,
+            2.85,
+            2.9,
+            3.2
+          ]
+        }
+      ],
+      "pairVolumesAreNotGenerallyAdditive": true
+    },
+    "BIM_R57": {
+      "objects": [
+        {
+          "type": "IfcColumn",
+          "name": "P1",
+          "guid": "2MjmKwqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            6.9,
+            7.2,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.1800000000000004,
+          "bboxVolumeM3": 0.18000000000000044,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P10",
+          "guid": "2MjmLmqlqHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.1799999999999993,
+          "bboxVolumeM3": 0.17999999999999935,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P11",
+          "guid": "2MjmLsqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999935,
+          "bboxVolumeM3": 0.17999999999999935,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P2",
+          "guid": "2MjmL0qlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            6.9,
+            7.2,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999974,
+          "bboxVolumeM3": 0.17999999999999977,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P3",
+          "guid": "2MjmL6qlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            6.9,
+            7.2,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999974,
+          "bboxVolumeM3": 0.17999999999999977,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P4",
+          "guid": "2MjmLCqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            3.75,
+            4.05,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999994,
+          "bboxVolumeM3": 0.1799999999999999,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P5",
+          "guid": "2MjmLIqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            3.75,
+            4.05,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999927,
+          "bboxVolumeM3": 0.17999999999999924,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P6",
+          "guid": "2MjmLOqlqHyOy801fzsd4G",
+          "box": [
+            6.4,
+            6.7,
+            3.8,
+            4.0,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.1800000000000006,
+          "bboxVolumeM3": 0.18000000000000058,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P7",
+          "guid": "2MjmLUqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            3.75,
+            4.05,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999927,
+          "bboxVolumeM3": 0.17999999999999924,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P8",
+          "guid": "2MjmLaqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999997,
+          "bboxVolumeM3": 0.18,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P9",
+          "guid": "2MjmLgqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999935,
+          "bboxVolumeM3": 0.17999999999999935,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P1",
+          "guid": "2MjmKyqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            6.9,
+            7.2,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19140000000000043,
+          "bboxVolumeM3": 0.19140000000000046,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P10",
+          "guid": "2MjmLoqlqHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999932,
+          "bboxVolumeM3": 0.1913999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P11",
+          "guid": "2MjmLuqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999932,
+          "bboxVolumeM3": 0.1913999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P2",
+          "guid": "2MjmL2qlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            6.9,
+            7.2,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999976,
+          "bboxVolumeM3": 0.19139999999999976,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P3",
+          "guid": "2MjmL8qlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            6.9,
+            7.2,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999976,
+          "bboxVolumeM3": 0.19139999999999976,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P4",
+          "guid": "2MjmLEqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            3.75,
+            4.05,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1913999999999999,
+          "bboxVolumeM3": 0.1913999999999999,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P5",
+          "guid": "2MjmLKqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            3.75,
+            4.05,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1913999999999992,
+          "bboxVolumeM3": 0.19139999999999918,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P6",
+          "guid": "2MjmLQqlqHyOy801fzsd4G",
+          "box": [
+            6.4,
+            6.7,
+            3.8,
+            4.0,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19140000000000065,
+          "bboxVolumeM3": 0.1914000000000006,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P7",
+          "guid": "2MjmLWqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            3.75,
+            4.05,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1913999999999992,
+          "bboxVolumeM3": 0.19139999999999918,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P8",
+          "guid": "2MjmLcqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1914,
+          "bboxVolumeM3": 0.1914,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P9",
+          "guid": "2MjmLiqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999932,
+          "bboxVolumeM3": 0.1913999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "2MjmLxqlqHyOy801fzsd4G",
+          "box": [
+            4.5,
+            9.55,
+            6.95,
+            7.15,
+            2.65,
+            3.2
+          ],
+          "meshVolumeM3": 0.5554999999999978,
+          "bboxVolumeM3": 0.5554999999999979,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "2MjmM1qlqHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            6.95,
+            7.15,
+            2.75,
+            3.2
+          ],
+          "meshVolumeM3": 0.3779999999999988,
+          "bboxVolumeM3": 0.37799999999999884,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V10",
+          "guid": "2MjmMMqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            4.05,
+            6.9,
+            2.85,
+            3.2
+          ],
+          "meshVolumeM3": 0.1994999999999991,
+          "bboxVolumeM3": 0.1994999999999991,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V11",
+          "guid": "2MjmPUqlqHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            0.15,
+            2.85,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.21599999999999941,
+          "bboxVolumeM3": 0.21599999999999944,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V11",
+          "guid": "2MjmPWqlqHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            2.85,
+            3.8,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.0759999999999998,
+          "bboxVolumeM3": 0.07599999999999982,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V12",
+          "guid": "2MjmMDqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            0.15,
+            3.75,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.2879999999999993,
+          "bboxVolumeM3": 0.2879999999999992,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V12",
+          "guid": "2MjmMPqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            4.05,
+            6.9,
+            2.85,
+            3.2
+          ],
+          "meshVolumeM3": 0.1994999999999991,
+          "bboxVolumeM3": 0.1994999999999991,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "2MjmMdqlqHyOy801fzsd4G",
+          "box": [
+            4.5,
+            6.4,
+            3.8,
+            4.0,
+            3.04,
+            3.2
+          ],
+          "meshVolumeM3": 0.060800000000000104,
+          "bboxVolumeM3": 0.06080000000000012,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "2MjmM4qlqHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            3.8,
+            4.0,
+            2.75,
+            3.2
+          ],
+          "meshVolumeM3": 0.3780000000000005,
+          "bboxVolumeM3": 0.3780000000000005,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V3",
+          "guid": "2MjmMVqlqHyOy801fzsd4G",
+          "box": [
+            6.7,
+            9.55,
+            3.8,
+            4.0,
+            2.9,
+            3.2
+          ],
+          "meshVolumeM3": 0.17100000000000012,
+          "bboxVolumeM3": 0.1710000000000001,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "2MjmMaqlqHyOy801fzsd4G",
+          "box": [
+            4.4,
+            6.55,
+            2.75,
+            2.95,
+            2.9,
+            3.2
+          ],
+          "meshVolumeM3": 0.12900000000000003,
+          "bboxVolumeM3": 0.12900000000000006,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V5",
+          "guid": "2MjmM7qlqHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            -0.1,
+            0.1,
+            2.75,
+            3.2
+          ],
+          "meshVolumeM3": 0.37800000000000017,
+          "bboxVolumeM3": 0.3780000000000003,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V6",
+          "guid": "2MjmL_qlqHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            -0.1,
+            0.1,
+            2.65,
+            3.2
+          ],
+          "meshVolumeM3": 0.3189999999999999,
+          "bboxVolumeM3": 0.3189999999999999,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V7",
+          "guid": "2MjmMGqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            0.15,
+            3.75,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.28800000000000026,
+          "bboxVolumeM3": 0.2880000000000003,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V8",
+          "guid": "2MjmMSqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            4.05,
+            6.9,
+            2.85,
+            3.2
+          ],
+          "meshVolumeM3": 0.1994999999999998,
+          "bboxVolumeM3": 0.1994999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V9",
+          "guid": "2MjmPHqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            2.85,
+            3.75,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.0719999999999998,
+          "bboxVolumeM3": 0.0719999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V9",
+          "guid": "2MjmPJqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            0.15,
+            2.85,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.21599999999999941,
+          "bboxVolumeM3": 0.21599999999999944,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "2MjmMgqlqHyOy801fzsd4G",
+          "box": [
+            4.5,
+            9.55,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.30299999999999966,
+          "bboxVolumeM3": 0.30299999999999966,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "2MjmMmqlqHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.2519999999999997,
+          "bboxVolumeM3": 0.2519999999999997,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "2MjmMpqlqHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.2520000000000008,
+          "bboxVolumeM3": 0.25200000000000083,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "2MjmNEqlqHyOy801fzsd4G",
+          "box": [
+            4.5,
+            6.4,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.11400000000000038,
+          "bboxVolumeM3": 0.11400000000000039,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V3",
+          "guid": "2MjmNHqlqHyOy801fzsd4G",
+          "box": [
+            6.7,
+            9.55,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.1710000000000006,
+          "bboxVolumeM3": 0.1710000000000006,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "2MjmP9qlqHyOy801fzsd4G",
+          "box": [
+            4.5,
+            6.45,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.11700000000000031,
+          "bboxVolumeM3": 0.1170000000000003,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "2MjmMsqlqHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.2520000000000006,
+          "bboxVolumeM3": 0.2520000000000006,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "2MjmP3qlqHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.17400000000000046,
+          "bboxVolumeM3": 0.17400000000000043,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V5",
+          "guid": "2MjmMyqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            0.15,
+            3.75,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21600000000000055,
+          "bboxVolumeM3": 0.21600000000000052,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V5",
+          "guid": "2MjmN5qlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            4.05,
+            6.9,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.17100000000000035,
+          "bboxVolumeM3": 0.1710000000000004,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V6",
+          "guid": "2MjmN2qlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            0.15,
+            3.75,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21599999999999975,
+          "bboxVolumeM3": 0.21599999999999975,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V6",
+          "guid": "2MjmNBqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            4.05,
+            6.9,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.1709999999999998,
+          "bboxVolumeM3": 0.1709999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V7",
+          "guid": "2MjmMvqlqHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            0.15,
+            3.8,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21899999999999975,
+          "bboxVolumeM3": 0.21899999999999975,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V8",
+          "guid": "2MjmM$qlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            0.15,
+            3.75,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21599999999999975,
+          "bboxVolumeM3": 0.21599999999999975,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V8",
+          "guid": "2MjmN8qlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            4.05,
+            6.9,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.1709999999999998,
+          "bboxVolumeM3": 0.1709999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L1",
+          "guid": "1v_lPEqpKHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            0.1,
+            3.8,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 2.1756000000000024,
+          "bboxVolumeM3": 2.1756000000000024,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L2",
+          "guid": "2e8FJ4qpKHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            4.0,
+            6.95,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 1.7346000000000024,
+          "bboxVolumeM3": 1.7346000000000026,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L3",
+          "guid": "2nnpy0qpKHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            0.1,
+            3.8,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 1.502200000000001,
+          "bboxVolumeM3": 1.502200000000001,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L4",
+          "guid": "2w8NWTqpKHyOy801fzsd4G",
+          "box": [
+            4.5,
+            9.55,
+            4.0,
+            6.95,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 2.085650000000003,
+          "bboxVolumeM3": 2.085650000000003,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L5",
+          "guid": "32$XwJqpKHyOy801fzsd4G",
+          "box": [
+            4.5,
+            6.45,
+            2.95,
+            3.8,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 0.23205,
+          "bboxVolumeM3": 0.23205,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L6",
+          "guid": "1vQy8aqpSHyOy801fzsd4G",
+          "box": [
+            9.75,
+            10.725,
+            3.8,
+            7.1,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 0.4504500000000013,
+          "bboxVolumeM3": 0.4504500000000012,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L1",
+          "guid": "3WCpm9qpKHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            0.1,
+            3.8,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 2.1755999999999953,
+          "bboxVolumeM3": 2.1755999999999958,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L2",
+          "guid": "3yzSrLqpKHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            4.0,
+            6.95,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 1.7345999999999968,
+          "bboxVolumeM3": 1.734599999999997,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L3",
+          "guid": "0716r6qpOHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            0.1,
+            3.8,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 1.5021999999999964,
+          "bboxVolumeM3": 1.5021999999999964,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L4",
+          "guid": "0G_t0BqpOHyOy801fzsd4G",
+          "box": [
+            4.5,
+            9.55,
+            4.0,
+            6.95,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 2.0856499999999962,
+          "bboxVolumeM3": 2.0856499999999962,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L5",
+          "guid": "0RtoqOqpOHyOy801fzsd4G",
+          "box": [
+            4.5,
+            6.45,
+            0.1,
+            3.8,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 1.0100999999999971,
+          "bboxVolumeM3": 1.0100999999999973,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        }
+      ],
+      "excludedAuxiliaryFootings": 11,
+      "ifcopenshellVersion": "0.9.0.post1",
+      "numpyVersion": "2.5.4",
+      "geometricCoordinatesUnit": "m",
+      "worldCoordinates": true,
+      "nominalSourceComparison": {
+        "unionAM3": 27.9009,
+        "unionBM3": 27.9009,
+        "intersectionM3": 27.9009,
+        "onlyAM3": 0.0,
+        "onlyBM3": 0.0,
+        "symmetricDifferenceM3": 0.0,
+        "computationalToleranceM3": 1e-06,
+        "sameOccupiedVolumeWithinDeclaredCriterion": true
+      },
+      "sumIndividualMeshVolumesM3": 27.912899999999983,
+      "internalOverlapM3": 0.011999999999982691,
+      "intersectionPairs": [
+        {
+          "nameA": "V11",
+          "guidA": "2MjmPUqlqHyOy801fzsd4G",
+          "nameB": "V4",
+          "guidB": "2MjmMaqlqHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            6.45,
+            6.55,
+            2.75,
+            2.85,
+            2.9,
+            3.2
+          ]
+        },
+        {
+          "nameA": "V11",
+          "guidA": "2MjmPWqlqHyOy801fzsd4G",
+          "nameB": "V4",
+          "guidB": "2MjmMaqlqHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            6.45,
+            6.55,
+            2.85,
+            2.95,
+            2.9,
+            3.2
+          ]
+        },
+        {
+          "nameA": "V4",
+          "guidA": "2MjmMaqlqHyOy801fzsd4G",
+          "nameB": "V9",
+          "guidB": "2MjmPHqlqHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            4.4,
+            4.5,
+            2.85,
+            2.95,
+            2.9,
+            3.2
+          ]
+        },
+        {
+          "nameA": "V4",
+          "guidA": "2MjmMaqlqHyOy801fzsd4G",
+          "nameB": "V9",
+          "guidB": "2MjmPJqlqHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            4.4,
+            4.5,
+            2.75,
+            2.85,
+            2.9,
+            3.2
+          ]
+        }
+      ],
+      "pairVolumesAreNotGenerallyAdditive": true
+    },
+    "BIM_R81_CONTROLE": {
+      "objects": [
+        {
+          "type": "IfcColumn",
+          "name": "P1",
+          "guid": "2MjmKwqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            6.9,
+            7.2,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.1800000000000004,
+          "bboxVolumeM3": 0.18000000000000044,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P10",
+          "guid": "2MjmLmqlqHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.1799999999999993,
+          "bboxVolumeM3": 0.17999999999999935,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P11",
+          "guid": "2MjmLsqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999935,
+          "bboxVolumeM3": 0.17999999999999935,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P2",
+          "guid": "2MjmL0qlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            6.9,
+            7.2,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999974,
+          "bboxVolumeM3": 0.17999999999999977,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P3",
+          "guid": "2MjmL6qlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            6.9,
+            7.2,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999974,
+          "bboxVolumeM3": 0.17999999999999977,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P4",
+          "guid": "2MjmLCqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            3.75,
+            4.05,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999994,
+          "bboxVolumeM3": 0.1799999999999999,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P5",
+          "guid": "2MjmLIqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            3.75,
+            4.05,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999927,
+          "bboxVolumeM3": 0.17999999999999924,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P6",
+          "guid": "2MjmLOqlqHyOy801fzsd4G",
+          "box": [
+            6.4,
+            6.7,
+            3.8,
+            4.0,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.1800000000000006,
+          "bboxVolumeM3": 0.18000000000000058,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P7",
+          "guid": "2MjmLUqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            3.75,
+            4.05,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999927,
+          "bboxVolumeM3": 0.17999999999999924,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P8",
+          "guid": "2MjmLaqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999997,
+          "bboxVolumeM3": 0.18,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P9",
+          "guid": "2MjmLgqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999935,
+          "bboxVolumeM3": 0.17999999999999935,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P1",
+          "guid": "2MjmKyqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            6.9,
+            7.2,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19140000000000043,
+          "bboxVolumeM3": 0.19140000000000046,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P10",
+          "guid": "2MjmLoqlqHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999932,
+          "bboxVolumeM3": 0.1913999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P11",
+          "guid": "2MjmLuqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999932,
+          "bboxVolumeM3": 0.1913999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P2",
+          "guid": "2MjmL2qlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            6.9,
+            7.2,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999976,
+          "bboxVolumeM3": 0.19139999999999976,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P3",
+          "guid": "2MjmL8qlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            6.9,
+            7.2,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999976,
+          "bboxVolumeM3": 0.19139999999999976,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P4",
+          "guid": "2MjmLEqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            3.75,
+            4.05,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1913999999999999,
+          "bboxVolumeM3": 0.1913999999999999,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P5",
+          "guid": "2MjmLKqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            3.75,
+            4.05,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1913999999999992,
+          "bboxVolumeM3": 0.19139999999999918,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P6",
+          "guid": "2MjmLQqlqHyOy801fzsd4G",
+          "box": [
+            6.4,
+            6.7,
+            3.8,
+            4.0,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19140000000000065,
+          "bboxVolumeM3": 0.1914000000000006,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P7",
+          "guid": "2MjmLWqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            3.75,
+            4.05,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1913999999999992,
+          "bboxVolumeM3": 0.19139999999999918,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P8",
+          "guid": "2MjmLcqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1914,
+          "bboxVolumeM3": 0.1914,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P9",
+          "guid": "2MjmLiqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999932,
+          "bboxVolumeM3": 0.1913999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "2MjmLxqlqHyOy801fzsd4G",
+          "box": [
+            4.5,
+            9.55,
+            6.95,
+            7.15,
+            2.65,
+            3.2
+          ],
+          "meshVolumeM3": 0.5554999999999978,
+          "bboxVolumeM3": 0.5554999999999979,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "2MjmM1qlqHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            6.95,
+            7.15,
+            2.75,
+            3.2
+          ],
+          "meshVolumeM3": 0.3779999999999988,
+          "bboxVolumeM3": 0.37799999999999884,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V10",
+          "guid": "2MjmMMqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            4.05,
+            6.9,
+            2.85,
+            3.2
+          ],
+          "meshVolumeM3": 0.1994999999999991,
+          "bboxVolumeM3": 0.1994999999999991,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V11",
+          "guid": "2MjmPUqlqHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            0.15,
+            2.85,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.21599999999999941,
+          "bboxVolumeM3": 0.21599999999999944,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V11",
+          "guid": "2MjmPWqlqHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            2.85,
+            3.8,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.0759999999999998,
+          "bboxVolumeM3": 0.07599999999999982,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V12",
+          "guid": "2MjmMDqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            0.15,
+            3.75,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.2879999999999993,
+          "bboxVolumeM3": 0.2879999999999992,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V12",
+          "guid": "2MjmMPqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            4.05,
+            6.9,
+            2.85,
+            3.2
+          ],
+          "meshVolumeM3": 0.1994999999999991,
+          "bboxVolumeM3": 0.1994999999999991,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "2MjmMdqlqHyOy801fzsd4G",
+          "box": [
+            4.5,
+            6.4,
+            3.8,
+            4.0,
+            3.04,
+            3.2
+          ],
+          "meshVolumeM3": 0.060800000000000104,
+          "bboxVolumeM3": 0.06080000000000012,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "2MjmM4qlqHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            3.8,
+            4.0,
+            2.75,
+            3.2
+          ],
+          "meshVolumeM3": 0.3780000000000005,
+          "bboxVolumeM3": 0.3780000000000005,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V3",
+          "guid": "2MjmMVqlqHyOy801fzsd4G",
+          "box": [
+            6.7,
+            9.55,
+            3.8,
+            4.0,
+            2.9,
+            3.2
+          ],
+          "meshVolumeM3": 0.17100000000000012,
+          "bboxVolumeM3": 0.1710000000000001,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "2MjmMaqlqHyOy801fzsd4G",
+          "box": [
+            4.4,
+            6.55,
+            2.75,
+            2.95,
+            2.9,
+            3.2
+          ],
+          "meshVolumeM3": 0.12900000000000003,
+          "bboxVolumeM3": 0.12900000000000006,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V5",
+          "guid": "2MjmM7qlqHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            -0.1,
+            0.1,
+            2.75,
+            3.2
+          ],
+          "meshVolumeM3": 0.37800000000000017,
+          "bboxVolumeM3": 0.3780000000000003,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V6",
+          "guid": "2MjmL_qlqHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            -0.1,
+            0.1,
+            2.65,
+            3.2
+          ],
+          "meshVolumeM3": 0.3189999999999999,
+          "bboxVolumeM3": 0.3189999999999999,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V7",
+          "guid": "2MjmMGqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            0.15,
+            3.75,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.28800000000000026,
+          "bboxVolumeM3": 0.2880000000000003,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V8",
+          "guid": "2MjmMSqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            4.05,
+            6.9,
+            2.85,
+            3.2
+          ],
+          "meshVolumeM3": 0.1994999999999998,
+          "bboxVolumeM3": 0.1994999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V9",
+          "guid": "2MjmPHqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            2.85,
+            3.75,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.0719999999999998,
+          "bboxVolumeM3": 0.0719999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V9",
+          "guid": "2MjmPJqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            0.15,
+            2.85,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.21599999999999941,
+          "bboxVolumeM3": 0.21599999999999944,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "0hkkUoqz0HyOy801fzsd4G",
+          "box": [
+            4.5,
+            5.475,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.058499999999999906,
+          "bboxVolumeM3": 0.058499999999999906,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "0KeyJZqz0HyOy801fzsd4G",
+          "box": [
+            1.1,
+            3.3,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.13199999999999987,
+          "bboxVolumeM3": 0.13199999999999984,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "3xYYgcqyyHyOy801fzsd4G",
+          "box": [
+            0.1,
+            1.1,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.059999999999999935,
+          "bboxVolumeM3": 0.05999999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "1RQFpiqz0HyOy801fzsd4G",
+          "box": [
+            7.325,
+            8.875,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.09299999999999987,
+          "bboxVolumeM3": 0.09299999999999989,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "1RQFpkqz0HyOy801fzsd4G",
+          "box": [
+            8.875,
+            9.55,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.04049999999999999,
+          "bboxVolumeM3": 0.0405,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "0KeyJbqz0HyOy801fzsd4G",
+          "box": [
+            3.3,
+            4.3,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.059999999999999935,
+          "bboxVolumeM3": 0.05999999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "13haKnqz0HyOy801fzsd4G",
+          "box": [
+            5.475,
+            7.325,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.11099999999999992,
+          "bboxVolumeM3": 0.11099999999999989,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "2ofkqlqyyHyOy801fzsd4G",
+          "box": [
+            4.5,
+            5.475,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.058500000000000184,
+          "bboxVolumeM3": 0.05850000000000016,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "2S66fyqyyHyOy801fzsd4G",
+          "box": [
+            1.1,
+            3.3,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.13200000000000042,
+          "bboxVolumeM3": 0.13200000000000045,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "23oNgvqyyHyOy801fzsd4G",
+          "box": [
+            0.1,
+            1.1,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.060000000000000185,
+          "bboxVolumeM3": 0.06000000000000019,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "2S66f_qyyHyOy801fzsd4G",
+          "box": [
+            3.3,
+            4.3,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.060000000000000185,
+          "bboxVolumeM3": 0.06000000000000019,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "2ofkqnqyyHyOy801fzsd4G",
+          "box": [
+            5.475,
+            6.4,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.05550000000000017,
+          "bboxVolumeM3": 0.055500000000000174,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V3",
+          "guid": "3ZEqpdqyyHyOy801fzsd4G",
+          "box": [
+            7.325,
+            8.875,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.09300000000000035,
+          "bboxVolumeM3": 0.09300000000000035,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V3",
+          "guid": "3ZEqpbqyyHyOy801fzsd4G",
+          "box": [
+            8.875,
+            9.55,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.04050000000000018,
+          "bboxVolumeM3": 0.040500000000000175,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V3",
+          "guid": "39cLDnqyyHyOy801fzsd4G",
+          "box": [
+            6.7,
+            7.325,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.03750000000000012,
+          "bboxVolumeM3": 0.037500000000000124,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "1PFb6UqyCHyOy801fzsd4G",
+          "box": [
+            1.1,
+            3.3,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.13200000000000034,
+          "bboxVolumeM3": 0.13200000000000034,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "17yqvrqyCHyOy801fzsd4G",
+          "box": [
+            0.1,
+            1.1,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.060000000000000143,
+          "bboxVolumeM3": 0.060000000000000143,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "1fmGAzqyyHyOy801fzsd4G",
+          "box": [
+            5.475,
+            6.45,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.058500000000000114,
+          "bboxVolumeM3": 0.05850000000000012,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "1PFb6WqyCHyOy801fzsd4G",
+          "box": [
+            3.3,
+            4.3,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.060000000000000143,
+          "bboxVolumeM3": 0.060000000000000143,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "2MjmP3qlqHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.17400000000000046,
+          "bboxVolumeM3": 0.17400000000000043,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "1fmGAxqyyHyOy801fzsd4G",
+          "box": [
+            4.5,
+            5.475,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.058500000000000114,
+          "bboxVolumeM3": 0.05850000000000012,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V5",
+          "guid": "2MjmMyqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            0.15,
+            3.75,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21600000000000055,
+          "bboxVolumeM3": 0.21600000000000052,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V5",
+          "guid": "2MjmN5qlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            4.05,
+            6.9,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.17100000000000035,
+          "bboxVolumeM3": 0.1710000000000004,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V6",
+          "guid": "2MjmN2qlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            0.15,
+            3.75,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21599999999999975,
+          "bboxVolumeM3": 0.21599999999999975,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V6",
+          "guid": "2MjmNBqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            4.05,
+            6.9,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.1709999999999998,
+          "bboxVolumeM3": 0.1709999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V7",
+          "guid": "2MjmMvqlqHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            0.15,
+            3.8,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21899999999999975,
+          "bboxVolumeM3": 0.21899999999999975,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V8",
+          "guid": "2MjmN8qlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            4.05,
+            6.9,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.1709999999999998,
+          "bboxVolumeM3": 0.1709999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V8",
+          "guid": "2MjmM$qlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            0.15,
+            3.75,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21599999999999975,
+          "bboxVolumeM3": 0.21599999999999975,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L1",
+          "guid": "1v_lPEqpKHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            0.1,
+            3.8,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 2.1756000000000024,
+          "bboxVolumeM3": 2.1756000000000024,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L2",
+          "guid": "2e8FJ4qpKHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            4.0,
+            6.95,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 1.7346000000000024,
+          "bboxVolumeM3": 1.7346000000000026,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L3",
+          "guid": "2nnpy0qpKHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            0.1,
+            3.8,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 1.502200000000001,
+          "bboxVolumeM3": 1.502200000000001,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L4",
+          "guid": "2w8NWTqpKHyOy801fzsd4G",
+          "box": [
+            4.5,
+            9.55,
+            4.0,
+            6.95,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 2.085650000000003,
+          "bboxVolumeM3": 2.085650000000003,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L5",
+          "guid": "32$XwJqpKHyOy801fzsd4G",
+          "box": [
+            4.5,
+            6.45,
+            2.95,
+            3.8,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 0.23205,
+          "bboxVolumeM3": 0.23205,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L6",
+          "guid": "1vQy8aqpSHyOy801fzsd4G",
+          "box": [
+            9.75,
+            10.725,
+            3.8,
+            7.1,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 0.4504500000000013,
+          "bboxVolumeM3": 0.4504500000000012,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L1",
+          "guid": "3WCpm9qpKHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            0.1,
+            3.8,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 2.1755999999999953,
+          "bboxVolumeM3": 2.1755999999999958,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L2",
+          "guid": "3yzSrLqpKHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            4.0,
+            6.95,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 1.7345999999999968,
+          "bboxVolumeM3": 1.734599999999997,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L3",
+          "guid": "0716r6qpOHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            0.1,
+            3.8,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 1.5021999999999964,
+          "bboxVolumeM3": 1.5021999999999964,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L4",
+          "guid": "0G_t0BqpOHyOy801fzsd4G",
+          "box": [
+            4.5,
+            9.55,
+            4.0,
+            6.95,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 2.0856499999999962,
+          "bboxVolumeM3": 2.0856499999999962,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L5",
+          "guid": "0RtoqOqpOHyOy801fzsd4G",
+          "box": [
+            4.5,
+            6.45,
+            0.1,
+            3.8,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 1.0100999999999971,
+          "bboxVolumeM3": 1.0100999999999973,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        }
+      ],
+      "excludedAuxiliaryFootings": 11,
+      "ifcopenshellVersion": "0.9.0.post1",
+      "numpyVersion": "2.5.4",
+      "geometricCoordinatesUnit": "m",
+      "worldCoordinates": true,
+      "nominalSourceComparison": {
+        "unionAM3": 27.900899999999993,
+        "unionBM3": 27.900899999999993,
+        "intersectionM3": 27.900899999999993,
+        "onlyAM3": 0.0,
+        "onlyBM3": 0.0,
+        "symmetricDifferenceM3": 0.0,
+        "computationalToleranceM3": 1e-06,
+        "sameOccupiedVolumeWithinDeclaredCriterion": true
+      },
+      "sumIndividualMeshVolumesM3": 27.912899999999983,
+      "internalOverlapM3": 0.011999999999989797,
+      "intersectionPairs": [
+        {
+          "nameA": "V11",
+          "guidA": "2MjmPUqlqHyOy801fzsd4G",
+          "nameB": "V4",
+          "guidB": "2MjmMaqlqHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            6.45,
+            6.55,
+            2.75,
+            2.85,
+            2.9,
+            3.2
+          ]
+        },
+        {
+          "nameA": "V11",
+          "guidA": "2MjmPWqlqHyOy801fzsd4G",
+          "nameB": "V4",
+          "guidB": "2MjmMaqlqHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            6.45,
+            6.55,
+            2.85,
+            2.95,
+            2.9,
+            3.2
+          ]
+        },
+        {
+          "nameA": "V4",
+          "guidA": "2MjmMaqlqHyOy801fzsd4G",
+          "nameB": "V9",
+          "guidB": "2MjmPHqlqHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            4.4,
+            4.5,
+            2.85,
+            2.95,
+            2.9,
+            3.2
+          ]
+        },
+        {
+          "nameA": "V4",
+          "guidA": "2MjmMaqlqHyOy801fzsd4G",
+          "nameB": "V9",
+          "guidB": "2MjmPJqlqHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            4.4,
+            4.5,
+            2.75,
+            2.85,
+            2.9,
+            3.2
+          ]
+        }
+      ],
+      "pairVolumesAreNotGenerallyAdditive": true
+    },
+    "BIM_R81_TESTE": {
+      "objects": [
+        {
+          "type": "IfcColumn",
+          "name": "P1",
+          "guid": "2MjmKwqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            6.9,
+            7.2,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.1800000000000004,
+          "bboxVolumeM3": 0.18000000000000044,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P10",
+          "guid": "2MjmLmqlqHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.1799999999999993,
+          "bboxVolumeM3": 0.17999999999999935,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P11",
+          "guid": "2MjmLsqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999935,
+          "bboxVolumeM3": 0.17999999999999935,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P2",
+          "guid": "2MjmL0qlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            6.9,
+            7.2,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999974,
+          "bboxVolumeM3": 0.17999999999999977,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P3",
+          "guid": "2MjmL6qlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            6.9,
+            7.2,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999974,
+          "bboxVolumeM3": 0.17999999999999977,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P4",
+          "guid": "2MjmLCqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            3.75,
+            4.05,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999994,
+          "bboxVolumeM3": 0.1799999999999999,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P5",
+          "guid": "2MjmLIqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            3.75,
+            4.05,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999927,
+          "bboxVolumeM3": 0.17999999999999924,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P6",
+          "guid": "2MjmLOqlqHyOy801fzsd4G",
+          "box": [
+            6.4,
+            6.7,
+            3.8,
+            4.0,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.1800000000000006,
+          "bboxVolumeM3": 0.18000000000000058,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P7",
+          "guid": "2MjmLUqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            3.75,
+            4.05,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999927,
+          "bboxVolumeM3": 0.17999999999999924,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P8",
+          "guid": "2MjmLaqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999997,
+          "bboxVolumeM3": 0.18,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P9",
+          "guid": "2MjmLgqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            -0.15,
+            0.15,
+            0.2,
+            3.2
+          ],
+          "meshVolumeM3": 0.17999999999999935,
+          "bboxVolumeM3": 0.17999999999999935,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P1",
+          "guid": "2MjmKyqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            6.9,
+            7.2,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19140000000000043,
+          "bboxVolumeM3": 0.19140000000000046,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P10",
+          "guid": "2MjmLoqlqHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999932,
+          "bboxVolumeM3": 0.1913999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P11",
+          "guid": "2MjmLuqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999932,
+          "bboxVolumeM3": 0.1913999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P2",
+          "guid": "2MjmL2qlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            6.9,
+            7.2,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999976,
+          "bboxVolumeM3": 0.19139999999999976,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P3",
+          "guid": "2MjmL8qlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            6.9,
+            7.2,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999976,
+          "bboxVolumeM3": 0.19139999999999976,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P4",
+          "guid": "2MjmLEqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            3.75,
+            4.05,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1913999999999999,
+          "bboxVolumeM3": 0.1913999999999999,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P5",
+          "guid": "2MjmLKqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            3.75,
+            4.05,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1913999999999992,
+          "bboxVolumeM3": 0.19139999999999918,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P6",
+          "guid": "2MjmLQqlqHyOy801fzsd4G",
+          "box": [
+            6.4,
+            6.7,
+            3.8,
+            4.0,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19140000000000065,
+          "bboxVolumeM3": 0.1914000000000006,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P7",
+          "guid": "2MjmLWqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            3.75,
+            4.05,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1913999999999992,
+          "bboxVolumeM3": 0.19139999999999918,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P8",
+          "guid": "2MjmLcqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.1914,
+          "bboxVolumeM3": 0.1914,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcColumn",
+          "name": "P9",
+          "guid": "2MjmLiqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            -0.15,
+            0.15,
+            3.2,
+            6.39
+          ],
+          "meshVolumeM3": 0.19139999999999932,
+          "bboxVolumeM3": 0.1913999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "2MjmM1qlqHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            6.95,
+            7.15,
+            2.75,
+            3.2
+          ],
+          "meshVolumeM3": 0.3779999999999988,
+          "bboxVolumeM3": 0.37799999999999884,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "2MjmLxqlqHyOy801fzsd4G",
+          "box": [
+            4.5,
+            9.55,
+            6.95,
+            7.15,
+            2.65,
+            3.2
+          ],
+          "meshVolumeM3": 0.5554999999999978,
+          "bboxVolumeM3": 0.5554999999999979,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V10",
+          "guid": "2MjmMMqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            4.05,
+            6.9,
+            2.85,
+            3.2
+          ],
+          "meshVolumeM3": 0.1994999999999991,
+          "bboxVolumeM3": 0.1994999999999991,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V11",
+          "guid": "2MjmPWqlqHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            2.85,
+            3.8,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.0759999999999998,
+          "bboxVolumeM3": 0.07599999999999982,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V11",
+          "guid": "2MjmPUqlqHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            0.15,
+            2.85,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.21599999999999941,
+          "bboxVolumeM3": 0.21599999999999944,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V12",
+          "guid": "2MjmMDqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            0.15,
+            3.75,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.2879999999999993,
+          "bboxVolumeM3": 0.2879999999999992,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V12",
+          "guid": "2MjmMPqlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            4.05,
+            6.9,
+            2.85,
+            3.2
+          ],
+          "meshVolumeM3": 0.1994999999999991,
+          "bboxVolumeM3": 0.1994999999999991,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V13",
+          "guid": "0lZ3pcr7KHyOy901fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            3.8,
+            4.0,
+            2.75,
+            3.2
+          ],
+          "meshVolumeM3": 0.3780000000000005,
+          "bboxVolumeM3": 0.3780000000000005,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "0lZ3pVr7KHyOy901fzsd4G",
+          "box": [
+            4.5,
+            6.4,
+            3.8,
+            4.0,
+            3.04,
+            3.2
+          ],
+          "meshVolumeM3": 0.060800000000000104,
+          "bboxVolumeM3": 0.06080000000000012,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V3",
+          "guid": "2MjmMVqlqHyOy801fzsd4G",
+          "box": [
+            6.7,
+            9.55,
+            3.8,
+            4.0,
+            2.9,
+            3.2
+          ],
+          "meshVolumeM3": 0.17100000000000012,
+          "bboxVolumeM3": 0.1710000000000001,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "2MjmMaqlqHyOy801fzsd4G",
+          "box": [
+            4.4,
+            6.55,
+            2.75,
+            2.95,
+            2.9,
+            3.2
+          ],
+          "meshVolumeM3": 0.12900000000000003,
+          "bboxVolumeM3": 0.12900000000000006,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V5",
+          "guid": "2MjmM7qlqHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            -0.1,
+            0.1,
+            2.75,
+            3.2
+          ],
+          "meshVolumeM3": 0.37800000000000017,
+          "bboxVolumeM3": 0.3780000000000003,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V6",
+          "guid": "2MjmL_qlqHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            -0.1,
+            0.1,
+            2.65,
+            3.2
+          ],
+          "meshVolumeM3": 0.3189999999999999,
+          "bboxVolumeM3": 0.3189999999999999,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V7",
+          "guid": "2MjmMGqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            0.15,
+            3.75,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.28800000000000026,
+          "bboxVolumeM3": 0.2880000000000003,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V8",
+          "guid": "2MjmMSqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            4.05,
+            6.9,
+            2.85,
+            3.2
+          ],
+          "meshVolumeM3": 0.1994999999999998,
+          "bboxVolumeM3": 0.1994999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V9",
+          "guid": "2MjmPJqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            0.15,
+            2.85,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.21599999999999941,
+          "bboxVolumeM3": 0.21599999999999944,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V9",
+          "guid": "2MjmPHqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            2.85,
+            3.75,
+            2.8,
+            3.2
+          ],
+          "meshVolumeM3": 0.0719999999999998,
+          "bboxVolumeM3": 0.0719999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "0hkkUoqz0HyOy801fzsd4G",
+          "box": [
+            4.5,
+            5.475,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.058499999999999906,
+          "bboxVolumeM3": 0.058499999999999906,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "0KeyJZqz0HyOy801fzsd4G",
+          "box": [
+            1.1,
+            3.3,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.13199999999999987,
+          "bboxVolumeM3": 0.13199999999999984,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "3xYYgcqyyHyOy801fzsd4G",
+          "box": [
+            0.1,
+            1.1,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.059999999999999935,
+          "bboxVolumeM3": 0.05999999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "1RQFpiqz0HyOy801fzsd4G",
+          "box": [
+            7.325,
+            8.875,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.09299999999999987,
+          "bboxVolumeM3": 0.09299999999999989,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "1RQFpkqz0HyOy801fzsd4G",
+          "box": [
+            8.875,
+            9.55,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.04049999999999999,
+          "bboxVolumeM3": 0.0405,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "0KeyJbqz0HyOy801fzsd4G",
+          "box": [
+            3.3,
+            4.3,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.059999999999999935,
+          "bboxVolumeM3": 0.05999999999999993,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V1",
+          "guid": "13haKnqz0HyOy801fzsd4G",
+          "box": [
+            5.475,
+            7.325,
+            6.95,
+            7.15,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.11099999999999992,
+          "bboxVolumeM3": 0.11099999999999989,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "2ofkqlqyyHyOy801fzsd4G",
+          "box": [
+            4.5,
+            5.475,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.058500000000000184,
+          "bboxVolumeM3": 0.05850000000000016,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "2S66fyqyyHyOy801fzsd4G",
+          "box": [
+            1.1,
+            3.3,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.13200000000000042,
+          "bboxVolumeM3": 0.13200000000000045,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "23oNgvqyyHyOy801fzsd4G",
+          "box": [
+            0.1,
+            1.1,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.060000000000000185,
+          "bboxVolumeM3": 0.06000000000000019,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "2S66f_qyyHyOy801fzsd4G",
+          "box": [
+            3.3,
+            4.3,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.060000000000000185,
+          "bboxVolumeM3": 0.06000000000000019,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V2",
+          "guid": "2ofkqnqyyHyOy801fzsd4G",
+          "box": [
+            5.475,
+            6.4,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.05550000000000017,
+          "bboxVolumeM3": 0.055500000000000174,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V3",
+          "guid": "3ZEqpdqyyHyOy801fzsd4G",
+          "box": [
+            7.325,
+            8.875,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.09300000000000035,
+          "bboxVolumeM3": 0.09300000000000035,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V3",
+          "guid": "3ZEqpbqyyHyOy801fzsd4G",
+          "box": [
+            8.875,
+            9.55,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.04050000000000018,
+          "bboxVolumeM3": 0.040500000000000175,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V3",
+          "guid": "39cLDnqyyHyOy801fzsd4G",
+          "box": [
+            6.7,
+            7.325,
+            3.8,
+            4.0,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.03750000000000012,
+          "bboxVolumeM3": 0.037500000000000124,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "1PFb6UqyCHyOy801fzsd4G",
+          "box": [
+            1.1,
+            3.3,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.13200000000000034,
+          "bboxVolumeM3": 0.13200000000000034,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "17yqvrqyCHyOy801fzsd4G",
+          "box": [
+            0.1,
+            1.1,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.060000000000000143,
+          "bboxVolumeM3": 0.060000000000000143,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "1fmGAzqyyHyOy801fzsd4G",
+          "box": [
+            5.475,
+            6.45,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.058500000000000114,
+          "bboxVolumeM3": 0.05850000000000012,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "1PFb6WqyCHyOy801fzsd4G",
+          "box": [
+            3.3,
+            4.3,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.060000000000000143,
+          "bboxVolumeM3": 0.060000000000000143,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "2MjmP3qlqHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.17400000000000046,
+          "bboxVolumeM3": 0.17400000000000043,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V4",
+          "guid": "1fmGAxqyyHyOy801fzsd4G",
+          "box": [
+            4.5,
+            5.475,
+            -0.1,
+            0.1,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.058500000000000114,
+          "bboxVolumeM3": 0.05850000000000012,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V5",
+          "guid": "2MjmMyqlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            0.15,
+            3.75,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21600000000000055,
+          "bboxVolumeM3": 0.21600000000000052,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V5",
+          "guid": "2MjmN5qlqHyOy801fzsd4G",
+          "box": [
+            -0.1,
+            0.1,
+            4.05,
+            6.9,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.17100000000000035,
+          "bboxVolumeM3": 0.1710000000000004,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V6",
+          "guid": "2MjmN2qlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            0.15,
+            3.75,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21599999999999975,
+          "bboxVolumeM3": 0.21599999999999975,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V6",
+          "guid": "2MjmNBqlqHyOy801fzsd4G",
+          "box": [
+            4.3,
+            4.5,
+            4.05,
+            6.9,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.1709999999999998,
+          "bboxVolumeM3": 0.1709999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V7",
+          "guid": "2MjmMvqlqHyOy801fzsd4G",
+          "box": [
+            6.45,
+            6.65,
+            0.15,
+            3.8,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21899999999999975,
+          "bboxVolumeM3": 0.21899999999999975,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V8",
+          "guid": "2MjmN8qlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            4.05,
+            6.9,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.1709999999999998,
+          "bboxVolumeM3": 0.1709999999999998,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcBeam",
+          "name": "V8",
+          "guid": "2MjmM$qlqHyOy801fzsd4G",
+          "box": [
+            9.55,
+            9.75,
+            0.15,
+            3.75,
+            6.09,
+            6.39
+          ],
+          "meshVolumeM3": 0.21599999999999975,
+          "bboxVolumeM3": 0.21599999999999975,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L1",
+          "guid": "1v_lPEqpKHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            0.1,
+            3.8,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 2.1756000000000024,
+          "bboxVolumeM3": 2.1756000000000024,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L2",
+          "guid": "2e8FJ4qpKHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            4.0,
+            6.95,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 1.7346000000000024,
+          "bboxVolumeM3": 1.7346000000000026,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L3",
+          "guid": "2nnpy0qpKHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            0.1,
+            3.8,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 1.502200000000001,
+          "bboxVolumeM3": 1.502200000000001,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L4",
+          "guid": "2w8NWTqpKHyOy801fzsd4G",
+          "box": [
+            4.5,
+            9.55,
+            4.0,
+            6.95,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 2.085650000000003,
+          "bboxVolumeM3": 2.085650000000003,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L5",
+          "guid": "32$XwJqpKHyOy801fzsd4G",
+          "box": [
+            4.5,
+            6.45,
+            2.95,
+            3.8,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 0.23205,
+          "bboxVolumeM3": 0.23205,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L6",
+          "guid": "1vQy8aqpSHyOy801fzsd4G",
+          "box": [
+            9.75,
+            10.725,
+            3.8,
+            7.1,
+            3.06,
+            3.2
+          ],
+          "meshVolumeM3": 0.4504500000000013,
+          "bboxVolumeM3": 0.4504500000000012,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L1",
+          "guid": "3WCpm9qpKHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            0.1,
+            3.8,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 2.1755999999999953,
+          "bboxVolumeM3": 2.1755999999999958,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L2",
+          "guid": "3yzSrLqpKHyOy801fzsd4G",
+          "box": [
+            0.1,
+            4.3,
+            4.0,
+            6.95,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 1.7345999999999968,
+          "bboxVolumeM3": 1.734599999999997,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L3",
+          "guid": "0716r6qpOHyOy801fzsd4G",
+          "box": [
+            6.65,
+            9.55,
+            0.1,
+            3.8,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 1.5021999999999964,
+          "bboxVolumeM3": 1.5021999999999964,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L4",
+          "guid": "0G_t0BqpOHyOy801fzsd4G",
+          "box": [
+            4.5,
+            9.55,
+            4.0,
+            6.95,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 2.0856499999999962,
+          "bboxVolumeM3": 2.0856499999999962,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        },
+        {
+          "type": "IfcSlab",
+          "name": "L5",
+          "guid": "0RtoqOqpOHyOy801fzsd4G",
+          "box": [
+            4.5,
+            6.45,
+            0.1,
+            3.8,
+            6.25,
+            6.39
+          ],
+          "meshVolumeM3": 1.0100999999999971,
+          "bboxVolumeM3": 1.0100999999999973,
+          "closedOrientedMesh": true,
+          "bboxVolumeMatchesMesh": true,
+          "eightCornersAndSixExternalFacesVerified": true
+        }
+      ],
+      "excludedAuxiliaryFootings": 11,
+      "ifcopenshellVersion": "0.9.0.post1",
+      "numpyVersion": "2.5.4",
+      "geometricCoordinatesUnit": "m",
+      "worldCoordinates": true,
+      "nominalSourceComparison": {
+        "unionAM3": 27.900899999999993,
+        "unionBM3": 27.900899999999993,
+        "intersectionM3": 27.900899999999993,
+        "onlyAM3": 0.0,
+        "onlyBM3": 0.0,
+        "symmetricDifferenceM3": 0.0,
+        "computationalToleranceM3": 1e-06,
+        "sameOccupiedVolumeWithinDeclaredCriterion": true
+      },
+      "sumIndividualMeshVolumesM3": 27.912899999999983,
+      "internalOverlapM3": 0.011999999999989797,
+      "intersectionPairs": [
+        {
+          "nameA": "V11",
+          "guidA": "2MjmPWqlqHyOy801fzsd4G",
+          "nameB": "V4",
+          "guidB": "2MjmMaqlqHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            6.45,
+            6.55,
+            2.85,
+            2.95,
+            2.9,
+            3.2
+          ]
+        },
+        {
+          "nameA": "V11",
+          "guidA": "2MjmPUqlqHyOy801fzsd4G",
+          "nameB": "V4",
+          "guidB": "2MjmMaqlqHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            6.45,
+            6.55,
+            2.75,
+            2.85,
+            2.9,
+            3.2
+          ]
+        },
+        {
+          "nameA": "V4",
+          "guidA": "2MjmMaqlqHyOy801fzsd4G",
+          "nameB": "V9",
+          "guidB": "2MjmPJqlqHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            4.4,
+            4.5,
+            2.75,
+            2.85,
+            2.9,
+            3.2
+          ]
+        },
+        {
+          "nameA": "V4",
+          "guidA": "2MjmMaqlqHyOy801fzsd4G",
+          "nameB": "V9",
+          "guidB": "2MjmPHqlqHyOy801fzsd4G",
+          "intersectionM3": 0.002999999999999995,
+          "intersectionBox": [
+            4.4,
+            4.5,
+            2.85,
+            2.95,
+            2.9,
+            3.2
+          ]
+        }
+      ],
+      "pairVolumesAreNotGenerallyAdditive": true
+    }
+  },
+  "sources": [
+    {
+      "path": "outputs/Autoria-H03-R83-SINCRONIZACAO-GEOMETRICA-NAO-EXECUTAR/H03-R83-proposta.json",
+      "bytes": 30999,
+      "sha256": "54ecdb14a8dd7ce2f0183559c12b4214c124302560408138e39fff39746a7fc9"
+    },
+    {
+      "path": "outputs/Autoria-H03-R83-SINCRONIZACAO-GEOMETRICA-NAO-EXECUTAR/R83-Revit-leitura-apos-reabrir.json",
+      "bytes": 23340,
+      "sha256": "a9520d67a7a4c752be9fc10ee993091d07d3602da992c3fa011f06c4b27fea36"
+    },
+    {
+      "path": "outputs/Autoria-H03-R83-SINCRONIZACAO-GEOMETRICA-NAO-EXECUTAR/R83-Revit-criacao-nativa.json",
+      "bytes": 8429,
+      "sha256": "c0957ff65540e0e5ffd512c776ef2398ff9b2dc13964c495620c247a3320d88c"
+    },
+    {
+      "path": "outputs/Verificacao-H03-R57-NAO-EXECUTAR/IFC-CAD/Modelo 3D.IFC",
+      "bytes": 179072,
+      "sha256": "cf2c62e9ca989a2307bf237b4ef0a24c17c33f520770cd88a23cb79f43cb318d"
+    },
+    {
+      "path": "outputs/Verificacao-H03-R57-NAO-EXECUTAR/IFC-BIM/Modelo 3D.IFC",
+      "bytes": 179107,
+      "sha256": "4b8941190bede59eeebb80c550233328122fc0ef48679c71e86e82fb65cc1179"
+    },
+    {
+      "path": "outputs/Agrupamento-H03-R81-TESTE-NAO-EXECUTAR/IFC-BIM-CONTROLE/Modelo 3D.IFC",
+      "bytes": 208470,
+      "sha256": "b140980bad9323e5e4e3a0792d1f0fa63d69cfe249c4c495e70b369a56870547"
+    },
+    {
+      "path": "outputs/Agrupamento-H03-R81-TESTE-NAO-EXECUTAR/IFC-BIM/Modelo 3D.IFC",
+      "bytes": 208461,
+      "sha256": "930b8f48c0366a8d21d46182d16fc7f214b4df8112dbccf3600c291257f13ffe"
+    }
+  ],
+  "coordinateDecimals": 9,
+  "wholeFlowRanked": false,
+  "structuralApproval": false,
+  "limits": [
+    "Revit: soma de parametros exportados, sem novo acesso ao RVT nesta rodada.",
+    "CAD: volume nominal calculado da proposta comum, nao parametro de volume extraido do DWG 2D.",
+    "IFC: malhas conferidas como cuboides fechados; fundacoes auxiliares excluidas.",
+    "Igualdade de volume ocupado nao verifica vinculos, armaduras ou desempenho estrutural.",
+    "Nao e quantitativo executivo, custo ou inventario ambiental."
+  ],
+  "endedAtUtc": "2026-10-31T00:46:01.833071+00:00",
+  "auditScriptSeconds": 1.1912967999960529
+}
