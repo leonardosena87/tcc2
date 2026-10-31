@@ -1,0 +1,754 @@
+{
+  "revision": "H03/R84",
+  "sourceRevision": "H03/R83",
+  "startedAtUtc": "2026-10-31T00:06:13.703Z",
+  "endedAtUtc": "2026-10-31T00:06:13.732Z",
+  "auditScriptMs": 27.7828,
+  "counts": {
+    "column": 22,
+    "beam": 29,
+    "slab": 11
+  },
+  "revit": {
+    "allIdsMatched": true,
+    "allCategoriesMatch": true,
+    "measuredItems": 40,
+    "allAvailableLengthsAndAreasMatch": true,
+    "rows": [
+      {
+        "sourceId": "P1-N1",
+        "kind": "column",
+        "revitId": "472930",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073762",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P2-N1",
+        "kind": "column",
+        "revitId": "472931",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073763",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P3-N1",
+        "kind": "column",
+        "revitId": "472932",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073764",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P4-N1",
+        "kind": "column",
+        "revitId": "472933",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073765",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P5-N1",
+        "kind": "column",
+        "revitId": "472934",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073766",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P6-N1",
+        "kind": "column",
+        "revitId": "472935",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073767",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P7-N1",
+        "kind": "column",
+        "revitId": "472936",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073768",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P8-N1",
+        "kind": "column",
+        "revitId": "472937",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073769",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P9-N1",
+        "kind": "column",
+        "revitId": "472938",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-0007376a",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "V1-N1",
+        "kind": "beam",
+        "revitId": "472942",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-0007376e",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 4.4,
+        "observed": 4.4,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V2-N1",
+        "kind": "beam",
+        "revitId": "472947",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073773",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.1000000000000005,
+        "observed": 3.1,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V3-N1",
+        "kind": "beam",
+        "revitId": "472949",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073775",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 4.4,
+        "observed": 4.4,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V4A-N1",
+        "kind": "beam",
+        "revitId": "472954",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-0007377a",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 2.1499999999999995,
+        "observed": 2.15,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V4B-N1",
+        "kind": "beam",
+        "revitId": "472959",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-0007377f",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.1000000000000005,
+        "observed": 3.1,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V5-N1",
+        "kind": "beam",
+        "revitId": "472961",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073781",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 4.4,
+        "observed": 4.4,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V6-N1",
+        "kind": "beam",
+        "revitId": "472963",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073783",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 5.25,
+        "observed": 5.25,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V7-N1",
+        "kind": "beam",
+        "revitId": "472969",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073789",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.9,
+        "observed": 3.9,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V8-N1",
+        "kind": "beam",
+        "revitId": "472974",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-0007378e",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.15,
+        "observed": 3.15,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V9-N1",
+        "kind": "beam",
+        "revitId": "472976",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073790",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.9,
+        "observed": 3.9,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V10-N1",
+        "kind": "beam",
+        "revitId": "472978",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073792",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.15,
+        "observed": 3.15,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V11-N1",
+        "kind": "beam",
+        "revitId": "472980",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073794",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.9,
+        "observed": 3.9,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V12-N1",
+        "kind": "beam",
+        "revitId": "472982",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073796",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.15,
+        "observed": 3.15,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V13-N1",
+        "kind": "beam",
+        "revitId": "472984",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073798",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.9,
+        "observed": 3.9,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V15-N1",
+        "kind": "beam",
+        "revitId": "472986",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-0007379a",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 2.1499999999999995,
+        "observed": 2.15,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "L1-N1",
+        "kind": "slab",
+        "revitId": "472992",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737a0",
+        "categoryMatches": true,
+        "measurement": "slabAreaM2",
+        "expected": 17.16,
+        "observed": 17.16,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "L2-N1",
+        "kind": "slab",
+        "revitId": "472999",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737a7",
+        "categoryMatches": true,
+        "measurement": "slabAreaM2",
+        "expected": 13.860000000000001,
+        "observed": 13.86,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "L3-N1",
+        "kind": "slab",
+        "revitId": "473006",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737ae",
+        "categoryMatches": true,
+        "measurement": "slabAreaM2",
+        "expected": 12.090000000000002,
+        "observed": 12.09,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "L4-N1",
+        "kind": "slab",
+        "revitId": "473013",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737b5",
+        "categoryMatches": true,
+        "measurement": "slabAreaM2",
+        "expected": 16.537499999999998,
+        "observed": 16.5375,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "L6-N1",
+        "kind": "slab",
+        "revitId": "473020",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737bc",
+        "categoryMatches": true,
+        "measurement": "slabAreaM2",
+        "expected": 2.257499999999999,
+        "observed": 2.2575,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "P1-N2",
+        "kind": "column",
+        "revitId": "473025",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737c1",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P2-N2",
+        "kind": "column",
+        "revitId": "473026",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737c2",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P3-N2",
+        "kind": "column",
+        "revitId": "473027",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737c3",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P4-N2",
+        "kind": "column",
+        "revitId": "473028",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737c4",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P5-N2",
+        "kind": "column",
+        "revitId": "473029",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737c5",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P6-N2",
+        "kind": "column",
+        "revitId": "473030",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737c6",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P7-N2",
+        "kind": "column",
+        "revitId": "473031",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737c7",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P8-N2",
+        "kind": "column",
+        "revitId": "473032",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737c8",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P9-N2",
+        "kind": "column",
+        "revitId": "473033",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737c9",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "V1-N2",
+        "kind": "beam",
+        "revitId": "473034",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737ca",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 4.4,
+        "observed": 4.4,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V2-N2",
+        "kind": "beam",
+        "revitId": "473036",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737cc",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 5.25,
+        "observed": 5.25,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V3-N2",
+        "kind": "beam",
+        "revitId": "473038",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737ce",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 4.4,
+        "observed": 4.4,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V4A-N2",
+        "kind": "beam",
+        "revitId": "473040",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737d0",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 2.1499999999999995,
+        "observed": 2.15,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V4B-N2",
+        "kind": "beam",
+        "revitId": "473042",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737d2",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.1000000000000005,
+        "observed": 3.1,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V5-N2",
+        "kind": "beam",
+        "revitId": "473044",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737d4",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 4.4,
+        "observed": 4.4,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V6-N2",
+        "kind": "beam",
+        "revitId": "473046",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737d6",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 5.25,
+        "observed": 5.25,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V7-N2",
+        "kind": "beam",
+        "revitId": "473048",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737d8",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.9,
+        "observed": 3.9,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V8-N2",
+        "kind": "beam",
+        "revitId": "473050",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737da",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.15,
+        "observed": 3.15,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V9-N2",
+        "kind": "beam",
+        "revitId": "473052",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737dc",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.9,
+        "observed": 3.9,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V10-N2",
+        "kind": "beam",
+        "revitId": "473054",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737de",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.15,
+        "observed": 3.15,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V11-N2",
+        "kind": "beam",
+        "revitId": "473056",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737e0",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.9,
+        "observed": 3.9,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V12-N2",
+        "kind": "beam",
+        "revitId": "473058",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737e2",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.15,
+        "observed": 3.15,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "V13-N2",
+        "kind": "beam",
+        "revitId": "473060",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737e4",
+        "categoryMatches": true,
+        "measurement": "curveLengthM",
+        "expected": 3.9,
+        "observed": 3.9,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "L1-N2",
+        "kind": "slab",
+        "revitId": "473064",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737e8",
+        "categoryMatches": true,
+        "measurement": "slabAreaM2",
+        "expected": 17.16,
+        "observed": 17.16,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "L2-N2",
+        "kind": "slab",
+        "revitId": "473071",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737ef",
+        "categoryMatches": true,
+        "measurement": "slabAreaM2",
+        "expected": 13.860000000000001,
+        "observed": 13.86,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "L3-N2",
+        "kind": "slab",
+        "revitId": "473078",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737f6",
+        "categoryMatches": true,
+        "measurement": "slabAreaM2",
+        "expected": 12.090000000000002,
+        "observed": 12.09,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "L4-N2",
+        "kind": "slab",
+        "revitId": "473085",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-000737fd",
+        "categoryMatches": true,
+        "measurement": "slabAreaM2",
+        "expected": 16.537499999999998,
+        "observed": 16.5375,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "L5-N2",
+        "kind": "slab",
+        "revitId": "473092",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073804",
+        "categoryMatches": true,
+        "measurement": "slabAreaM2",
+        "expected": 8.384999999999998,
+        "observed": 8.385,
+        "measurementMatches": true
+      },
+      {
+        "sourceId": "P10-N1",
+        "kind": "column",
+        "revitId": "473097",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073809",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P10-N2",
+        "kind": "column",
+        "revitId": "473098",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-0007380a",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P11-N1",
+        "kind": "column",
+        "revitId": "473143",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073837",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "P11-N2",
+        "kind": "column",
+        "revitId": "473144",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-00073838",
+        "categoryMatches": true,
+        "measurement": null,
+        "expected": null,
+        "observed": null,
+        "measurementMatches": null
+      },
+      {
+        "sourceId": "L7-VARANDA-N1",
+        "kind": "slab",
+        "revitId": "473147",
+        "uniqueId": "433dfec8-19e4-4815-b766-939d09dacc3f-0007383b",
+        "categoryMatches": true,
+        "measurement": "slabAreaM2",
+        "expected": 3.5474999999999977,
+        "observed": 3.5475,
+        "measurementMatches": true
+      }
+    ],
+    "limits": "Exportacao de leitura nao contem b/h, eixos XYZ, vinculos, cargas ou armaduras. Nao e auditoria completa das secoes nem do modelo analitico."
+  },
+  "cad": {
+    "equal": true,
+    "sourceEntities": 127,
+    "reopenedEntities": 127,
+    "polylines": 62,
+    "texts": 65,
+    "differences": []
+  },
+  "files": [
+    {
+      "name": "H03-R83-proposta.json",
+      "bytes": 30999,
+      "sha256": "54ecdb14a8dd7ce2f0183559c12b4214c124302560408138e39fff39746a7fc9"
+    },
+    {
+      "name": "R83-Revit-criacao-nativa.json",
+      "bytes": 8429,
+      "sha256": "c0957ff65540e0e5ffd512c776ef2398ff9b2dc13964c495620c247a3320d88c"
+    },
+    {
+      "name": "R83-Revit-leitura-apos-reabrir.json",
+      "bytes": 23340,
+      "sha256": "a9520d67a7a4c752be9fc10ee993091d07d3602da992c3fa011f06c4b27fea36"
+    },
+    {
+      "name": "H03-R83-AutoCAD.dxf",
+      "bytes": 32660,
+      "sha256": "711d1a16f6068c4048aa232876e133ea6ff6f012d9449a853d49b0f9bbf29bd6"
+    },
+    {
+      "name": "H03-R83-AutoCAD-releitura.dxf",
+      "bytes": 109515,
+      "sha256": "d82dfbf1a3a7809f267eec6bd363ba7f1c1e12ca37f758ab1b54c2f3fb0f2fd4"
+    },
+    {
+      "name": "H03-R83-AutoCAD.dwg",
+      "bytes": 23157,
+      "sha256": "295a16a8be4601d92168889c32d962423bb2d7eee08bb2eb4a623b2418112496"
+    },
+    {
+      "name": "H03-R83-Revit.rvt",
+      "bytes": 8822784,
+      "sha256": "ca3d155eb5dcce8063fc748371b2bbb7908efa79d226681890c50af857dd71f6"
+    }
+  ],
+  "sourceFilesPreserved": true,
+  "flowTotal": false,
+  "rankingAllowed": false,
+  "structuralApproval": false,
+  "rvtBytes": 8822784,
+  "status": "audited_with_explicit_limits"
+}
