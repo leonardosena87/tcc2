@@ -1,0 +1,231 @@
+Window: "AltoQi Eberick 2025 Infinity - [15-H03-R98-BIM-QT-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [15-H03-R98-BIM-QT-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+		31454 diálogo (disabled) Nó Secondary Actions: Raise
+			31581 diálogo Carga concentrada Secondary Actions: Raise
+				31582 grupo ID: 118
+				31583 text Ação ID: 121
+				31584 caixa de combinação (settable, string) Ação Value: Q_TELHADO_MANUTENCAO ID: 115
+					31585 text (settable, string) Ação Value: Q_TELHADO_MANUTENCAO
+					31586 botão Abrir ID: DropDown
+				31587 text Cargas ID: 119
+				31588 text Fx ID: 122
+				31589 editar (settable, string) Fx Value: 0 ID: 112
+				31590 text kN ID: 111
+				31591 text Fy ID: 123
+				31592 editar (settable, string) Fy Value: 0 ID: 110
+				31593 text kN ID: 109
+				31594 text Fz ID: 124
+				31595 editar (settable, string) Fz Value: -1.0725 ID: 108
+				31596 text kN ID: 107
+				31597 text Momentos ID: 120
+				31598 text Mx ID: 125
+				31599 editar (settable, string) Mx Value: 0 ID: 106
+				31600 text kN.m ID: 105
+				31601 text My ID: 126
+				31602 editar (settable, string) My Value: 0 ID: 104
+				31603 text kN.m ID: 103
+				31604 text Mz ID: 127
+				31605 editar (settable, string) Mz Value: 0 ID: 102
+				31606 text kN.m ID: 101
+				31607 botão OK ID: 1
+				31608 botão Cancelar ID: 2
+				31609 botão Ajuda ID: 9
+				31610 barra de título (settable, string) Value: Carga concentrada
+			31455 grupo Posição
+			31456 text X
+			31457 editar (settable, string) X Value: 110 ID: 544
+			31458 text Y
+			31459 editar (settable, string) Y Value: 0 ID: 545
+			31460 grupo Desenho ID: 905
+			31461 text Nível
+			31462 caixa de combinação (settable, string) Nível Value: CR-Vigas ID: 106
+				31463 text (settable, string) Nível Value: CR-Vigas
+				31464 botão Abrir ID: DropDown
+			31465 text Cor
+			31466 caixa de combinação (settable, string) Cor Value: ???? ID: 546
+				31467 text (settable, string) Cor Value: ????
+				31468 botão Abrir ID: DropDown
+			31469 text Tipo de linha
+			31470 caixa de combinação (settable, string) Tipo de linha Value:  ID: 543
+				31471 text (settable, string) Tipo de linha Value: 
+				31472 botão Abrir ID: DropDown
+			31473 grupo Furo ID: 900
+			31474 text Dimensão: ID: 901
+			31475 text <nenhum> ID: 902
+			31476 botão Lançar... ID: 903
+			31477 botão Remover ID: 904
+			31478 botão OK ID: 1
+			31479 botão Cancelar ID: 2
+			31480 botão Cargas... ID: 822
+			31481 botão Ajuda ID: 9
+			31482 barra de título (settable, string) Value: Nó
+		7 Barra de status
+			31716 custom
+				31717 text Editar
+				31718 editar (settable, string)
+				31719 text 110.8,-0.6
+				31720 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					31721 Lista
+						31722 item de lista (selectable) 1:1
+						31723 item de lista (selectable) 1:2
+						31724 item de lista (selectable) 1:5
+						31725 item de lista (selectable) 1:10
+						31726 item de lista (selectable) 1:12.5
+						31727 item de lista (selectable) 1:15
+						31728 item de lista (selectable) 1:20
+						31729 item de lista (selectable) 1:25
+						31730 item de lista (selectable) 1:30
+						31731 item de lista (selectable) 1:40
+						31732 item de lista (selectable) 1:50
+						31733 item de lista (selectable) 1:60
+						31734 item de lista (selectable) 1:75
+						31735 item de lista (selectable) 1:100
+						31736 item de lista (selectable) 1:200
+						31737 item de lista (selectable) 1:250
+						31738 item de lista (selectable) 1:500
+						31739 item de lista (selectable) 1:1000
+			31740 botão Atualizar
+			31741 botão Enquadrar
+			31742 botão Aproximar
+			31743 botão Afastar
+			31744 botão Zoom
+			31745 botão Zoom anterior
+			31746 botão Deslocar
+			31747 caixa de seleção Ortogonal
+			31748 caixa de seleção Captura personalizada
+			31749 botão Opções da captura personalizada
+			31750 caixa de seleção Quadrante
+			31751 caixa de seleção Centro
+			31752 caixa de seleção Ponto médio
+			31753 caixa de seleção Extremidade
+			31754 caixa de seleção Ponto no elemento
+			31755 caixa de seleção Intersecção
+			31756 caixa de seleção Perpendicular
+			31757 caixa de seleção Ponto intermediário
+			31758 caixa de seleção Ponto quadrante
+			31759 caixa de seleção Ponto na intersecção
+			31760 caixa de seleção Ponto relativo
+		53 painel
+			54 botão de divisão
+				55 elevador
+				56 painel
+					57 tabulação Croqui-TCC-cdd31967-N2
+						31761 item de tabulação (selectable) Notícias
+						31762 item de tabulação (selectable) Croqui-TCC-cdd31967-N2
+					60 painel
+						61 painel
+							62 painel Croqui-TCC-cdd31967-N2
+								63 painel TCadPlotWindow
+				64 painel
+					65 tabulação
+						31763 item de tabulação (selectable)
+						31764 item de tabulação (selectable)
+					68 painel
+						69 janela Edificação Secondary Actions: Raise
+							70 painel
+								71 painel Projeto
+									72 painel
+									73 árvore ID: 101
+										74 item da árvore (selectable, disabled) Pavimentos
+											75 item da árvore (selectable, disabled) TCC-cdd31967-N2
+											76 item da árvore (selectable, disabled) TCC-cdd31967-N1
+											77 item da árvore (selectable, disabled) TCC-cdd31967-N0
+										78 item da árvore (selectable, disabled) Cortes
+										79 item da árvore (selectable, disabled) Gerenciador de desenhos
+										80 item da árvore (selectable, disabled) Modelos 3D
+											81 item da árvore (selectable, disabled) H03-R44-geometria-nominal
+		82 barra de menus
+		31581 diálogo Carga concentrada Secondary Actions: Raise
+			31582 grupo ID: 118
+			31583 text Ação ID: 121
+			31584 caixa de combinação (settable, string) Ação Value: Q_TELHADO_MANUTENCAO ID: 115
+				31585 text (settable, string) Ação Value: Q_TELHADO_MANUTENCAO
+				31586 botão Abrir ID: DropDown
+			31587 text Cargas ID: 119
+			31588 text Fx ID: 122
+			31589 editar (settable, string) Fx Value: 0 ID: 112
+			31590 text kN ID: 111
+			31591 text Fy ID: 123
+			31592 editar (settable, string) Fy Value: 0 ID: 110
+			31593 text kN ID: 109
+			31594 text Fz ID: 124
+			31595 editar (settable, string) Fz Value: -1.0725 ID: 108
+			31596 text kN ID: 107
+			31597 text Momentos ID: 120
+			31598 text Mx ID: 125
+			31599 editar (settable, string) Mx Value: 0 ID: 106
+			31600 text kN.m ID: 105
+			31601 text My ID: 126
+			31602 editar (settable, string) My Value: 0 ID: 104
+			31603 text kN.m ID: 103
+			31604 text Mz ID: 127
+			31605 editar (settable, string) Mz Value: 0 ID: 102
+			31606 text kN.m ID: 101
+			31607 botão OK ID: 1
+			31608 botão Cancelar ID: 2
+			31609 botão Ajuda ID: 9
+			31610 barra de título (settable, string) Value: Carga concentrada
+		31454 diálogo (disabled) Nó Secondary Actions: Raise
+			31581 diálogo Carga concentrada Secondary Actions: Raise
+				31582 grupo ID: 118
+				31583 text Ação ID: 121
+				31584 caixa de combinação (settable, string) Ação Value: Q_TELHADO_MANUTENCAO ID: 115
+					31585 text (settable, string) Ação Value: Q_TELHADO_MANUTENCAO
+					31586 botão Abrir ID: DropDown
+				31587 text Cargas ID: 119
+				31588 text Fx ID: 122
+				31589 editar (settable, string) Fx Value: 0 ID: 112
+				31590 text kN ID: 111
+				31591 text Fy ID: 123
+				31592 editar (settable, string) Fy Value: 0 ID: 110
+				31593 text kN ID: 109
+				31594 text Fz ID: 124
+				31595 editar (settable, string) Fz Value: -1.0725 ID: 108
+				31596 text kN ID: 107
+				31597 text Momentos ID: 120
+				31598 text Mx ID: 125
+				31599 editar (settable, string) Mx Value: 0 ID: 106
+				31600 text kN.m ID: 105
+				31601 text My ID: 126
+				31602 editar (settable, string) My Value: 0 ID: 104
+				31603 text kN.m ID: 103
+				31604 text Mz ID: 127
+				31605 editar (settable, string) Mz Value: 0 ID: 102
+				31606 text kN.m ID: 101
+				31607 botão OK ID: 1
+				31608 botão Cancelar ID: 2
+				31609 botão Ajuda ID: 9
+				31610 barra de título (settable, string) Value: Carga concentrada
+			31455 grupo Posição
+			31456 text X
+			31457 editar (settable, string) X Value: 110 ID: 544
+			31458 text Y
+			31459 editar (settable, string) Y Value: 0 ID: 545
+			31460 grupo Desenho ID: 905
+			31461 text Nível
+			31462 caixa de combinação (settable, string) Nível Value: CR-Vigas ID: 106
+				31463 text (settable, string) Nível Value: CR-Vigas
+				31464 botão Abrir ID: DropDown
+			31465 text Cor
+			31466 caixa de combinação (settable, string) Cor Value: ???? ID: 546
+				31467 text (settable, string) Cor Value: ????
+				31468 botão Abrir ID: DropDown
+			31469 text Tipo de linha
+			31470 caixa de combinação (settable, string) Tipo de linha Value:  ID: 543
+				31471 text (settable, string) Tipo de linha Value: 
+				31472 botão Abrir ID: DropDown
+			31473 grupo Furo ID: 900
+			31474 text Dimensão: ID: 901
+			31475 text <nenhum> ID: 902
+			31476 botão Lançar... ID: 903
+			31477 botão Remover ID: 904
+			31478 botão OK ID: 1
+			31479 botão Cancelar ID: 2
+			31480 botão Cargas... ID: 822
+			31481 botão Ajuda ID: 9
+			31482 barra de título (settable, string) Value: Nó
+
+Document text: ```
+Editar
+110.8,-0.6
+```

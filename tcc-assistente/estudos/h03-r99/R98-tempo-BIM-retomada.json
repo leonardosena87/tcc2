@@ -1,0 +1,21 @@
+{
+  "schema": "tcc-timing-stage/1",
+  "branch": "BIM",
+  "stage": "recuperacao-cadastro-QT13-e-conferencia",
+  "start": {
+    "utc": "2026-10-31T18:35:34.442Z",
+    "monotonic": 7760207.914
+  },
+  "end": {
+    "utc": "2026-10-31T20:38:08.358Z",
+    "monotonic": 15114123.9811
+  },
+  "wallMs": 7353916.067100001,
+  "utcElapsedMs": 7353916,
+  "includesRecovery": true,
+  "includesIndependentWork": true,
+  "includesConversationGaps": true,
+  "activeEffortMeasured": false,
+  "completeFlow": false,
+  "fullFlowRankingAllowed": false
+}

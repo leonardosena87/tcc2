@@ -1,0 +1,21 @@
+{
+  "schema": "tcc-timing-stage/1",
+  "branch": "CAD",
+  "stage": "cadastro-QT13-e-conferencia",
+  "start": {
+    "utc": "2026-10-31T20:38:24.793Z",
+    "monotonic": 15130558.8608
+  },
+  "end": {
+    "utc": "2026-10-31T23:00:55.611Z",
+    "monotonic": 23681376.5868
+  },
+  "wallMs": 8550817.726000002,
+  "utcElapsedMs": 8550818,
+  "includesRecovery": true,
+  "includesIndependentWork": true,
+  "includesConversationGaps": true,
+  "activeEffortMeasured": false,
+  "completeFlow": false,
+  "fullFlowRankingAllowed": false
+}
