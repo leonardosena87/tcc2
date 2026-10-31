@@ -1,0 +1,141 @@
+Window: "AltoQi Eberick 2025 Infinity - [13-H03-R97-BIM-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [13-H03-R97-BIM-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+		11076 diálogo Ações Secondary Actions: Raise
+			11077 text Tipo
+			11078 árvore Tipo ID: 110
+				11079 barra de rolagem (settable, float) Horizontal Value: 0 ID: NonClientHorizontalScrollBar
+					11080 botão Uma coluna à esquerda ID: UpButton
+					11081 elevador Posição ID: ScrollbarThumb
+					11082 botão Uma página à direita ID: DownPageButton
+					11083 botão Uma coluna à direita ID: DownButton
+				11084 item da árvore (selectable) Permanente
+				11085 item da árvore (selectable) Protensão
+				11086 item da árvore (selectable) Retração
+				11087 item da árvore (selectable) Acidental
+				11088 item da árvore (selectable) Subpressão
+				11089 item da árvore (selectable) Temperatura
+				11090 item da árvore (selectable) Vento
+				11091 item da árvore (selectable) Sismo
+				11092 item da árvore (selectable) Desaprumo
+				11093 item da árvore (selectable) Q_TELHADO_MANUTENCAO
+			11094 botão + ID: 111
+			11095 botão - ID: 112
+			11114 grupo Ação ID: 120
+			11115 text Nome ID: 128
+			11116 editar (settable, string) Nome Value: Q_TELHADO_MANUTENCAO ID: 121
+			11117 text Indicação ID: 127
+			11118 editar (settable, string) Indicação Value: QT ID: 122
+			11119 caixa de seleção Considerar para as lajes ID: 125
+			11120 text Variabilidade ID: 126
+			11121 botão de opção (selectable) Permanente ID: 115
+			11122 botão de opção (selectable) Acidental direta ID: 116
+			11123 botão de opção (selectable) Acidental indireta ID: 117
+			11124 botão de opção (selectable) Excepcional ID: 118
+			11125 grupo Coef. de ponderação ID: 130
+			11126 text Concreto ID: 215
+			11127 text Aço ID: 218
+			11128 text Alvenaria ID: 214
+			11129 text Normais (desfavorável) ID: 136
+			11130 editar (settable, string) Normais (desfavorável) Value: 1.40 ID: 131
+			11131 editar (settable, string) Value: 1.50 ID: 216
+			11132 editar (disabled, settable, string) Value: 1.40 ID: 212
+			11133 text Normais (favorável) ID: 135
+			11134 editar (disabled, settable, string) Normais (favorável) Value: 0.00 ID: 132
+			11135 editar (disabled, settable, string) Value: 0.00 ID: 217
+			11136 editar (disabled, settable, string) Value: 0.00 ID: 213
+			11137 text Excepcionais (desfavorável) ID: 219
+			11138 editar (settable, string) Excepcionais (desfavorável) Value: 1.00 ID: 221
+			11139 editar (settable, string) Value: 1.00 ID: 222
+			11140 editar (settable, string) Value: 1.00 ID: 223
+			11141 text Excepcionais (favorável) ID: 224
+			11142 editar (disabled, settable, string) Excepcionais (favorável) Value: 0.00 ID: 225
+			11143 editar (disabled, settable, string) Value: 0.00 ID: 226
+			11144 editar (disabled, settable, string) Value: 0.00 ID: 227
+			11145 text Fundações ID: 134
+			11146 editar (settable, string) Fundações Value: 1.00 ID: 133
+			11147 text Construção ID: 206
+			11148 editar (settable, string) Construção Value: 1.20 ID: 137
+			11149 text Incêndio ID: 139
+			11150 editar (settable, string) Incêndio Value: 1.00 ID: 138
+			11151 grupo Fatores de combinação ID: 151
+			11152 text y ID: 155
+			11153 text 0 ID: 158
+			11154 text = ID: 162
+			11155 editar (settable, string) = Value: 0.50 ID: 152
+			11156 text y ID: 156
+			11157 text 1 ID: 159
+			11158 text = ID: 163
+			11159 editar (settable, string) = Value: 0.40 ID: 153
+			11160 text y ID: 157
+			11161 text 2 ID: 161
+			11162 text = ID: 164
+			11163 editar (settable, string) = Value: 0.30 ID: 154
+			11164 text Combinações ID: 140
+			11104 botão OK ID: 1
+			11105 botão Cancelar ID: 2
+			11106 botão Ajuda ID: 9
+			11107 tabulação ID: 12320
+				11108 item de tabulação (selectable) Ações
+				11109 item de tabulação (selectable) Combinações
+			11110 barra de título (settable, string) Value: Ações
+				11111 botão Ajuda de contexto
+		1 Barra de status
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Notícias
+						11165 item de tabulação (selectable) Notícias
+					8 painel
+						8102 painel
+							8103 painel (disabled) status.altoqi.com.br
+								8104 painel (disabled)
+								8105 região status.altoqi.com.br - Conteúdo da Web
+									8106 região
+										8107 região
+										8108 região
+											8109 região
+												8110 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													8111 gráfico
+													8112 título Hum… Não consigo chegar a esta página
+													8113 text status.altoqi.com.br
+													8114 text se recusou a se conectar.
+													8115 text Tente:
+													8116 Lista
+														8117 item de lista •Verificando a conexão
+														8118 item de lista •Verificação de proxy e firewall
+															8119 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													8120 text ERR_CONNECTION_REFUSED
+													8121 botão Atualizar ID: reload-button
+													8122 text Microsoft Edge
+												8123 região
+				31 painel
+					32 tabulação
+						11166 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									39 painel
+									10975 árvore ID: 101
+										10976 item da árvore (selectable, disabled) Pavimentos
+											10977 item da árvore (selectable, disabled) TCC-cdd31967-N2
+											10978 item da árvore (selectable, disabled) TCC-cdd31967-N1
+											10979 item da árvore (selectable, disabled) TCC-cdd31967-N0
+										10980 item da árvore (selectable, disabled) Cortes
+										10981 item da árvore (selectable, disabled) Gerenciador de desenhos
+										10982 item da árvore (selectable, disabled) Modelos 3D
+											10983 item da árvore (selectable, disabled) H03-R44-geometria-nominal
+		40 barra de menus
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```

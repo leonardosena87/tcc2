@@ -1,0 +1,308 @@
+{
+  "revision": "H03/R97",
+  "atUtc": "2026-10-31T15:03:23.901968+00:00",
+  "status": "Acao QT cadastrada e relida nos dois ramos; cargas pontuais ainda nao aplicadas.",
+  "branches": {
+    "CAD": {
+      "fieldsByControlId": {
+        "121": "Q_TELHADO_MANUTENCAO",
+        "122": "QT",
+        "131": "1.40",
+        "216": "1.50",
+        "212": "1.40",
+        "132": "0.00",
+        "217": "0.00",
+        "213": "0.00",
+        "221": "1.00",
+        "222": "1.00",
+        "223": "1.00",
+        "225": "0.00",
+        "226": "0.00",
+        "227": "0.00",
+        "133": "1.00",
+        "137": "1.20",
+        "138": "1.00",
+        "152": "0.50",
+        "153": "0.40",
+        "154": "0.30"
+      },
+      "uiTextSha256": "4fc8edc052f24e8bc6087576fded10bb4aedd79f147f58b010dbd8edc24997ad",
+      "timing": {
+        "startedAtUtc": "2026-10-31T14:36:59.665Z",
+        "endedAtUtc": "2026-10-31T14:49:55.803Z",
+        "wallMs": 776138.5952000003,
+        "scope": "Abrir Projeto/Acoes ate gravacao e releitura da nova acao; inclui navegacao e trabalho intercalado, exclui preparacao de copias. Nao e tempo totalCAD.",
+        "includesHumanWait": true,
+        "includesIndependentWork": true,
+        "humanActiveMs": null,
+        "aiInferenceMs": null,
+        "wholeFlowTotal": false,
+        "rankingAllowed": false
+      },
+      "savedClosedReopened": true,
+      "combinationsVisualRead": {
+        "active": true,
+        "isolated": true,
+        "favorableEffect": false,
+        "automaticGeneration": true,
+        "combineBetweenAccidentals": false
+      },
+      "combinationImageSha256": "ba6d7b7bdd24fb047423f1d8783cc19b72c2e2f8f51dbe98b1dbd0dc715e3943",
+      "prj": {
+        "path": "D:\\TCC\\outputs\\12-H03-R97-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+        "beforeSha256": "c7b661c0ec618bd0a5d9ae78d0ffe432d1bdea37a72e7c3bdf4a86ca5c26a281",
+        "afterSha256": "ff1a1cd18b16afea773c3be40792d7da448635f061d5dace83f8eb50b7fab305",
+        "binaryChanged": true
+      }
+    },
+    "BIM": {
+      "fieldsByControlId": {
+        "121": "Q_TELHADO_MANUTENCAO",
+        "122": "QT",
+        "131": "1.40",
+        "216": "1.50",
+        "212": "1.40",
+        "132": "0.00",
+        "217": "0.00",
+        "213": "0.00",
+        "221": "1.00",
+        "222": "1.00",
+        "223": "1.00",
+        "225": "0.00",
+        "226": "0.00",
+        "227": "0.00",
+        "133": "1.00",
+        "137": "1.20",
+        "138": "1.00",
+        "152": "0.50",
+        "153": "0.40",
+        "154": "0.30"
+      },
+      "uiTextSha256": "a357f6855663902c4bb5d932ee4b5f3f7eb7089fcea7353994cfbcba8fb08e93",
+      "timing": {
+        "startedAtUtc": "2026-10-31T14:51:00.687Z",
+        "endedAtUtc": "2026-10-31T15:00:43.066Z",
+        "wallMs": 582378.0719999997,
+        "scope": "Abrir Projeto/Acoes ate gravacao e releitura da nova acao; inclui navegacao e trabalho intercalado, exclui preparacao de copias. Nao e tempo totalBIM.",
+        "includesHumanWait": true,
+        "includesIndependentWork": true,
+        "humanActiveMs": null,
+        "aiInferenceMs": null,
+        "wholeFlowTotal": false,
+        "rankingAllowed": false
+      },
+      "savedClosedReopened": true,
+      "combinationsVisualRead": {
+        "active": true,
+        "isolated": true,
+        "favorableEffect": false,
+        "automaticGeneration": true,
+        "combineBetweenAccidentals": false
+      },
+      "combinationImageSha256": "2a520a8df1342ae7533ba51a3b94895cadadf14e97f955f9c4fb2a03f49b7e2d",
+      "prj": {
+        "path": "D:\\TCC\\outputs\\13-H03-R97-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+        "beforeSha256": "c91682af8de57d3afebf228558cbb82470cf75d49bf7fea06e7c25bf4eb94c3d",
+        "afterSha256": "f9b24dcc8e6a3104ef6ea1176b5c6bb08836fd8d2e55cb15012e6a5628025220",
+        "binaryChanged": true
+      }
+    }
+  },
+  "equalDistinctUiFields": 20,
+  "sourceFilesProtected": [
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_7136.log",
+      "preserved": true
+    },
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "preserved": true
+    },
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "preserved": true
+    },
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "preserved": true
+    },
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "preserved": true
+    },
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "preserved": true
+    },
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "preserved": true
+    },
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "preserved": true
+    },
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "preserved": true
+    },
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "preserved": true
+    },
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "preserved": true
+    },
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "preserved": true
+    },
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "preserved": true
+    },
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "preserved": true
+    },
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "preserved": true
+    },
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\10-H03-R85-CAD-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_7136.log",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "preserved": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\11-H03-R85-BIM-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "preserved": true
+    }
+  ],
+  "qtNodalLoadsApplied": false,
+  "plannedQtNodesPerBranch": 13,
+  "structuralProcessingPerformed": false,
+  "analysisInvalidatedByActionChange": true,
+  "humanInterventionRequests": 3,
+  "humanAssistedBranches": 2,
+  "originalQEdited": false,
+  "originalQPostChangeReadBack": false,
+  "finalFlowTimesAvailable": false,
+  "monographChanged": false,
+  "rankingAllowed": false,
+  "limits": [
+    "Leitura da interface e hashes; nao auditoria semantica integral do binario.",
+    "Estado das caixas registrado visualmente nas imagens; nao inferido da arvore textual.",
+    "Casos efetivos e combinacoes precisam ser relidos apos aplicacao das cargas.",
+    "Cadastro com assistencia humana; nao demonstracao de automacao integral.",
+    "Tempos incluem esperas e trabalho independente; nao comparar produtividade.",
+    "Saidas de processamento anteriores nao sao resultados recalculados desta revisao."
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "revision": "H03/R97",
+  "atUtc": "2026-10-31T15:03:24.018662+00:00",
+  "purpose": "Valores de referencia para alinhamento comum; nao cadastro aplicado ou ensaio de material.",
+  "sources": [
+    {
+      "path": "D:\\TCC\\materiais\\normas\\ABNT NBR 6118-2026.pdf",
+      "sha256": "3fb0ef6a7600593e3f0c1991f73ecffe08da7cb7543b5ac80290dd7dfd7b791e",
+      "pdfPagesVisuallyRead": [
+        42,
+        44,
+        45,
+        48
+      ]
+    },
+    {
+      "path": "D:\\TCC\\materiais\\normas\\ABNT NBR 6120-2019.pdf",
+      "sha256": "807c22009de912321bf743704cc4b5ad454ef0a68721b50f8d34bf2182f567b7",
+      "pdfPagesVisuallyRead": [
+        15,
+        17
+      ]
+    }
+  ],
+  "currentCatalogStatusVerified": false,
+  "catalogLookupResult": "Links do catalogo retornaram LINK EXPIRED.",
+  "concrete": {
+    "className": "C25",
+    "fckMPa": 25.0,
+    "gammaCNormalInformed": 1.4,
+    "fcdNormalMPa": 17.857142857142858,
+    "aggregateHypothesis": "granito/gnaisse, alphaE=1; nao caracterizacao de material real",
+    "alphaE": 1.0,
+    "alphaI": 0.8625,
+    "EciMPa": 28000.0,
+    "EcsMPa": 24150.0,
+    "EciFormula": "alphaE*5600*sqrt(fck)",
+    "alphaIFormula": "min(0.8+0.2*fck/80,1)",
+    "userEcsGPaInformed": 24.1,
+    "userAlphaInformed": 0.86,
+    "EcsFromRoundedAlphaMPa": 24080.0,
+    "differenceToUserEcsMPa": 50.0,
+    "fctmMPa": 2.564963920015045,
+    "fctkInfMPa": 1.7954747440105314,
+    "fctkSupMPa": 3.334453096019559,
+    "poissonLinearReference": 0.2,
+    "poissonCondition": "Compressao<0.5fc e tracao<fct; item8.2.9.",
+    "GcLinearReferenceMPa": 10062.5,
+    "massDensityRCReferenceKgM3": 2500,
+    "unitWeightRCReferenceKNM3": 25,
+    "densityAndUnitWeightMeaning": "Valores nominais de referencias distintas; nao conversao exata por g=9.80665.",
+    "revitYoungMappingApplied": false,
+    "revitYoungMappingMeaning": "Definir explicitamente Eci/Ecs e papel do ativo antes de editar.",
+    "referenceItems": [
+      "6118:2026,8.2.2",
+      "6118:2026,8.2.5",
+      "6118:2026,8.2.8",
+      "6118:2026,8.2.9"
+    ]
+  },
+  "steel": {
+    "className": "CA-50",
+    "fykMPa": 500,
+    "gammaSNormalInformed": 1.15,
+    "fydNormalMPa": 434.7826086956522,
+    "EsMPa": 210000,
+    "yieldStrainDesign": 0.002070393374741201,
+    "massDensityKgM3": 7850,
+    "referenceItems": [
+      "6118:2026,8.3.3",
+      "6118:2026,8.3.5"
+    ],
+    "completeNativeRegisterVerified": false
+  },
+  "wall": {
+    "finishedThicknessM": 0.15,
+    "finishedThicknessConfirmedByUser": true,
+    "body": "Bloco ceramico de vedacao com furos horizontais",
+    "bodyThicknessM": 0.115,
+    "finishThicknessEachFaceM": 0.0175,
+    "uncoatedWallKNM2": 0.9,
+    "finishUnitWeightKNM3": 19,
+    "areaWeightKNM2": 1.565,
+    "calculation": ".9+2*.0175*19",
+    "adoptedAsStudyHypothesis": true,
+    "compositionConfirmedByUser": false,
+    "manufacturerVerified": false,
+    "reference": "6120:2019,Tabela2,pagina impressa11/PDF17,composicao explicita sem interpolar valores arredondados.",
+    "includesMortarBedding": true,
+    "includesFinishesOnConcrete": false,
+    "includesLintelsJoinery": false,
+    "readyForNativeWallLoads": false
+  },
+  "nativeModelsChanged": false,
+  "loadsApplied": false,
+  "structuralComplianceAttested": false,
+  "limits": [
+    "Hipoteses academicas comuns aos dois fluxos; nao medições ou laudos.",
+    "Parametros isolados nao verificam carregamentos, rigidez, detalhamento ou ELU/ELS.",
+    "Geometria, aberturas e caminhos de carga das paredes continuam pendentes.",
+    "24.1GPa deriva da premissa arredondada; 24.15GPa usa alphaI=.8625, sem alterar silenciosamente o valor informado."
+  ]
+}
