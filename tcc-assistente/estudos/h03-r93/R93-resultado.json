@@ -1,0 +1,59 @@
+{
+  "revision": "H03/R93",
+  "status": "compression_alignment_saved_reopened_verified",
+  "matchedUnits": 62,
+  "allCompressionMPa": 25,
+  "allElementAssignmentRowsIdenticalToR92": true,
+  "changes": [
+    {
+      "materialId": "638",
+      "materialName": "Concreto, Moldado in loco",
+      "oldAssetId": "205653",
+      "newAssetId": "205653",
+      "oldAssetName": "Concreto 10 MPa",
+      "newAssetName": "TCC R93 - compressao 25 MPa - lajes",
+      "compressionBeforeMPa": 10,
+      "compressionAfterMPa": 25,
+      "densityYoungPoissonClassBehaviorPreserved": true
+    },
+    {
+      "materialId": "70123",
+      "materialName": "Concreto, Moldado in loco, cinza",
+      "oldAssetId": "205641",
+      "newAssetId": "473347",
+      "oldAssetName": "Concreto(1)",
+      "newAssetName": "TCC R93 - compressao 25 MPa - vigas e pilares",
+      "compressionBeforeMPa": 24.13293801,
+      "compressionAfterMPa": 25,
+      "densityYoungPoissonClassBehaviorPreserved": true
+    }
+  ],
+  "originalR83Sha256": "ca3d155eb5dcce8063fc748371b2bbb7908efa79d226681890c50af857dd71f6",
+  "savedR93Sha256BeforeReopening": "71ad9d55f90e420bc0d586f3a3c9cf4d1f3adf9b7bd4a51a2be522704d70e674",
+  "nativeAudit": {
+    "path": "D:\\TCC\\outputs\\Propriedades-Revit-20261031-131824-115-ce174172\\materiais-revit.json",
+    "sha256": "a7944a59f5ef6ecdec9b8629c343ad77e2da048495c9394e3b1431c652142dbf"
+  },
+  "mapping": {
+    "path": "D:/TCC/outputs/Autoria-H03-R83-SINCRONIZACAO-GEOMETRICA-NAO-EXECUTAR/R83-Revit-criacao-nativa.json",
+    "sha256": "c0957ff65540e0e5ffd512c776ef2398ff9b2dc13964c495620c247a3320d88c"
+  },
+  "finalReadMs": 7.3234,
+  "finalReadScope": "Somente leitura do comando, sem navegacao ou serializacao",
+  "assetMetadataDescriptionChangedInUI": {
+    "slab": "Estudo H03 R93: compressao cadastrada 25 MPa. Outras propriedades em conferencia.",
+    "verification": "Observado no editor; auditor R91 nao exporta descricao."
+  },
+  "geometryIndependentlyReaudited": false,
+  "fullMaterialAlignmentCompleted": false,
+  "IFCPropertyRetentionVerified": false,
+  "EberickUpdated": false,
+  "structuralApproval": false,
+  "monographChanged": false,
+  "remaining": [
+    "Eci/Ecs, densidade, tracao e demais propriedades do ativo",
+    "aco CA50 e cobrimentos",
+    "exportacao/recepcao IFC e parametros efetivos no receptor",
+    "cargas e ELU/ELS"
+  ]
+}

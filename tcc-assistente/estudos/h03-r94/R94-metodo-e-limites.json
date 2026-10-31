@@ -1,0 +1,42 @@
+{
+  "revision": "H03/R94",
+  "localInstalledCertificationFile": "C:\\Program Files\\Autodesk\\Revit 2027\\IFCCertifiedEntitiesAndPSets.json",
+  "localInstalledCertificationSha256": "419647efede7a0c77536cb85e2c99cdfc1051a296a58fae4d4b271f6df29ff23",
+  "localCV2EntityListContainsIfcExtendedMaterialProperties": false,
+  "localCV2PropertyListContainsIfcExtendedMaterialProperties": false,
+  "publicSourceCommitInspected": "7fe314fddf1a6052823bf41ce8cfeeca935efae1",
+  "publicSourceURL": "https://github.com/Autodesk/revit-ifc/blob/7fe314fddf1a6052823bf41ce8cfeeca935efae1/Source/Revit.IFC.Export/Utility/MaterialPropertiesUtil.cs",
+  "inference": "O filtro da vista e uma explicacao compativel com o fonte publico, a tabela local e os tres arquivos observados. Nao se demonstrou equivalencia byte a byte entre a DLL instalada e o fonte publico.",
+  "experimentUI": "Revit 2027.2 build 27.2.0.39",
+  "configDeltaControlToEnabled": {
+    "ExportMaterialPsets": [
+      false,
+      true
+    ],
+    "Name": "identificacao do arquivo"
+  },
+  "configDeltaEnabledToCV": {
+    "IFCVersion": [
+      21,
+      10
+    ],
+    "ExchangeRequirement": [
+      0,
+      3
+    ],
+    "Name": "identificacao do arquivo"
+  },
+  "sourceHarmonizationCompleted": false,
+  "receiverMaterialUseVerified": false,
+  "rankingAllowed": false,
+  "unitCorrection": "IfcSIUnit KILO GRAM normalizado a kg, incluindo unidade derivada de densidade. Relatorio preliminar tinha fator 1000 incorreto do auditor e permanece arquivado localmente; usar somente FINAL.",
+  "metadataFindings": [
+    "Descricao do ativo de vigas/pilares exportada ainda menciona fc padrao 3,5 ksi; nao e o valor numerico de compressao de 25 MPa.",
+    "Propriedades minimas de tensao/escoamento herdadas tambem aparecem no material concreto; nao comprovam armadura CA-50."
+  ],
+  "tests": {
+    "syntheticIFCInMemory": 9,
+    "passed": 9,
+    "hostTest": "Tres exportacoes reais pelo dialogo nativo; Eberick nao testado nesta revisao"
+  }
+}

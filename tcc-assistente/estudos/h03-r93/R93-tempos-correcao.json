@@ -1,0 +1,24 @@
+{
+  "revision": "H03/R93",
+  "segments": [
+    {
+      "id": "compressao",
+      "startedAtUtc": "2026-10-31T13:10:32.759Z",
+      "endedAtUtc": "2026-10-31T13:12:43.563Z",
+      "wallMs": 130803.02980000002,
+      "scope": "Expansao do grupo Concreto do material de lajes ate retorno da captura apos salvar R93. Inclui navegacao, observacoes e deliberacao do agente; exclui preparacao, abertura e verificacao posterior."
+    },
+    {
+      "id": "identificacao",
+      "startedAtUtc": "2026-10-31T13:14:53.247Z",
+      "endedAtUtc": "2026-10-31T13:17:16.480Z",
+      "wallMs": 143233.26340000005,
+      "scope": "Abrir catalogo ate retorno da captura apos salvar rotulos. Inclui navegacao, observacoes e deliberacao; exclui reabertura e auditoria posterior."
+    }
+  ],
+  "wholeFlowTotal": false,
+  "cpuTime": false,
+  "activeHumanTime": false,
+  "iaInferenceIsolated": false,
+  "rankingAllowed": false
+}
