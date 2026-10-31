@@ -11,14 +11,14 @@ export function utc(value) {
 
 export function classify(value) {
   if(!value||Array.isArray(value)||typeof value!=='object')throw Error('Registro de tempo nao e objeto.');
-  const fields=['durationMs','elapsedMs','elapsedWallMs'].filter(k=>typeof value[k]==='number'&&Number.isFinite(value[k]));
+  const fields=['durationMs','elapsedMs','elapsedWallMs','wallMs'].filter(k=>typeof value[k]==='number'&&Number.isFinite(value[k]));
   if(fields.some(k=>value[k]<0))throw Error('Duracao negativa.');
   const start=['startUtc','startedAt','startedAtUtc','started','start'].map(k=>utc(value[k])).find(Boolean)??null;
   const end=['endUtc','endedAt','endedAtUtc','finishedAtUtc','finish','end','utc'].map(k=>utc(value[k])).find(Boolean)??null;
   const nested=['records','sessions','session','events'].some(k=>k in value);
   const durationMs=fields.length?value[fields[0]]:null;
   const utcDifferenceMs=start&&end?Date.parse(end)-Date.parse(start):null;
-  return {classification:durationMs!==null?'intervalo_com_duracao':nested?'container_nao_expandido':'registro_sem_duracao_principal',durationMs,durationField:fields[0]??null,otherDurationFields:Object.fromEntries(fields.slice(1).map(k=>[k,value[k]])),startUtc:start,endUtc:end,utcDifferenceMs,durationMinusUtcMs:durationMs!==null&&utcDifferenceMs!==null?durationMs-utcDifferenceMs:null,containsNestedRecords:nested,scope:value.actualScope??value.scope??value.stage??value.meaning??null,branch:value.branch??value.flow??null,status:value.status??null,knownInterruption:value.includesConversationInterruptionAndResume===true||value.includesHumanEntryAndWait===true||value.includesHumanWindowRepositionAndWait===true||/interromp|cancelad/i.test(value.status??''),eligibleForFinalFlowRanking:false};
+  return {classification:durationMs!==null?'intervalo_com_duracao':nested?'container_nao_expandido':'registro_sem_duracao_principal',durationMs,durationField:fields[0]??null,otherDurationFields:Object.fromEntries(fields.slice(1).map(k=>[k,value[k]])),startUtc:start,endUtc:end,utcDifferenceMs,durationMinusUtcMs:durationMs!==null&&utcDifferenceMs!==null?durationMs-utcDifferenceMs:null,containsNestedRecords:nested,scope:value.actualScope??value.scope??value.stage??value.meaning??null,branch:value.branch??value.flow??null,status:value.status??null,knownInterruption:value.includesConversationInterruptionAndResume===true||value.includesConversationGaps===true||value.includesHumanWait===true||value.includesHumanEntryAndWait===true||value.includesHumanWindowRepositionAndWait===true||/interromp|interrupt|cancelad/i.test(value.status??''),eligibleForFinalFlowRanking:false};
 }
 
 export function overlaps(rows) {

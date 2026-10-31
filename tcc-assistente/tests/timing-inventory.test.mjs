@@ -21,3 +21,18 @@ test('nested and adjacent intervals are distinguished without summing either',()
   const r=overlaps([{...base,id:'A',startUtc:t('00'),endUtc:t('10')},{...base,id:'B',startUtc:t('02'),endUtc:t('05')},{...base,id:'C',startUtc:t('10'),endUtc:t('12')}]);
   assert.equal(r.length,1);assert.deepEqual([r[0].a,r[0].b,r[0].overlapMs],['A','B',3000]);
 });
+
+test('wallMs preserva registros R97/R98 e identifica interrupcao sem promover ranking',()=>{
+  const r=classify({wallMs:7024446.3451,startedAtUtc:'2026-10-31T16:30:37.340Z',endedAtUtc:'2026-10-31T18:27:41.789Z',status:'interrupted_no_verified_QT_load',branch:'BIM'});
+  assert.equal(r.durationMs,7024446.3451);assert.equal(r.durationField,'wallMs');
+  assert.equal(r.utcDifferenceMs,7024449);assert.equal(r.knownInterruption,true);
+  assert.equal(r.eligibleForFinalFlowRanking,false);assert.equal(r.branch,'BIM');
+  assert.equal(classify({wallMs:100,includesConversationGaps:true}).knownInterruption,true);
+  assert.equal(classify({wallMs:776138.5952,includesHumanWait:true}).knownInterruption,true);
+  assert.throws(()=>classify({wallMs:-1}),/negativa/);
+});
+
+test('wallMs e outra duracao permanecem separados quando divergem',()=>{
+  const r=classify({durationMs:100,wallMs:120});
+  assert.equal(r.durationMs,100);assert.deepEqual(r.otherDurationFields,{wallMs:120});
+});
