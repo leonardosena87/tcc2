@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>TCC Auditor de materiais</Name>
+    <Text>TCC - auditar materiais</Text>
+    <Assembly>__ASSEMBLY_PATH__</Assembly>
+    <AddInId>88c7d0ca-6754-49b2-9f54-d98004c76dea</AddInId>
+    <FullClassName>TccAssistente.RevitAudit.AuditMaterials</FullClassName>
+    <VendorId>TCC2</VendorId>
+    <VendorDescription>Estudo academico local - leitura de propriedades</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,50 @@
+{
+  "revision": "H03/R91",
+  "preparedAtUtc": "2026-10-31T01:00:48.835405+00:00",
+  "sourceBuildVerified": true,
+  "buildWarnings": 0,
+  "buildErrors": 0,
+  "buildLog": "D:/TCC/work/R91-build-final.log",
+  "package": "D:\\TCC\\ferramentas\\RevitAudit-R91",
+  "registeredManifest": "C:\\Users\\leona\\AppData\\Roaming\\Autodesk\\Revit\\Addins\\2027\\TccAssistente.MaterialAudit.addin",
+  "standaloneCommand": true,
+  "existingAddinsModified": false,
+  "nativeHostExecuted": false,
+  "nativePropertyResults": null,
+  "nativePropertyMappingCompleted": false,
+  "trustPromptAnswered": false,
+  "nodeSuitePassed": 78,
+  "nodeSuiteScope": "current worktree; unit/simulated tests, not native host",
+  "provenanceUnitTestsPassed": 5,
+  "geometryPythonTestsPassedSeparateSuite": 7,
+  "files": [
+    {
+      "path": "tcc-assistente\\connectors\\RevitAudit\\AuditMaterials.cs",
+      "sha256": "eb30e6d0f14669d55aa4dc24c776f4bbd23e904d680891186dce4ce16a20031f"
+    },
+    {
+      "path": "tcc-assistente\\connectors\\RevitAudit\\TccAssistente.RevitAudit.csproj",
+      "sha256": "7cf8617135086019d1637c9e39d5e5c2383aa0dca447fee46aae30b4219d494d"
+    },
+    {
+      "path": "D:\\TCC\\ferramentas\\RevitAudit-R91\\TccAssistente.RevitAudit.dll",
+      "sha256": "9574ef4c72741cf23f6a58736f8612d6ea0f4049229590f6bf002b75a6a6440e"
+    },
+    {
+      "path": "C:\\Users\\leona\\AppData\\Roaming\\Autodesk\\Revit\\Addins\\2027\\TccAssistente.MaterialAudit.addin",
+      "sha256": "f70aa0f8c0ed2423f5e3683f612e1687c8495170e73ce5c30cee658fee19d86d"
+    },
+    {
+      "path": "C:\\Program Files\\Autodesk\\Revit 2027\\RevitAPI.dll",
+      "sha256": "c86eb3e7a57e2b75187c34fb42c18b10a6ca73025f28b3db4b947b4d5dc8fd8e"
+    },
+    {
+      "path": "C:\\Program Files\\Autodesk\\Revit 2027\\RevitAPI.xml",
+      "sha256": "095de3bba5b9951f263010f12212c549f343a8a10dbb35e0205c61c4f950d980"
+    }
+  ],
+  "structuralApproval": false,
+  "P08Closed": false,
+  "monographChanged": false,
+  "nextStep": "Revit: confira aviso de confianca se apresentado; abra copia do RVT e execute TCC - auditar materiais; associe a leitura a criacao R83."
+}
