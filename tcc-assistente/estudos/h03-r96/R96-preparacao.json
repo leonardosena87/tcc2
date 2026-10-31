@@ -1,0 +1,3083 @@
+{
+  "revision": "H03/R96",
+  "createdAtUtc": "2026-10-31T14:19:08.972822+00:00",
+  "purpose": "Controle negativo de transferencia: alterar exclusivamente compressao IFC25->30MPa. Nao e mudanca da especificacao do projeto, que continua C25.",
+  "source": "D:\\TCC\\outputs\\Intercambio-H03-R95-RECEPCAO-MATERIAIS-NAO-EXECUTAR\\H03-R95-geometria-nominal.ifc",
+  "sourceSha256": "5a47ec8e9a1602374f947778a22630dd746aefe71a891c2cd46b6e2ed94518d5",
+  "output": "D:\\TCC\\outputs\\Controle-H03-R96-MATERIAL-30MPa-NAO-EXECUTAR\\H03-R96-CONTROLE-30MPa.ifc",
+  "outputSha256": "a161b1164c9bf5c36fef9564673b982974977e83b3fb33c00f6bcc765b1cc2ac",
+  "changedStepIds": [
+    2451
+  ],
+  "allOtherStepRecordsIdentical": true,
+  "sameMeshesAndTags": true,
+  "entryElementsAt30MPa": 62,
+  "otherThreePropertiesEqualR93": true,
+  "receiverCreated": false,
+  "expectedInterpretation": "Se receptor continuaC25, nao assumiu a propriedade de compressao30MPa como classe nativa neste caminho. Nao generalizar a todos os campos/importadores.",
+  "retentionAudit": {
+    "schema": "IFC2X3",
+    "elementCount": 62,
+    "countsByClass": {
+      "IfcColumn": 22,
+      "IfcBeam": 29,
+      "IfcSlab": 11
+    },
+    "unmatchedNativeIds": [],
+    "materialPropertiesEntityCount": 26,
+    "materialPropertyEntityTypes": {
+      "IfcExtendedMaterialProperties": 14,
+      "IfcGeneralMaterialProperties": 3,
+      "IfcMechanicalMaterialProperties": 3,
+      "IfcMechanicalSteelMaterialProperties": 3,
+      "IfcThermalMaterialProperties": 3
+    },
+    "singleMaterialNameMatches": 62,
+    "matchingPropertyCounts": {
+      "compressionMPa": 0,
+      "youngMPa": 62,
+      "densityKgM3": 62,
+      "poisson": 62
+    },
+    "rows": [
+      {
+        "revitId": "472930",
+        "guid": "13FVx86UH85RTcavq9tVjT",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472931",
+        "guid": "13FVx86UH85RTcavq9tVjS",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472932",
+        "guid": "13FVx86UH85RTcavq9tVjR",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472933",
+        "guid": "13FVx86UH85RTcavq9tVjQ",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472934",
+        "guid": "13FVx86UH85RTcavq9tVjP",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472935",
+        "guid": "13FVx86UH85RTcavq9tVjO",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472936",
+        "guid": "13FVx86UH85RTcavq9tVjN",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472937",
+        "guid": "13FVx86UH85RTcavq9tVjM",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472938",
+        "guid": "13FVx86UH85RTcavq9tVjL",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473025",
+        "guid": "13FVx86UH85RTcavq9tVl_",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473026",
+        "guid": "13FVx86UH85RTcavq9tVlz",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473027",
+        "guid": "13FVx86UH85RTcavq9tVly",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473028",
+        "guid": "13FVx86UH85RTcavq9tVlx",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473029",
+        "guid": "13FVx86UH85RTcavq9tVlw",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473030",
+        "guid": "13FVx86UH85RTcavq9tVlv",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473031",
+        "guid": "13FVx86UH85RTcavq9tVlu",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473032",
+        "guid": "13FVx86UH85RTcavq9tVlt",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473033",
+        "guid": "13FVx86UH85RTcavq9tVls",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473097",
+        "guid": "13FVx86UH85RTcavq9tVGs",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473098",
+        "guid": "13FVx86UH85RTcavq9tVGr",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473143",
+        "guid": "13FVx86UH85RTcavq9tVG8",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473144",
+        "guid": "13FVx86UH85RTcavq9tVG7",
+        "ifcClass": "IfcColumn",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472942",
+        "guid": "13FVx86UH85RTcavq9tVjH",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472947",
+        "guid": "13FVx86UH85RTcavq9tVjC",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472949",
+        "guid": "13FVx86UH85RTcavq9tVjA",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472954",
+        "guid": "13FVx86UH85RTcavq9tVj5",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472959",
+        "guid": "13FVx86UH85RTcavq9tVj0",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472961",
+        "guid": "13FVx86UH85RTcavq9tVk_",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472963",
+        "guid": "13FVx86UH85RTcavq9tVky",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472969",
+        "guid": "13FVx86UH85RTcavq9tVks",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472974",
+        "guid": "13FVx86UH85RTcavq9tVkn",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472976",
+        "guid": "13FVx86UH85RTcavq9tVkl",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472978",
+        "guid": "13FVx86UH85RTcavq9tVkj",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472980",
+        "guid": "13FVx86UH85RTcavq9tVkh",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472982",
+        "guid": "13FVx86UH85RTcavq9tVkf",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472984",
+        "guid": "13FVx86UH85RTcavq9tVkd",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472986",
+        "guid": "13FVx86UH85RTcavq9tVkb",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473034",
+        "guid": "13FVx86UH85RTcavq9tVlr",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473036",
+        "guid": "13FVx86UH85RTcavq9tVlp",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473038",
+        "guid": "13FVx86UH85RTcavq9tVln",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473040",
+        "guid": "13FVx86UH85RTcavq9tVll",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473042",
+        "guid": "13FVx86UH85RTcavq9tVlj",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473044",
+        "guid": "13FVx86UH85RTcavq9tVlh",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473046",
+        "guid": "13FVx86UH85RTcavq9tVlf",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473048",
+        "guid": "13FVx86UH85RTcavq9tVld",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473050",
+        "guid": "13FVx86UH85RTcavq9tVlb",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473052",
+        "guid": "13FVx86UH85RTcavq9tVlZ",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473054",
+        "guid": "13FVx86UH85RTcavq9tVlX",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473056",
+        "guid": "13FVx86UH85RTcavq9tVlV",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473058",
+        "guid": "13FVx86UH85RTcavq9tVlT",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473060",
+        "guid": "13FVx86UH85RTcavq9tVlR",
+        "ifcClass": "IfcBeam",
+        "nativeMaterialId": "70123",
+        "nativeMaterialName": "Concreto, Moldado in loco, cinza",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco, cinza"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 23249.999999999996,
+            "raw": 23249999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 23250,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2407.31172,
+            "raw": 2407.31172,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2407.31172,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.167,
+            "raw": 0.167,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.167,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472992",
+        "guid": "13FVx86UH85RTcavq9tVkV",
+        "ifcClass": "IfcSlab",
+        "nativeMaterialId": "638",
+        "nativeMaterialName": "Concreto, Moldado in loco",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 20499.999999999996,
+            "raw": 20499999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 20500,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2406.4537,
+            "raw": 2406.4537,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2406.4537,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.2,
+            "raw": 0.2,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.2,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "472999",
+        "guid": "13FVx86UH85RTcavq9tVkO",
+        "ifcClass": "IfcSlab",
+        "nativeMaterialId": "638",
+        "nativeMaterialName": "Concreto, Moldado in loco",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 20499.999999999996,
+            "raw": 20499999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 20500,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2406.4537,
+            "raw": 2406.4537,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2406.4537,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.2,
+            "raw": 0.2,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.2,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473006",
+        "guid": "13FVx86UH85RTcavq9tVkH",
+        "ifcClass": "IfcSlab",
+        "nativeMaterialId": "638",
+        "nativeMaterialName": "Concreto, Moldado in loco",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 20499.999999999996,
+            "raw": 20499999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 20500,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2406.4537,
+            "raw": 2406.4537,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2406.4537,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.2,
+            "raw": 0.2,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.2,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473013",
+        "guid": "13FVx86UH85RTcavq9tVkA",
+        "ifcClass": "IfcSlab",
+        "nativeMaterialId": "638",
+        "nativeMaterialName": "Concreto, Moldado in loco",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 20499.999999999996,
+            "raw": 20499999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 20500,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2406.4537,
+            "raw": 2406.4537,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2406.4537,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.2,
+            "raw": 0.2,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.2,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473020",
+        "guid": "13FVx86UH85RTcavq9tVk3",
+        "ifcClass": "IfcSlab",
+        "nativeMaterialId": "638",
+        "nativeMaterialName": "Concreto, Moldado in loco",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 20499.999999999996,
+            "raw": 20499999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 20500,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2406.4537,
+            "raw": 2406.4537,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2406.4537,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.2,
+            "raw": 0.2,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.2,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473064",
+        "guid": "13FVx86UH85RTcavq9tVlN",
+        "ifcClass": "IfcSlab",
+        "nativeMaterialId": "638",
+        "nativeMaterialName": "Concreto, Moldado in loco",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 20499.999999999996,
+            "raw": 20499999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 20500,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2406.4537,
+            "raw": 2406.4537,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2406.4537,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.2,
+            "raw": 0.2,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.2,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473071",
+        "guid": "13FVx86UH85RTcavq9tVlG",
+        "ifcClass": "IfcSlab",
+        "nativeMaterialId": "638",
+        "nativeMaterialName": "Concreto, Moldado in loco",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 20499.999999999996,
+            "raw": 20499999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 20500,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2406.4537,
+            "raw": 2406.4537,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2406.4537,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.2,
+            "raw": 0.2,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.2,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473078",
+        "guid": "13FVx86UH85RTcavq9tVl9",
+        "ifcClass": "IfcSlab",
+        "nativeMaterialId": "638",
+        "nativeMaterialName": "Concreto, Moldado in loco",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 20499.999999999996,
+            "raw": 20499999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 20500,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2406.4537,
+            "raw": 2406.4537,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2406.4537,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.2,
+            "raw": 0.2,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.2,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473085",
+        "guid": "13FVx86UH85RTcavq9tVl2",
+        "ifcClass": "IfcSlab",
+        "nativeMaterialId": "638",
+        "nativeMaterialName": "Concreto, Moldado in loco",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 20499.999999999996,
+            "raw": 20499999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 20500,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2406.4537,
+            "raw": 2406.4537,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2406.4537,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.2,
+            "raw": 0.2,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.2,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473092",
+        "guid": "13FVx86UH85RTcavq9tVGx",
+        "ifcClass": "IfcSlab",
+        "nativeMaterialId": "638",
+        "nativeMaterialName": "Concreto, Moldado in loco",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 20499.999999999996,
+            "raw": 20499999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 20500,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2406.4537,
+            "raw": 2406.4537,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2406.4537,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.2,
+            "raw": 0.2,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.2,
+            "matchesNative": true
+          }
+        }
+      },
+      {
+        "revitId": "473147",
+        "guid": "13FVx86UH85RTcavq9tVG4",
+        "ifcClass": "IfcSlab",
+        "nativeMaterialId": "638",
+        "nativeMaterialName": "Concreto, Moldado in loco",
+        "ifcMaterialNames": [
+          "Concreto, Moldado in loco"
+        ],
+        "singleMaterialNameMatches": true,
+        "properties": {
+          "compressionMPa": {
+            "status": "read",
+            "value": 30.0,
+            "raw": 30000000.0,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 25,
+            "matchesNative": false
+          },
+          "youngMPa": {
+            "status": "read",
+            "value": 20499.999999999996,
+            "raw": 20499999999.999996,
+            "measure": "IfcPressureMeasure",
+            "unit": "#2450=IfcSIUnit(*,.PRESSUREUNIT.,$,.PASCAL.)",
+            "nativeValue": 20500,
+            "matchesNative": true
+          },
+          "densityKgM3": {
+            "status": "read",
+            "value": 2406.4537,
+            "raw": 2406.4537,
+            "measure": "IfcMassDensityMeasure",
+            "unit": "#2448=IfcDerivedUnit((#1191,#2447),.MASSDENSITYUNIT.,$)",
+            "nativeValue": 2406.4537,
+            "matchesNative": true
+          },
+          "poisson": {
+            "status": "read",
+            "value": 0.2,
+            "raw": 0.2,
+            "measure": "IfcReal",
+            "unit": null,
+            "nativeValue": 0.2,
+            "matchesNative": true
+          }
+        }
+      }
+    ]
+  }
+}

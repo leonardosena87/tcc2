@@ -1,0 +1,30 @@
+{
+  "revision": "H03/R96",
+  "recordedAtUtc": "2026-10-31T14:28:33.7622818Z",
+  "method": "Leitura visual real com sky, janela Materiais e durabilidade e Classes de concreto; consultas canceladas sem aplicar",
+  "application": "AltoQi Eberick 2025 Infinity",
+  "project": "H03_R96_CONTROLE_30MPa_NAO_EXECUTAR",
+  "projectInitialization": "Configuracao inicial do programa",
+  "scope": "Projeto inteiro, configuracao de vigas/pilares/lajes; classe C25 selecionada na lista",
+  "strengthClass": "C-25",
+  "fckMPa": 25,
+  "gammaC": 1.4,
+  "fcdMPa": 17.86,
+  "eciMPa": 28000,
+  "ecsMPa": 24150,
+  "modulusDerivedFromFck": true,
+  "unitWeightKNM3": 25,
+  "slumpCm": 5,
+  "aggregateType": "granito",
+  "cementType": "CP-IV",
+  "aggregateSizeMm": 19,
+  "environmentClass": "II moderada",
+  "externalAndInternalCoverCm": {
+    "columns": 3,
+    "beams": 3,
+    "slabs": 2.5
+  },
+  "nativeStructuralSlabExistenceProvedByDialog": false,
+  "appliedChanges": false,
+  "limitations": "Valores iniciais desta copia experimental; nao representar como configuracao final do estudo ou leitura automatizada do binario PRJ."
+}

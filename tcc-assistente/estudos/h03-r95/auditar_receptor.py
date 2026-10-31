@@ -11,6 +11,7 @@ def main():
     p = argparse.ArgumentParser()
     for key in ('deps', 'ifc', 'proposal', 'out'):
         p.add_argument('--'+key, type=Path, required=True)
+    p.add_argument('--revision', default='H03/R95')
     args = p.parse_args()
     if args.out.exists():
         raise ValueError('Relatorio de saida precisa ser novo')
@@ -53,7 +54,7 @@ def main():
         raise ValueError('Controle de sensibilidade falhou')
     logger = ifcopenshell.validate.json_logger()
     ifcopenshell.validate.validate(model, logger)
-    result.update(revision='H03/R95', sources=hashes,
+    result.update(revision=args.revision, sources=hashes,
                   exportedCounts={c: len(model.by_type(c)) for c in ('IfcColumn','IfcBeam','IfcSlab')},
                   schema=model.schema, comparisonToleranceM=rules.TOL, sensitivityControls=controls,
                   schemaValidationMessages=[dict(level=s['level'], attribute=s.get('attribute'), message=s['message'])

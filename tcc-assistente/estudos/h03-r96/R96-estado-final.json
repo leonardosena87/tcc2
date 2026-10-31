@@ -1,0 +1,169 @@
+{
+  "revision": "H03/R96",
+  "consolidatedAtUtc": "2026-10-31T14:28:34.002359+00:00",
+  "purpose": "Controle experimental25->30MPa; especificacao do projeto continuaC25.",
+  "entryElementsAt30MPa": 62,
+  "matchedOriginIds": 51,
+  "originCategoryCounts": {
+    "Quadro estrutural": 29,
+    "Pilares estruturais": 22
+  },
+  "sourceEntityChangedOnly": [
+    2451
+  ],
+  "allOtherStepRecordsIdentical": true,
+  "nativeGeometry": {
+    "columnSegments": 22,
+    "logicalBeams": 29,
+    "exportedCounts": {
+      "IfcColumn": 22,
+      "IfcBeam": 32,
+      "IfcSlab": 0
+    },
+    "geometryPass": true,
+    "scope": "Caixas e cobertura axial; nao conectividade analitica.",
+    "schemaValidationMessages": 8
+  },
+  "materialObservation": {
+    "revision": "H03/R96",
+    "recordedAtUtc": "2026-10-31T14:28:33.7622818Z",
+    "method": "Leitura visual real com sky, janela Materiais e durabilidade e Classes de concreto; consultas canceladas sem aplicar",
+    "application": "AltoQi Eberick 2025 Infinity",
+    "project": "H03_R96_CONTROLE_30MPa_NAO_EXECUTAR",
+    "projectInitialization": "Configuracao inicial do programa",
+    "scope": "Projeto inteiro, configuracao de vigas/pilares/lajes; classe C25 selecionada na lista",
+    "strengthClass": "C-25",
+    "fckMPa": 25,
+    "gammaC": 1.4,
+    "fcdMPa": 17.86,
+    "eciMPa": 28000,
+    "ecsMPa": 24150,
+    "modulusDerivedFromFck": true,
+    "unitWeightKNM3": 25,
+    "slumpCm": 5,
+    "aggregateType": "granito",
+    "cementType": "CP-IV",
+    "aggregateSizeMm": 19,
+    "environmentClass": "II moderada",
+    "externalAndInternalCoverCm": {
+      "columns": 3,
+      "beams": 3,
+      "slabs": 2.5
+    },
+    "nativeStructuralSlabExistenceProvedByDialog": false,
+    "appliedChanges": false,
+    "limitations": "Valores iniciais desta copia experimental; nao representar como configuracao final do estudo ou leitura automatizada do binario PRJ."
+  },
+  "comparison": {
+    "previousRevision": "H03/R95",
+    "previousOutputClass": "C-25",
+    "controlInputMPa": 30,
+    "controlOutputClass": "C-25",
+    "nativeExportPartsWithC25": 54,
+    "conclusion": "A propriedade de compressao alterada noIFC nao atualizou a classe nativa exportada neste caminho/configuracao."
+  },
+  "receptionTiming": {
+    "startedAtUtc": "2026-10-31T14:20:49.977Z",
+    "endedAtUtc": "2026-10-31T14:24:28.288Z",
+    "wallMs": 218310.43420000002,
+    "scope": "Digitacao do caminho IFC ate retorno apos Ctrl+S; inclui assistente, espera, relatorio e trabalho intercalado; exclui preparo e auditoria posterior. Ensaio de controle, nao tempo totalBIM.",
+    "wholeFlowTotal": false,
+    "rankingAllowed": false
+  },
+  "preservation": [
+    {
+      "relativePath": "Projeto Eberick\\H03_R96_CONTROLE_30MPa_NAO_EXECUTAR.bak",
+      "frozenCopyMatches": true,
+      "workingExists": true,
+      "workingMatches": true
+    },
+    {
+      "relativePath": "Projeto Eberick\\H03_R96_CONTROLE_30MPa_NAO_EXECUTAR.ini",
+      "frozenCopyMatches": true,
+      "workingExists": true,
+      "workingMatches": true
+    },
+    {
+      "relativePath": "Projeto Eberick\\H03_R96_CONTROLE_30MPa_NAO_EXECUTAR.prj",
+      "frozenCopyMatches": true,
+      "workingExists": true,
+      "workingMatches": true
+    },
+    {
+      "relativePath": "Projeto Eberick\\H03_R96_CONTROLE_30MPa_NAO_EXECUTAR.prj-cad",
+      "frozenCopyMatches": true,
+      "workingExists": true,
+      "workingMatches": true
+    },
+    {
+      "relativePath": "_DADOS_\\ConfigFolder.qib",
+      "frozenCopyMatches": true,
+      "workingExists": true,
+      "workingMatches": true
+    },
+    {
+      "relativePath": "_DADOS_\\EdificacaoEberick.ini",
+      "frozenCopyMatches": true,
+      "workingExists": true,
+      "workingMatches": true
+    },
+    {
+      "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\logo.gif",
+      "frozenCopyMatches": true,
+      "workingExists": true,
+      "workingMatches": true
+    },
+    {
+      "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\Relatorio_de_importacao_de_elementos_IFC.docx",
+      "frozenCopyMatches": true,
+      "workingExists": true,
+      "workingMatches": true
+    },
+    {
+      "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\~$latorio_de_importacao_de_elementos_IFC.docx",
+      "frozenCopyMatches": true,
+      "workingExists": true,
+      "workingMatches": true
+    },
+    {
+      "relativePath": "Projeto Eberick\\H03_R96_CONTROLE_30MPa_NAO_EXECUTAR_Modelos 3D\\H03-R96-CONTROLE-30MPa.oq3d",
+      "frozenCopyMatches": true,
+      "workingExists": true,
+      "workingMatches": true
+    },
+    {
+      "relativePath": "Projeto Eberick\\H03_R96_CONTROLE_30MPa_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R96-CONTROLE-30MPa.ini",
+      "frozenCopyMatches": true,
+      "workingExists": true,
+      "workingMatches": true
+    },
+    {
+      "relativePath": "Projeto Eberick\\H03_R96_CONTROLE_30MPa_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R96-CONTROLE-30MPa.ini",
+      "frozenCopyMatches": true,
+      "workingExists": true,
+      "workingMatches": true
+    }
+  ],
+  "nativePrjUnchangedAfterReadAndExport": true,
+  "sources": {
+    "D:\\TCC\\outputs\\Materiais-H03-R93-ALINHAMENTO-NAO-EXECUTAR\\R93-leitura-final.json": "1450c2d5e98624a35327a96bc740cbf95a686a4a3bc9361d92b1a26479bdd6e8",
+    "tcc-assistente\\estudos\\h03-r95\\R95-auditoria-receptor-FINAL.json": "a203fc8d4e825ad1e515d05ff4d57783d51dfb7cf73c82457a58e23433a4b588",
+    "D:\\TCC\\outputs\\Controle-H03-R96-MATERIAL-30MPa-NAO-EXECUTAR\\R96-relatorio-importacao.txt": "b3b3dc4459cce5ccb7ac6ed5803938ecb4aa63c90787746bf7993bef6e475315",
+    "D:\\TCC\\outputs\\Controle-H03-R96-MATERIAL-30MPa-NAO-EXECUTAR\\R96-leitura-UI.json": "fc3930dd309905be3325d02dab71e757be6e27c2639667705813236e1254afb4",
+    "D:\\TCC\\outputs\\Controle-H03-R96-MATERIAL-30MPa-NAO-EXECUTAR\\R96-preparacao.json": "b805ee53406b28f676e193852dce583ca1b690ca4d38fdc5458a35421bedc1da",
+    "D:\\TCC\\outputs\\Controle-H03-R96-MATERIAL-30MPa-NAO-EXECUTAR\\R96-auditoria-receptor-FINAL.json": "7325d3221a4c5e395a88609687998456cf9858eb174b6e693848d99e0ea40cf1"
+  },
+  "interventionCount": null,
+  "correctionTimeMs": null,
+  "flowTotalMs": null,
+  "rankingAllowed": false,
+  "structuralCalculationPerformed": false,
+  "limits": [
+    "Leitura daUI registrada manualmente a partir do controle nativo; nao e parse do PRJ.",
+    "Uma configuracao/importador/edificacao e uma propriedade perturbada; nao generalizar a toda interoperabilidade.",
+    "Nao se altera C25 do projeto principal nem se aprova dimensionamento.",
+    "54partes observadas nao equivalem a54erros ou54correcoes.",
+    "Lajes ausentes na saida estrutural nao significam ausencia no vinculo externo.",
+    "Tempo e recorte prospectivo, inclui trabalho intercalado; nao e total ou ranking."
+  ]
+}
