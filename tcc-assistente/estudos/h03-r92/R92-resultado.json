@@ -1,0 +1,38 @@
+{
+  "revision": "H03/R92",
+  "status": "native_read_completed_material_alignment_pending",
+  "readStartedAtUtc": "2026-10-31T13:01:29.8201843+00:00",
+  "readEndedAtUtc": "2026-10-31T13:01:29.8900552+00:00",
+  "auditReadMs": 69.868,
+  "timeScope": "Somente leitura interna do comando; exclui abertura, navegacao, espera humana, serializacao e analise posterior; nao e tempo completo do fluxo",
+  "matchedLogicalUnits": 62,
+  "documentaryFckMPa": 25,
+  "groups": [
+    {
+      "kind": "column_and_beam",
+      "count": 51,
+      "compressionPropertyMPa": 24.13293801,
+      "youngModulusMPa": 23250,
+      "densityKgM3": 2407.31172,
+      "poisson": 0.167
+    },
+    {
+      "kind": "slab",
+      "count": 11,
+      "compressionPropertyMPa": 10,
+      "youngModulusMPa": 20500,
+      "densityKgM3": 2406.4537,
+      "poisson": 0.2
+    }
+  ],
+  "interpretation": "Divergencia no cadastro do autor em relacao a premissa C25. Nao prova perda por IFC nem causa de diferenca historica no Eberick. Compressao e modulo sao propriedades da API; Eci/Ecs exigem interpretacao explicita.",
+  "materialAlignmentCompleted": false,
+  "transferLossProven": false,
+  "sourceAndCopyRvtUnchanged": true,
+  "sourceSha256": "ca3d155eb5dcce8063fc748371b2bbb7908efa79d226681890c50af857dd71f6",
+  "sourceNativeAuditPath": "D:\\TCC\\outputs\\Propriedades-Revit-20261031-130129-820-f66577d2\\materiais-revit.json",
+  "sourceNativeAuditSha256": "2eb3279d0b6aa0ae0de4eeb2319be6ad20ae21aeec61d93d6936388e4ae2f74a",
+  "authorMappingSha256": "c0957ff65540e0e5ffd512c776ef2398ff9b2dc13964c495620c247a3320d88c",
+  "structuralApproval": false,
+  "nextStep": "Criar revisao de trabalho para alinhar material/ativo e atribuicao a premissas; salvar/reabrir/reler. Conferir propriedades IFC e recepcao no ensaio final."
+}
