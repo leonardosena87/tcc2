@@ -1,0 +1,672 @@
+{
+  "revision": "H03/R135",
+  "createdAtUtc": "2026-11-01T23:00:12.008569+00:00",
+  "scope": "W20/S58 isolada sobre L3/N1 em cópias R116, sem W15 ou ensaio W03",
+  "reference": {
+    "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r120\\R120-matriz.json",
+    "sha256": "362e063a5e756f1b8e9736d82a6df9044ed4542c761a6b1c43cdaafd6f254117",
+    "segment": {
+      "wallId": "W20",
+      "fromM": 0.1,
+      "toM": 3.8,
+      "lengthM": 3.7,
+      "p1": [
+        8.1,
+        0.1
+      ],
+      "p2": [
+        8.1,
+        3.8
+      ],
+      "route": "laje",
+      "lowerNativeNames": [
+        "L3"
+      ],
+      "lowerNativeNamesBIM": [
+        "L3"
+      ],
+      "upperNativeNames": [
+        "L3"
+      ],
+      "upperNativeNamesBIM": [
+        "L3"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.25,
+      "grossHeightReferenceM": 3.01,
+      "grossLinearKNm": 4.71065,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S58",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 11.137,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 11.137,
+      "conditionalNetMasonryWeightMagnitudeKN": 17.429405,
+      "fullHeightLineWeightMagnitudeKNm": 4.710649999999999,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Carga de linha sobre laje; não espalhar como G2 uniforme sem justificar o caminho."
+      ]
+    },
+    "geometry": "R56/R57 histórica; sem nova exportação de autoria nesta etapa",
+    "loadHypothesisKNm": "4.71065",
+    "lineLengthM": "3.70",
+    "integralMagnitudeKN": "17.429405",
+    "compositionKNm2": "1.565",
+    "heightM": "3.01",
+    "manufacturerConfirmed": false,
+    "currentUpperSoffitRevalidated": false
+  },
+  "protectedR116Files": [
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "sha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "sha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "sha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "7aa6766c18ddf61254be0ffdbbdc69823bdecd4fadf5ffb2ef54e96c42d411c3"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256": "0e4684dfb5cca95f0c7e2da23f3acbf81936bb3db7a751bd07054e6e0784e6e5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "sha256": "9dcb0c71361fda7632994e86c865bc166197e7035a09cf24b6ea2a97db06c553"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "sha256": "464da20e7951be3fa769888c894e02d1c9765bb5a8ecccb2bb64dbad2490f93a"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "sha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "sha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "sha256": "ea3a76687bd74b4f76f9417671082f63ae6e626fb85ebbd11b5a6dd87c486af1"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "sha256": "c84d378ae74e8a078661ee3d3eefd2387be125cb580091004cb06da9bcda77f2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_7704.log",
+      "sha256": "126b9850b9446cdc3b3732800356d4aa4e95a130a0be94fb1a2d53f4debc78b6"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "4f718e7088c20868d8bdf65ed8e9125abcf4ed921684e9145df3f004d3e92a06"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "sha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "sha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "sha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256": "626a83ac3449104102c6100ec0a494e972cdef3521d9117a7c0f75c6da97fc72"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "sha256": "c2d2f5e1963760dbb356fcccf3dfc33a42d5b9332e02a7d73f6bd8f3de4dc297"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "sha256": "4791e7ef1b750af6cbca2c024dce2573a2bf07e83fe082613bec317198cee759"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "sha256": "c140449fd81c9897ff1f380b4b7119fb58be1d83292852ba9cf1f3d7f3db469d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "sha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "sha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "sha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "sha256": "59fd5b938dc866ad1676223fc4cadb38645407a45504f4343944a3e906b4d91a"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "sha256": "6e0ed5136ca045f6a705fbdde33aaf5642cc705ad905443725914f99e57c9031"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_7704.log",
+      "sha256": "03fc54fff903111e62423165f4478c96850f8f1badc5b6e32db01b00a67ab19f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "7dba18a90e4d45a7d5c3a5db6bf0037eb668518885dab4b412e3f3d3ca4e6954"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571"
+    }
+  ],
+  "sourceFilesUnchanged": true,
+  "branches": {
+    "CAD": {
+      "project": "D:\\TCC\\outputs\\56-H03-R135-CAD-W20-LAJE-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "projectSha256": "d1bebfae37888c68a3d5148c9da288629d7055d0a4ad227845875ef3d06d5807",
+      "nativeReadback": {
+        "extraKNm": "4.71065",
+        "wallKNm": "0",
+        "method": "Texto nativo de acessibilidade após reabrir, com imagem correspondente"
+      },
+      "drawing": {
+        "startRaw": [
+          "16.2",
+          "0.2",
+          "0.0"
+        ],
+        "endRaw": [
+          "16.2",
+          "7.600000000000001",
+          "0.0"
+        ],
+        "label": "4.71",
+        "lineHandle": "21D",
+        "startModelCm": [
+          "810.0",
+          "10.0",
+          "0.0"
+        ],
+        "endModelCm": [
+          "810.0",
+          "380.000000000000050",
+          "0.0"
+        ],
+        "lengthM": "3.7000000000000005000000000",
+        "plotScale": 50,
+        "anchorModelCm": [
+          [
+            0,
+            0
+          ],
+          [
+            440,
+            705
+          ],
+          [
+            965,
+            390
+          ]
+        ],
+        "rawTolerance": "1E-9",
+        "zIsDrawingPlaneNotPhysicalLevel": true
+      },
+      "drawingSha256": "72090994a3602ff65b164fa619428dbcbf6115b13064ab2d9829ac7b4dd7fdd4",
+      "session": {
+        "inicio_utc": "2026-11-01T22:36:48.903Z",
+        "fim_utc": "2026-11-01T22:43:23.391Z",
+        "duracao_ms": 394488,
+        "escopo": "Abertura, inspeção L3, entrada W20, salvar/fechar/reabrir, ações e DXF; inclui diálogo, raciocínio, leitura de código e recuperação de menus; não é tempo puro de execução nem ranking",
+        "intervencao_humana_registrada": false
+      },
+      "actionGridVisual": {
+        "Adicional": "4.71",
+        "Solo": "0.00",
+        "Acidental": "0.00",
+        "Agua": "0.00",
+        "Subpressao": "0.00",
+        "Q_TELHADO_MANUTENCAO": "0.00",
+        "method": "Transcrição visual pela IA; duas casas, distinta da releitura textual exata"
+      },
+      "readbackDidNotChangeSavedProject": true
+    },
+    "BIM": {
+      "project": "D:\\TCC\\outputs\\57-H03-R135-BIM-W20-LAJE-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "projectSha256": "144c108289df0211cf2a5b94b21425995b83c22c2722062a611a860512c6e63e",
+      "nativeReadback": {
+        "extraKNm": "4.71065",
+        "wallKNm": "0",
+        "method": "Texto nativo de acessibilidade após reabrir, com imagem correspondente"
+      },
+      "drawing": {
+        "startRaw": [
+          "16.2",
+          "0.2",
+          "0.0"
+        ],
+        "endRaw": [
+          "16.2",
+          "7.600000000000001",
+          "0.0"
+        ],
+        "label": "4.71",
+        "lineHandle": "1D6",
+        "startModelCm": [
+          "810.0",
+          "10.0",
+          "0.0"
+        ],
+        "endModelCm": [
+          "810.0",
+          "380.000000000000050",
+          "0.0"
+        ],
+        "lengthM": "3.7000000000000005000000000",
+        "plotScale": 50,
+        "anchorModelCm": [
+          [
+            0,
+            0
+          ],
+          [
+            440,
+            705
+          ],
+          [
+            965,
+            390
+          ]
+        ],
+        "rawTolerance": "1E-9",
+        "zIsDrawingPlaneNotPhysicalLevel": true
+      },
+      "drawingSha256": "7b73365b5303a4cf0599f619e902cdcffff8861c45a5dc9ed24bd9a8bb5a2aeb",
+      "session": {
+        "inicio_utc": "2026-11-01T22:43:24.521Z",
+        "fim_utc": "2026-11-01T22:51:36.868Z",
+        "duracao_ms": 492347,
+        "escopo": "Desde seletor aberto: abertura, inspeção L3, entrada W20, salvar/fechar/reabrir, ações e DXF; inclui raciocínio e capturas; procedimento aprendido no CAD; não é tempo puro nem ranking",
+        "intervencao_humana_registrada": false
+      },
+      "actionGridVisual": {
+        "Adicional": "4.71",
+        "Solo": "0.00",
+        "Acidental": "0.00",
+        "Agua": "0.00",
+        "Subpressao": "0.00",
+        "Q_TELHADO_MANUTENCAO": "0.00",
+        "method": "Transcrição visual pela IA; duas casas, distinta da releitura textual exata"
+      },
+      "readbackDidNotChangeSavedProject": true
+    }
+  },
+  "nativeInputPersistenceVerified": true,
+  "graphicalExtentVerified": true,
+  "pairedNativeExtraAndWallEqual": true,
+  "processingPerformed": false,
+  "analyticalLoadDistributionVerified": false,
+  "structuralApproval": false,
+  "finalWallLoadSetCompleted": false,
+  "finalProductivityRankingAllowed": false,
+  "monographEdited": false,
+  "authorshipRVTorDWGEdited": false,
+  "captureRecovery": {
+    "invalidFiles": [
+      {
+        "path": "BIM-consulta-encerrada-captura.json",
+        "sha256": "74dea34dceae5ececa0f822eb65c61fbf0bbb5441df0662b007306d16a9d0f95"
+      },
+      {
+        "path": "BIM-consulta-encerrada-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "BIM-consulta-encerrada.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "BIM-DXF-configurado-captura.json",
+        "sha256": "43757b11f5a7ff47214012d54c99317bfee587dedb979a0aa399902c97ab24c7"
+      },
+      {
+        "path": "BIM-DXF-configurado-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "BIM-DXF-configurado.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "BIM-L3-propriedades-iniciais-captura.json",
+        "sha256": "36a73ca1fa7a3adb95df0167269d95a7396754925f9233c1e29749ce984948d1"
+      },
+      {
+        "path": "BIM-L3-propriedades-iniciais-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "BIM-L3-propriedades-iniciais.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "BIM-linear-configurada-captura.json",
+        "sha256": "0ad24bd9a9e80030fe6120fd055c076375a492436c3416b0c52c959077394845"
+      },
+      {
+        "path": "BIM-linear-configurada-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "BIM-linear-configurada.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "BIM-linear-inicial-captura.json",
+        "sha256": "00e4f35f74f0bc0e80cd3a37564283eafa46b288d80ce0b89360632c9e14a698"
+      },
+      {
+        "path": "BIM-linear-inicial-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "BIM-linear-inicial.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "BIM-N1-inicial-captura.json",
+        "sha256": "9fe4b1a00ccaaa5999d02823421c46684ef457e0121fd4e732a9715d065c28d2"
+      },
+      {
+        "path": "BIM-N1-inicial-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "BIM-N1-inicial.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "BIM-W20-acoes-reaberto-captura.json",
+        "sha256": "425bed2d4a0dd78510d70ec680db6e21df5fb7d0961fce55b38b9d1f62246552"
+      },
+      {
+        "path": "BIM-W20-acoes-reaberto-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "BIM-W20-acoes-reaberto.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "BIM-W20-lancada-captura.json",
+        "sha256": "c788846ddfb26f05b603d052ad115f292cc03ee29cd53613b0ea275fe689843d"
+      },
+      {
+        "path": "BIM-W20-lancada-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "BIM-W20-lancada.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "BIM-W20-ponto1-aceito-captura.json",
+        "sha256": "63a1181bbf972f8a6d2b2f2d05b7ccb2ca6d84dba65c7fa6a508726991d1e34b"
+      },
+      {
+        "path": "BIM-W20-ponto1-aceito-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "BIM-W20-ponto1-aceito.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "BIM-W20-ponto1-digitado-captura.json",
+        "sha256": "d96fc6dbdacc81d95a732ea9ae01e834cf53fbcc25b15204fa97ec4f55fd2faa"
+      },
+      {
+        "path": "BIM-W20-ponto1-digitado-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "BIM-W20-ponto1-digitado.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "BIM-W20-ponto2-digitado-captura.json",
+        "sha256": "ce2166f15e616d4973940a29b132fc29edb96e0a1143c5663c2b8a6e9af13a5f"
+      },
+      {
+        "path": "BIM-W20-ponto2-digitado-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "BIM-W20-ponto2-digitado.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "BIM-W20-reaberto-captura.json",
+        "sha256": "b83bce08d6408f7fca138241bdc21d7db8da824ab03ee99626462b2397e57453"
+      },
+      {
+        "path": "BIM-W20-reaberto-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "BIM-W20-reaberto.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "CAD-DXF-configurado-captura.json",
+        "sha256": "6a0a8531130257d70632e391761f5ff6ec8afc9a8b1efc2229f9a741e4927297"
+      },
+      {
+        "path": "CAD-DXF-configurado-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "CAD-DXF-configurado.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "CAD-L3-propriedades-iniciais-captura.json",
+        "sha256": "4f19add8bf97e6965e5900139f58ed8d49b1bfd52904f4c445b75ac0ffba3b1c"
+      },
+      {
+        "path": "CAD-L3-propriedades-iniciais-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "CAD-L3-propriedades-iniciais.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "CAD-linear-configurada-captura.json",
+        "sha256": "e1094780453a1a8bc6e779d168f9ff8ba981ae28c08004567d19847b3d4cdd8b"
+      },
+      {
+        "path": "CAD-linear-configurada-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "CAD-linear-configurada.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "CAD-linear-inicial-captura.json",
+        "sha256": "72e0a9a3b21cd4cfb8a3725a5a20f09eac836d0d76fa825a6ff1a869abd7f2a0"
+      },
+      {
+        "path": "CAD-linear-inicial-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "CAD-linear-inicial.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "CAD-N1-inicial-captura.json",
+        "sha256": "73ddc2c7d147ba334797803f6d67e113015e93d5f09b3092be4980abb1bd84dc"
+      },
+      {
+        "path": "CAD-N1-inicial-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "CAD-N1-inicial.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "CAD-W20-acoes-reaberto-captura.json",
+        "sha256": "6f51475c1adb7982b4920c7132c12edf9d8a72d978e54dd7ac04edb7108cabd7"
+      },
+      {
+        "path": "CAD-W20-acoes-reaberto-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "CAD-W20-acoes-reaberto.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "CAD-W20-lancada-captura.json",
+        "sha256": "70d55601ba2c5f23ace677d90507338a36623e16b3ab986459f8e637c1aa8bd2"
+      },
+      {
+        "path": "CAD-W20-lancada-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "CAD-W20-lancada.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "CAD-W20-ponto1-aceito-captura.json",
+        "sha256": "d86407442be4f40148b8cd32912c30e6f601d972183a4f11453d0988fe13fc07"
+      },
+      {
+        "path": "CAD-W20-ponto1-aceito-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "CAD-W20-ponto1-aceito.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "CAD-W20-ponto1-digitado-captura.json",
+        "sha256": "e9debc09375dcdfaef519d29861295f77a7bbeb6a92a5283548b7f6da8818d22"
+      },
+      {
+        "path": "CAD-W20-ponto1-digitado-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "CAD-W20-ponto1-digitado.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "CAD-W20-ponto2-digitado-captura.json",
+        "sha256": "004e8c334036a01efb27a47619290f7760c7489eb97e64fe883b9cc406b8c4d8"
+      },
+      {
+        "path": "CAD-W20-ponto2-digitado-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "CAD-W20-ponto2-digitado.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "CAD-W20-reaberto-captura.json",
+        "sha256": "0279f08648fe54289b21759cbc946b22f855f716f89fed0a770da36bada49145"
+      },
+      {
+        "path": "CAD-W20-reaberto-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "CAD-W20-reaberto.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      },
+      {
+        "path": "CAD-W20-releitura-antes-salvar-captura.json",
+        "sha256": "ce5276d0f3fc79f4851a22dff47936203515baa73707aef2b854e65136620e18"
+      },
+      {
+        "path": "CAD-W20-releitura-antes-salvar-UI.txt",
+        "sha256": "e29f620e595dcc1e6e433268a361573674d6b3a9395a43894d0a6e4a043c7522"
+      },
+      {
+        "path": "CAD-W20-releitura-antes-salvar.jpg",
+        "sha256": "4eb40d43bb0665e7cb03dc7ec27a9222fdf9363317ad001e55a866d6931a54a2"
+      }
+    ],
+    "invalidCount": 72,
+    "reason": "Função de salvamento reteve estado antigo por fechamento léxico entre células; 24 grupos repetiram imagem inicial.",
+    "fix": "Estado observado passado explicitamente; novas capturas de croqui, intensidade e ações em ambos os ramos.",
+    "initialInputScreenshotsRecovered": false,
+    "slabPropertiesInitialLiveInspection": "Maciça, ambiente Externo, h14cm, elevação0, Q1.5 e revestimento1 nos dois ramos; imagem inicial inválida não comprova essa leitura.",
+    "slabPropertiesRecovery": "Não recuperada: seleção do rótulo BIM sobreposto à carga abriu a linha; sem alteração.",
+    "time": {
+      "inicio_utc": "2026-11-01T22:52:45.917Z",
+      "fim_utc": "2026-11-01T22:58:21.107Z",
+      "duracao_ms": 335190,
+      "escopo": "Recaptura pareada BIM e CAD e tentativas de reler L3 sobreposta à linha; não somar às sessões iniciais para ranking; sem salvar nem intervenção humana"
+    }
+  },
+  "timingLimit": "Sessões exploratórias distintas, incluem raciocínio e interface; recuperação separada. Sem inferência IA, tokens, custos ou total final conhecido.",
+  "nextStep": "Processar cópias derivadas, comparar a grelha e distribuição contra controle de mesma malha; verificar integral, momentos e caminho de carga antes de aceitação.",
+  "technicalProcedure": "https://suporte.altoqi.com.br/hc/pt-br/articles/360058309854"
+}
