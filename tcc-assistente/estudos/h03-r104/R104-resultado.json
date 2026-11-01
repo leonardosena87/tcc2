@@ -1,0 +1,367 @@
+{
+  "revision": "H03/R104",
+  "createdAtUtc": "2026-11-01T03:22:48.905826+00:00",
+  "scope": "Analise estatica exploratoria, dimensionamento/ELSDEF/ELSVE desmarcados nas opcoes observadas",
+  "branches": {
+    "CAD": {
+      "projectPath": "D:\\TCC\\outputs\\18-H03-R104-CAD-DIAGNOSTICO-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "prjSha256": "5e58892f0b8426e88b634c9736f257c9d582e42e09cd84cea84c54fe0eae5265",
+      "summary": "Cargas verticais: Peso próprio = 75.69 tf Adicional = 10.05 tf Acidental = 17.11 tf Q_TELHADO_MANUTENCAO = 1.40 tf Total = 104.25 tf Área aproximada = 132.81 m² Relação = 784.99 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.00 cm (limite 0.42) X- = 0.00 cm (limite 0.42) Y+ = 0.00 cm (limite 0.42) Y- = 0.00 cm (limite 0.42) AVISO: Os deslocamentos horizontais não foram verificados Verificação de estabilidade (Gama-Z): X+ = 1.09 (limite 1.10) X- = 1.08 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+9.25%) Vento X+: 0.96 »» 1.10 (+14.46%) Vento X-: 0.96 »» 1.10 (+14.46%) Vento Y+: 1.06 »» 1.15 (+8.21%) Vento Y-: 1.06 »» 1.15 (+8.21%) Desaprumo X+: 0.10 »» 0.11 (+14.20%) Desaprumo X-: 0.10 »» 0.11 (+14.20%) Desaprumo Y+: 0.06 »» 0.07 (+8.02%) Desaprumo Y-: 0.06 »» 0.07 (+8.02%)",
+      "frozenFiles": [
+        {
+          "relativePath": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+          "sha256": "412c88b58ef9997c1827138819d1ead38cb00b661af56ca5e7926a548b9d101a"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+          "sha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+          "sha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+          "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+          "sha256": "5e58892f0b8426e88b634c9736f257c9d582e42e09cd84cea84c54fe0eae5265"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+          "sha256": "fba68d67204e07bea84a700c60a9b3af2dcccb6a6bfcbf5762c90408a7c5a999"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+          "sha256": "f71f1538464abd0823e07f62bd59b769238b511acba01ad9a78ce2a85ce594bf"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+          "sha256": "4898b034b93634ab59809aaab44e6763d82c311eefee148f84236d0ab30acb4b"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+          "sha256": "412c88b58ef9997c1827138819d1ead38cb00b661af56ca5e7926a548b9d101a"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+          "sha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+          "sha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+          "sha256": "de4b68171350ebe54b9a1cccf811aa340e8b68c75ffc16eea6a6e9183490e3d8"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+          "sha256": "3950b4df35b8dc1269ecc18f5f1d4b5f9fa7c50ba19fd7f51c46d3a9a6b11e4e"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR_7704.log",
+          "sha256": "70e0e8dc0f07701bc7dd34228c285f0a8e0f9f5f7089ab23b603cfe7f8da0f9f"
+        },
+        {
+          "relativePath": "_DADOS_/ConfigFolder.qib",
+          "sha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5"
+        },
+        {
+          "relativePath": "_DADOS_/EdificacaoEberick.ini",
+          "sha256": "54edf7acfde002efe89f78525f80a95f9b2ee88787ccb475adee235ec917f568"
+        }
+      ],
+      "processingTimeObservation": {
+        "start": "2026-11-01T03:17:52.570Z",
+        "endFirstFinishRecorded": "2026-11-01T03:18:26.239Z",
+        "commandToRecordedFinishMs": 33668.928799999994,
+        "solverTimeMs": null,
+        "scope": "Comando ate registro do primeiro termino observado; inclui intervalo de observacao, nao tempo puro do solver",
+        "rankingAllowed": false
+      },
+      "sessionTime": {
+        "start": "2026-11-01T03:17:03.627Z",
+        "end": "2026-11-01T03:19:18.539Z",
+        "wallMs": 134910.2873,
+        "scope": "Abertura ate fechamento com preparo consulta e registro; nao total final"
+      }
+    },
+    "BIM": {
+      "projectPath": "D:\\TCC\\outputs\\19-H03-R104-BIM-DIAGNOSTICO-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "prjSha256": "28245f270c59f57818c6085caa5bf7d4dba17881fe0d12fa340c7cb2e8bb4791",
+      "summary": "Cargas verticais: Peso próprio = 75.69 tf Adicional = 10.05 tf Acidental = 17.11 tf Q_TELHADO_MANUTENCAO = 1.40 tf Total = 104.25 tf Área aproximada = 132.81 m² Relação = 784.99 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.00 cm (limite 0.42) X- = 0.00 cm (limite 0.42) Y+ = 0.00 cm (limite 0.42) Y- = 0.00 cm (limite 0.42) AVISO: Os deslocamentos horizontais não foram verificados Verificação de estabilidade (Gama-Z): X+ = 1.09 (limite 1.10) X- = 1.08 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+9.25%) Vento X+: 0.96 »» 1.10 (+14.46%) Vento X-: 0.96 »» 1.10 (+14.46%) Vento Y+: 1.06 »» 1.15 (+8.21%) Vento Y-: 1.06 »» 1.15 (+8.21%) Desaprumo X+: 0.10 »» 0.11 (+14.20%) Desaprumo X-: 0.10 »» 0.11 (+14.20%) Desaprumo Y+: 0.06 »» 0.07 (+8.02%) Desaprumo Y-: 0.06 »» 0.07 (+8.02%)",
+      "frozenFiles": [
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+          "sha256": "6859e7e8a4a26540d37cf0f61e589205cfebd48af0d90c5f4fd27b99a191343e"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+          "sha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+          "sha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+          "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+          "sha256": "28245f270c59f57818c6085caa5bf7d4dba17881fe0d12fa340c7cb2e8bb4791"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+          "sha256": "20ccb68a9bf0781ab3e447b57db6295640109f4d533ba1a3fa08c75c01469af8"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+          "sha256": "dd5415fab443438274dec359ebb032363bcfcf3678bb6efa29e3ba1b23d2ff9b"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+          "sha256": "7bcf0ec33d66879650f9608983f9ed3ecd2e99bc5a34371cd150f229da08d1f0"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+          "sha256": "6859e7e8a4a26540d37cf0f61e589205cfebd48af0d90c5f4fd27b99a191343e"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+          "sha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+          "sha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+          "sha256": "a1d96ce21fe0468ff4f45550f5e73a3e71088943559b15396f71f20495005c03"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+          "sha256": "23954f0b2bdf96a91681ec1d46c43845f663168871c49ef83baea6eea3ed8346"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR_7704.log",
+          "sha256": "e2662a16c29ba81ca4c75266fcaa14d067f531e3906ec75240ed1783ae83c215"
+        },
+        {
+          "relativePath": "_DADOS_/ConfigFolder.qib",
+          "sha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3"
+        },
+        {
+          "relativePath": "_DADOS_/EdificacaoEberick.ini",
+          "sha256": "75de2dbd59bb3e9cc001e580a667959d84f266866c842450d0ed78eeb61d0167"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D/H03-R44-geometria-nominal.oq3d",
+          "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D/Planificacao_H03-R44-geometria-nominal.ini",
+          "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f"
+        },
+        {
+          "relativePath": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D/Vinculo_H03-R44-geometria-nominal.ini",
+          "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571"
+        }
+      ],
+      "processingTimeObservation": {
+        "start": "2026-11-01T03:20:52.105Z",
+        "endFirstFinishRecorded": "2026-11-01T03:21:11.262Z",
+        "commandToRecordedFinishMs": 19156.210499999986,
+        "solverTimeMs": null,
+        "scope": "Comando ate primeiro termino observado; inclui intervalo de observacao, nao tempo puro do solver",
+        "rankingAllowed": false
+      },
+      "sessionTime": {
+        "start": "2026-11-01T03:20:03.872Z",
+        "end": "2026-11-01T03:22:18.453Z",
+        "wallMs": 134580.1248,
+        "scope": "Abertura ate fechamento com preparo consulta e registro; nao total final"
+      }
+    }
+  },
+  "summariesExactlyEqualAtDisplayedPrecision": true,
+  "sourceFilesProtected": [
+    {
+      "path": "D:\\TCC\\outputs\\16-H03-R102-CAD-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "sha256": "e2dc1d91fda030a981e8562d7c3d46318b8e6c262f9c4300415d4078027ca122",
+      "expected": "e2dc1d91fda030a981e8562d7c3d46318b8e6c262f9c4300415d4078027ca122"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\16-H03-R102-CAD-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "sha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d",
+      "expected": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\16-H03-R102-CAD-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "sha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7",
+      "expected": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\16-H03-R102-CAD-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "expected": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\16-H03-R102-CAD-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "412c88b58ef9997c1827138819d1ead38cb00b661af56ca5e7926a548b9d101a",
+      "expected": "412c88b58ef9997c1827138819d1ead38cb00b661af56ca5e7926a548b9d101a"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\16-H03-R102-CAD-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256": "fba68d67204e07bea84a700c60a9b3af2dcccb6a6bfcbf5762c90408a7c5a999",
+      "expected": "fba68d67204e07bea84a700c60a9b3af2dcccb6a6bfcbf5762c90408a7c5a999"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\16-H03-R102-CAD-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "sha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d",
+      "expected": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\16-H03-R102-CAD-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "sha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7",
+      "expected": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\16-H03-R102-CAD-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256": "412c88b58ef9997c1827138819d1ead38cb00b661af56ca5e7926a548b9d101a",
+      "expected": "412c88b58ef9997c1827138819d1ead38cb00b661af56ca5e7926a548b9d101a"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\16-H03-R102-CAD-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "sha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d",
+      "expected": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\16-H03-R102-CAD-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "sha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7",
+      "expected": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\16-H03-R102-CAD-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "sha256": "e83c2c9fe0a811fcc60e2af315862c984e1162c507c8451e0299fd79bd01042d",
+      "expected": "e83c2c9fe0a811fcc60e2af315862c984e1162c507c8451e0299fd79bd01042d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\16-H03-R102-CAD-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "sha256": "ad901e381a4064f5aca36092b3d5b3fef97f2fbff7aa9891f683d18802e4643b",
+      "expected": "ad901e381a4064f5aca36092b3d5b3fef97f2fbff7aa9891f683d18802e4643b"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\16-H03-R102-CAD-QT-VERTICAL-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5",
+      "expected": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\16-H03-R102-CAD-QT-VERTICAL-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "1708f5863ac1e92aa959e360108d73c002926cb5f73b610bc4e2c446d1c3f0db",
+      "expected": "1708f5863ac1e92aa959e360108d73c002926cb5f73b610bc4e2c446d1c3f0db"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "sha256": "41735ed0fdd0e2c0424dd84ef0b272418947b5c8bdb0cd1abcfa62c852917ccf",
+      "expected": "41735ed0fdd0e2c0424dd84ef0b272418947b5c8bdb0cd1abcfa62c852917ccf"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "sha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28",
+      "expected": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "sha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e",
+      "expected": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "expected": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256": "6859e7e8a4a26540d37cf0f61e589205cfebd48af0d90c5f4fd27b99a191343e",
+      "expected": "6859e7e8a4a26540d37cf0f61e589205cfebd48af0d90c5f4fd27b99a191343e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "sha256": "20ccb68a9bf0781ab3e447b57db6295640109f4d533ba1a3fa08c75c01469af8",
+      "expected": "20ccb68a9bf0781ab3e447b57db6295640109f4d533ba1a3fa08c75c01469af8"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "sha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28",
+      "expected": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "sha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e",
+      "expected": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "sha256": "6859e7e8a4a26540d37cf0f61e589205cfebd48af0d90c5f4fd27b99a191343e",
+      "expected": "6859e7e8a4a26540d37cf0f61e589205cfebd48af0d90c5f4fd27b99a191343e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "sha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28",
+      "expected": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "sha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e",
+      "expected": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "sha256": "239c5e715e5da4a46bf99f4b0cff8e32a89f9ec8bd0ecc675bd7491f1e224343",
+      "expected": "239c5e715e5da4a46bf99f4b0cff8e32a89f9ec8bd0ecc675bd7491f1e224343"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "sha256": "ce419d50760d49160743805870a711b417c3d1ee72c3d6408dd80ac7895ba750",
+      "expected": "ce419d50760d49160743805870a711b417c3d1ee72c3d6408dd80ac7895ba750"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3",
+      "expected": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "a16c143e229599dfe34517feff54f7dbfc280c17ebdacba6fc34bcfd89b58902",
+      "expected": "a16c143e229599dfe34517feff54f7dbfc280c17ebdacba6fc34bcfd89b58902"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183",
+      "expected": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f",
+      "expected": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571",
+      "expected": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571"
+    }
+  ],
+  "processingPerformed": true,
+  "finalStructuralApproval": false,
+  "finalRankingAllowed": false,
+  "limits": [
+    "Cargas restantes e vento local ainda incompletos; resultados parciais.",
+    "Resumo exibe zero no bloco de deslocamentos nao verificados; nao usar como deslocamento estrutural nulo ou aprovacao ELS.",
+    "GamaZ apresentado nao aprova estabilidade final com cargas incompletas.",
+    "Igualdade do resumo nao comprova igualdade de todos os esforcos, ligacoes ou dimensionamento.",
+    "Tempos de observacao incluem latencia e intervalos entre capturas; nao medem solver isolado."
+  ]
+}
