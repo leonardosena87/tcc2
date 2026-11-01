@@ -1,0 +1,416 @@
+{
+  "revision": "H03/R128",
+  "createdAtUtc": "2026-11-01T17:41:53.903588+00:00",
+  "scope": "Síntese rastreável de checkpoints históricos e consultas recentes; não é nova importação, cálculo, atualização de fontes ou edição da monografia.",
+  "sources": [
+    {
+      "revision": "R72",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r72\\R72-resultados-parciais.json",
+      "sha256": "ad66a2bcfd7f2a44ba2ce150756a231c77b3634ac5dee637f97d428d815fe138"
+    },
+    {
+      "revision": "R116",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r116\\R116-resultado.json",
+      "sha256": "0a2ef8feaa0b6beeb28fa297d2f098b62f794b5dff1caec7a57602385beea19a"
+    },
+    {
+      "revision": "R119",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r119\\R119-resultado.json",
+      "sha256": "6a48076d1376ceb53bb134ee9b598e74ae70840396a122a2e958ecee42d4773a"
+    },
+    {
+      "revision": "R121",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r121\\R121-resultado.json",
+      "sha256": "679f586df2c00ee10e4a00d239c9c0561a1e8b201b91f074a33f3085712eedab"
+    },
+    {
+      "revision": "R122",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r122\\R122-resultado.json",
+      "sha256": "2f53f1c62df54fc8d0dda2fab2777d939558708005e0e8ae5fa1c8e3c769fa31"
+    },
+    {
+      "revision": "R123",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r123\\R123-orientacao.json",
+      "sha256": "623237d32b379f08688b246016c452bcc8232eb756708acdf3832993e761b47a"
+    },
+    {
+      "revision": "R124",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r124\\R124-resumo.json",
+      "sha256": "6a039e4dc1a738a7a499bd4c40c7d06a85acd5dd98495bf3cb201977846fddb5"
+    },
+    {
+      "revision": "R125",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r125\\R125-resultado.json",
+      "sha256": "ab577b9f2aa6dc774525cd6ad1c88c7fe6ae84aac295f5387d88e466c2a102d5"
+    },
+    {
+      "revision": "R126",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r126\\R126-resultado.json",
+      "sha256": "c72a7b232f411a39504e2c6627cc49dd9618b113d66b3bc74ba2e859be8c9a87"
+    },
+    {
+      "revision": "R127",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r127\\R127-resultado.json",
+      "sha256": "b121580af497197b08e0afb96cd0c80a702b7f825d77e7bbf1f00e95d9828b5f"
+    }
+  ],
+  "initialTypedAvailabilityHistoricalR45R46": {
+    "rows": [
+      {
+        "element": "Trecho de pilar",
+        "denominator": 22,
+        "CAD_initialNative": 0,
+        "BIM_initialNative": 22,
+        "CAD_complemented": 22,
+        "BIM_complemented": 0,
+        "CAD_initialPercent": 0.0,
+        "BIM_initialPercent": 100.0
+      },
+      {
+        "element": "Viga logica",
+        "denominator": 29,
+        "CAD_initialNative": 0,
+        "BIM_initialNative": 29,
+        "CAD_complemented": 29,
+        "BIM_complemented": 0,
+        "CAD_initialPercent": 0.0,
+        "BIM_initialPercent": 100.0
+      },
+      {
+        "element": "Laje",
+        "denominator": 11,
+        "CAD_initialNative": 0,
+        "BIM_initialNative": 0,
+        "CAD_complemented": 11,
+        "BIM_complemented": 11,
+        "CAD_initialPercent": 0.0,
+        "BIM_initialPercent": 0.0
+      }
+    ],
+    "denominator": 62,
+    "native": {
+      "CAD": 0,
+      "BIM": 51
+    },
+    "percent": {
+      "CAD": 0.0,
+      "BIM": 82.25806451612904
+    },
+    "BIMInputTreatment": {
+      "nominalGeometryRecordsAdapted": 17,
+      "emptyStoreysRemoved": 2
+    },
+    "complementedLogicalUnits": {
+      "CAD": 62,
+      "BIM": 11,
+      "notCorrectionOperationsCount": true,
+      "notDefectCount": true
+    },
+    "notDefectOrInterfaceActionCount": true
+  },
+  "currentChecks": {
+    "slabPairedFieldsR119": 44,
+    "exportGeometryR122": {
+      "portico": {
+        "jointCoordinateMultisetEqualAtExportPrecision": true,
+        "frameEndpointMultisetEqualAtExportPrecision": true,
+        "jointCount": {
+          "CAD": 110,
+          "BIM": 110
+        },
+        "frameCount": {
+          "CAD": 133,
+          "BIM": 133
+        },
+        "doesNotCompareSectionsReleasesAxesLoadsOrResults": true
+      },
+      "N1": {
+        "jointCoordinateMultisetEqualAtExportPrecision": true,
+        "frameEndpointMultisetEqualAtExportPrecision": true,
+        "jointCount": {
+          "CAD": 467,
+          "BIM": 467
+        },
+        "frameCount": {
+          "CAD": 838,
+          "BIM": 838
+        },
+        "doesNotCompareSectionsReleasesAxesLoadsOrResults": true
+      },
+      "N2": {
+        "jointCoordinateMultisetEqualAtExportPrecision": true,
+        "frameEndpointMultisetEqualAtExportPrecision": true,
+        "jointCount": {
+          "CAD": 443,
+          "BIM": 443
+        },
+        "frameCount": {
+          "CAD": 794,
+          "BIM": 794
+        },
+        "doesNotCompareSectionsReleasesAxesLoadsOrResults": true
+      }
+    },
+    "orientationR123": {
+      "portico": {
+        "uniquePairs": 131,
+        "sameOrder": 63,
+        "sectionNameEqualAtSameGeometricPair": 131,
+        "reversedOrder": 68,
+        "ambiguousParallelGroups": 1,
+        "CADBarsInAmbiguousGroups": 2,
+        "BIMBarsInAmbiguousGroups": 2
+      },
+      "N1": {
+        "uniquePairs": 838,
+        "sameOrder": 762,
+        "sectionNameEqualAtSameGeometricPair": 838,
+        "reversedOrder": 76
+      },
+      "N2": {
+        "uniquePairs": 794,
+        "reversedOrder": 159,
+        "sectionNameEqualAtSameGeometricPair": 794,
+        "sameOrder": 635
+      }
+    },
+    "W17R127": {
+      "CAD": {
+        "beam": "V14",
+        "floor": "N1",
+        "bwCm": 20.0,
+        "hCm": 16.0,
+        "elevationCm": 0.0,
+        "extraSumDisplayedKNm": 0.0,
+        "wallDisplayedKNm": 0.0
+      },
+      "BIM": {
+        "beam": "V2",
+        "floor": "TCC-cdd31967-N1",
+        "bwCm": 20.0,
+        "hCm": 16.0,
+        "elevationCm": 0.0,
+        "extraSumDisplayedKNm": 0.0,
+        "wallDisplayedKNm": 0.0
+      }
+    }
+  },
+  "partialVerticalSummariesTf": {
+    "116": {
+      "CAD": {
+        "Peso próprio": 75.69,
+        "Adicional": 10.56,
+        "Acidental": 17.11,
+        "Q_TELHADO_MANUTENCAO": 1.78,
+        "Total": 105.14
+      },
+      "BIM": {
+        "Peso próprio": 75.69,
+        "Adicional": 10.56,
+        "Acidental": 17.11,
+        "Q_TELHADO_MANUTENCAO": 1.78,
+        "Total": 105.14
+      }
+    },
+    "121": {
+      "CAD": {
+        "Peso próprio": 75.69,
+        "Adicional": 12.51,
+        "Acidental": 17.11,
+        "Q_TELHADO_MANUTENCAO": 1.78,
+        "Total": 107.09
+      },
+      "BIM": {
+        "Peso próprio": 75.69,
+        "Adicional": 12.51,
+        "Acidental": 17.11,
+        "Q_TELHADO_MANUTENCAO": 1.78,
+        "Total": 107.09
+      }
+    }
+  },
+  "wallExperiment": {
+    "acceptedAsFinal": false,
+    "R122Representation": {
+      "exportedLoadedLengthM": 4.4,
+      "freeMasonryLengthMFromR120": 4.2,
+      "differenceM": 0.2,
+      "endOverrunsM": [
+        0.1,
+        0.1
+      ],
+      "lengthExcessPercentRelativeToFree": 4.761904761904767,
+      "exportedSignedQKgfPerCm": -4.44,
+      "exportedMagnitudeTf": 1.9536000000000002,
+      "R121DisplayedAdditionalDeltaTf": 1.95,
+      "arithmeticFitsR121RoundedDifferenceInterval": true,
+      "displayedDifferenceAloneWasNotUsedToIdentifyLength": true,
+      "interfaceExtraDisplayKNm": 4.44,
+      "exportedQConvertedConventionallyToKNm": 4.3541526,
+      "SIConversionBetweenNativeUIAndExportVerified": false,
+      "internalStoredPrecisionVerified": false,
+      "nativeAnalyticalModelInternalsIdenticalToExportProved": false
+    },
+    "R125ObservedDisplayRatio": 99.99999999999999,
+    "R126AttemptAccepted": false,
+    "BIMNodeAttemptPerformedInR126": false
+  },
+  "timingSnapshotR124": {
+    "files": 203,
+    "counts": {
+      "registro_sem_duracao_principal": 26,
+      "intervalo_com_duracao": 162,
+      "container_nao_expandido": 15
+    },
+    "overlappingPairs": 23,
+    "fullFlowTotals": {
+      "CAD": null,
+      "BIM": null
+    },
+    "isolatedAIWorkOnMainBuilding": {
+      "inferenceSeconds": null,
+      "tokens": null,
+      "cost": null
+    }
+  },
+  "additionalMeasuredIntervalsAfterR124": [
+    {
+      "revision": "R125",
+      "branch": "BIM",
+      "purpose": "Consulta de unidades: segmento retomado",
+      "start": {
+        "utc": "2026-11-01T17:09:29.104Z",
+        "mono": 50150287.1618
+      },
+      "end": {
+        "utc": "2026-11-01T17:12:00.447Z",
+        "mono": 50301629.7221
+      },
+      "durationMs": 151342.5603,
+      "scope": "Segmento retomado: alternancia de exibicao da carga linear, releitura e restauracao; nao inclui consulta preliminar/interrupcao da ajuda; sem edicao de cargas e sem ranking."
+    },
+    {
+      "revision": "R126",
+      "branch": "CAD",
+      "purpose": "Tentativa de delimitação não aceita",
+      "start": {
+        "utc": "2026-11-01T17:15:51.873Z",
+        "mono": 50533056.0491
+      },
+      "end": {
+        "utc": "2026-11-01T17:28:19.662Z",
+        "mono": 51280845.5325
+      },
+      "durationMs": 747789.4834000021,
+      "scope": "Tentativa exploratoria de delimitar faixa por nos; pesquisa/interface/entradas de controle incluidas; nenhuma carga aplicada, alteracao de controle descartada ao fechar sem salvar; sem ranking."
+    },
+    {
+      "revision": "R127",
+      "branch": "CAD",
+      "purpose": "Consulta da seção do apoio W17",
+      "start": {
+        "utc": "2026-11-01T17:31:09.905Z",
+        "mono": 51451087.9719
+      },
+      "end": {
+        "utc": "2026-11-01T17:33:37.328Z",
+        "mono": 51598511.1852
+      },
+      "durationMs": 147423.21329999715,
+      "scope": "Consulta do apoio W17 CAD; abertura, selecao entre entidades sobrepostas, evidencias e fechamento sem salvar; sem ranking."
+    },
+    {
+      "revision": "R127",
+      "branch": "BIM",
+      "purpose": "Consulta da seção do apoio W17",
+      "start": {
+        "utc": "2026-11-01T17:33:59.173Z",
+        "mono": 51620356.4153
+      },
+      "end": {
+        "utc": "2026-11-01T17:36:12.760Z",
+        "mono": 51753942.5273
+      },
+      "durationMs": 133586.11200000346,
+      "scope": "Consulta do apoio W17 BIM; abertura, evidencias e fechamento sem salvar; sem ranking."
+    }
+  ],
+  "noSumOfExploratoryHistory": true,
+  "pendingWorkstreams": [
+    {
+      "id": "F01",
+      "task": "Delimitar ações nas faixas reais de paredes",
+      "status": "pendente",
+      "evidence": "R122/R126",
+      "doneWhen": "Extremos e intensidade preservados após salvar/reabrir e conferidos na representação analítica dos dois ramos."
+    },
+    {
+      "id": "F02",
+      "task": "Completar paredes, aberturas, vergas e caminho de carga W08",
+      "status": "parcial",
+      "evidence": "R120/R127",
+      "doneWhen": "Todas as parcelas e apoios definidos, lançados e relidos sem duplicar concreto ou cargas existentes."
+    },
+    {
+      "id": "F03",
+      "task": "Resolver reservatório1000L, posição/base/acesso e cargas cheio/vazio",
+      "status": "pendente",
+      "evidence": "R112/R113",
+      "doneWhen": "Compatibilização física e apoio definidos com pesos documentados e casos nativos verificados."
+    },
+    {
+      "id": "F04",
+      "task": "Completar escada, guarda-corpo e cargas remanescentes",
+      "status": "pendente",
+      "evidence": "Matriz de fechamento R72",
+      "doneWhen": "Modelo/reação documentados e parcelas aplicadas sem duplicar ações de lajes."
+    },
+    {
+      "id": "F05",
+      "task": "Validar vento local, manutenção localizada e conjunto completo de combinações",
+      "status": "parcial",
+      "evidence": "Registros de ações e análises parciais; não encerrados pela R128",
+      "doneWhen": "Parâmetros e todos os casos/combinações justificados e conferidos nos dois receptores."
+    },
+    {
+      "id": "F06",
+      "task": "Concluir ELU/ELS e revisar seções preservando alturas arquitetônicas",
+      "status": "pendente",
+      "evidence": "R116/R121/R127",
+      "doneWhen": "Entradas completas, esforços/resistência/flechas/fissuração/estabilidade verificados e revisões relidas."
+    },
+    {
+      "id": "F07",
+      "task": "Sincronizar Revit/AutoCAD com a hipótese técnica aceita",
+      "status": "pendente",
+      "evidence": "Autoria e receptores em checkpoints distintos",
+      "doneWhen": "Nova transferência de fontes congeladas, com geometria/propriedades e ocorrências auditadas."
+    },
+    {
+      "id": "F08",
+      "task": "Executar comparação prospectiva de tempos e fechar pacote de resultados",
+      "status": "pendente",
+      "evidence": "R124 mais intervalos R125–R127",
+      "doneWhen": "Mesmo escopo inicial/final, pausas e esforço humano/IA/interface registrados; tabelas finais vinculadas às evidências."
+    }
+  ],
+  "closedFinalFlow": false,
+  "structuralApproval": false,
+  "finalRankingAllowed": false,
+  "isolatedAIEffort": {
+    "inferenceSeconds": null,
+    "tokens": null,
+    "cost": null
+  },
+  "humanAndAIContribution": {
+    "AI": "Programação, preparação/auditoria de artefatos, pesquisa técnica, operação de interface e registro; sem inferir tempo isolado ou tokens.",
+    "human": "Premissas e decisões registradas sobre escopo, materiais, arquitetura, cobertura/reservatório e intervenções nos aplicativos; tempo ativo não reconstruído retrospectivamente."
+  },
+  "notExecutedInThisConsolidation": [
+    "Importação",
+    "Cálculo estrutural",
+    "Edição de RVT/DWG/PRJ",
+    "Edição da monografia",
+    "Atualização do banco central de tempos"
+  ]
+}
