@@ -1,0 +1,10 @@
+{
+  "method": "Transcrição visual pela IA das capturas desta revisão; não representa texto nativo quando captura.accessibilityAvailable é false. Não se transcreveu o topo oculto pela rolagem.",
+  "bothBranchesConfiguration": {"slab": "L4/N1", "beforeConfiguredXYCm": [50, 50], "afterIndividualXYCm": [10, 10], "angleDegrees": 90, "thicknessCm": 14, "elevationCm": 0, "QKNPerM2": 1.5, "revestimentoKNPerM2": 1, "wallW15Applied": false},
+  "bothBranchesProcessing": {"staticLinear": true, "configuredFrameStiffnessDeflection": true, "dimensioning": false, "slabDeflection": false, "crackedStiffness": false, "dynamic": false, "finishedWithWarnings": true},
+  "bothBranchesReopenedBeforeExport": true,
+  "branches": {
+    "CAD": {"projectName": "54-H03-R134-CAD-GRELHA-SEM-W15-NAO-EXECUTAR", "verticalLoadsDisplayedTf": {"Peso próprio": 75.69, "Adicional": 10.56, "Acidental": 17.11, "Q_TELHADO_MANUTENCAO": 1.78, "Total": 105.14}, "areaM2": 132.81, "ratioKgfPerM2": 791.65, "horizontalMaxCm": 0.20, "relativeMax": {"cm": 0.17, "level": "N1", "direction": "Y-"}, "gammaZ": {"X+": 1.09, "X-": 1.08, "Y+": 1.06, "Y-": 1.05}, "warning": "Relação de carga por área não usual para edifícios"},
+    "BIM": {"projectName": "55-H03-R134-BIM-GRELHA-SEM-W15-NAO-EXECUTAR", "verticalLoadsDisplayedTf": {"Peso próprio": 75.69, "Adicional": 10.56, "Acidental": 17.11, "Q_TELHADO_MANUTENCAO": 1.78, "Total": 105.14}, "areaM2": 132.81, "ratioKgfPerM2": 791.65, "horizontalMaxCm": 0.20, "relativeMax": {"cm": 0.17, "level": "TCC-cdd31967-N1", "direction": "Y+"}, "gammaZ": {"X+": 1.09, "X-": 1.08, "Y+": 1.06, "Y-": 1.05}, "warning": "Relação de carga por área não usual para edifícios"}
+  }
+}
