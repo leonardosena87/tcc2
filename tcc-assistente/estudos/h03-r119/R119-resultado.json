@@ -1,0 +1,1384 @@
+{
+  "revision": "H03/R119",
+  "createdAtUtc": "2026-11-01T15:40:00.757857+00:00",
+  "method": "Consulta individual nativa após abrir cópias R116; extração UIA conferida em imagens; cancelamento e fechamento sem salvar.",
+  "branches": {
+    "CAD": {
+      "projectPath": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "projectSha256": "7aa6766c18ddf61254be0ffdbbdc69823bdecd4fadf5ffb2ef54e96c42d411c3",
+      "prjUnchangedDuringConsultation": true,
+      "readings": [
+        {
+          "floor": "N1",
+          "name": "L1",
+          "values": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "CAD-N1-L1-UI.txt",
+              "sha256": "e7897bdfc7ffdb0d47975a51a220057d1396067f88649539067556d5c8c0b6fb"
+            },
+            {
+              "path": "CAD-N1-L1.jpg",
+              "sha256": "b472264a1e562880c46d3fbeb1ceae0bda0f9f69a3693a17e7d3d596f8f6f5d9"
+            }
+          ]
+        },
+        {
+          "floor": "N1",
+          "name": "L2",
+          "values": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "CAD-N1-L2-UI.txt",
+              "sha256": "5154ea2e7209550491584e5716b1ae69a47da8fdc965503100873411504f579b"
+            },
+            {
+              "path": "CAD-N1-L2.jpg",
+              "sha256": "eee2f779c5bc042256c9bc45b846ca53c325a829e5503279d569b7c64020c6a6"
+            }
+          ]
+        },
+        {
+          "floor": "N1",
+          "name": "L3",
+          "values": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "CAD-N1-L3-UI.txt",
+              "sha256": "cb4bfe97b21cb33163cab9204d1606dee0d95ac87d93ba95b02e828dd1dab139"
+            },
+            {
+              "path": "CAD-N1-L3.jpg",
+              "sha256": "b0d74b261b31461d966f92bf29f96cfb25d9893de2b5aff1207f996bb5275166"
+            }
+          ]
+        },
+        {
+          "floor": "N1",
+          "name": "L4",
+          "values": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "CAD-N1-L4-UI.txt",
+              "sha256": "45c031b297b6452f75e71505d0865a247b3617b3d805b1ef7110743df209b383"
+            },
+            {
+              "path": "CAD-N1-L4.jpg",
+              "sha256": "5bc57e712f5bc9241a20d47b4c87d68b9f8f5c5e2dfea66c1d75fc7302b298f5"
+            }
+          ]
+        },
+        {
+          "floor": "N1",
+          "name": "L5",
+          "values": {
+            "QkNm2": 2.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 2.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "CAD-N1-L5-UI.txt",
+              "sha256": "76ae50d76cb30482c7f36aa51f3b3579f080e42a4c5407a905a929eddba1bed2"
+            },
+            {
+              "path": "CAD-N1-L5.jpg",
+              "sha256": "5f023973310d72579b8cd43ea4d8f040c2bc86548044da23c35684d673e2fd03"
+            }
+          ]
+        },
+        {
+          "floor": "N1",
+          "name": "L6",
+          "values": {
+            "QkNm2": 2.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 2.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "CAD-N1-L6-UI.txt",
+              "sha256": "025bd9ccbad538e31ac3c50afbbb6723abf7dcc0a25a5e1199d26bb2fb61ed07"
+            },
+            {
+              "path": "CAD-N1-L6.jpg",
+              "sha256": "994ab5d180f5ab31c883b9960054bce46c759c39c7104aa0f5a82b227ab95686"
+            }
+          ]
+        },
+        {
+          "floor": "N2",
+          "name": "L1",
+          "values": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "CAD-N2-L1-UI.txt",
+              "sha256": "86cb48c55bafcdbf48b4ca5a65be9a8ed86b869c26cb8f05f93a18dc2abae056"
+            },
+            {
+              "path": "CAD-N2-L1.jpg",
+              "sha256": "bdcbeeaad1fd4ca10c95102e19f313e3b4488e9f58da0f7dc30c9859279619f4"
+            }
+          ]
+        },
+        {
+          "floor": "N2",
+          "name": "L2",
+          "values": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "CAD-N2-L2-UI.txt",
+              "sha256": "5e9716b91ad8023b2225dd7a1a9392060bf644dd4c535e7102db4ffec942b096"
+            },
+            {
+              "path": "CAD-N2-L2.jpg",
+              "sha256": "2b06ce071befc29e8d5001261eeb8785d0534a22242e2be9d49c430146cfa0fa"
+            }
+          ]
+        },
+        {
+          "floor": "N2",
+          "name": "L3",
+          "values": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "CAD-N2-L3-UI.txt",
+              "sha256": "e872704222aef6dbb7db3a2341811c4c95b94a1613080062a769fa9ca4a27c30"
+            },
+            {
+              "path": "CAD-N2-L3.jpg",
+              "sha256": "8e51fdb35d2f5ad25a7a60bc2cde35ac49667307d48032e5e7b5d094ce3f581f"
+            }
+          ]
+        },
+        {
+          "floor": "N2",
+          "name": "L4",
+          "values": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "CAD-N2-L4-UI.txt",
+              "sha256": "56e70551a0d043fea1066d55d995b2c9b23bc543cb2975192801df78556f0685"
+            },
+            {
+              "path": "CAD-N2-L4.jpg",
+              "sha256": "4ad7986c55b944ee1323b4d540de0df65f17b9b52e1c0665672d8d5e649378ad"
+            }
+          ]
+        },
+        {
+          "floor": "N2",
+          "name": "L5",
+          "values": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "CAD-N2-L5-UI.txt",
+              "sha256": "144501cb6dcce0fa6e23c5726c3d02ab9b298a2e531e500360804817187f2367"
+            },
+            {
+              "path": "CAD-N2-L5.jpg",
+              "sha256": "81c891387cfae417089919c7bb786083a8389e55eccc13a3e2d8ecea166966e4"
+            }
+          ]
+        }
+      ],
+      "sessionTime": {
+        "branch": "CAD",
+        "startedAtUtc": "2026-11-01T15:27:14.831Z",
+        "endedAtUtc": "2026-11-01T15:32:33.985Z",
+        "elapsedMs": 319154.77880000323,
+        "scope": "Abertura da copia, onze consultas individuais de lajes, evidencias e fechamento sem salvar",
+        "includesInterfaceReasoningAndCapture": true,
+        "activeHumanMs": null,
+        "isolatedAiInferenceMs": null,
+        "allowsFinalFlowRanking": false
+      },
+      "auxiliaryDifferences": [
+        {
+          "branch": "CAD",
+          "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+          "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+          "sha256Before": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87",
+          "copyInitiallyIdentical": true,
+          "afterSha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87",
+          "afterCopySha256": "7aa6766c18ddf61254be0ffdbbdc69823bdecd4fadf5ffb2ef54e96c42d411c3"
+        },
+        {
+          "branch": "CAD",
+          "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+          "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+          "sha256Before": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d",
+          "copyInitiallyIdentical": true,
+          "afterSha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d",
+          "afterCopySha256": "9dcb0c71361fda7632994e86c865bc166197e7035a09cf24b6ea2a97db06c553"
+        },
+        {
+          "branch": "CAD",
+          "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+          "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+          "sha256Before": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7",
+          "copyInitiallyIdentical": true,
+          "afterSha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7",
+          "afterCopySha256": "464da20e7951be3fa769888c894e02d1c9765bb5a8ecccb2bb64dbad2490f93a"
+        },
+        {
+          "branch": "CAD",
+          "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_7704.log",
+          "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_7704.log",
+          "sha256Before": "126b9850b9446cdc3b3732800356d4aa4e95a130a0be94fb1a2d53f4debc78b6",
+          "copyInitiallyIdentical": true,
+          "afterSha256": "126b9850b9446cdc3b3732800356d4aa4e95a130a0be94fb1a2d53f4debc78b6",
+          "afterCopySha256": "cf1e04e63b63614df93d6c90af5d5c61eaab53c5ad269efa1ff32228b69c6483"
+        },
+        {
+          "branch": "CAD",
+          "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+          "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+          "sha256Before": "4f718e7088c20868d8bdf65ed8e9125abcf4ed921684e9145df3f004d3e92a06",
+          "copyInitiallyIdentical": true,
+          "afterSha256": "4f718e7088c20868d8bdf65ed8e9125abcf4ed921684e9145df3f004d3e92a06",
+          "afterCopySha256": "2a2301b190b94c34e92a2b60de99cfa97435365bdc65c058abebd7c7a5f72432"
+        }
+      ]
+    },
+    "BIM": {
+      "projectPath": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "projectSha256": "626a83ac3449104102c6100ec0a494e972cdef3521d9117a7c0f75c6da97fc72",
+      "prjUnchangedDuringConsultation": true,
+      "readings": [
+        {
+          "floor": "N1",
+          "name": "L1",
+          "values": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "BIM-N1-L1-UI.txt",
+              "sha256": "9085a29198aeb0f6e7250b113b6e50ed1bcbb54ce83b0fca57564be8d9187b45"
+            },
+            {
+              "path": "BIM-N1-L1.jpg",
+              "sha256": "2d585b85b6dc767e270d4ee8fa5eb64331a46462aeae8c9d2ad4bb20a8f92272"
+            }
+          ]
+        },
+        {
+          "floor": "N1",
+          "name": "L2",
+          "values": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "BIM-N1-L2-UI.txt",
+              "sha256": "fb889c7885eca3ff91d4d5d6a8544576d5950865aeecac79756ebfff6f9ec018"
+            },
+            {
+              "path": "BIM-N1-L2.jpg",
+              "sha256": "416bc6d78b512d5e2bf0f95f9d17ece8cfd73034a9562996837edf9885e7467a"
+            }
+          ]
+        },
+        {
+          "floor": "N1",
+          "name": "L3",
+          "values": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "BIM-N1-L3-UI.txt",
+              "sha256": "a5cd861fe981593df553ab9d1cd802c797588d85ea210d17c7d069d155d3e640"
+            },
+            {
+              "path": "BIM-N1-L3.jpg",
+              "sha256": "fd57bb4a13538b373951858618befe59b2bdada51db48539ea45c2a71d505072"
+            }
+          ]
+        },
+        {
+          "floor": "N1",
+          "name": "L4",
+          "values": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "BIM-N1-L4-UI.txt",
+              "sha256": "7e8fd5142373a0c5fb31dea617c19f5d32cbf27a04e323be95256622457fbced"
+            },
+            {
+              "path": "BIM-N1-L4.jpg",
+              "sha256": "aa2106cf6a4ce7653e8d7688a75dfeb6816740c5b3b1502e572ea2653a633c95"
+            }
+          ]
+        },
+        {
+          "floor": "N1",
+          "name": "L5",
+          "values": {
+            "QkNm2": 2.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 2.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "BIM-N1-L5-UI.txt",
+              "sha256": "58d6f0ad2e2b3541b05eae57e498e37d418f3106df6420ed149866efaeb7f407"
+            },
+            {
+              "path": "BIM-N1-L5.jpg",
+              "sha256": "4de84d35cbf0c7909a9fcb66c6144aa84ebc782ed198b998eea0af59fcad7e6c"
+            }
+          ]
+        },
+        {
+          "floor": "N1",
+          "name": "L6",
+          "values": {
+            "QkNm2": 2.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 2.5,
+            "G2kNm2": 1.0,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "BIM-N1-L6-UI.txt",
+              "sha256": "f6801ce86ef1f277e0afb52c2478b590e5114adafde374b6d678f178c223ba29"
+            },
+            {
+              "path": "BIM-N1-L6.jpg",
+              "sha256": "0a914ca44566c3251fe9a28035a36beccd058457d6f298c31a74fdd35f04b80d"
+            }
+          ]
+        },
+        {
+          "floor": "N2",
+          "name": "L1",
+          "values": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "BIM-N2-L1-UI.txt",
+              "sha256": "b1a6a1564661dbb5cc553cc77af8edc1c1cad3fbdad9a69bf5906913fc3cecb6"
+            },
+            {
+              "path": "BIM-N2-L1.jpg",
+              "sha256": "7b1d7e7645b6e47cecbd7e35d280c0efa831c6b0471a134cd548f491f9453202"
+            }
+          ]
+        },
+        {
+          "floor": "N2",
+          "name": "L2",
+          "values": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "BIM-N2-L2-UI.txt",
+              "sha256": "f2fd6cd239cd9b9d11c0f5933fc0d5412ab14943b09981a731f5fe7ff49f8c89"
+            },
+            {
+              "path": "BIM-N2-L2.jpg",
+              "sha256": "afa2db61a743eb6d593cebeab8ae6470a645a45b3d46cd6f41deb2d241404cae"
+            }
+          ]
+        },
+        {
+          "floor": "N2",
+          "name": "L3",
+          "values": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "BIM-N2-L3-UI.txt",
+              "sha256": "d03111937a79f54fc9c8bc9f023560751e524246616fa4773d971429da775164"
+            },
+            {
+              "path": "BIM-N2-L3.jpg",
+              "sha256": "9bb902461d5ea5591aebc0cd941f3c39a5e93e2313a1fb06e8b5acd7f90763a9"
+            }
+          ]
+        },
+        {
+          "floor": "N2",
+          "name": "L4",
+          "values": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "BIM-N2-L4-UI.txt",
+              "sha256": "921648190b024c856d63231a58662d9009d4685602f78fe9999ed771c0721949"
+            },
+            {
+              "path": "BIM-N2-L4.jpg",
+              "sha256": "5470cc6e0cb3c3c5ee50d1f623e3faa8e04b9f24e7a1f8b25cda22c35678e89c"
+            }
+          ]
+        },
+        {
+          "floor": "N2",
+          "name": "L5",
+          "values": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "referenceR53": {
+            "QkNm2": 1.0,
+            "G2kNm2": 0.25,
+            "thicknessCm": 14.0,
+            "elevationCm": 0.0
+          },
+          "matchesReferenceR53": true,
+          "evidence": [
+            {
+              "path": "BIM-N2-L5-UI.txt",
+              "sha256": "e949d49af2aa3b7530849bf515ab20a392169d4a6e71e2ab701a6a5524d4d344"
+            },
+            {
+              "path": "BIM-N2-L5.jpg",
+              "sha256": "effcd4ae6e9d4d6d119dacc1847b54fbc7dd26ed347c2b0e8484bf692b57de3a"
+            }
+          ]
+        }
+      ],
+      "sessionTime": {
+        "branch": "BIM",
+        "startedAtUtc": "2026-11-01T15:32:40.421Z",
+        "endedAtUtc": "2026-11-01T15:38:44.272Z",
+        "elapsedMs": 363849.9259000048,
+        "scope": "Abertura da copia, onze consultas individuais de lajes, evidencias e fechamento sem salvar",
+        "includesInterfaceReasoningAndCapture": true,
+        "activeHumanMs": null,
+        "isolatedAiInferenceMs": null,
+        "allowsFinalFlowRanking": false
+      },
+      "auxiliaryDifferences": [
+        {
+          "branch": "BIM",
+          "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+          "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+          "sha256Before": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff",
+          "copyInitiallyIdentical": true,
+          "afterSha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff",
+          "afterCopySha256": "626a83ac3449104102c6100ec0a494e972cdef3521d9117a7c0f75c6da97fc72"
+        },
+        {
+          "branch": "BIM",
+          "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+          "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+          "sha256Before": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28",
+          "copyInitiallyIdentical": true,
+          "afterSha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28",
+          "afterCopySha256": "4791e7ef1b750af6cbca2c024dce2573a2bf07e83fe082613bec317198cee759"
+        },
+        {
+          "branch": "BIM",
+          "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+          "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+          "sha256Before": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e",
+          "copyInitiallyIdentical": true,
+          "afterSha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e",
+          "afterCopySha256": "c140449fd81c9897ff1f380b4b7119fb58be1d83292852ba9cf1f3d7f3db469d"
+        },
+        {
+          "branch": "BIM",
+          "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_7704.log",
+          "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_7704.log",
+          "sha256Before": "03fc54fff903111e62423165f4478c96850f8f1badc5b6e32db01b00a67ab19f",
+          "copyInitiallyIdentical": true,
+          "afterSha256": "03fc54fff903111e62423165f4478c96850f8f1badc5b6e32db01b00a67ab19f",
+          "afterCopySha256": "6911943cd03793b709b3969f8816bceaeb491ac4c2fdb47983ddcb8af7d707c1"
+        },
+        {
+          "branch": "BIM",
+          "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+          "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+          "sha256Before": "7dba18a90e4d45a7d5c3a5db6bf0037eb668518885dab4b412e3f3d3ca4e6954",
+          "copyInitiallyIdentical": true,
+          "afterSha256": "7dba18a90e4d45a7d5c3a5db6bf0037eb668518885dab4b412e3f3d3ca4e6954",
+          "afterCopySha256": "b84036fcfa817ff330d45ed2e98a7684a121aebdd94c9a930da1f5383854e67e"
+        }
+      ]
+    }
+  },
+  "pairedComparisons": [
+    {
+      "floor": "N1",
+      "name": "L1",
+      "field": "QkNm2",
+      "CAD": 1.5,
+      "BIM": 1.5,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L1",
+      "field": "G2kNm2",
+      "CAD": 1.0,
+      "BIM": 1.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L1",
+      "field": "thicknessCm",
+      "CAD": 14.0,
+      "BIM": 14.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L1",
+      "field": "elevationCm",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L2",
+      "field": "QkNm2",
+      "CAD": 1.5,
+      "BIM": 1.5,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L2",
+      "field": "G2kNm2",
+      "CAD": 1.0,
+      "BIM": 1.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L2",
+      "field": "thicknessCm",
+      "CAD": 14.0,
+      "BIM": 14.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L2",
+      "field": "elevationCm",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L3",
+      "field": "QkNm2",
+      "CAD": 1.5,
+      "BIM": 1.5,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L3",
+      "field": "G2kNm2",
+      "CAD": 1.0,
+      "BIM": 1.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L3",
+      "field": "thicknessCm",
+      "CAD": 14.0,
+      "BIM": 14.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L3",
+      "field": "elevationCm",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L4",
+      "field": "QkNm2",
+      "CAD": 1.5,
+      "BIM": 1.5,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L4",
+      "field": "G2kNm2",
+      "CAD": 1.0,
+      "BIM": 1.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L4",
+      "field": "thicknessCm",
+      "CAD": 14.0,
+      "BIM": 14.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L4",
+      "field": "elevationCm",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L5",
+      "field": "QkNm2",
+      "CAD": 2.5,
+      "BIM": 2.5,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L5",
+      "field": "G2kNm2",
+      "CAD": 1.0,
+      "BIM": 1.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L5",
+      "field": "thicknessCm",
+      "CAD": 14.0,
+      "BIM": 14.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L5",
+      "field": "elevationCm",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L6",
+      "field": "QkNm2",
+      "CAD": 2.5,
+      "BIM": 2.5,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L6",
+      "field": "G2kNm2",
+      "CAD": 1.0,
+      "BIM": 1.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L6",
+      "field": "thicknessCm",
+      "CAD": 14.0,
+      "BIM": 14.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N1",
+      "name": "L6",
+      "field": "elevationCm",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L1",
+      "field": "QkNm2",
+      "CAD": 1.0,
+      "BIM": 1.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L1",
+      "field": "G2kNm2",
+      "CAD": 0.25,
+      "BIM": 0.25,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L1",
+      "field": "thicknessCm",
+      "CAD": 14.0,
+      "BIM": 14.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L1",
+      "field": "elevationCm",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L2",
+      "field": "QkNm2",
+      "CAD": 1.0,
+      "BIM": 1.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L2",
+      "field": "G2kNm2",
+      "CAD": 0.25,
+      "BIM": 0.25,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L2",
+      "field": "thicknessCm",
+      "CAD": 14.0,
+      "BIM": 14.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L2",
+      "field": "elevationCm",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L3",
+      "field": "QkNm2",
+      "CAD": 1.0,
+      "BIM": 1.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L3",
+      "field": "G2kNm2",
+      "CAD": 0.25,
+      "BIM": 0.25,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L3",
+      "field": "thicknessCm",
+      "CAD": 14.0,
+      "BIM": 14.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L3",
+      "field": "elevationCm",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L4",
+      "field": "QkNm2",
+      "CAD": 1.0,
+      "BIM": 1.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L4",
+      "field": "G2kNm2",
+      "CAD": 0.25,
+      "BIM": 0.25,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L4",
+      "field": "thicknessCm",
+      "CAD": 14.0,
+      "BIM": 14.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L4",
+      "field": "elevationCm",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L5",
+      "field": "QkNm2",
+      "CAD": 1.0,
+      "BIM": 1.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L5",
+      "field": "G2kNm2",
+      "CAD": 0.25,
+      "BIM": 0.25,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L5",
+      "field": "thicknessCm",
+      "CAD": 14.0,
+      "BIM": 14.0,
+      "equalDisplayed": true
+    },
+    {
+      "floor": "N2",
+      "name": "L5",
+      "field": "elevationCm",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    }
+  ],
+  "allComparedDisplayedFieldsEqual": true,
+  "allMatchPartialR53Register": true,
+  "protectedR116Files": [
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "sha256Before": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "sha256Before": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "sha256Before": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256Before": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256Before": "7aa6766c18ddf61254be0ffdbbdc69823bdecd4fadf5ffb2ef54e96c42d411c3",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "7aa6766c18ddf61254be0ffdbbdc69823bdecd4fadf5ffb2ef54e96c42d411c3"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256Before": "0e4684dfb5cca95f0c7e2da23f3acbf81936bb3db7a751bd07054e6e0784e6e5",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "0e4684dfb5cca95f0c7e2da23f3acbf81936bb3db7a751bd07054e6e0784e6e5"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "sha256Before": "9dcb0c71361fda7632994e86c865bc166197e7035a09cf24b6ea2a97db06c553",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "9dcb0c71361fda7632994e86c865bc166197e7035a09cf24b6ea2a97db06c553"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "sha256Before": "464da20e7951be3fa769888c894e02d1c9765bb5a8ecccb2bb64dbad2490f93a",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "464da20e7951be3fa769888c894e02d1c9765bb5a8ecccb2bb64dbad2490f93a"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256Before": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "sha256Before": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "sha256Before": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "sha256Before": "ea3a76687bd74b4f76f9417671082f63ae6e626fb85ebbd11b5a6dd87c486af1",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "ea3a76687bd74b4f76f9417671082f63ae6e626fb85ebbd11b5a6dd87c486af1"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "sha256Before": "c84d378ae74e8a078661ee3d3eefd2387be125cb580091004cb06da9bcda77f2",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "c84d378ae74e8a078661ee3d3eefd2387be125cb580091004cb06da9bcda77f2"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_7704.log",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_7704.log",
+      "sha256Before": "126b9850b9446cdc3b3732800356d4aa4e95a130a0be94fb1a2d53f4debc78b6",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "126b9850b9446cdc3b3732800356d4aa4e95a130a0be94fb1a2d53f4debc78b6"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256Before": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "copy": "D:\\TCC\\outputs\\34-H03-R119-CAD-LAJES-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256Before": "4f718e7088c20868d8bdf65ed8e9125abcf4ed921684e9145df3f004d3e92a06",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "4f718e7088c20868d8bdf65ed8e9125abcf4ed921684e9145df3f004d3e92a06"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "sha256Before": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "sha256Before": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "sha256Before": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "sha256Before": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256Before": "626a83ac3449104102c6100ec0a494e972cdef3521d9117a7c0f75c6da97fc72",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "626a83ac3449104102c6100ec0a494e972cdef3521d9117a7c0f75c6da97fc72"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "sha256Before": "c2d2f5e1963760dbb356fcccf3dfc33a42d5b9332e02a7d73f6bd8f3de4dc297",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "c2d2f5e1963760dbb356fcccf3dfc33a42d5b9332e02a7d73f6bd8f3de4dc297"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "sha256Before": "4791e7ef1b750af6cbca2c024dce2573a2bf07e83fe082613bec317198cee759",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "4791e7ef1b750af6cbca2c024dce2573a2bf07e83fe082613bec317198cee759"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "sha256Before": "c140449fd81c9897ff1f380b4b7119fb58be1d83292852ba9cf1f3d7f3db469d",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "c140449fd81c9897ff1f380b4b7119fb58be1d83292852ba9cf1f3d7f3db469d"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "sha256Before": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "sha256Before": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "sha256Before": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "sha256Before": "59fd5b938dc866ad1676223fc4cadb38645407a45504f4343944a3e906b4d91a",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "59fd5b938dc866ad1676223fc4cadb38645407a45504f4343944a3e906b4d91a"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "sha256Before": "6e0ed5136ca045f6a705fbdde33aaf5642cc705ad905443725914f99e57c9031",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "6e0ed5136ca045f6a705fbdde33aaf5642cc705ad905443725914f99e57c9031"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_7704.log",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_7704.log",
+      "sha256Before": "03fc54fff903111e62423165f4478c96850f8f1badc5b6e32db01b00a67ab19f",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "03fc54fff903111e62423165f4478c96850f8f1badc5b6e32db01b00a67ab19f"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256Before": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256Before": "7dba18a90e4d45a7d5c3a5db6bf0037eb668518885dab4b412e3f3d3ca4e6954",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "7dba18a90e4d45a7d5c3a5db6bf0037eb668518885dab4b412e3f3d3ca4e6954"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "sha256Before": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "sha256Before": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "copy": "D:\\TCC\\outputs\\35-H03-R119-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "sha256Before": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571"
+    }
+  ],
+  "sourceR116FilesUnchanged": true,
+  "scope": "Q, G2 parcial, espessura e elevação das onze lajes em cada ramo; 44 pares de campos, dos quais 22 de cargas.",
+  "propertiesEdited": false,
+  "processingPerformed": false,
+  "monographEdited": false,
+  "finalStructuralApproval": false,
+  "finalRankingAllowed": false,
+  "limits": [
+    "Valores iguais não encerram o modelo de cargas ou validam ELU/ELS.",
+    "G2 N1 é hipótese parcial de piso; G2 N2 contempla forro, não impermeabilização/telhado/paredes.",
+    "Não se inspecionaram listas completas de cargas extras, transferência da grelha ou forças em todas as peças.",
+    "L5 N1 não substitui cálculo da escada; L6 não encerra guarda-corpo e cargas de borda.",
+    "Não se conclui incorporação das paredes aos modelos por essa leitura.",
+    "Sessões incluem raciocínio, interface, evidências e latência; não são tempos integrais ou inferência isolada IA."
+  ]
+}
