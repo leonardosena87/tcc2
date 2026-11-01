@@ -1,0 +1,1634 @@
+{
+  "revision": "H03/R107",
+  "createdAtUtc": "2026-11-01T11:08:24.501678+00:00",
+  "branches": {
+    "CAD": {
+      "tablesNative": [
+        [
+          [
+            "Verificações",
+            "Vento X+",
+            "Vento X-",
+            "Vento Y+",
+            "Vento Y-"
+          ],
+          [
+            "Altura total da edificação (cm)",
+            "719.00",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Deslocamento limite (cm)",
+            "0.42",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Deslocamento característico (cm)",
+            "0.67",
+            "0.67",
+            "0.68",
+            "0.68"
+          ],
+          [
+            "gf2",
+            "0.30",
+            "0.30",
+            "0.30",
+            "0.30"
+          ],
+          [
+            "Deslocamento combinações frequentes (cm)",
+            "0.20",
+            "0.20",
+            "0.20",
+            "0.20"
+          ]
+        ],
+        [
+          [
+            "Pavimento",
+            "Altura (cm)",
+            "Deslocamento combinações frequentes (cm)",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "Vento X+",
+            "Vento X-",
+            "Vento Y+",
+            "Vento Y-"
+          ],
+          [
+            "N2",
+            "319.00",
+            "0.20",
+            "0.20",
+            "0.20",
+            "0.20"
+          ],
+          [
+            "N1",
+            "300.00",
+            "0.17",
+            "0.17",
+            "0.17",
+            "0.17"
+          ],
+          [
+            "N0",
+            "100.00",
+            "0.01",
+            "0.01",
+            "0.01",
+            "0.01"
+          ]
+        ],
+        [
+          [
+            "Pavimento",
+            "Deslocamento relativo entre pavimentos (cm)",
+            "",
+            "",
+            "",
+            "Limite (cm)"
+          ],
+          [
+            "",
+            "Vento X+",
+            "Vento X-",
+            "Vento Y+",
+            "Vento Y-",
+            ""
+          ],
+          [
+            "N2",
+            "0.03",
+            "0.03",
+            "0.04",
+            "0.04",
+            "0.38"
+          ],
+          [
+            "N1",
+            "0.17",
+            "0.17",
+            "0.16",
+            "0.16",
+            "0.35"
+          ],
+          [
+            "N0",
+            "0.01",
+            "0.01",
+            "0.01",
+            "0.01",
+            "0.12"
+          ]
+        ],
+        [
+          [
+            "Pavimento",
+            "Massa (kN.s²/cm)",
+            "Centro de massa",
+            "",
+            "Centro de rigidez",
+            "",
+            "Raio de giro (cm)"
+          ],
+          [
+            "",
+            "",
+            "X (cm)",
+            "Y (cm)",
+            "X (cm)",
+            "Y (cm)",
+            ""
+          ],
+          [
+            "N2",
+            "0.40",
+            "481.69",
+            "351.67",
+            "",
+            "",
+            "401.98"
+          ],
+          [
+            "N1",
+            "0.48",
+            "502.15",
+            "371.97",
+            "",
+            "",
+            "430.49"
+          ],
+          [
+            "N0",
+            "0.03",
+            "502.27",
+            "334.09",
+            "",
+            "",
+            "460.15"
+          ]
+        ]
+      ],
+      "tablesNormalized": [
+        [
+          [
+            "Verificações",
+            "Vento X+",
+            "Vento X-",
+            "Vento Y+",
+            "Vento Y-"
+          ],
+          [
+            "Altura total da edificação (cm)",
+            "719.00",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Deslocamento limite (cm)",
+            "0.42",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Deslocamento característico (cm)",
+            "0.67",
+            "0.67",
+            "0.68",
+            "0.68"
+          ],
+          [
+            "gf2",
+            "0.30",
+            "0.30",
+            "0.30",
+            "0.30"
+          ],
+          [
+            "Deslocamento combinações frequentes (cm)",
+            "0.20",
+            "0.20",
+            "0.20",
+            "0.20"
+          ]
+        ],
+        [
+          [
+            "Pavimento",
+            "Altura (cm)",
+            "Deslocamento combinações frequentes (cm)",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "Vento X+",
+            "Vento X-",
+            "Vento Y+",
+            "Vento Y-"
+          ],
+          [
+            "N2",
+            "319.00",
+            "0.20",
+            "0.20",
+            "0.20",
+            "0.20"
+          ],
+          [
+            "N1",
+            "300.00",
+            "0.17",
+            "0.17",
+            "0.17",
+            "0.17"
+          ],
+          [
+            "N0",
+            "100.00",
+            "0.01",
+            "0.01",
+            "0.01",
+            "0.01"
+          ]
+        ],
+        [
+          [
+            "Pavimento",
+            "Deslocamento relativo entre pavimentos (cm)",
+            "",
+            "",
+            "",
+            "Limite (cm)"
+          ],
+          [
+            "",
+            "Vento X+",
+            "Vento X-",
+            "Vento Y+",
+            "Vento Y-",
+            ""
+          ],
+          [
+            "N2",
+            "0.03",
+            "0.03",
+            "0.04",
+            "0.04",
+            "0.38"
+          ],
+          [
+            "N1",
+            "0.17",
+            "0.17",
+            "0.16",
+            "0.16",
+            "0.35"
+          ],
+          [
+            "N0",
+            "0.01",
+            "0.01",
+            "0.01",
+            "0.01",
+            "0.12"
+          ]
+        ],
+        [
+          [
+            "Pavimento",
+            "Massa (kN.s²/cm)",
+            "Centro de massa",
+            "",
+            "Centro de rigidez",
+            "",
+            "Raio de giro (cm)"
+          ],
+          [
+            "",
+            "",
+            "X (cm)",
+            "Y (cm)",
+            "X (cm)",
+            "Y (cm)",
+            ""
+          ],
+          [
+            "N2",
+            "0.40",
+            "481.69",
+            "351.67",
+            "",
+            "",
+            "401.98"
+          ],
+          [
+            "N1",
+            "0.48",
+            "502.15",
+            "371.97",
+            "",
+            "",
+            "430.49"
+          ],
+          [
+            "N0",
+            "0.03",
+            "502.27",
+            "334.09",
+            "",
+            "",
+            "460.15"
+          ]
+        ]
+      ],
+      "docxPath": "D:\\TCC\\outputs\\Relatorios-H03-R107-CONSULTA-NAO-EXECUTAR\\CAD-DeslocamentosHorizontais-nativo.docx",
+      "docxSha256": "0a91eb2bbed1a0d30a13da90f3662079a5c7a13cb40521d5dfdadc6301ed8d3a",
+      "summary": {
+        "raw": "Cargas verticais: Peso próprio = 75.69 tf Adicional = 10.05 tf Acidental = 17.11 tf Q_TELHADO_MANUTENCAO = 1.40 tf Total = 104.25 tf Área aproximada = 132.81 m² Relação = 784.99 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.20 cm (limite 0.42) X- = 0.20 cm (limite 0.42) Y+ = 0.20 cm (limite 0.42) Y- = 0.20 cm (limite 0.42) Deslocamento relativo máximo do centro de massa (Vento): N1 - Y- = 0.17 cm (limite 0.35) Verificação de estabilidade (Gama-Z): X+ = 1.09 (limite 1.10) X- = 1.08 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+9.25%) Vento X+: 0.96 »» 1.10 (+14.46%) Vento X-: 0.96 »» 1.10 (+14.46%) Vento Y+: 1.06 »» 1.15 (+8.21%) Vento Y-: 1.06 »» 1.15 (+8.21%) Desaprumo X+: 0.10 »» 0.11 (+14.20%) Desaprumo X-: 0.10 »» 0.11 (+14.20%) Desaprumo Y+: 0.06 »» 0.07 (+8.02%) Desaprumo Y-: 0.06 »» 0.07 (+8.02%)",
+        "horizontalCm": {
+          "X+": {
+            "value": 0.2,
+            "displayedLimit": 0.42
+          },
+          "X-": {
+            "value": 0.2,
+            "displayedLimit": 0.42
+          },
+          "Y+": {
+            "value": 0.2,
+            "displayedLimit": 0.42
+          },
+          "Y-": {
+            "value": 0.2,
+            "displayedLimit": 0.42
+          }
+        },
+        "relative": {
+          "floorNative": "N1",
+          "direction": "Y-",
+          "valueCm": 0.17,
+          "displayedLimitCm": 0.35
+        }
+      },
+      "summaryMatchesOwnR106": true,
+      "literalSummaryTableComparison": {
+        "floor": "N1",
+        "summaryDirection": "Y-",
+        "summaryValueCm": 0.17,
+        "sameLabelTableValueCm": 0.16,
+        "sameLabelDisplayedValueMatches": false,
+        "tableDisplayedMaximumCm": 0.17,
+        "interpretation": "Comparacao literal de rotulos; causa e semantica nao reconciliadas.",
+        "softwareBugDemonstrated": false
+      },
+      "projectPath": "D:\\TCC\\outputs\\R107-CAD\\H03-CAD-NAO-EXECUTAR.prj",
+      "prjSha256": "e5795878ce7f0cbc11e6c66814ff1b905b2b02ec60b5bd12ad6aff9f76911acc",
+      "frozenFiles": [
+        {
+          "relativePath": "H03-CAD-NAO-EXECUTAR.bak",
+          "sha256": "8d8faab55fc2fc907cd47702a65636356b0b664126140dcca552a702db14f982"
+        },
+        {
+          "relativePath": "H03-CAD-NAO-EXECUTAR.bak-g2",
+          "sha256": "7ceb0ae82bba92b45d0bf4166ea78873afb6545521380966a943a5ed91614363"
+        },
+        {
+          "relativePath": "H03-CAD-NAO-EXECUTAR.bak-g3",
+          "sha256": "2f21b280119b5d2b95e7275014a84dacd99837eab45d26a29d4f51264dacff6e"
+        },
+        {
+          "relativePath": "H03-CAD-NAO-EXECUTAR.ini",
+          "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+        },
+        {
+          "relativePath": "H03-CAD-NAO-EXECUTAR.prj",
+          "sha256": "e5795878ce7f0cbc11e6c66814ff1b905b2b02ec60b5bd12ad6aff9f76911acc"
+        },
+        {
+          "relativePath": "H03-CAD-NAO-EXECUTAR.prj-cad",
+          "sha256": "2b454d36d194a0f800873a7fee280f17d877f4ed0da39fe4d97da64a773ccfb5"
+        },
+        {
+          "relativePath": "H03-CAD-NAO-EXECUTAR.prj-g2",
+          "sha256": "c5fff65cb7e570bc3aa109d26b31462863e374ea3ceacd9c070b8ae6b13bfee7"
+        },
+        {
+          "relativePath": "H03-CAD-NAO-EXECUTAR.prj-g3",
+          "sha256": "481c8b2e991b6c7d8b817ca0d401c5f415c2037b177061c3ed6e833b3a879371"
+        },
+        {
+          "relativePath": "H03-CAD-NAO-EXECUTAR.x2",
+          "sha256": "470857d11938ec5140ef1f88588202df079c34d6842be8075860f36987481331"
+        },
+        {
+          "relativePath": "H03-CAD-NAO-EXECUTAR.x3",
+          "sha256": "5c97d21fa04287d7a06f163003d698b51b801908938e4939e45e22973b52cc59"
+        },
+        {
+          "relativePath": "H03-CAD-NAO-EXECUTAR_7704.log",
+          "sha256": "81b73f6850be531f0890cbbd2be0f3e86896fbbd3e6da57827fc0facaecd8d66"
+        },
+        {
+          "relativePath": "Memória/graficodeslhorizontais.bmp",
+          "sha256": "c4ee681f4bcaa7fb292143debc093a4a07fe7de0d2694c564d616f398c4a47f2"
+        },
+        {
+          "relativePath": "Memória/logo.gif",
+          "sha256": "b38857f1c1da842e6113c6464464d20c048457a36f01bb42519595ddebaab728"
+        },
+        {
+          "relativePath": "Memória/Projeto_DeslocamentosHorizontais.docx",
+          "sha256": "0a91eb2bbed1a0d30a13da90f3662079a5c7a13cb40521d5dfdadc6301ed8d3a"
+        }
+      ],
+      "sessionTime": {
+        "start": "2026-11-01T03:37:07.968Z",
+        "end": "2026-11-01T11:03:16.804Z",
+        "wallMs": 26766713.0736,
+        "scope": "Recuperacao e emissao de relatorio; nao ensaio de produtividade"
+      },
+      "processingTimeObservation": {
+        "start": "2026-11-01T03:39:13.008Z",
+        "endFirstFinishRecorded": "2026-11-01T11:00:59.872Z",
+        "commandToRecordedFinishMs": 26504740.8174,
+        "solverTimeMs": null,
+        "rankingAllowed": false,
+        "scope": "Recuperacao de relatorios; observacao apos retomada da conversa"
+      }
+    },
+    "BIM": {
+      "tablesNative": [
+        [
+          [
+            "Verificações",
+            "Vento X+",
+            "Vento X-",
+            "Vento Y+",
+            "Vento Y-"
+          ],
+          [
+            "Altura total da edificação (cm)",
+            "719.00",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Deslocamento limite (cm)",
+            "0.42",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Deslocamento característico (cm)",
+            "0.67",
+            "0.67",
+            "0.68",
+            "0.68"
+          ],
+          [
+            "gf2",
+            "0.30",
+            "0.30",
+            "0.30",
+            "0.30"
+          ],
+          [
+            "Deslocamento combinações frequentes (cm)",
+            "0.20",
+            "0.20",
+            "0.20",
+            "0.20"
+          ]
+        ],
+        [
+          [
+            "Pavimento",
+            "Altura (cm)",
+            "Deslocamento combinações frequentes (cm)",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "Vento X+",
+            "Vento X-",
+            "Vento Y+",
+            "Vento Y-"
+          ],
+          [
+            "TCC-cdd31967-N2",
+            "319.00",
+            "0.20",
+            "0.20",
+            "0.20",
+            "0.20"
+          ],
+          [
+            "TCC-cdd31967-N1",
+            "300.00",
+            "0.17",
+            "0.17",
+            "0.17",
+            "0.17"
+          ],
+          [
+            "TCC-cdd31967-N0",
+            "100.00",
+            "0.01",
+            "0.01",
+            "0.01",
+            "0.01"
+          ]
+        ],
+        [
+          [
+            "Pavimento",
+            "Deslocamento relativo entre pavimentos (cm)",
+            "",
+            "",
+            "",
+            "Limite (cm)"
+          ],
+          [
+            "",
+            "Vento X+",
+            "Vento X-",
+            "Vento Y+",
+            "Vento Y-",
+            ""
+          ],
+          [
+            "TCC-cdd31967-N2",
+            "0.03",
+            "0.03",
+            "0.04",
+            "0.04",
+            "0.38"
+          ],
+          [
+            "TCC-cdd31967-N1",
+            "0.17",
+            "0.17",
+            "0.16",
+            "0.16",
+            "0.35"
+          ],
+          [
+            "TCC-cdd31967-N0",
+            "0.01",
+            "0.01",
+            "0.01",
+            "0.01",
+            "0.12"
+          ]
+        ],
+        [
+          [
+            "Pavimento",
+            "Massa (kN.s²/cm)",
+            "Centro de massa",
+            "",
+            "Centro de rigidez",
+            "",
+            "Raio de giro (cm)"
+          ],
+          [
+            "",
+            "",
+            "X (cm)",
+            "Y (cm)",
+            "X (cm)",
+            "Y (cm)",
+            ""
+          ],
+          [
+            "TCC-cdd31967-N2",
+            "0.40",
+            "481.69",
+            "351.67",
+            "",
+            "",
+            "401.98"
+          ],
+          [
+            "TCC-cdd31967-N1",
+            "0.48",
+            "502.15",
+            "371.97",
+            "",
+            "",
+            "430.49"
+          ],
+          [
+            "TCC-cdd31967-N0",
+            "0.03",
+            "502.27",
+            "334.09",
+            "",
+            "",
+            "460.15"
+          ]
+        ]
+      ],
+      "tablesNormalized": [
+        [
+          [
+            "Verificações",
+            "Vento X+",
+            "Vento X-",
+            "Vento Y+",
+            "Vento Y-"
+          ],
+          [
+            "Altura total da edificação (cm)",
+            "719.00",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Deslocamento limite (cm)",
+            "0.42",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Deslocamento característico (cm)",
+            "0.67",
+            "0.67",
+            "0.68",
+            "0.68"
+          ],
+          [
+            "gf2",
+            "0.30",
+            "0.30",
+            "0.30",
+            "0.30"
+          ],
+          [
+            "Deslocamento combinações frequentes (cm)",
+            "0.20",
+            "0.20",
+            "0.20",
+            "0.20"
+          ]
+        ],
+        [
+          [
+            "Pavimento",
+            "Altura (cm)",
+            "Deslocamento combinações frequentes (cm)",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "Vento X+",
+            "Vento X-",
+            "Vento Y+",
+            "Vento Y-"
+          ],
+          [
+            "N2",
+            "319.00",
+            "0.20",
+            "0.20",
+            "0.20",
+            "0.20"
+          ],
+          [
+            "N1",
+            "300.00",
+            "0.17",
+            "0.17",
+            "0.17",
+            "0.17"
+          ],
+          [
+            "N0",
+            "100.00",
+            "0.01",
+            "0.01",
+            "0.01",
+            "0.01"
+          ]
+        ],
+        [
+          [
+            "Pavimento",
+            "Deslocamento relativo entre pavimentos (cm)",
+            "",
+            "",
+            "",
+            "Limite (cm)"
+          ],
+          [
+            "",
+            "Vento X+",
+            "Vento X-",
+            "Vento Y+",
+            "Vento Y-",
+            ""
+          ],
+          [
+            "N2",
+            "0.03",
+            "0.03",
+            "0.04",
+            "0.04",
+            "0.38"
+          ],
+          [
+            "N1",
+            "0.17",
+            "0.17",
+            "0.16",
+            "0.16",
+            "0.35"
+          ],
+          [
+            "N0",
+            "0.01",
+            "0.01",
+            "0.01",
+            "0.01",
+            "0.12"
+          ]
+        ],
+        [
+          [
+            "Pavimento",
+            "Massa (kN.s²/cm)",
+            "Centro de massa",
+            "",
+            "Centro de rigidez",
+            "",
+            "Raio de giro (cm)"
+          ],
+          [
+            "",
+            "",
+            "X (cm)",
+            "Y (cm)",
+            "X (cm)",
+            "Y (cm)",
+            ""
+          ],
+          [
+            "N2",
+            "0.40",
+            "481.69",
+            "351.67",
+            "",
+            "",
+            "401.98"
+          ],
+          [
+            "N1",
+            "0.48",
+            "502.15",
+            "371.97",
+            "",
+            "",
+            "430.49"
+          ],
+          [
+            "N0",
+            "0.03",
+            "502.27",
+            "334.09",
+            "",
+            "",
+            "460.15"
+          ]
+        ]
+      ],
+      "docxPath": "D:\\TCC\\outputs\\Relatorios-H03-R107-CONSULTA-NAO-EXECUTAR\\BIM-DeslocamentosHorizontais-nativo.docx",
+      "docxSha256": "3da89575e0ed17db011b430f39ba3de5a547b22c4175f1d7a6b3cacb5a2fb552",
+      "summary": {
+        "raw": "Cargas verticais: Peso próprio = 75.69 tf Adicional = 10.05 tf Acidental = 17.11 tf Q_TELHADO_MANUTENCAO = 1.40 tf Total = 104.25 tf Área aproximada = 132.81 m² Relação = 784.99 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.20 cm (limite 0.42) X- = 0.20 cm (limite 0.42) Y+ = 0.20 cm (limite 0.42) Y- = 0.20 cm (limite 0.42) Deslocamento relativo máximo do centro de massa (Vento): TCC-cdd31967-N1 - Y+ = 0.17 cm (limite 0.35) Verificação de estabilidade (Gama-Z): X+ = 1.09 (limite 1.10) X- = 1.08 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+9.25%) Vento X+: 0.96 »» 1.10 (+14.46%) Vento X-: 0.96 »» 1.10 (+14.46%) Vento Y+: 1.06 »» 1.15 (+8.21%) Vento Y-: 1.06 »» 1.15 (+8.21%) Desaprumo X+: 0.10 »» 0.11 (+14.20%) Desaprumo X-: 0.10 »» 0.11 (+14.20%) Desaprumo Y+: 0.06 »» 0.07 (+8.02%) Desaprumo Y-: 0.06 »» 0.07 (+8.02%)",
+        "horizontalCm": {
+          "X+": {
+            "value": 0.2,
+            "displayedLimit": 0.42
+          },
+          "X-": {
+            "value": 0.2,
+            "displayedLimit": 0.42
+          },
+          "Y+": {
+            "value": 0.2,
+            "displayedLimit": 0.42
+          },
+          "Y-": {
+            "value": 0.2,
+            "displayedLimit": 0.42
+          }
+        },
+        "relative": {
+          "floorNative": "TCC-cdd31967-N1",
+          "direction": "Y+",
+          "valueCm": 0.17,
+          "displayedLimitCm": 0.35
+        }
+      },
+      "summaryMatchesOwnR106": true,
+      "literalSummaryTableComparison": {
+        "floor": "N1",
+        "summaryDirection": "Y+",
+        "summaryValueCm": 0.17,
+        "sameLabelTableValueCm": 0.16,
+        "sameLabelDisplayedValueMatches": false,
+        "tableDisplayedMaximumCm": 0.17,
+        "interpretation": "Comparacao literal de rotulos; causa e semantica nao reconciliadas.",
+        "softwareBugDemonstrated": false
+      },
+      "projectPath": "D:\\TCC\\outputs\\R107-BIM\\H03-BIM-NAO-EXECUTAR.prj",
+      "prjSha256": "cf847bcbef45892a1748d99dda478a016786fcf59383e00e57302d6dc0f1b2f0",
+      "frozenFiles": [
+        {
+          "relativePath": "H03-BIM-NAO-EXECUTAR.bak",
+          "sha256": "35b6bba8493780b7faa7f3ce6b119c703dd48640fb0389aa2580fa4931c7bbea"
+        },
+        {
+          "relativePath": "H03-BIM-NAO-EXECUTAR.bak-g2",
+          "sha256": "fc032012cde76e9c6167c11cb13d21ed3f70352da82b6929058a138efe7110be"
+        },
+        {
+          "relativePath": "H03-BIM-NAO-EXECUTAR.bak-g3",
+          "sha256": "ad6fb4f43bff8043b4aebf9daa2c17c652064e7270488777f40391fe6237bf59"
+        },
+        {
+          "relativePath": "H03-BIM-NAO-EXECUTAR.ini",
+          "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+        },
+        {
+          "relativePath": "H03-BIM-NAO-EXECUTAR.prj",
+          "sha256": "cf847bcbef45892a1748d99dda478a016786fcf59383e00e57302d6dc0f1b2f0"
+        },
+        {
+          "relativePath": "H03-BIM-NAO-EXECUTAR.prj-cad",
+          "sha256": "158b39abb7fb3fea40a74263e28f1576e82b5b929db7759585cbf5bbe5fea1df"
+        },
+        {
+          "relativePath": "H03-BIM-NAO-EXECUTAR.prj-g2",
+          "sha256": "d7b342d1d4cfc0586e45525734b38fbf0471cc3f82f455171e8f9ee8eac0e7a7"
+        },
+        {
+          "relativePath": "H03-BIM-NAO-EXECUTAR.prj-g3",
+          "sha256": "df4961eeac4f2e864a38625133254f99840570a3e18fd3d5509156fbc2b66c00"
+        },
+        {
+          "relativePath": "H03-BIM-NAO-EXECUTAR.x2",
+          "sha256": "250125e163f886fc9849881e08fccbccaebc04714827c5f9d3fe8bdf3e775d3a"
+        },
+        {
+          "relativePath": "H03-BIM-NAO-EXECUTAR.x3",
+          "sha256": "9e7bb9538feb026433cf39a5c3479a3a5b8acef9b78c78483e4255c474512656"
+        },
+        {
+          "relativePath": "H03-BIM-NAO-EXECUTAR_7704.log",
+          "sha256": "42b763369c41568bf01111b5b309591604bcc040f93cc5b137ff73f7b5a121da"
+        },
+        {
+          "relativePath": "H03-BIM-NAO-EXECUTAR_Modelos 3D/H03-R44-geometria-nominal.OQ3D",
+          "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183"
+        },
+        {
+          "relativePath": "H03-BIM-NAO-EXECUTAR_Modelos 3D/Planificacao_H03-R44-geometria-nominal.ini",
+          "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f"
+        },
+        {
+          "relativePath": "H03-BIM-NAO-EXECUTAR_Modelos 3D/Vinculo_H03-R44-geometria-nominal.ini",
+          "sha256": "254624f932f0d1bdab45b40ca62eee0bea04344abff87208090f47701d3128e8"
+        },
+        {
+          "relativePath": "Memória/graficodeslhorizontais.bmp",
+          "sha256": "c4ee681f4bcaa7fb292143debc093a4a07fe7de0d2694c564d616f398c4a47f2"
+        },
+        {
+          "relativePath": "Memória/logo.gif",
+          "sha256": "b38857f1c1da842e6113c6464464d20c048457a36f01bb42519595ddebaab728"
+        },
+        {
+          "relativePath": "Memória/Projeto_DeslocamentosHorizontais.docx",
+          "sha256": "3da89575e0ed17db011b430f39ba3de5a547b22c4175f1d7a6b3cacb5a2fb552"
+        }
+      ],
+      "sessionTime": {
+        "start": "2026-11-01T11:03:27.056Z",
+        "end": "2026-11-01T11:07:27.912Z",
+        "wallMs": 240855.628800001,
+        "scope": "Recuperacao e emissao de relatorio; nao ensaio de produtividade"
+      },
+      "processingTimeObservation": {
+        "start": "2026-11-01T11:04:47.303Z",
+        "endFirstFinishRecorded": "2026-11-01T11:05:20.133Z",
+        "commandToRecordedFinishMs": 32829.76300000027,
+        "solverTimeMs": null,
+        "rankingAllowed": false,
+        "scope": "Recuperacao de relatorios; nao produtividade"
+      }
+    }
+  },
+  "allFourTablesEqualAfterExplicitFloorMapping": true,
+  "numericCellComparisons": [
+    {
+      "table": 1,
+      "row": 2,
+      "column": 2,
+      "CAD": "719.00",
+      "BIM": "719.00",
+      "equal": true
+    },
+    {
+      "table": 1,
+      "row": 3,
+      "column": 2,
+      "CAD": "0.42",
+      "BIM": "0.42",
+      "equal": true
+    },
+    {
+      "table": 1,
+      "row": 4,
+      "column": 2,
+      "CAD": "0.67",
+      "BIM": "0.67",
+      "equal": true
+    },
+    {
+      "table": 1,
+      "row": 4,
+      "column": 3,
+      "CAD": "0.67",
+      "BIM": "0.67",
+      "equal": true
+    },
+    {
+      "table": 1,
+      "row": 4,
+      "column": 4,
+      "CAD": "0.68",
+      "BIM": "0.68",
+      "equal": true
+    },
+    {
+      "table": 1,
+      "row": 4,
+      "column": 5,
+      "CAD": "0.68",
+      "BIM": "0.68",
+      "equal": true
+    },
+    {
+      "table": 1,
+      "row": 5,
+      "column": 2,
+      "CAD": "0.30",
+      "BIM": "0.30",
+      "equal": true
+    },
+    {
+      "table": 1,
+      "row": 5,
+      "column": 3,
+      "CAD": "0.30",
+      "BIM": "0.30",
+      "equal": true
+    },
+    {
+      "table": 1,
+      "row": 5,
+      "column": 4,
+      "CAD": "0.30",
+      "BIM": "0.30",
+      "equal": true
+    },
+    {
+      "table": 1,
+      "row": 5,
+      "column": 5,
+      "CAD": "0.30",
+      "BIM": "0.30",
+      "equal": true
+    },
+    {
+      "table": 1,
+      "row": 6,
+      "column": 2,
+      "CAD": "0.20",
+      "BIM": "0.20",
+      "equal": true
+    },
+    {
+      "table": 1,
+      "row": 6,
+      "column": 3,
+      "CAD": "0.20",
+      "BIM": "0.20",
+      "equal": true
+    },
+    {
+      "table": 1,
+      "row": 6,
+      "column": 4,
+      "CAD": "0.20",
+      "BIM": "0.20",
+      "equal": true
+    },
+    {
+      "table": 1,
+      "row": 6,
+      "column": 5,
+      "CAD": "0.20",
+      "BIM": "0.20",
+      "equal": true
+    },
+    {
+      "table": 2,
+      "row": 3,
+      "column": 2,
+      "CAD": "319.00",
+      "BIM": "319.00",
+      "equal": true
+    },
+    {
+      "table": 2,
+      "row": 3,
+      "column": 3,
+      "CAD": "0.20",
+      "BIM": "0.20",
+      "equal": true
+    },
+    {
+      "table": 2,
+      "row": 3,
+      "column": 4,
+      "CAD": "0.20",
+      "BIM": "0.20",
+      "equal": true
+    },
+    {
+      "table": 2,
+      "row": 3,
+      "column": 5,
+      "CAD": "0.20",
+      "BIM": "0.20",
+      "equal": true
+    },
+    {
+      "table": 2,
+      "row": 3,
+      "column": 6,
+      "CAD": "0.20",
+      "BIM": "0.20",
+      "equal": true
+    },
+    {
+      "table": 2,
+      "row": 4,
+      "column": 2,
+      "CAD": "300.00",
+      "BIM": "300.00",
+      "equal": true
+    },
+    {
+      "table": 2,
+      "row": 4,
+      "column": 3,
+      "CAD": "0.17",
+      "BIM": "0.17",
+      "equal": true
+    },
+    {
+      "table": 2,
+      "row": 4,
+      "column": 4,
+      "CAD": "0.17",
+      "BIM": "0.17",
+      "equal": true
+    },
+    {
+      "table": 2,
+      "row": 4,
+      "column": 5,
+      "CAD": "0.17",
+      "BIM": "0.17",
+      "equal": true
+    },
+    {
+      "table": 2,
+      "row": 4,
+      "column": 6,
+      "CAD": "0.17",
+      "BIM": "0.17",
+      "equal": true
+    },
+    {
+      "table": 2,
+      "row": 5,
+      "column": 2,
+      "CAD": "100.00",
+      "BIM": "100.00",
+      "equal": true
+    },
+    {
+      "table": 2,
+      "row": 5,
+      "column": 3,
+      "CAD": "0.01",
+      "BIM": "0.01",
+      "equal": true
+    },
+    {
+      "table": 2,
+      "row": 5,
+      "column": 4,
+      "CAD": "0.01",
+      "BIM": "0.01",
+      "equal": true
+    },
+    {
+      "table": 2,
+      "row": 5,
+      "column": 5,
+      "CAD": "0.01",
+      "BIM": "0.01",
+      "equal": true
+    },
+    {
+      "table": 2,
+      "row": 5,
+      "column": 6,
+      "CAD": "0.01",
+      "BIM": "0.01",
+      "equal": true
+    },
+    {
+      "table": 3,
+      "row": 3,
+      "column": 2,
+      "CAD": "0.03",
+      "BIM": "0.03",
+      "equal": true
+    },
+    {
+      "table": 3,
+      "row": 3,
+      "column": 3,
+      "CAD": "0.03",
+      "BIM": "0.03",
+      "equal": true
+    },
+    {
+      "table": 3,
+      "row": 3,
+      "column": 4,
+      "CAD": "0.04",
+      "BIM": "0.04",
+      "equal": true
+    },
+    {
+      "table": 3,
+      "row": 3,
+      "column": 5,
+      "CAD": "0.04",
+      "BIM": "0.04",
+      "equal": true
+    },
+    {
+      "table": 3,
+      "row": 3,
+      "column": 6,
+      "CAD": "0.38",
+      "BIM": "0.38",
+      "equal": true
+    },
+    {
+      "table": 3,
+      "row": 4,
+      "column": 2,
+      "CAD": "0.17",
+      "BIM": "0.17",
+      "equal": true
+    },
+    {
+      "table": 3,
+      "row": 4,
+      "column": 3,
+      "CAD": "0.17",
+      "BIM": "0.17",
+      "equal": true
+    },
+    {
+      "table": 3,
+      "row": 4,
+      "column": 4,
+      "CAD": "0.16",
+      "BIM": "0.16",
+      "equal": true
+    },
+    {
+      "table": 3,
+      "row": 4,
+      "column": 5,
+      "CAD": "0.16",
+      "BIM": "0.16",
+      "equal": true
+    },
+    {
+      "table": 3,
+      "row": 4,
+      "column": 6,
+      "CAD": "0.35",
+      "BIM": "0.35",
+      "equal": true
+    },
+    {
+      "table": 3,
+      "row": 5,
+      "column": 2,
+      "CAD": "0.01",
+      "BIM": "0.01",
+      "equal": true
+    },
+    {
+      "table": 3,
+      "row": 5,
+      "column": 3,
+      "CAD": "0.01",
+      "BIM": "0.01",
+      "equal": true
+    },
+    {
+      "table": 3,
+      "row": 5,
+      "column": 4,
+      "CAD": "0.01",
+      "BIM": "0.01",
+      "equal": true
+    },
+    {
+      "table": 3,
+      "row": 5,
+      "column": 5,
+      "CAD": "0.01",
+      "BIM": "0.01",
+      "equal": true
+    },
+    {
+      "table": 3,
+      "row": 5,
+      "column": 6,
+      "CAD": "0.12",
+      "BIM": "0.12",
+      "equal": true
+    },
+    {
+      "table": 4,
+      "row": 3,
+      "column": 2,
+      "CAD": "0.40",
+      "BIM": "0.40",
+      "equal": true
+    },
+    {
+      "table": 4,
+      "row": 3,
+      "column": 3,
+      "CAD": "481.69",
+      "BIM": "481.69",
+      "equal": true
+    },
+    {
+      "table": 4,
+      "row": 3,
+      "column": 4,
+      "CAD": "351.67",
+      "BIM": "351.67",
+      "equal": true
+    },
+    {
+      "table": 4,
+      "row": 3,
+      "column": 7,
+      "CAD": "401.98",
+      "BIM": "401.98",
+      "equal": true
+    },
+    {
+      "table": 4,
+      "row": 4,
+      "column": 2,
+      "CAD": "0.48",
+      "BIM": "0.48",
+      "equal": true
+    },
+    {
+      "table": 4,
+      "row": 4,
+      "column": 3,
+      "CAD": "502.15",
+      "BIM": "502.15",
+      "equal": true
+    },
+    {
+      "table": 4,
+      "row": 4,
+      "column": 4,
+      "CAD": "371.97",
+      "BIM": "371.97",
+      "equal": true
+    },
+    {
+      "table": 4,
+      "row": 4,
+      "column": 7,
+      "CAD": "430.49",
+      "BIM": "430.49",
+      "equal": true
+    },
+    {
+      "table": 4,
+      "row": 5,
+      "column": 2,
+      "CAD": "0.03",
+      "BIM": "0.03",
+      "equal": true
+    },
+    {
+      "table": 4,
+      "row": 5,
+      "column": 3,
+      "CAD": "502.27",
+      "BIM": "502.27",
+      "equal": true
+    },
+    {
+      "table": 4,
+      "row": 5,
+      "column": 4,
+      "CAD": "334.09",
+      "BIM": "334.09",
+      "equal": true
+    },
+    {
+      "table": 4,
+      "row": 5,
+      "column": 7,
+      "CAD": "460.15",
+      "BIM": "460.15",
+      "equal": true
+    }
+  ],
+  "originalR106Files": [
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "sha256": "5e58892f0b8426e88b634c9736f257c9d582e42e09cd84cea84c54fe0eae5265",
+      "afterSha256": "5e58892f0b8426e88b634c9736f257c9d582e42e09cd84cea84c54fe0eae5265",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "sha256": "f71f1538464abd0823e07f62bd59b769238b511acba01ad9a78ce2a85ce594bf",
+      "afterSha256": "f71f1538464abd0823e07f62bd59b769238b511acba01ad9a78ce2a85ce594bf",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "sha256": "4898b034b93634ab59809aaab44e6763d82c311eefee148f84236d0ab30acb4b",
+      "afterSha256": "4898b034b93634ab59809aaab44e6763d82c311eefee148f84236d0ab30acb4b",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "afterSha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "db99ee012cfbfb2b5a7c61ad2012e15aaf06720964cee282164692d772f66662",
+      "afterSha256": "db99ee012cfbfb2b5a7c61ad2012e15aaf06720964cee282164692d772f66662",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256": "fba68d67204e07bea84a700c60a9b3af2dcccb6a6bfcbf5762c90408a7c5a999",
+      "afterSha256": "fba68d67204e07bea84a700c60a9b3af2dcccb6a6bfcbf5762c90408a7c5a999",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "sha256": "7ceb0ae82bba92b45d0bf4166ea78873afb6545521380966a943a5ed91614363",
+      "afterSha256": "7ceb0ae82bba92b45d0bf4166ea78873afb6545521380966a943a5ed91614363",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "sha256": "2f21b280119b5d2b95e7275014a84dacd99837eab45d26a29d4f51264dacff6e",
+      "afterSha256": "2f21b280119b5d2b95e7275014a84dacd99837eab45d26a29d4f51264dacff6e",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256": "5e58892f0b8426e88b634c9736f257c9d582e42e09cd84cea84c54fe0eae5265",
+      "afterSha256": "db99ee012cfbfb2b5a7c61ad2012e15aaf06720964cee282164692d772f66662",
+      "unchanged": false
+    },
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "sha256": "f71f1538464abd0823e07f62bd59b769238b511acba01ad9a78ce2a85ce594bf",
+      "afterSha256": "7ceb0ae82bba92b45d0bf4166ea78873afb6545521380966a943a5ed91614363",
+      "unchanged": false
+    },
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "sha256": "4898b034b93634ab59809aaab44e6763d82c311eefee148f84236d0ab30acb4b",
+      "afterSha256": "2f21b280119b5d2b95e7275014a84dacd99837eab45d26a29d4f51264dacff6e",
+      "unchanged": false
+    },
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "sha256": "5ffd9b2e1b337cd81e18ef0a98595b262b9b68f0eb852af1aebb95aad7ae491b",
+      "afterSha256": "5ffd9b2e1b337cd81e18ef0a98595b262b9b68f0eb852af1aebb95aad7ae491b",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "sha256": "04ec315714043ebe2a1da386e9ff7a1e3c53a65e0113fa92a691635124f968d6",
+      "afterSha256": "04ec315714043ebe2a1da386e9ff7a1e3c53a65e0113fa92a691635124f968d6",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_7704.log",
+      "sha256": "3f97a8d5c4a8e284b93225ef8a11cad2d17506dbb2ca52cb4e5370a29bdf8f04",
+      "afterSha256": "5af85d057ead8d16853769e71f825173708e0f258a3fb3eb39dad2e5c71db2e6",
+      "unchanged": false
+    },
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5",
+      "afterSha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\20-H03-R106-CAD-DESLOCAMENTOS-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "029ee574d7da0098276727bc2e47436be11ae7b35520671a87e39c0f63ac4a12",
+      "afterSha256": "029ee574d7da0098276727bc2e47436be11ae7b35520671a87e39c0f63ac4a12",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "sha256": "28245f270c59f57818c6085caa5bf7d4dba17881fe0d12fa340c7cb2e8bb4791",
+      "afterSha256": "28245f270c59f57818c6085caa5bf7d4dba17881fe0d12fa340c7cb2e8bb4791",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "sha256": "dd5415fab443438274dec359ebb032363bcfcf3678bb6efa29e3ba1b23d2ff9b",
+      "afterSha256": "dd5415fab443438274dec359ebb032363bcfcf3678bb6efa29e3ba1b23d2ff9b",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "sha256": "7bcf0ec33d66879650f9608983f9ed3ecd2e99bc5a34371cd150f229da08d1f0",
+      "afterSha256": "7bcf0ec33d66879650f9608983f9ed3ecd2e99bc5a34371cd150f229da08d1f0",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "afterSha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256": "f90997c8027c0da711fd8b1cb974a50cfe23a8e202144e3ed84c14966ded4de5",
+      "afterSha256": "f90997c8027c0da711fd8b1cb974a50cfe23a8e202144e3ed84c14966ded4de5",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "sha256": "20ccb68a9bf0781ab3e447b57db6295640109f4d533ba1a3fa08c75c01469af8",
+      "afterSha256": "20ccb68a9bf0781ab3e447b57db6295640109f4d533ba1a3fa08c75c01469af8",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "sha256": "fc032012cde76e9c6167c11cb13d21ed3f70352da82b6929058a138efe7110be",
+      "afterSha256": "fc032012cde76e9c6167c11cb13d21ed3f70352da82b6929058a138efe7110be",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "sha256": "ad6fb4f43bff8043b4aebf9daa2c17c652064e7270488777f40391fe6237bf59",
+      "afterSha256": "ad6fb4f43bff8043b4aebf9daa2c17c652064e7270488777f40391fe6237bf59",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "sha256": "28245f270c59f57818c6085caa5bf7d4dba17881fe0d12fa340c7cb2e8bb4791",
+      "afterSha256": "f90997c8027c0da711fd8b1cb974a50cfe23a8e202144e3ed84c14966ded4de5",
+      "unchanged": false
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "sha256": "dd5415fab443438274dec359ebb032363bcfcf3678bb6efa29e3ba1b23d2ff9b",
+      "afterSha256": "fc032012cde76e9c6167c11cb13d21ed3f70352da82b6929058a138efe7110be",
+      "unchanged": false
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "sha256": "7bcf0ec33d66879650f9608983f9ed3ecd2e99bc5a34371cd150f229da08d1f0",
+      "afterSha256": "ad6fb4f43bff8043b4aebf9daa2c17c652064e7270488777f40391fe6237bf59",
+      "unchanged": false
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "sha256": "94c81ab7ad71a7718c9c6a0eb1f448693674b85441cd9792b360089ad952405f",
+      "afterSha256": "94c81ab7ad71a7718c9c6a0eb1f448693674b85441cd9792b360089ad952405f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "sha256": "d82e41ff065f57e59972ed5e3cc9fed118b0538886b2e6a6c29b8dcb849d876f",
+      "afterSha256": "d82e41ff065f57e59972ed5e3cc9fed118b0538886b2e6a6c29b8dcb849d876f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_7704.log",
+      "sha256": "b1554111ca4d74f0b8bdcb400457d9e686a3789f69114eba6d8aa38cf8c4190b",
+      "afterSha256": "3758878c7a6f4517a428b9e3e76f7b58084f85db7bd64b85355ec3cb0bdcf47b",
+      "unchanged": false
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3",
+      "afterSha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "d6eef7774b7eb57545ea0dce4062769c5b0cbb2cf18e99ace196d4c09485c767",
+      "afterSha256": "d6eef7774b7eb57545ea0dce4062769c5b0cbb2cf18e99ace196d4c09485c767",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183",
+      "afterSha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f",
+      "afterSha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\TCC\\outputs\\21-H03-R106-BIM-DESLOCAMENTOS-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571",
+      "afterSha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571",
+      "unchanged": true
+    }
+  ],
+  "originalR106PrjsUnchanged": true,
+  "reprocessingReason": "Relatorio bloqueado por pasta da edificacao; salvar como nova copia desativou resultados. Regeneracao somente nas copias R107.",
+  "criticalDirectionReconciled": false,
+  "transferDefectDemonstrated": false,
+  "finalStructuralApproval": false,
+  "finalRankingAllowed": false,
+  "limits": [
+    "Cargas e vento ainda parciais; rigidez configurada, sem dimensionamento final.",
+    "Igualdade de quatro tabelas arredondadas nao demonstra equivalencia global.",
+    "Relatorio e resumo preservados sem correcao de seus rotulos; causa desconhecida.",
+    "Centros de rigidez em branco nao sao zero nem validacao de diafragma rigido.",
+    "Sessao CAD inclui lacuna de conversa de varias horas. Tempos de recuperacao nao sao produtividade."
+  ]
+}

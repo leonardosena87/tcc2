@@ -1,0 +1,344 @@
+Window: "Projeto_DeslocamentosHorizontais - Modo de Compatibilidade - Word", App: WINWORD.EXE.
+	0 janela Projeto_DeslocamentosHorizontais - Modo de Compatibilidade - Word Secondary Actions: Raise
+		1 painel (disabled) DropShadowTop
+		2 painel MsoDockTop
+			3 barra de ferramentas Description: Barra de ferramentas Ribbon
+				4 painel Ribbon
+					5 painel
+						6 Painel Secondary Actions: Raise
+							7 Painel Ribbon
+								8 Barra de Ferramentas Barra de Ferramentas de Acesso Rápido
+									9 Ativar/Desativar Opção  Salvamento Automático ID: AutoSaveSwitch
+									10 Botão Salvar ID: FileSave
+									11 Botão de Divisão (disabled) Não é Possível Desfazer ID: Undo
+										12 Botão (disabled) Não é Possível Desfazer
+										13 Item de Menu (disabled) Mais Opções ID: Undo_Dropdown
+									14 Botão (disabled) Impossível repetir ID: RedoOrRepeat
+									15 Botão de Divisão (settable, string) Equação ID: EquationInsertGallery
+										16 Botão Equação
+										17 Item de Menu Mais Opções ID: EquationInsertGallery_Dropdown
+									18 Agrupar Parágrafo
+										19 Item de Menu Parágrafo
+									20 Item de Menu Personalizar Barra de Ferramentas de Acesso Rápido
+								21 Barra de Título ‪Projeto_DeslocamentosHorizontais - Modo de Compatibilidade‬ - Salvo neste PC
+									22 Item de Menu ‪Projeto_DeslocamentosHorizontais - Modo de Compatibilidade‬ - Salvo neste PC
+								23 Item de Menu Digite para pesquisar e use as teclas de seta para cima e para baixo para navegar ID: TellMeControlAnchor
+									24 Caixa de Edição (settable, string) Microsoft search Value: Pesquisar ID: TellMeTextBoxAutomationId
+								25 Botão Atualize seu plano
+								26 Item de Menu Leonardo Sena de Santana Sena Imoveis ID: MeControlWidget
+								27 Botão Minimizar
+								28 Botão Restaurar Tamanho Original
+								29 Botão Fechar
+								30 Botão Guia Arquivo ID: FileTabButton
+								31 Painel Guias da Faixa de Opções
+									32 Item de Guia (selectable) Página Inicial ID: TabHome
+									33 Item de Guia (selectable) Inserir ID: TabInsert
+									34 Item de Guia (selectable) Design ID: TabWordDesign
+									35 Item de Guia (selectable) Layout ID: TabPageLayoutWord
+									36 Item de Guia (selectable) Referências ID: TabReferences
+									37 Item de Guia (selectable) Correspondências ID: TabMailings
+									38 Item de Guia (selectable) Revisão ID: TabReviewWord
+									39 Item de Guia (selectable) Exibir ID: TabView
+									40 Item de Guia (selectable) Ajuda ID: HelpTab
+									41 Item de Guia (selectable) Acrobat
+									42 Botão Comentários
+									43 Caixa de Combinação (settable, string) Editando Value: Editando
+									44 Item de Menu Compartilhamento
+								45 Painel Faixa de Opções Inferior
+									46 Agrupar Página Inicial
+										47 Agrupar Área de Transferência
+											48 Botão de Divisão (settable, string) Colar
+												49 Botão Colar ID: Paste
+												50 Item de Menu Mais Opções ID: PasteMenu_Dropdown
+											51 Botão (disabled) Recortar ID: Cut
+											52 Botão (disabled) Copiar ID: Copy
+											53 Botão Pincel de Formatação ID: FormatPainter
+											54 Botão Área de Transferência do Office... ID: ShowClipboard
+										55 Agrupar Fonte
+											56 Caixa de Combinação (settable, string) Fonte Value: Times New Roman ID: Font
+												57 Caixa de Edição (settable, string) Fonte Value: Times New Roman
+												58 Botão Abrir
+											59 Caixa de Combinação (settable, string) Tamanho da Fonte Value: 9 ID: FontSize
+												60 Caixa de Edição (settable, string) Tamanho da Fonte Value: 9
+												61 Botão Abrir
+											62 Botão Aumentar Fonte ID: FontSizeIncreaseWord
+											63 Botão Reduzir Fonte ID: FontSizeDecreaseWord
+											64 Item de Menu Maiúsculas e Minúsculas ID: ChangeCaseGallery
+											65 Botão Limpar Formatação ID: ClearFormatting
+											66 Botão Negrito ID: Bold
+											67 Botão Itálico ID: Italic
+											68 Botão de Divisão (settable, string) Sublinhado ID: UnderlineGallery
+												69 Botão Sublinhado
+												70 Item de Menu Mais Opções ID: UnderlineGallery_Dropdown
+											71 Botão Tachado ID: Strikethrough
+											72 Botão Subscrito ID: Subscript
+											73 Botão Sobrescrito ID: Superscript
+											74 Item de Menu (disabled) Efeitos de Texto e Tipografia ID: TextEffectsGallery
+											75 Botão de Divisão (settable, string) Cor do Realce do Texto Value: Amarelo ID: TextHighlightColorPicker
+												76 Botão Cor do Realce do Texto Amarelo
+												77 Item de Menu Mais Opções ID: TextHighlightColorPicker_Dropdown
+											78 Botão de Divisão (settable, string) Cor da Fonte Value: RGB(255, 0, 0) ID: FontColorPicker
+												79 Botão Cor da Fonte RGB(255, 0, 0)
+												80 Item de Menu Mais Opções ID: FontColorPicker_Dropdown
+											81 Botão Fonte... ID: FontDialog
+										82 Agrupar Parágrafo
+											83 Botão de Divisão (settable, string) Marcadores ID: BulletsGalleryWord
+												84 Botão Marcadores
+												85 Item de Menu Mais Opções ID: BulletsGalleryWord_Dropdown
+											86 Botão de Divisão (settable, string) Numeração ID: NumberingGalleryWord
+												87 Botão Numeração
+												88 Item de Menu Mais Opções ID: NumberingGalleryWord_Dropdown
+											89 Item de Menu Lista de Vários Níveis ID: MultilevelListGallery
+											90 Botão Diminuir Recuo ID: IndentDecreaseWord
+											91 Botão Aumentar Recuo ID: IndentIncreaseWord
+											92 Botão Classificar... ID: SortDialogClassic
+											93 Botão Mostrar Tudo ID: ParagraphMarks
+											94 Botão Alinhar à Esquerda ID: AlignLeft
+											95 Botão Centralizar ID: AlignCenter
+											96 Botão Alinhar à Direita ID: AlignRight
+											97 Botão Justificar ID: AlignJustify
+											98 Item de Menu Espaçamento de Linha e Parágrafo ID: LineSpacingGallery
+											99 Botão de Divisão (settable, string) Sombreamento Value: RGB(0, 0, 0) ID: ShadingColorPicker
+												100 Botão Sombreamento RGB(0, 0, 0)
+												101 Item de Menu Mais Opções ID: ShadingColorPicker_Dropdown
+											102 Botão de Divisão (settable, string) Bordas ID: BordersSelectionGallery
+												103 Botão Bordas
+												104 Item de Menu Mais Opções ID: BordersSelectionGallery_Dropdown
+											105 Botão Parágrafo... ID: ParagraphDialog
+										106 Agrupar Estilos
+											107 Agrupar Estilos
+												108 Item de Menu ID: QuickStylesGallery
+													109 Painel Estilos
+														110 Grade de Dados Estilos
+															111 Item de Lista (selectable) ¶ Normal
+															112 Item de Lista (selectable) ¶ Sem Espaçamento
+															113 Item de Lista (selectable) Título 1
+															114 Item de Lista (selectable) Título 2
+															115 Item de Lista (selectable) Título
+															116 Item de Lista (selectable) Subtítulo
+															117 Item de Lista (selectable) Ênfase Sutil
+															118 Item de Lista (selectable) Ênfase
+															119 Item de Lista (selectable) Ênfase Intensa
+															120 Item de Lista (selectable) Forte
+															121 Item de Lista (selectable) Citação
+															122 Item de Lista (selectable) Citação Intensa
+															123 Item de Lista (selectable) Referência Sutil
+															124 Item de Lista (selectable) Referência Intensa
+															125 Item de Lista (selectable) Título do Livro
+															126 Item de Lista (selectable) ¶ Parágrafo da Lista
+													127 Botão Estilos
+														128 Imagem
+											129 Botão Estilos... ID: StylesPane
+										130 Agrupar Editando
+											131 Botão de Divisão (settable, string) Localizar
+												132 Botão Localizar ID: NavigationPaneFind
+												133 Item de Menu Mais Opções ID: SelectMenuExcel_Dropdown
+											134 Botão Substituir... ID: ReplaceDialog
+											135 Item de Menu Selecionar ID: SelectMenu
+										136 Agrupar Adobe Acrobat
+											137 Botão Criar e compartilhar Adobe PDF
+											138 Botão Solicitar assinaturas
+										139 Agrupar Voz
+											140 Botão de Divisão (settable, string) Ditar
+												141 Botão Ditar ID: Dictate
+												142 Item de Menu Mais Opções ID: DictationMenu_Dropdown
+										143 Agrupar Editor
+											144 Botão Editor ID: WritingAssistanceCheckDocument
+										145 Agrupar Suplementos
+											146 Botão Suplementos ID: OfficeExtensionsShowAddinFlyout
+										147 Agrupar Sena Imóveis
+											148 Botão Revisar contrato
+								149 Item de Menu Opções de Exibição da Faixa de Opções
+		150 painel
+			151 painel Projeto_DeslocamentosHorizontais - Modo de Compatibilidade
+				152 documento Projeto_DeslocamentosHorizontais - Modo de Compatibilidade
+					152 Painel Secondary Actions: Raise
+						153 Agrupar
+							154 Agrupar
+								155 Botão Copilot Chat ID: dynamicActionButton
+					156 página Página 1 ID: UIA_AutomationId_Word_Page_1
+						157 editar Cabeçalho -Seção 1-
+							158 tabela
+								159 item
+									160 imagem (selectable) Picture 1
+								161 item
+								162 item
+								163 item
+								164 item
+						165 editar Conteúdo1 da página ID: Body
+							166 tabela
+								167 item
+									168 imagem (selectable) Picture 1
+						169 editar Rodapé -Seção 1-
+					170 página Página 2 ID: UIA_AutomationId_Word_Page_2
+						171 editar Cabeçalho -Seção 1-
+							172 tabela
+								173 item
+									174 imagem (selectable) Picture 1
+								175 item
+								176 item
+								177 item
+								178 item
+						179 editar Conteúdo2 da página ID: Body
+							341 tabela
+								342 item
+								343 item
+								344 item
+								345 item
+								346 item
+								347 item
+								348 item
+								349 item
+								350 item
+								351 item
+								352 item
+								353 item
+								354 item
+								355 item
+								356 item
+								357 item
+								358 item
+								359 item
+								360 item
+								361 item
+								362 item
+								363 item
+								364 item
+								365 item
+							366 tabela
+								367 item
+								368 item
+								369 item
+								370 item
+								371 item
+								372 item
+								373 item
+								374 item
+								375 item
+								376 item
+								377 item
+								378 item
+								379 item
+								380 item
+								381 item
+								382 item
+								383 item
+								384 item
+								385 item
+								386 item
+								387 item
+								388 item
+								389 item
+								390 item
+								391 item
+							392 tabela
+								393 item
+								394 item
+								395 item
+								396 item
+								397 item
+								398 item
+								399 item
+								400 item
+								401 item
+								402 item
+								403 item
+								404 item
+								405 item
+								406 item
+								407 item
+								408 item
+								409 item
+								410 item
+								411 item
+								412 item
+								413 item
+								414 item
+								415 item
+								416 item
+								417 item
+							418 tabela
+								419 item
+								420 item
+								421 item
+								422 item
+								423 item
+								424 item
+								425 item
+								426 item
+								427 item
+								428 item
+								429 item
+								430 item
+								431 item
+								432 item
+								433 item
+								434 item
+								435 item
+								436 item
+								437 item
+								438 item
+								439 item
+								440 item
+								441 item
+								442 item
+								443 item
+								444 item
+								445 item
+								446 item
+								447 item
+								448 item
+						302 editar Rodapé -Seção 1-
+				303 painel Vertical
+					304 Painel Secondary Actions: Raise
+						305 Barra de Rolagem (settable, float) Value: 29825
+				311 painel
+				312 painel
+		313 painel MsoDockBottom
+			314 barra de ferramentas Description: Barra de ferramentas Barra de Status
+				315 painel Barra de Status
+					316 painel
+						317 Painel Secondary Actions: Raise
+							318 Barra de Status Barra de Status
+								319 Botão Número de Página Página 2 de 2
+								320 Texto Contar Palavras 229 palavras
+								321 Botão Modo de coautoria
+								454 Botão Verificação Ortográfica e Gramatical Erros
+								322 Botão Idioma Português (Brasil)
+								323 Texto Previsões de texto Previsões de texto: desativado
+								455 Botão Verificador de Acessibilidade Acessibilidade: não disponível
+								324 Texto Foco
+								325 Botão (disabled) Modo de leitura
+								326 Botão (disabled) Layout de impressão
+								327 Botão (disabled) Layout da web
+								328 Botão Reduzir (Ctrl -) Value: 130
+								329 Controle Deslizante (settable, float) Zoom Value: 1075
+									330 Botão Reduzir
+									331 Miniatura Posição
+									332 Botão Ampliar
+								333 Botão Ampliar (Ctrl +) Value: 130
+								334 Botão Zoom 130%
+		335 barra de título (settable, string) Value: Projeto_DeslocamentosHorizontais - Modo de Compatibilidade - Word
+			336 barra de menus Sistema ID: MenuBar
+				337 item de menu Sistema
+			338 botão Minimizar
+			339 botão Restaurar
+			340 botão Fechar
+
+Document text: ```
+VerificaçõesVento X+Vento X-Vento Y+Vento Y-Altura total da edificação (cm)719.00Deslocamento limite (cm)0.42Deslocamento característico (cm)0.670.670.680.68gf20.300.300.300.30Deslocamento combinações frequentes (cm)0.200.200.200.20
+
+Deslocamento do centro de massa dos pavimentos
+PavimentoAltura
+(cm)Deslocamento combinações frequentes (cm)Vento X+Vento X-Vento Y+Vento Y-N2319.000.200.200.200.20N1300.000.170.170.170.17N0100.000.010.010.010.01
+
+Deslocamento relativo do centro de massa entre pavimentos
+PavimentoDeslocamento relativo entre pavimentos (cm)Limite
+(cm)Vento X+Vento X-Vento Y+Vento Y-N20.030.030.040.040.38N10.170.170.160.160.35N00.010.010.010.010.12
+
+Centro de massa, centro de rigidez e raio de giro
+PavimentoMassa
+(kN.s²/cm)Centro de massaCentro de rigidezRaio de giro
+(cm)X (cm)Y (cm)X (cm)Y (cm)N20.40481.69351.67401.98N10.48502.15371.97430.49N00.03502.27334.09460.15
+Os cálculos do centro de massa e centro de rigidez pressupõem um efeito de diafragma rígido do pavimento. Estes valores podem não ser válidos em algumas situações, como duas ou mais estruturas separadas no modelo, juntas de dilatação ou na ausência efetiva de diafragma rígido.
+```

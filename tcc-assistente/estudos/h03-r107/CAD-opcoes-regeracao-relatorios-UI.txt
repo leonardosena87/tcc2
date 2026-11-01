@@ -1,0 +1,89 @@
+Window: "AltoQi Eberick 2025 Infinity - [H03-CAD-NAO-EXECUTAR]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [H03-CAD-NAO-EXECUTAR] Secondary Actions: Raise
+		1 Barra de status
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Notícias
+						3583 item de tabulação (selectable) Notícias
+					8 painel
+						9 painel
+							10 painel status.altoqi.com.br
+								11 painel (disabled)
+								12 região status.altoqi.com.br - Conteúdo da Web
+									13 região
+										14 região
+										15 região
+											16 região
+												17 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													18 gráfico
+													19 título Hum… Não consigo chegar a esta página
+													20 text status.altoqi.com.br
+													21 text se recusou a se conectar.
+													22 text Tente:
+													23 Lista
+														24 item de lista •Verificando a conexão
+														25 item de lista •Verificação de proxy e firewall
+															26 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													27 text ERR_CONNECTION_REFUSED
+													28 botão Atualizar ID: reload-button
+													29 text Microsoft Edge
+												30 região
+				31 painel
+					32 tabulação
+						3584 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									39 painel
+									3277 árvore ID: 101
+										3477 item da árvore (selectable, disabled) Pavimentos
+											3478 item da árvore (selectable, disabled) N2
+											3479 item da árvore (selectable, disabled) N1
+											3480 item da árvore (selectable, disabled) N0
+										3481 item da árvore (selectable, disabled) Cortes
+										3482 item da árvore (selectable, disabled) Pranchas
+										3483 item da árvore (selectable, disabled) Arquivos
+										3484 item da árvore (selectable, disabled) Modelos 3D
+		40 barra de menus
+		3585 diálogo Análise da estrutura Secondary Actions: Raise
+			3586 grupo Estado-limite último (ELU) ID: 101
+			3587 caixa de seleção (disabled) Análise estática linear ID: 102
+			3588 caixa de seleção (disabled) Verificação das etapas construtivas ID: 103
+			3589 caixa de seleção Dimensionamento dos elementos ID: 104
+			3590 caixa de seleção (disabled) Dimensionar apenas elementos selecionados ID: 105
+			3591 botão (disabled) ... ID: 106
+			3592 caixa de seleção Verificar limites de redistribuição em nós semirrígidos ID: 107
+			3593 grupo Estado-limite de deformações excessivas (ELS-DEF) ID: 108
+			3594 caixa de seleção Determinação dos deslocamentos do pórtico ID: 109
+			3595 botão de opção (selectable) Adotar rigidez configurada ID: 110
+			3596 botão de opção (selectable) Calcular rigidez fissurada ID: 111
+			3597 caixa de seleção Determinação dos deslocamentos das lajes ID: 112
+			3598 botão de opção (selectable, disabled) Adotar rigidez configurada ID: 113
+			3599 botão de opção (selectable, disabled) Calcular rigidez fissurada ID: 114
+			3600 caixa de seleção (disabled) Verificar apenas pavimentos selecionados ID: 115
+			3601 botão (disabled) ... ID: 116
+			3602 grupo Estado-limite de vibrações excessivas (ELS-VE) ID: 117
+			3603 caixa de seleção Análise dinâmica do pórtico ID: 118
+			3604 caixa de seleção Análise dinâmica das lajes ID: 119
+			3605 caixa de seleção (disabled) Verificar apenas pavimentos selecionados ID: 120
+			3606 botão (disabled) ... ID: 121
+			3607 botão OK ID: 1
+			3608 botão Cancelar ID: 2
+			3609 botão Configurar... ID: 122
+			3610 botão Ajuda ID: 9
+			3611 barra de título (settable, string) Value: Análise da estrutura
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```
