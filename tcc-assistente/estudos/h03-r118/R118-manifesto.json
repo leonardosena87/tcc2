@@ -1,0 +1,154 @@
+{
+  "revision": "H03/R118",
+  "nativeBinariesRemainLocalOnly": true,
+  "publicFiles": [
+    {
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "arquivar.py",
+      "sha256": "c6afd42120c8abb9f6521bf7a7f88668df09a1c4969ae65b9b0ffe28f32b9653"
+    },
+    {
+      "path": "BIM-barras-base-UI.txt",
+      "sha256": "90398cd9aed449db015e12f3115663f40e549f0f28ad4cdd5c8ee1401e8120cb"
+    },
+    {
+      "path": "BIM-barras-base.jpg",
+      "sha256": "eae7d4ed11183239624192fb8a5ef3165c5b60b2a781cd8f512fd4425db8ae62"
+    },
+    {
+      "path": "BIM-barras-topo-UI.txt",
+      "sha256": "d0bd4338396d97b6d8defa949ac51f3ca8329d16c7eff6d08b843ac1a6a607be"
+    },
+    {
+      "path": "BIM-barras-topo.jpg",
+      "sha256": "58be13cc434949c394473f75f518bc8f7a4c62eded2320ba6a201916e6076ef5"
+    },
+    {
+      "path": "BIM-bitolas-lajes-UI.txt",
+      "sha256": "56dda16b99e0f445df0f7fb0bf6281659ec9539bd65c808bd1c0d740a8f42434"
+    },
+    {
+      "path": "BIM-bitolas-lajes.jpg",
+      "sha256": "1c7b421e9de7e499db0e048d0b2860c80231818d0d25727f0bc8bb3e4c0ab88f"
+    },
+    {
+      "path": "BIM-bitolas-pilares-UI.txt",
+      "sha256": "1a0c280902db7757942cb8501fe12553ba8d4209c17420624ca72b22fe246f7f"
+    },
+    {
+      "path": "BIM-bitolas-pilares.jpg",
+      "sha256": "e68b0b110175295a74967ed9e40262ee458eebbd2d3d646e9aa687a00a2eda36"
+    },
+    {
+      "path": "BIM-bitolas-vigas-UI.txt",
+      "sha256": "90dcca5f79acb512e1b5d22812ade7f48916d142a3d7f38b02d3dfb7c413f843"
+    },
+    {
+      "path": "BIM-bitolas-vigas.jpg",
+      "sha256": "c8297448becc17b23a952b8707d069c9b4cc8278e0bcafa089259a0ae3eaadb4"
+    },
+    {
+      "path": "BIM-materiais-geral-UI.txt",
+      "sha256": "6a97fefb943379c3da68939dbdbb6e6b34bb613cb78592db649bd01dc410f4bf"
+    },
+    {
+      "path": "BIM-materiais-geral.jpg",
+      "sha256": "4259cc6a543abfbe001695cf1223ea2a6af353fdd5be1797b3da1c2d1218182a"
+    },
+    {
+      "path": "BIM-sessao-tempo.json",
+      "sha256": "c42fba95283b81e26159efd089a8d84c282ee65c1a3e158069deb8634d270347"
+    },
+    {
+      "path": "CAD-barras-base-UI.txt",
+      "sha256": "4e52cb3db28fa3bb8902baa71fad3c68b70f003c1c7abe223efb0d00830998e2"
+    },
+    {
+      "path": "CAD-barras-base.jpg",
+      "sha256": "a6df23a48af433569aef3e31c636c681c65783a84071c7dae2cfc2cd5278bb23"
+    },
+    {
+      "path": "CAD-barras-inferior-UI.txt",
+      "sha256": "13547eee9cdafc229539b4aa5347a1e0843f16be731ef868ab96042dd9389b43"
+    },
+    {
+      "path": "CAD-barras-inferior.jpg",
+      "sha256": "bd8af5b069891cf3c6af504a506ca658e67dd8e970c833e89e86cfbcdb67f2c2"
+    },
+    {
+      "path": "CAD-barras-topo-UI.txt",
+      "sha256": "797110d63b740d6598f278d1be3a98b5bbd01369bdc5130a283d25d5b78d199a"
+    },
+    {
+      "path": "CAD-barras-topo.jpg",
+      "sha256": "69cef3101bf55364c4b23b35af5b1422a422855cf90775a6fbc20313385997e1"
+    },
+    {
+      "path": "CAD-bitolas-lajes-UI.txt",
+      "sha256": "01aea0c00f0a175512b1d65856bb013144a678417e0a6935cac2957190d1e1d3"
+    },
+    {
+      "path": "CAD-bitolas-lajes.jpg",
+      "sha256": "ddc1fbf37f5290b3723464467c4d548a6a4033bf08fe96fc9a04895c57d93dc2"
+    },
+    {
+      "path": "CAD-bitolas-pilares-UI.txt",
+      "sha256": "f6611bdfa5c2eaa2d77945e30fa34f01ca7b88efe3152f9bcd3c9404a830ddf9"
+    },
+    {
+      "path": "CAD-bitolas-pilares.jpg",
+      "sha256": "8d0798135d92554cf695c3034ca7a383431a06852c7a20394c17ae0ee15a6fa7"
+    },
+    {
+      "path": "CAD-bitolas-vigas-UI.txt",
+      "sha256": "02a6b90bd6a41d8e7a373e630232026d2c18cb0fcffffbcaea52aa8d1ca54657"
+    },
+    {
+      "path": "CAD-bitolas-vigas.jpg",
+      "sha256": "ceb87af3edb4efe1d5b21eb8f31e3de9b6ec5885b16ecdb70b46f23437cd4eab"
+    },
+    {
+      "path": "CAD-materiais-geral-UI.txt",
+      "sha256": "3d04a1c665323b3ed00e8dc61fff5d71b1ba2ba8bdd5b80cee7cae80580b3233"
+    },
+    {
+      "path": "CAD-materiais-geral.jpg",
+      "sha256": "c10efc7bacf40aa4781d196eded65f47cf6deea1cd25465784a3ee50090727ec"
+    },
+    {
+      "path": "CAD-sessao-tempo.json",
+      "sha256": "6608b4b74b38ab1009f04957474c5c36b27cf7a784e3b2ed25a4f23938a1e0e3"
+    },
+    {
+      "path": "consolidar.py",
+      "sha256": "4d365a506ea00691a7745ef668c31dfa1b201262ea7fea9f0fa5af70cdf0a750"
+    },
+    {
+      "path": "LEIA-ME-R118.md",
+      "sha256": "f740745d3d3150fa057a2cea10edca9c3e8eb23cecac45129cbed17d91ae9b71"
+    },
+    {
+      "path": "preparar.py",
+      "sha256": "a1c2f0cedb64da0472968edfedafe014acc45dce87d6a115dd6d9e0506ed1ef9"
+    },
+    {
+      "path": "R102-preparacao.json",
+      "sha256": "ab65ac7ff60b3e008b8ee8794d4a384ace2f25eec77789e967b1158389b67306"
+    },
+    {
+      "path": "R118-resultado.json",
+      "sha256": "8be136bcbd7c8fa872af0a5a25c8a8566c718bf5a76eeed514a01a98caaa8b22"
+    },
+    {
+      "path": "test_consistencia.py",
+      "sha256": "7a49b809646d542ff7d711e7eb36045a43a90a4e621fda155c8d7fa0d20b7f38"
+    },
+    {
+      "path": "transcricao-visual.json",
+      "sha256": "494b5de887bf7318d7974d278f0dd5dec862524fa60f8e6070397863b4c976e4"
+    }
+  ]
+}

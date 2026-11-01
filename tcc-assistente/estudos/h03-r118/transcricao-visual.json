@@ -1,0 +1,499 @@
+{
+  "method": "Transcricao visual das caixas e classes em seis dialogos por ramo; selecao global Projeto inteiro.",
+  "branches": {
+    "CAD": {
+      "bars": [
+        {
+          "row": 1,
+          "diameterMm": 3.2,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 2,
+          "diameterMm": 3.4,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 3,
+          "diameterMm": 4,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 4,
+          "diameterMm": 4.2,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 5,
+          "diameterMm": 4.6,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 6,
+          "diameterMm": 4.8,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 7,
+          "diameterMm": 5,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 8,
+          "diameterMm": 6,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 9,
+          "diameterMm": 6.3,
+          "active": true,
+          "steel": "CA50"
+        },
+        {
+          "row": 10,
+          "diameterMm": 7,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 11,
+          "diameterMm": 8,
+          "active": true,
+          "steel": "CA50"
+        },
+        {
+          "row": 12,
+          "diameterMm": 9.5,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 13,
+          "diameterMm": 10,
+          "active": true,
+          "steel": "CA50"
+        },
+        {
+          "row": 14,
+          "diameterMm": 12.5,
+          "active": true,
+          "steel": "CA50"
+        },
+        {
+          "row": 15,
+          "diameterMm": 16,
+          "active": true,
+          "steel": "CA50"
+        },
+        {
+          "row": 16,
+          "diameterMm": 19,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 17,
+          "diameterMm": 20,
+          "active": true,
+          "steel": "CA50"
+        },
+        {
+          "row": 18,
+          "diameterMm": 22.2,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 19,
+          "diameterMm": 25,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 20,
+          "diameterMm": 28.6,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 21,
+          "diameterMm": 32,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 22,
+          "diameterMm": 34.9,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 23,
+          "diameterMm": 38.1,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 24,
+          "diameterMm": 40,
+          "active": false,
+          "steel": "CA50"
+        }
+      ],
+      "elementChoices": {
+        "vigas": {
+          "longitudinais": {
+            "offeredMm": [
+              6.3,
+              8,
+              10,
+              12.5,
+              16,
+              20
+            ],
+            "selectedMm": [
+              8,
+              10,
+              12.5,
+              16,
+              20
+            ]
+          },
+          "transversais": {
+            "offeredMm": [
+              6.3,
+              8,
+              10,
+              12.5,
+              16
+            ],
+            "selectedMm": [
+              6.3,
+              8,
+              10
+            ]
+          }
+        },
+        "pilares": {
+          "longitudinais": {
+            "offeredMm": [
+              8,
+              10,
+              12.5,
+              16,
+              20
+            ],
+            "selectedMm": [
+              10,
+              12.5,
+              16,
+              20
+            ]
+          },
+          "transversais": {
+            "offeredMm": [
+              6.3,
+              8,
+              10,
+              12.5,
+              16
+            ],
+            "selectedMm": [
+              6.3,
+              8,
+              10
+            ]
+          }
+        },
+        "lajes": {
+          "longitudinais": {
+            "offeredMm": [
+              6.3,
+              8,
+              10,
+              12.5,
+              16,
+              20
+            ],
+            "selectedMm": [
+              6.3,
+              8,
+              10,
+              12.5,
+              16
+            ]
+          },
+          "transversais": {
+            "offeredMm": [
+              6.3,
+              8,
+              10,
+              12.5,
+              16
+            ],
+            "selectedMm": [
+              6.3,
+              8,
+              10
+            ]
+          }
+        }
+      }
+    },
+    "BIM": {
+      "bars": [
+        {
+          "row": 1,
+          "diameterMm": 3.2,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 2,
+          "diameterMm": 3.4,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 3,
+          "diameterMm": 4,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 4,
+          "diameterMm": 4.2,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 5,
+          "diameterMm": 4.6,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 6,
+          "diameterMm": 4.8,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 7,
+          "diameterMm": 5,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 8,
+          "diameterMm": 6,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 9,
+          "diameterMm": 6.3,
+          "active": true,
+          "steel": "CA50"
+        },
+        {
+          "row": 10,
+          "diameterMm": 7,
+          "active": false,
+          "steel": "CA60"
+        },
+        {
+          "row": 11,
+          "diameterMm": 8,
+          "active": true,
+          "steel": "CA50"
+        },
+        {
+          "row": 12,
+          "diameterMm": 9.5,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 13,
+          "diameterMm": 10,
+          "active": true,
+          "steel": "CA50"
+        },
+        {
+          "row": 14,
+          "diameterMm": 12.5,
+          "active": true,
+          "steel": "CA50"
+        },
+        {
+          "row": 15,
+          "diameterMm": 16,
+          "active": true,
+          "steel": "CA50"
+        },
+        {
+          "row": 16,
+          "diameterMm": 19,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 17,
+          "diameterMm": 20,
+          "active": true,
+          "steel": "CA50"
+        },
+        {
+          "row": 18,
+          "diameterMm": 22.2,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 19,
+          "diameterMm": 25,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 20,
+          "diameterMm": 28.6,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 21,
+          "diameterMm": 32,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 22,
+          "diameterMm": 34.9,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 23,
+          "diameterMm": 38.1,
+          "active": false,
+          "steel": "CA50"
+        },
+        {
+          "row": 24,
+          "diameterMm": 40,
+          "active": false,
+          "steel": "CA50"
+        }
+      ],
+      "elementChoices": {
+        "vigas": {
+          "longitudinais": {
+            "offeredMm": [
+              6.3,
+              8,
+              10,
+              12.5,
+              16,
+              20
+            ],
+            "selectedMm": [
+              8,
+              10,
+              12.5,
+              16,
+              20
+            ]
+          },
+          "transversais": {
+            "offeredMm": [
+              6.3,
+              8,
+              10,
+              12.5,
+              16
+            ],
+            "selectedMm": [
+              6.3,
+              8,
+              10
+            ]
+          }
+        },
+        "pilares": {
+          "longitudinais": {
+            "offeredMm": [
+              8,
+              10,
+              12.5,
+              16,
+              20
+            ],
+            "selectedMm": [
+              10,
+              12.5,
+              16,
+              20
+            ]
+          },
+          "transversais": {
+            "offeredMm": [
+              6.3,
+              8,
+              10,
+              12.5,
+              16
+            ],
+            "selectedMm": [
+              6.3,
+              8,
+              10
+            ]
+          }
+        },
+        "lajes": {
+          "longitudinais": {
+            "offeredMm": [
+              6.3,
+              8,
+              10,
+              12.5,
+              16,
+              20
+            ],
+            "selectedMm": [
+              6.3,
+              8,
+              10,
+              12.5,
+              16
+            ]
+          },
+          "transversais": {
+            "offeredMm": [
+              6.3,
+              8,
+              10,
+              12.5,
+              16
+            ],
+            "selectedMm": [
+              6.3,
+              8,
+              10
+            ]
+          }
+        }
+      }
+    }
+  }
+}

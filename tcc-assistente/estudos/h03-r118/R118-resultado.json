@@ -1,0 +1,1677 @@
+{
+  "revision": "H03/R118",
+  "createdAtUtc": "2026-11-01T15:23:00.570724+00:00",
+  "method": "Consulta nativa, transcricao visual pelo assistente das imagens e controle automatico de consistencia. Grade nao extraida por UIA/OCR.",
+  "branches": {
+    "CAD": {
+      "projectPath": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "projectSha256": "7aa6766c18ddf61254be0ffdbbdc69823bdecd4fadf5ffb2ef54e96c42d411c3",
+      "prjUnchangedDuringConsultation": true,
+      "tableVisual": {
+        "bars": [
+          {
+            "row": 1,
+            "diameterMm": 3.2,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 2,
+            "diameterMm": 3.4,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 3,
+            "diameterMm": 4,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 4,
+            "diameterMm": 4.2,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 5,
+            "diameterMm": 4.6,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 6,
+            "diameterMm": 4.8,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 7,
+            "diameterMm": 5,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 8,
+            "diameterMm": 6,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 9,
+            "diameterMm": 6.3,
+            "active": true,
+            "steel": "CA50"
+          },
+          {
+            "row": 10,
+            "diameterMm": 7,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 11,
+            "diameterMm": 8,
+            "active": true,
+            "steel": "CA50"
+          },
+          {
+            "row": 12,
+            "diameterMm": 9.5,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 13,
+            "diameterMm": 10,
+            "active": true,
+            "steel": "CA50"
+          },
+          {
+            "row": 14,
+            "diameterMm": 12.5,
+            "active": true,
+            "steel": "CA50"
+          },
+          {
+            "row": 15,
+            "diameterMm": 16,
+            "active": true,
+            "steel": "CA50"
+          },
+          {
+            "row": 16,
+            "diameterMm": 19,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 17,
+            "diameterMm": 20,
+            "active": true,
+            "steel": "CA50"
+          },
+          {
+            "row": 18,
+            "diameterMm": 22.2,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 19,
+            "diameterMm": 25,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 20,
+            "diameterMm": 28.6,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 21,
+            "diameterMm": 32,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 22,
+            "diameterMm": 34.9,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 23,
+            "diameterMm": 38.1,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 24,
+            "diameterMm": 40,
+            "active": false,
+            "steel": "CA50"
+          }
+        ],
+        "elementChoices": {
+          "vigas": {
+            "longitudinais": {
+              "offeredMm": [
+                6.3,
+                8,
+                10,
+                12.5,
+                16,
+                20
+              ],
+              "selectedMm": [
+                8,
+                10,
+                12.5,
+                16,
+                20
+              ]
+            },
+            "transversais": {
+              "offeredMm": [
+                6.3,
+                8,
+                10,
+                12.5,
+                16
+              ],
+              "selectedMm": [
+                6.3,
+                8,
+                10
+              ]
+            }
+          },
+          "pilares": {
+            "longitudinais": {
+              "offeredMm": [
+                8,
+                10,
+                12.5,
+                16,
+                20
+              ],
+              "selectedMm": [
+                10,
+                12.5,
+                16,
+                20
+              ]
+            },
+            "transversais": {
+              "offeredMm": [
+                6.3,
+                8,
+                10,
+                12.5,
+                16
+              ],
+              "selectedMm": [
+                6.3,
+                8,
+                10
+              ]
+            }
+          },
+          "lajes": {
+            "longitudinais": {
+              "offeredMm": [
+                6.3,
+                8,
+                10,
+                12.5,
+                16,
+                20
+              ],
+              "selectedMm": [
+                6.3,
+                8,
+                10,
+                12.5,
+                16
+              ]
+            },
+            "transversais": {
+              "offeredMm": [
+                6.3,
+                8,
+                10,
+                12.5,
+                16
+              ],
+              "selectedMm": [
+                6.3,
+                8,
+                10
+              ]
+            }
+          }
+        }
+      },
+      "evidence": [
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\CAD-materiais-geral-UI.txt",
+          "sha256": "3d04a1c665323b3ed00e8dc61fff5d71b1ba2ba8bdd5b80cee7cae80580b3233"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\CAD-materiais-geral.jpg",
+          "sha256": "c10efc7bacf40aa4781d196eded65f47cf6deea1cd25465784a3ee50090727ec"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\CAD-barras-topo-UI.txt",
+          "sha256": "797110d63b740d6598f278d1be3a98b5bbd01369bdc5130a283d25d5b78d199a"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\CAD-barras-topo.jpg",
+          "sha256": "69cef3101bf55364c4b23b35af5b1422a422855cf90775a6fbc20313385997e1"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\CAD-barras-base-UI.txt",
+          "sha256": "4e52cb3db28fa3bb8902baa71fad3c68b70f003c1c7abe223efb0d00830998e2"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\CAD-barras-base.jpg",
+          "sha256": "a6df23a48af433569aef3e31c636c681c65783a84071c7dae2cfc2cd5278bb23"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\CAD-bitolas-vigas-UI.txt",
+          "sha256": "02a6b90bd6a41d8e7a373e630232026d2c18cb0fcffffbcaea52aa8d1ca54657"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\CAD-bitolas-vigas.jpg",
+          "sha256": "ceb87af3edb4efe1d5b21eb8f31e3de9b6ec5885b16ecdb70b46f23437cd4eab"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\CAD-bitolas-pilares-UI.txt",
+          "sha256": "f6611bdfa5c2eaa2d77945e30fa34f01ca7b88efe3152f9bcd3c9404a830ddf9"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\CAD-bitolas-pilares.jpg",
+          "sha256": "8d0798135d92554cf695c3034ca7a383431a06852c7a20394c17ae0ee15a6fa7"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\CAD-bitolas-lajes-UI.txt",
+          "sha256": "01aea0c00f0a175512b1d65856bb013144a678417e0a6935cac2957190d1e1d3"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\CAD-bitolas-lajes.jpg",
+          "sha256": "ddc1fbf37f5290b3723464467c4d548a6a4033bf08fe96fc9a04895c57d93dc2"
+        }
+      ],
+      "auxiliaryDifferencesFromSource": [
+        {
+          "path": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+          "beforeSha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87",
+          "afterSha256": "7aa6766c18ddf61254be0ffdbbdc69823bdecd4fadf5ffb2ef54e96c42d411c3"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+          "beforeSha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d",
+          "afterSha256": "9dcb0c71361fda7632994e86c865bc166197e7035a09cf24b6ea2a97db06c553"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+          "beforeSha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7",
+          "afterSha256": "464da20e7951be3fa769888c894e02d1c9765bb5a8ecccb2bb64dbad2490f93a"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_7704.log",
+          "beforeSha256": "126b9850b9446cdc3b3732800356d4aa4e95a130a0be94fb1a2d53f4debc78b6",
+          "afterSha256": "ffd4058e45f30306a4f1def232c6d59bc7c7b2e5f7cd9ea2b1d48ce3910aa618"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+          "beforeSha256": "4f718e7088c20868d8bdf65ed8e9125abcf4ed921684e9145df3f004d3e92a06",
+          "afterSha256": "0960a111e9e7b62b8e44d26e95e0f09582eeea8f0bf312f470a876f367a80427"
+        }
+      ],
+      "sessionTime": {
+        "start": {
+          "utc": "2026-11-01T15:05:23.875Z",
+          "mono": 42705058.2836
+        },
+        "end": {
+          "utc": "2026-11-01T15:14:19.844Z",
+          "mono": 43241027.6324
+        },
+        "wallMs": 535969.3487999961,
+        "scope": "Consulta global de barras/bitolas, cancelar e fechar sem salvar; inclui navegacao/evidencias."
+      }
+    },
+    "BIM": {
+      "projectPath": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "projectSha256": "626a83ac3449104102c6100ec0a494e972cdef3521d9117a7c0f75c6da97fc72",
+      "prjUnchangedDuringConsultation": true,
+      "tableVisual": {
+        "bars": [
+          {
+            "row": 1,
+            "diameterMm": 3.2,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 2,
+            "diameterMm": 3.4,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 3,
+            "diameterMm": 4,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 4,
+            "diameterMm": 4.2,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 5,
+            "diameterMm": 4.6,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 6,
+            "diameterMm": 4.8,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 7,
+            "diameterMm": 5,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 8,
+            "diameterMm": 6,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 9,
+            "diameterMm": 6.3,
+            "active": true,
+            "steel": "CA50"
+          },
+          {
+            "row": 10,
+            "diameterMm": 7,
+            "active": false,
+            "steel": "CA60"
+          },
+          {
+            "row": 11,
+            "diameterMm": 8,
+            "active": true,
+            "steel": "CA50"
+          },
+          {
+            "row": 12,
+            "diameterMm": 9.5,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 13,
+            "diameterMm": 10,
+            "active": true,
+            "steel": "CA50"
+          },
+          {
+            "row": 14,
+            "diameterMm": 12.5,
+            "active": true,
+            "steel": "CA50"
+          },
+          {
+            "row": 15,
+            "diameterMm": 16,
+            "active": true,
+            "steel": "CA50"
+          },
+          {
+            "row": 16,
+            "diameterMm": 19,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 17,
+            "diameterMm": 20,
+            "active": true,
+            "steel": "CA50"
+          },
+          {
+            "row": 18,
+            "diameterMm": 22.2,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 19,
+            "diameterMm": 25,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 20,
+            "diameterMm": 28.6,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 21,
+            "diameterMm": 32,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 22,
+            "diameterMm": 34.9,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 23,
+            "diameterMm": 38.1,
+            "active": false,
+            "steel": "CA50"
+          },
+          {
+            "row": 24,
+            "diameterMm": 40,
+            "active": false,
+            "steel": "CA50"
+          }
+        ],
+        "elementChoices": {
+          "vigas": {
+            "longitudinais": {
+              "offeredMm": [
+                6.3,
+                8,
+                10,
+                12.5,
+                16,
+                20
+              ],
+              "selectedMm": [
+                8,
+                10,
+                12.5,
+                16,
+                20
+              ]
+            },
+            "transversais": {
+              "offeredMm": [
+                6.3,
+                8,
+                10,
+                12.5,
+                16
+              ],
+              "selectedMm": [
+                6.3,
+                8,
+                10
+              ]
+            }
+          },
+          "pilares": {
+            "longitudinais": {
+              "offeredMm": [
+                8,
+                10,
+                12.5,
+                16,
+                20
+              ],
+              "selectedMm": [
+                10,
+                12.5,
+                16,
+                20
+              ]
+            },
+            "transversais": {
+              "offeredMm": [
+                6.3,
+                8,
+                10,
+                12.5,
+                16
+              ],
+              "selectedMm": [
+                6.3,
+                8,
+                10
+              ]
+            }
+          },
+          "lajes": {
+            "longitudinais": {
+              "offeredMm": [
+                6.3,
+                8,
+                10,
+                12.5,
+                16,
+                20
+              ],
+              "selectedMm": [
+                6.3,
+                8,
+                10,
+                12.5,
+                16
+              ]
+            },
+            "transversais": {
+              "offeredMm": [
+                6.3,
+                8,
+                10,
+                12.5,
+                16
+              ],
+              "selectedMm": [
+                6.3,
+                8,
+                10
+              ]
+            }
+          }
+        }
+      },
+      "evidence": [
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\BIM-materiais-geral-UI.txt",
+          "sha256": "6a97fefb943379c3da68939dbdbb6e6b34bb613cb78592db649bd01dc410f4bf"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\BIM-materiais-geral.jpg",
+          "sha256": "4259cc6a543abfbe001695cf1223ea2a6af353fdd5be1797b3da1c2d1218182a"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\BIM-barras-topo-UI.txt",
+          "sha256": "d0bd4338396d97b6d8defa949ac51f3ca8329d16c7eff6d08b843ac1a6a607be"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\BIM-barras-topo.jpg",
+          "sha256": "58be13cc434949c394473f75f518bc8f7a4c62eded2320ba6a201916e6076ef5"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\BIM-barras-base-UI.txt",
+          "sha256": "90398cd9aed449db015e12f3115663f40e549f0f28ad4cdd5c8ee1401e8120cb"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\BIM-barras-base.jpg",
+          "sha256": "eae7d4ed11183239624192fb8a5ef3165c5b60b2a781cd8f512fd4425db8ae62"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\BIM-bitolas-vigas-UI.txt",
+          "sha256": "90dcca5f79acb512e1b5d22812ade7f48916d142a3d7f38b02d3dfb7c413f843"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\BIM-bitolas-vigas.jpg",
+          "sha256": "c8297448becc17b23a952b8707d069c9b4cc8278e0bcafa089259a0ae3eaadb4"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\BIM-bitolas-pilares-UI.txt",
+          "sha256": "1a0c280902db7757942cb8501fe12553ba8d4209c17420624ca72b22fe246f7f"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\BIM-bitolas-pilares.jpg",
+          "sha256": "e68b0b110175295a74967ed9e40262ee458eebbd2d3d646e9aa687a00a2eda36"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\BIM-bitolas-lajes-UI.txt",
+          "sha256": "56dda16b99e0f445df0f7fb0bf6281659ec9539bd65c808bd1c0d740a8f42434"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\Armadura-H03-R118-CONSULTA-NAO-EXECUTAR\\BIM-bitolas-lajes.jpg",
+          "sha256": "1c7b421e9de7e499db0e048d0b2860c80231818d0d25727f0bc8bb3e4c0ab88f"
+        }
+      ],
+      "auxiliaryDifferencesFromSource": [
+        {
+          "path": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+          "beforeSha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff",
+          "afterSha256": "626a83ac3449104102c6100ec0a494e972cdef3521d9117a7c0f75c6da97fc72"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+          "beforeSha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28",
+          "afterSha256": "4791e7ef1b750af6cbca2c024dce2573a2bf07e83fe082613bec317198cee759"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+          "beforeSha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e",
+          "afterSha256": "c140449fd81c9897ff1f380b4b7119fb58be1d83292852ba9cf1f3d7f3db469d"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_7704.log",
+          "beforeSha256": "03fc54fff903111e62423165f4478c96850f8f1badc5b6e32db01b00a67ab19f",
+          "afterSha256": "805aee61a04cf169299d0bde80d2d68a9cfc05b5827d0a56d28093bf5195175f"
+        },
+        {
+          "path": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+          "beforeSha256": "7dba18a90e4d45a7d5c3a5db6bf0037eb668518885dab4b412e3f3d3ca4e6954",
+          "afterSha256": "024f07487dc495b0c25d15016917dce5a8dda19d90c76ef035c94278d33eacb2"
+        }
+      ],
+      "sessionTime": {
+        "start": {
+          "utc": "2026-11-01T15:14:41.438Z",
+          "mono": 43262621.0686
+        },
+        "end": {
+          "utc": "2026-11-01T15:21:17.054Z",
+          "mono": 43658237.1463
+        },
+        "wallMs": 395616.077700004,
+        "scope": "Consulta global de barras/bitolas, cancelar e fechar sem salvar; inclui navegacao/evidencias."
+      }
+    }
+  },
+  "pairedVisualComparisons": [
+    {
+      "kind": "globalBar",
+      "diameterMm": 3.2,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 3.2,
+      "field": "steel",
+      "CAD": "CA60",
+      "BIM": "CA60",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 3.4,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 3.4,
+      "field": "steel",
+      "CAD": "CA60",
+      "BIM": "CA60",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 4,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 4,
+      "field": "steel",
+      "CAD": "CA60",
+      "BIM": "CA60",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 4.2,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 4.2,
+      "field": "steel",
+      "CAD": "CA60",
+      "BIM": "CA60",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 4.6,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 4.6,
+      "field": "steel",
+      "CAD": "CA60",
+      "BIM": "CA60",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 4.8,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 4.8,
+      "field": "steel",
+      "CAD": "CA60",
+      "BIM": "CA60",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 5,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 5,
+      "field": "steel",
+      "CAD": "CA60",
+      "BIM": "CA60",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 6,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 6,
+      "field": "steel",
+      "CAD": "CA60",
+      "BIM": "CA60",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 6.3,
+      "field": "active",
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 6.3,
+      "field": "steel",
+      "CAD": "CA50",
+      "BIM": "CA50",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 7,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 7,
+      "field": "steel",
+      "CAD": "CA60",
+      "BIM": "CA60",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 8,
+      "field": "active",
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 8,
+      "field": "steel",
+      "CAD": "CA50",
+      "BIM": "CA50",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 9.5,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 9.5,
+      "field": "steel",
+      "CAD": "CA50",
+      "BIM": "CA50",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 10,
+      "field": "active",
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 10,
+      "field": "steel",
+      "CAD": "CA50",
+      "BIM": "CA50",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 12.5,
+      "field": "active",
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 12.5,
+      "field": "steel",
+      "CAD": "CA50",
+      "BIM": "CA50",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 16,
+      "field": "active",
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 16,
+      "field": "steel",
+      "CAD": "CA50",
+      "BIM": "CA50",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 19,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 19,
+      "field": "steel",
+      "CAD": "CA50",
+      "BIM": "CA50",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 20,
+      "field": "active",
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 20,
+      "field": "steel",
+      "CAD": "CA50",
+      "BIM": "CA50",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 22.2,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 22.2,
+      "field": "steel",
+      "CAD": "CA50",
+      "BIM": "CA50",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 25,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 25,
+      "field": "steel",
+      "CAD": "CA50",
+      "BIM": "CA50",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 28.6,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 28.6,
+      "field": "steel",
+      "CAD": "CA50",
+      "BIM": "CA50",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 32,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 32,
+      "field": "steel",
+      "CAD": "CA50",
+      "BIM": "CA50",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 34.9,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 34.9,
+      "field": "steel",
+      "CAD": "CA50",
+      "BIM": "CA50",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 38.1,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 38.1,
+      "field": "steel",
+      "CAD": "CA50",
+      "BIM": "CA50",
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 40,
+      "field": "active",
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "globalBar",
+      "diameterMm": 40,
+      "field": "steel",
+      "CAD": "CA50",
+      "BIM": "CA50",
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "vigas",
+      "direction": "longitudinais",
+      "diameterMm": 6.3,
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "vigas",
+      "direction": "longitudinais",
+      "diameterMm": 8,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "vigas",
+      "direction": "longitudinais",
+      "diameterMm": 10,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "vigas",
+      "direction": "longitudinais",
+      "diameterMm": 12.5,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "vigas",
+      "direction": "longitudinais",
+      "diameterMm": 16,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "vigas",
+      "direction": "longitudinais",
+      "diameterMm": 20,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "vigas",
+      "direction": "transversais",
+      "diameterMm": 6.3,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "vigas",
+      "direction": "transversais",
+      "diameterMm": 8,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "vigas",
+      "direction": "transversais",
+      "diameterMm": 10,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "vigas",
+      "direction": "transversais",
+      "diameterMm": 12.5,
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "vigas",
+      "direction": "transversais",
+      "diameterMm": 16,
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "pilares",
+      "direction": "longitudinais",
+      "diameterMm": 8,
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "pilares",
+      "direction": "longitudinais",
+      "diameterMm": 10,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "pilares",
+      "direction": "longitudinais",
+      "diameterMm": 12.5,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "pilares",
+      "direction": "longitudinais",
+      "diameterMm": 16,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "pilares",
+      "direction": "longitudinais",
+      "diameterMm": 20,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "pilares",
+      "direction": "transversais",
+      "diameterMm": 6.3,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "pilares",
+      "direction": "transversais",
+      "diameterMm": 8,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "pilares",
+      "direction": "transversais",
+      "diameterMm": 10,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "pilares",
+      "direction": "transversais",
+      "diameterMm": 12.5,
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "pilares",
+      "direction": "transversais",
+      "diameterMm": 16,
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "lajes",
+      "direction": "longitudinais",
+      "diameterMm": 6.3,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "lajes",
+      "direction": "longitudinais",
+      "diameterMm": 8,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "lajes",
+      "direction": "longitudinais",
+      "diameterMm": 10,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "lajes",
+      "direction": "longitudinais",
+      "diameterMm": 12.5,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "lajes",
+      "direction": "longitudinais",
+      "diameterMm": 16,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "lajes",
+      "direction": "longitudinais",
+      "diameterMm": 20,
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "lajes",
+      "direction": "transversais",
+      "diameterMm": 6.3,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "lajes",
+      "direction": "transversais",
+      "diameterMm": 8,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "lajes",
+      "direction": "transversais",
+      "diameterMm": 10,
+      "CAD": true,
+      "BIM": true,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "lajes",
+      "direction": "transversais",
+      "diameterMm": 12.5,
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    },
+    {
+      "kind": "elementChoice",
+      "element": "lajes",
+      "direction": "transversais",
+      "diameterMm": 16,
+      "CAD": false,
+      "BIM": false,
+      "equalVisual": true
+    }
+  ],
+  "visualSelectionsEqual": true,
+  "protectedSourceR116Files": [
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "sha256Before": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "sha256Before": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "sha256Before": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256Before": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256Before": "7aa6766c18ddf61254be0ffdbbdc69823bdecd4fadf5ffb2ef54e96c42d411c3",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "7aa6766c18ddf61254be0ffdbbdc69823bdecd4fadf5ffb2ef54e96c42d411c3"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256Before": "0e4684dfb5cca95f0c7e2da23f3acbf81936bb3db7a751bd07054e6e0784e6e5",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "0e4684dfb5cca95f0c7e2da23f3acbf81936bb3db7a751bd07054e6e0784e6e5"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "sha256Before": "9dcb0c71361fda7632994e86c865bc166197e7035a09cf24b6ea2a97db06c553",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "9dcb0c71361fda7632994e86c865bc166197e7035a09cf24b6ea2a97db06c553"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "sha256Before": "464da20e7951be3fa769888c894e02d1c9765bb5a8ecccb2bb64dbad2490f93a",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "464da20e7951be3fa769888c894e02d1c9765bb5a8ecccb2bb64dbad2490f93a"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256Before": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "sha256Before": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "sha256Before": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "sha256Before": "ea3a76687bd74b4f76f9417671082f63ae6e626fb85ebbd11b5a6dd87c486af1",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "ea3a76687bd74b4f76f9417671082f63ae6e626fb85ebbd11b5a6dd87c486af1"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "sha256Before": "c84d378ae74e8a078661ee3d3eefd2387be125cb580091004cb06da9bcda77f2",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "c84d378ae74e8a078661ee3d3eefd2387be125cb580091004cb06da9bcda77f2"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_7704.log",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_7704.log",
+      "sha256Before": "126b9850b9446cdc3b3732800356d4aa4e95a130a0be94fb1a2d53f4debc78b6",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "126b9850b9446cdc3b3732800356d4aa4e95a130a0be94fb1a2d53f4debc78b6"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256Before": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "copy": "D:\\TCC\\outputs\\32-H03-R118-CAD-ARMADURA-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256Before": "4f718e7088c20868d8bdf65ed8e9125abcf4ed921684e9145df3f004d3e92a06",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "4f718e7088c20868d8bdf65ed8e9125abcf4ed921684e9145df3f004d3e92a06"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "sha256Before": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "sha256Before": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "sha256Before": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "sha256Before": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256Before": "626a83ac3449104102c6100ec0a494e972cdef3521d9117a7c0f75c6da97fc72",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "626a83ac3449104102c6100ec0a494e972cdef3521d9117a7c0f75c6da97fc72"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "sha256Before": "c2d2f5e1963760dbb356fcccf3dfc33a42d5b9332e02a7d73f6bd8f3de4dc297",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "c2d2f5e1963760dbb356fcccf3dfc33a42d5b9332e02a7d73f6bd8f3de4dc297"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "sha256Before": "4791e7ef1b750af6cbca2c024dce2573a2bf07e83fe082613bec317198cee759",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "4791e7ef1b750af6cbca2c024dce2573a2bf07e83fe082613bec317198cee759"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "sha256Before": "c140449fd81c9897ff1f380b4b7119fb58be1d83292852ba9cf1f3d7f3db469d",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "c140449fd81c9897ff1f380b4b7119fb58be1d83292852ba9cf1f3d7f3db469d"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "sha256Before": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "sha256Before": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "sha256Before": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "sha256Before": "59fd5b938dc866ad1676223fc4cadb38645407a45504f4343944a3e906b4d91a",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "59fd5b938dc866ad1676223fc4cadb38645407a45504f4343944a3e906b4d91a"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "sha256Before": "6e0ed5136ca045f6a705fbdde33aaf5642cc705ad905443725914f99e57c9031",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "6e0ed5136ca045f6a705fbdde33aaf5642cc705ad905443725914f99e57c9031"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_7704.log",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_7704.log",
+      "sha256Before": "03fc54fff903111e62423165f4478c96850f8f1badc5b6e32db01b00a67ab19f",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "03fc54fff903111e62423165f4478c96850f8f1badc5b6e32db01b00a67ab19f"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256Before": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256Before": "7dba18a90e4d45a7d5c3a5db6bf0037eb668518885dab4b412e3f3d3ca4e6954",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "7dba18a90e4d45a7d5c3a5db6bf0037eb668518885dab4b412e3f3d3ca4e6954"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "sha256Before": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "sha256Before": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "copy": "D:\\TCC\\outputs\\33-H03-R118-BIM-ARMADURA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "sha256Before": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571"
+    }
+  ],
+  "sourceR116FilesUnchanged": true,
+  "erratumR100": {
+    "text": "R100 citou 25/32/40 mm como ativos. Imagens originais CAD/BIM mostram caixas desmarcadas. R118 registra errata sem afirmar alteracao nativa entre revisoes.",
+    "sources": [
+      {
+        "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r100\\LEIA-ME-R100.md",
+        "sha256": "4325098ce7e8ce2f772c4fd0dfce5e20370ee08877feb44429cf09330cd1f196"
+      },
+      {
+        "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r100\\CAD-armadura-inferior.png",
+        "sha256": "cdbb1c744d7fe6066331197ff6a00721e81e72c035817ab5015a7f9e751a76ed"
+      },
+      {
+        "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r100\\BIM-armadura-inferior.png",
+        "sha256": "dd68eb3e2c1d2cfbc1cbc0c415c7a2cb22058426bd0267b9ec8e3f59413c4cfd"
+      }
+    ]
+  },
+  "propertiesEdited": false,
+  "processingPerformed": false,
+  "monographEdited": false,
+  "finalStructuralApproval": false,
+  "finalRankingAllowed": false,
+  "limits": [
+    "Consulta global; excecoes por pavimento/elemento nao integralmente verificadas.",
+    "A grade define opcoes; nao comprova armadura efetivamente dimensionada.",
+    "Nao extraiu fyk, Es, gama-s, ductilidade, ancoragens, espacamentos ou estribos de cada peca.",
+    "Custos e emissoes presentes na grade nao foram validados ou usados nos resultados.",
+    "Igualdade transcrita visual nao e teste automatizado da imagem ou validacao normativa.",
+    "Tempos incluem navegacao e evidencias, sem inferencia IA isolada ou ranking."
+  ]
+}
