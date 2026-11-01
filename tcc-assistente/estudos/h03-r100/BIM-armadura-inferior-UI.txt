@@ -1,0 +1,417 @@
+Window: "AltoQi Eberick 2025 Infinity - [15-H03-R98-BIM-QT-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [15-H03-R98-BIM-QT-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+		28902 diálogo (disabled) Materiais e durabilidade Secondary Actions: Raise
+			29152 diálogo Armadura Secondary Actions: Raise
+				29153 text Designação ID: 500
+				29154 caixa de combinação (settable, string) Designação Value: mm ID: 501
+					29155 text (settable, string) Designação Value: mm
+					29156 botão Abrir ID: DropDown
+				29157 botão OK ID: 1
+				29158 botão Cancelar ID: 2
+				29159 botão Ajuda ID: 9
+				29160 painel ID: 502
+					29161 painel
+						29162 caixa de seleção ID: 1002
+					29163 painel
+					29164 painel
+					29165 barra de rolagem (settable, float) Value: 100
+						29166 botão Uma linha acima ID: UpButton
+						29173 botão Uma página acima ID: UpPageButton
+						29167 elevador Posição ID: ScrollbarThumb
+						29169 botão Uma linha abaixo ID: DownButton
+				29170 barra de título (settable, string) Value: Armadura
+			28903 Lista (disabled) ID: 101
+				28904 item de lista (selectable) TCC-cdd31967-N2
+				28905 item de lista (selectable) TCC-cdd31967-N1
+				28906 item de lista (selectable) TCC-cdd31967-N0
+			28907 grupo Aplicação ID: 171
+			28908 botão de opção (selectable) Projeto inteiro ID: 173
+			28909 botão de opção (selectable) Por pavimento ID: 172
+			28910 text Pavimento ID: 174
+			28911 grupo Avisos ID: 221
+			28912 text Todas as informações estão definidas corretamente ID: 170
+			28913 botão (disabled) Detalhes... ID: 169
+			28914 grupo Geral
+			28915 text Classe de agressividade
+			28916 caixa de combinação (settable, string) Classe de agressividade Value: II (moderada) ID: 102
+				28917 text (settable, string) Classe de agressividade Value: II (moderada)
+				28918 botão Abrir ID: DropDown
+			28919 botão ... ID: 161
+			28920 text Dimensão do agregado
+			28921 editar (settable, string) Dimensão do agregado Value: 25 ID: 103
+			28922 text mm
+			28923 caixa de seleção Controle rigoroso nas dimensões dos elementos ID: 168
+			28924 caixa de seleção Considerar redução no cobrimento para peças com fck acima do requerido para a classe de agressividade ID: 175
+			28925 grupo Abertura máxima das fissuras ID: 178
+			28926 text Contato com o solo
+			28927 editar (settable, string) Contato com o solo Value: 0.2 ID: 164
+			28928 text mm ID: 137
+			28929 text Contato com a água
+			28930 editar (settable, string) Contato com a água Value: 0.1 ID: 163
+			28931 text mm ID: 135
+			28932 text Demais peças
+			28933 editar (settable, string) Demais peças Value: 0.3 ID: 165
+			28934 text mm ID: 139
+			28935 text Combinações ID: 180
+			28936 caixa de combinação (settable, string) Combinações Value: Frequentes ID: 179
+				28937 text (settable, string) Combinações Value: Frequentes
+				28938 botão Abrir ID: DropDown
+			28939 grupo Elementos ID: 220
+			28940 text Concreto
+			28941 text Cobrimento
+			28942 text (peças externas)
+			28943 text Cobrimento
+			28944 text (peças internas)
+			28945 text Cobrimento
+			28946 text (contato com o solo)
+			28947 text Vigas
+			28948 caixa de combinação (settable, string) Vigas Value: C-25 ID: 106
+				28949 text (settable, string) Vigas Value: C-25
+				28950 botão Abrir ID: DropDown
+			28951 editar (settable, string) Value: 3 ID: 120
+			28952 text cm
+			28953 editar (settable, string) cm Value: 3 ID: 125
+			28954 text cm
+			28955 editar (settable, string) cm Value: 3 ID: 129
+			28956 text cm
+			28957 botão Bitolas... ID: 144
+			28958 text Pilares e NR
+			28959 caixa de combinação (settable, string) Pilares e NR Value: C-25 ID: 110
+				28960 text (settable, string) Pilares e NR Value: C-25
+				28961 botão Abrir ID: DropDown
+			28962 editar (settable, string) Value: 3 ID: 121
+			28963 text cm
+			28964 editar (settable, string) cm Value: 3 ID: 126
+			28965 text cm
+			28966 editar (settable, string) cm Value: 4.5 ID: 130
+			28967 text cm
+			28968 botão Bitolas... ID: 142
+			28969 text Lajes
+			28970 caixa de combinação (settable, string) Lajes Value: C-25 ID: 107
+				28971 text (settable, string) Lajes Value: C-25
+				28972 botão Abrir ID: DropDown
+			28973 editar (settable, string) Value: 2.5 ID: 124
+			28974 text cm
+			28975 editar (settable, string) cm Value: 3 ID: 131
+			28976 text cm
+			28977 botão Bitolas... ID: 143
+			28978 text Reservatórios ID: 242
+			28979 caixa de combinação (settable, string) Reservatórios Value: C-25 ID: 112
+				28980 text (settable, string) Reservatórios Value: C-25
+				28981 botão Abrir ID: DropDown
+			28982 editar (settable, string) Value: 3 ID: 162
+			28983 text cm ID: 241
+			28984 botão Bitolas... ID: 147
+			28985 text Blocos ID: 201
+			28986 caixa de combinação (settable, string) Blocos Value: C-25 ID: 109
+				28987 text (settable, string) Blocos Value: C-25
+				28988 botão Abrir ID: DropDown
+			28989 editar (settable, string) Value: 4.5 ID: 123
+			28990 text cm ID: 211
+			28991 botão Bitolas... ID: 141
+			28992 text Sapatas ID: 202
+			28993 caixa de combinação (settable, string) Sapatas Value: C-25 ID: 108
+				28994 text (settable, string) Sapatas Value: C-25
+				28995 botão Abrir ID: DropDown
+			28996 editar (settable, string) Value: 4.5 ID: 122
+			28997 text cm ID: 212
+			28998 botão Bitolas... ID: 140
+			28999 text Tubulões ID: 204
+			29000 caixa de combinação (settable, string) Tubulões Value: C-25 ID: 111
+				29001 text (settable, string) Tubulões Value: C-25
+				29002 botão Abrir ID: DropDown
+			29003 editar (settable, string) Value: 4.5 ID: 127
+			29004 text cm ID: 214
+			29005 botão Bitolas... ID: 146
+			29006 text Muros ID: 203
+			29007 caixa de combinação (settable, string) Muros Value: C-25 ID: 191
+				29008 text (settable, string) Muros Value: C-25
+				29009 botão Abrir ID: DropDown
+			29010 editar (settable, string) Value: 4.5 ID: 190
+			29011 text cm ID: 213
+			29012 botão Bitolas... ID: 145
+			29013 text Radier ID: 205
+			29014 caixa de combinação (settable, string) Radier Value: C-25 ID: 113
+				29015 text (settable, string) Radier Value: C-25
+				29016 botão Abrir ID: DropDown
+			29017 editar (settable, string) Value: 4.5 ID: 128
+			29018 text cm ID: 215
+			29019 botão Bitolas... ID: 148
+			29020 grupo Elementos pré-moldados ID: 270
+			29021 text Concreto ID: 271
+			29022 text Cobrimento ID: 272
+			29023 text (peças externas) ID: 273
+			29024 text Vigas ID: 274
+			29025 caixa de combinação (settable, string) Vigas Value: C-25 ID: 276
+				29026 text (settable, string) Vigas Value: C-25
+				29027 botão Abrir ID: DropDown
+			29028 editar (settable, string) Value: 3 ID: 278
+			29029 text cm ID: 280
+			29030 botão Bitolas... ID: 282
+			29031 text Pilares ID: 275
+			29032 caixa de combinação (settable, string) Pilares Value: C-25 ID: 277
+				29033 text (settable, string) Pilares Value: C-25
+				29034 botão Abrir ID: DropDown
+			29035 editar (settable, string) Value: 3 ID: 279
+			29036 text cm ID: 281
+			29037 botão Bitolas... ID: 283
+			29038 botão Etapas... ID: 286
+			29039 text Tipo ID: 284
+			29040 caixa de combinação (settable, string) Tipo Value: Pré-moldado ID: 285
+				29041 text (settable, string) Tipo Value: Pré-moldado
+				29042 botão Abrir ID: DropDown
+			29043 botão Fluência... ID: 167
+			29044 botão Barras... ID: 166
+			29045 botão Classes... ID: 160
+			29046 botão Protensão... ID: 181
+			29047 botão OK ID: 1
+			29048 botão Cancelar ID: 2
+			29049 botão Ajuda ID: 9
+			29050 barra de título (settable, string) Value: Materiais e durabilidade
+		1 Barra de status
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Notícias
+						29174 item de tabulação (selectable) Notícias
+					8 painel
+						28071 painel
+							28072 painel (disabled) status.altoqi.com.br
+								28073 painel (disabled)
+								28074 região status.altoqi.com.br - Conteúdo da Web
+									28075 região
+										28076 região
+										28077 região
+											28078 região
+												28079 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													28080 gráfico
+													28081 título Hum… Não consigo chegar a esta página
+													28082 text status.altoqi.com.br
+													28083 text se recusou a se conectar.
+													28084 text Tente:
+													28085 Lista
+														28086 item de lista •Verificando a conexão
+														28087 item de lista •Verificação de proxy e firewall
+															28088 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													28089 text ERR_CONNECTION_REFUSED
+													28090 botão Atualizar ID: reload-button
+													28091 text Microsoft Edge
+												28092 região
+				31 painel
+					32 tabulação
+						29175 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									38 painel
+									28851 árvore ID: 101
+										28852 item da árvore (selectable, disabled) Pavimentos
+											28853 item da árvore (selectable, disabled) TCC-cdd31967-N2
+											28854 item da árvore (selectable, disabled) TCC-cdd31967-N1
+											28855 item da árvore (selectable, disabled) TCC-cdd31967-N0
+										28856 item da árvore (selectable, disabled) Cortes
+										28857 item da árvore (selectable, disabled) Gerenciador de desenhos
+										28858 item da árvore (selectable, disabled) Modelos 3D
+											28859 item da árvore (selectable, disabled) H03-R44-geometria-nominal
+		40 barra de menus
+		29152 diálogo Armadura Secondary Actions: Raise
+			29153 text Designação ID: 500
+			29154 caixa de combinação (settable, string) Designação Value: mm ID: 501
+				29155 text (settable, string) Designação Value: mm
+				29156 botão Abrir ID: DropDown
+			29157 botão OK ID: 1
+			29158 botão Cancelar ID: 2
+			29159 botão Ajuda ID: 9
+			29160 painel ID: 502
+				29161 painel
+					29162 caixa de seleção ID: 1002
+				29163 painel
+				29164 painel
+				29165 barra de rolagem (settable, float) Value: 100
+					29166 botão Uma linha acima ID: UpButton
+					29173 botão Uma página acima ID: UpPageButton
+					29167 elevador Posição ID: ScrollbarThumb
+					29169 botão Uma linha abaixo ID: DownButton
+			29170 barra de título (settable, string) Value: Armadura
+		28902 diálogo (disabled) Materiais e durabilidade Secondary Actions: Raise
+			29152 diálogo Armadura Secondary Actions: Raise
+				29153 text Designação ID: 500
+				29154 caixa de combinação (settable, string) Designação Value: mm ID: 501
+					29155 text (settable, string) Designação Value: mm
+					29156 botão Abrir ID: DropDown
+				29157 botão OK ID: 1
+				29158 botão Cancelar ID: 2
+				29159 botão Ajuda ID: 9
+				29160 painel ID: 502
+					29161 painel
+						29162 caixa de seleção ID: 1002
+					29163 painel
+					29164 painel
+					29165 barra de rolagem (settable, float) Value: 100
+						29166 botão Uma linha acima ID: UpButton
+						29173 botão Uma página acima ID: UpPageButton
+						29167 elevador Posição ID: ScrollbarThumb
+						29169 botão Uma linha abaixo ID: DownButton
+				29170 barra de título (settable, string) Value: Armadura
+			28903 Lista (disabled) ID: 101
+				28904 item de lista (selectable) TCC-cdd31967-N2
+				28905 item de lista (selectable) TCC-cdd31967-N1
+				28906 item de lista (selectable) TCC-cdd31967-N0
+			28907 grupo Aplicação ID: 171
+			28908 botão de opção (selectable) Projeto inteiro ID: 173
+			28909 botão de opção (selectable) Por pavimento ID: 172
+			28910 text Pavimento ID: 174
+			28911 grupo Avisos ID: 221
+			28912 text Todas as informações estão definidas corretamente ID: 170
+			28913 botão (disabled) Detalhes... ID: 169
+			28914 grupo Geral
+			28915 text Classe de agressividade
+			28916 caixa de combinação (settable, string) Classe de agressividade Value: II (moderada) ID: 102
+				28917 text (settable, string) Classe de agressividade Value: II (moderada)
+				28918 botão Abrir ID: DropDown
+			28919 botão ... ID: 161
+			28920 text Dimensão do agregado
+			28921 editar (settable, string) Dimensão do agregado Value: 25 ID: 103
+			28922 text mm
+			28923 caixa de seleção Controle rigoroso nas dimensões dos elementos ID: 168
+			28924 caixa de seleção Considerar redução no cobrimento para peças com fck acima do requerido para a classe de agressividade ID: 175
+			28925 grupo Abertura máxima das fissuras ID: 178
+			28926 text Contato com o solo
+			28927 editar (settable, string) Contato com o solo Value: 0.2 ID: 164
+			28928 text mm ID: 137
+			28929 text Contato com a água
+			28930 editar (settable, string) Contato com a água Value: 0.1 ID: 163
+			28931 text mm ID: 135
+			28932 text Demais peças
+			28933 editar (settable, string) Demais peças Value: 0.3 ID: 165
+			28934 text mm ID: 139
+			28935 text Combinações ID: 180
+			28936 caixa de combinação (settable, string) Combinações Value: Frequentes ID: 179
+				28937 text (settable, string) Combinações Value: Frequentes
+				28938 botão Abrir ID: DropDown
+			28939 grupo Elementos ID: 220
+			28940 text Concreto
+			28941 text Cobrimento
+			28942 text (peças externas)
+			28943 text Cobrimento
+			28944 text (peças internas)
+			28945 text Cobrimento
+			28946 text (contato com o solo)
+			28947 text Vigas
+			28948 caixa de combinação (settable, string) Vigas Value: C-25 ID: 106
+				28949 text (settable, string) Vigas Value: C-25
+				28950 botão Abrir ID: DropDown
+			28951 editar (settable, string) Value: 3 ID: 120
+			28952 text cm
+			28953 editar (settable, string) cm Value: 3 ID: 125
+			28954 text cm
+			28955 editar (settable, string) cm Value: 3 ID: 129
+			28956 text cm
+			28957 botão Bitolas... ID: 144
+			28958 text Pilares e NR
+			28959 caixa de combinação (settable, string) Pilares e NR Value: C-25 ID: 110
+				28960 text (settable, string) Pilares e NR Value: C-25
+				28961 botão Abrir ID: DropDown
+			28962 editar (settable, string) Value: 3 ID: 121
+			28963 text cm
+			28964 editar (settable, string) cm Value: 3 ID: 126
+			28965 text cm
+			28966 editar (settable, string) cm Value: 4.5 ID: 130
+			28967 text cm
+			28968 botão Bitolas... ID: 142
+			28969 text Lajes
+			28970 caixa de combinação (settable, string) Lajes Value: C-25 ID: 107
+				28971 text (settable, string) Lajes Value: C-25
+				28972 botão Abrir ID: DropDown
+			28973 editar (settable, string) Value: 2.5 ID: 124
+			28974 text cm
+			28975 editar (settable, string) cm Value: 3 ID: 131
+			28976 text cm
+			28977 botão Bitolas... ID: 143
+			28978 text Reservatórios ID: 242
+			28979 caixa de combinação (settable, string) Reservatórios Value: C-25 ID: 112
+				28980 text (settable, string) Reservatórios Value: C-25
+				28981 botão Abrir ID: DropDown
+			28982 editar (settable, string) Value: 3 ID: 162
+			28983 text cm ID: 241
+			28984 botão Bitolas... ID: 147
+			28985 text Blocos ID: 201
+			28986 caixa de combinação (settable, string) Blocos Value: C-25 ID: 109
+				28987 text (settable, string) Blocos Value: C-25
+				28988 botão Abrir ID: DropDown
+			28989 editar (settable, string) Value: 4.5 ID: 123
+			28990 text cm ID: 211
+			28991 botão Bitolas... ID: 141
+			28992 text Sapatas ID: 202
+			28993 caixa de combinação (settable, string) Sapatas Value: C-25 ID: 108
+				28994 text (settable, string) Sapatas Value: C-25
+				28995 botão Abrir ID: DropDown
+			28996 editar (settable, string) Value: 4.5 ID: 122
+			28997 text cm ID: 212
+			28998 botão Bitolas... ID: 140
+			28999 text Tubulões ID: 204
+			29000 caixa de combinação (settable, string) Tubulões Value: C-25 ID: 111
+				29001 text (settable, string) Tubulões Value: C-25
+				29002 botão Abrir ID: DropDown
+			29003 editar (settable, string) Value: 4.5 ID: 127
+			29004 text cm ID: 214
+			29005 botão Bitolas... ID: 146
+			29006 text Muros ID: 203
+			29007 caixa de combinação (settable, string) Muros Value: C-25 ID: 191
+				29008 text (settable, string) Muros Value: C-25
+				29009 botão Abrir ID: DropDown
+			29010 editar (settable, string) Value: 4.5 ID: 190
+			29011 text cm ID: 213
+			29012 botão Bitolas... ID: 145
+			29013 text Radier ID: 205
+			29014 caixa de combinação (settable, string) Radier Value: C-25 ID: 113
+				29015 text (settable, string) Radier Value: C-25
+				29016 botão Abrir ID: DropDown
+			29017 editar (settable, string) Value: 4.5 ID: 128
+			29018 text cm ID: 215
+			29019 botão Bitolas... ID: 148
+			29020 grupo Elementos pré-moldados ID: 270
+			29021 text Concreto ID: 271
+			29022 text Cobrimento ID: 272
+			29023 text (peças externas) ID: 273
+			29024 text Vigas ID: 274
+			29025 caixa de combinação (settable, string) Vigas Value: C-25 ID: 276
+				29026 text (settable, string) Vigas Value: C-25
+				29027 botão Abrir ID: DropDown
+			29028 editar (settable, string) Value: 3 ID: 278
+			29029 text cm ID: 280
+			29030 botão Bitolas... ID: 282
+			29031 text Pilares ID: 275
+			29032 caixa de combinação (settable, string) Pilares Value: C-25 ID: 277
+				29033 text (settable, string) Pilares Value: C-25
+				29034 botão Abrir ID: DropDown
+			29035 editar (settable, string) Value: 3 ID: 279
+			29036 text cm ID: 281
+			29037 botão Bitolas... ID: 283
+			29038 botão Etapas... ID: 286
+			29039 text Tipo ID: 284
+			29040 caixa de combinação (settable, string) Tipo Value: Pré-moldado ID: 285
+				29041 text (settable, string) Tipo Value: Pré-moldado
+				29042 botão Abrir ID: DropDown
+			29043 botão Fluência... ID: 167
+			29044 botão Barras... ID: 166
+			29045 botão Classes... ID: 160
+			29046 botão Protensão... ID: 181
+			29047 botão OK ID: 1
+			29048 botão Cancelar ID: 2
+			29049 botão Ajuda ID: 9
+			29050 barra de título (settable, string) Value: Materiais e durabilidade
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```
