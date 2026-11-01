@@ -1,0 +1,261 @@
+{
+  "revision": "H03/R108",
+  "createdAtUtc": "2026-11-01T11:12:46.162983+00:00",
+  "hypothesisId": "VP1-A",
+  "status": "Alternativa de sensibilidade; nao solucao dimensionada ou aprovada",
+  "roofAreaP1M2": 3.15,
+  "roofBoxM": [
+    9.65,
+    3.9,
+    10.65,
+    7.05
+  ],
+  "concept": "Dois bracos metalicos em balanco X, nas extremidades Y3,90/7,05, recebem uma barra longitudinal Y no centro X10,15 da faixa. Resultantes transportadas aos nos X9,65.",
+  "actions": {
+    "G_ADICIONAL": {
+      "loadHorizontalKNm2": 0.330897761180176,
+      "nodes": [
+        {
+          "xM": 9.65,
+          "yM": 3.9,
+          "FxKN": 0,
+          "FyKN": 0,
+          "FzKN": -0.5211639738587772,
+          "MxKNm": 0,
+          "MyKNm": 0.2605819869293886,
+          "MzKNm": 0,
+          "id": "VP1-01",
+          "targetsHistoricalR56": {
+            "CAD": {
+              "type": "IfcColumn",
+              "name": "P8",
+              "guid": "1ZyH5uqniHyOy801fzsd4G",
+              "min": [
+                9.55,
+                3.75,
+                3.2
+              ],
+              "max": [
+                9.75,
+                4.05,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            },
+            "BIM": {
+              "type": "IfcColumn",
+              "name": "P7",
+              "guid": "2MjmLWqlqHyOy801fzsd4G",
+              "min": [
+                9.55,
+                3.75,
+                3.2
+              ],
+              "max": [
+                9.75,
+                4.05,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            }
+          }
+        },
+        {
+          "xM": 9.65,
+          "yM": 7.05,
+          "FxKN": 0,
+          "FyKN": 0,
+          "FzKN": -0.5211639738587772,
+          "MxKNm": 0,
+          "MyKNm": 0.2605819869293886,
+          "MzKNm": 0,
+          "id": "VP1-02",
+          "targetsHistoricalR56": {
+            "CAD": {
+              "type": "IfcColumn",
+              "name": "P9",
+              "guid": "1ZyH5yqniHyOy801fzsd4G",
+              "min": [
+                9.55,
+                6.9,
+                3.2
+              ],
+              "max": [
+                9.75,
+                7.2,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            },
+            "BIM": {
+              "type": "IfcColumn",
+              "name": "P3",
+              "guid": "2MjmL8qlqHyOy801fzsd4G",
+              "min": [
+                9.55,
+                6.9,
+                3.2
+              ],
+              "max": [
+                9.75,
+                7.2,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            }
+          }
+        }
+      ],
+      "equivalentResultantAtRoofCentroid": {
+        "FzKN": -1.0423279477175544,
+        "MxKNm": -5.70674551375361,
+        "MyKNm": 10.579628669333179
+      },
+      "transportedResultant": {
+        "FzKN": -1.0423279477175544,
+        "MxKNm": -5.70674551375361,
+        "MyKNm": 10.579628669333179
+      },
+      "equilibriumPassed": true
+    },
+    "Q_TELHADO_MANUTENCAO": {
+      "loadHorizontalKNm2": 0.25,
+      "nodes": [
+        {
+          "xM": 9.65,
+          "yM": 3.9,
+          "FxKN": 0,
+          "FyKN": 0,
+          "FzKN": -0.39375,
+          "MxKNm": 0,
+          "MyKNm": 0.196875,
+          "MzKNm": 0,
+          "id": "VP1-01",
+          "targetsHistoricalR56": {
+            "CAD": {
+              "type": "IfcColumn",
+              "name": "P8",
+              "guid": "1ZyH5uqniHyOy801fzsd4G",
+              "min": [
+                9.55,
+                3.75,
+                3.2
+              ],
+              "max": [
+                9.75,
+                4.05,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            },
+            "BIM": {
+              "type": "IfcColumn",
+              "name": "P7",
+              "guid": "2MjmLWqlqHyOy801fzsd4G",
+              "min": [
+                9.55,
+                3.75,
+                3.2
+              ],
+              "max": [
+                9.75,
+                4.05,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            }
+          }
+        },
+        {
+          "xM": 9.65,
+          "yM": 7.05,
+          "FxKN": 0,
+          "FyKN": 0,
+          "FzKN": -0.39375,
+          "MxKNm": 0,
+          "MyKNm": 0.196875,
+          "MzKNm": 0,
+          "id": "VP1-02",
+          "targetsHistoricalR56": {
+            "CAD": {
+              "type": "IfcColumn",
+              "name": "P9",
+              "guid": "1ZyH5yqniHyOy801fzsd4G",
+              "min": [
+                9.55,
+                6.9,
+                3.2
+              ],
+              "max": [
+                9.75,
+                7.2,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            },
+            "BIM": {
+              "type": "IfcColumn",
+              "name": "P3",
+              "guid": "2MjmL8qlqHyOy801fzsd4G",
+              "min": [
+                9.55,
+                6.9,
+                3.2
+              ],
+              "max": [
+                9.75,
+                7.2,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            }
+          }
+        }
+      ],
+      "equivalentResultantAtRoofCentroid": {
+        "FzKN": -0.7875,
+        "MxKNm": -4.3115625,
+        "MyKNm": 7.993125
+      },
+      "transportedResultant": {
+        "FzKN": -0.7875,
+        "MxKNm": -4.3115625,
+        "MyKNm": 7.993125
+      },
+      "equilibriumPassed": true
+    }
+  },
+  "forcesAreLoadsOnConcreteNotSupportReactionsOnSteel": true,
+  "supportTopReferenceM": 6.39,
+  "referenceIsExistingConcreteTopNotNewRoofAbsoluteLevel": true,
+  "sources": [
+    {
+      "path": "D:\\TCC\\outputs\\Cobertura-H03-R59-MEMORIA-ESTUDO-NAO-EXECUTAR\\R59-memoria-cobertura.json",
+      "sha256": "aeaeb427b643da99855e442d98971ad65a84d74901ea4cacfe5e711eca55ee97"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Cobertura-H03-R56-ESTUDO-NAO-EXECUTAR\\R56-geometria-exportada.json",
+      "sha256": "6fc2486f4eecd19985a4c4d87886822bb76ee40cee80e07c352db25bca0aabf7"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Cobertura-H03-R60-REACOES-PARCIAIS-NAO-EXECUTAR\\R60-arranjo-reacoes.json",
+      "sha256": "7de42c0d7afb8ffe26b9ff3fac353858c5bea2b45e8bf30ab6363472dcdce5bd"
+    }
+  ],
+  "operationalSource": "https://suporte.altoqi.com.br/hc/pt-br/articles/115003467013",
+  "geometryMustBeCheckedInCurrentNativeCopy": true,
+  "nativeApplicationPerformed": false,
+  "p2RoofAndReservoirIncluded": false,
+  "steelWeightAllowanceKNm2": 0.15,
+  "steelWeightAllowanceIsNotMemberTakeoff": true,
+  "metalAndAnchorsDesigned": false,
+  "finalStructuralApproval": false,
+  "limits": [
+    "Nao aumentar a area A1/A2 nem substituir suas13 cargas; VP1 e parcela adicional distinta.",
+    "Nao omitir My ao transportar carga excentrica. Nao inverter sinal confundindo carga no concreto com reacao sobre metal.",
+    "Momentos sao em eixos globais, em kN.m; confirmar unidades no receptor instalado.",
+    "Barras, ancoragens, estabilidade lateral, vento/succao e compatibilidade altimetrica nao dimensionados.",
+    "Nao declarou viavel o sistema metalico nem a capacidade dos nos de concreto.",
+    "P2, reservatorio, paredes, escada e demais cargas continuam separados e pendentes."
+  ]
+}

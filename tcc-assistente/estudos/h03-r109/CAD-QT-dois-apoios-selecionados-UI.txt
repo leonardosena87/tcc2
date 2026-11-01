@@ -1,0 +1,82 @@
+Window: "AltoQi Eberick 2025 Infinity - [22-H03-R109-CAD-VARANDA-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [22-H03-R109-CAD-VARANDA-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		23 Barra de status
+			8014 custom
+				8015 text Carga concentrada-Selecione os nós (1 sel.)
+				8016 editar (settable, string)
+				8017 text 964.3,389.8
+				8018 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					8019 Lista
+						8020 item de lista (selectable) 1:1
+						8021 item de lista (selectable) 1:2
+						8022 item de lista (selectable) 1:5
+						8023 item de lista (selectable) 1:10
+						8024 item de lista (selectable) 1:12.5
+						8025 item de lista (selectable) 1:15
+						8026 item de lista (selectable) 1:20
+						8027 item de lista (selectable) 1:25
+						8028 item de lista (selectable) 1:30
+						8029 item de lista (selectable) 1:40
+						8030 item de lista (selectable) 1:50
+						8031 item de lista (selectable) 1:60
+						8032 item de lista (selectable) 1:75
+						8033 item de lista (selectable) 1:100
+						8034 item de lista (selectable) 1:200
+						8035 item de lista (selectable) 1:250
+						8036 item de lista (selectable) 1:500
+						8037 item de lista (selectable) 1:1000
+			8038 botão Atualizar
+			8039 botão Enquadrar
+			8040 botão Aproximar
+			8041 botão Afastar
+			8042 botão Zoom
+			8043 botão Zoom anterior
+			8044 botão Deslocar
+			8045 caixa de seleção Ortogonal
+			8046 caixa de seleção Captura personalizada
+			8047 botão Opções da captura personalizada
+			8048 caixa de seleção Quadrante
+			8049 caixa de seleção Centro
+			8050 caixa de seleção Ponto médio
+			8051 caixa de seleção Extremidade
+			8052 caixa de seleção Ponto no elemento
+			8053 caixa de seleção Intersecção
+			8054 caixa de seleção Perpendicular
+			8055 caixa de seleção Ponto intermediário
+			8056 caixa de seleção Ponto quadrante
+			8057 caixa de seleção Ponto na intersecção
+			8058 caixa de seleção Ponto relativo
+		24 painel
+			25 botão de divisão
+				26 elevador
+				27 painel
+					28 tabulação Croqui-N2
+						8059 item de tabulação (selectable) Notícias
+						8060 item de tabulação (selectable) Croqui-N2
+					30 painel
+						880 painel
+							881 painel Croqui-N2
+								882 painel TCadPlotWindow
+				53 painel
+					54 tabulação
+						8061 item de tabulação (selectable)
+						8062 item de tabulação (selectable)
+					56 painel
+						57 janela Edificação Secondary Actions: Raise
+							58 painel
+								59 painel Projeto
+									60 painel
+									799 árvore ID: 101
+										800 item da árvore (selectable) Pavimentos
+											801 item da árvore (selectable) N2
+											802 item da árvore (selectable) N1
+											803 item da árvore (selectable) N0
+										804 item da árvore (selectable) Cortes
+										805 item da árvore (selectable) Gerenciador de desenhos
+										806 item da árvore (selectable) Modelos 3D
+		71 barra de menus
+
+Document text: ```
+Carga concentrada-Selecione os nós (2 sel.)
+964.3,704.5
+```
