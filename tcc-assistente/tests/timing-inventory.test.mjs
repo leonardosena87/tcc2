@@ -36,3 +36,13 @@ test('wallMs e outra duracao permanecem separados quando divergem',()=>{
   const r=classify({durationMs:100,wallMs:120});
   assert.equal(r.durationMs,100);assert.deepEqual(r.otherDurationFields,{wallMs:120});
 });
+
+test('observacao de termino R104 preserva duracao e fuso sem virar solver ou ranking',()=>{
+  const r=classify({start:'2026-11-01T03:20:52.105Z',endFirstFinishRecorded:'2026-11-01T03:21:11.262Z',commandToRecordedFinishMs:19156.2105,solverTimeMs:null,rankingAllowed:true});
+  assert.equal(r.durationMs,19156.2105);
+  assert.equal(r.durationField,'commandToRecordedFinishMs');
+  assert.equal(r.utcDifferenceMs,19157);
+  assert.equal(r.eligibleForFinalFlowRanking,false);
+  assert.equal(classify({commandToFirstObservedFinishMs:8260.5249}).durationMs,8260.5249);
+  assert.throws(()=>classify({commandToRecordedFinishMs:-1}),/negativa/);
+});

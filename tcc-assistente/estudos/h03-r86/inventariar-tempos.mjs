@@ -11,10 +11,10 @@ export function utc(value) {
 
 export function classify(value) {
   if(!value||Array.isArray(value)||typeof value!=='object')throw Error('Registro de tempo nao e objeto.');
-  const fields=['durationMs','elapsedMs','elapsedWallMs','wallMs'].filter(k=>typeof value[k]==='number'&&Number.isFinite(value[k]));
+  const fields=['durationMs','elapsedMs','elapsedWallMs','wallMs','commandToRecordedFinishMs','commandToFirstObservedFinishMs'].filter(k=>typeof value[k]==='number'&&Number.isFinite(value[k]));
   if(fields.some(k=>value[k]<0))throw Error('Duracao negativa.');
   const start=['startUtc','startedAt','startedAtUtc','started','start'].map(k=>utc(value[k])).find(Boolean)??null;
-  const end=['endUtc','endedAt','endedAtUtc','finishedAtUtc','finish','end','utc'].map(k=>utc(value[k])).find(Boolean)??null;
+  const end=['endUtc','endedAt','endedAtUtc','finishedAtUtc','finish','end','endFirstFinishRecorded','utc'].map(k=>utc(value[k])).find(Boolean)??null;
   const nested=['records','sessions','session','events'].some(k=>k in value);
   const durationMs=fields.length?value[fields[0]]:null;
   const utcDifferenceMs=start&&end?Date.parse(end)-Date.parse(start):null;
