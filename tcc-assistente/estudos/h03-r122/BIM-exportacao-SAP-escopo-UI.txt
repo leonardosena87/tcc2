@@ -1,0 +1,99 @@
+Window: "AltoQi Eberick 2025 Infinity - [39-H03-R122-BIM-EXTENSAO-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [39-H03-R122-BIM-EXTENSAO-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+		30 Barra de status
+			8815 custom
+				8816 text Comando
+				8817 editar (settable, string)
+				8818 text 904.8,209.3
+				8819 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					8820 Lista
+						8821 item de lista (selectable) 1:1
+						8822 item de lista (selectable) 1:2
+						8823 item de lista (selectable) 1:5
+						8824 item de lista (selectable) 1:10
+						8825 item de lista (selectable) 1:12.5
+						8826 item de lista (selectable) 1:15
+						8827 item de lista (selectable) 1:20
+						8828 item de lista (selectable) 1:25
+						8829 item de lista (selectable) 1:30
+						8830 item de lista (selectable) 1:40
+						8831 item de lista (selectable) 1:50
+						8832 item de lista (selectable) 1:60
+						8833 item de lista (selectable) 1:75
+						8834 item de lista (selectable) 1:100
+						8835 item de lista (selectable) 1:200
+						8836 item de lista (selectable) 1:250
+						8837 item de lista (selectable) 1:500
+						8838 item de lista (selectable) 1:1000
+			8839 botão Atualizar
+			8840 botão Enquadrar
+			8841 botão Aproximar
+			8842 botão Afastar
+			8843 botão Zoom
+			8844 botão Zoom anterior
+			8845 botão Deslocar
+			8846 caixa de seleção Ortogonal
+			8847 caixa de seleção Captura personalizada
+			8848 botão Opções da captura personalizada
+			8849 caixa de seleção Quadrante
+			8850 caixa de seleção Centro
+			8851 caixa de seleção Ponto médio
+			8852 caixa de seleção Extremidade
+			8853 caixa de seleção Ponto no elemento
+			8854 caixa de seleção Intersecção
+			8855 caixa de seleção Perpendicular
+			8856 caixa de seleção Ponto intermediário
+			8857 caixa de seleção Ponto quadrante
+			8858 caixa de seleção Ponto na intersecção
+			8859 caixa de seleção Ponto relativo
+		31 painel
+			32 botão de divisão
+				33 elevador
+				34 painel
+					35 tabulação Croqui-TCC-cdd31967-N1
+						8860 item de tabulação (selectable) Notícias
+						8861 item de tabulação (selectable) Croqui-TCC-cdd31967-N1
+					37 painel
+						8022 painel
+							8023 painel Croqui-TCC-cdd31967-N1
+								8024 painel TCadPlotWindow
+				60 painel
+					61 tabulação
+						8862 item de tabulação (selectable)
+						8863 item de tabulação (selectable)
+					63 painel
+						64 janela Edificação Secondary Actions: Raise
+							65 painel
+								66 painel Projeto
+									67 painel
+									7998 árvore ID: 101
+										7999 item da árvore (selectable) Pavimentos
+											8000 item da árvore (selectable) TCC-cdd31967-N2
+											8001 item da árvore (selectable) TCC-cdd31967-N1
+											8002 item da árvore (selectable) TCC-cdd31967-N0
+										8003 item da árvore (selectable) Pilares em prumada
+										8004 item da árvore (selectable) Cortes
+										8005 item da árvore (selectable) Gerenciador de desenhos
+										8006 item da árvore (selectable) Modelos 3D
+											8007 item da árvore (selectable) H03-R44-geometria-nominal
+		69 barra de menus
+		8864 diálogo Modelo SAP2000 Secondary Actions: Raise
+			8865 grupo
+			8866 caixa de seleção Pórtico unifilar ID: 101
+			8867 caixa de seleção Grelha das lajes ID: 102
+			8868 Lista ID: 104
+				8869 item de lista (selectable) TCC-cdd31967-N2
+				8870 item de lista (selectable) TCC-cdd31967-N1
+			8871 caixa de seleção (disabled) Grelha das escadas ID: 103
+			8872 Lista (disabled) ID: 105
+			8873 caixa de seleção Exportar seções ID: 106
+			8874 caixa de seleção Exportar coeficientes redutores das seções ID: 107
+			8875 botão OK ID: 1
+			8876 botão Cancelar ID: 2
+			8877 botão Ajuda ID: 9
+			8878 barra de título (settable, string) Value: Modelo SAP2000
+
+Document text: ```
+Comando
+904.8,209.3
+```

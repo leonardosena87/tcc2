@@ -1,0 +1,97 @@
+Window: "AltoQi Eberick 2025 Infinity - [38-H03-R122-CAD-EXTENSAO-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [38-H03-R122-CAD-EXTENSAO-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		30 Barra de status
+			6387 custom
+				6388 text Comando
+				6389 editar (settable, string)
+				6390 text
+				6391 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					6392 Lista
+						6393 item de lista (selectable) 1:1
+						6394 item de lista (selectable) 1:2
+						6395 item de lista (selectable) 1:5
+						6396 item de lista (selectable) 1:10
+						6397 item de lista (selectable) 1:12.5
+						6398 item de lista (selectable) 1:15
+						6399 item de lista (selectable) 1:20
+						6400 item de lista (selectable) 1:25
+						6401 item de lista (selectable) 1:30
+						6402 item de lista (selectable) 1:40
+						6403 item de lista (selectable) 1:50
+						6404 item de lista (selectable) 1:60
+						6405 item de lista (selectable) 1:75
+						6406 item de lista (selectable) 1:100
+						6407 item de lista (selectable) 1:200
+						6408 item de lista (selectable) 1:250
+						6409 item de lista (selectable) 1:500
+						6410 item de lista (selectable) 1:1000
+			6411 botão Atualizar
+			6412 botão Enquadrar
+			6413 botão Aproximar
+			6414 botão Afastar
+			6415 botão Zoom
+			6416 botão Zoom anterior
+			6417 botão Deslocar
+			6418 caixa de seleção Ortogonal
+			6419 caixa de seleção Captura personalizada
+			6420 botão Opções da captura personalizada
+			6421 caixa de seleção Quadrante
+			6422 caixa de seleção Centro
+			6423 caixa de seleção Ponto médio
+			6424 caixa de seleção Extremidade
+			6425 caixa de seleção Ponto no elemento
+			6426 caixa de seleção Intersecção
+			6427 caixa de seleção Perpendicular
+			6428 caixa de seleção Ponto intermediário
+			6429 caixa de seleção Ponto quadrante
+			6430 caixa de seleção Ponto na intersecção
+			6431 caixa de seleção Ponto relativo
+		31 painel
+			32 botão de divisão
+				33 elevador
+				34 painel
+					35 tabulação Croqui-N1
+						6432 item de tabulação (selectable) Notícias
+						6433 item de tabulação (selectable) Croqui-N1
+					37 painel
+						5500 painel
+							5501 painel Croqui-N1
+								5502 painel TCadPlotWindow
+				60 painel
+					61 tabulação
+						6434 item de tabulação (selectable)
+						6435 item de tabulação (selectable)
+					63 painel
+						64 janela Edificação Secondary Actions: Raise
+							65 painel
+								66 painel Projeto
+									67 painel
+									5410 árvore ID: 101
+										5411 item da árvore (selectable, disabled) Pavimentos
+											5412 item da árvore (selectable, disabled) N2
+											5413 item da árvore (selectable, disabled) N1
+											5414 item da árvore (selectable, disabled) N0
+										5415 item da árvore (selectable, disabled) Pilares em prumada
+										5416 item da árvore (selectable, disabled) Cortes
+										5417 item da árvore (selectable, disabled) Gerenciador de desenhos
+										5418 item da árvore (selectable, disabled) Modelos 3D
+		69 barra de menus
+		6436 diálogo Modelo SAP2000 Secondary Actions: Raise
+			6437 grupo
+			6438 caixa de seleção Pórtico unifilar ID: 101
+			6439 caixa de seleção Grelha das lajes ID: 102
+			6440 Lista ID: 104
+				6441 item de lista (selectable) N2
+				6442 item de lista (selectable) N1
+			6443 caixa de seleção (disabled) Grelha das escadas ID: 103
+			6444 Lista (disabled) ID: 105
+			6445 caixa de seleção Exportar seções ID: 106
+			6446 caixa de seleção Exportar coeficientes redutores das seções ID: 107
+			6447 botão OK ID: 1
+			6448 botão Cancelar ID: 2
+			6449 botão Ajuda ID: 9
+			6450 barra de título (settable, string) Value: Modelo SAP2000
+
+Document text: ```
+Comando
+```
