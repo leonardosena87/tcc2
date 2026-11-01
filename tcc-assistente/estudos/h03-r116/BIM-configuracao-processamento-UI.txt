@@ -1,0 +1,89 @@
+Window: "AltoQi Eberick 2025 Infinity - [31-H03-R116-BIM-P2-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [31-H03-R116-BIM-P2-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+		28 Barra de status
+		29 painel
+			30 botão de divisão
+				31 elevador
+				32 painel
+					33 tabulação Notícias
+						509 item de tabulação (selectable) Notícias
+					35 painel
+						36 painel
+							37 painel status.altoqi.com.br
+								38 painel (disabled)
+								39 região status.altoqi.com.br - Conteúdo da Web
+									40 região
+										41 região
+										42 região
+											43 região
+												44 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													45 gráfico
+													46 título Hum… Não consigo chegar a esta página
+													47 text status.altoqi.com.br
+													48 text se recusou a se conectar.
+													49 text Tente:
+													50 Lista
+														51 item de lista •Verificando a conexão
+														52 item de lista •Verificação de proxy e firewall
+															53 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													54 text ERR_CONNECTION_REFUSED
+													55 botão Atualizar ID: reload-button
+													56 text Microsoft Edge
+												57 região
+				58 painel
+					59 tabulação
+						510 item de tabulação (selectable)
+					61 painel
+						62 janela Edificação Secondary Actions: Raise
+							63 painel
+								64 painel Projeto
+									65 painel
+									468 árvore ID: 101
+										469 item da árvore (selectable) Pavimentos
+											470 item da árvore (selectable) TCC-cdd31967-N2
+											471 item da árvore (selectable) TCC-cdd31967-N1
+											472 item da árvore (selectable) TCC-cdd31967-N0
+										473 item da árvore (selectable) Cortes
+										474 item da árvore (selectable) Gerenciador de desenhos
+										475 item da árvore (selectable) Modelos 3D
+											476 item da árvore (selectable) H03-R44-geometria-nominal
+		74 barra de menus
+		511 diálogo Análise da estrutura Secondary Actions: Raise
+			512 grupo Estado-limite último (ELU) ID: 101
+			513 caixa de seleção (disabled) Análise estática linear ID: 102
+			514 caixa de seleção (disabled) Verificação das etapas construtivas ID: 103
+			515 caixa de seleção Dimensionamento dos elementos ID: 104
+			516 caixa de seleção Dimensionar apenas elementos selecionados ID: 105
+			517 botão ... ID: 106
+			518 caixa de seleção Verificar limites de redistribuição em nós semirrígidos ID: 107
+			519 grupo Estado-limite de deformações excessivas (ELS-DEF) ID: 108
+			520 caixa de seleção Determinação dos deslocamentos do pórtico ID: 109
+			521 botão de opção (selectable, disabled) Adotar rigidez configurada ID: 110
+			522 botão de opção (selectable, disabled) Calcular rigidez fissurada ID: 111
+			523 caixa de seleção Determinação dos deslocamentos das lajes ID: 112
+			524 botão de opção (selectable, disabled) Adotar rigidez configurada ID: 113
+			525 botão de opção (selectable, disabled) Calcular rigidez fissurada ID: 114
+			526 caixa de seleção (disabled) Verificar apenas pavimentos selecionados ID: 115
+			527 botão (disabled) ... ID: 116
+			528 grupo Estado-limite de vibrações excessivas (ELS-VE) ID: 117
+			529 caixa de seleção Análise dinâmica do pórtico ID: 118
+			530 caixa de seleção Análise dinâmica das lajes ID: 119
+			531 caixa de seleção (disabled) Verificar apenas pavimentos selecionados ID: 120
+			532 botão (disabled) ... ID: 121
+			533 botão OK ID: 1
+			534 botão Cancelar ID: 2
+			535 botão Configurar... ID: 122
+			536 botão Ajuda ID: 9
+			537 barra de título (settable, string) Value: Análise da estrutura
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```
