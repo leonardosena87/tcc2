@@ -1,0 +1,122 @@
+Window: "AltoQi Eberick 2025 Infinity - [44-H03-R130-CAD-W15-LAJE-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [44-H03-R130-CAD-W15-LAJE-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		34690 diálogo Carga linear Secondary Actions: Raise
+			34691 grupo Cargas
+			34692 caixa de seleção Parede ID: 156
+			34693 text 5.46 kN/m ID: 151
+			34694 botão (disabled) Editar... ID: 152
+			34695 botão (disabled) Remover ID: 153
+			34696 caixa de seleção ID: 157
+			34697 caixa de combinação (settable, string) Value: Adicional ID: 158
+				34698 text (settable, string) Value: Adicional
+				34699 botão Abrir ID: DropDown
+			34700 editar (settable, string) Value: 04.695 ID: 154
+			34701 text kN/m ID: 155
+			34702 grupo Lançar
+			34703 botão de opção (selectable) definindo dois pontos ID: 103
+			34704 botão de opção (selectable) selecionando barras ID: 102
+			34705 botão OK ID: 1
+			34706 botão Cancelar ID: 2
+			34707 botão (disabled) Desenho... ID: 160
+			34708 botão Ajuda ID: 9
+			34709 barra de título (settable, string) Value: Carga linear
+		30 Barra de status
+			34906 custom
+				34907 text Comando
+				34908 editar (settable, string)
+				34909 text
+				34910 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					34911 Lista
+						34912 item de lista (selectable) 1:1
+						34913 item de lista (selectable) 1:2
+						34914 item de lista (selectable) 1:5
+						34915 item de lista (selectable) 1:10
+						34916 item de lista (selectable) 1:12.5
+						34917 item de lista (selectable) 1:15
+						34918 item de lista (selectable) 1:20
+						34919 item de lista (selectable) 1:25
+						34920 item de lista (selectable) 1:30
+						34921 item de lista (selectable) 1:40
+						34922 item de lista (selectable) 1:50
+						34923 item de lista (selectable) 1:60
+						34924 item de lista (selectable) 1:75
+						34925 item de lista (selectable) 1:100
+						34926 item de lista (selectable) 1:200
+						34927 item de lista (selectable) 1:250
+						34928 item de lista (selectable) 1:500
+						34929 item de lista (selectable) 1:1000
+			34930 botão Atualizar
+			34931 botão Enquadrar
+			34932 botão Aproximar
+			34933 botão Afastar
+			34934 botão Zoom
+			34935 botão Zoom anterior
+			34936 botão Deslocar
+			34937 caixa de seleção Ortogonal
+			34938 caixa de seleção Captura personalizada
+			34939 botão Opções da captura personalizada
+			34940 caixa de seleção Quadrante
+			34941 caixa de seleção Centro
+			34942 caixa de seleção Ponto médio
+			34943 caixa de seleção Extremidade
+			34944 caixa de seleção Ponto no elemento
+			34945 caixa de seleção Intersecção
+			34946 caixa de seleção Perpendicular
+			34947 caixa de seleção Ponto intermediário
+			34948 caixa de seleção Ponto quadrante
+			34949 caixa de seleção Ponto na intersecção
+			34950 caixa de seleção Ponto relativo
+		31 painel
+			32 botão de divisão
+				33 elevador
+				34 painel
+					35 tabulação Croqui-N1
+						34951 item de tabulação (selectable) Notícias
+						34952 item de tabulação (selectable) Croqui-N1
+					37 painel
+						34538 painel
+							34539 painel Croqui-N1
+								34540 painel TCadPlotWindow
+				60 painel
+					61 tabulação
+						34953 item de tabulação (selectable)
+						34954 item de tabulação (selectable)
+					63 painel
+						64 janela Edificação Secondary Actions: Raise
+							65 painel
+								66 painel Projeto
+									67 painel
+									34472 árvore ID: 101
+										34473 item da árvore (selectable, disabled) Pavimentos
+											34474 item da árvore (selectable, disabled) N2
+											34475 item da árvore (selectable, disabled) N1
+											34476 item da árvore (selectable, disabled) N0
+										34477 item da árvore (selectable, disabled) Pilares em prumada
+										34478 item da árvore (selectable, disabled) Cortes
+										34479 item da árvore (selectable, disabled) Gerenciador de desenhos
+										34480 item da árvore (selectable, disabled) Modelos 3D
+		69 barra de menus
+		34690 diálogo Carga linear Secondary Actions: Raise
+			34691 grupo Cargas
+			34692 caixa de seleção Parede ID: 156
+			34693 text 5.46 kN/m ID: 151
+			34694 botão (disabled) Editar... ID: 152
+			34695 botão (disabled) Remover ID: 153
+			34696 caixa de seleção ID: 157
+			34697 caixa de combinação (settable, string) Value: Adicional ID: 158
+				34698 text (settable, string) Value: Adicional
+				34699 botão Abrir ID: DropDown
+			34700 editar (settable, string) Value: 04.695 ID: 154
+			34701 text kN/m ID: 155
+			34702 grupo Lançar
+			34703 botão de opção (selectable) definindo dois pontos ID: 103
+			34704 botão de opção (selectable) selecionando barras ID: 102
+			34705 botão OK ID: 1
+			34706 botão Cancelar ID: 2
+			34707 botão (disabled) Desenho... ID: 160
+			34708 botão Ajuda ID: 9
+			34709 barra de título (settable, string) Value: Carga linear
+
+Document text: ```
+Comando
+```

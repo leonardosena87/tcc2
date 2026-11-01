@@ -1,0 +1,95 @@
+Window: "AltoQi Eberick 2025 Infinity - [42-H03-R129-CAD-W03-FAIXA-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [42-H03-R129-CAD-W03-FAIXA-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		33750 diálogo AltoQi Eberick 2025 Infinity Secondary Actions: Raise
+			33751 botão OK ID: 2
+			33752 Imagem ID: 20
+			33753 text Já existe um nó nesta posição no pavimento. ID: 65535
+			33754 barra de título (settable, string) Value: AltoQi Eberick 2025 Infinity
+				33755 botão Fechar
+		30 Barra de status
+			33756 custom
+				33757 text Nó-Centro
+				33758 editar (settable, string) Value: 10,705
+				33759 text 323.0,592.2
+				33760 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					33761 Lista
+						33762 item de lista (selectable) 1:1
+						33763 item de lista (selectable) 1:2
+						33764 item de lista (selectable) 1:5
+						33765 item de lista (selectable) 1:10
+						33766 item de lista (selectable) 1:12.5
+						33767 item de lista (selectable) 1:15
+						33768 item de lista (selectable) 1:20
+						33769 item de lista (selectable) 1:25
+						33770 item de lista (selectable) 1:30
+						33771 item de lista (selectable) 1:40
+						33772 item de lista (selectable) 1:50
+						33773 item de lista (selectable) 1:60
+						33774 item de lista (selectable) 1:75
+						33775 item de lista (selectable) 1:100
+						33776 item de lista (selectable) 1:200
+						33777 item de lista (selectable) 1:250
+						33778 item de lista (selectable) 1:500
+						33779 item de lista (selectable) 1:1000
+			33780 botão Atualizar
+			33781 botão Enquadrar
+			33782 botão Aproximar
+			33783 botão Afastar
+			33784 botão Zoom
+			33785 botão Zoom anterior
+			33786 botão Deslocar
+			33787 caixa de seleção Ortogonal
+			33788 caixa de seleção Captura personalizada
+			33789 botão Opções da captura personalizada
+			33790 caixa de seleção Quadrante
+			33791 caixa de seleção Centro
+			33792 caixa de seleção Ponto médio
+			33793 caixa de seleção Extremidade
+			33794 caixa de seleção Ponto no elemento
+			33795 caixa de seleção Intersecção
+			33796 caixa de seleção Perpendicular
+			33797 caixa de seleção Ponto intermediário
+			33798 caixa de seleção Ponto quadrante
+			33799 caixa de seleção Ponto na intersecção
+			33800 caixa de seleção Ponto relativo
+		31 painel
+			32 botão de divisão
+				33 elevador
+				34 painel
+					35 tabulação Croqui-N1
+						33801 item de tabulação (selectable) Notícias
+						33802 item de tabulação (selectable) Croqui-N1
+					37 painel
+						29378 painel
+							29379 painel Croqui-N1
+								29380 painel TCadPlotWindow
+				60 painel
+					61 tabulação
+						33803 item de tabulação (selectable)
+						33804 item de tabulação (selectable)
+					63 painel
+						64 janela Edificação Secondary Actions: Raise
+							65 painel
+								66 painel Projeto
+									67 painel
+									29294 árvore ID: 101
+										29295 item da árvore (selectable, disabled) Pavimentos
+											29296 item da árvore (selectable, disabled) N2
+											29297 item da árvore (selectable, disabled) N1
+											29298 item da árvore (selectable, disabled) N0
+										29299 item da árvore (selectable, disabled) Pilares em prumada
+										29300 item da árvore (selectable, disabled) Cortes
+										29301 item da árvore (selectable, disabled) Gerenciador de desenhos
+										29302 item da árvore (selectable, disabled) Modelos 3D
+		69 barra de menus
+		33750 diálogo AltoQi Eberick 2025 Infinity Secondary Actions: Raise
+			33751 botão OK ID: 2
+			33752 Imagem ID: 20
+			33753 text Já existe um nó nesta posição no pavimento. ID: 65535
+			33754 barra de título (settable, string) Value: AltoQi Eberick 2025 Infinity
+				33755 botão Fechar
+
+Document text: ```
+Nó-Centro
+323.0,592.2
+```

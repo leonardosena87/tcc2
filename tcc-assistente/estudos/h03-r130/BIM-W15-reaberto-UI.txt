@@ -1,0 +1,116 @@
+Window: "AltoQi Eberick 2025 Infinity - [45-H03-R130-BIM-W15-LAJE-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [45-H03-R130-BIM-W15-LAJE-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+		42300 diálogo Carga linear Secondary Actions: Raise
+			42301 grupo Cargas
+			42302 text Carga de parede
+			42303 text 0.00 kN/m ID: 151
+			42304 botão Lançar... ID: 152
+			42305 botão Remover ID: 153
+			42306 text Carga extra
+			42307 editar (disabled, settable, string) Carga extra Value: 4.695 ID: 154
+			42308 text kN/m ID: 155
+			42309 botão Editar ID: 159
+			42310 botão Remover ID: 651
+			42311 botão OK ID: 1
+			42312 botão Cancelar ID: 2
+			42313 botão Desenho... ID: 160
+			42314 botão Ajuda ID: 9
+			42315 barra de título (settable, string) Value: Carga linear
+		30 Barra de status
+			42316 custom
+				42317 text Editar
+				42318 editar (settable, string)
+				42319 text 496.8,492.6
+				42320 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					42321 Lista
+						42322 item de lista (selectable) 1:1
+						42323 item de lista (selectable) 1:2
+						42324 item de lista (selectable) 1:5
+						42325 item de lista (selectable) 1:10
+						42326 item de lista (selectable) 1:12.5
+						42327 item de lista (selectable) 1:15
+						42328 item de lista (selectable) 1:20
+						42329 item de lista (selectable) 1:25
+						42330 item de lista (selectable) 1:30
+						42331 item de lista (selectable) 1:40
+						42332 item de lista (selectable) 1:50
+						42333 item de lista (selectable) 1:60
+						42334 item de lista (selectable) 1:75
+						42335 item de lista (selectable) 1:100
+						42336 item de lista (selectable) 1:200
+						42337 item de lista (selectable) 1:250
+						42338 item de lista (selectable) 1:500
+						42339 item de lista (selectable) 1:1000
+			42340 botão Atualizar
+			42341 botão Enquadrar
+			42342 botão Aproximar
+			42343 botão Afastar
+			42344 botão Zoom
+			42345 botão Zoom anterior
+			42346 botão Deslocar
+			42347 caixa de seleção Ortogonal
+			42348 caixa de seleção Captura personalizada
+			42349 botão Opções da captura personalizada
+			42350 caixa de seleção Quadrante
+			42351 caixa de seleção Centro
+			42352 caixa de seleção Ponto médio
+			42353 caixa de seleção Extremidade
+			42354 caixa de seleção Ponto no elemento
+			42355 caixa de seleção Intersecção
+			42356 caixa de seleção Perpendicular
+			42357 caixa de seleção Ponto intermediário
+			42358 caixa de seleção Ponto quadrante
+			42359 caixa de seleção Ponto na intersecção
+			42360 caixa de seleção Ponto relativo
+		31 painel
+			32 botão de divisão
+				33 elevador
+				34 painel
+					35 tabulação Croqui-TCC-cdd31967-N1
+						42361 item de tabulação (selectable) Notícias
+						42362 item de tabulação (selectable) Croqui-TCC-cdd31967-N1
+					37 painel
+						42197 painel
+							42198 painel Croqui-TCC-cdd31967-N1
+								42199 painel TCadPlotWindow
+				60 painel
+					61 tabulação
+						42363 item de tabulação (selectable)
+						42364 item de tabulação (selectable)
+					63 painel
+						64 janela Edificação Secondary Actions: Raise
+							65 painel
+								66 painel Projeto
+									67 painel
+									42122 árvore ID: 101
+										42123 item da árvore (selectable, disabled) Pavimentos
+											42124 item da árvore (selectable, disabled) TCC-cdd31967-N2
+											42125 item da árvore (selectable, disabled) TCC-cdd31967-N1
+											42126 item da árvore (selectable, disabled) TCC-cdd31967-N0
+										42127 item da árvore (selectable, disabled) Pilares em prumada
+										42128 item da árvore (selectable, disabled) Cortes
+										42129 item da árvore (selectable, disabled) Gerenciador de desenhos
+										42130 item da árvore (selectable, disabled) Modelos 3D
+											42131 item da árvore (selectable, disabled) H03-R44-geometria-nominal
+		69 barra de menus
+		42300 diálogo Carga linear Secondary Actions: Raise
+			42301 grupo Cargas
+			42302 text Carga de parede
+			42303 text 0.00 kN/m ID: 151
+			42304 botão Lançar... ID: 152
+			42305 botão Remover ID: 153
+			42306 text Carga extra
+			42307 editar (disabled, settable, string) Carga extra Value: 4.695 ID: 154
+			42308 text kN/m ID: 155
+			42309 botão Editar ID: 159
+			42310 botão Remover ID: 651
+			42311 botão OK ID: 1
+			42312 botão Cancelar ID: 2
+			42313 botão Desenho... ID: 160
+			42314 botão Ajuda ID: 9
+			42315 barra de título (settable, string) Value: Carga linear
+
+Document text: ```
+Editar
+496.8,492.6
+```

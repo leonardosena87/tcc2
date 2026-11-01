@@ -1,0 +1,314 @@
+{
+  "revision": "H03/R130",
+  "createdAtUtc": "2026-11-01T18:57:08.753853+00:00",
+  "scope": "Ensaio isolado da parede W15 sobre laje L4/N1, em cópias derivadas R116, com salvar/fechar/reabrir e exportação gráfica DXF.",
+  "wallReference": {
+    "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r120\\R120-matriz.json",
+    "sha256": "362e063a5e756f1b8e9736d82a6df9044ed4542c761a6b1c43cdaafd6f254117",
+    "segmentId": "R120-S43",
+    "geometryReference": "R56/R57; sem nova exportação dos arquivos de autoria nesta etapa",
+    "areaWeightHypothesisKNm2": 1.565,
+    "grossHeightM": 3,
+    "lengthM": 0.95,
+    "lineMagnitudeKNm": 4.695,
+    "forceMagnitudeKN": 4.46025,
+    "compositionManufacturerConfirmed": false
+  },
+  "protectedR116Files": [
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "sha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "sha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "sha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "7aa6766c18ddf61254be0ffdbbdc69823bdecd4fadf5ffb2ef54e96c42d411c3"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256": "0e4684dfb5cca95f0c7e2da23f3acbf81936bb3db7a751bd07054e6e0784e6e5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "sha256": "9dcb0c71361fda7632994e86c865bc166197e7035a09cf24b6ea2a97db06c553"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "sha256": "464da20e7951be3fa769888c894e02d1c9765bb5a8ecccb2bb64dbad2490f93a"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "sha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "sha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "sha256": "ea3a76687bd74b4f76f9417671082f63ae6e626fb85ebbd11b5a6dd87c486af1"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "sha256": "c84d378ae74e8a078661ee3d3eefd2387be125cb580091004cb06da9bcda77f2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_7704.log",
+      "sha256": "126b9850b9446cdc3b3732800356d4aa4e95a130a0be94fb1a2d53f4debc78b6"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "4f718e7088c20868d8bdf65ed8e9125abcf4ed921684e9145df3f004d3e92a06"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "sha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "sha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "sha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256": "626a83ac3449104102c6100ec0a494e972cdef3521d9117a7c0f75c6da97fc72"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "sha256": "c2d2f5e1963760dbb356fcccf3dfc33a42d5b9332e02a7d73f6bd8f3de4dc297"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "sha256": "4791e7ef1b750af6cbca2c024dce2573a2bf07e83fe082613bec317198cee759"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "sha256": "c140449fd81c9897ff1f380b4b7119fb58be1d83292852ba9cf1f3d7f3db469d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "sha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "sha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "sha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "sha256": "59fd5b938dc866ad1676223fc4cadb38645407a45504f4343944a3e906b4d91a"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "sha256": "6e0ed5136ca045f6a705fbdde33aaf5642cc705ad905443725914f99e57c9031"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_7704.log",
+      "sha256": "03fc54fff903111e62423165f4478c96850f8f1badc5b6e32db01b00a67ab19f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "7dba18a90e4d45a7d5c3a5db6bf0037eb668518885dab4b412e3f3d3ca4e6954"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571"
+    }
+  ],
+  "sourceFilesUnchanged": true,
+  "branches": {
+    "CAD": {
+      "projectPath": "D:\\TCC\\outputs\\44-H03-R130-CAD-W15-LAJE-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "savedProjectSha256": "ccca81926565fe7e65c4d73724808ff0cbb9189ed4e8952cf5bd60c7cf4f8754",
+      "readbackPreservedProjectBytes": true,
+      "sourceR116Sha256": "7aa6766c18ddf61254be0ffdbbdc69823bdecd4fadf5ffb2ef54e96c42d411c3",
+      "extraLoadNativeKNm": 4.695,
+      "wallLoadNativeKNm": 0,
+      "actionVisualReading": {
+        "Adicional": 4.7,
+        "Solo": 0,
+        "Acidental": 0,
+        "Agua": 0,
+        "Subpressao": 0,
+        "Q_TELHADO_MANUTENCAO": 0,
+        "method": "Leitura visual da grade antes de salvar, com duas casas; total exato da linha relido após reabrir."
+      },
+      "nativeReadbackFile": "CAD-W15-reaberto-UI.txt",
+      "drawingFile": "CAD-N1-W15-reaberto.dxf",
+      "drawingSha256": "3183d593db35aa34f41700603fbb090052e091140103f747952d2dd992e83681",
+      "drawing": {
+        "startRaw": [
+          "9.0",
+          "9.9",
+          "0.0"
+        ],
+        "endRaw": [
+          "10.9",
+          "9.9",
+          "0.0"
+        ],
+        "label": "4.70",
+        "lineHandle": "21D",
+        "startModelXYCm": [
+          450.0,
+          495.0
+        ],
+        "endModelXYCm": [
+          545.0,
+          495.0
+        ],
+        "lengthM": 0.95,
+        "plotScale": 50,
+        "rawUnitPerModelCm": 0.02,
+        "anchorToleranceRawUnits": 1e-09,
+        "anchorModelXYCm": [
+          [
+            0,
+            0
+          ],
+          [
+            440,
+            705
+          ],
+          [
+            965,
+            390
+          ]
+        ],
+        "checkedAnchors": 3,
+        "rawZIsDrawingPlaneNotBuildingLevel": true,
+        "analyticalLoadDistributionVerified": false
+      },
+      "timing": {
+        "inicio_utc": "2026-11-01T18:37:10.267Z",
+        "fim_utc": "2026-11-01T18:45:59.020Z",
+        "duracao_ms": 528753.6504999995,
+        "escopo": "Lancamento exploratorio W15, releituras, salvar/reabrir e exportar DXF; inclui pesquisa e capturas. Nao e tempo puro nem ranking."
+      }
+    },
+    "BIM": {
+      "projectPath": "D:\\TCC\\outputs\\45-H03-R130-BIM-W15-LAJE-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "savedProjectSha256": "571e3424955a3af29a19a5718bd525e0bee7198932f1ebcb6f59619edc4d356e",
+      "readbackPreservedProjectBytes": true,
+      "sourceR116Sha256": "626a83ac3449104102c6100ec0a494e972cdef3521d9117a7c0f75c6da97fc72",
+      "extraLoadNativeKNm": 4.695,
+      "wallLoadNativeKNm": 0,
+      "actionVisualReading": {
+        "Adicional": 4.7,
+        "Solo": 0,
+        "Acidental": 0,
+        "Agua": 0,
+        "Subpressao": 0,
+        "Q_TELHADO_MANUTENCAO": 0,
+        "method": "Leitura visual da grade antes de salvar, com duas casas; total exato da linha relido após reabrir."
+      },
+      "nativeReadbackFile": "BIM-W15-reaberto-UI.txt",
+      "drawingFile": "BIM-N1-W15-reaberto.dxf",
+      "drawingSha256": "cab2539fbbd8805d3d3309628e4e4bb275edc3d93e04b4b069b5160b87bd7ea4",
+      "drawing": {
+        "startRaw": [
+          "9.0",
+          "9.9",
+          "0.0"
+        ],
+        "endRaw": [
+          "10.9",
+          "9.9",
+          "0.0"
+        ],
+        "label": "4.70",
+        "lineHandle": "1D6",
+        "startModelXYCm": [
+          450.0,
+          495.0
+        ],
+        "endModelXYCm": [
+          545.0,
+          495.0
+        ],
+        "lengthM": 0.95,
+        "plotScale": 50,
+        "rawUnitPerModelCm": 0.02,
+        "anchorToleranceRawUnits": 1e-09,
+        "anchorModelXYCm": [
+          [
+            0,
+            0
+          ],
+          [
+            440,
+            705
+          ],
+          [
+            965,
+            390
+          ]
+        ],
+        "checkedAnchors": 3,
+        "rawZIsDrawingPlaneNotBuildingLevel": true,
+        "analyticalLoadDistributionVerified": false
+      },
+      "timing": {
+        "inicio_utc": "2026-11-01T18:45:59.021Z",
+        "fim_utc": "2026-11-01T18:54:43.494Z",
+        "duracao_ms": 524473.5335000008,
+        "escopo": "Lancamento W15, salvar/reabrir, releitura e exportacao DXF. Sessao exploratoria com capturas; nao e tempo puro nem ranking."
+      }
+    }
+  },
+  "pairedExtraAndWallLoadsEqual": true,
+  "pairedDrawingEndpointsEqual": true,
+  "nativeInputPersistenceVerified": true,
+  "graphicalExtentVerified": true,
+  "loadsAppliedInExperimentalCopies": true,
+  "processingPerformed": false,
+  "analyticalLoadDistributionVerified": false,
+  "structuralApproval": false,
+  "finalWallLoadSetCompleted": false,
+  "finalProductivityRankingAllowed": false,
+  "monographEdited": false,
+  "authorshipRVTorDWGEdited": false,
+  "technicalSource": "https://suporte.altoqi.com.br/hc/pt-br/articles/360058309854",
+  "nextStep": "Conferir reação/distribuição da W15 em análise isolada dos dois ramos; resolver demais paredes e ações antes de ELU/ELS completo."
+}

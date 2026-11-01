@@ -1,0 +1,187 @@
+Window: "AltoQi Eberick 2025 Infinity - [44-H03-R130-CAD-W15-LAJE-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [44-H03-R130-CAD-W15-LAJE-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		36621 diálogo (disabled) Carga linear Secondary Actions: Raise
+			36799 diálogo Parede Secondary Actions: Raise
+				36800 text Nível
+				36801 caixa de combinação (settable, string) Nível Value: CR-Paredes ID: 201
+					36802 text (settable, string) Nível Value: CR-Paredes
+					36803 botão Abrir ID: DropDown
+				36804 text Cor
+				36805 caixa de combinação (settable, string) Cor Value: ???? ID: 202
+					36806 text (settable, string) Cor Value: ????
+					36807 botão Abrir ID: DropDown
+				36808 text Tipo de linha
+				36809 caixa de combinação (settable, string) Tipo de linha Value:  ID: 203
+					36810 text (settable, string) Tipo de linha Value: 
+					36811 botão Abrir ID: DropDown
+				36812 text Altura do texto
+				36813 editar (disabled, settable, string) Altura do texto Value: 6 ID: 204
+				36814 text pts
+				36815 text Cor do texto
+				36816 caixa de combinação (settable, string) Cor do texto Value: ???? ID: 205
+					36817 text (settable, string) Cor do texto Value: ????
+					36818 botão Abrir ID: DropDown
+				36819 botão OK ID: 1
+				36820 botão Cancelar ID: 2
+				36821 botão Ajuda ID: 9
+				36822 barra de título (settable, string) Value: Parede
+			36622 grupo Cargas
+			36623 text Carga de parede
+			36624 text 0.00 kN/m ID: 151
+			36625 botão Lançar... ID: 152
+			36626 botão Remover ID: 153
+			36627 text Carga extra
+			36628 editar (disabled, settable, string) Carga extra Value: 4.695 ID: 154
+			36629 text kN/m ID: 155
+			36630 botão Editar ID: 159
+			36631 botão Remover ID: 651
+			36632 botão OK ID: 1
+			36633 botão Cancelar ID: 2
+			36634 botão Desenho... ID: 160
+			36635 botão Ajuda ID: 9
+			36636 barra de título (settable, string) Value: Carga linear
+		30 Barra de status
+			36823 custom
+				36824 text Editar
+				36825 editar (settable, string)
+				36826 text 497.3,492.5
+				36827 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					36828 Lista
+						36829 item de lista (selectable) 1:1
+						36830 item de lista (selectable) 1:2
+						36831 item de lista (selectable) 1:5
+						36832 item de lista (selectable) 1:10
+						36833 item de lista (selectable) 1:12.5
+						36834 item de lista (selectable) 1:15
+						36835 item de lista (selectable) 1:20
+						36836 item de lista (selectable) 1:25
+						36837 item de lista (selectable) 1:30
+						36838 item de lista (selectable) 1:40
+						36839 item de lista (selectable) 1:50
+						36840 item de lista (selectable) 1:60
+						36841 item de lista (selectable) 1:75
+						36842 item de lista (selectable) 1:100
+						36843 item de lista (selectable) 1:200
+						36844 item de lista (selectable) 1:250
+						36845 item de lista (selectable) 1:500
+						36846 item de lista (selectable) 1:1000
+			36847 botão Atualizar
+			36848 botão Enquadrar
+			36849 botão Aproximar
+			36850 botão Afastar
+			36851 botão Zoom
+			36852 botão Zoom anterior
+			36853 botão Deslocar
+			36854 caixa de seleção Ortogonal
+			36855 caixa de seleção Captura personalizada
+			36856 botão Opções da captura personalizada
+			36857 caixa de seleção Quadrante
+			36858 caixa de seleção Centro
+			36859 caixa de seleção Ponto médio
+			36860 caixa de seleção Extremidade
+			36861 caixa de seleção Ponto no elemento
+			36862 caixa de seleção Intersecção
+			36863 caixa de seleção Perpendicular
+			36864 caixa de seleção Ponto intermediário
+			36865 caixa de seleção Ponto quadrante
+			36866 caixa de seleção Ponto na intersecção
+			36867 caixa de seleção Ponto relativo
+		31 painel
+			32 botão de divisão
+				33 elevador
+				34 painel
+					35 tabulação Croqui-N1
+						36868 item de tabulação (selectable) Notícias
+						36869 item de tabulação (selectable) Croqui-N1
+					37 painel
+						34538 painel
+							34539 painel Croqui-N1
+								34540 painel TCadPlotWindow
+				60 painel
+					61 tabulação
+						36870 item de tabulação (selectable)
+						36871 item de tabulação (selectable)
+					63 painel
+						64 janela Edificação Secondary Actions: Raise
+							65 painel
+								66 painel Projeto
+									67 painel
+									34472 árvore ID: 101
+										34473 item da árvore (selectable, disabled) Pavimentos
+											34474 item da árvore (selectable, disabled) N2
+											34475 item da árvore (selectable, disabled) N1
+											34476 item da árvore (selectable, disabled) N0
+										34477 item da árvore (selectable, disabled) Pilares em prumada
+										34478 item da árvore (selectable, disabled) Cortes
+										34479 item da árvore (selectable, disabled) Gerenciador de desenhos
+										34480 item da árvore (selectable, disabled) Modelos 3D
+		69 barra de menus
+		36799 diálogo Parede Secondary Actions: Raise
+			36800 text Nível
+			36801 caixa de combinação (settable, string) Nível Value: CR-Paredes ID: 201
+				36802 text (settable, string) Nível Value: CR-Paredes
+				36803 botão Abrir ID: DropDown
+			36804 text Cor
+			36805 caixa de combinação (settable, string) Cor Value: ???? ID: 202
+				36806 text (settable, string) Cor Value: ????
+				36807 botão Abrir ID: DropDown
+			36808 text Tipo de linha
+			36809 caixa de combinação (settable, string) Tipo de linha Value:  ID: 203
+				36810 text (settable, string) Tipo de linha Value: 
+				36811 botão Abrir ID: DropDown
+			36812 text Altura do texto
+			36813 editar (disabled, settable, string) Altura do texto Value: 6 ID: 204
+			36814 text pts
+			36815 text Cor do texto
+			36816 caixa de combinação (settable, string) Cor do texto Value: ???? ID: 205
+				36817 text (settable, string) Cor do texto Value: ????
+				36818 botão Abrir ID: DropDown
+			36819 botão OK ID: 1
+			36820 botão Cancelar ID: 2
+			36821 botão Ajuda ID: 9
+			36822 barra de título (settable, string) Value: Parede
+		36621 diálogo (disabled) Carga linear Secondary Actions: Raise
+			36799 diálogo Parede Secondary Actions: Raise
+				36800 text Nível
+				36801 caixa de combinação (settable, string) Nível Value: CR-Paredes ID: 201
+					36802 text (settable, string) Nível Value: CR-Paredes
+					36803 botão Abrir ID: DropDown
+				36804 text Cor
+				36805 caixa de combinação (settable, string) Cor Value: ???? ID: 202
+					36806 text (settable, string) Cor Value: ????
+					36807 botão Abrir ID: DropDown
+				36808 text Tipo de linha
+				36809 caixa de combinação (settable, string) Tipo de linha Value:  ID: 203
+					36810 text (settable, string) Tipo de linha Value: 
+					36811 botão Abrir ID: DropDown
+				36812 text Altura do texto
+				36813 editar (disabled, settable, string) Altura do texto Value: 6 ID: 204
+				36814 text pts
+				36815 text Cor do texto
+				36816 caixa de combinação (settable, string) Cor do texto Value: ???? ID: 205
+					36817 text (settable, string) Cor do texto Value: ????
+					36818 botão Abrir ID: DropDown
+				36819 botão OK ID: 1
+				36820 botão Cancelar ID: 2
+				36821 botão Ajuda ID: 9
+				36822 barra de título (settable, string) Value: Parede
+			36622 grupo Cargas
+			36623 text Carga de parede
+			36624 text 0.00 kN/m ID: 151
+			36625 botão Lançar... ID: 152
+			36626 botão Remover ID: 153
+			36627 text Carga extra
+			36628 editar (disabled, settable, string) Carga extra Value: 4.695 ID: 154
+			36629 text kN/m ID: 155
+			36630 botão Editar ID: 159
+			36631 botão Remover ID: 651
+			36632 botão OK ID: 1
+			36633 botão Cancelar ID: 2
+			36634 botão Desenho... ID: 160
+			36635 botão Ajuda ID: 9
+			36636 barra de título (settable, string) Value: Carga linear
+
+Document text: ```
+Editar
+497.3,492.5
+```

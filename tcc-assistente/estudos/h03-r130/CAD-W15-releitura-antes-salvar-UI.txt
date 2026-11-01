@@ -1,0 +1,99 @@
+Window: "AltoQi Eberick 2025 Infinity - [44-H03-R130-CAD-W15-LAJE-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [44-H03-R130-CAD-W15-LAJE-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		30 Barra de status
+			36572 custom
+				36573 text Comando
+				36574 editar (settable, string)
+				36575 text 1275.7,307.0
+				36576 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					36577 Lista
+						36578 item de lista (selectable) 1:1
+						36579 item de lista (selectable) 1:2
+						36580 item de lista (selectable) 1:5
+						36581 item de lista (selectable) 1:10
+						36582 item de lista (selectable) 1:12.5
+						36583 item de lista (selectable) 1:15
+						36584 item de lista (selectable) 1:20
+						36585 item de lista (selectable) 1:25
+						36586 item de lista (selectable) 1:30
+						36587 item de lista (selectable) 1:40
+						36588 item de lista (selectable) 1:50
+						36589 item de lista (selectable) 1:60
+						36590 item de lista (selectable) 1:75
+						36591 item de lista (selectable) 1:100
+						36592 item de lista (selectable) 1:200
+						36593 item de lista (selectable) 1:250
+						36594 item de lista (selectable) 1:500
+						36595 item de lista (selectable) 1:1000
+			36596 botão Atualizar
+			36597 botão Enquadrar
+			36598 botão Aproximar
+			36599 botão Afastar
+			36600 botão Zoom
+			36601 botão Zoom anterior
+			36602 botão Deslocar
+			36603 caixa de seleção Ortogonal
+			36604 caixa de seleção Captura personalizada
+			36605 botão Opções da captura personalizada
+			36606 caixa de seleção Quadrante
+			36607 caixa de seleção Centro
+			36608 caixa de seleção Ponto médio
+			36609 caixa de seleção Extremidade
+			36610 caixa de seleção Ponto no elemento
+			36611 caixa de seleção Intersecção
+			36612 caixa de seleção Perpendicular
+			36613 caixa de seleção Ponto intermediário
+			36614 caixa de seleção Ponto quadrante
+			36615 caixa de seleção Ponto na intersecção
+			36616 caixa de seleção Ponto relativo
+		31 painel
+			32 botão de divisão
+				33 elevador
+				34 painel
+					35 tabulação Croqui-N1
+						36617 item de tabulação (selectable) Notícias
+						36618 item de tabulação (selectable) Croqui-N1
+					37 painel
+						34538 painel
+							34539 painel Croqui-N1
+								34540 painel TCadPlotWindow
+				60 painel
+					61 tabulação
+						36619 item de tabulação (selectable)
+						36620 item de tabulação (selectable)
+					63 painel
+						64 janela Edificação Secondary Actions: Raise
+							65 painel
+								66 painel Projeto
+									67 painel
+									34472 árvore ID: 101
+										34473 item da árvore (selectable) Pavimentos
+											34474 item da árvore (selectable) N2
+											34475 item da árvore (selectable) N1
+											34476 item da árvore (selectable) N0
+										34477 item da árvore (selectable) Pilares em prumada
+										34478 item da árvore (selectable) Cortes
+										34479 item da árvore (selectable) Gerenciador de desenhos
+										34480 item da árvore (selectable) Modelos 3D
+		69 barra de menus
+		36621 diálogo Carga linear Secondary Actions: Raise
+			36622 grupo Cargas
+			36623 text Carga de parede
+			36624 text 0.00 kN/m ID: 151
+			36625 botão Lançar... ID: 152
+			36626 botão Remover ID: 153
+			36627 text Carga extra
+			36628 editar (disabled, settable, string) Carga extra Value: 4.695 ID: 154
+			36629 text kN/m ID: 155
+			36630 botão Editar ID: 159
+			36631 botão Remover ID: 651
+			36632 botão OK ID: 1
+			36633 botão Cancelar ID: 2
+			36634 botão Desenho... ID: 160
+			36635 botão Ajuda ID: 9
+			36636 barra de título (settable, string) Value: Carga linear
+
+Document text: ```
+Comando
+1275.7,307.0
+```

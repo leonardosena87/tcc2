@@ -1,0 +1,83 @@
+Window: "AltoQi Eberick 2025 Infinity - [44-H03-R130-CAD-W15-LAJE-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [44-H03-R130-CAD-W15-LAJE-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		30 Barra de status
+			35347 custom
+				35348 text Parede-Ponto inicial
+				35349 editar (settable, string) Value: 450,495
+				35350 text 936.2,288.8
+				35351 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					35352 Lista
+						35353 item de lista (selectable) 1:1
+						35354 item de lista (selectable) 1:2
+						35355 item de lista (selectable) 1:5
+						35356 item de lista (selectable) 1:10
+						35357 item de lista (selectable) 1:12.5
+						35358 item de lista (selectable) 1:15
+						35359 item de lista (selectable) 1:20
+						35360 item de lista (selectable) 1:25
+						35361 item de lista (selectable) 1:30
+						35362 item de lista (selectable) 1:40
+						35363 item de lista (selectable) 1:50
+						35364 item de lista (selectable) 1:60
+						35365 item de lista (selectable) 1:75
+						35366 item de lista (selectable) 1:100
+						35367 item de lista (selectable) 1:200
+						35368 item de lista (selectable) 1:250
+						35369 item de lista (selectable) 1:500
+						35370 item de lista (selectable) 1:1000
+			35371 botão Atualizar
+			35372 botão Enquadrar
+			35373 botão Aproximar
+			35374 botão Afastar
+			35375 botão Zoom
+			35376 botão Zoom anterior
+			35377 botão Deslocar
+			35378 caixa de seleção Ortogonal
+			35379 caixa de seleção Captura personalizada
+			35380 botão Opções da captura personalizada
+			35381 caixa de seleção Quadrante
+			35382 caixa de seleção Centro
+			35383 caixa de seleção Ponto médio
+			35384 caixa de seleção Extremidade
+			35385 caixa de seleção Ponto no elemento
+			35386 caixa de seleção Intersecção
+			35387 caixa de seleção Perpendicular
+			35388 caixa de seleção Ponto intermediário
+			35389 caixa de seleção Ponto quadrante
+			35390 caixa de seleção Ponto na intersecção
+			35391 caixa de seleção Ponto relativo
+		31 painel
+			32 botão de divisão
+				33 elevador
+				34 painel
+					35 tabulação Croqui-N1
+						35392 item de tabulação (selectable) Notícias
+						35393 item de tabulação (selectable) Croqui-N1
+					37 painel
+						34538 painel
+							34539 painel Croqui-N1
+								34540 painel TCadPlotWindow
+				60 painel
+					61 tabulação
+						35394 item de tabulação (selectable)
+						35395 item de tabulação (selectable)
+					63 painel
+						64 janela Edificação Secondary Actions: Raise
+							65 painel
+								66 painel Projeto
+									67 painel
+									34472 árvore ID: 101
+										34473 item da árvore (selectable) Pavimentos
+											34474 item da árvore (selectable) N2
+											34475 item da árvore (selectable) N1
+											34476 item da árvore (selectable) N0
+										34477 item da árvore (selectable) Pilares em prumada
+										34478 item da árvore (selectable) Cortes
+										34479 item da árvore (selectable) Gerenciador de desenhos
+										34480 item da árvore (selectable) Modelos 3D
+		69 barra de menus
+
+Document text: ```
+Parede-Ponto final
+936.2,288.8
+```
