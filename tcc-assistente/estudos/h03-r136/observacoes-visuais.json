@@ -1,0 +1,72 @@
+{
+  "method": "Transcrição visual pela IA das imagens de resumo, não extração numérica da árvore de acessibilidade",
+  "reason": "Texto retornado no resumo ainda descreve o diálogo anterior; não usar para os totais.",
+  "branches": {
+    "CAD": {
+      "image": "CAD-resumo-analise-2.jpg",
+      "processedWithWarnings": true,
+      "verticalLoadsDisplayedTf": {
+        "PP": 75.69,
+        "G": 12.3,
+        "Q": 17.11,
+        "QT": 1.78,
+        "total": 106.88
+      },
+      "areaM2": 132.81,
+      "ratioKgfM2": 804.78,
+      "unusualLoadAreaWarning": true,
+      "horizontalMaxCm": {
+        "X+": 0.2,
+        "X-": 0.2,
+        "Y+": 0.2,
+        "Y-": 0.2
+      },
+      "relativeMax": {
+        "valueCm": 0.17,
+        "level": "N1",
+        "direction": "Y-"
+      },
+      "gammaZDisplayed": {
+        "X+": 1.1,
+        "X-": 1.08,
+        "Y+": 1.06,
+        "Y-": 1.05
+      },
+      "topFullValuesTranscribed": false,
+      "normativeApproval": false
+    },
+    "BIM": {
+      "image": "BIM-resumo-analise-2.jpg",
+      "processedWithWarnings": true,
+      "verticalLoadsDisplayedTf": {
+        "PP": 75.69,
+        "G": 12.3,
+        "Q": 17.11,
+        "QT": 1.78,
+        "total": 106.88
+      },
+      "areaM2": 132.81,
+      "ratioKgfM2": 804.78,
+      "unusualLoadAreaWarning": true,
+      "horizontalMaxCm": {
+        "X+": 0.2,
+        "X-": 0.2,
+        "Y+": 0.2,
+        "Y-": 0.2
+      },
+      "relativeMax": {
+        "valueCm": 0.17,
+        "level": "TCC-cdd31967-N1",
+        "direction": "Y+"
+      },
+      "gammaZDisplayed": {
+        "X+": 1.1,
+        "X-": 1.08,
+        "Y+": 1.06,
+        "Y-": 1.05
+      },
+      "topFullValuesTranscribed": false,
+      "normativeApproval": false
+    }
+  }
+}
