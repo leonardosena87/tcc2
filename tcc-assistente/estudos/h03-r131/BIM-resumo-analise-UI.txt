@@ -1,0 +1,152 @@
+Window: "AltoQi Eberick 2025 Infinity - [47-H03-R131-BIM-W15-ANALISE-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela (disabled) AltoQi Eberick 2025 Infinity - [47-H03-R131-BIM-W15-ANALISE-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+		45155 diálogo (disabled) Análise Estática Linear Secondary Actions: Raise
+			45200 diálogo Análise Estática Linear Secondary Actions: Raise
+				45201 tabulação ID: 634
+					45202 item de tabulação (selectable) Resultados
+				45203 botão OK ID: 1
+				45204 botão Imprimir... ID: 644
+				45205 botão Relatórios... ID: 631
+				45206 botão Diagnóstico... ID: 1347
+				45207 botão Ajuda ID: 9
+				45208 editar Value: Cargas verticais: Peso próprio = 75.69 tf Adicional = 11.00 tf Acidental = 17.11 tf Q_TELHADO_MANUTENCAO = 1.78 tf Total = 105.59 tf Área aproximada = 132.81 m² Relação = 795.01 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.20 cm (limite 0.42) X- = 0.20 cm (limite 0.42) Y+ = 0.20 cm (limite 0.42) Y- = 0.20 cm (limite 0.42) Deslocamento relativo máximo do centro de massa (Vento): TCC-cdd31967-N1 - Y+ = 0.17 cm (limite 0.35) Verificação de estabilidade (Gama-Z): X+ = 1.09 (limite 1.10) X- = 1.08 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+9.43%) Vento X+: 0.96 »» 1.10 (+14.67%) Vento X-: 0.96 »» 1.10 (+14.67%) Vento Y+: 1.06 »» 1.15 (+8.33%) Vento Y-: 1.06 »» 1.15 (+8.33%) Desaprumo X+: 0.10 »» 0.11 (+14.40%) Desaprumo X-: 0.10 »» 0.11 (+14.40%) Desaprumo Y+: 0.07 »» 0.07 (+8.13%) Desaprumo Y-: 0.07 »» 0.07 (+8.13%)
+					45209 barra de rolagem (settable, float) Vertical Value: 0 ID: NonClientVerticalScrollBar
+						45210 botão Uma linha acima ID: UpButton
+						45211 elevador Posição ID: ScrollbarThumb
+						45212 botão Uma página abaixo ID: DownPageButton
+						45213 botão Uma linha abaixo ID: DownButton
+				45214 barra de título (settable, string) Value: Análise Estática Linear
+			45156 grupo Processamento ID: 635
+			45157 text Processamento ID: 535
+			45158 text Construir modelo estrutural ID: 532
+			45159 text Construir modelo estrutural ID: 533
+			45160 text Calcular painéis de lajes ID: 531
+			45161 text Calcular painéis de lajes ID: 534
+			45162 text Processar pórtico espacial ID: 530
+			45163 text Processar etapas construtivas ID: 632
+			45164 text Dimensionar elementos estruturais ID: 633
+			45165 text Dimensionar elementos estruturais ID: 639
+			45166 text Calcular flechas nas lajes ID: 640
+			45167 text Calcular flechas nas lajes ID: 637
+			45168 text Calcular flechas no pórtico ID: 638
+			45169 grupo Calcular flechas no pórtico ID: 636
+			45170 text Estrutura processada com avisos ID: 529
+			45171 text Estrutura processada com avisos ID: 944
+			45173 botão Resultados ID: 924
+			45174 botão Ajuda ID: 9
+			45186 botão OK ID: 1
+			45175 painel %d%% ID: 105
+			45176 barra de título (settable, string) Value: Análise Estática Linear
+		30 Barra de status (disabled)
+		31 painel (disabled)
+			32 botão de divisão (disabled)
+				33 elevador (disabled)
+				34 painel (disabled)
+					35 tabulação (disabled) Notícias
+						45215 item de tabulação (selectable, disabled) Notícias
+					37 painel (disabled)
+						43791 painel (disabled)
+							43792 painel (disabled) status.altoqi.com.br
+								43793 painel (disabled)
+								43794 região status.altoqi.com.br - Conteúdo da Web
+									43795 região
+										43796 região
+										43797 região
+											43798 região
+												43799 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													43800 gráfico
+													43801 título Hum… Não consigo chegar a esta página
+													43802 text status.altoqi.com.br
+													43803 text se recusou a se conectar.
+													43804 text Tente:
+													43805 Lista
+														43806 item de lista •Verificando a conexão
+														43807 item de lista •Verificação de proxy e firewall
+															43808 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													43809 text ERR_CONNECTION_REFUSED
+													43810 botão Atualizar ID: reload-button
+													43811 text Microsoft Edge
+												43812 região
+				60 painel (disabled)
+					61 tabulação (disabled)
+						45216 item de tabulação (selectable, disabled)
+					63 painel (disabled)
+						64 janela (disabled) Edificação Secondary Actions: Raise
+							65 painel (disabled)
+								66 painel Projeto
+									67 painel
+									45108 árvore ID: 101
+										45189 item da árvore (selectable, disabled) Pavimentos
+											45190 item da árvore (selectable, disabled) TCC-cdd31967-N2
+											45191 item da árvore (selectable, disabled) TCC-cdd31967-N1
+											45192 item da árvore (selectable, disabled) TCC-cdd31967-N0
+										45193 item da árvore (selectable, disabled) Pilares em prumada
+										45194 item da árvore (selectable, disabled) Cortes
+										45195 item da árvore (selectable, disabled) Gerenciador de desenhos
+										45196 item da árvore (selectable, disabled) Modelos 3D
+											45197 item da árvore (selectable, disabled) H03-R44-geometria-nominal
+		69 barra de menus (disabled)
+		45200 diálogo Análise Estática Linear Secondary Actions: Raise
+			45201 tabulação ID: 634
+				45202 item de tabulação (selectable) Resultados
+			45203 botão OK ID: 1
+			45204 botão Imprimir... ID: 644
+			45205 botão Relatórios... ID: 631
+			45206 botão Diagnóstico... ID: 1347
+			45207 botão Ajuda ID: 9
+			45208 editar Value: Cargas verticais: Peso próprio = 75.69 tf Adicional = 11.00 tf Acidental = 17.11 tf Q_TELHADO_MANUTENCAO = 1.78 tf Total = 105.59 tf Área aproximada = 132.81 m² Relação = 795.01 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.20 cm (limite 0.42) X- = 0.20 cm (limite 0.42) Y+ = 0.20 cm (limite 0.42) Y- = 0.20 cm (limite 0.42) Deslocamento relativo máximo do centro de massa (Vento): TCC-cdd31967-N1 - Y+ = 0.17 cm (limite 0.35) Verificação de estabilidade (Gama-Z): X+ = 1.09 (limite 1.10) X- = 1.08 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+9.43%) Vento X+: 0.96 »» 1.10 (+14.67%) Vento X-: 0.96 »» 1.10 (+14.67%) Vento Y+: 1.06 »» 1.15 (+8.33%) Vento Y-: 1.06 »» 1.15 (+8.33%) Desaprumo X+: 0.10 »» 0.11 (+14.40%) Desaprumo X-: 0.10 »» 0.11 (+14.40%) Desaprumo Y+: 0.07 »» 0.07 (+8.13%) Desaprumo Y-: 0.07 »» 0.07 (+8.13%)
+				45209 barra de rolagem (settable, float) Vertical Value: 0 ID: NonClientVerticalScrollBar
+					45210 botão Uma linha acima ID: UpButton
+					45211 elevador Posição ID: ScrollbarThumb
+					45212 botão Uma página abaixo ID: DownPageButton
+					45213 botão Uma linha abaixo ID: DownButton
+			45214 barra de título (settable, string) Value: Análise Estática Linear
+		45155 diálogo (disabled) Análise Estática Linear Secondary Actions: Raise
+			45200 diálogo Análise Estática Linear Secondary Actions: Raise
+				45201 tabulação ID: 634
+					45202 item de tabulação (selectable) Resultados
+				45203 botão OK ID: 1
+				45204 botão Imprimir... ID: 644
+				45205 botão Relatórios... ID: 631
+				45206 botão Diagnóstico... ID: 1347
+				45207 botão Ajuda ID: 9
+				45208 editar Value: Cargas verticais: Peso próprio = 75.69 tf Adicional = 11.00 tf Acidental = 17.11 tf Q_TELHADO_MANUTENCAO = 1.78 tf Total = 105.59 tf Área aproximada = 132.81 m² Relação = 795.01 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.20 cm (limite 0.42) X- = 0.20 cm (limite 0.42) Y+ = 0.20 cm (limite 0.42) Y- = 0.20 cm (limite 0.42) Deslocamento relativo máximo do centro de massa (Vento): TCC-cdd31967-N1 - Y+ = 0.17 cm (limite 0.35) Verificação de estabilidade (Gama-Z): X+ = 1.09 (limite 1.10) X- = 1.08 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+9.43%) Vento X+: 0.96 »» 1.10 (+14.67%) Vento X-: 0.96 »» 1.10 (+14.67%) Vento Y+: 1.06 »» 1.15 (+8.33%) Vento Y-: 1.06 »» 1.15 (+8.33%) Desaprumo X+: 0.10 »» 0.11 (+14.40%) Desaprumo X-: 0.10 »» 0.11 (+14.40%) Desaprumo Y+: 0.07 »» 0.07 (+8.13%) Desaprumo Y-: 0.07 »» 0.07 (+8.13%)
+					45209 barra de rolagem (settable, float) Vertical Value: 0 ID: NonClientVerticalScrollBar
+						45210 botão Uma linha acima ID: UpButton
+						45211 elevador Posição ID: ScrollbarThumb
+						45212 botão Uma página abaixo ID: DownPageButton
+						45213 botão Uma linha abaixo ID: DownButton
+				45214 barra de título (settable, string) Value: Análise Estática Linear
+			45156 grupo Processamento ID: 635
+			45157 text Processamento ID: 535
+			45158 text Construir modelo estrutural ID: 532
+			45159 text Construir modelo estrutural ID: 533
+			45160 text Calcular painéis de lajes ID: 531
+			45161 text Calcular painéis de lajes ID: 534
+			45162 text Processar pórtico espacial ID: 530
+			45163 text Processar etapas construtivas ID: 632
+			45164 text Dimensionar elementos estruturais ID: 633
+			45165 text Dimensionar elementos estruturais ID: 639
+			45166 text Calcular flechas nas lajes ID: 640
+			45167 text Calcular flechas nas lajes ID: 637
+			45168 text Calcular flechas no pórtico ID: 638
+			45169 grupo Calcular flechas no pórtico ID: 636
+			45170 text Estrutura processada com avisos ID: 529
+			45171 text Estrutura processada com avisos ID: 944
+			45173 botão Resultados ID: 924
+			45174 botão Ajuda ID: 9
+			45186 botão OK ID: 1
+			45175 painel %d%% ID: 105
+			45176 barra de título (settable, string) Value: Análise Estática Linear
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```

@@ -1,0 +1,89 @@
+Window: "AltoQi Eberick 2025 Infinity - [46-H03-R131-CAD-W15-ANALISE-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [46-H03-R131-CAD-W15-ANALISE-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		30 Barra de status
+		31 painel
+			32 botão de divisão
+				33 elevador
+				34 painel
+					35 tabulação Notícias
+						44694 item de tabulação (selectable) Notícias
+					37 painel
+						43791 painel
+							43792 painel status.altoqi.com.br
+								43793 painel (disabled)
+								43794 região status.altoqi.com.br - Conteúdo da Web
+									43795 região
+										43796 região
+										43797 região
+											43798 região
+												43799 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													43800 gráfico
+													43801 título Hum… Não consigo chegar a esta página
+													43802 text status.altoqi.com.br
+													43803 text se recusou a se conectar.
+													43804 text Tente:
+													43805 Lista
+														43806 item de lista •Verificando a conexão
+														43807 item de lista •Verificação de proxy e firewall
+															43808 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													43809 text ERR_CONNECTION_REFUSED
+													43810 botão Atualizar ID: reload-button
+													43811 text Microsoft Edge
+												43812 região
+				60 painel
+					61 tabulação
+						44695 item de tabulação (selectable)
+					63 painel
+						64 janela Edificação Secondary Actions: Raise
+							65 painel
+								66 painel Projeto
+									67 painel
+									44663 árvore ID: 101
+										44664 item da árvore (selectable) Pavimentos
+											44665 item da árvore (selectable) N2
+											44666 item da árvore (selectable) N1
+											44667 item da árvore (selectable) N0
+										44668 item da árvore (selectable) Pilares em prumada
+										44669 item da árvore (selectable) Cortes
+										44670 item da árvore (selectable) Gerenciador de desenhos
+										44671 item da árvore (selectable) Modelos 3D
+		69 barra de menus
+		44696 diálogo Análise da estrutura Secondary Actions: Raise
+			44697 grupo Estado-limite último (ELU) ID: 101
+			44698 caixa de seleção (disabled) Análise estática linear ID: 102
+			44699 caixa de seleção (disabled) Verificação das etapas construtivas ID: 103
+			44700 caixa de seleção Dimensionamento dos elementos ID: 104
+			44701 caixa de seleção (disabled) Dimensionar apenas elementos selecionados ID: 105
+			44702 botão (disabled) ... ID: 106
+			44703 caixa de seleção Verificar limites de redistribuição em nós semirrígidos ID: 107
+			44704 grupo Estado-limite de deformações excessivas (ELS-DEF) ID: 108
+			44705 caixa de seleção Determinação dos deslocamentos do pórtico ID: 109
+			44706 botão de opção (selectable) Adotar rigidez configurada ID: 110
+			44707 botão de opção (selectable) Calcular rigidez fissurada ID: 111
+			44708 caixa de seleção Determinação dos deslocamentos das lajes ID: 112
+			44709 botão de opção (selectable, disabled) Adotar rigidez configurada ID: 113
+			44710 botão de opção (selectable, disabled) Calcular rigidez fissurada ID: 114
+			44711 caixa de seleção (disabled) Verificar apenas pavimentos selecionados ID: 115
+			44712 botão (disabled) ... ID: 116
+			44713 grupo Estado-limite de vibrações excessivas (ELS-VE) ID: 117
+			44714 caixa de seleção Análise dinâmica do pórtico ID: 118
+			44715 caixa de seleção Análise dinâmica das lajes ID: 119
+			44716 caixa de seleção (disabled) Verificar apenas pavimentos selecionados ID: 120
+			44717 botão (disabled) ... ID: 121
+			44718 botão OK ID: 1
+			44719 botão Cancelar ID: 2
+			44720 botão Configurar... ID: 122
+			44721 botão Ajuda ID: 9
+			44722 barra de título (settable, string) Value: Análise da estrutura
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```
