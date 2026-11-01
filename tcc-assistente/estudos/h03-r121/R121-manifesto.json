@@ -1,0 +1,278 @@
+{
+  "revision": "H03/R121",
+  "nativeBinariesRemainLocalOnly": true,
+  "publicFiles": [
+    {
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "arquivar.py",
+      "sha256": "8dd30f521ece72d379ad4815fc33d15db1a67b83dac01be97de8f4d1981ee59f"
+    },
+    {
+      "path": "BIM-prj-antes-consulta.json",
+      "sha256": "00d4d87c006ecc79bfaa9374f05b4e231713ab50b77d3d2ed458d80311a024e5"
+    },
+    {
+      "path": "BIM-processamento-escopo-UI.txt",
+      "sha256": "929f81691edc997e660640208b2d4c68c8cfc3ebe9c101cddcbe93ec5d88ad9c"
+    },
+    {
+      "path": "BIM-processamento-escopo.jpg",
+      "sha256": "25835439e5c0df1d2168005070592fd97f46b9f74c148abdd7f386394f53d97d"
+    },
+    {
+      "path": "BIM-processamento-estado-UI.txt",
+      "sha256": "c571eae0cea3c3af619cb43a765cd3a808e1be38456e2fc01e8dcb378b0d029b"
+    },
+    {
+      "path": "BIM-processamento-estado.jpg",
+      "sha256": "f8faa10a769837f170d295811defd62a41ce9d937fba1913a9bcec7ce068f2b7"
+    },
+    {
+      "path": "BIM-processamento-tempo.json",
+      "sha256": "3e21310a0938160e399d69285df8243a5642050aebbfe68a6d36e63f4d71c7e6"
+    },
+    {
+      "path": "BIM-resumo-analise-UI.txt",
+      "sha256": "a7324bde36a520a35258ee00d92c2b660626e47e0d5d6b145ac4938983986669"
+    },
+    {
+      "path": "BIM-resumo-analise.jpg",
+      "sha256": "c386f546b619b376ce0c01a7304194a14e10a93d8194695400dac6cb0f0da89c"
+    },
+    {
+      "path": "BIM-sessao-tempo.json",
+      "sha256": "bee0fb82c757f469c490562e4a4d661759de9abf8ca0d11f9a912a36cabc8610"
+    },
+    {
+      "path": "BIM-V1-antes-UI.txt",
+      "sha256": "c6bf1bd1505f99d59c4c186aeeb31135e132b79c03047af24a2b7d3d71d43482"
+    },
+    {
+      "path": "BIM-V1-antes.jpg",
+      "sha256": "4e16dacfa7771dd1a58b13f50a7934adb68cf8831fd8593c5b7b623b1889eb9e"
+    },
+    {
+      "path": "BIM-V1-extra-antes-UI.txt",
+      "sha256": "183819201ed5a25867ece629b5f3fcafd7aef80882b3ab441dc015a56e1b0862"
+    },
+    {
+      "path": "BIM-V1-extra-antes.jpg",
+      "sha256": "e41c9c30715bd586ad76ef83dc8de43cd37a1299ff363ee65296408b5826bef9"
+    },
+    {
+      "path": "BIM-V1-extra-entrada-4p4446-UI.txt",
+      "sha256": "83d729082d6db0b3a3ecc5cc6cdb4dd3d7da6806e4b74fee3891a941aaa004e8"
+    },
+    {
+      "path": "BIM-V1-extra-entrada-4p4446.jpg",
+      "sha256": "2b0b70f1ef751c2855fce0a33d8b22c4a9961d2d2b2dc82f83e00ac383b69289"
+    },
+    {
+      "path": "BIM-V1-extra-reaberto-edicao-4p44-UI.txt",
+      "sha256": "05aa9aa3ac8d3f890f55c02d944abec87a91127bc7a696713e2a130e7d936403"
+    },
+    {
+      "path": "BIM-V1-extra-reaberto-edicao-4p44.jpg",
+      "sha256": "1cc69cb0b262a51dca63d79a10458f2c70bad82234eef6e2c310705c5a55f78d"
+    },
+    {
+      "path": "BIM-V1-extra-reaberto-UI.txt",
+      "sha256": "2dcbe5c8a12c142bc1a9d6b29aba27b54b9a1546190ae937410a895587b548ae"
+    },
+    {
+      "path": "BIM-V1-extra-reaberto.jpg",
+      "sha256": "dbb952895f5a87f1086bd9520432c41ff20707266abc551bc97a48a0fe766069"
+    },
+    {
+      "path": "BIM-V1-extra-resumo-PRE-SALVAR-UI.txt",
+      "sha256": "580b10fbcf1a7be1424e0d59b90d7aa056a433ecf8ef62e5da6e00aa85cdd620"
+    },
+    {
+      "path": "BIM-V1-extra-resumo-PRE-SALVAR.jpg",
+      "sha256": "2390c7e62fd6cf96747d429291e162ab911f10588990d17265d46b214e598542"
+    },
+    {
+      "path": "BIM-V1-planta-com-carga-UI.txt",
+      "sha256": "ada87b0e2246f8de8e893a2820244a37138a6141464030efc13661826d8b8b58"
+    },
+    {
+      "path": "BIM-V1-planta-com-carga.jpg",
+      "sha256": "71968b7ce8846e49daa54c4f18bf689c0cf1dcf5db2f9149596d764037540160"
+    },
+    {
+      "path": "BIM-V1-reaberto-UI.txt",
+      "sha256": "b43eb5281d27fe238fbe2c64bc77b496c63192fbb53cb6676aa53eeae32fdeaf"
+    },
+    {
+      "path": "BIM-V1-reaberto.jpg",
+      "sha256": "d5786593da8650274a4331de7ee8e57be97286ef856d000de499216e505beb57"
+    },
+    {
+      "path": "CAD-N1-localizacao-inicial-UI.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CAD-N1-localizacao-inicial.jpg",
+      "sha256": "5b45c1c35ce4461d621ef4503518940774fb72180f50fff1adc705336d7a77fe"
+    },
+    {
+      "path": "CAD-no-inicial-aviso-JA-EXISTE-UI.txt",
+      "sha256": "24fa02105ab0593b1c801d3650b490d3b04a9156bc36c0eb70efdf241211a11c"
+    },
+    {
+      "path": "CAD-no-inicial-aviso-JA-EXISTE.jpg",
+      "sha256": "96014d841491954c7380a5b8880179cd11f7ccee401f9074d2f4ca78c8f829b0"
+    },
+    {
+      "path": "CAD-no-inicial-coordenada-ANTES-CONFIRMAR-UI.txt",
+      "sha256": "075b7c36245edca37dd9f21e6e8fe959cc6399a0bca6509f968f0a3b3b865f42"
+    },
+    {
+      "path": "CAD-no-inicial-coordenada-ANTES-CONFIRMAR.jpg",
+      "sha256": "d98c529a7387508d9e5b04b2b4a90ab84ca2310ff27f75cc17102c9b41894454"
+    },
+    {
+      "path": "CAD-parede-dialogo-default-NAO-APLICADO-UI.txt",
+      "sha256": "0a1329b41765e5e7dfe19c7e5a407cebe524784608ffb04b3b67c9bd30e36602"
+    },
+    {
+      "path": "CAD-parede-dialogo-default-NAO-APLICADO.jpg",
+      "sha256": "11d23396b401fee5cc3431eae7a360e5d5124a88f83e68fbbbf79b33b9cb059e"
+    },
+    {
+      "path": "CAD-prj-antes-consulta.json",
+      "sha256": "a34397ad38747149c6d2ac40d8af4336ad7bda096c7e6e2358bdba15761560c4"
+    },
+    {
+      "path": "CAD-processamento-escopo-UI.txt",
+      "sha256": "dd4ed9e1963dd2b5f6412de465312759482ffbcc04d9f017b5f97c0b520eb0dc"
+    },
+    {
+      "path": "CAD-processamento-escopo.jpg",
+      "sha256": "0897260f3fba45a686c610ace180bbcac65293cf54c333e4c93502596a7a52a7"
+    },
+    {
+      "path": "CAD-processamento-estado-UI.txt",
+      "sha256": "a880b480e94603b13b6b9330d721b50b587feda7cdc469d15e6f259ef2aff52d"
+    },
+    {
+      "path": "CAD-processamento-estado.jpg",
+      "sha256": "a16b4fcde263ff1cca44101ddaff0756b130deb9dbaee419880120b4b2e42d47"
+    },
+    {
+      "path": "CAD-processamento-tempo.json",
+      "sha256": "90a691cf77305caa4c588ab880bf534b9cb518db5b99f6dae061131f49d8e455"
+    },
+    {
+      "path": "CAD-resumo-analise-UI.txt",
+      "sha256": "443d2c54ccd097ea18f729388d6dd0e0f5ca8be3bfeceec82c4368934864ad66"
+    },
+    {
+      "path": "CAD-resumo-analise.jpg",
+      "sha256": "c3da240fd1e72a508b22a0336a7a768d08436b8c3b27a81c172698f842db667d"
+    },
+    {
+      "path": "CAD-sessao-tempo.json",
+      "sha256": "8b8861f5174595da039a56ce8da9a8e353b5985e424df2954faa8cc88676dd8a"
+    },
+    {
+      "path": "CAD-V3-antes-UI.txt",
+      "sha256": "c38587f62cc4ce22e99d6d12132d480b1a8ebff382863e7424eac4a681ff490e"
+    },
+    {
+      "path": "CAD-V3-antes.jpg",
+      "sha256": "3f6e4670c1755509a26179806753131343c08ddda5a9e39a90c046a26f89b298"
+    },
+    {
+      "path": "CAD-V3-extra-antes-UI.txt",
+      "sha256": "af959449916c30dd827a07f1b3a21d615ef75a5f720333dfda217e6ab8bd5292"
+    },
+    {
+      "path": "CAD-V3-extra-antes.jpg",
+      "sha256": "9dae98631626d8b752c78380d722a017825e905c4dd5ccf1e45d2cb4c3e3a123"
+    },
+    {
+      "path": "CAD-V3-extra-entrada-4p4446-UI.txt",
+      "sha256": "2e08f620388301c6b8cf5ec9e12380fb68bcc4cc1f20d0b68d38acd3df95dbfb"
+    },
+    {
+      "path": "CAD-V3-extra-entrada-4p4446.jpg",
+      "sha256": "ed8f987e98403ddb2e0320c9c11a35b2166262fca26fa2e26df57cb9cf109639"
+    },
+    {
+      "path": "CAD-V3-extra-reaberto-edicao-4p44-UI.txt",
+      "sha256": "72eb354fe27bdc4876a06cc09037921f3fbaf64914874113f82d75ce5e5c6cc5"
+    },
+    {
+      "path": "CAD-V3-extra-reaberto-edicao-4p44.jpg",
+      "sha256": "7f85fa0f41cda0a2a938e924105faa3a943a87f0b15c30b07d5e94291c23cd02"
+    },
+    {
+      "path": "CAD-V3-extra-reaberto-UI.txt",
+      "sha256": "ae2d11567a89539b714467e2109147617327b670ebd78701fe12b833d4bbf6ed"
+    },
+    {
+      "path": "CAD-V3-extra-reaberto.jpg",
+      "sha256": "02d81c973439240bffad1687d3346ad6288c11b97af578757001a4435f4d7228"
+    },
+    {
+      "path": "CAD-V3-extra-resumo-PRE-SALVAR-UI.txt",
+      "sha256": "f7cb582bbee271d90ee0999985f59a380a5550adc2d8f65c708ea867501f5211"
+    },
+    {
+      "path": "CAD-V3-extra-resumo-PRE-SALVAR.jpg",
+      "sha256": "c794a7b04efe750960672a281470f0af27e85cc74de89620638237205e2cf1a5"
+    },
+    {
+      "path": "CAD-V3-modelo-CONSULTA-UI.txt",
+      "sha256": "5dad2cff6b324b70e64b425b3c46752c46f60d6df7e52b3c8decb85e680f6a74"
+    },
+    {
+      "path": "CAD-V3-modelo-CONSULTA.jpg",
+      "sha256": "c4b33c89c9981d7397cf2df4277b5aefaa63dce55d17a1c01f0ce1d36e5e5dfc"
+    },
+    {
+      "path": "CAD-V3-planta-com-carga-UI.txt",
+      "sha256": "3cf593b335c083e514ea54c303ffef879347008e5cba7b8e691f827f0d1ce288"
+    },
+    {
+      "path": "CAD-V3-planta-com-carga.jpg",
+      "sha256": "63272a0a19c4e75257c825a0ef98b7cbab7870906b2c1d1099eb06fc481827fb"
+    },
+    {
+      "path": "CAD-V3-reaberto-UI.txt",
+      "sha256": "f52f0f2caebb8153dd85ad8f1f327ede6360da980199893f5654ff162779f656"
+    },
+    {
+      "path": "CAD-V3-reaberto.jpg",
+      "sha256": "7f83b2944a5ba0eb726fbf501f48914718d81d4ea8db4c32915a2004a01fdae7"
+    },
+    {
+      "path": "consolidar.py",
+      "sha256": "e24f341183c289d34c01f6c8a53392bd23f281b524e331dc51a9c8262b21ee4d"
+    },
+    {
+      "path": "LEIA-ME-R121.md",
+      "sha256": "32fc098db7ec575c5d30bc80f7b49a817ad131b182bd2e3ca7fdb07284fd6c07"
+    },
+    {
+      "path": "preparar.py",
+      "sha256": "42d401569ffff9fd2223a652f60995c45badda0fd1cf7ff9208076dbd8bd9f2f"
+    },
+    {
+      "path": "R102-preparacao.json",
+      "sha256": "9cf6fe38415287b0ca3670da08a0049455c08b866671d3b4e5668563ad4b98fe"
+    },
+    {
+      "path": "R121-resultado.json",
+      "sha256": "679f586df2c00ee10e4a00d239c9c0561a1e8b201b91f074a33f3085712eedab"
+    },
+    {
+      "path": "test_ensaio.py",
+      "sha256": "2a3f646dd411d1f546dab406406a27d0d69ab321ca2d62bf06e47d7a7ad70efe"
+    }
+  ]
+}

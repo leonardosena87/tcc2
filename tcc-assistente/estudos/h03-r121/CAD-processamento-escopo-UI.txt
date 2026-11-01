@@ -1,0 +1,110 @@
+Window: "AltoQi Eberick 2025 Infinity - [36-H03-R121-CAD-W03-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [36-H03-R121-CAD-W03-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		28 Barra de status
+			20972 custom
+				20973 text Comando
+				20974 editar (settable, string)
+				20975 text 919.6,126.5
+				20976 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					20977 Lista
+						20978 item de lista (selectable) 1:1
+						20979 item de lista (selectable) 1:2
+						20980 item de lista (selectable) 1:5
+						20981 item de lista (selectable) 1:10
+						20982 item de lista (selectable) 1:12.5
+						20983 item de lista (selectable) 1:15
+						20984 item de lista (selectable) 1:20
+						20985 item de lista (selectable) 1:25
+						20986 item de lista (selectable) 1:30
+						20987 item de lista (selectable) 1:40
+						20988 item de lista (selectable) 1:50
+						20989 item de lista (selectable) 1:60
+						20990 item de lista (selectable) 1:75
+						20991 item de lista (selectable) 1:100
+						20992 item de lista (selectable) 1:200
+						20993 item de lista (selectable) 1:250
+						20994 item de lista (selectable) 1:500
+						20995 item de lista (selectable) 1:1000
+			20996 botão Atualizar
+			20997 botão Enquadrar
+			20998 botão Aproximar
+			20999 botão Afastar
+			21000 botão Zoom
+			21001 botão Zoom anterior
+			21002 botão Deslocar
+			21003 caixa de seleção Ortogonal
+			21004 caixa de seleção Captura personalizada
+			21005 botão Opções da captura personalizada
+			21006 caixa de seleção Quadrante
+			21007 caixa de seleção Centro
+			21008 caixa de seleção Ponto médio
+			21009 caixa de seleção Extremidade
+			21010 caixa de seleção Ponto no elemento
+			21011 caixa de seleção Intersecção
+			21012 caixa de seleção Perpendicular
+			21013 caixa de seleção Ponto intermediário
+			21014 caixa de seleção Ponto quadrante
+			21015 caixa de seleção Ponto na intersecção
+			21016 caixa de seleção Ponto relativo
+		29 painel
+			30 botão de divisão
+				31 elevador
+				32 painel
+					33 tabulação Croqui-N1
+						21017 item de tabulação (selectable) Notícias
+						21018 item de tabulação (selectable) Croqui-N1
+					35 painel
+						15080 painel
+							15081 painel Croqui-N1
+								15082 painel TCadPlotWindow
+				58 painel
+					59 tabulação
+						21019 item de tabulação (selectable)
+						21020 item de tabulação (selectable)
+					61 painel
+						62 janela Edificação Secondary Actions: Raise
+							63 painel
+								64 painel Projeto
+									65 painel
+									15004 árvore ID: 101
+										15005 item da árvore (selectable) Pavimentos
+											15006 item da árvore (selectable) N2
+											15007 item da árvore (selectable) N1
+											15008 item da árvore (selectable) N0
+										15009 item da árvore (selectable) Pilares em prumada
+										15010 item da árvore (selectable) Cortes
+										15011 item da árvore (selectable) Gerenciador de desenhos
+										15012 item da árvore (selectable) Modelos 3D
+		74 barra de menus
+		21021 diálogo Análise da estrutura Secondary Actions: Raise
+			21022 grupo Estado-limite último (ELU) ID: 101
+			21023 caixa de seleção (disabled) Análise estática linear ID: 102
+			21024 caixa de seleção (disabled) Verificação das etapas construtivas ID: 103
+			21025 caixa de seleção Dimensionamento dos elementos ID: 104
+			21026 caixa de seleção (disabled) Dimensionar apenas elementos selecionados ID: 105
+			21027 botão (disabled) ... ID: 106
+			21028 caixa de seleção Verificar limites de redistribuição em nós semirrígidos ID: 107
+			21029 grupo Estado-limite de deformações excessivas (ELS-DEF) ID: 108
+			21030 caixa de seleção Determinação dos deslocamentos do pórtico ID: 109
+			21031 botão de opção (selectable) Adotar rigidez configurada ID: 110
+			21032 botão de opção (selectable) Calcular rigidez fissurada ID: 111
+			21033 caixa de seleção Determinação dos deslocamentos das lajes ID: 112
+			21034 botão de opção (selectable, disabled) Adotar rigidez configurada ID: 113
+			21035 botão de opção (selectable, disabled) Calcular rigidez fissurada ID: 114
+			21036 caixa de seleção (disabled) Verificar apenas pavimentos selecionados ID: 115
+			21037 botão (disabled) ... ID: 116
+			21038 grupo Estado-limite de vibrações excessivas (ELS-VE) ID: 117
+			21039 caixa de seleção Análise dinâmica do pórtico ID: 118
+			21040 caixa de seleção Análise dinâmica das lajes ID: 119
+			21041 caixa de seleção (disabled) Verificar apenas pavimentos selecionados ID: 120
+			21042 botão (disabled) ... ID: 121
+			21043 botão OK ID: 1
+			21044 botão Cancelar ID: 2
+			21045 botão Configurar... ID: 122
+			21046 botão Ajuda ID: 9
+			21047 barra de título (settable, string) Value: Análise da estrutura
+
+Document text: ```
+Comando
+919.6,126.5
+```

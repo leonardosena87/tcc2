@@ -1,0 +1,234 @@
+Window: "AltoQi Eberick 2025 Infinity - [36-H03-R121-CAD-W03-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [36-H03-R121-CAD-W03-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		23147 diálogo (disabled) Viga Secondary Actions: Raise
+			23249 diálogo Carga extra Secondary Actions: Raise
+				23250 botão OK ID: 1
+				23251 botão Cancelar ID: 2
+				23252 botão Ajuda ID: 9
+				23253 painel ID: 970
+					23254 painel
+					23255 painel
+					23256 painel
+					23257 barra de rolagem (settable, float) Value: 0
+						23258 botão Uma linha acima ID: UpButton
+						23259 botão Uma página acima ID: UpPageButton
+						23260 elevador Posição ID: ScrollbarThumb
+						23261 botão Uma página abaixo ID: DownPageButton
+						23262 botão Uma linha abaixo ID: DownButton
+				23263 barra de título (settable, string) Value: Carga extra
+			23148 grupo Dados da viga ID: 101
+			23149 text Nome ID: 102
+			23150 editar (settable, string) Nome Value: V3 ID: 801
+			23151 text Ambiente ID: 105
+			23152 caixa de combinação (settable, string) Ambiente Value: Externo ID: 828
+				23153 text (settable, string) Ambiente Value: Externo
+				23154 botão Abrir ID: DropDown
+			23155 botão Modelo... ID: 902
+			23156 grupo Seção do trecho ID: 201
+			23157 text Tipo ID: 202
+			23158 caixa de combinação (settable, string) Tipo Value: retangular ID: 809
+				23159 text (settable, string) Tipo Value: retangular
+				23160 botão Abrir ID: DropDown
+			23161 text bw ID: 203
+			23162 editar (settable, string) bw Value: 20 ID: 810
+			23163 text cm ID: 814
+			23164 text h ID: 204
+			23165 editar (settable, string) h Value: 45 ID: 811
+			23166 text cm ID: 815
+			23167 text bf ID: 205
+			23168 editar (disabled, settable, string) bf Value: 0 ID: 565
+			23169 text cm ID: 816
+			23170 text hf ID: 206
+			23171 editar (disabled, settable, string) hf Value: 0 ID: 566
+			23172 text cm ID: 817
+			23173 caixa de seleção Obter elevação para viga invertida ID: 941
+			23174 text Elevação ID: 207
+			23175 editar (settable, string) / Value: 0 ID: 507
+			23176 text cm ID: 506
+			23177 caixa de seleção Manter seção constante na viga ID: 550
+			23178 text ID: 818
+			23179 grupo Cargas no trecho ID: 301
+			23180 text Carga de parede ID: 302
+			23181 text 0.00 kN/m ID: 508
+			23182 text Carga extra ID: 303
+			23183 editar (disabled, settable, string) Carga extra Value: 4.44 ID: 564
+			23184 text kN/m ID: 567
+			23185 text Temperatura e retração ID: 1282
+			23186 editar (disabled, settable, string) Temperatura e retração Value: 0 ID: 1113
+			23187 text °C ID: 1114
+			23188 botão Lançar... ID: 510
+			23189 botão Remover ID: 509
+			23190 botão Editar... ID: 501
+			23191 botão Remover ID: 651
+			23192 botão Editar... ID: 1280
+			23193 botão Remover ID: 1281
+			23194 botão OK ID: 1
+			23195 botão Cancelar ID: 2
+			23196 botão Desenho... ID: 547
+			23197 botão Ajuda ID: 9
+			23198 text ID: 1115
+			23199 barra de título (settable, string) Value: Viga
+		28 Barra de status
+			23264 custom
+				23265 text Editar
+				23266 editar (settable, string)
+				23267 text 219.1,724.3
+				23268 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					23269 Lista
+						23270 item de lista (selectable) 1:1
+						23271 item de lista (selectable) 1:2
+						23272 item de lista (selectable) 1:5
+						23273 item de lista (selectable) 1:10
+						23274 item de lista (selectable) 1:12.5
+						23275 item de lista (selectable) 1:15
+						23276 item de lista (selectable) 1:20
+						23277 item de lista (selectable) 1:25
+						23278 item de lista (selectable) 1:30
+						23279 item de lista (selectable) 1:40
+						23280 item de lista (selectable) 1:50
+						23281 item de lista (selectable) 1:60
+						23282 item de lista (selectable) 1:75
+						23283 item de lista (selectable) 1:100
+						23284 item de lista (selectable) 1:200
+						23285 item de lista (selectable) 1:250
+						23286 item de lista (selectable) 1:500
+						23287 item de lista (selectable) 1:1000
+			23288 botão Atualizar
+			23289 botão Enquadrar
+			23290 botão Aproximar
+			23291 botão Afastar
+			23292 botão Zoom
+			23293 botão Zoom anterior
+			23294 botão Deslocar
+			23295 caixa de seleção Ortogonal
+			23296 caixa de seleção Captura personalizada
+			23297 botão Opções da captura personalizada
+			23298 caixa de seleção Quadrante
+			23299 caixa de seleção Centro
+			23300 caixa de seleção Ponto médio
+			23301 caixa de seleção Extremidade
+			23302 caixa de seleção Ponto no elemento
+			23303 caixa de seleção Intersecção
+			23304 caixa de seleção Perpendicular
+			23305 caixa de seleção Ponto intermediário
+			23306 caixa de seleção Ponto quadrante
+			23307 caixa de seleção Ponto na intersecção
+			23308 caixa de seleção Ponto relativo
+		29 painel
+			30 botão de divisão
+				31 elevador
+				32 painel
+					33 tabulação Croqui-N1
+						23309 item de tabulação (selectable) Notícias
+						23310 item de tabulação (selectable) Croqui-N1
+					35 painel
+						22652 painel
+							22653 painel Croqui-N1
+								22654 painel TCadPlotWindow
+				58 painel
+					59 tabulação
+						23311 item de tabulação (selectable)
+						23312 item de tabulação (selectable)
+					61 painel
+						62 janela Edificação Secondary Actions: Raise
+							63 painel
+								64 painel Projeto
+									65 painel
+									22564 árvore ID: 101
+										22565 item da árvore (selectable, disabled) Pavimentos
+											22566 item da árvore (selectable, disabled) N2
+											22567 item da árvore (selectable, disabled) N1
+											22568 item da árvore (selectable, disabled) N0
+										22569 item da árvore (selectable, disabled) Pilares em prumada
+										22570 item da árvore (selectable, disabled) Cortes
+										22571 item da árvore (selectable, disabled) Gerenciador de desenhos
+										22572 item da árvore (selectable, disabled) Modelos 3D
+		74 barra de menus
+		23249 diálogo Carga extra Secondary Actions: Raise
+			23250 botão OK ID: 1
+			23251 botão Cancelar ID: 2
+			23252 botão Ajuda ID: 9
+			23253 painel ID: 970
+				23254 painel
+				23255 painel
+				23256 painel
+				23257 barra de rolagem (settable, float) Value: 0
+					23258 botão Uma linha acima ID: UpButton
+					23259 botão Uma página acima ID: UpPageButton
+					23260 elevador Posição ID: ScrollbarThumb
+					23261 botão Uma página abaixo ID: DownPageButton
+					23262 botão Uma linha abaixo ID: DownButton
+			23263 barra de título (settable, string) Value: Carga extra
+		23147 diálogo (disabled) Viga Secondary Actions: Raise
+			23249 diálogo Carga extra Secondary Actions: Raise
+				23250 botão OK ID: 1
+				23251 botão Cancelar ID: 2
+				23252 botão Ajuda ID: 9
+				23253 painel ID: 970
+					23254 painel
+					23255 painel
+					23256 painel
+					23257 barra de rolagem (settable, float) Value: 0
+						23258 botão Uma linha acima ID: UpButton
+						23259 botão Uma página acima ID: UpPageButton
+						23260 elevador Posição ID: ScrollbarThumb
+						23261 botão Uma página abaixo ID: DownPageButton
+						23262 botão Uma linha abaixo ID: DownButton
+				23263 barra de título (settable, string) Value: Carga extra
+			23148 grupo Dados da viga ID: 101
+			23149 text Nome ID: 102
+			23150 editar (settable, string) Nome Value: V3 ID: 801
+			23151 text Ambiente ID: 105
+			23152 caixa de combinação (settable, string) Ambiente Value: Externo ID: 828
+				23153 text (settable, string) Ambiente Value: Externo
+				23154 botão Abrir ID: DropDown
+			23155 botão Modelo... ID: 902
+			23156 grupo Seção do trecho ID: 201
+			23157 text Tipo ID: 202
+			23158 caixa de combinação (settable, string) Tipo Value: retangular ID: 809
+				23159 text (settable, string) Tipo Value: retangular
+				23160 botão Abrir ID: DropDown
+			23161 text bw ID: 203
+			23162 editar (settable, string) bw Value: 20 ID: 810
+			23163 text cm ID: 814
+			23164 text h ID: 204
+			23165 editar (settable, string) h Value: 45 ID: 811
+			23166 text cm ID: 815
+			23167 text bf ID: 205
+			23168 editar (disabled, settable, string) bf Value: 0 ID: 565
+			23169 text cm ID: 816
+			23170 text hf ID: 206
+			23171 editar (disabled, settable, string) hf Value: 0 ID: 566
+			23172 text cm ID: 817
+			23173 caixa de seleção Obter elevação para viga invertida ID: 941
+			23174 text Elevação ID: 207
+			23175 editar (settable, string) / Value: 0 ID: 507
+			23176 text cm ID: 506
+			23177 caixa de seleção Manter seção constante na viga ID: 550
+			23178 text ID: 818
+			23179 grupo Cargas no trecho ID: 301
+			23180 text Carga de parede ID: 302
+			23181 text 0.00 kN/m ID: 508
+			23182 text Carga extra ID: 303
+			23183 editar (disabled, settable, string) Carga extra Value: 4.44 ID: 564
+			23184 text kN/m ID: 567
+			23185 text Temperatura e retração ID: 1282
+			23186 editar (disabled, settable, string) Temperatura e retração Value: 0 ID: 1113
+			23187 text °C ID: 1114
+			23188 botão Lançar... ID: 510
+			23189 botão Remover ID: 509
+			23190 botão Editar... ID: 501
+			23191 botão Remover ID: 651
+			23192 botão Editar... ID: 1280
+			23193 botão Remover ID: 1281
+			23194 botão OK ID: 1
+			23195 botão Cancelar ID: 2
+			23196 botão Desenho... ID: 547
+			23197 botão Ajuda ID: 9
+			23198 text ID: 1115
+			23199 barra de título (settable, string) Value: Viga
+
+Document text: ```
+Editar
+219.1,724.3
+```

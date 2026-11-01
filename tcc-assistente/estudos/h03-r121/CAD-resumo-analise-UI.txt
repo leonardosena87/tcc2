@@ -1,0 +1,172 @@
+Window: "AltoQi Eberick 2025 Infinity - [36-H03-R121-CAD-W03-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela (disabled) AltoQi Eberick 2025 Infinity - [36-H03-R121-CAD-W03-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		21097 diálogo (disabled) Análise Estática Linear Secondary Actions: Raise
+			21275 diálogo Análise Estática Linear Secondary Actions: Raise
+				21276 tabulação ID: 634
+					21277 item de tabulação (selectable) Resultados
+				21278 botão OK ID: 1
+				21279 botão Imprimir... ID: 644
+				21280 botão Relatórios... ID: 631
+				21281 botão Diagnóstico... ID: 1347
+				21282 botão Ajuda ID: 9
+				21283 editar Value: Cargas verticais: Peso próprio = 75.69 tf Adicional = 12.51 tf Acidental = 17.11 tf Q_TELHADO_MANUTENCAO = 1.78 tf Total = 107.09 tf Área aproximada = 132.81 m² Relação = 806.36 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.20 cm (limite 0.42) X- = 0.20 cm (limite 0.42) Y+ = 0.20 cm (limite 0.42) Y- = 0.20 cm (limite 0.42) Deslocamento relativo máximo do centro de massa (Vento): N1 - Y- = 0.17 cm (limite 0.35) Verificação de estabilidade (Gama-Z): X+ = 1.10 (limite 1.10) X- = 1.08 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+9.48%) Vento X+: 0.96 »» 1.11 (+14.92%) Vento X-: 0.96 »» 1.11 (+14.92%) Vento Y+: 1.06 »» 1.15 (+8.45%) Vento Y-: 1.06 »» 1.15 (+8.45%) Desaprumo X+: 0.10 »» 0.11 (+14.68%) Desaprumo X-: 0.10 »» 0.11 (+14.68%) Desaprumo Y+: 0.07 »» 0.07 (+8.26%) Desaprumo Y-: 0.07 »» 0.07 (+8.26%)
+					21284 barra de rolagem (settable, float) Vertical Value: 0 ID: NonClientVerticalScrollBar
+						21285 botão Uma linha acima ID: UpButton
+						21286 elevador Posição ID: ScrollbarThumb
+						21287 botão Uma página abaixo ID: DownPageButton
+						21288 botão Uma linha abaixo ID: DownButton
+				21289 barra de título (settable, string) Value: Análise Estática Linear
+			21098 grupo Processamento ID: 635
+			21099 text Processamento ID: 535
+			21100 text Construir modelo estrutural ID: 532
+			21101 text Construir modelo estrutural ID: 533
+			21102 text Calcular painéis de lajes ID: 531
+			21103 text Calcular painéis de lajes ID: 534
+			21104 text Processar pórtico espacial ID: 530
+			21105 text Processar etapas construtivas ID: 632
+			21106 text Dimensionar elementos estruturais ID: 633
+			21107 text Dimensionar elementos estruturais ID: 639
+			21108 text Calcular flechas nas lajes ID: 640
+			21109 text Calcular flechas nas lajes ID: 637
+			21110 text Calcular flechas no pórtico ID: 638
+			21111 grupo Calcular flechas no pórtico ID: 636
+			21112 text Estrutura processada com avisos ID: 529
+			21113 text Estrutura processada com avisos ID: 944
+			21115 botão Resultados ID: 924
+			21116 botão Ajuda ID: 9
+			21176 botão OK ID: 1
+			21117 painel %d%% ID: 105
+			21118 barra de título (settable, string) Value: Análise Estática Linear
+		28 Barra de status (disabled)
+			21290 custom (disabled)
+				21291 text (disabled) Comando
+				21292 editar (disabled, settable, string)
+				21293 text (disabled) 919.6,126.5
+				21294 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					21295 Lista
+						21296 item de lista (selectable) 1:1
+						21297 item de lista (selectable) 1:2
+						21298 item de lista (selectable) 1:5
+						21299 item de lista (selectable) 1:10
+						21300 item de lista (selectable) 1:12.5
+						21301 item de lista (selectable) 1:15
+						21302 item de lista (selectable) 1:20
+						21303 item de lista (selectable) 1:25
+						21304 item de lista (selectable) 1:30
+						21305 item de lista (selectable) 1:40
+						21306 item de lista (selectable) 1:50
+						21307 item de lista (selectable) 1:60
+						21308 item de lista (selectable) 1:75
+						21309 item de lista (selectable) 1:100
+						21310 item de lista (selectable) 1:200
+						21311 item de lista (selectable) 1:250
+						21312 item de lista (selectable) 1:500
+						21313 item de lista (selectable) 1:1000
+			21314 botão (disabled) Atualizar
+			21315 botão (disabled) Enquadrar
+			21316 botão (disabled) Aproximar
+			21317 botão (disabled) Afastar
+			21318 botão (disabled) Zoom
+			21319 botão (disabled) Zoom anterior
+			21320 botão (disabled) Deslocar
+			21321 caixa de seleção (disabled) Ortogonal
+			21322 caixa de seleção (disabled) Captura personalizada
+			21323 botão (disabled) Opções da captura personalizada
+			21324 caixa de seleção (disabled) Quadrante
+			21325 caixa de seleção (disabled) Centro
+			21326 caixa de seleção (disabled) Ponto médio
+			21327 caixa de seleção (disabled) Extremidade
+			21328 caixa de seleção (disabled) Ponto no elemento
+			21329 caixa de seleção (disabled) Intersecção
+			21330 caixa de seleção (disabled) Perpendicular
+			21331 caixa de seleção (disabled) Ponto intermediário
+			21332 caixa de seleção (disabled) Ponto quadrante
+			21333 caixa de seleção (disabled) Ponto na intersecção
+			21334 caixa de seleção (disabled) Ponto relativo
+		29 painel (disabled)
+			30 botão de divisão (disabled)
+				31 elevador (disabled)
+				32 painel (disabled)
+					33 tabulação (disabled) Croqui-N1
+						21335 item de tabulação (selectable, disabled) Notícias
+						21336 item de tabulação (selectable, disabled) Croqui-N1
+					35 painel (disabled)
+						15080 painel (disabled)
+							15081 painel Croqui-N1
+								15082 painel TCadPlotWindow
+				58 painel (disabled)
+					59 tabulação (disabled)
+						21337 item de tabulação (selectable, disabled)
+						21338 item de tabulação (selectable, disabled)
+					61 painel (disabled)
+						62 janela (disabled) Edificação Secondary Actions: Raise
+							63 painel (disabled)
+								64 painel Projeto
+									65 painel
+									15004 árvore ID: 101
+										21168 item da árvore (selectable, disabled) Pavimentos
+											21169 item da árvore (selectable, disabled) N2
+											21170 item da árvore (selectable, disabled) N1
+											21171 item da árvore (selectable, disabled) N0
+										21172 item da árvore (selectable, disabled) Pilares em prumada
+										21173 item da árvore (selectable, disabled) Cortes
+										21174 item da árvore (selectable, disabled) Gerenciador de desenhos
+										21175 item da árvore (selectable, disabled) Modelos 3D
+		74 barra de menus (disabled)
+		21275 diálogo Análise Estática Linear Secondary Actions: Raise
+			21276 tabulação ID: 634
+				21277 item de tabulação (selectable) Resultados
+			21278 botão OK ID: 1
+			21279 botão Imprimir... ID: 644
+			21280 botão Relatórios... ID: 631
+			21281 botão Diagnóstico... ID: 1347
+			21282 botão Ajuda ID: 9
+			21283 editar Value: Cargas verticais: Peso próprio = 75.69 tf Adicional = 12.51 tf Acidental = 17.11 tf Q_TELHADO_MANUTENCAO = 1.78 tf Total = 107.09 tf Área aproximada = 132.81 m² Relação = 806.36 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.20 cm (limite 0.42) X- = 0.20 cm (limite 0.42) Y+ = 0.20 cm (limite 0.42) Y- = 0.20 cm (limite 0.42) Deslocamento relativo máximo do centro de massa (Vento): N1 - Y- = 0.17 cm (limite 0.35) Verificação de estabilidade (Gama-Z): X+ = 1.10 (limite 1.10) X- = 1.08 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+9.48%) Vento X+: 0.96 »» 1.11 (+14.92%) Vento X-: 0.96 »» 1.11 (+14.92%) Vento Y+: 1.06 »» 1.15 (+8.45%) Vento Y-: 1.06 »» 1.15 (+8.45%) Desaprumo X+: 0.10 »» 0.11 (+14.68%) Desaprumo X-: 0.10 »» 0.11 (+14.68%) Desaprumo Y+: 0.07 »» 0.07 (+8.26%) Desaprumo Y-: 0.07 »» 0.07 (+8.26%)
+				21284 barra de rolagem (settable, float) Vertical Value: 0 ID: NonClientVerticalScrollBar
+					21285 botão Uma linha acima ID: UpButton
+					21286 elevador Posição ID: ScrollbarThumb
+					21287 botão Uma página abaixo ID: DownPageButton
+					21288 botão Uma linha abaixo ID: DownButton
+			21289 barra de título (settable, string) Value: Análise Estática Linear
+		21097 diálogo (disabled) Análise Estática Linear Secondary Actions: Raise
+			21275 diálogo Análise Estática Linear Secondary Actions: Raise
+				21276 tabulação ID: 634
+					21277 item de tabulação (selectable) Resultados
+				21278 botão OK ID: 1
+				21279 botão Imprimir... ID: 644
+				21280 botão Relatórios... ID: 631
+				21281 botão Diagnóstico... ID: 1347
+				21282 botão Ajuda ID: 9
+				21283 editar Value: Cargas verticais: Peso próprio = 75.69 tf Adicional = 12.51 tf Acidental = 17.11 tf Q_TELHADO_MANUTENCAO = 1.78 tf Total = 107.09 tf Área aproximada = 132.81 m² Relação = 806.36 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.20 cm (limite 0.42) X- = 0.20 cm (limite 0.42) Y+ = 0.20 cm (limite 0.42) Y- = 0.20 cm (limite 0.42) Deslocamento relativo máximo do centro de massa (Vento): N1 - Y- = 0.17 cm (limite 0.35) Verificação de estabilidade (Gama-Z): X+ = 1.10 (limite 1.10) X- = 1.08 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+9.48%) Vento X+: 0.96 »» 1.11 (+14.92%) Vento X-: 0.96 »» 1.11 (+14.92%) Vento Y+: 1.06 »» 1.15 (+8.45%) Vento Y-: 1.06 »» 1.15 (+8.45%) Desaprumo X+: 0.10 »» 0.11 (+14.68%) Desaprumo X-: 0.10 »» 0.11 (+14.68%) Desaprumo Y+: 0.07 »» 0.07 (+8.26%) Desaprumo Y-: 0.07 »» 0.07 (+8.26%)
+					21284 barra de rolagem (settable, float) Vertical Value: 0 ID: NonClientVerticalScrollBar
+						21285 botão Uma linha acima ID: UpButton
+						21286 elevador Posição ID: ScrollbarThumb
+						21287 botão Uma página abaixo ID: DownPageButton
+						21288 botão Uma linha abaixo ID: DownButton
+				21289 barra de título (settable, string) Value: Análise Estática Linear
+			21098 grupo Processamento ID: 635
+			21099 text Processamento ID: 535
+			21100 text Construir modelo estrutural ID: 532
+			21101 text Construir modelo estrutural ID: 533
+			21102 text Calcular painéis de lajes ID: 531
+			21103 text Calcular painéis de lajes ID: 534
+			21104 text Processar pórtico espacial ID: 530
+			21105 text Processar etapas construtivas ID: 632
+			21106 text Dimensionar elementos estruturais ID: 633
+			21107 text Dimensionar elementos estruturais ID: 639
+			21108 text Calcular flechas nas lajes ID: 640
+			21109 text Calcular flechas nas lajes ID: 637
+			21110 text Calcular flechas no pórtico ID: 638
+			21111 grupo Calcular flechas no pórtico ID: 636
+			21112 text Estrutura processada com avisos ID: 529
+			21113 text Estrutura processada com avisos ID: 944
+			21115 botão Resultados ID: 924
+			21116 botão Ajuda ID: 9
+			21176 botão OK ID: 1
+			21117 painel %d%% ID: 105
+			21118 barra de título (settable, string) Value: Análise Estática Linear
+
+Document text: ```
+Comando
+919.6,126.5
+```
