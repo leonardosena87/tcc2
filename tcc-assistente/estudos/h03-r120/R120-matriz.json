@@ -1,0 +1,5484 @@
+{
+  "segments": [
+    {
+      "wallId": "W01",
+      "fromM": 0,
+      "toM": 0.15,
+      "lengthM": 0.15,
+      "p1": [
+        0,
+        0
+      ],
+      "p2": [
+        0,
+        0.15
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P1"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S01",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-J1-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W01",
+      "fromM": 0.15,
+      "toM": 3.75,
+      "lengthM": 3.6,
+      "p1": [
+        0,
+        0.15
+      ],
+      "p2": [
+        0,
+        3.75
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V6"
+      ],
+      "lowerNativeNamesBIM": [
+        "V7"
+      ],
+      "upperNativeNames": [
+        "V6_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V5"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S02",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V6",
+          "guidR56": "0AyePMqoeHyOy801fzsd4G",
+          "minR56": [
+            -0.1,
+            0.15,
+            2.8
+          ],
+          "maxR56": [
+            0.1,
+            3.75,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V7",
+          "guidR56": "2MjmMGqlqHyOy801fzsd4G",
+          "minR56": [
+            -0.1,
+            0.15,
+            2.8
+          ],
+          "maxR56": [
+            0.1,
+            3.75,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 10.224,
+      "openingDeductions": [
+        {
+          "openingId": "S-J1-01",
+          "widthOverMasonryM": 1.6,
+          "conditionalAreaM2": 1.6,
+          "verticalFitKnown": null,
+          "openingPositionSource": "R34/R67, aproximada"
+        }
+      ],
+      "conditionalNetMasonryAreaM2": 8.624,
+      "conditionalNetMasonryWeightMagnitudeKN": 13.49656,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [
+        "S-J1-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W01",
+      "fromM": 3.75,
+      "toM": 3.9,
+      "lengthM": 0.15,
+      "p1": [
+        0,
+        3.75
+      ],
+      "p2": [
+        0,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P2"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S03",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-J1-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W02",
+      "fromM": 3.9,
+      "toM": 4.05,
+      "lengthM": 0.15,
+      "p1": [
+        0,
+        3.9
+      ],
+      "p2": [
+        0,
+        4.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P2"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S04",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-J1-02"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W02",
+      "fromM": 4.05,
+      "toM": 6.9,
+      "lengthM": 2.85,
+      "p1": [
+        0,
+        4.05
+      ],
+      "p2": [
+        0,
+        6.9
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V10"
+      ],
+      "lowerNativeNamesBIM": [
+        "V8"
+      ],
+      "upperNativeNames": [
+        "V10_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V5"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S05",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V10",
+          "guidR56": "2z3S9nqoeHyOy801fzsd4G",
+          "minR56": [
+            -0.1,
+            4.05,
+            2.85
+          ],
+          "maxR56": [
+            0.1,
+            6.9,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V8",
+          "guidR56": "2MjmMSqlqHyOy801fzsd4G",
+          "minR56": [
+            -0.1,
+            4.05,
+            2.85
+          ],
+          "maxR56": [
+            0.1,
+            6.9,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 8.094,
+      "openingDeductions": [
+        {
+          "openingId": "S-J1-02",
+          "widthOverMasonryM": 1.6000000000000005,
+          "conditionalAreaM2": 1.6000000000000005,
+          "verticalFitKnown": null,
+          "openingPositionSource": "R34/R67, aproximada"
+        }
+      ],
+      "conditionalNetMasonryAreaM2": 6.493999999999999,
+      "conditionalNetMasonryWeightMagnitudeKN": 10.163109999999998,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [
+        "S-J1-02"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W02",
+      "fromM": 6.9,
+      "toM": 7.05,
+      "lengthM": 0.15,
+      "p1": [
+        0,
+        6.9
+      ],
+      "p2": [
+        0,
+        7.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P3"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S06",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-J1-02"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W03",
+      "fromM": 0,
+      "toM": 0.1,
+      "lengthM": 0.1,
+      "p1": [
+        0,
+        7.05
+      ],
+      "p2": [
+        0.1,
+        7.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P3"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S07",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W03",
+      "fromM": 0.1,
+      "toM": 4.3,
+      "lengthM": 4.2,
+      "p1": [
+        0.1,
+        7.05
+      ],
+      "p2": [
+        4.3,
+        7.05
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V3"
+      ],
+      "lowerNativeNamesBIM": [
+        "V1"
+      ],
+      "upperNativeNames": [
+        "V3_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V1"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S08",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V3",
+          "guidR56": "1OaXyKqoaHyOy801fzsd4G",
+          "minR56": [
+            0.1,
+            6.95,
+            2.75
+          ],
+          "maxR56": [
+            4.3,
+            7.15,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V1",
+          "guidR56": "2MjmM1qlqHyOy801fzsd4G",
+          "minR56": [
+            0.1,
+            6.95,
+            2.75
+          ],
+          "maxR56": [
+            4.3,
+            7.15,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 11.927999999999999,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 11.927999999999999,
+      "conditionalNetMasonryWeightMagnitudeKN": 18.667319999999997,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W03",
+      "fromM": 4.3,
+      "toM": 4.4,
+      "lengthM": 0.1,
+      "p1": [
+        4.3,
+        7.05
+      ],
+      "p2": [
+        4.4,
+        7.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P6"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S09",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W04",
+      "fromM": 4.4,
+      "toM": 4.5,
+      "lengthM": 0.1,
+      "p1": [
+        4.4,
+        7.05
+      ],
+      "p2": [
+        4.5,
+        7.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P6"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S10",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-J1-03"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W04",
+      "fromM": 4.5,
+      "toM": 9.55,
+      "lengthM": 5.05,
+      "p1": [
+        4.5,
+        7.05
+      ],
+      "p2": [
+        9.55,
+        7.05
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V5"
+      ],
+      "lowerNativeNamesBIM": [
+        "V1"
+      ],
+      "upperNativeNames": [
+        "V5_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V1"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S11",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V5",
+          "guidR56": "31sdWjqoaHyOy801fzsd4G",
+          "minR56": [
+            4.5,
+            6.95,
+            2.65
+          ],
+          "maxR56": [
+            9.55,
+            7.15,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V1",
+          "guidR56": "2MjmLxqlqHyOy801fzsd4G",
+          "minR56": [
+            4.5,
+            6.95,
+            2.65
+          ],
+          "maxR56": [
+            9.55,
+            7.15,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 14.341999999999999,
+      "openingDeductions": [
+        {
+          "openingId": "S-J1-03",
+          "widthOverMasonryM": 1.5999999999999996,
+          "conditionalAreaM2": 1.5999999999999996,
+          "verticalFitKnown": null,
+          "openingPositionSource": "R34/R67, aproximada"
+        }
+      ],
+      "conditionalNetMasonryAreaM2": 12.741999999999999,
+      "conditionalNetMasonryWeightMagnitudeKN": 19.941229999999997,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [
+        "S-J1-03"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W04",
+      "fromM": 9.55,
+      "toM": 9.65,
+      "lengthM": 0.1,
+      "p1": [
+        9.55,
+        7.05
+      ],
+      "p2": [
+        9.65,
+        7.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P9"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S12",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-J1-03"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W05",
+      "fromM": 0,
+      "toM": 0.15,
+      "lengthM": 0.15,
+      "p1": [
+        9.65,
+        0
+      ],
+      "p2": [
+        9.65,
+        0.15
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P7"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S13",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W05",
+      "fromM": 0.15,
+      "toM": 3.75,
+      "lengthM": 3.6,
+      "p1": [
+        9.65,
+        0.15
+      ],
+      "p2": [
+        9.65,
+        3.75
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V8"
+      ],
+      "lowerNativeNamesBIM": [
+        "V12"
+      ],
+      "upperNativeNames": [
+        "V8_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V8"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S14",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V8",
+          "guidR56": "1Aq$xBqoeHyOy801fzsd4G",
+          "minR56": [
+            9.55,
+            0.15,
+            2.8
+          ],
+          "maxR56": [
+            9.75,
+            3.75,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V12",
+          "guidR56": "2MjmMDqlqHyOy801fzsd4G",
+          "minR56": [
+            9.55,
+            0.15,
+            2.8
+          ],
+          "maxR56": [
+            9.75,
+            3.75,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 10.26,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 10.26,
+      "conditionalNetMasonryWeightMagnitudeKN": 16.0569,
+      "fullHeightLineWeightMagnitudeKNm": 4.46025,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W05",
+      "fromM": 3.75,
+      "toM": 3.9,
+      "lengthM": 0.15,
+      "p1": [
+        9.65,
+        3.75
+      ],
+      "p2": [
+        9.65,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P8"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S15",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W06",
+      "fromM": 3.9,
+      "toM": 4.05,
+      "lengthM": 0.15,
+      "p1": [
+        9.65,
+        3.9
+      ],
+      "p2": [
+        9.65,
+        4.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P8"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S16",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-P4-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W06",
+      "fromM": 4.05,
+      "toM": 6.9,
+      "lengthM": 2.85,
+      "p1": [
+        9.65,
+        4.05
+      ],
+      "p2": [
+        9.65,
+        6.9
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V12"
+      ],
+      "lowerNativeNamesBIM": [
+        "V12"
+      ],
+      "upperNativeNames": [
+        "V12_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V8"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S17",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V12",
+          "guidR56": "04qZtUqoiHyOy801fzsd4G",
+          "minR56": [
+            9.55,
+            4.05,
+            2.85
+          ],
+          "maxR56": [
+            9.75,
+            6.9,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V12",
+          "guidR56": "2MjmMPqlqHyOy801fzsd4G",
+          "minR56": [
+            9.55,
+            4.05,
+            2.85
+          ],
+          "maxR56": [
+            9.75,
+            6.9,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 8.094,
+      "openingDeductions": [
+        {
+          "openingId": "S-P4-01",
+          "widthOverMasonryM": 2.0,
+          "conditionalAreaM2": 4.2,
+          "verticalFitKnown": true,
+          "openingPositionSource": "R34/R67, aproximada"
+        }
+      ],
+      "conditionalNetMasonryAreaM2": 3.8939999999999992,
+      "conditionalNetMasonryWeightMagnitudeKN": 6.094109999999999,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [
+        "S-P4-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W06",
+      "fromM": 6.9,
+      "toM": 7.05,
+      "lengthM": 0.15,
+      "p1": [
+        9.65,
+        6.9
+      ],
+      "p2": [
+        9.65,
+        7.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P9"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S18",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-P4-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W07",
+      "fromM": 0,
+      "toM": 0.1,
+      "lengthM": 0.1,
+      "p1": [
+        0,
+        0
+      ],
+      "p2": [
+        0.1,
+        0
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P1"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S19",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W07",
+      "fromM": 0.1,
+      "toM": 4.3,
+      "lengthM": 4.2,
+      "p1": [
+        0.1,
+        0
+      ],
+      "p2": [
+        4.3,
+        0
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V1"
+      ],
+      "lowerNativeNamesBIM": [
+        "V5"
+      ],
+      "upperNativeNames": [
+        "V1_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V4"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S20",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V1",
+          "guidR56": "0Ubls1qoaHyOy801fzsd4G",
+          "minR56": [
+            0.1,
+            -0.1,
+            2.75
+          ],
+          "maxR56": [
+            4.3,
+            0.1,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V5",
+          "guidR56": "2MjmM7qlqHyOy801fzsd4G",
+          "minR56": [
+            0.1,
+            -0.1,
+            2.75
+          ],
+          "maxR56": [
+            4.3,
+            0.1,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 11.927999999999999,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 11.927999999999999,
+      "conditionalNetMasonryWeightMagnitudeKN": 18.667319999999997,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W07",
+      "fromM": 4.3,
+      "toM": 4.4,
+      "lengthM": 0.1,
+      "p1": [
+        4.3,
+        0
+      ],
+      "p2": [
+        4.4,
+        0
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P4"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S21",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W08",
+      "fromM": 4.4,
+      "toM": 4.5,
+      "lengthM": 0.1,
+      "p1": [
+        4.4,
+        0
+      ],
+      "p2": [
+        4.5,
+        0
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P4"
+      ],
+      "baseFinishedM": null,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": null,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S22",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Fachada contínua J4; suporte e parcela transmitida à superestrutura indefinidos, conforme R70."
+      ]
+    },
+    {
+      "wallId": "W08",
+      "fromM": 4.5,
+      "toM": 6.45,
+      "lengthM": 1.95,
+      "p1": [
+        4.5,
+        0
+      ],
+      "p2": [
+        6.45,
+        0
+      ],
+      "route": "sem-apoio-geometrico",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [
+        "V3"
+      ],
+      "upperNativeNamesBIM": [
+        "V4"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": null,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": null,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S23",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": null,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": null,
+      "conditionalNetMasonryWeightMagnitudeKN": null,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Fachada contínua J4; suporte e parcela transmitida à superestrutura indefinidos, conforme R70."
+      ]
+    },
+    {
+      "wallId": "W08",
+      "fromM": 6.45,
+      "toM": 6.55,
+      "lengthM": 0.1,
+      "p1": [
+        6.45,
+        0
+      ],
+      "p2": [
+        6.55,
+        0
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P10"
+      ],
+      "baseFinishedM": null,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": null,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S24",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Fachada contínua J4; suporte e parcela transmitida à superestrutura indefinidos, conforme R70."
+      ]
+    },
+    {
+      "wallId": "W09",
+      "fromM": 6.55,
+      "toM": 6.65,
+      "lengthM": 0.1,
+      "p1": [
+        6.55,
+        0
+      ],
+      "p2": [
+        6.65,
+        0
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P10"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S25",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-J2-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W09",
+      "fromM": 6.65,
+      "toM": 8.1,
+      "lengthM": 1.45,
+      "p1": [
+        6.65,
+        0
+      ],
+      "p2": [
+        8.1,
+        0
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V4"
+      ],
+      "lowerNativeNamesBIM": [
+        "V6"
+      ],
+      "upperNativeNames": [
+        "V4_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V4"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S26",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V4",
+          "guidR56": "2ZIb8mqoaHyOy801fzsd4G",
+          "minR56": [
+            6.65,
+            -0.1,
+            2.65
+          ],
+          "maxR56": [
+            9.55,
+            0.1,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V6",
+          "guidR56": "2MjmL_qlqHyOy801fzsd4G",
+          "minR56": [
+            6.65,
+            -0.1,
+            2.65
+          ],
+          "maxR56": [
+            9.55,
+            0.1,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 4.1325,
+      "openingDeductions": [
+        {
+          "openingId": "S-J2-01",
+          "widthOverMasonryM": 0.7999999999999998,
+          "conditionalAreaM2": 0.47999999999999987,
+          "verticalFitKnown": true,
+          "openingPositionSource": "R34/R67, aproximada"
+        }
+      ],
+      "conditionalNetMasonryAreaM2": 3.6525000000000003,
+      "conditionalNetMasonryWeightMagnitudeKN": 5.7161625,
+      "fullHeightLineWeightMagnitudeKNm": 4.46025,
+      "allWallOpeningIds": [
+        "S-J2-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W10",
+      "fromM": 8.1,
+      "toM": 9.55,
+      "lengthM": 1.45,
+      "p1": [
+        8.1,
+        0
+      ],
+      "p2": [
+        9.55,
+        0
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V4"
+      ],
+      "lowerNativeNamesBIM": [
+        "V6"
+      ],
+      "upperNativeNames": [
+        "V4_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V4"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S27",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V4",
+          "guidR56": "2ZIb8mqoaHyOy801fzsd4G",
+          "minR56": [
+            6.65,
+            -0.1,
+            2.65
+          ],
+          "maxR56": [
+            9.55,
+            0.1,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V6",
+          "guidR56": "2MjmL_qlqHyOy801fzsd4G",
+          "minR56": [
+            6.65,
+            -0.1,
+            2.65
+          ],
+          "maxR56": [
+            9.55,
+            0.1,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 4.1325,
+      "openingDeductions": [
+        {
+          "openingId": "S-J2-02",
+          "widthOverMasonryM": 0.8000000000000007,
+          "conditionalAreaM2": 0.4800000000000004,
+          "verticalFitKnown": true,
+          "openingPositionSource": "R34/R67, aproximada"
+        }
+      ],
+      "conditionalNetMasonryAreaM2": 3.6525,
+      "conditionalNetMasonryWeightMagnitudeKN": 5.716162499999999,
+      "fullHeightLineWeightMagnitudeKNm": 4.46025,
+      "allWallOpeningIds": [
+        "S-J2-02"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W10",
+      "fromM": 9.55,
+      "toM": 9.65,
+      "lengthM": 0.1,
+      "p1": [
+        9.55,
+        0
+      ],
+      "p2": [
+        9.65,
+        0
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P7"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S28",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-J2-02"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W11",
+      "fromM": 0,
+      "toM": 0.1,
+      "lengthM": 0.1,
+      "p1": [
+        0,
+        3.9
+      ],
+      "p2": [
+        0.1,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P2"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S29",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W11",
+      "fromM": 0.1,
+      "toM": 4.3,
+      "lengthM": 4.2,
+      "p1": [
+        0.1,
+        3.9
+      ],
+      "p2": [
+        4.3,
+        3.9
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V2"
+      ],
+      "lowerNativeNamesBIM": [
+        "V2"
+      ],
+      "upperNativeNames": [
+        "V2_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V2"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S30",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V2",
+          "guidR56": "0ybZq2qoaHyOy801fzsd4G",
+          "minR56": [
+            0.1,
+            3.8,
+            2.75
+          ],
+          "maxR56": [
+            4.3,
+            4.0,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V2",
+          "guidR56": "2MjmM4qlqHyOy801fzsd4G",
+          "minR56": [
+            0.1,
+            3.8,
+            2.75
+          ],
+          "maxR56": [
+            4.3,
+            4.0,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 11.927999999999999,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 11.927999999999999,
+      "conditionalNetMasonryWeightMagnitudeKN": 18.667319999999997,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W11",
+      "fromM": 4.3,
+      "toM": 4.4,
+      "lengthM": 0.1,
+      "p1": [
+        4.3,
+        3.9
+      ],
+      "p2": [
+        4.4,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P5"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S31",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W12",
+      "fromM": 0,
+      "toM": 0.15,
+      "lengthM": 0.15,
+      "p1": [
+        4.4,
+        0
+      ],
+      "p2": [
+        4.4,
+        0.15
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P4"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S32",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-P2-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W12",
+      "fromM": 0.15,
+      "toM": 2.75,
+      "lengthM": 2.6,
+      "p1": [
+        4.4,
+        0.15
+      ],
+      "p2": [
+        4.4,
+        2.75
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V7"
+      ],
+      "lowerNativeNamesBIM": [
+        "V9"
+      ],
+      "upperNativeNames": [
+        "V7_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V6"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S33",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V7",
+          "guidR56": "2RmpWwqomHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            0.15,
+            2.8
+          ],
+          "maxR56": [
+            4.5,
+            2.85,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V9",
+          "guidR56": "2MjmPJqlqHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            0.15,
+            2.8
+          ],
+          "maxR56": [
+            4.5,
+            2.85,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 7.3839999999999995,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 7.3839999999999995,
+      "conditionalNetMasonryWeightMagnitudeKN": 11.555959999999999,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [
+        "S-P2-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W12",
+      "fromM": 2.75,
+      "toM": 2.85,
+      "lengthM": 0.1,
+      "p1": [
+        4.4,
+        2.75
+      ],
+      "p2": [
+        4.4,
+        2.85
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V15",
+        "V7"
+      ],
+      "lowerNativeNamesBIM": [
+        "V4",
+        "V9"
+      ],
+      "upperNativeNames": [
+        "V7_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V6"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S34",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V7",
+          "guidR56": "2RmpWwqomHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            0.15,
+            2.8
+          ],
+          "maxR56": [
+            4.5,
+            2.85,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [
+            "V15"
+          ],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V9",
+          "guidR56": "2MjmPJqlqHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            0.15,
+            2.8
+          ],
+          "maxR56": [
+            4.5,
+            2.85,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [
+            "V4"
+          ],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 0.284,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.284,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.44445999999999997,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [
+        "S-P2-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W12",
+      "fromM": 2.85,
+      "toM": 2.95,
+      "lengthM": 0.1,
+      "p1": [
+        4.4,
+        2.85
+      ],
+      "p2": [
+        4.4,
+        2.95
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V15",
+        "V7"
+      ],
+      "lowerNativeNamesBIM": [
+        "V4",
+        "V9"
+      ],
+      "upperNativeNames": [
+        "V7_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V6"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S35",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V7",
+          "guidR56": "2RmpWuqomHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            2.85,
+            2.8
+          ],
+          "maxR56": [
+            4.5,
+            3.75,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [
+            "V15"
+          ],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V9",
+          "guidR56": "2MjmPHqlqHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            2.85,
+            2.8
+          ],
+          "maxR56": [
+            4.5,
+            3.75,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [
+            "V4"
+          ],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 0.284,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.284,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.44445999999999997,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [
+        "S-P2-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W12",
+      "fromM": 2.95,
+      "toM": 3.75,
+      "lengthM": 0.8,
+      "p1": [
+        4.4,
+        2.95
+      ],
+      "p2": [
+        4.4,
+        3.75
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V7"
+      ],
+      "lowerNativeNamesBIM": [
+        "V9"
+      ],
+      "upperNativeNames": [
+        "V7_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V6"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S36",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V7",
+          "guidR56": "2RmpWuqomHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            2.85,
+            2.8
+          ],
+          "maxR56": [
+            4.5,
+            3.75,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V9",
+          "guidR56": "2MjmPHqlqHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            2.85,
+            2.8
+          ],
+          "maxR56": [
+            4.5,
+            3.75,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 2.272,
+      "openingDeductions": [
+        {
+          "openingId": "S-P2-01",
+          "widthOverMasonryM": 0.7000000000000002,
+          "conditionalAreaM2": 1.4700000000000004,
+          "verticalFitKnown": true,
+          "openingPositionSource": "R34/R67, aproximada"
+        }
+      ],
+      "conditionalNetMasonryAreaM2": 0.8019999999999994,
+      "conditionalNetMasonryWeightMagnitudeKN": 1.255129999999999,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [
+        "S-P2-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W12",
+      "fromM": 3.75,
+      "toM": 3.9,
+      "lengthM": 0.15,
+      "p1": [
+        4.4,
+        3.75
+      ],
+      "p2": [
+        4.4,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P5"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S37",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-P2-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W13",
+      "fromM": 3.9,
+      "toM": 4.05,
+      "lengthM": 0.15,
+      "p1": [
+        4.4,
+        3.9
+      ],
+      "p2": [
+        4.4,
+        4.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P5"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S38",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-P2-02"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W13",
+      "fromM": 4.05,
+      "toM": 4.95,
+      "lengthM": 0.9,
+      "p1": [
+        4.4,
+        4.05
+      ],
+      "p2": [
+        4.4,
+        4.95
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V11"
+      ],
+      "lowerNativeNamesBIM": [
+        "V10"
+      ],
+      "upperNativeNames": [
+        "V11_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V6"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S39",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V11",
+          "guidR56": "3WERLcqoeHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            4.05,
+            2.85
+          ],
+          "maxR56": [
+            4.5,
+            6.9,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V10",
+          "guidR56": "2MjmMMqlqHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            4.05,
+            2.85
+          ],
+          "maxR56": [
+            4.5,
+            6.9,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 2.556,
+      "openingDeductions": [
+        {
+          "openingId": "S-P2-02",
+          "widthOverMasonryM": 0.7000000000000002,
+          "conditionalAreaM2": 1.4700000000000004,
+          "verticalFitKnown": true,
+          "openingPositionSource": "R34/R67, aproximada"
+        }
+      ],
+      "conditionalNetMasonryAreaM2": 1.0859999999999996,
+      "conditionalNetMasonryWeightMagnitudeKN": 1.6995899999999993,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [
+        "S-P2-02"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W14",
+      "fromM": 4.95,
+      "toM": 6.9,
+      "lengthM": 1.95,
+      "p1": [
+        4.4,
+        4.95
+      ],
+      "p2": [
+        4.4,
+        6.9
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V11"
+      ],
+      "lowerNativeNamesBIM": [
+        "V10"
+      ],
+      "upperNativeNames": [
+        "V11_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V6"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S40",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V11",
+          "guidR56": "3WERLcqoeHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            4.05,
+            2.85
+          ],
+          "maxR56": [
+            4.5,
+            6.9,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V10",
+          "guidR56": "2MjmMMqlqHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            4.05,
+            2.85
+          ],
+          "maxR56": [
+            4.5,
+            6.9,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 5.537999999999999,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 5.537999999999999,
+      "conditionalNetMasonryWeightMagnitudeKN": 8.66697,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W14",
+      "fromM": 6.9,
+      "toM": 7.05,
+      "lengthM": 0.15,
+      "p1": [
+        4.4,
+        6.9
+      ],
+      "p2": [
+        4.4,
+        7.05
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P6"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S41",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W15",
+      "fromM": 4.4,
+      "toM": 4.5,
+      "lengthM": 0.1,
+      "p1": [
+        4.4,
+        4.95
+      ],
+      "p2": [
+        4.5,
+        4.95
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V11"
+      ],
+      "lowerNativeNamesBIM": [
+        "V10"
+      ],
+      "upperNativeNames": [
+        "V11_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V6"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S42",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V11",
+          "guidR56": "3WERLcqoeHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            4.05,
+            2.85
+          ],
+          "maxR56": [
+            4.5,
+            6.9,
+            3.2
+          ],
+          "parallelToWall": false,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V10",
+          "guidR56": "2MjmMMqlqHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            4.05,
+            2.85
+          ],
+          "maxR56": [
+            4.5,
+            6.9,
+            3.2
+          ],
+          "parallelToWall": false,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 0.284,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.284,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.44445999999999997,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Contato com viga transversal no encontro; partilha com laje não definida."
+      ]
+    },
+    {
+      "wallId": "W15",
+      "fromM": 4.5,
+      "toM": 5.45,
+      "lengthM": 0.95,
+      "p1": [
+        4.5,
+        4.95
+      ],
+      "p2": [
+        5.45,
+        4.95
+      ],
+      "route": "laje",
+      "lowerNativeNames": [
+        "L4"
+      ],
+      "lowerNativeNamesBIM": [
+        "L4"
+      ],
+      "upperNativeNames": [
+        "L4"
+      ],
+      "upperNativeNamesBIM": [
+        "L4"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.25,
+      "grossHeightReferenceM": 3.0,
+      "grossLinearKNm": 4.695,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S43",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 2.8499999999999996,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 2.8499999999999996,
+      "conditionalNetMasonryWeightMagnitudeKN": 4.460249999999999,
+      "fullHeightLineWeightMagnitudeKNm": 4.695,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Carga de linha sobre laje; não espalhar como G2 uniforme sem justificar o caminho."
+      ]
+    },
+    {
+      "wallId": "W16",
+      "fromM": 3.9,
+      "toM": 4.0,
+      "lengthM": 0.1,
+      "p1": [
+        5.45,
+        3.9
+      ],
+      "p2": [
+        5.45,
+        4.0
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V14"
+      ],
+      "lowerNativeNamesBIM": [
+        "V2"
+      ],
+      "upperNativeNames": [
+        "V2"
+      ],
+      "upperNativeNamesBIM": [
+        "V2"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S44",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V14",
+          "guidR56": "1g4q1lqomHyOy801fzsd4G",
+          "minR56": [
+            4.5,
+            3.8,
+            3.04
+          ],
+          "maxR56": [
+            6.4,
+            4.0,
+            3.2
+          ],
+          "parallelToWall": false,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V2",
+          "guidR56": "2MjmMdqlqHyOy801fzsd4G",
+          "minR56": [
+            4.5,
+            3.8,
+            3.04
+          ],
+          "maxR56": [
+            6.4,
+            4.0,
+            3.2
+          ],
+          "parallelToWall": false,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 0.284,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.284,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.44445999999999997,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [
+        "S-P2-03"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas.",
+        "Contato com viga transversal no encontro; partilha com laje não definida."
+      ]
+    },
+    {
+      "wallId": "W16",
+      "fromM": 4.0,
+      "toM": 4.95,
+      "lengthM": 0.95,
+      "p1": [
+        5.45,
+        4.0
+      ],
+      "p2": [
+        5.45,
+        4.95
+      ],
+      "route": "laje",
+      "lowerNativeNames": [
+        "L4"
+      ],
+      "lowerNativeNamesBIM": [
+        "L4"
+      ],
+      "upperNativeNames": [
+        "L4"
+      ],
+      "upperNativeNamesBIM": [
+        "L4"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.25,
+      "grossHeightReferenceM": 3.0,
+      "grossLinearKNm": 4.695,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S45",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 2.8499999999999996,
+      "openingDeductions": [
+        {
+          "openingId": "S-P2-03",
+          "widthOverMasonryM": 0.7000000000000002,
+          "conditionalAreaM2": 1.4700000000000004,
+          "verticalFitKnown": true,
+          "openingPositionSource": "R34/R67, aproximada"
+        }
+      ],
+      "conditionalNetMasonryAreaM2": 1.3799999999999992,
+      "conditionalNetMasonryWeightMagnitudeKN": 2.1596999999999986,
+      "fullHeightLineWeightMagnitudeKNm": 4.695,
+      "allWallOpeningIds": [
+        "S-P2-03"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas.",
+        "Carga de linha sobre laje; não espalhar como G2 uniforme sem justificar o caminho."
+      ]
+    },
+    {
+      "wallId": "W17",
+      "fromM": 5.45,
+      "toM": 6.4,
+      "lengthM": 0.95,
+      "p1": [
+        5.45,
+        3.9
+      ],
+      "p2": [
+        6.4,
+        3.9
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V14"
+      ],
+      "lowerNativeNamesBIM": [
+        "V2"
+      ],
+      "upperNativeNames": [
+        "V2"
+      ],
+      "upperNativeNamesBIM": [
+        "V2"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.84,
+      "grossLinearKNm": 4.4446,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S46",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V14",
+          "guidR56": "1g4q1lqomHyOy801fzsd4G",
+          "minR56": [
+            4.5,
+            3.8,
+            3.04
+          ],
+          "maxR56": [
+            6.4,
+            4.0,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V2",
+          "guidR56": "2MjmMdqlqHyOy801fzsd4G",
+          "minR56": [
+            4.5,
+            3.8,
+            3.04
+          ],
+          "maxR56": [
+            6.4,
+            4.0,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 2.698,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 2.698,
+      "conditionalNetMasonryWeightMagnitudeKN": 4.22237,
+      "fullHeightLineWeightMagnitudeKNm": 4.444599999999999,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W17",
+      "fromM": 6.4,
+      "toM": 6.55,
+      "lengthM": 0.15,
+      "p1": [
+        6.4,
+        3.9
+      ],
+      "p2": [
+        6.55,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P11"
+      ],
+      "baseFinishedM": 3.25,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.05,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S47",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa."
+      ]
+    },
+    {
+      "wallId": "W18",
+      "fromM": 6.55,
+      "toM": 6.7,
+      "lengthM": 0.15,
+      "p1": [
+        6.55,
+        3.9
+      ],
+      "p2": [
+        6.7,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P11"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S48",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-P3-02"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W18",
+      "fromM": 6.7,
+      "toM": 9.55,
+      "lengthM": 2.85,
+      "p1": [
+        6.7,
+        3.9
+      ],
+      "p2": [
+        9.55,
+        3.9
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V13"
+      ],
+      "lowerNativeNamesBIM": [
+        "V3"
+      ],
+      "upperNativeNames": [
+        "V13_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V3"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S49",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V13",
+          "guidR56": "1P8G4pqoiHyOy801fzsd4G",
+          "minR56": [
+            6.7,
+            3.8,
+            2.9
+          ],
+          "maxR56": [
+            9.55,
+            4.0,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V3",
+          "guidR56": "2MjmMVqlqHyOy801fzsd4G",
+          "minR56": [
+            6.7,
+            3.8,
+            2.9
+          ],
+          "maxR56": [
+            9.55,
+            4.0,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 8.1225,
+      "openingDeductions": [
+        {
+          "openingId": "S-P3-02",
+          "widthOverMasonryM": 0.6000000000000014,
+          "conditionalAreaM2": 1.2600000000000031,
+          "verticalFitKnown": true,
+          "openingPositionSource": "R68, largura nominal centrada na leitura vetorial do vão claro"
+        }
+      ],
+      "conditionalNetMasonryAreaM2": 6.862499999999997,
+      "conditionalNetMasonryWeightMagnitudeKN": 10.739812499999996,
+      "fullHeightLineWeightMagnitudeKNm": 4.46025,
+      "allWallOpeningIds": [
+        "S-P3-02"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W18",
+      "fromM": 9.55,
+      "toM": 9.65,
+      "lengthM": 0.1,
+      "p1": [
+        9.55,
+        3.9
+      ],
+      "p2": [
+        9.65,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P8"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S50",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-P3-02"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W19",
+      "fromM": 0,
+      "toM": 0.15,
+      "lengthM": 0.15,
+      "p1": [
+        6.55,
+        0
+      ],
+      "p2": [
+        6.55,
+        0.15
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P10"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S51",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-P3-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W19",
+      "fromM": 0.15,
+      "toM": 2.75,
+      "lengthM": 2.6,
+      "p1": [
+        6.55,
+        0.15
+      ],
+      "p2": [
+        6.55,
+        2.75
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V9"
+      ],
+      "lowerNativeNamesBIM": [
+        "V11"
+      ],
+      "upperNativeNames": [
+        "V9_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V7"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S52",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V9",
+          "guidR56": "2RmpX7qomHyOy801fzsd4G",
+          "minR56": [
+            6.45,
+            0.15,
+            2.8
+          ],
+          "maxR56": [
+            6.65,
+            2.85,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V11",
+          "guidR56": "2MjmPUqlqHyOy801fzsd4G",
+          "minR56": [
+            6.45,
+            0.15,
+            2.8
+          ],
+          "maxR56": [
+            6.65,
+            2.85,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 7.41,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 7.41,
+      "conditionalNetMasonryWeightMagnitudeKN": 11.59665,
+      "fullHeightLineWeightMagnitudeKNm": 4.46025,
+      "allWallOpeningIds": [
+        "S-P3-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W19",
+      "fromM": 2.75,
+      "toM": 2.85,
+      "lengthM": 0.1,
+      "p1": [
+        6.55,
+        2.75
+      ],
+      "p2": [
+        6.55,
+        2.85
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V15",
+        "V9"
+      ],
+      "lowerNativeNamesBIM": [
+        "V4",
+        "V11"
+      ],
+      "upperNativeNames": [
+        "V9_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V7"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S53",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V9",
+          "guidR56": "2RmpX7qomHyOy801fzsd4G",
+          "minR56": [
+            6.45,
+            0.15,
+            2.8
+          ],
+          "maxR56": [
+            6.65,
+            2.85,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [
+            "V15"
+          ],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V11",
+          "guidR56": "2MjmPUqlqHyOy801fzsd4G",
+          "minR56": [
+            6.45,
+            0.15,
+            2.8
+          ],
+          "maxR56": [
+            6.65,
+            2.85,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [
+            "V4"
+          ],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 0.28500000000000003,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.28500000000000003,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.44602500000000006,
+      "fullHeightLineWeightMagnitudeKNm": 4.46025,
+      "allWallOpeningIds": [
+        "S-P3-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W19",
+      "fromM": 2.85,
+      "toM": 2.95,
+      "lengthM": 0.1,
+      "p1": [
+        6.55,
+        2.85
+      ],
+      "p2": [
+        6.55,
+        2.95
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V15",
+        "V9"
+      ],
+      "lowerNativeNamesBIM": [
+        "V4",
+        "V11"
+      ],
+      "upperNativeNames": [
+        "V9_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V7"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S54",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V9",
+          "guidR56": "2RmpX5qomHyOy801fzsd4G",
+          "minR56": [
+            6.45,
+            2.85,
+            2.8
+          ],
+          "maxR56": [
+            6.65,
+            3.8,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [
+            "V15"
+          ],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V11",
+          "guidR56": "2MjmPWqlqHyOy801fzsd4G",
+          "minR56": [
+            6.45,
+            2.85,
+            2.8
+          ],
+          "maxR56": [
+            6.65,
+            3.8,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [
+            "V4"
+          ],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 0.28500000000000003,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.28500000000000003,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.44602500000000006,
+      "fullHeightLineWeightMagnitudeKNm": 4.46025,
+      "allWallOpeningIds": [
+        "S-P3-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W19",
+      "fromM": 2.95,
+      "toM": 3.8,
+      "lengthM": 0.85,
+      "p1": [
+        6.55,
+        2.95
+      ],
+      "p2": [
+        6.55,
+        3.8
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V9"
+      ],
+      "lowerNativeNamesBIM": [
+        "V11"
+      ],
+      "upperNativeNames": [
+        "V9_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V7"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S55",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V9",
+          "guidR56": "2RmpX5qomHyOy801fzsd4G",
+          "minR56": [
+            6.45,
+            2.85,
+            2.8
+          ],
+          "maxR56": [
+            6.65,
+            3.8,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V11",
+          "guidR56": "2MjmPWqlqHyOy801fzsd4G",
+          "minR56": [
+            6.45,
+            2.85,
+            2.8
+          ],
+          "maxR56": [
+            6.65,
+            3.8,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 2.4225,
+      "openingDeductions": [
+        {
+          "openingId": "S-P3-01",
+          "widthOverMasonryM": 0.6000000000000001,
+          "conditionalAreaM2": 1.2600000000000002,
+          "verticalFitKnown": true,
+          "openingPositionSource": "R34/R67, aproximada"
+        }
+      ],
+      "conditionalNetMasonryAreaM2": 1.1624999999999996,
+      "conditionalNetMasonryWeightMagnitudeKN": 1.8193124999999994,
+      "fullHeightLineWeightMagnitudeKNm": 4.46025,
+      "allWallOpeningIds": [
+        "S-P3-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W19",
+      "fromM": 3.8,
+      "toM": 3.9,
+      "lengthM": 0.1,
+      "p1": [
+        6.55,
+        3.8
+      ],
+      "p2": [
+        6.55,
+        3.9
+      ],
+      "route": "coluna-sem-alvenaria",
+      "lowerNativeNames": [],
+      "lowerNativeNamesBIM": [],
+      "upperNativeNames": [],
+      "upperNativeNamesBIM": [],
+      "columnNativeNames": [
+        "P11"
+      ],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": null,
+      "grossHeightReferenceM": null,
+      "grossLinearKNm": null,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S56",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 0.0,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.0,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.0,
+      "fullHeightLineWeightMagnitudeKNm": null,
+      "allWallOpeningIds": [
+        "S-P3-01"
+      ],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Transferência ao redor dos vãos, vergas e tara de esquadrias não resolvidas."
+      ]
+    },
+    {
+      "wallId": "W20",
+      "fromM": 0,
+      "toM": 0.1,
+      "lengthM": 0.1,
+      "p1": [
+        8.1,
+        0
+      ],
+      "p2": [
+        8.1,
+        0.1
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V4"
+      ],
+      "lowerNativeNamesBIM": [
+        "V6"
+      ],
+      "upperNativeNames": [
+        "V4_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V4"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S57",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V4",
+          "guidR56": "2ZIb8mqoaHyOy801fzsd4G",
+          "minR56": [
+            6.65,
+            -0.1,
+            2.65
+          ],
+          "maxR56": [
+            9.55,
+            0.1,
+            3.2
+          ],
+          "parallelToWall": false,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V6",
+          "guidR56": "2MjmL_qlqHyOy801fzsd4G",
+          "minR56": [
+            6.65,
+            -0.1,
+            2.65
+          ],
+          "maxR56": [
+            9.55,
+            0.1,
+            3.2
+          ],
+          "parallelToWall": false,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 0.28500000000000003,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.28500000000000003,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.44602500000000006,
+      "fullHeightLineWeightMagnitudeKNm": 4.46025,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Contato com viga transversal no encontro; partilha com laje não definida."
+      ]
+    },
+    {
+      "wallId": "W20",
+      "fromM": 0.1,
+      "toM": 3.8,
+      "lengthM": 3.7,
+      "p1": [
+        8.1,
+        0.1
+      ],
+      "p2": [
+        8.1,
+        3.8
+      ],
+      "route": "laje",
+      "lowerNativeNames": [
+        "L3"
+      ],
+      "lowerNativeNamesBIM": [
+        "L3"
+      ],
+      "upperNativeNames": [
+        "L3"
+      ],
+      "upperNativeNamesBIM": [
+        "L3"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.25,
+      "grossHeightReferenceM": 3.01,
+      "grossLinearKNm": 4.71065,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S58",
+      "supportSelectionR120": null,
+      "grossMasonryAreaM2": 11.137,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 11.137,
+      "conditionalNetMasonryWeightMagnitudeKN": 17.429405,
+      "fullHeightLineWeightMagnitudeKNm": 4.710649999999999,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Carga de linha sobre laje; não espalhar como G2 uniforme sem justificar o caminho."
+      ]
+    },
+    {
+      "wallId": "W20",
+      "fromM": 3.8,
+      "toM": 3.9,
+      "lengthM": 0.1,
+      "p1": [
+        8.1,
+        3.8
+      ],
+      "p2": [
+        8.1,
+        3.9
+      ],
+      "route": "viga",
+      "lowerNativeNames": [
+        "V13"
+      ],
+      "lowerNativeNamesBIM": [
+        "V3"
+      ],
+      "upperNativeNames": [
+        "V13_1"
+      ],
+      "upperNativeNamesBIM": [
+        "V3"
+      ],
+      "columnNativeNames": [],
+      "baseFinishedM": 3.24,
+      "upperSoffitM": 6.09,
+      "grossHeightReferenceM": 2.85,
+      "grossLinearKNm": 4.46025,
+      "ceilingReferenceM": 6.04,
+      "ceilingInterference": false,
+      "referenceCeilingHeightHypothesisM": 2.8,
+      "appliedToNative": false,
+      "readyForNativeApplication": false,
+      "sourceGeometryRevision": "IFC R56",
+      "segmentId": "R120-S59",
+      "supportSelectionR120": {
+        "CAD": {
+          "name": "V13",
+          "guidR56": "1P8G4pqoiHyOy801fzsd4G",
+          "minR56": [
+            6.7,
+            3.8,
+            2.9
+          ],
+          "maxR56": [
+            9.55,
+            4.0,
+            3.2
+          ],
+          "parallelToWall": false,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V3",
+          "guidR56": "2MjmMVqlqHyOy801fzsd4G",
+          "minR56": [
+            6.7,
+            3.8,
+            2.9
+          ],
+          "maxR56": [
+            9.55,
+            4.0,
+            3.2
+          ],
+          "parallelToWall": false,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "grossMasonryAreaM2": 0.28500000000000003,
+      "openingDeductions": [],
+      "conditionalNetMasonryAreaM2": 0.28500000000000003,
+      "conditionalNetMasonryWeightMagnitudeKN": 0.44602500000000006,
+      "fullHeightLineWeightMagnitudeKNm": 4.46025,
+      "allWallOpeningIds": [],
+      "extraWeightOfJoineryLintelsFinishesOnConcreteKN": null,
+      "analyticalLoadPathVerified": false,
+      "nativeSignedInputValue": null,
+      "nativeLinearSignConventionVerified": false,
+      "applicationBlockReasons": [
+        "Hipótese de composição sem ensaio/fabricante; conferir faces e encontros.",
+        "Geometria R56 preservada em R57; não se exportou IFC dos receptores atuais nesta etapa.",
+        "Contato com viga transversal no encontro; partilha com laje não definida."
+      ]
+    }
+  ],
+  "walls": [
+    {
+      "wallId": "W01",
+      "name": "Fachada esquerda / quarto 16 m²",
+      "openingIds": [
+        "S-J1-01"
+      ],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 10.224,
+      "conditionalNetMasonryAreaM2": 8.624,
+      "conditionalWeightMagnitudeKN": 13.49656,
+      "previousConditionalNetAreaR67M2": 8.624,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W02",
+      "name": "Fachada esquerda / quarto 13 m²",
+      "openingIds": [
+        "S-J1-02"
+      ],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 8.094,
+      "conditionalNetMasonryAreaM2": 6.493999999999999,
+      "conditionalWeightMagnitudeKN": 10.163109999999998,
+      "previousConditionalNetAreaR67M2": 6.493999999999999,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W03",
+      "name": "Fachada superior / quarto",
+      "openingIds": [],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 11.927999999999999,
+      "conditionalNetMasonryAreaM2": 11.927999999999999,
+      "conditionalWeightMagnitudeKN": 18.667319999999997,
+      "previousConditionalNetAreaR67M2": 11.927999999999999,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W04",
+      "name": "Fachada superior / suíte",
+      "openingIds": [
+        "S-J1-03"
+      ],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 14.341999999999999,
+      "conditionalNetMasonryAreaM2": 12.741999999999999,
+      "conditionalWeightMagnitudeKN": 19.941229999999997,
+      "previousConditionalNetAreaR67M2": 12.741999999999999,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W05",
+      "name": "Fachada direita / banheiro",
+      "openingIds": [],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 10.26,
+      "conditionalNetMasonryAreaM2": 10.26,
+      "conditionalWeightMagnitudeKN": 16.0569,
+      "previousConditionalNetAreaR67M2": 10.26,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W06",
+      "name": "Suíte / varanda",
+      "openingIds": [
+        "S-P4-01"
+      ],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 8.094,
+      "conditionalNetMasonryAreaM2": 3.8939999999999992,
+      "conditionalWeightMagnitudeKN": 6.094109999999999,
+      "previousConditionalNetAreaR67M2": 3.8939999999999992,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W07",
+      "name": "Fachada inferior / quarto",
+      "openingIds": [],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 11.927999999999999,
+      "conditionalNetMasonryAreaM2": 11.927999999999999,
+      "conditionalWeightMagnitudeKN": 18.667319999999997,
+      "previousConditionalNetAreaR67M2": 11.927999999999999,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W08",
+      "name": "Fachada inferior / caixa da escada",
+      "openingIds": [],
+      "routes": [
+        "sem-apoio-geometrico"
+      ],
+      "grossMasonryAreaM2": null,
+      "conditionalNetMasonryAreaM2": null,
+      "conditionalWeightMagnitudeKN": null,
+      "previousConditionalNetAreaR67M2": null,
+      "deltaConditionalAreaFromR67M2": null,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W09",
+      "name": "Fachada inferior / banheiro esquerdo",
+      "openingIds": [
+        "S-J2-01"
+      ],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 4.1325,
+      "conditionalNetMasonryAreaM2": 3.6525000000000003,
+      "conditionalWeightMagnitudeKN": 5.7161625,
+      "previousConditionalNetAreaR67M2": 3.6525000000000003,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W10",
+      "name": "Fachada inferior / banheiro direito",
+      "openingIds": [
+        "S-J2-02"
+      ],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 4.1325,
+      "conditionalNetMasonryAreaM2": 3.6525,
+      "conditionalWeightMagnitudeKN": 5.716162499999999,
+      "previousConditionalNetAreaR67M2": 3.6525,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W11",
+      "name": "Divisória entre quartos",
+      "openingIds": [],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 11.927999999999999,
+      "conditionalNetMasonryAreaM2": 11.927999999999999,
+      "conditionalWeightMagnitudeKN": 18.667319999999997,
+      "previousConditionalNetAreaR67M2": 11.927999999999999,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W12",
+      "name": "Quarto inferior / hall e escada",
+      "openingIds": [
+        "S-P2-01"
+      ],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 10.223999999999998,
+      "conditionalNetMasonryAreaM2": 8.754,
+      "conditionalWeightMagnitudeKN": 13.700009999999999,
+      "previousConditionalNetAreaR67M2": 8.753999999999998,
+      "deltaConditionalAreaFromR67M2": 1.7763568394002505e-15,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W13",
+      "name": "Quarto superior / acesso pelo hall",
+      "openingIds": [
+        "S-P2-02"
+      ],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 2.556,
+      "conditionalNetMasonryAreaM2": 1.0859999999999996,
+      "conditionalWeightMagnitudeKN": 1.6995899999999993,
+      "previousConditionalNetAreaR67M2": 1.0859999999999996,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W14",
+      "name": "Quarto superior / suíte",
+      "openingIds": [],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 5.537999999999999,
+      "conditionalNetMasonryAreaM2": 5.537999999999999,
+      "conditionalWeightMagnitudeKN": 8.66697,
+      "previousConditionalNetAreaR67M2": 5.537999999999999,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W15",
+      "name": "Retorno horizontal da suíte sobre o hall",
+      "openingIds": [],
+      "routes": [
+        "laje",
+        "viga"
+      ],
+      "grossMasonryAreaM2": 3.1339999999999995,
+      "conditionalNetMasonryAreaM2": 3.1339999999999995,
+      "conditionalWeightMagnitudeKN": 4.904709999999999,
+      "previousConditionalNetAreaR67M2": 3.1339999999999995,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W16",
+      "name": "Suíte / porta para o hall",
+      "openingIds": [
+        "S-P2-03"
+      ],
+      "routes": [
+        "laje",
+        "viga"
+      ],
+      "grossMasonryAreaM2": 3.1339999999999995,
+      "conditionalNetMasonryAreaM2": 1.6639999999999993,
+      "conditionalWeightMagnitudeKN": 2.604159999999999,
+      "previousConditionalNetAreaR67M2": 1.663999999999999,
+      "deltaConditionalAreaFromR67M2": 2.220446049250313e-16,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W17",
+      "name": "Suíte / faixa sobre o hall",
+      "openingIds": [],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 2.698,
+      "conditionalNetMasonryAreaM2": 2.698,
+      "conditionalWeightMagnitudeKN": 4.22237,
+      "previousConditionalNetAreaR67M2": 2.698,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W18",
+      "name": "Suíte / banheiros",
+      "openingIds": [
+        "S-P3-02"
+      ],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 8.1225,
+      "conditionalNetMasonryAreaM2": 6.862499999999997,
+      "conditionalWeightMagnitudeKN": 10.739812499999996,
+      "previousConditionalNetAreaR67M2": 7.072500000000001,
+      "deltaConditionalAreaFromR67M2": -0.21000000000000352,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W19",
+      "name": "Hall e escada / banheiro esquerdo",
+      "openingIds": [
+        "S-P3-01"
+      ],
+      "routes": [
+        "viga"
+      ],
+      "grossMasonryAreaM2": 10.4025,
+      "conditionalNetMasonryAreaM2": 9.1425,
+      "conditionalWeightMagnitudeKN": 14.3080125,
+      "previousConditionalNetAreaR67M2": 9.1425,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W20",
+      "name": "Divisória entre banheiros",
+      "openingIds": [],
+      "routes": [
+        "laje",
+        "viga"
+      ],
+      "grossMasonryAreaM2": 11.707,
+      "conditionalNetMasonryAreaM2": 11.707,
+      "conditionalWeightMagnitudeKN": 18.321455,
+      "previousConditionalNetAreaR67M2": 11.707,
+      "deltaConditionalAreaFromR67M2": 0.0,
+      "readyForNativeApplication": false
+    }
+  ],
+  "openingsWithR68Position": [
+    {
+      "id": "S-J1-01",
+      "wallId": "W01",
+      "tag": "J1",
+      "axis": "y",
+      "rawStartM": 1.15,
+      "rawWidthM": 1.6,
+      "nominalWidthM": 1.6,
+      "heightM": 1.0,
+      "nominalStartM": 1.15,
+      "nominalEndM": 2.75,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.6,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.0
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.6,
+      "conditionalDeductionRangeM2": [
+        1.5999999999999999,
+        1.6000000000000003
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": null,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.6000000000000003,
+          "knownHeightMasonryOverlapWidthM": 1.6000000000000003,
+          "conditionalMasonryDeductionM2": 1.6000000000000003
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.6,
+          "knownHeightMasonryOverlapWidthM": 1.6,
+          "conditionalMasonryDeductionM2": 1.6
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.5999999999999999,
+          "knownHeightMasonryOverlapWidthM": 1.5999999999999999,
+          "conditionalMasonryDeductionM2": 1.5999999999999999
+        }
+      ]
+    },
+    {
+      "id": "S-J1-02",
+      "wallId": "W02",
+      "tag": "J1",
+      "axis": "y",
+      "rawStartM": 4.7,
+      "rawWidthM": 1.5999999999999996,
+      "nominalWidthM": 1.6,
+      "heightM": 1.0,
+      "nominalStartM": 4.7,
+      "nominalEndM": 6.300000000000001,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.6,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.0
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.6000000000000005,
+      "conditionalDeductionRangeM2": [
+        1.6000000000000005,
+        1.6000000000000005
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": null,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.6000000000000005,
+          "knownHeightMasonryOverlapWidthM": 1.6000000000000005,
+          "conditionalMasonryDeductionM2": 1.6000000000000005
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.6000000000000005,
+          "knownHeightMasonryOverlapWidthM": 1.6000000000000005,
+          "conditionalMasonryDeductionM2": 1.6000000000000005
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.6000000000000005,
+          "knownHeightMasonryOverlapWidthM": 1.6000000000000005,
+          "conditionalMasonryDeductionM2": 1.6000000000000005
+        }
+      ]
+    },
+    {
+      "id": "S-J1-03",
+      "wallId": "W04",
+      "tag": "J1",
+      "axis": "x",
+      "rawStartM": 6.75,
+      "rawWidthM": 1.5999999999999996,
+      "nominalWidthM": 1.6,
+      "heightM": 1.0,
+      "nominalStartM": 6.75,
+      "nominalEndM": 8.35,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.6,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.0
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.5999999999999996,
+      "conditionalDeductionRangeM2": [
+        1.5999999999999988,
+        1.6000000000000005
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": null,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.5999999999999988,
+          "knownHeightMasonryOverlapWidthM": 1.5999999999999988,
+          "conditionalMasonryDeductionM2": 1.5999999999999988
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.5999999999999996,
+          "knownHeightMasonryOverlapWidthM": 1.5999999999999996,
+          "conditionalMasonryDeductionM2": 1.5999999999999996
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 1.6000000000000005,
+          "knownHeightMasonryOverlapWidthM": 1.6000000000000005,
+          "conditionalMasonryDeductionM2": 1.6000000000000005
+        }
+      ]
+    },
+    {
+      "id": "S-P4-01",
+      "wallId": "W06",
+      "tag": "P4",
+      "axis": "y",
+      "rawStartM": 4.45,
+      "rawWidthM": 2.0,
+      "nominalWidthM": 2.0,
+      "heightM": 2.1,
+      "nominalStartM": 4.45,
+      "nominalEndM": 6.45,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 4.2,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.0
+      ],
+      "nominalConditionalMasonryDeductionM2": 4.2,
+      "conditionalDeductionRangeM2": [
+        4.2,
+        4.2
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 2.0,
+          "knownHeightMasonryOverlapWidthM": 2.0,
+          "conditionalMasonryDeductionM2": 4.2
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 2.0,
+          "knownHeightMasonryOverlapWidthM": 2.0,
+          "conditionalMasonryDeductionM2": 4.2
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 2.0,
+          "knownHeightMasonryOverlapWidthM": 2.0,
+          "conditionalMasonryDeductionM2": 4.2
+        }
+      ]
+    },
+    {
+      "id": "S-J2-01",
+      "wallId": "W09",
+      "tag": "J2",
+      "axis": "x",
+      "rawStartM": 6.95,
+      "rawWidthM": 0.7999999999999998,
+      "nominalWidthM": 0.8,
+      "heightM": 0.6,
+      "nominalStartM": 6.949999999999999,
+      "nominalEndM": 7.749999999999999,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 0.48,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.0
+      ],
+      "nominalConditionalMasonryDeductionM2": 0.47999999999999987,
+      "conditionalDeductionRangeM2": [
+        0.47999999999999987,
+        0.47999999999999987
+      ],
+      "sillM": 1.5,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7999999999999998,
+          "knownHeightMasonryOverlapWidthM": 0.7999999999999998,
+          "conditionalMasonryDeductionM2": 0.47999999999999987
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7999999999999998,
+          "knownHeightMasonryOverlapWidthM": 0.7999999999999998,
+          "conditionalMasonryDeductionM2": 0.47999999999999987
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7999999999999998,
+          "knownHeightMasonryOverlapWidthM": 0.7999999999999998,
+          "conditionalMasonryDeductionM2": 0.47999999999999987
+        }
+      ]
+    },
+    {
+      "id": "S-J2-02",
+      "wallId": "W10",
+      "tag": "J2",
+      "axis": "x",
+      "rawStartM": 8.5,
+      "rawWidthM": 0.8000000000000007,
+      "nominalWidthM": 0.8,
+      "heightM": 0.6,
+      "nominalStartM": 8.5,
+      "nominalEndM": 9.3,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 0.48,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.0
+      ],
+      "nominalConditionalMasonryDeductionM2": 0.4800000000000004,
+      "conditionalDeductionRangeM2": [
+        0.4800000000000004,
+        0.4800000000000004
+      ],
+      "sillM": 1.5,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.8000000000000007,
+          "knownHeightMasonryOverlapWidthM": 0.8000000000000007,
+          "conditionalMasonryDeductionM2": 0.4800000000000004
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.8000000000000007,
+          "knownHeightMasonryOverlapWidthM": 0.8000000000000007,
+          "conditionalMasonryDeductionM2": 0.4800000000000004
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.8000000000000007,
+          "knownHeightMasonryOverlapWidthM": 0.8000000000000007,
+          "conditionalMasonryDeductionM2": 0.4800000000000004
+        }
+      ]
+    },
+    {
+      "id": "S-P2-01",
+      "wallId": "W12",
+      "tag": "P2",
+      "axis": "y",
+      "rawStartM": 3.05,
+      "rawWidthM": 0.7000000000000002,
+      "nominalWidthM": 0.7,
+      "heightM": 2.1,
+      "nominalStartM": 3.05,
+      "nominalEndM": 3.75,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.47,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.04999999999999982
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.4700000000000004,
+      "conditionalDeductionRangeM2": [
+        1.3650000000000009,
+        1.4700000000000004
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.04999999999999982,
+          "masonryOverlapWidthM": 0.6500000000000004,
+          "knownHeightMasonryOverlapWidthM": 0.6500000000000004,
+          "conditionalMasonryDeductionM2": 1.3650000000000009
+        }
+      ]
+    },
+    {
+      "id": "S-P2-02",
+      "wallId": "W13",
+      "tag": "P2",
+      "axis": "y",
+      "rawStartM": 4.05,
+      "rawWidthM": 0.7000000000000002,
+      "nominalWidthM": 0.7,
+      "heightM": 2.1,
+      "nominalStartM": 4.050000000000001,
+      "nominalEndM": 4.750000000000001,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.47,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.049999999999998934
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.4700000000000004,
+      "conditionalDeductionRangeM2": [
+        1.3650000000000027,
+        1.4700000000000004
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.049999999999998934,
+          "masonryOverlapWidthM": 0.6500000000000012,
+          "knownHeightMasonryOverlapWidthM": 0.6500000000000012,
+          "conditionalMasonryDeductionM2": 1.3650000000000027
+        },
+        {
+          "translationM": -8.881784197001252e-16,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        }
+      ]
+    },
+    {
+      "id": "S-P2-03",
+      "wallId": "W16",
+      "tag": "P2",
+      "axis": "y",
+      "rawStartM": 4.05,
+      "rawWidthM": 0.7000000000000002,
+      "nominalWidthM": 0.7,
+      "heightM": 2.1,
+      "nominalStartM": 4.050000000000001,
+      "nominalEndM": 4.750000000000001,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.47,
+      "nominalColumnOverlapWidthM": 0,
+      "columnOverlapWidthRangeM": [
+        0,
+        0
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.4700000000000004,
+      "conditionalDeductionRangeM2": [
+        1.4700000000000004,
+        1.4700000000000004
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0,
+          "masonryOverlapWidthM": 0.7000000000000002,
+          "knownHeightMasonryOverlapWidthM": 0.7000000000000002,
+          "conditionalMasonryDeductionM2": 1.4700000000000004
+        }
+      ]
+    },
+    {
+      "id": "S-P3-02",
+      "wallId": "W18",
+      "tag": "P3",
+      "axis": "x",
+      "rawStartM": 9.05,
+      "rawWidthM": 0.5999999999999996,
+      "nominalWidthM": 0.6,
+      "heightM": 2.1,
+      "nominalStartM": 8.873633333333332,
+      "nominalEndM": 9.473633333333334,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.26,
+      "nominalColumnOverlapWidthM": 0,
+      "columnOverlapWidthRangeM": [
+        0.049999999999998934,
+        0.09999999999999964
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.05,
+      "conditionalDeductionRangeM2": [
+        0.9449999999999985,
+        1.1550000000000016
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.049999999999998934,
+          "masonryOverlapWidthM": 0.5500000000000007,
+          "knownHeightMasonryOverlapWidthM": 0.5500000000000007,
+          "conditionalMasonryDeductionM2": 1.1550000000000016
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.09999999999999964,
+          "masonryOverlapWidthM": 0.5,
+          "knownHeightMasonryOverlapWidthM": 0.5,
+          "conditionalMasonryDeductionM2": 1.05
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.09999999999999964,
+          "masonryOverlapWidthM": 0.4499999999999993,
+          "knownHeightMasonryOverlapWidthM": 0.4499999999999993,
+          "conditionalMasonryDeductionM2": 0.9449999999999985
+        }
+      ],
+      "positionSource": "R68, largura nominal centrada na leitura vetorial do vão claro"
+    },
+    {
+      "id": "S-P3-01",
+      "wallId": "W19",
+      "tag": "P3",
+      "axis": "y",
+      "rawStartM": 3.1263166666666664,
+      "rawWidthM": 0.601133333333332,
+      "nominalWidthM": 0.6,
+      "heightM": 2.1,
+      "nominalStartM": 3.126883333333333,
+      "nominalEndM": 3.726883333333333,
+      "positionUncertaintyM": 0.05,
+      "uncertaintyIsStudyNotSurvey": true,
+      "nominalFullOpeningAreaM2": 1.26,
+      "nominalColumnOverlapWidthM": 0.0,
+      "columnOverlapWidthRangeM": [
+        0.0,
+        0.0
+      ],
+      "nominalConditionalMasonryDeductionM2": 1.2600000000000002,
+      "conditionalDeductionRangeM2": [
+        1.2600000000000002,
+        1.2600000000000002
+      ],
+      "sillM": null,
+      "verticalFitFromAvailableData": true,
+      "joineryTareKN": null,
+      "lintelLoadsDefined": false,
+      "nativeApplied": false,
+      "conditionalOnly": true,
+      "scenarios": [
+        {
+          "translationM": -0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.6000000000000001,
+          "knownHeightMasonryOverlapWidthM": 0.6000000000000001,
+          "conditionalMasonryDeductionM2": 1.2600000000000002
+        },
+        {
+          "translationM": 0.0,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.6000000000000001,
+          "knownHeightMasonryOverlapWidthM": 0.6000000000000001,
+          "conditionalMasonryDeductionM2": 1.2600000000000002
+        },
+        {
+          "translationM": 0.05,
+          "columnOverlapWidthM": 0.0,
+          "masonryOverlapWidthM": 0.6000000000000001,
+          "knownHeightMasonryOverlapWidthM": 0.6000000000000001,
+          "conditionalMasonryDeductionM2": 1.2600000000000002
+        }
+      ]
+    }
+  ],
+  "priorityUnopenedParallelBeamWalls": [
+    {
+      "wallId": "W03",
+      "segments": [
+        "R120-S08"
+      ],
+      "pointsXYM": [
+        [
+          0.1,
+          7.05
+        ],
+        [
+          4.3,
+          7.05
+        ]
+      ],
+      "weightMagnitudeKN": 18.667319999999997,
+      "lineWeightMagnitudeKNm": 4.444599999999999,
+      "supports": {
+        "CAD": {
+          "name": "V3",
+          "guidR56": "1OaXyKqoaHyOy801fzsd4G",
+          "minR56": [
+            0.1,
+            6.95,
+            2.75
+          ],
+          "maxR56": [
+            4.3,
+            7.15,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V1",
+          "guidR56": "2MjmM1qlqHyOy801fzsd4G",
+          "minR56": [
+            0.1,
+            6.95,
+            2.75
+          ],
+          "maxR56": [
+            4.3,
+            7.15,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "proposedAction": "Adicional",
+      "requiresNodesOrExactSegmentDefinition": true,
+      "nativeSignedInputValue": null,
+      "isPriorityCandidateOnly": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W05",
+      "segments": [
+        "R120-S14"
+      ],
+      "pointsXYM": [
+        [
+          9.65,
+          0.15
+        ],
+        [
+          9.65,
+          3.75
+        ]
+      ],
+      "weightMagnitudeKN": 16.0569,
+      "lineWeightMagnitudeKNm": 4.46025,
+      "supports": {
+        "CAD": {
+          "name": "V8",
+          "guidR56": "1Aq$xBqoeHyOy801fzsd4G",
+          "minR56": [
+            9.55,
+            0.15,
+            2.8
+          ],
+          "maxR56": [
+            9.75,
+            3.75,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V12",
+          "guidR56": "2MjmMDqlqHyOy801fzsd4G",
+          "minR56": [
+            9.55,
+            0.15,
+            2.8
+          ],
+          "maxR56": [
+            9.75,
+            3.75,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "proposedAction": "Adicional",
+      "requiresNodesOrExactSegmentDefinition": true,
+      "nativeSignedInputValue": null,
+      "isPriorityCandidateOnly": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W07",
+      "segments": [
+        "R120-S20"
+      ],
+      "pointsXYM": [
+        [
+          0.1,
+          0
+        ],
+        [
+          4.3,
+          0
+        ]
+      ],
+      "weightMagnitudeKN": 18.667319999999997,
+      "lineWeightMagnitudeKNm": 4.444599999999999,
+      "supports": {
+        "CAD": {
+          "name": "V1",
+          "guidR56": "0Ubls1qoaHyOy801fzsd4G",
+          "minR56": [
+            0.1,
+            -0.1,
+            2.75
+          ],
+          "maxR56": [
+            4.3,
+            0.1,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V5",
+          "guidR56": "2MjmM7qlqHyOy801fzsd4G",
+          "minR56": [
+            0.1,
+            -0.1,
+            2.75
+          ],
+          "maxR56": [
+            4.3,
+            0.1,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "proposedAction": "Adicional",
+      "requiresNodesOrExactSegmentDefinition": true,
+      "nativeSignedInputValue": null,
+      "isPriorityCandidateOnly": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W11",
+      "segments": [
+        "R120-S30"
+      ],
+      "pointsXYM": [
+        [
+          0.1,
+          3.9
+        ],
+        [
+          4.3,
+          3.9
+        ]
+      ],
+      "weightMagnitudeKN": 18.667319999999997,
+      "lineWeightMagnitudeKNm": 4.444599999999999,
+      "supports": {
+        "CAD": {
+          "name": "V2",
+          "guidR56": "0ybZq2qoaHyOy801fzsd4G",
+          "minR56": [
+            0.1,
+            3.8,
+            2.75
+          ],
+          "maxR56": [
+            4.3,
+            4.0,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V2",
+          "guidR56": "2MjmM4qlqHyOy801fzsd4G",
+          "minR56": [
+            0.1,
+            3.8,
+            2.75
+          ],
+          "maxR56": [
+            4.3,
+            4.0,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "proposedAction": "Adicional",
+      "requiresNodesOrExactSegmentDefinition": true,
+      "nativeSignedInputValue": null,
+      "isPriorityCandidateOnly": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W14",
+      "segments": [
+        "R120-S40"
+      ],
+      "pointsXYM": [
+        [
+          4.4,
+          4.95
+        ],
+        [
+          4.4,
+          6.9
+        ]
+      ],
+      "weightMagnitudeKN": 8.66697,
+      "lineWeightMagnitudeKNm": 4.444599999999999,
+      "supports": {
+        "CAD": {
+          "name": "V11",
+          "guidR56": "3WERLcqoeHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            4.05,
+            2.85
+          ],
+          "maxR56": [
+            4.5,
+            6.9,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V10",
+          "guidR56": "2MjmMMqlqHyOy801fzsd4G",
+          "minR56": [
+            4.3,
+            4.05,
+            2.85
+          ],
+          "maxR56": [
+            4.5,
+            6.9,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "proposedAction": "Adicional",
+      "requiresNodesOrExactSegmentDefinition": true,
+      "nativeSignedInputValue": null,
+      "isPriorityCandidateOnly": true,
+      "readyForNativeApplication": false
+    },
+    {
+      "wallId": "W17",
+      "segments": [
+        "R120-S46"
+      ],
+      "pointsXYM": [
+        [
+          5.45,
+          3.9
+        ],
+        [
+          6.4,
+          3.9
+        ]
+      ],
+      "weightMagnitudeKN": 4.22237,
+      "lineWeightMagnitudeKNm": 4.444599999999999,
+      "supports": {
+        "CAD": {
+          "name": "V14",
+          "guidR56": "1g4q1lqomHyOy801fzsd4G",
+          "minR56": [
+            4.5,
+            3.8,
+            3.04
+          ],
+          "maxR56": [
+            6.4,
+            4.0,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        },
+        "BIM": {
+          "name": "V2",
+          "guidR56": "2MjmMdqlqHyOy801fzsd4G",
+          "minR56": [
+            4.5,
+            3.8,
+            3.04
+          ],
+          "maxR56": [
+            6.4,
+            4.0,
+            3.2
+          ],
+          "parallelToWall": true,
+          "otherIntersectingBeamNames": [],
+          "selectionIsGeometricOnly": true
+        }
+      },
+      "proposedAction": "Adicional",
+      "requiresNodesOrExactSegmentDefinition": true,
+      "nativeSignedInputValue": null,
+      "isPriorityCandidateOnly": true,
+      "readyForNativeApplication": false
+    }
+  ],
+  "segmentRouteCounts": {
+    "coluna-sem-alvenaria": 29,
+    "viga": 26,
+    "sem-apoio-geometrico": 1,
+    "laje": 3
+  },
+  "ambiguousCrossingsGeometricallyResolved": 4,
+  "unknownWallIds": [
+    "W08"
+  ],
+  "revision": "H03/R120",
+  "createdAtUtc": "2026-11-01T15:46:12.798988+00:00",
+  "sources": [
+    {
+      "key": "walls",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r55\\R55-paredes-referencia.json",
+      "sha256": "a41898d50e14d418e47f628ddf6f46eb369c696e2a2b93a75bfca467b85b9710"
+    },
+    {
+      "key": "segments",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r56\\R56-paredes-trechos.json",
+      "sha256": "00688b11fa0a7a4e5a58d5daf5644c5271bd004ddcc6d9e7a8eb2eaa746d09e8"
+    },
+    {
+      "key": "geometry",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r56\\R56-geometria-exportada.json",
+      "sha256": "6fc2486f4eecd19985a4c4d87886822bb76ee40cee80e07c352db25bca0aabf7"
+    },
+    {
+      "key": "openings",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r67\\R67-aberturas-e-massas-condicionais.json",
+      "sha256": "15aad2b34e01cb0869955bc3905ad68395d8477ac74770baa97a93ec984a60ef"
+    },
+    {
+      "key": "doorCorrection",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r68\\R68-resultado.json",
+      "sha256": "1338a178400ec9aedcab10cdc937abea106bfd482354705913903c4d12b3872a"
+    },
+    {
+      "key": "stairFacade",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r70\\R70-W08-J4.json",
+      "sha256": "e3879dbedbbf95f40a5febadc027f679d1879625303ace820f19cc9de67a48b3"
+    },
+    {
+      "key": "materialHypothesis",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r97\\R97-base-materiais-paredes.json",
+      "sha256": "6102999ab4c8ab4220bb50712ed7509439508e558f35c7a1b0643e00a14b1c5e"
+    }
+  ],
+  "geometrySource": "R56 com preservação verificada na R57; não nova exportação atual.",
+  "areaWeightHypothesisKNm2": 1.565,
+  "wallCompositionManufacturerConfirmed": false,
+  "nativeFilesEdited": false,
+  "loadsApplied": false,
+  "processingPerformed": false,
+  "monographEdited": false,
+  "structuralApproval": false,
+  "finalWholeBuildingWeightKN": null,
+  "priorityCandidateSubtotalMagnitudeKN": 84.94819999999999,
+  "notes": [
+    "Áreas líquidas condicionadas ao encaixe vertical dos vãos; peitoris J1 desconhecidos não foram inventados.",
+    "Não inclui tara/vergas, acabamentos sobre concreto, correção volumétrica dos encontros, paredes térreas ou platibandas.",
+    "Prioridade geométrica em cruzamento não comprova repartição de reações ou vínculo analítico.",
+    "Não converter massa de parede com vão em carga uniforme: verga e ombreiras redistribuem ações.",
+    "Não lançar sobre a extensão integral da viga: intervalos livres de pilares exigem nós/trechos exatos.",
+    "Não aplicar a convenção de Fz nodal negativo a cargas lineares sem conferir o diálogo.",
+    "Não se validou vigência normativa por catálogo nesta etapa."
+  ]
+}
