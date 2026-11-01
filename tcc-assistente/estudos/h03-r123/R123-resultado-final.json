@@ -1,0 +1,2637 @@
+{
+  "revision": "H03/R123",
+  "createdAtUtc": "2026-11-01T16:49:07.797840+00:00",
+  "scope": "Comparação de registros dos seis arquivos analíticos exportados R122; sem leitura de resultados do solver ou edição nativa.",
+  "models": {
+    "portico": {
+      "perTable": {
+        "CASE - STATIC 1 - LOAD ASSIGNMENTS": {
+          "equal": true,
+          "CADCount": 16,
+          "BIMCount": 16,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "CASE - STATIC 4 - NONLINEAR PARAMETERS": {
+          "equal": true,
+          "CADCount": 1,
+          "BIMCount": 1,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "COMBINATION DEFINITIONS": {
+          "equal": true,
+          "CADCount": 324,
+          "BIMCount": 324,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "CONNECTIVITY - FRAME": {
+          "equal": false,
+          "CADCount": 133,
+          "BIMCount": 133,
+          "onlyCADCount": 68,
+          "onlyBIMCount": 68,
+          "onlyCADExamples": [
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  0.0,
+                  639.0
+                ],
+                "JointJ": [
+                  0.0,
+                  6.0,
+                  639.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    0.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    6.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  0.0,
+                  639.0
+                ],
+                "JointJ": [
+                  1.0,
+                  0.0,
+                  639.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    0.0,
+                    639.0
+                  ],
+                  [
+                    1.0,
+                    0.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  384.0,
+                  639.0
+                ],
+                "JointJ": [
+                  0.0,
+                  390.0,
+                  639.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    384.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    390.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ],
+          "onlyBIMExamples": [
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  384.0,
+                  639.0
+                ],
+                "JointJ": [
+                  0.0,
+                  6.0,
+                  639.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    384.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    6.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  390.0,
+                  639.0
+                ],
+                "JointJ": [
+                  0.0,
+                  384.0,
+                  639.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    390.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    384.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  394.5,
+                  320.0
+                ],
+                "JointJ": [
+                  0.0,
+                  390.0,
+                  320.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    394.5,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ]
+        },
+        "FRAME LOADS - DISTRIBUTED": {
+          "equal": false,
+          "CADCount": 79,
+          "BIMCount": 79,
+          "onlyCADCount": 34,
+          "onlyBIMCount": 34,
+          "onlyCADExamples": [
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-0.8",
+                "FOverLB": "-0.8",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    445.2,
+                    390.0,
+                    320.0
+                  ],
+                  [
+                    644.8,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-1.5",
+                "FOverLB": "-1.5",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    396.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    699.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-1.5",
+                "FOverLB": "-1.5",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    6.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    384.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ],
+          "onlyBIMExamples": [
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-0.8",
+                "FOverLB": "-0.8",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    644.8,
+                    390.0,
+                    320.0
+                  ],
+                  [
+                    445.2,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-1.5",
+                "FOverLB": "-1.5",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    384.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    6.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-1.5",
+                "FOverLB": "-1.5",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    699.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    396.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ]
+        },
+        "FRAME LOADS - POINT": {
+          "equal": false,
+          "CADCount": 876,
+          "BIMCount": 876,
+          "onlyCADCount": 607,
+          "onlyBIMCount": 607,
+          "onlyCADExamples": [
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "Force": "-0.0056",
+                "LoadPat": "QT",
+                "RelDist": "0.5571",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    655.0,
+                    6.0,
+                    639.0
+                  ],
+                  [
+                    655.0,
+                    389.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "Force": "-0.016",
+                "LoadPat": "Q",
+                "RelDist": "0.0806",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    656.0,
+                    0.0,
+                    639.0
+                  ],
+                  [
+                    964.0,
+                    0.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "Force": "-0.017",
+                "LoadPat": "QT",
+                "RelDist": "0.5645",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    965.0,
+                    6.0,
+                    639.0
+                  ],
+                  [
+                    965.0,
+                    384.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ],
+          "onlyBIMExamples": [
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "Force": "-0.0056",
+                "LoadPat": "QT",
+                "RelDist": "0.4429",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    655.0,
+                    389.0,
+                    639.0
+                  ],
+                  [
+                    655.0,
+                    6.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "Force": "-0.016",
+                "LoadPat": "Q",
+                "RelDist": "0.9194",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    964.0,
+                    0.0,
+                    639.0
+                  ],
+                  [
+                    656.0,
+                    0.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "Force": "-0.017",
+                "LoadPat": "QT",
+                "RelDist": "0.4355",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    965.0,
+                    384.0,
+                    639.0
+                  ],
+                  [
+                    965.0,
+                    6.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ]
+        },
+        "FRAME LOCAL AXES ASSIGNMENTS 1 - TYPICAL": {
+          "equal": true,
+          "CADCount": 33,
+          "BIMCount": 33,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "FRAME OUTPUT STATION ASSIGNMENTS": {
+          "equal": false,
+          "CADCount": 133,
+          "BIMCount": 133,
+          "onlyCADCount": 68,
+          "onlyBIMCount": 68,
+          "onlyCADExamples": [
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    0.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    6.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    0.0,
+                    639.0
+                  ],
+                  [
+                    1.0,
+                    0.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    384.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    390.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ],
+          "onlyBIMExamples": [
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    384.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    6.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    390.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    384.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    394.5,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ]
+        },
+        "FRAME SECTION ASSIGNMENTS": {
+          "equal": false,
+          "CADCount": 133,
+          "BIMCount": 133,
+          "onlyCADCount": 68,
+          "onlyBIMCount": 68,
+          "onlyCADExamples": [
+            {
+              "record": {
+                "AnalSect": "10",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    0.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    6.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AnalSect": "10",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    0.0,
+                    639.0
+                  ],
+                  [
+                    1.0,
+                    0.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AnalSect": "10",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    384.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    390.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ],
+          "onlyBIMExamples": [
+            {
+              "record": {
+                "AnalSect": "10",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    390.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    384.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AnalSect": "10",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    394.5,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AnalSect": "10",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    396.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    390.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ]
+        },
+        "FRAME SECTION PROPERTIES 01 - GENERAL": {
+          "equal": true,
+          "CADCount": 10,
+          "BIMCount": 10,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "JOINT COORDINATES": {
+          "equal": true,
+          "CADCount": 110,
+          "BIMCount": 110,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "JOINT LOADS - FORCE": {
+          "equal": true,
+          "CADCount": 179,
+          "BIMCount": 179,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "JOINT RESTRAINT ASSIGNMENTS": {
+          "equal": true,
+          "CADCount": 11,
+          "BIMCount": 11,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "LOAD CASE DEFINITIONS": {
+          "equal": true,
+          "CADCount": 13,
+          "BIMCount": 13,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "LOAD PATTERN DEFINITIONS": {
+          "equal": true,
+          "CADCount": 12,
+          "BIMCount": 12,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "MATERIAL PROPERTIES 01 - GENERAL": {
+          "equal": true,
+          "CADCount": 3,
+          "BIMCount": 3,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "MATERIAL PROPERTIES 02 - BASIC MECHANICAL PROPERTIES": {
+          "equal": true,
+          "CADCount": 3,
+          "BIMCount": 3,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "PROGRAM CONTROL": {
+          "equal": true,
+          "CADCount": 1,
+          "BIMCount": 1,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        }
+      },
+      "wholeFrameObjects": {
+        "equal": false,
+        "CADCount": 133,
+        "BIMCount": 133,
+        "onlyCADCount": 68,
+        "onlyBIMCount": 68,
+        "onlyCADExamples": [
+          {
+            "record": {
+              "endpointsOrderedCm": [
+                [
+                  0.0,
+                  0.0,
+                  639.0
+                ],
+                [
+                  0.0,
+                  6.0,
+                  639.0
+                ]
+              ],
+              "tables": {
+                "CONNECTIVITY - FRAME": [
+                  "{\"JointI\":[0.0,0.0,639.0],\"JointJ\":[0.0,6.0,639.0]}"
+                ],
+                "FRAME OUTPUT STATION ASSIGNMENTS": [
+                  "{\"AddAtElmInt\":\"Yes\",\"AddAtPtLoad\":\"Yes\",\"MinNumSta\":\"11\",\"StationType\":\"MinNumSta\"}"
+                ],
+                "FRAME SECTION ASSIGNMENTS": [
+                  "{\"AnalSect\":\"10\"}"
+                ]
+              }
+            },
+            "multiplicity": 1
+          }
+        ],
+        "onlyBIMExamples": [
+          {
+            "record": {
+              "endpointsOrderedCm": [
+                [
+                  0.0,
+                  384.0,
+                  639.0
+                ],
+                [
+                  0.0,
+                  6.0,
+                  639.0
+                ]
+              ],
+              "tables": {
+                "CONNECTIVITY - FRAME": [
+                  "{\"JointI\":[0.0,384.0,639.0],\"JointJ\":[0.0,6.0,639.0]}"
+                ],
+                "FRAME LOADS - DISTRIBUTED": [
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"FOverLA\":\"-1.5\",\"FOverLB\":\"-1.5\",\"LoadPat\":\"G1\",\"RelDistA\":\"0\",\"RelDistB\":\"1\",\"Type\":\"Force\"}"
+                ],
+                "FRAME LOADS - POINT": [
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-0.7685\",\"LoadPat\":\"QT\",\"RelDist\":\"0.5645\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-0.9894\",\"LoadPat\":\"QT\",\"RelDist\":\"0.4355\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-1.7745\",\"LoadPat\":\"QT\",\"RelDist\":\"0.6934\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-10.5884\",\"LoadPat\":\"QT\",\"RelDist\":\"0.0486\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-108.1828\",\"LoadPat\":\"Q\",\"RelDist\":\"0.1776\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-15.926\",\"LoadPat\":\"G2\",\"RelDist\":\"0.5645\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-16.8564\",\"LoadPat\":\"G2\",\"RelDist\":\"0.4355\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-17.8084\",\"LoadPat\":\"G2\",\"RelDist\":\"0.6934\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-184.1501\",\"LoadPat\":\"G1\",\"RelDist\":\"0.5645\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-192.2658\",\"LoadPat\":\"G1\",\"RelDist\":\"0.0486\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-195.102\",\"LoadPat\":\"G1\",\"RelDist\":\"0.4355\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-198.151\",\"LoadPat\":\"G1\",\"RelDist\":\"0.6934\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-2.8271\",\"LoadPat\":\"QT\",\"RelDist\":\"0.3065\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-21.7469\",\"LoadPat\":\"G2\",\"RelDist\":\"0.3065\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-22.6508\",\"LoadPat\":\"G2\",\"RelDist\":\"0.0486\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-241.7161\",\"LoadPat\":\"G1\",\"RelDist\":\"0.3065\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-26.0883\",\"LoadPat\":\"G2\",\"RelDist\":\"0.8224\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-273.2502\",\"LoadPat\":\"G1\",\"RelDist\":\"0.8224\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-3.6459\",\"LoadPat\":\"Q\",\"RelDist\":\"0.9514\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-34.5446\",\"LoadPat\":\"Q\",\"RelDist\":\"0.0486\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-39.1056\",\"LoadPat\":\"G2\",\"RelDist\":\"0.1776\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-413.1348\",\"LoadPat\":\"G1\",\"RelDist\":\"0.1776\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-5.3884\",\"LoadPat\":\"QT\",\"RelDist\":\"0.8224\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-5.5563\",\"LoadPat\":\"QT\",\"RelDist\":\"0.9514\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-59.0498\",\"LoadPat\":\"G1\",\"RelDist\":\"0.9514\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-59.6352\",\"LoadPat\":\"Q\",\"RelDist\":\"0.5645\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-61.8388\",\"LoadPat\":\"Q\",\"RelDist\":\"0.6934\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-62.1874\",\"LoadPat\":\"Q\",\"RelDist\":\"0.4355\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-72.0199\",\"LoadPat\":\"Q\",\"RelDist\":\"0.3065\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-75.8251\",\"LoadPat\":\"Q\",\"RelDist\":\"0.8224\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-8.2657\",\"LoadPat\":\"G2\",\"RelDist\":\"0.9514\",\"Type\":\"Force\"}",
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"Force\":\"-9.1115\",\"LoadPat\":\"QT\",\"RelDist\":\"0.1776\",\"Type\":\"Force\"}"
+                ],
+                "FRAME OUTPUT STATION ASSIGNMENTS": [
+                  "{\"AddAtElmInt\":\"Yes\",\"AddAtPtLoad\":\"Yes\",\"MinNumSta\":\"11\",\"StationType\":\"MinNumSta\"}"
+                ],
+                "FRAME SECTION ASSIGNMENTS": [
+                  "{\"AnalSect\":\"R20x30B\"}"
+                ]
+              }
+            },
+            "multiplicity": 1
+          }
+        ]
+      },
+      "allTableRecordsEqualAfterRenumbering": false,
+      "frameAssociationsEqualAfterRenumbering": false
+    },
+    "N1": {
+      "perTable": {
+        "CASE - STATIC 1 - LOAD ASSIGNMENTS": {
+          "equal": true,
+          "CADCount": 16,
+          "BIMCount": 16,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "CASE - STATIC 4 - NONLINEAR PARAMETERS": {
+          "equal": true,
+          "CADCount": 1,
+          "BIMCount": 1,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "COMBINATION DEFINITIONS": {
+          "equal": true,
+          "CADCount": 324,
+          "BIMCount": 324,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "CONNECTIVITY - FRAME": {
+          "equal": false,
+          "CADCount": 838,
+          "BIMCount": 838,
+          "onlyCADCount": 76,
+          "onlyBIMCount": 76,
+          "onlyCADExamples": [
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  390.0,
+                  320.0
+                ],
+                "JointJ": [
+                  0.0,
+                  394.5,
+                  320.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    390.0,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    394.5,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  390.0,
+                  320.0
+                ],
+                "JointJ": [
+                  24.44,
+                  390.0,
+                  320.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    390.0,
+                    320.0
+                  ],
+                  [
+                    24.44,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  394.5,
+                  320.0
+                ],
+                "JointJ": [
+                  0.0,
+                  416.25,
+                  320.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    394.5,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    416.25,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ],
+          "onlyBIMExamples": [
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  394.5,
+                  320.0
+                ],
+                "JointJ": [
+                  0.0,
+                  390.0,
+                  320.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    394.5,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  416.25,
+                  320.0
+                ],
+                "JointJ": [
+                  0.0,
+                  394.5,
+                  320.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    416.25,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    394.5,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  468.75,
+                  320.0
+                ],
+                "JointJ": [
+                  0.0,
+                  416.25,
+                  320.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    468.75,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    416.25,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ]
+        },
+        "FRAME LOADS - DISTRIBUTED": {
+          "equal": false,
+          "CADCount": 2109,
+          "BIMCount": 2109,
+          "onlyCADCount": 79,
+          "onlyBIMCount": 79,
+          "onlyCADExamples": [
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-0.8",
+                "FOverLB": "-0.8",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    445.2,
+                    390.0,
+                    320.0
+                  ],
+                  [
+                    463.86,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-0.8",
+                "FOverLB": "-0.8",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    463.86,
+                    390.0,
+                    320.0
+                  ],
+                  [
+                    466.87,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-0.8",
+                "FOverLB": "-0.8",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    466.87,
+                    390.0,
+                    320.0
+                  ],
+                  [
+                    511.59,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ],
+          "onlyBIMExamples": [
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-0.8",
+                "FOverLB": "-0.8",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    463.86,
+                    390.0,
+                    320.0
+                  ],
+                  [
+                    445.2,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-0.8",
+                "FOverLB": "-0.8",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    466.87,
+                    390.0,
+                    320.0
+                  ],
+                  [
+                    463.86,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-0.8",
+                "FOverLB": "-0.8",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    511.59,
+                    390.0,
+                    320.0
+                  ],
+                  [
+                    466.87,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ]
+        },
+        "FRAME OUTPUT STATION ASSIGNMENTS": {
+          "equal": false,
+          "CADCount": 838,
+          "BIMCount": 838,
+          "onlyCADCount": 76,
+          "onlyBIMCount": 76,
+          "onlyCADExamples": [
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    390.0,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    394.5,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    390.0,
+                    320.0
+                  ],
+                  [
+                    24.44,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    394.5,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    416.25,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ],
+          "onlyBIMExamples": [
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    394.5,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    416.25,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    394.5,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    468.75,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    416.25,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ]
+        },
+        "FRAME RELEASE ASSIGNMENTS 1 - GENERAL": {
+          "equal": true,
+          "CADCount": 137,
+          "BIMCount": 137,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "FRAME RELEASE ASSIGNMENTS 2 - PARTIAL FIXITY": {
+          "equal": true,
+          "CADCount": 1,
+          "BIMCount": 1,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "FRAME SECTION ASSIGNMENTS": {
+          "equal": false,
+          "CADCount": 838,
+          "BIMCount": 838,
+          "onlyCADCount": 76,
+          "onlyBIMCount": 76,
+          "onlyCADExamples": [
+            {
+              "record": {
+                "AnalSect": "19",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    390.0,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    394.5,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AnalSect": "19",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    700.5,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    705.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AnalSect": "19",
+                "frameEndpointsOrderedCm": [
+                  [
+                    440.0,
+                    390.0,
+                    320.0
+                  ],
+                  [
+                    440.0,
+                    394.5,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ],
+          "onlyBIMExamples": [
+            {
+              "record": {
+                "AnalSect": "19",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    394.5,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AnalSect": "19",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    705.0,
+                    320.0
+                  ],
+                  [
+                    0.0,
+                    700.5,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AnalSect": "19",
+                "frameEndpointsOrderedCm": [
+                  [
+                    440.0,
+                    394.5,
+                    320.0
+                  ],
+                  [
+                    440.0,
+                    390.0,
+                    320.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ]
+        },
+        "FRAME SECTION PROPERTIES 01 - GENERAL": {
+          "equal": true,
+          "CADCount": 19,
+          "BIMCount": 19,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "JOINT COORDINATES": {
+          "equal": true,
+          "CADCount": 467,
+          "BIMCount": 467,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "JOINT RESTRAINT ASSIGNMENTS": {
+          "equal": true,
+          "CADCount": 446,
+          "BIMCount": 446,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "JOINT SPRING ASSIGNMENTS 1 - UNCOUPLED": {
+          "equal": true,
+          "CADCount": 11,
+          "BIMCount": 11,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "LOAD CASE DEFINITIONS": {
+          "equal": true,
+          "CADCount": 13,
+          "BIMCount": 13,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "LOAD PATTERN DEFINITIONS": {
+          "equal": true,
+          "CADCount": 12,
+          "BIMCount": 12,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "MATERIAL PROPERTIES 01 - GENERAL": {
+          "equal": true,
+          "CADCount": 2,
+          "BIMCount": 2,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "MATERIAL PROPERTIES 02 - BASIC MECHANICAL PROPERTIES": {
+          "equal": true,
+          "CADCount": 2,
+          "BIMCount": 2,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "PROGRAM CONTROL": {
+          "equal": true,
+          "CADCount": 1,
+          "BIMCount": 1,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        }
+      },
+      "wholeFrameObjects": {
+        "equal": false,
+        "CADCount": 838,
+        "BIMCount": 838,
+        "onlyCADCount": 76,
+        "onlyBIMCount": 76,
+        "onlyCADExamples": [
+          {
+            "record": {
+              "endpointsOrderedCm": [
+                [
+                  0.0,
+                  390.0,
+                  320.0
+                ],
+                [
+                  0.0,
+                  394.5,
+                  320.0
+                ]
+              ],
+              "tables": {
+                "CONNECTIVITY - FRAME": [
+                  "{\"JointI\":[0.0,390.0,320.0],\"JointJ\":[0.0,394.5,320.0]}"
+                ],
+                "FRAME OUTPUT STATION ASSIGNMENTS": [
+                  "{\"AddAtElmInt\":\"Yes\",\"AddAtPtLoad\":\"Yes\",\"MinNumSta\":\"11\",\"StationType\":\"MinNumSta\"}"
+                ],
+                "FRAME SECTION ASSIGNMENTS": [
+                  "{\"AnalSect\":\"19\"}"
+                ]
+              }
+            },
+            "multiplicity": 1
+          }
+        ],
+        "onlyBIMExamples": [
+          {
+            "record": {
+              "endpointsOrderedCm": [
+                [
+                  0.0,
+                  394.5,
+                  320.0
+                ],
+                [
+                  0.0,
+                  390.0,
+                  320.0
+                ]
+              ],
+              "tables": {
+                "CONNECTIVITY - FRAME": [
+                  "{\"JointI\":[0.0,394.5,320.0],\"JointJ\":[0.0,390.0,320.0]}"
+                ],
+                "FRAME OUTPUT STATION ASSIGNMENTS": [
+                  "{\"AddAtElmInt\":\"Yes\",\"AddAtPtLoad\":\"Yes\",\"MinNumSta\":\"11\",\"StationType\":\"MinNumSta\"}"
+                ],
+                "FRAME SECTION ASSIGNMENTS": [
+                  "{\"AnalSect\":\"19\"}"
+                ]
+              }
+            },
+            "multiplicity": 1
+          }
+        ]
+      },
+      "allTableRecordsEqualAfterRenumbering": false,
+      "frameAssociationsEqualAfterRenumbering": false
+    },
+    "N2": {
+      "perTable": {
+        "CASE - STATIC 1 - LOAD ASSIGNMENTS": {
+          "equal": true,
+          "CADCount": 16,
+          "BIMCount": 16,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "CASE - STATIC 4 - NONLINEAR PARAMETERS": {
+          "equal": true,
+          "CADCount": 1,
+          "BIMCount": 1,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "COMBINATION DEFINITIONS": {
+          "equal": true,
+          "CADCount": 324,
+          "BIMCount": 324,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "CONNECTIVITY - FRAME": {
+          "equal": false,
+          "CADCount": 794,
+          "BIMCount": 794,
+          "onlyCADCount": 159,
+          "onlyBIMCount": 159,
+          "onlyCADExamples": [
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  0.0,
+                  639.0
+                ],
+                "JointJ": [
+                  0.0,
+                  6.0,
+                  639.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    0.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    6.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  0.0,
+                  639.0
+                ],
+                "JointJ": [
+                  1.0,
+                  0.0,
+                  639.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    0.0,
+                    639.0
+                  ],
+                  [
+                    1.0,
+                    0.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  121.88,
+                  639.0
+                ],
+                "JointJ": [
+                  0.0,
+                  170.63,
+                  639.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    121.88,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    170.63,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ],
+          "onlyBIMExamples": [
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  121.88,
+                  639.0
+                ],
+                "JointJ": [
+                  0.0,
+                  73.13,
+                  639.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    121.88,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    73.13,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  170.63,
+                  639.0
+                ],
+                "JointJ": [
+                  0.0,
+                  121.88,
+                  639.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    170.63,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    121.88,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "JointI": [
+                  0.0,
+                  219.38,
+                  639.0
+                ],
+                "JointJ": [
+                  0.0,
+                  170.63,
+                  639.0
+                ],
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    219.38,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    170.63,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ]
+        },
+        "FRAME LOADS - DISTRIBUTED": {
+          "equal": false,
+          "CADCount": 2001,
+          "BIMCount": 2001,
+          "onlyCADCount": 131,
+          "onlyBIMCount": 131,
+          "onlyCADExamples": [
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-1.5",
+                "FOverLB": "-1.5",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    121.88,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    170.63,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-1.5",
+                "FOverLB": "-1.5",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    170.63,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    219.38,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-1.5",
+                "FOverLB": "-1.5",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    219.38,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    268.13,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ],
+          "onlyBIMExamples": [
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-1.5",
+                "FOverLB": "-1.5",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    121.88,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    73.13,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-1.5",
+                "FOverLB": "-1.5",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    170.63,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    121.88,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "CoordSys": "LOCAL",
+                "Dir": "2",
+                "DistType": "RelDist",
+                "FOverLA": "-1.5",
+                "FOverLB": "-1.5",
+                "LoadPat": "G1",
+                "RelDistA": "0",
+                "RelDistB": "1",
+                "Type": "Force",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    219.38,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    170.63,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ]
+        },
+        "FRAME OUTPUT STATION ASSIGNMENTS": {
+          "equal": false,
+          "CADCount": 794,
+          "BIMCount": 794,
+          "onlyCADCount": 159,
+          "onlyBIMCount": 159,
+          "onlyCADExamples": [
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    0.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    6.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    0.0,
+                    639.0
+                  ],
+                  [
+                    1.0,
+                    0.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    121.88,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    170.63,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ],
+          "onlyBIMExamples": [
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    121.88,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    73.13,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    170.63,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    121.88,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AddAtElmInt": "Yes",
+                "AddAtPtLoad": "Yes",
+                "MinNumSta": "11",
+                "StationType": "MinNumSta",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    219.38,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    170.63,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ]
+        },
+        "FRAME RELEASE ASSIGNMENTS 1 - GENERAL": {
+          "equal": true,
+          "CADCount": 150,
+          "BIMCount": 150,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "FRAME SECTION ASSIGNMENTS": {
+          "equal": false,
+          "CADCount": 794,
+          "BIMCount": 794,
+          "onlyCADCount": 159,
+          "onlyBIMCount": 159,
+          "onlyCADExamples": [
+            {
+              "record": {
+                "AnalSect": "8",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    0.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    6.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AnalSect": "8",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    0.0,
+                    639.0
+                  ],
+                  [
+                    1.0,
+                    0.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AnalSect": "8",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    384.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    390.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ],
+          "onlyBIMExamples": [
+            {
+              "record": {
+                "AnalSect": "8",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    390.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    384.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AnalSect": "8",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    396.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    390.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            },
+            {
+              "record": {
+                "AnalSect": "8",
+                "frameEndpointsOrderedCm": [
+                  [
+                    0.0,
+                    6.0,
+                    639.0
+                  ],
+                  [
+                    0.0,
+                    0.0,
+                    639.0
+                  ]
+                ]
+              },
+              "multiplicity": 1
+            }
+          ]
+        },
+        "FRAME SECTION PROPERTIES 01 - GENERAL": {
+          "equal": true,
+          "CADCount": 8,
+          "BIMCount": 8,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "JOINT COORDINATES": {
+          "equal": true,
+          "CADCount": 443,
+          "BIMCount": 443,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "JOINT LOADS - FORCE": {
+          "equal": true,
+          "CADCount": 36,
+          "BIMCount": 36,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "JOINT RESTRAINT ASSIGNMENTS": {
+          "equal": true,
+          "CADCount": 412,
+          "BIMCount": 412,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "JOINT SPRING ASSIGNMENTS 1 - UNCOUPLED": {
+          "equal": true,
+          "CADCount": 11,
+          "BIMCount": 11,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "LOAD CASE DEFINITIONS": {
+          "equal": true,
+          "CADCount": 13,
+          "BIMCount": 13,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "LOAD PATTERN DEFINITIONS": {
+          "equal": true,
+          "CADCount": 12,
+          "BIMCount": 12,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "MATERIAL PROPERTIES 01 - GENERAL": {
+          "equal": true,
+          "CADCount": 2,
+          "BIMCount": 2,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "MATERIAL PROPERTIES 02 - BASIC MECHANICAL PROPERTIES": {
+          "equal": true,
+          "CADCount": 2,
+          "BIMCount": 2,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        },
+        "PROGRAM CONTROL": {
+          "equal": true,
+          "CADCount": 1,
+          "BIMCount": 1,
+          "onlyCADCount": 0,
+          "onlyBIMCount": 0,
+          "onlyCADExamples": [],
+          "onlyBIMExamples": []
+        }
+      },
+      "wholeFrameObjects": {
+        "equal": false,
+        "CADCount": 794,
+        "BIMCount": 794,
+        "onlyCADCount": 159,
+        "onlyBIMCount": 159,
+        "onlyCADExamples": [
+          {
+            "record": {
+              "endpointsOrderedCm": [
+                [
+                  0.0,
+                  0.0,
+                  639.0
+                ],
+                [
+                  0.0,
+                  6.0,
+                  639.0
+                ]
+              ],
+              "tables": {
+                "CONNECTIVITY - FRAME": [
+                  "{\"JointI\":[0.0,0.0,639.0],\"JointJ\":[0.0,6.0,639.0]}"
+                ],
+                "FRAME OUTPUT STATION ASSIGNMENTS": [
+                  "{\"AddAtElmInt\":\"Yes\",\"AddAtPtLoad\":\"Yes\",\"MinNumSta\":\"11\",\"StationType\":\"MinNumSta\"}"
+                ],
+                "FRAME SECTION ASSIGNMENTS": [
+                  "{\"AnalSect\":\"8\"}"
+                ]
+              }
+            },
+            "multiplicity": 1
+          }
+        ],
+        "onlyBIMExamples": [
+          {
+            "record": {
+              "endpointsOrderedCm": [
+                [
+                  0.0,
+                  121.88,
+                  639.0
+                ],
+                [
+                  0.0,
+                  73.13,
+                  639.0
+                ]
+              ],
+              "tables": {
+                "CONNECTIVITY - FRAME": [
+                  "{\"JointI\":[0.0,121.88,639.0],\"JointJ\":[0.0,73.13,639.0]}"
+                ],
+                "FRAME LOADS - DISTRIBUTED": [
+                  "{\"CoordSys\":\"LOCAL\",\"Dir\":\"2\",\"DistType\":\"RelDist\",\"FOverLA\":\"-1.5\",\"FOverLB\":\"-1.5\",\"LoadPat\":\"G1\",\"RelDistA\":\"0\",\"RelDistB\":\"1\",\"Type\":\"Force\"}"
+                ],
+                "FRAME OUTPUT STATION ASSIGNMENTS": [
+                  "{\"AddAtElmInt\":\"Yes\",\"AddAtPtLoad\":\"Yes\",\"MinNumSta\":\"11\",\"StationType\":\"MinNumSta\"}"
+                ],
+                "FRAME SECTION ASSIGNMENTS": [
+                  "{\"AnalSect\":\"R20x30\"}"
+                ]
+              }
+            },
+            "multiplicity": 1
+          }
+        ]
+      },
+      "allTableRecordsEqualAfterRenumbering": false,
+      "frameAssociationsEqualAfterRenumbering": false
+    }
+  },
+  "protectedTextExports": [
+    {
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r122\\SAP-CAD\\grelha_SAP2000_laje_N1.$2k",
+      "sha256Before": "ceb068b331c1f20f4ba1bdf874786e7a047438a93e6b38ffe72015fee2bf6201",
+      "sha256After": "ceb068b331c1f20f4ba1bdf874786e7a047438a93e6b38ffe72015fee2bf6201"
+    },
+    {
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r122\\SAP-CAD\\grelha_SAP2000_laje_N2.$2k",
+      "sha256Before": "f0be5ea16888742994d784714cb9c18e7d7f46d377228add14c3d12ff112960b",
+      "sha256After": "f0be5ea16888742994d784714cb9c18e7d7f46d377228add14c3d12ff112960b"
+    },
+    {
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r122\\SAP-CAD\\portico_SAP2000_elastico.$2k",
+      "sha256Before": "f793462266473fdd33fb05f79de4693ed26dcfb71c9a8ecb78602fbc9fbc3aaf",
+      "sha256After": "f793462266473fdd33fb05f79de4693ed26dcfb71c9a8ecb78602fbc9fbc3aaf"
+    },
+    {
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r122\\SAP-BIM\\grelha_SAP2000_laje_TCC-cdd31967-N1.$2k",
+      "sha256Before": "d649b5a86e093b590f27af03bf5048bc318b1bb878f26b3961d61f4ccdd059cc",
+      "sha256After": "d649b5a86e093b590f27af03bf5048bc318b1bb878f26b3961d61f4ccdd059cc"
+    },
+    {
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r122\\SAP-BIM\\grelha_SAP2000_laje_TCC-cdd31967-N2.$2k",
+      "sha256Before": "b55f2155c96296335fbcac38cc408c2bb46f6e6e41d739b7d792deb11851b15f",
+      "sha256After": "b55f2155c96296335fbcac38cc408c2bb46f6e6e41d739b7d792deb11851b15f"
+    },
+    {
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r122\\SAP-BIM\\portico_SAP2000_elastico.$2k",
+      "sha256Before": "66b19e84ec63d6367d19d6401b7e4bd0a7081efbbcb2c092f18c09c98dde3f7c",
+      "sha256After": "66b19e84ec63d6367d19d6401b7e4bd0a7081efbbcb2c092f18c09c98dde3f7c"
+    }
+  ],
+  "sourceFilesUnchanged": true,
+  "rules": [
+    "Ids de nós substituídos por coordenadas, exigindo unicidade de posição.",
+    "Extremos I/J mantidos em ordem, sem inverter eixos, sinais ou distâncias de carga.",
+    "Números normalizados com Decimal, sem tolerância; apenas formato decimal e zero negativo unificados.",
+    "Repetições preservadas por multiconjuntos.",
+    "Registros associados à mesma barra agrupados em objeto completo antes da comparação, inclusive barras paralelas coincidentes.",
+    "Nomes de materiais, seções, ações e combinações preservados; não presumir equivalência de nomes diferentes."
+  ],
+  "scriptTime": {
+    "startedAtUtc": "2026-11-01T16:49:07.175370+00:00",
+    "completedAtUtc": "2026-11-01T16:49:07.797840+00:00",
+    "durationMs": 622.1255000054953,
+    "scope": "Somente execução Python; não é tempo de desenvolvimento CAD/BIM ou esforço isolado da IA."
+  },
+  "nativeModelsEdited": false,
+  "SAP2000Executed": false,
+  "structuralSolverExecuted": false,
+  "normativeValidationPerformed": false,
+  "relativeDisplacementDirectionCauseIdentified": false,
+  "finalProductivityRankingAllowed": false,
+  "limits": [
+    "Igualdade é da representação textual exportada, limitada à precisão e ao escopo da exportação.",
+    "Não demonstra identidade interna dos modelos Eberick, resultado de cálculo independente ou segurança estrutural.",
+    "A exportação não substitui auditoria de opções omitidas pelo exportador ou validação de cargas/combinações frente às normas.",
+    "Divergência CAD Y-/BIM Y+ permanece sem causa demonstrada, mesmo se os registros exportados coincidirem."
+  ]
+}

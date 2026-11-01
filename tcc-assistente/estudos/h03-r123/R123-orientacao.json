@@ -1,0 +1,357 @@
+{
+  "revision": "H03/R123",
+  "strictComparisonSha256": "78d7c53750a2fd25b315d4c62328bf8b44c4fd7ae2580637027d49725efff21c",
+  "models": {
+    "portico": {
+      "counts": {
+        "uniquePairs": 131,
+        "sameOrder": 63,
+        "sectionNameEqualAtSameGeometricPair": 131,
+        "reversedOrder": 68,
+        "ambiguousParallelGroups": 1,
+        "CADBarsInAmbiguousGroups": 2,
+        "BIMBarsInAmbiguousGroups": 2
+      },
+      "reversedExamples": [
+        {
+          "CAD": {
+            "id": "122",
+            "ends": [
+              [
+                0.0,
+                0.0,
+                639.0
+              ],
+              [
+                0.0,
+                6.0,
+                639.0
+              ]
+            ],
+            "section": "10"
+          },
+          "BIM": {
+            "id": "119",
+            "ends": [
+              [
+                0.0,
+                6.0,
+                639.0
+              ],
+              [
+                0.0,
+                0.0,
+                639.0
+              ]
+            ],
+            "section": "10"
+          }
+        },
+        {
+          "CAD": {
+            "id": "104",
+            "ends": [
+              [
+                0.0,
+                0.0,
+                639.0
+              ],
+              [
+                1.0,
+                0.0,
+                639.0
+              ]
+            ],
+            "section": "10"
+          },
+          "BIM": {
+            "id": "113",
+            "ends": [
+              [
+                1.0,
+                0.0,
+                639.0
+              ],
+              [
+                0.0,
+                0.0,
+                639.0
+              ]
+            ],
+            "section": "10"
+          }
+        },
+        {
+          "CAD": {
+            "id": "77",
+            "ends": [
+              [
+                0.0,
+                6.0,
+                639.0
+              ],
+              [
+                0.0,
+                384.0,
+                639.0
+              ]
+            ],
+            "section": "R20x30B"
+          },
+          "BIM": {
+            "id": "72",
+            "ends": [
+              [
+                0.0,
+                384.0,
+                639.0
+              ],
+              [
+                0.0,
+                6.0,
+                639.0
+              ]
+            ],
+            "section": "R20x30B"
+          }
+        }
+      ],
+      "loadsTransformed": false,
+      "localAxesTransformed": false,
+      "mechanicalEquivalenceProved": false,
+      "causeOfRelativeDisplacementDirectionProved": false
+    },
+    "N1": {
+      "counts": {
+        "uniquePairs": 838,
+        "sameOrder": 762,
+        "sectionNameEqualAtSameGeometricPair": 838,
+        "reversedOrder": 76
+      },
+      "reversedExamples": [
+        {
+          "CAD": {
+            "id": "821",
+            "ends": [
+              [
+                0.0,
+                390.0,
+                320.0
+              ],
+              [
+                0.0,
+                394.5,
+                320.0
+              ]
+            ],
+            "section": "19"
+          },
+          "BIM": {
+            "id": "829",
+            "ends": [
+              [
+                0.0,
+                394.5,
+                320.0
+              ],
+              [
+                0.0,
+                390.0,
+                320.0
+              ]
+            ],
+            "section": "19"
+          }
+        },
+        {
+          "CAD": {
+            "id": "3",
+            "ends": [
+              [
+                0.0,
+                390.0,
+                320.0
+              ],
+              [
+                24.44,
+                390.0,
+                320.0
+              ]
+            ],
+            "section": "R20x45"
+          },
+          "BIM": {
+            "id": "38",
+            "ends": [
+              [
+                24.44,
+                390.0,
+                320.0
+              ],
+              [
+                0.0,
+                390.0,
+                320.0
+              ]
+            ],
+            "section": "R20x45"
+          }
+        },
+        {
+          "CAD": {
+            "id": "8",
+            "ends": [
+              [
+                0.0,
+                394.5,
+                320.0
+              ],
+              [
+                0.0,
+                416.25,
+                320.0
+              ]
+            ],
+            "section": "R20x35"
+          },
+          "BIM": {
+            "id": "226",
+            "ends": [
+              [
+                0.0,
+                416.25,
+                320.0
+              ],
+              [
+                0.0,
+                394.5,
+                320.0
+              ]
+            ],
+            "section": "R20x35"
+          }
+        }
+      ],
+      "loadsTransformed": false,
+      "localAxesTransformed": false,
+      "mechanicalEquivalenceProved": false,
+      "causeOfRelativeDisplacementDirectionProved": false
+    },
+    "N2": {
+      "counts": {
+        "uniquePairs": 794,
+        "reversedOrder": 159,
+        "sectionNameEqualAtSameGeometricPair": 794,
+        "sameOrder": 635
+      },
+      "reversedExamples": [
+        {
+          "CAD": {
+            "id": "766",
+            "ends": [
+              [
+                0.0,
+                0.0,
+                639.0
+              ],
+              [
+                0.0,
+                6.0,
+                639.0
+              ]
+            ],
+            "section": "8"
+          },
+          "BIM": {
+            "id": "782",
+            "ends": [
+              [
+                0.0,
+                6.0,
+                639.0
+              ],
+              [
+                0.0,
+                0.0,
+                639.0
+              ]
+            ],
+            "section": "8"
+          }
+        },
+        {
+          "CAD": {
+            "id": "767",
+            "ends": [
+              [
+                0.0,
+                0.0,
+                639.0
+              ],
+              [
+                1.0,
+                0.0,
+                639.0
+              ]
+            ],
+            "section": "8"
+          },
+          "BIM": {
+            "id": "779",
+            "ends": [
+              [
+                1.0,
+                0.0,
+                639.0
+              ],
+              [
+                0.0,
+                0.0,
+                639.0
+              ]
+            ],
+            "section": "8"
+          }
+        },
+        {
+          "CAD": {
+            "id": "5",
+            "ends": [
+              [
+                0.0,
+                6.0,
+                639.0
+              ],
+              [
+                0.0,
+                24.38,
+                639.0
+              ]
+            ],
+            "section": "R20x30"
+          },
+          "BIM": {
+            "id": "48",
+            "ends": [
+              [
+                0.0,
+                24.38,
+                639.0
+              ],
+              [
+                0.0,
+                6.0,
+                639.0
+              ]
+            ],
+            "section": "R20x30"
+          }
+        }
+      ],
+      "loadsTransformed": false,
+      "localAxesTransformed": false,
+      "mechanicalEquivalenceProved": false,
+      "causeOfRelativeDisplacementDirectionProved": false
+    }
+  }
+}
