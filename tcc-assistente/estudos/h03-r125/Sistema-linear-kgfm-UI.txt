@@ -1,0 +1,231 @@
+Window: "AltoQi Eberick 2025 Infinity - [39-H03-R122-BIM-EXTENSAO-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [39-H03-R122-BIM-EXTENSAO-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+		10983 diálogo Sistema Secondary Actions: Raise
+			10984 grupo Unidades de medida
+			10985 grupo Cargas
+			10986 text Concentrada
+			10987 caixa de combinação (settable, string) Concentrada Value: kN ID: 101
+				10988 text (settable, string) Concentrada Value: kN
+				10989 botão Abrir ID: DropDown
+			10990 text Distribuída linear
+			10991 caixa de combinação (settable, string) Distribuída linear Value: kgf/m ID: 102
+				10992 text (settable, string) Distribuída linear Value: kgf/m
+				10993 botão Abrir ID: DropDown
+			10994 text Distribuída por área
+			10995 caixa de combinação (settable, string) Distribuída por área Value: kN/m² ID: 103
+				10996 text (settable, string) Distribuída por área Value: kN/m²
+				10997 botão Abrir ID: DropDown
+			10998 grupo
+			10999 text Pressão e tensão
+			11000 caixa de combinação (settable, string) Pressão e tensão Value: MPa ID: 107
+				11001 text (settable, string) Pressão e tensão Value: MPa
+				11002 botão Abrir ID: DropDown
+			11003 text Pressão admissível e coesão
+			11004 caixa de combinação (settable, string) Pressão admissível e coesão Value: kN/m² ID: 108
+				11005 text (settable, string) Pressão admissível e coesão Value: kN/m²
+				11006 botão Abrir ID: DropDown
+			11007 text Coeficiente de recalque
+			11008 caixa de combinação (settable, string) Coeficiente de recalque Value: kN/m³ ID: 109
+				11009 text (settable, string) Coeficiente de recalque Value: kN/m³
+				11010 botão Abrir ID: DropDown
+			11011 text Peso específico
+			11012 caixa de combinação (settable, string) Peso específico Value: kN/m³ ID: 110
+				11013 text (settable, string) Peso específico Value: kN/m³
+				11014 botão Abrir ID: DropDown
+			11015 grupo Reações
+			11016 text Concentrada
+			11017 caixa de combinação (settable, string) Concentrada Value: kN ID: 104
+				11018 text (settable, string) Concentrada Value: kN
+				11019 botão Abrir ID: DropDown
+			11020 text Distribuída linear
+			11021 caixa de combinação (settable, string) Distribuída linear Value: kN/m ID: 105
+				11022 text (settable, string) Distribuída linear Value: kN/m
+				11023 botão Abrir ID: DropDown
+			11024 text Distribuída por área
+			11025 caixa de combinação (settable, string) Distribuída por área Value: kN/m² ID: 106
+				11026 text (settable, string) Distribuída por área Value: kN/m²
+				11027 botão Abrir ID: DropDown
+			11028 grupo
+			11029 text Momento
+			11030 caixa de combinação (settable, string) Momento Value: kN.m ID: 111
+				11031 text (settable, string) Momento Value: kN.m
+				11032 botão Abrir ID: DropDown
+			11033 text Comprimento
+			11034 caixa de combinação (settable, string) Comprimento Value: cm ID: 113
+				11035 text (settable, string) Comprimento Value: cm
+				11036 botão Abrir ID: DropDown
+			11037 text Seção
+			11038 caixa de combinação (settable, string) Seção Value: cm ID: 112
+				11039 text (settable, string) Seção Value: cm
+				11040 botão Abrir ID: DropDown
+			11041 botão SI ID: 10
+			11042 botão MK*S ID: 11
+			11043 botão Sist. Europeu ID: 12
+			11044 botão Sist. Inglês ID: 14
+			11045 grupo Pastas padrões
+			11046 text Edificações
+			11047 editar Edificações Value: D:\TCC\outputs\ ID: 117
+			11048 botão ... ID: 120
+			11049 text Modelos
+			11050 editar Modelos Value: C:\Users\Public\AltoQi\Eberick\2025-04\Modelos ID: 118
+			11051 botão ... ID: 119
+			11052 grupo Geral
+			11053 caixa de seleção Salvar o projeto automaticamente a cada ID: 125
+			11054 editar (disabled, settable, string) Value: 30 ID: 126
+			11055 text min
+			11056 caixa de seleção Destacar linha corrente do grid ID: 128
+			11057 caixa de seleção Abrir o AltoQi Builder ao realizar atualizações na janela Arquivos ID: 136
+			11058 grupo Plano de corte
+			11059 text Modo de corte
+			11060 caixa de combinação (settable, string) Modo de corte Value: Otimizado ID: 137
+				11061 text (settable, string) Modo de corte Value: Otimizado
+				11062 botão Abrir ID: DropDown
+			11063 botão OK ID: 1
+			11064 botão Cancelar ID: 2
+			11065 botão Ajuda ID: 9
+			11066 barra de título (settable, string) Value: Sistema
+		30 Barra de status
+		31 painel
+			32 botão de divisão
+				33 elevador
+				34 painel
+					35 tabulação Notícias
+						11111 item de tabulação (selectable) Notícias
+					37 painel
+						9413 painel
+							9414 painel (disabled) status.altoqi.com.br
+								9415 painel (disabled)
+								9416 região status.altoqi.com.br - Conteúdo da Web
+									9417 região
+										9418 região
+										9419 região
+											9420 região
+												9421 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													9422 gráfico
+													9423 título Hum… Não consigo chegar a esta página
+													9424 text status.altoqi.com.br
+													9425 text se recusou a se conectar.
+													9426 text Tente:
+													9427 Lista
+														9428 item de lista •Verificando a conexão
+														9429 item de lista •Verificação de proxy e firewall
+															9430 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													9431 text ERR_CONNECTION_REFUSED
+													9432 botão Atualizar ID: reload-button
+													9433 text Microsoft Edge
+												9434 região
+				60 painel
+					61 tabulação
+						11112 item de tabulação (selectable)
+					63 painel
+						64 janela Edificação Secondary Actions: Raise
+							65 painel
+								66 painel Projeto
+									67 painel
+									10943 árvore ID: 101
+										10944 item da árvore (selectable, disabled) Pavimentos
+											10945 item da árvore (selectable, disabled) TCC-cdd31967-N2
+											10946 item da árvore (selectable, disabled) TCC-cdd31967-N1
+											10947 item da árvore (selectable, disabled) TCC-cdd31967-N0
+										10948 item da árvore (selectable, disabled) Pilares em prumada
+										10949 item da árvore (selectable, disabled) Cortes
+										10950 item da árvore (selectable, disabled) Gerenciador de desenhos
+										10951 item da árvore (selectable, disabled) Modelos 3D
+											10952 item da árvore (selectable, disabled) H03-R44-geometria-nominal
+		69 barra de menus
+		10983 diálogo Sistema Secondary Actions: Raise
+			10984 grupo Unidades de medida
+			10985 grupo Cargas
+			10986 text Concentrada
+			10987 caixa de combinação (settable, string) Concentrada Value: kN ID: 101
+				10988 text (settable, string) Concentrada Value: kN
+				10989 botão Abrir ID: DropDown
+			10990 text Distribuída linear
+			10991 caixa de combinação (settable, string) Distribuída linear Value: kgf/m ID: 102
+				10992 text (settable, string) Distribuída linear Value: kgf/m
+				10993 botão Abrir ID: DropDown
+			10994 text Distribuída por área
+			10995 caixa de combinação (settable, string) Distribuída por área Value: kN/m² ID: 103
+				10996 text (settable, string) Distribuída por área Value: kN/m²
+				10997 botão Abrir ID: DropDown
+			10998 grupo
+			10999 text Pressão e tensão
+			11000 caixa de combinação (settable, string) Pressão e tensão Value: MPa ID: 107
+				11001 text (settable, string) Pressão e tensão Value: MPa
+				11002 botão Abrir ID: DropDown
+			11003 text Pressão admissível e coesão
+			11004 caixa de combinação (settable, string) Pressão admissível e coesão Value: kN/m² ID: 108
+				11005 text (settable, string) Pressão admissível e coesão Value: kN/m²
+				11006 botão Abrir ID: DropDown
+			11007 text Coeficiente de recalque
+			11008 caixa de combinação (settable, string) Coeficiente de recalque Value: kN/m³ ID: 109
+				11009 text (settable, string) Coeficiente de recalque Value: kN/m³
+				11010 botão Abrir ID: DropDown
+			11011 text Peso específico
+			11012 caixa de combinação (settable, string) Peso específico Value: kN/m³ ID: 110
+				11013 text (settable, string) Peso específico Value: kN/m³
+				11014 botão Abrir ID: DropDown
+			11015 grupo Reações
+			11016 text Concentrada
+			11017 caixa de combinação (settable, string) Concentrada Value: kN ID: 104
+				11018 text (settable, string) Concentrada Value: kN
+				11019 botão Abrir ID: DropDown
+			11020 text Distribuída linear
+			11021 caixa de combinação (settable, string) Distribuída linear Value: kN/m ID: 105
+				11022 text (settable, string) Distribuída linear Value: kN/m
+				11023 botão Abrir ID: DropDown
+			11024 text Distribuída por área
+			11025 caixa de combinação (settable, string) Distribuída por área Value: kN/m² ID: 106
+				11026 text (settable, string) Distribuída por área Value: kN/m²
+				11027 botão Abrir ID: DropDown
+			11028 grupo
+			11029 text Momento
+			11030 caixa de combinação (settable, string) Momento Value: kN.m ID: 111
+				11031 text (settable, string) Momento Value: kN.m
+				11032 botão Abrir ID: DropDown
+			11033 text Comprimento
+			11034 caixa de combinação (settable, string) Comprimento Value: cm ID: 113
+				11035 text (settable, string) Comprimento Value: cm
+				11036 botão Abrir ID: DropDown
+			11037 text Seção
+			11038 caixa de combinação (settable, string) Seção Value: cm ID: 112
+				11039 text (settable, string) Seção Value: cm
+				11040 botão Abrir ID: DropDown
+			11041 botão SI ID: 10
+			11042 botão MK*S ID: 11
+			11043 botão Sist. Europeu ID: 12
+			11044 botão Sist. Inglês ID: 14
+			11045 grupo Pastas padrões
+			11046 text Edificações
+			11047 editar Edificações Value: D:\TCC\outputs\ ID: 117
+			11048 botão ... ID: 120
+			11049 text Modelos
+			11050 editar Modelos Value: C:\Users\Public\AltoQi\Eberick\2025-04\Modelos ID: 118
+			11051 botão ... ID: 119
+			11052 grupo Geral
+			11053 caixa de seleção Salvar o projeto automaticamente a cada ID: 125
+			11054 editar (disabled, settable, string) Value: 30 ID: 126
+			11055 text min
+			11056 caixa de seleção Destacar linha corrente do grid ID: 128
+			11057 caixa de seleção Abrir o AltoQi Builder ao realizar atualizações na janela Arquivos ID: 136
+			11058 grupo Plano de corte
+			11059 text Modo de corte
+			11060 caixa de combinação (settable, string) Modo de corte Value: Otimizado ID: 137
+				11061 text (settable, string) Modo de corte Value: Otimizado
+				11062 botão Abrir ID: DropDown
+			11063 botão OK ID: 1
+			11064 botão Cancelar ID: 2
+			11065 botão Ajuda ID: 9
+			11066 barra de título (settable, string) Value: Sistema
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```
