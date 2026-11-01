@@ -1,0 +1,260 @@
+Window: "AltoQi Eberick 2025 Infinity - [17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [17-H03-R102-BIM-QT-VERTICAL-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+		2147 diálogo (disabled) Análise Secondary Actions: Raise
+			2262 diálogo Editar combinação Secondary Actions: Raise
+				2263 text Nome
+				2264 editar (settable, string) Nome Value: G1+G2+Q+A ID: 500
+				2265 caixa de seleção (disabled) Considerar para as lajes ID: 501
+				2266 botão OK ID: 1
+				2267 botão Cancelar ID: 2
+				2268 botão Ajuda ID: 9
+				2269 painel ID: 301
+					2270 painel
+						2281 editar (settable, string) Value: 1.00 ID: 1002
+					2271 painel
+					2272 painel
+					2273 barra de rolagem (settable, float) Value: 100
+						2274 botão Uma linha acima ID: UpButton
+						2282 botão Uma página acima ID: UpPageButton
+						2275 elevador Posição ID: ScrollbarThumb
+						2277 botão Uma linha abaixo ID: DownButton
+				2278 barra de título (settable, string) Value: Editar combinação
+			2148 grupo Geral ID: 1004
+			2149 text Redução no engaste para nós semirrígidos ID: 1030
+			2150 editar (settable, string) Redução no engaste para nós semirrígidos Value: 15 ID: 1001
+			2151 text % ID: 1031
+			2152 text Redução na torção para os pilares ID: 1032
+			2153 editar (settable, string) Redução na torção para os pilares Value: 0 ID: 1011
+			2154 text % ID: 1033
+			2155 text Redução na torção para as vigas ID: 1034
+			2156 editar (settable, string) Redução na torção para as vigas Value: 85 ID: 1023
+			2157 text % ID: 1035
+			2158 text Redução na torção para os núcleos rígidos ID: 1059
+			2159 editar (settable, string) Redução na torção para os núcleos rígidos Value: 0 ID: 1061
+			2160 text % ID: 1060
+			2161 text Aumento na rigidez axial dos pilares ID: 1006
+			2162 editar (settable, string) Aumento na rigidez axial dos pilares Value: 1 ID: 1025
+			2163 botão ... ID: 1024
+			2164 caixa de seleção Salvar automaticamente o projeto após o processamento ID: 1005
+			2165 grupo Ligação viga-pilar ID: 108
+			2166 caixa de seleção Flexibilizar ligação com pilar equivalente ID: 101
+			2167 text Aplicar para relação h/b maior que ID: 1203
+			2168 editar (settable, string) Aplicar para relação h/b maior que Value: 5 ID: 1201
+			2169 botão ... ID: 1202
+			2170 grupo Não linearidade física ID: 1036
+			2171 text Rigidez das vigas ID: 1037
+			2172 editar (settable, string) Rigidez das vigas Value: 0.4 ID: 1008
+			2173 text Ec.Ic ID: 1038
+			2174 text Rigidez dos pilares ID: 1039
+			2175 editar (settable, string) Rigidez dos pilares Value: 0.8 ID: 1009
+			2176 text Ec.Ic ID: 1040
+			2177 text Rigidez das lajes ID: 1041
+			2178 editar (settable, string) Rigidez das lajes Value: 0.3 ID: 1010
+			2179 text Ec.Ic ID: 1007
+			2180 text Rigidez das estacas ID: 1043
+			2181 editar (settable, string) Rigidez das estacas Value: 0.8 ID: 1045
+			2182 text Ec.Ic ID: 1044
+			2183 text Rigidez dos núcleos rígidos ID: 1062
+			2184 editar (settable, string) Rigidez dos núcleos rígidos Value: 0.9 ID: 1064
+			2185 text Ec.lc ID: 1063
+			2186 text Rigidez alvenaria estrutural ID: 1048
+			2187 editar (settable, string) Rigidez alvenaria estrutural Value: 0.8 ID: 1046
+			2188 text Ea.I ID: 1047
+			2189 grupo Não linearidade geométrica ID: 1051
+			2190 caixa de seleção Utilizar o processo P-Delta ID: 1019
+			2191 text Número máximo de iterações ID: 1052
+			2192 editar (settable, string) Número máximo de iterações Value: 10 ID: 1020
+			2193 text Precisão mínima ID: 1053
+			2194 editar (settable, string) Precisão mínima Value: 1 ID: 1021
+			2195 text % ID: 1054
+			2196 text Combinação vertical de cálculo ID: 1055
+			2197 text 1.4G1+1.4G2+1.4Q+1.1A+1.4QT ID: 1017
+			2198 botão ... ID: 1018
+			2199 grupo Imperfeições globais ID: 1056
+			2200 text Tipo de estrutura: ID: 1057
+			2201 caixa de combinação (settable, string) Tipo de estrutura: Value: Estruturas usuais ID: 1029
+				2202 text (settable, string) Tipo de estrutura: Value: Estruturas usuais
+				2203 botão Abrir ID: DropDown
+			2204 text Combinação vertical característica ID: 1058
+			2205 text G1+G2+Q+A ID: 1016
+			2206 botão ... ID: 1013
+			2207 grupo Processo ID: 2140
+			2208 botão de opção (selectable) Grelhas + pórtico espacial ID: 2141
+			2209 botão de opção (selectable) Modelo integrado ID: 2142
+			2210 botão Painéis de lajes... ID: 1027
+			2211 botão Modelo da fundação... ID: 1026
+			2212 botão Modelo ELS... ID: 1204
+			2213 botão Avançado... ID: 1205
+			2214 botão Análise dinâmica... ID: 1200
+			2215 botão OK ID: 1
+			2216 botão Cancelar ID: 2
+			2217 botão Ajuda ID: 9
+			2218 barra de título (settable, string) Value: Análise
+		150 Barra de status
+		151 painel
+			152 botão de divisão
+				153 elevador
+				154 painel
+					155 tabulação Notícias
+						2289 item de tabulação (selectable) Notícias
+					157 painel
+						158 painel
+							159 painel (disabled) status.altoqi.com.br
+								160 painel (disabled)
+								161 região status.altoqi.com.br - Conteúdo da Web
+									162 região
+										163 região
+										164 região
+											165 região
+												166 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													167 gráfico
+													168 título Hum… Não consigo chegar a esta página
+													169 text status.altoqi.com.br
+													170 text se recusou a se conectar.
+													171 text Tente:
+													172 Lista
+														173 item de lista •Verificando a conexão
+														174 item de lista •Verificação de proxy e firewall
+															175 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													176 text ERR_CONNECTION_REFUSED
+													177 botão Atualizar ID: reload-button
+													178 text Microsoft Edge
+												179 região
+				180 painel
+					181 tabulação
+						2290 item de tabulação (selectable)
+					183 painel
+						184 janela Edificação Secondary Actions: Raise
+							185 painel
+								186 painel Projeto
+									187 painel
+									2084 árvore ID: 101
+										2085 item da árvore (selectable, disabled) Pavimentos
+											2086 item da árvore (selectable, disabled) TCC-cdd31967-N2
+											2087 item da árvore (selectable, disabled) TCC-cdd31967-N1
+											2088 item da árvore (selectable, disabled) TCC-cdd31967-N0
+										2089 item da árvore (selectable, disabled) Cortes
+										2090 item da árvore (selectable, disabled) Gerenciador de desenhos
+										2091 item da árvore (selectable, disabled) Modelos 3D
+											2092 item da árvore (selectable, disabled) H03-R44-geometria-nominal
+		197 barra de menus
+		2262 diálogo Editar combinação Secondary Actions: Raise
+			2263 text Nome
+			2264 editar (settable, string) Nome Value: G1+G2+Q+A ID: 500
+			2265 caixa de seleção (disabled) Considerar para as lajes ID: 501
+			2266 botão OK ID: 1
+			2267 botão Cancelar ID: 2
+			2268 botão Ajuda ID: 9
+			2269 painel ID: 301
+				2270 painel
+					2281 editar (settable, string) Value: 1.00 ID: 1002
+				2271 painel
+				2272 painel
+				2273 barra de rolagem (settable, float) Value: 100
+					2274 botão Uma linha acima ID: UpButton
+					2282 botão Uma página acima ID: UpPageButton
+					2275 elevador Posição ID: ScrollbarThumb
+					2277 botão Uma linha abaixo ID: DownButton
+			2278 barra de título (settable, string) Value: Editar combinação
+		2147 diálogo (disabled) Análise Secondary Actions: Raise
+			2262 diálogo Editar combinação Secondary Actions: Raise
+				2263 text Nome
+				2264 editar (settable, string) Nome Value: G1+G2+Q+A ID: 500
+				2265 caixa de seleção (disabled) Considerar para as lajes ID: 501
+				2266 botão OK ID: 1
+				2267 botão Cancelar ID: 2
+				2268 botão Ajuda ID: 9
+				2269 painel ID: 301
+					2270 painel
+						2281 editar (settable, string) Value: 1.00 ID: 1002
+					2271 painel
+					2272 painel
+					2273 barra de rolagem (settable, float) Value: 100
+						2274 botão Uma linha acima ID: UpButton
+						2282 botão Uma página acima ID: UpPageButton
+						2275 elevador Posição ID: ScrollbarThumb
+						2277 botão Uma linha abaixo ID: DownButton
+				2278 barra de título (settable, string) Value: Editar combinação
+			2148 grupo Geral ID: 1004
+			2149 text Redução no engaste para nós semirrígidos ID: 1030
+			2150 editar (settable, string) Redução no engaste para nós semirrígidos Value: 15 ID: 1001
+			2151 text % ID: 1031
+			2152 text Redução na torção para os pilares ID: 1032
+			2153 editar (settable, string) Redução na torção para os pilares Value: 0 ID: 1011
+			2154 text % ID: 1033
+			2155 text Redução na torção para as vigas ID: 1034
+			2156 editar (settable, string) Redução na torção para as vigas Value: 85 ID: 1023
+			2157 text % ID: 1035
+			2158 text Redução na torção para os núcleos rígidos ID: 1059
+			2159 editar (settable, string) Redução na torção para os núcleos rígidos Value: 0 ID: 1061
+			2160 text % ID: 1060
+			2161 text Aumento na rigidez axial dos pilares ID: 1006
+			2162 editar (settable, string) Aumento na rigidez axial dos pilares Value: 1 ID: 1025
+			2163 botão ... ID: 1024
+			2164 caixa de seleção Salvar automaticamente o projeto após o processamento ID: 1005
+			2165 grupo Ligação viga-pilar ID: 108
+			2166 caixa de seleção Flexibilizar ligação com pilar equivalente ID: 101
+			2167 text Aplicar para relação h/b maior que ID: 1203
+			2168 editar (settable, string) Aplicar para relação h/b maior que Value: 5 ID: 1201
+			2169 botão ... ID: 1202
+			2170 grupo Não linearidade física ID: 1036
+			2171 text Rigidez das vigas ID: 1037
+			2172 editar (settable, string) Rigidez das vigas Value: 0.4 ID: 1008
+			2173 text Ec.Ic ID: 1038
+			2174 text Rigidez dos pilares ID: 1039
+			2175 editar (settable, string) Rigidez dos pilares Value: 0.8 ID: 1009
+			2176 text Ec.Ic ID: 1040
+			2177 text Rigidez das lajes ID: 1041
+			2178 editar (settable, string) Rigidez das lajes Value: 0.3 ID: 1010
+			2179 text Ec.Ic ID: 1007
+			2180 text Rigidez das estacas ID: 1043
+			2181 editar (settable, string) Rigidez das estacas Value: 0.8 ID: 1045
+			2182 text Ec.Ic ID: 1044
+			2183 text Rigidez dos núcleos rígidos ID: 1062
+			2184 editar (settable, string) Rigidez dos núcleos rígidos Value: 0.9 ID: 1064
+			2185 text Ec.lc ID: 1063
+			2186 text Rigidez alvenaria estrutural ID: 1048
+			2187 editar (settable, string) Rigidez alvenaria estrutural Value: 0.8 ID: 1046
+			2188 text Ea.I ID: 1047
+			2189 grupo Não linearidade geométrica ID: 1051
+			2190 caixa de seleção Utilizar o processo P-Delta ID: 1019
+			2191 text Número máximo de iterações ID: 1052
+			2192 editar (settable, string) Número máximo de iterações Value: 10 ID: 1020
+			2193 text Precisão mínima ID: 1053
+			2194 editar (settable, string) Precisão mínima Value: 1 ID: 1021
+			2195 text % ID: 1054
+			2196 text Combinação vertical de cálculo ID: 1055
+			2197 text 1.4G1+1.4G2+1.4Q+1.1A+1.4QT ID: 1017
+			2198 botão ... ID: 1018
+			2199 grupo Imperfeições globais ID: 1056
+			2200 text Tipo de estrutura: ID: 1057
+			2201 caixa de combinação (settable, string) Tipo de estrutura: Value: Estruturas usuais ID: 1029
+				2202 text (settable, string) Tipo de estrutura: Value: Estruturas usuais
+				2203 botão Abrir ID: DropDown
+			2204 text Combinação vertical característica ID: 1058
+			2205 text G1+G2+Q+A ID: 1016
+			2206 botão ... ID: 1013
+			2207 grupo Processo ID: 2140
+			2208 botão de opção (selectable) Grelhas + pórtico espacial ID: 2141
+			2209 botão de opção (selectable) Modelo integrado ID: 2142
+			2210 botão Painéis de lajes... ID: 1027
+			2211 botão Modelo da fundação... ID: 1026
+			2212 botão Modelo ELS... ID: 1204
+			2213 botão Avançado... ID: 1205
+			2214 botão Análise dinâmica... ID: 1200
+			2215 botão OK ID: 1
+			2216 botão Cancelar ID: 2
+			2217 botão Ajuda ID: 9
+			2218 barra de título (settable, string) Value: Análise
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```

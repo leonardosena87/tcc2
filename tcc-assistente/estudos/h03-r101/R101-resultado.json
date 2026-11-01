@@ -1,0 +1,468 @@
+{
+  "revision": "H03/R101",
+  "atUtc": "2026-11-01T01:12:39.301424+00:00",
+  "comparisons": [
+    {
+      "dialog": "analise-geral",
+      "id": "1001",
+      "CAD": [
+        "Redução no engaste para nós semirrígidos",
+        "15"
+      ],
+      "BIM": [
+        "Redução no engaste para nós semirrígidos",
+        "15"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "analise-geral",
+      "id": "1011",
+      "CAD": [
+        "Redução na torção para os pilares",
+        "0"
+      ],
+      "BIM": [
+        "Redução na torção para os pilares",
+        "0"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "analise-geral",
+      "id": "1023",
+      "CAD": [
+        "Redução na torção para as vigas",
+        "85"
+      ],
+      "BIM": [
+        "Redução na torção para as vigas",
+        "85"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "analise-geral",
+      "id": "1061",
+      "CAD": [
+        "Redução na torção para os núcleos rígidos",
+        "0"
+      ],
+      "BIM": [
+        "Redução na torção para os núcleos rígidos",
+        "0"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "analise-geral",
+      "id": "1025",
+      "CAD": [
+        "Aumento na rigidez axial dos pilares",
+        "1"
+      ],
+      "BIM": [
+        "Aumento na rigidez axial dos pilares",
+        "1"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "analise-geral",
+      "id": "1201",
+      "CAD": [
+        "Aplicar para relação h/b maior que",
+        "5"
+      ],
+      "BIM": [
+        "Aplicar para relação h/b maior que",
+        "5"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "analise-geral",
+      "id": "1008",
+      "CAD": [
+        "Rigidez das vigas",
+        "0.4"
+      ],
+      "BIM": [
+        "Rigidez das vigas",
+        "0.4"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "analise-geral",
+      "id": "1009",
+      "CAD": [
+        "Rigidez dos pilares",
+        "0.8"
+      ],
+      "BIM": [
+        "Rigidez dos pilares",
+        "0.8"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "analise-geral",
+      "id": "1010",
+      "CAD": [
+        "Rigidez das lajes",
+        "0.3"
+      ],
+      "BIM": [
+        "Rigidez das lajes",
+        "0.3"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "analise-geral",
+      "id": "1045",
+      "CAD": [
+        "Rigidez das estacas",
+        "0.8"
+      ],
+      "BIM": [
+        "Rigidez das estacas",
+        "0.8"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "analise-geral",
+      "id": "1064",
+      "CAD": [
+        "Rigidez dos núcleos rígidos",
+        "0.9"
+      ],
+      "BIM": [
+        "Rigidez dos núcleos rígidos",
+        "0.9"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "analise-geral",
+      "id": "1046",
+      "CAD": [
+        "Rigidez alvenaria estrutural",
+        "0.8"
+      ],
+      "BIM": [
+        "Rigidez alvenaria estrutural",
+        "0.8"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "analise-geral",
+      "id": "1020",
+      "CAD": [
+        "Número máximo de iterações",
+        "10"
+      ],
+      "BIM": [
+        "Número máximo de iterações",
+        "10"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "analise-geral",
+      "id": "1021",
+      "CAD": [
+        "Precisão mínima",
+        "1"
+      ],
+      "BIM": [
+        "Precisão mínima",
+        "1"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "analise-geral",
+      "id": "1029",
+      "CAD": [
+        "Tipo de estrutura:",
+        "Estruturas usuais"
+      ],
+      "BIM": [
+        "Tipo de estrutura:",
+        "Estruturas usuais"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "138",
+      "CAD": [
+        "Discretização",
+        "100"
+      ],
+      "BIM": [
+        "Discretização",
+        "100"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "141",
+      "CAD": [
+        "Nº mínimo de divisões",
+        "5"
+      ],
+      "BIM": [
+        "Nº mínimo de divisões",
+        "5"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "145",
+      "CAD": [
+        "Discretização",
+        "100"
+      ],
+      "BIM": [
+        "Discretização",
+        "100"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "148",
+      "CAD": [
+        "Nº mínimo de divisões",
+        "10"
+      ],
+      "BIM": [
+        "Nº mínimo de divisões",
+        "10"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "103",
+      "CAD": [
+        "Deslocamento X",
+        "Elástico"
+      ],
+      "BIM": [
+        "Deslocamento X",
+        "Elástico"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "109",
+      "CAD": [
+        "K=",
+        "5000"
+      ],
+      "BIM": [
+        "K=",
+        "5000"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "104",
+      "CAD": [
+        "Deslocamento Y",
+        "Elástico"
+      ],
+      "BIM": [
+        "Deslocamento Y",
+        "Elástico"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "110",
+      "CAD": [
+        "K=",
+        "5000"
+      ],
+      "BIM": [
+        "K=",
+        "5000"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "105",
+      "CAD": [
+        "Deslocamento Z",
+        "Fixo"
+      ],
+      "BIM": [
+        "Deslocamento Z",
+        "Fixo"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "111",
+      "CAD": [
+        "K=",
+        "0"
+      ],
+      "BIM": [
+        "K=",
+        "0"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "106",
+      "CAD": [
+        "Rotação X",
+        "Livre"
+      ],
+      "BIM": [
+        "Rotação X",
+        "Livre"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "112",
+      "CAD": [
+        "K=",
+        "0"
+      ],
+      "BIM": [
+        "K=",
+        "0"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "107",
+      "CAD": [
+        "Rotação Y",
+        "Livre"
+      ],
+      "BIM": [
+        "Rotação Y",
+        "Livre"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "113",
+      "CAD": [
+        "K=",
+        "0"
+      ],
+      "BIM": [
+        "K=",
+        "0"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "108",
+      "CAD": [
+        "Rotação Z",
+        "Livre"
+      ],
+      "BIM": [
+        "Rotação Z",
+        "Livre"
+      ],
+      "equal": true
+    },
+    {
+      "dialog": "apoio-elastico-padrao",
+      "id": "114",
+      "CAD": [
+        "K=",
+        "0"
+      ],
+      "BIM": [
+        "K=",
+        "0"
+      ],
+      "equal": true
+    }
+  ],
+  "equal": 31,
+  "total": 31,
+  "protected": [
+    {
+      "branch": "CAD",
+      "path": "14-H03-R98-CAD-QT-NAO-EXECUTAR/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "expectedSha256": "e2dc1d91fda030a981e8562d7c3d46318b8e6c262f9c4300415d4078027ca122",
+      "sha256": "e2dc1d91fda030a981e8562d7c3d46318b8e6c262f9c4300415d4078027ca122",
+      "unchanged": true
+    },
+    {
+      "branch": "BIM",
+      "path": "15-H03-R98-BIM-QT-NAO-EXECUTAR/Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "expectedSha256": "41735ed0fdd0e2c0424dd84ef0b272418947b5c8bdb0cd1abcfa62c852917ccf",
+      "sha256": "41735ed0fdd0e2c0424dd84ef0b272418947b5c8bdb0cd1abcfa62c852917ccf",
+      "unchanged": true
+    }
+  ],
+  "visualObservations": [
+    {
+      "branch": "CAD",
+      "combination": "PDelta",
+      "action": "Q_TELHADO_MANUTENCAO",
+      "displayedCoefficient": 0.0,
+      "method": "Leitura visual da linha 19; grade nao exposta pela UIA",
+      "screenshot": "CAD-PDelta-QT-zero-0.png"
+    },
+    {
+      "branch": "CAD",
+      "combination": "desaprumo",
+      "action": "Q_TELHADO_MANUTENCAO",
+      "displayedCoefficient": 0.0,
+      "method": "Leitura visual da linha 19; grade nao exposta pela UIA",
+      "screenshot": "CAD-desaprumo-QT-zero-0.png"
+    },
+    {
+      "branch": "BIM",
+      "combination": "PDelta",
+      "action": "Q_TELHADO_MANUTENCAO",
+      "displayedCoefficient": 0.0,
+      "method": "Leitura visual da linha 19; grade nao exposta pela UIA",
+      "screenshot": "BIM-PDelta-QT-zero-0.png"
+    },
+    {
+      "branch": "BIM",
+      "combination": "desaprumo",
+      "action": "Q_TELHADO_MANUTENCAO",
+      "displayedCoefficient": 0.0,
+      "method": "Leitura visual da linha 19; grade nao exposta pela UIA",
+      "screenshot": "BIM-desaprumo-QT-zero-0.png"
+    }
+  ],
+  "finding": "QT com coeficiente zero nas duas combinacoes verticais em ambos os ramos. Correcao comum no receptor; nao perda DWG/IFC demonstrada.",
+  "limits": [
+    "Apoio elastico padrao nao comprova vinculos efetivos dos pilares.",
+    "Nao houve processamento, alteracao nativa ou verificacao normativa final.",
+    "31 comparacoes incluem parametros de fundacoes fora do escopo; igualdade nao significa adequacao.",
+    "Checkboxes e radios conferidos visualmente: PDelta ativo, grelhas+portico espacial, flexibilizacao ativa, salvar apos processamento desativado."
+  ]
+}
