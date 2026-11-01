@@ -1,0 +1,440 @@
+{
+  "revision": "H03/R114",
+  "createdAtUtc": "2026-11-01T12:26:57.867334+00:00",
+  "hypothesisId": "P2-GRAV-A",
+  "areaM2": 12.09,
+  "boxM": [
+    6.55,
+    0,
+    9.65,
+    3.9
+  ],
+  "actions": {
+    "G_ADICIONAL": {
+      "loadHorizontalKNm2": 0.330897761180176,
+      "nodes": [
+        {
+          "id": "RP2-01",
+          "xM": 6.55,
+          "yM": 0,
+          "FxKN": 0,
+          "FyKN": 0,
+          "FzKN": -1.000138483167082,
+          "MxKNm": 0,
+          "MyKNm": 0,
+          "MzKNm": 0,
+          "targetsHistoricalR56": {
+            "CAD": {
+              "type": "IfcColumn",
+              "name": "P10",
+              "guid": "1ZyH60qniHyOy801fzsd4G",
+              "min": [
+                6.45,
+                -0.15,
+                3.2
+              ],
+              "max": [
+                6.65,
+                0.15,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            },
+            "BIM": {
+              "type": "IfcColumn",
+              "name": "P10",
+              "guid": "2MjmLoqlqHyOy801fzsd4G",
+              "min": [
+                6.45,
+                -0.15,
+                3.2
+              ],
+              "max": [
+                6.65,
+                0.15,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            }
+          },
+          "overlapsVP1": false
+        },
+        {
+          "id": "RP2-02",
+          "xM": 9.65,
+          "yM": 0,
+          "FxKN": 0,
+          "FyKN": 0,
+          "FzKN": -1.000138483167082,
+          "MxKNm": 0,
+          "MyKNm": 0,
+          "MzKNm": 0,
+          "targetsHistoricalR56": {
+            "CAD": {
+              "type": "IfcColumn",
+              "name": "P7",
+              "guid": "1ZyH5qqniHyOy801fzsd4G",
+              "min": [
+                9.55,
+                -0.15,
+                3.2
+              ],
+              "max": [
+                9.75,
+                0.15,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            },
+            "BIM": {
+              "type": "IfcColumn",
+              "name": "P11",
+              "guid": "2MjmLuqlqHyOy801fzsd4G",
+              "min": [
+                9.55,
+                -0.15,
+                3.2
+              ],
+              "max": [
+                9.75,
+                0.15,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            }
+          },
+          "overlapsVP1": false
+        },
+        {
+          "id": "RP2-03",
+          "xM": 6.55,
+          "yM": 3.9,
+          "FxKN": 0,
+          "FyKN": 0,
+          "FzKN": -1.000138483167082,
+          "MxKNm": 0,
+          "MyKNm": 0,
+          "MzKNm": 0,
+          "targetsHistoricalR56": {
+            "CAD": {
+              "type": "IfcColumn",
+              "name": "P11",
+              "guid": "1ZyH64qniHyOy801fzsd4G",
+              "min": [
+                6.4,
+                3.8,
+                3.2
+              ],
+              "max": [
+                6.7,
+                4.0,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            },
+            "BIM": {
+              "type": "IfcColumn",
+              "name": "P6",
+              "guid": "2MjmLQqlqHyOy801fzsd4G",
+              "min": [
+                6.4,
+                3.8,
+                3.2
+              ],
+              "max": [
+                6.7,
+                4.0,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            }
+          },
+          "overlapsVP1": false
+        },
+        {
+          "id": "RP2-04",
+          "xM": 9.65,
+          "yM": 3.9,
+          "FxKN": 0,
+          "FyKN": 0,
+          "FzKN": -1.000138483167082,
+          "MxKNm": 0,
+          "MyKNm": 0,
+          "MzKNm": 0,
+          "targetsHistoricalR56": {
+            "CAD": {
+              "type": "IfcColumn",
+              "name": "P8",
+              "guid": "1ZyH5uqniHyOy801fzsd4G",
+              "min": [
+                9.55,
+                3.75,
+                3.2
+              ],
+              "max": [
+                9.75,
+                4.05,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            },
+            "BIM": {
+              "type": "IfcColumn",
+              "name": "P7",
+              "guid": "2MjmLWqlqHyOy801fzsd4G",
+              "min": [
+                9.55,
+                3.75,
+                3.2
+              ],
+              "max": [
+                9.75,
+                4.05,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            }
+          },
+          "overlapsVP1": true
+        }
+      ],
+      "resultant": {
+        "FzKN": -4.000553932668328,
+        "MxKNm": -7.8010801687032405,
+        "MyKNm": 32.40448685461346
+      },
+      "equilibriumPassed": true
+    },
+    "Q_TELHADO_MANUTENCAO": {
+      "loadHorizontalKNm2": 0.25,
+      "nodes": [
+        {
+          "id": "RP2-01",
+          "xM": 6.55,
+          "yM": 0,
+          "FxKN": 0,
+          "FyKN": 0,
+          "FzKN": -0.7556250000000001,
+          "MxKNm": 0,
+          "MyKNm": 0,
+          "MzKNm": 0,
+          "targetsHistoricalR56": {
+            "CAD": {
+              "type": "IfcColumn",
+              "name": "P10",
+              "guid": "1ZyH60qniHyOy801fzsd4G",
+              "min": [
+                6.45,
+                -0.15,
+                3.2
+              ],
+              "max": [
+                6.65,
+                0.15,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            },
+            "BIM": {
+              "type": "IfcColumn",
+              "name": "P10",
+              "guid": "2MjmLoqlqHyOy801fzsd4G",
+              "min": [
+                6.45,
+                -0.15,
+                3.2
+              ],
+              "max": [
+                6.65,
+                0.15,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            }
+          },
+          "overlapsVP1": false
+        },
+        {
+          "id": "RP2-02",
+          "xM": 9.65,
+          "yM": 0,
+          "FxKN": 0,
+          "FyKN": 0,
+          "FzKN": -0.7556250000000001,
+          "MxKNm": 0,
+          "MyKNm": 0,
+          "MzKNm": 0,
+          "targetsHistoricalR56": {
+            "CAD": {
+              "type": "IfcColumn",
+              "name": "P7",
+              "guid": "1ZyH5qqniHyOy801fzsd4G",
+              "min": [
+                9.55,
+                -0.15,
+                3.2
+              ],
+              "max": [
+                9.75,
+                0.15,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            },
+            "BIM": {
+              "type": "IfcColumn",
+              "name": "P11",
+              "guid": "2MjmLuqlqHyOy801fzsd4G",
+              "min": [
+                9.55,
+                -0.15,
+                3.2
+              ],
+              "max": [
+                9.75,
+                0.15,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            }
+          },
+          "overlapsVP1": false
+        },
+        {
+          "id": "RP2-03",
+          "xM": 6.55,
+          "yM": 3.9,
+          "FxKN": 0,
+          "FyKN": 0,
+          "FzKN": -0.7556250000000001,
+          "MxKNm": 0,
+          "MyKNm": 0,
+          "MzKNm": 0,
+          "targetsHistoricalR56": {
+            "CAD": {
+              "type": "IfcColumn",
+              "name": "P11",
+              "guid": "1ZyH64qniHyOy801fzsd4G",
+              "min": [
+                6.4,
+                3.8,
+                3.2
+              ],
+              "max": [
+                6.7,
+                4.0,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            },
+            "BIM": {
+              "type": "IfcColumn",
+              "name": "P6",
+              "guid": "2MjmLQqlqHyOy801fzsd4G",
+              "min": [
+                6.4,
+                3.8,
+                3.2
+              ],
+              "max": [
+                6.7,
+                4.0,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            }
+          },
+          "overlapsVP1": false
+        },
+        {
+          "id": "RP2-04",
+          "xM": 9.65,
+          "yM": 3.9,
+          "FxKN": 0,
+          "FyKN": 0,
+          "FzKN": -0.7556250000000001,
+          "MxKNm": 0,
+          "MyKNm": 0,
+          "MzKNm": 0,
+          "targetsHistoricalR56": {
+            "CAD": {
+              "type": "IfcColumn",
+              "name": "P8",
+              "guid": "1ZyH5uqniHyOy801fzsd4G",
+              "min": [
+                9.55,
+                3.75,
+                3.2
+              ],
+              "max": [
+                9.75,
+                4.05,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            },
+            "BIM": {
+              "type": "IfcColumn",
+              "name": "P7",
+              "guid": "2MjmLWqlqHyOy801fzsd4G",
+              "min": [
+                9.55,
+                3.75,
+                3.2
+              ],
+              "max": [
+                9.75,
+                4.05,
+                6.39
+              ],
+              "topAreaM2": 0.06
+            }
+          },
+          "overlapsVP1": true
+        }
+      ],
+      "resultant": {
+        "FzKN": -3.0225000000000004,
+        "MxKNm": -5.893875,
+        "MyKNm": 24.482250000000004
+      },
+      "equilibriumPassed": true
+    }
+  },
+  "concept": "Dois quadros transversais X em Y0/3,90 recebem as tercas longitudinais Y da cobertura de caimento-X. Quatro montantes alinhados aos nos de concreto N2. Esquema gravitacional articulado idealizado, sem atribuicao de resistencia/rigidez ao metal.",
+  "equalQuartersRequireSymmetricUniformLoadingAndArticulatedIdealization": true,
+  "absoluteRoofAndSteelNodeGeometryFinalized": false,
+  "relativeTankBaseFromR113M": 6.807000233603441,
+  "tankLoadsIncluded": false,
+  "nativeApplicationPerformed": false,
+  "finalStructuralApproval": false,
+  "sources": [
+    {
+      "path": "D:\\TCC\\outputs\\Cobertura-H03-R59-MEMORIA-ESTUDO-NAO-EXECUTAR\\R59-memoria-cobertura.json",
+      "sha256": "aeaeb427b643da99855e442d98971ad65a84d74901ea4cacfe5e711eca55ee97"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Cobertura-H03-R60-REACOES-PARCIAIS-NAO-EXECUTAR\\R60-arranjo-reacoes.json",
+      "sha256": "7de42c0d7afb8ffe26b9ff3fac353858c5bea2b45e8bf30ab6363472dcdce5bd"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Cobertura-H03-R56-ESTUDO-NAO-EXECUTAR\\R56-geometria-exportada.json",
+      "sha256": "6fc2486f4eecd19985a4c4d87886822bb76ee40cee80e07c352db25bca0aabf7"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Altimetria-H03-R113-CONSULTA-NAO-EXECUTAR\\R113-resultado.json",
+      "sha256": "11d5f46f7f121cec58a5a15992a325f54950fc525309c36132b4a9aee92236a2"
+    }
+  ],
+  "loadAccumulationRule": "Somar incremento P2 aos valores existentes por acao; RP2-04 coincide com VP1-01 e deve preservar Fz e My anteriores. Nao substituir vetor total por incremento.",
+  "limits": [
+    "G conserva reserva de0,15kN/m2 para metal, sem levantamento de perfis/montantes.",
+    "A area nominal por eixos nao e medicao liquida da telha ou volume de material.",
+    "Quatro forcas equilibradas nao dimensionam perfis, ancoragens, quadro ou nos de concreto.",
+    "Metal nao modelado: nao acrescentar rigidez lateral ficticia ao concreto.",
+    "Sem vento/succao, caso localizado de manutencao, deformacoes do metal, acesso ao tanque ou ligacoes.",
+    "Altimetria dos perfis deve respeitar o contorno R112/R113; nao elevar cobertura para encaixar.",
+    "A soma das parcelas A1/A2/P1/P2 representa apenas a hipotese distribuida gravitacional do telhado.",
+    "Nao inclui policarbonato, platibandas/calhas, agua, tara ou plataforma do tanque."
+  ]
+}

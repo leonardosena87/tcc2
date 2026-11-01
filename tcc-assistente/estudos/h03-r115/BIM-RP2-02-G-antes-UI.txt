@@ -1,0 +1,359 @@
+Window: "AltoQi Eberick 2025 Infinity - [29-H03-R115-BIM-P2-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [29-H03-R115-BIM-P2-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+		13811 diálogo (disabled) Pilar Secondary Actions: Raise
+			13926 diálogo Carga concentrada Secondary Actions: Raise
+				13927 grupo ID: 118
+				13928 text Ação ID: 121
+				13929 caixa de combinação (settable, string) Ação Value: Adicional ID: 115
+					13930 text (settable, string) Ação Value: Adicional
+					13931 botão Abrir ID: DropDown
+				13932 text Cargas ID: 119
+				13933 text Fx ID: 122
+				13934 editar (settable, string) Fx Value: 0 ID: 112
+				13935 text kN ID: 111
+				13936 text Fy ID: 123
+				13937 editar (settable, string) Fy Value: 0 ID: 110
+				13938 text kN ID: 109
+				13939 text Fz ID: 124
+				13940 editar (settable, string) Fz Value: 0 ID: 108
+				13941 text kN ID: 107
+				13942 text Momentos ID: 120
+				13943 text Mx ID: 125
+				13944 editar (settable, string) Mx Value: 0 ID: 106
+				13945 text kN.m ID: 105
+				13946 text My ID: 126
+				13947 editar (settable, string) My Value: 0 ID: 104
+				13948 text kN.m ID: 103
+				13949 text Mz ID: 127
+				13950 editar (settable, string) Mz Value: 0 ID: 102
+				13951 text kN.m ID: 101
+				13952 grupo Cargas de vento ID: 116
+				13953 botão de opção (selectable) Não aplicar ID: 143
+				13954 botão de opção (selectable) Aplicar todas ID: 144
+				13955 botão de opção (selectable) Aplicar selecionadas ID: 145
+				13956 botão (disabled) ... ID: 146
+				13957 grupo Variação de temperatura uniforme ID: 130
+				13958 text Caso T1 ID: 135
+				13959 text Caso T2 ID: 136
+				13960 editar (settable, string) Caso T2 Value: 0 ID: 131
+				13961 text °C ID: 133
+				13962 editar (settable, string) °C Value: 0 ID: 132
+				13963 text °C ID: 134
+				13964 grupo Retração ID: 138
+				13965 caixa de seleção Calcular automaticamente ID: 137
+				13966 text Deformação uniforme ID: 140
+				13967 editar (settable, string) Deformação uniforme Value: 0 ID: 139
+				13968 text °/ ID: 141
+				13969 text °° ID: 142
+				13970 botão OK ID: 1
+				13971 botão Cancelar ID: 2
+				13972 botão Ajuda ID: 9
+				13973 barra de título (settable, string) Value: Carga concentrada
+			13812 grupo Dados do pilar ID: 1010
+			13813 text Nome ID: 797
+			13814 editar (settable, string) Nome Value: P11 ID: 801
+			13815 text Ambiente ID: 798
+			13816 caixa de combinação (settable, string) Ambiente Value: Externo ID: 828
+				13817 text (settable, string) Ambiente Value: Externo
+				13818 botão Abrir ID: DropDown
+			13819 caixa de seleção (disabled) Detalhamento contínuo no lance ID: 1036
+			13820 grupo Modelo ID: 823
+			13821 text Vínculo ID: 800
+			13822 caixa de combinação (settable, string) Vínculo Value: Engastado ID: 821
+				13823 text (settable, string) Vínculo Value: Engastado
+				13824 botão Abrir ID: DropDown
+			13825 text Verticalidade ID: 799
+			13826 caixa de combinação (settable, string) Verticalidade Value: Automático ID: 1009
+				13827 text (settable, string) Verticalidade Value: Automático
+				13828 botão Abrir ID: DropDown
+			13829 grupo Seção ID: 843
+			13830 text Tipo ID: 446
+			13831 caixa de combinação (settable, string) Tipo Value: retangular ID: 809
+				13832 text (settable, string) Tipo Value: retangular
+				13833 botão Abrir ID: DropDown
+			13834 text b ID: 500
+			13835 editar (settable, string) b Value: 20 ID: 810
+			13836 text cm ID: 814
+			13837 text h ID: 448
+			13838 editar (settable, string) h Value: 30 ID: 811
+			13839 text cm ID: 815
+			13840 text b1 ID: 449
+			13841 editar (disabled, settable, string) b1 Value: 0 ID: 812
+			13842 text cm ID: 816
+			13843 text h1 ID: 447
+			13844 editar (disabled, settable, string) h1 Value: 0 ID: 813
+			13845 text cm ID: 817
+			13846 text Ângulo de abertura ID: 855
+			13847 editar (disabled, settable, string) Ângulo de abertura Value: 90 ID: 856
+			13848 text o ID: 857
+			13849 text Ângulo de rotação ID: 795
+			13850 editar (settable, string) Ângulo de rotação Value: 0 ID: 802
+			13851 text o
+			13852 text Elevação ID: 796
+			13853 editar (settable, string) Elevação Value: 0 ID: 820
+			13854 text cm ID: 819
+			13855 caixa de seleção Manter seção constante na prumada ID: 834
+			13856 text ID: 818
+			13857 grupo Capitel ID: 846
+			13858 caixa de seleção Usar capitel ID: 837
+			13859 text Ângulo de rotação ID: 847
+			13860 editar (disabled, settable, string) Ângulo de rotação Value: 0 ID: 838
+			13861 text o ID: 848
+			13862 text b ID: 849
+			13863 editar (disabled, settable, string) b Value: 100 ID: 840
+			13864 text cm ID: 850
+			13865 text Espessura ID: 851
+			13866 editar (disabled, settable, string) Espessura Value: 30 ID: 839
+			13867 text cm ID: 852
+			13868 text h ID: 853
+			13869 editar (disabled, settable, string) h Value: 100 ID: 841
+			13870 text cm ID: 854
+			13871 botão OK ID: 1
+			13872 botão Cancelar ID: 2
+			13873 botão Desenho... ID: 547
+			13874 botão Cargas... ID: 822
+			13875 botão Ajuda ID: 9
+			13876 barra de título (settable, string) Value: Pilar
+		1 Barra de status
+			13974 custom
+				13975 text Editar
+				13976 editar (settable, string)
+				13977 text 964.8,-0.9
+				13978 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					13979 Lista
+						13980 item de lista (selectable) 1:1
+						13981 item de lista (selectable) 1:2
+						13982 item de lista (selectable) 1:5
+						13983 item de lista (selectable) 1:10
+						13984 item de lista (selectable) 1:12.5
+						13985 item de lista (selectable) 1:15
+						13986 item de lista (selectable) 1:20
+						13987 item de lista (selectable) 1:25
+						13988 item de lista (selectable) 1:30
+						13989 item de lista (selectable) 1:40
+						13990 item de lista (selectable) 1:50
+						13991 item de lista (selectable) 1:60
+						13992 item de lista (selectable) 1:75
+						13993 item de lista (selectable) 1:100
+						13994 item de lista (selectable) 1:200
+						13995 item de lista (selectable) 1:250
+						13996 item de lista (selectable) 1:500
+						13997 item de lista (selectable) 1:1000
+			13998 botão Atualizar
+			13999 botão Enquadrar
+			14000 botão Aproximar
+			14001 botão Afastar
+			14002 botão Zoom
+			14003 botão Zoom anterior
+			14004 botão Deslocar
+			14005 caixa de seleção Ortogonal
+			14006 caixa de seleção Captura personalizada
+			14007 botão Opções da captura personalizada
+			14008 caixa de seleção Quadrante
+			14009 caixa de seleção Centro
+			14010 caixa de seleção Ponto médio
+			14011 caixa de seleção Extremidade
+			14012 caixa de seleção Ponto no elemento
+			14013 caixa de seleção Intersecção
+			14014 caixa de seleção Perpendicular
+			14015 caixa de seleção Ponto intermediário
+			14016 caixa de seleção Ponto quadrante
+			14017 caixa de seleção Ponto na intersecção
+			14018 caixa de seleção Ponto relativo
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Croqui-TCC-cdd31967-N2
+						14019 item de tabulação (selectable) Notícias
+						14020 item de tabulação (selectable) Croqui-TCC-cdd31967-N2
+					8 painel
+						12803 painel
+							12804 painel Croqui-TCC-cdd31967-N2
+								12805 painel TCadPlotWindow
+				31 painel
+					32 tabulação
+						14021 item de tabulação (selectable)
+						14022 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									38 painel
+									12729 árvore ID: 101
+										12730 item da árvore (selectable, disabled) Pavimentos
+											12731 item da árvore (selectable, disabled) TCC-cdd31967-N2
+											12732 item da árvore (selectable, disabled) TCC-cdd31967-N1
+											12733 item da árvore (selectable, disabled) TCC-cdd31967-N0
+										12734 item da árvore (selectable, disabled) Cortes
+										12735 item da árvore (selectable, disabled) Gerenciador de desenhos
+										12736 item da árvore (selectable, disabled) Modelos 3D
+											12737 item da árvore (selectable, disabled) H03-R44-geometria-nominal
+		40 barra de menus
+		13926 diálogo Carga concentrada Secondary Actions: Raise
+			13927 grupo ID: 118
+			13928 text Ação ID: 121
+			13929 caixa de combinação (settable, string) Ação Value: Adicional ID: 115
+				13930 text (settable, string) Ação Value: Adicional
+				13931 botão Abrir ID: DropDown
+			13932 text Cargas ID: 119
+			13933 text Fx ID: 122
+			13934 editar (settable, string) Fx Value: 0 ID: 112
+			13935 text kN ID: 111
+			13936 text Fy ID: 123
+			13937 editar (settable, string) Fy Value: 0 ID: 110
+			13938 text kN ID: 109
+			13939 text Fz ID: 124
+			13940 editar (settable, string) Fz Value: 0 ID: 108
+			13941 text kN ID: 107
+			13942 text Momentos ID: 120
+			13943 text Mx ID: 125
+			13944 editar (settable, string) Mx Value: 0 ID: 106
+			13945 text kN.m ID: 105
+			13946 text My ID: 126
+			13947 editar (settable, string) My Value: 0 ID: 104
+			13948 text kN.m ID: 103
+			13949 text Mz ID: 127
+			13950 editar (settable, string) Mz Value: 0 ID: 102
+			13951 text kN.m ID: 101
+			13952 grupo Cargas de vento ID: 116
+			13953 botão de opção (selectable) Não aplicar ID: 143
+			13954 botão de opção (selectable) Aplicar todas ID: 144
+			13955 botão de opção (selectable) Aplicar selecionadas ID: 145
+			13956 botão (disabled) ... ID: 146
+			13957 grupo Variação de temperatura uniforme ID: 130
+			13958 text Caso T1 ID: 135
+			13959 text Caso T2 ID: 136
+			13960 editar (settable, string) Caso T2 Value: 0 ID: 131
+			13961 text °C ID: 133
+			13962 editar (settable, string) °C Value: 0 ID: 132
+			13963 text °C ID: 134
+			13964 grupo Retração ID: 138
+			13965 caixa de seleção Calcular automaticamente ID: 137
+			13966 text Deformação uniforme ID: 140
+			13967 editar (settable, string) Deformação uniforme Value: 0 ID: 139
+			13968 text °/ ID: 141
+			13969 text °° ID: 142
+			13970 botão OK ID: 1
+			13971 botão Cancelar ID: 2
+			13972 botão Ajuda ID: 9
+			13973 barra de título (settable, string) Value: Carga concentrada
+		13811 diálogo (disabled) Pilar Secondary Actions: Raise
+			13926 diálogo Carga concentrada Secondary Actions: Raise
+				13927 grupo ID: 118
+				13928 text Ação ID: 121
+				13929 caixa de combinação (settable, string) Ação Value: Adicional ID: 115
+					13930 text (settable, string) Ação Value: Adicional
+					13931 botão Abrir ID: DropDown
+				13932 text Cargas ID: 119
+				13933 text Fx ID: 122
+				13934 editar (settable, string) Fx Value: 0 ID: 112
+				13935 text kN ID: 111
+				13936 text Fy ID: 123
+				13937 editar (settable, string) Fy Value: 0 ID: 110
+				13938 text kN ID: 109
+				13939 text Fz ID: 124
+				13940 editar (settable, string) Fz Value: 0 ID: 108
+				13941 text kN ID: 107
+				13942 text Momentos ID: 120
+				13943 text Mx ID: 125
+				13944 editar (settable, string) Mx Value: 0 ID: 106
+				13945 text kN.m ID: 105
+				13946 text My ID: 126
+				13947 editar (settable, string) My Value: 0 ID: 104
+				13948 text kN.m ID: 103
+				13949 text Mz ID: 127
+				13950 editar (settable, string) Mz Value: 0 ID: 102
+				13951 text kN.m ID: 101
+				13952 grupo Cargas de vento ID: 116
+				13953 botão de opção (selectable) Não aplicar ID: 143
+				13954 botão de opção (selectable) Aplicar todas ID: 144
+				13955 botão de opção (selectable) Aplicar selecionadas ID: 145
+				13956 botão (disabled) ... ID: 146
+				13957 grupo Variação de temperatura uniforme ID: 130
+				13958 text Caso T1 ID: 135
+				13959 text Caso T2 ID: 136
+				13960 editar (settable, string) Caso T2 Value: 0 ID: 131
+				13961 text °C ID: 133
+				13962 editar (settable, string) °C Value: 0 ID: 132
+				13963 text °C ID: 134
+				13964 grupo Retração ID: 138
+				13965 caixa de seleção Calcular automaticamente ID: 137
+				13966 text Deformação uniforme ID: 140
+				13967 editar (settable, string) Deformação uniforme Value: 0 ID: 139
+				13968 text °/ ID: 141
+				13969 text °° ID: 142
+				13970 botão OK ID: 1
+				13971 botão Cancelar ID: 2
+				13972 botão Ajuda ID: 9
+				13973 barra de título (settable, string) Value: Carga concentrada
+			13812 grupo Dados do pilar ID: 1010
+			13813 text Nome ID: 797
+			13814 editar (settable, string) Nome Value: P11 ID: 801
+			13815 text Ambiente ID: 798
+			13816 caixa de combinação (settable, string) Ambiente Value: Externo ID: 828
+				13817 text (settable, string) Ambiente Value: Externo
+				13818 botão Abrir ID: DropDown
+			13819 caixa de seleção (disabled) Detalhamento contínuo no lance ID: 1036
+			13820 grupo Modelo ID: 823
+			13821 text Vínculo ID: 800
+			13822 caixa de combinação (settable, string) Vínculo Value: Engastado ID: 821
+				13823 text (settable, string) Vínculo Value: Engastado
+				13824 botão Abrir ID: DropDown
+			13825 text Verticalidade ID: 799
+			13826 caixa de combinação (settable, string) Verticalidade Value: Automático ID: 1009
+				13827 text (settable, string) Verticalidade Value: Automático
+				13828 botão Abrir ID: DropDown
+			13829 grupo Seção ID: 843
+			13830 text Tipo ID: 446
+			13831 caixa de combinação (settable, string) Tipo Value: retangular ID: 809
+				13832 text (settable, string) Tipo Value: retangular
+				13833 botão Abrir ID: DropDown
+			13834 text b ID: 500
+			13835 editar (settable, string) b Value: 20 ID: 810
+			13836 text cm ID: 814
+			13837 text h ID: 448
+			13838 editar (settable, string) h Value: 30 ID: 811
+			13839 text cm ID: 815
+			13840 text b1 ID: 449
+			13841 editar (disabled, settable, string) b1 Value: 0 ID: 812
+			13842 text cm ID: 816
+			13843 text h1 ID: 447
+			13844 editar (disabled, settable, string) h1 Value: 0 ID: 813
+			13845 text cm ID: 817
+			13846 text Ângulo de abertura ID: 855
+			13847 editar (disabled, settable, string) Ângulo de abertura Value: 90 ID: 856
+			13848 text o ID: 857
+			13849 text Ângulo de rotação ID: 795
+			13850 editar (settable, string) Ângulo de rotação Value: 0 ID: 802
+			13851 text o
+			13852 text Elevação ID: 796
+			13853 editar (settable, string) Elevação Value: 0 ID: 820
+			13854 text cm ID: 819
+			13855 caixa de seleção Manter seção constante na prumada ID: 834
+			13856 text ID: 818
+			13857 grupo Capitel ID: 846
+			13858 caixa de seleção Usar capitel ID: 837
+			13859 text Ângulo de rotação ID: 847
+			13860 editar (disabled, settable, string) Ângulo de rotação Value: 0 ID: 838
+			13861 text o ID: 848
+			13862 text b ID: 849
+			13863 editar (disabled, settable, string) b Value: 100 ID: 840
+			13864 text cm ID: 850
+			13865 text Espessura ID: 851
+			13866 editar (disabled, settable, string) Espessura Value: 30 ID: 839
+			13867 text cm ID: 852
+			13868 text h ID: 853
+			13869 editar (disabled, settable, string) h Value: 100 ID: 841
+			13870 text cm ID: 854
+			13871 botão OK ID: 1
+			13872 botão Cancelar ID: 2
+			13873 botão Desenho... ID: 547
+			13874 botão Cargas... ID: 822
+			13875 botão Ajuda ID: 9
+			13876 barra de título (settable, string) Value: Pilar
+
+Document text: ```
+Editar
+964.8,-0.9
+```

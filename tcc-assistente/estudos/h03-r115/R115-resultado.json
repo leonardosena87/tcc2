@@ -1,0 +1,1967 @@
+{
+  "revision": "H03/R115",
+  "createdAtUtc": "2026-11-01T13:09:46.262223+00:00",
+  "hypothesisId": "P2-GRAV-A",
+  "branches": {
+    "CAD": {
+      "projectPath": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "projectSha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87",
+      "readings": [
+        {
+          "support": "RP2-01",
+          "pillarNative": "P10",
+          "action": "G",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-01-P10-antes-UI.txt",
+              "sha256": "7c19ef13e98d00f9ac1a80e58323b8bac0f313a2de1e09ff7a744215d35ce8fa"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-01-P10-apos-reabrir-UI.txt",
+              "sha256": "b4dc9c41b1dfd87905b91f9ad23fdb6ad9bd903e179d8a3a03067d1d9410e5be"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-01-G-antes-UI.txt",
+              "sha256": "4f6723b9185ba41aa049b468b375c2c3f6cd8b06058eb7996b50a1a178b960d8",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": 0.0,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-01-G-preparado-UI.txt",
+              "sha256": "a5e6e95ba160a5087a9a2293ac1897fed429d3006d46cee67251fb90dd1e9619",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.000138,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-01-G-apos-reabrir-UI.txt",
+              "sha256": "17ddf79466ea69ed627f8d212057cb60750314715671cc3b295e3036dbd513eb",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.00014,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.00014,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.000138,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          }
+        },
+        {
+          "support": "RP2-01",
+          "pillarNative": "P10",
+          "action": "QT",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-01-P10-antes-UI.txt",
+              "sha256": "7c19ef13e98d00f9ac1a80e58323b8bac0f313a2de1e09ff7a744215d35ce8fa"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-01-P10-apos-reabrir-UI.txt",
+              "sha256": "b4dc9c41b1dfd87905b91f9ad23fdb6ad9bd903e179d8a3a03067d1d9410e5be"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-01-QT-antes-UI.txt",
+              "sha256": "f3b599c14a0defe8868aff0cfbdd45c0544cf813a6281b1789e124e49345a2bd",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": 0.0,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-01-QT-preparado-UI.txt",
+              "sha256": "1b9d8ff40d7c64e5c7861e1fcfb4f1ff5a50f091ab14fa76a18443914a85cd0b",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.755625,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-01-QT-apos-reabrir-UI.txt",
+              "sha256": "f62fddd24d4e6b00be4f1e04208d17b3a9a0a7873959c346b1e78fd88fb8ad2e",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.755625,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -0.755625,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -0.755625,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          }
+        },
+        {
+          "support": "RP2-02",
+          "pillarNative": "P7",
+          "action": "G",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-02-P7-antes-UI.txt",
+              "sha256": "50f0929062fd1a7b5ec007daed0da2d34db59f862764d81ecef0d66e8f2b8dd9"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-02-P7-apos-reabrir-UI.txt",
+              "sha256": "7fe67d3c409f180000b849ef904406a2d25083b91a330a0a7ba84473d99c2c41"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-02-G-antes-UI.txt",
+              "sha256": "9564c78adb6b20b7a28f6fd08c875baac1d6d23897db33df78b897b6b3b182c0",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": 0.0,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-02-G-preparado-UI.txt",
+              "sha256": "8df1d4de05716bacc892385f8bcadc4d4b1443775e8115b505781acd66a48d39",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.000138,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-02-G-apos-reabrir-UI.txt",
+              "sha256": "545081bae99db3da244af5b7e3f0fa870776f94d006b8f801cc3cd25eed165c0",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.00014,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.00014,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.000138,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          }
+        },
+        {
+          "support": "RP2-02",
+          "pillarNative": "P7",
+          "action": "QT",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-02-P7-antes-UI.txt",
+              "sha256": "50f0929062fd1a7b5ec007daed0da2d34db59f862764d81ecef0d66e8f2b8dd9"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-02-P7-apos-reabrir-UI.txt",
+              "sha256": "7fe67d3c409f180000b849ef904406a2d25083b91a330a0a7ba84473d99c2c41"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-02-QT-antes-UI.txt",
+              "sha256": "3093917196e1f9ad9ac5d090e2a94e52985e253e71ef8a26b6433e155347e67b",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": 0.0,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-02-QT-preparado-UI.txt",
+              "sha256": "a09247f0e1f498ebec4e1d28b2a2d8130df715aae085e7c3a46dafd4fdebc538",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.755625,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-02-QT-apos-reabrir-UI.txt",
+              "sha256": "1de744c26abd4d02dccd078cffefed94821fd922e712c873e8d39749080fda11",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.755625,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -0.755625,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -0.755625,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          }
+        },
+        {
+          "support": "RP2-03",
+          "pillarNative": "P11",
+          "action": "G",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-03-P11-antes-UI.txt",
+              "sha256": "f066ac3775d28ca1211567a2368cf4dc778cac31ff9bb5dee474af8147f9f43e"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-03-P11-apos-reabrir-UI.txt",
+              "sha256": "3ca45039fb131de472705347912aa22477e78c0c04d6b0813a51d94db6145cb0"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-03-G-antes-UI.txt",
+              "sha256": "88f0c4e90d8270a5295d88a671b6781913432c54e247017053e9873d51ddfe1f",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": 0.0,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-03-G-preparado-UI.txt",
+              "sha256": "70367856d8fce02ddd0f7b44edb4f2199c76b78463eb1a274bb7688217258ee2",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.000138,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-03-G-apos-reabrir-UI.txt",
+              "sha256": "6231128913a1bbf5607ff458c53ba85c51d5c2c9c8badee529e237c03b0c995e",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.00014,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.00014,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.000138,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          }
+        },
+        {
+          "support": "RP2-03",
+          "pillarNative": "P11",
+          "action": "QT",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-03-P11-antes-UI.txt",
+              "sha256": "f066ac3775d28ca1211567a2368cf4dc778cac31ff9bb5dee474af8147f9f43e"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-03-P11-apos-reabrir-UI.txt",
+              "sha256": "3ca45039fb131de472705347912aa22477e78c0c04d6b0813a51d94db6145cb0"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-03-QT-antes-UI.txt",
+              "sha256": "7f4566d95832ec555b72000363a42385b55482f173edd8f90efbf8e41bf91e7c",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": 0.0,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-03-QT-preparado-UI.txt",
+              "sha256": "ba77fe4685de495ddfab0c4174b7d8d5840fc45807e875ea5b145ddec19c6ea6",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.755625,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-03-QT-apos-reabrir-UI.txt",
+              "sha256": "877210c218b6306a390218e99e13318474e5e5fdc3900f410492cb0dde6029d4",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.755625,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -0.755625,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -0.755625,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          }
+        },
+        {
+          "support": "RP2-04",
+          "pillarNative": "P8",
+          "action": "G",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-04-P8-antes-UI.txt",
+              "sha256": "0615626bbb04ea302c17be27219b9c4e3b01a62694a52b7179f6ab8fa6b4ab86"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-04-P8-apos-reabrir-UI.txt",
+              "sha256": "4686bcf70ec0a36335ef489f3eefdb6c9cd305916b912572cae7aa1e6bca700e"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-04-G-antes-UI.txt",
+              "sha256": "7a356d92834db60138b79a10df01ff830f3ebb95fe7dfc53efc74c49a24da6c7",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.521164,
+                "Mx": 0.0,
+                "My": 0.260582,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-04-G-preparado-UI.txt",
+              "sha256": "b12b3c0ae84940b63103d98b54e554c41122a4e980d2426da5955e14d34fec2a",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.521302,
+                "Mx": 0.0,
+                "My": 0.260582,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-04-G-apos-reabrir-UI.txt",
+              "sha256": "aecfb3766b5ac7a183ae826532ada8bbd1e8d008ef3b0e8400f68ebc6264afd8",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.5213,
+                "Mx": 0.0,
+                "My": 0.260582,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.5213,
+            "Mx": 0.0,
+            "My": 0.260582,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.521302,
+            "Mx": 0.0,
+            "My": 0.260582,
+            "Mz": 0.0
+          }
+        },
+        {
+          "support": "RP2-04",
+          "pillarNative": "P8",
+          "action": "QT",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-04-P8-antes-UI.txt",
+              "sha256": "0615626bbb04ea302c17be27219b9c4e3b01a62694a52b7179f6ab8fa6b4ab86"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-04-P8-apos-reabrir-UI.txt",
+              "sha256": "4686bcf70ec0a36335ef489f3eefdb6c9cd305916b912572cae7aa1e6bca700e"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-04-QT-antes-UI.txt",
+              "sha256": "b341eb52b33a8689465244b235b27ae10cf0ed4a825ec84e05cd3f1b5a468dad",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.39375,
+                "Mx": 0.0,
+                "My": 0.196875,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-04-QT-preparado-UI.txt",
+              "sha256": "8780ed372298a588439fda6425a125c9a1d5d6247a1d70f5bf7cc2f19cc99228",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.149375,
+                "Mx": 0.0,
+                "My": 0.196875,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\CAD-RP2-04-QT-apos-reabrir-UI.txt",
+              "sha256": "d1bc3cecb383f2976c30597d6c88a1ce401f0061cb88b350c85a81f91d50a99e",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.14938,
+                "Mx": 0.0,
+                "My": 0.196875,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.14938,
+            "Mx": 0.0,
+            "My": 0.196875,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.149375,
+            "Mx": 0.0,
+            "My": 0.196875,
+            "Mz": 0.0
+          }
+        }
+      ],
+      "auxiliaryChangesDuringConsultation": [
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+          "beforeSha256": "bd27fba67d178e5c5771d006a02180d003a35fc2af5e74cc6985aff138e67714",
+          "afterSha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87"
+        }
+      ],
+      "prjUnchangedDuringConsultation": true,
+      "sessionTime": {
+        "start": {
+          "utc": "2026-11-01T12:28:12.879Z",
+          "mono": 33274061.3389
+        },
+        "end": {
+          "utc": "2026-11-01T12:49:49.878Z",
+          "mono": 34571061.4045
+        },
+        "wallMs": 1297000.0656000003,
+        "scope": "Lançamento individual G/QT de P2 e releitura apos fechar/reabrir; inclui interface, evidencias e retomada de contexto. Nao e tempo ativo puro nem ranking."
+      },
+      "frozenFiles": [
+        {
+          "path": "_DADOS_/ConfigFolder.qib",
+          "sha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5"
+        },
+        {
+          "path": "_DADOS_/EdificacaoEberick.ini",
+          "sha256": "0357e67b5326376ab92dfe85db39572cac04ffdee1d08962283c5d2c90a748b8"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+          "sha256": "bd27fba67d178e5c5771d006a02180d003a35fc2af5e74cc6985aff138e67714"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+          "sha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+          "sha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+          "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+          "sha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+          "sha256": "0e4684dfb5cca95f0c7e2da23f3acbf81936bb3db7a751bd07054e6e0784e6e5"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+          "sha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+          "sha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+          "sha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+          "sha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+          "sha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+          "sha256": "e83c2c9fe0a811fcc60e2af315862c984e1162c507c8451e0299fd79bd01042d"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+          "sha256": "ad901e381a4064f5aca36092b3d5b3fef97f2fbff7aa9891f683d18802e4643b"
+        }
+      ]
+    },
+    "BIM": {
+      "projectPath": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "projectSha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff",
+      "readings": [
+        {
+          "support": "RP2-01",
+          "pillarNative": "P10",
+          "action": "G",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-01-P10-antes-UI.txt",
+              "sha256": "06d5b15c381a6e50cb31ba5bd2bf52f1ca05aea4651a978e3cf44dfdf4db064c"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-01-P10-apos-reabrir-UI.txt",
+              "sha256": "1970dac87faf53cec67aaf409b15f3eeb8e5fa6689ba36eae370be713cf207e7"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-01-G-antes-UI.txt",
+              "sha256": "50d20648c3b6b9a0d74d143fcc51e01d9ff155d0d06fd0f537b384fef2121241",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": 0.0,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-01-G-preparado-UI.txt",
+              "sha256": "914f014d29277b19b3e6c73b8672d61b3ecb7f9c98c9aca067b060e1b6800069",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.000138,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-01-G-apos-reabrir-UI.txt",
+              "sha256": "c476c02cfe56a7cadaa07745fe97db30ee722a7c186b98199d8737d8ef820058",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.00014,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.00014,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.000138,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          }
+        },
+        {
+          "support": "RP2-01",
+          "pillarNative": "P10",
+          "action": "QT",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-01-P10-antes-UI.txt",
+              "sha256": "06d5b15c381a6e50cb31ba5bd2bf52f1ca05aea4651a978e3cf44dfdf4db064c"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-01-P10-apos-reabrir-UI.txt",
+              "sha256": "1970dac87faf53cec67aaf409b15f3eeb8e5fa6689ba36eae370be713cf207e7"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-01-QT-antes-UI.txt",
+              "sha256": "15514ce2094e7ce0be3811ab2f9257038e8cc7c13193448f2de3da9c9d16ddec",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": 0.0,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-01-QT-preparado-UI.txt",
+              "sha256": "44ff7ee235a9c025e4a6819385610aeb3ea67af5cad19256f8f7cc5ec04dc733",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.755625,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-01-QT-apos-reabrir-UI.txt",
+              "sha256": "bce6bef17b1331afe692f14c1dc8054cf4a9eb7195fa06bca1ef9f4320d2b90f",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.755625,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -0.755625,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -0.755625,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          }
+        },
+        {
+          "support": "RP2-02",
+          "pillarNative": "P11",
+          "action": "G",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-02-P11-antes-UI.txt",
+              "sha256": "ffdeb3e2a659e412a531e2cbafc0f36d2e39edd3e15dae939f6cbdd7eb633061"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-02-P11-apos-reabrir-UI.txt",
+              "sha256": "61a17149f273dca63a1b4186fd4dccac19a82b79e94bb4e8a12426a888aae77c"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-02-G-antes-UI.txt",
+              "sha256": "f3719ebc6a03154d246f8cf038e0d143c74523fc64123472e4fd80290e91b998",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": 0.0,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-02-G-preparado-UI.txt",
+              "sha256": "df257a2ccff7baffa1bd0097677a77bf22e173b162c4d4b46c2be1b9c95af276",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.000138,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-02-G-apos-reabrir-UI.txt",
+              "sha256": "25b2d74697e3a357e72ffe91f3e6da74de4b0ab05e4a94921d50f9bb2e18028f",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.00014,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.00014,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.000138,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          }
+        },
+        {
+          "support": "RP2-02",
+          "pillarNative": "P11",
+          "action": "QT",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-02-P11-antes-UI.txt",
+              "sha256": "ffdeb3e2a659e412a531e2cbafc0f36d2e39edd3e15dae939f6cbdd7eb633061"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-02-P11-apos-reabrir-UI.txt",
+              "sha256": "61a17149f273dca63a1b4186fd4dccac19a82b79e94bb4e8a12426a888aae77c"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-02-QT-antes-UI.txt",
+              "sha256": "cb3586a6d2b24ece9ffc59527c20b5fd243ec23724e73b175b4c9913538c2dbc",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": 0.0,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-02-QT-preparado-UI.txt",
+              "sha256": "c22e067d3e33e66adf3f2beeb251617bef0bbc5fc2edff96cedc9faa7fb7dc6c",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.755625,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-02-QT-apos-reabrir-UI.txt",
+              "sha256": "8909855372e4948cced7bd332947bc1b2fd1189793b425d134600333f58c15d5",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.755625,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -0.755625,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -0.755625,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          }
+        },
+        {
+          "support": "RP2-03",
+          "pillarNative": "P6",
+          "action": "G",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-03-P6-antes-UI.txt",
+              "sha256": "9b6d3a8328555cfdd4260e64e24d81eda559ea352301fd4311fea02c8b590bf3"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-03-P6-apos-reabrir-UI.txt",
+              "sha256": "218216a05e331e1f0572aa4fcd57f2c736bebfc717c77010137e0d2e7448dd28"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-03-G-antes-UI.txt",
+              "sha256": "b75cadc3ccba3468a6595a6c24c0b8a9e9c1bcfdb39457f157f86e5e8a967cf1",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": 0.0,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-03-G-preparado-UI.txt",
+              "sha256": "888ffa601a43fa1b2ca6120a1d2a44939373d05d30a449dc5b6a7ef85d541a0d",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.000138,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-03-G-apos-reabrir-UI.txt",
+              "sha256": "5253c04893cbafc246cda201963290659c078ba9d6fefecca2cc9b9a9ca072c2",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.00014,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.00014,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.000138,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          }
+        },
+        {
+          "support": "RP2-03",
+          "pillarNative": "P6",
+          "action": "QT",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-03-P6-antes-UI.txt",
+              "sha256": "9b6d3a8328555cfdd4260e64e24d81eda559ea352301fd4311fea02c8b590bf3"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-03-P6-apos-reabrir-UI.txt",
+              "sha256": "218216a05e331e1f0572aa4fcd57f2c736bebfc717c77010137e0d2e7448dd28"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-03-QT-antes-UI.txt",
+              "sha256": "0a410b30b9f57e05050f8b4ab7ccd8c07eb567d3bcd07e1578e77c8a1781b9ca",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": 0.0,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-03-QT-preparado-UI.txt",
+              "sha256": "e36ec5998bbab6ad478b6464c4615ddec80d47da5fc8fbc8fe25c11c319a4bb7",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.755625,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-03-QT-apos-reabrir-UI.txt",
+              "sha256": "ff2cd182f4d6bde0737861d4ba12712f94b36d4900dd89c0416271e9feca7693",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.755625,
+                "Mx": 0.0,
+                "My": 0.0,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -0.755625,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -0.755625,
+            "Mx": 0.0,
+            "My": 0.0,
+            "Mz": 0.0
+          }
+        },
+        {
+          "support": "RP2-04",
+          "pillarNative": "P7",
+          "action": "G",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-04-P7-antes-UI.txt",
+              "sha256": "7a76500a52c7eb943fd909146d76633657f7bceca679baf695c60a4df1a4bae5"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-04-P7-apos-reabrir-UI.txt",
+              "sha256": "b1c9116743d8c0412e2bf147b63fff547dfa706c0c030c034090ce0bfdf854f1"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-04-G-antes-UI.txt",
+              "sha256": "ca3f2ac47190da36880632b427fa87f36102e9c2ccf9161d22d8bd64a3deb0ce",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.521164,
+                "Mx": 0.0,
+                "My": 0.260582,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-04-G-preparado-UI.txt",
+              "sha256": "c4a51ecd3236ee208e88364f4a85cad1dcb2994dd38d160a4fab15aa49f29fc4",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.521302,
+                "Mx": 0.0,
+                "My": 0.260582,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-04-G-apos-reabrir-UI.txt",
+              "sha256": "8a3b9cb97eda62686693405bb33c3c32bd1277bb384dd04a638182ba1b54beff",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.5213,
+                "Mx": 0.0,
+                "My": 0.260582,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.5213,
+            "Mx": 0.0,
+            "My": 0.260582,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.521302,
+            "Mx": 0.0,
+            "My": 0.260582,
+            "Mz": 0.0
+          }
+        },
+        {
+          "support": "RP2-04",
+          "pillarNative": "P7",
+          "action": "QT",
+          "identityEvidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-04-P7-antes-UI.txt",
+              "sha256": "7a76500a52c7eb943fd909146d76633657f7bceca679baf695c60a4df1a4bae5"
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-04-P7-apos-reabrir-UI.txt",
+              "sha256": "b1c9116743d8c0412e2bf147b63fff547dfa706c0c030c034090ce0bfdf854f1"
+            }
+          },
+          "evidence": {
+            "antes": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-04-QT-antes-UI.txt",
+              "sha256": "add50035bbd1a2839ca465c0cc2c5a208152d68853bea69d1548c7a298d1b536",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -0.39375,
+                "Mx": 0.0,
+                "My": 0.196875,
+                "Mz": 0.0
+              }
+            },
+            "preparado": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-04-QT-preparado-UI.txt",
+              "sha256": "121e5d2a04331cb0e568ca8b51a159a68dc4ec83e0b25a3b46d26beb66fe4ada",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.149375,
+                "Mx": 0.0,
+                "My": 0.196875,
+                "Mz": 0.0
+              }
+            },
+            "apos-reabrir": {
+              "path": "D:\\TCC\\outputs\\Telhado-P2-H03-R115-SENSIBILIDADE-NAO-EXECUTAR\\BIM-RP2-04-QT-apos-reabrir-UI.txt",
+              "sha256": "c9ce08da4e761a268f69b6e954581067b97ef073598329ac0454841560fc5892",
+              "components": {
+                "Fx": 0.0,
+                "Fy": 0.0,
+                "Fz": -1.14938,
+                "Mx": 0.0,
+                "My": 0.196875,
+                "Mz": 0.0
+              }
+            }
+          },
+          "components": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.14938,
+            "Mx": 0.0,
+            "My": 0.196875,
+            "Mz": 0.0
+          },
+          "plannedTotal": {
+            "Fx": 0.0,
+            "Fy": 0.0,
+            "Fz": -1.149375,
+            "Mx": 0.0,
+            "My": 0.196875,
+            "Mz": 0.0
+          }
+        }
+      ],
+      "auxiliaryChangesDuringConsultation": [
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+          "beforeSha256": "cca718e11baa3db46989a0a14ae2dcd08dbf36e1e70eeb8aa149b7c61f7ee170",
+          "afterSha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff"
+        }
+      ],
+      "prjUnchangedDuringConsultation": true,
+      "sessionTime": {
+        "start": {
+          "utc": "2026-11-01T12:50:04.765Z",
+          "mono": 34585947.9528
+        },
+        "end": {
+          "utc": "2026-11-01T13:08:29.237Z",
+          "mono": 35690419.5745
+        },
+        "wallMs": 1104471.6217000037,
+        "scope": "Lancamento individual G/QT de P2 e releitura apos fechar/reabrir; inclui interface e evidencias. Nao e tempo ativo puro nem ranking."
+      },
+      "frozenFiles": [
+        {
+          "path": "_DADOS_/ConfigFolder.qib",
+          "sha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3"
+        },
+        {
+          "path": "_DADOS_/EdificacaoEberick.ini",
+          "sha256": "1a7ce68d8104d1f5fc1ca18eb40295922920c019d52b1a6e101a4f62cf3d3e22"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+          "sha256": "cca718e11baa3db46989a0a14ae2dcd08dbf36e1e70eeb8aa149b7c61f7ee170"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+          "sha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+          "sha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+          "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+          "sha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+          "sha256": "c2d2f5e1963760dbb356fcccf3dfc33a42d5b9332e02a7d73f6bd8f3de4dc297"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+          "sha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+          "sha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+          "sha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+          "sha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+          "sha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+          "sha256": "239c5e715e5da4a46bf99f4b0cff8e32a89f9ec8bd0ecc675bd7491f1e224343"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+          "sha256": "ce419d50760d49160743805870a711b417c3d1ee72c3d6408dd80ac7895ba750"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D/H03-R44-geometria-nominal.oq3d",
+          "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D/Planificacao_H03-R44-geometria-nominal.ini",
+          "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D/Vinculo_H03-R44-geometria-nominal.ini",
+          "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571"
+        }
+      ]
+    }
+  },
+  "pairedComponentComparisons": [
+    {
+      "support": "RP2-01",
+      "action": "G",
+      "component": "Fx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-01",
+      "action": "G",
+      "component": "Fy",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-01",
+      "action": "G",
+      "component": "Fz",
+      "CAD": -1.00014,
+      "BIM": -1.00014,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-01",
+      "action": "G",
+      "component": "Mx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-01",
+      "action": "G",
+      "component": "My",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-01",
+      "action": "G",
+      "component": "Mz",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-01",
+      "action": "QT",
+      "component": "Fx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-01",
+      "action": "QT",
+      "component": "Fy",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-01",
+      "action": "QT",
+      "component": "Fz",
+      "CAD": -0.755625,
+      "BIM": -0.755625,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-01",
+      "action": "QT",
+      "component": "Mx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-01",
+      "action": "QT",
+      "component": "My",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-01",
+      "action": "QT",
+      "component": "Mz",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-02",
+      "action": "G",
+      "component": "Fx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-02",
+      "action": "G",
+      "component": "Fy",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-02",
+      "action": "G",
+      "component": "Fz",
+      "CAD": -1.00014,
+      "BIM": -1.00014,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-02",
+      "action": "G",
+      "component": "Mx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-02",
+      "action": "G",
+      "component": "My",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-02",
+      "action": "G",
+      "component": "Mz",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-02",
+      "action": "QT",
+      "component": "Fx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-02",
+      "action": "QT",
+      "component": "Fy",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-02",
+      "action": "QT",
+      "component": "Fz",
+      "CAD": -0.755625,
+      "BIM": -0.755625,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-02",
+      "action": "QT",
+      "component": "Mx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-02",
+      "action": "QT",
+      "component": "My",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-02",
+      "action": "QT",
+      "component": "Mz",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-03",
+      "action": "G",
+      "component": "Fx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-03",
+      "action": "G",
+      "component": "Fy",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-03",
+      "action": "G",
+      "component": "Fz",
+      "CAD": -1.00014,
+      "BIM": -1.00014,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-03",
+      "action": "G",
+      "component": "Mx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-03",
+      "action": "G",
+      "component": "My",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-03",
+      "action": "G",
+      "component": "Mz",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-03",
+      "action": "QT",
+      "component": "Fx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-03",
+      "action": "QT",
+      "component": "Fy",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-03",
+      "action": "QT",
+      "component": "Fz",
+      "CAD": -0.755625,
+      "BIM": -0.755625,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-03",
+      "action": "QT",
+      "component": "Mx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-03",
+      "action": "QT",
+      "component": "My",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-03",
+      "action": "QT",
+      "component": "Mz",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-04",
+      "action": "G",
+      "component": "Fx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-04",
+      "action": "G",
+      "component": "Fy",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-04",
+      "action": "G",
+      "component": "Fz",
+      "CAD": -1.5213,
+      "BIM": -1.5213,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-04",
+      "action": "G",
+      "component": "Mx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-04",
+      "action": "G",
+      "component": "My",
+      "CAD": 0.260582,
+      "BIM": 0.260582,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-04",
+      "action": "G",
+      "component": "Mz",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-04",
+      "action": "QT",
+      "component": "Fx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-04",
+      "action": "QT",
+      "component": "Fy",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-04",
+      "action": "QT",
+      "component": "Fz",
+      "CAD": -1.14938,
+      "BIM": -1.14938,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-04",
+      "action": "QT",
+      "component": "Mx",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-04",
+      "action": "QT",
+      "component": "My",
+      "CAD": 0.196875,
+      "BIM": 0.196875,
+      "equalDisplayed": true
+    },
+    {
+      "support": "RP2-04",
+      "action": "QT",
+      "component": "Mz",
+      "CAD": 0.0,
+      "BIM": 0.0,
+      "equalDisplayed": true
+    }
+  ],
+  "protectedSourceR109Files": [
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\22-H03-R109-CAD-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "copy": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "sha256Before": "412c88b58ef9997c1827138819d1ead38cb00b661af56ca5e7926a548b9d101a",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "412c88b58ef9997c1827138819d1ead38cb00b661af56ca5e7926a548b9d101a"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\22-H03-R109-CAD-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "copy": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "sha256Before": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\22-H03-R109-CAD-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "copy": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "sha256Before": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\22-H03-R109-CAD-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "copy": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256Before": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\22-H03-R109-CAD-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "copy": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256Before": "bd27fba67d178e5c5771d006a02180d003a35fc2af5e74cc6985aff138e67714",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "bd27fba67d178e5c5771d006a02180d003a35fc2af5e74cc6985aff138e67714"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\22-H03-R109-CAD-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "copy": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256Before": "ee9a1e28ba4f0c390827f194b087e97f5469aa873bc607671ae82454ef3ddb96",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "ee9a1e28ba4f0c390827f194b087e97f5469aa873bc607671ae82454ef3ddb96"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\22-H03-R109-CAD-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "copy": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "sha256Before": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\22-H03-R109-CAD-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "copy": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "sha256Before": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\22-H03-R109-CAD-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "copy": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256Before": "bd27fba67d178e5c5771d006a02180d003a35fc2af5e74cc6985aff138e67714",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "bd27fba67d178e5c5771d006a02180d003a35fc2af5e74cc6985aff138e67714"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\22-H03-R109-CAD-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "copy": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "sha256Before": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\22-H03-R109-CAD-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "copy": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "sha256Before": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\22-H03-R109-CAD-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "copy": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "sha256Before": "e83c2c9fe0a811fcc60e2af315862c984e1162c507c8451e0299fd79bd01042d",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "e83c2c9fe0a811fcc60e2af315862c984e1162c507c8451e0299fd79bd01042d"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\22-H03-R109-CAD-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "copy": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "sha256Before": "ad901e381a4064f5aca36092b3d5b3fef97f2fbff7aa9891f683d18802e4643b",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "ad901e381a4064f5aca36092b3d5b3fef97f2fbff7aa9891f683d18802e4643b"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\22-H03-R109-CAD-VARANDA-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "copy": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256Before": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5"
+    },
+    {
+      "branch": "CAD",
+      "source": "D:\\TCC\\outputs\\22-H03-R109-CAD-VARANDA-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "copy": "D:\\TCC\\outputs\\28-H03-R115-CAD-P2-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256Before": "f3e53b9e37915fa004437843e18774ae918ce23614d662c81bea7f04896e038f",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "f3e53b9e37915fa004437843e18774ae918ce23614d662c81bea7f04896e038f"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "sha256Before": "6859e7e8a4a26540d37cf0f61e589205cfebd48af0d90c5f4fd27b99a191343e",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "6859e7e8a4a26540d37cf0f61e589205cfebd48af0d90c5f4fd27b99a191343e"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "sha256Before": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "sha256Before": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "sha256Before": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256Before": "cca718e11baa3db46989a0a14ae2dcd08dbf36e1e70eeb8aa149b7c61f7ee170",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "cca718e11baa3db46989a0a14ae2dcd08dbf36e1e70eeb8aa149b7c61f7ee170"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "sha256Before": "844c921e169c89058f1e5fa999b94c2111ba54166da88633bcd32e4ebf4e5635",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "844c921e169c89058f1e5fa999b94c2111ba54166da88633bcd32e4ebf4e5635"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "sha256Before": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "sha256Before": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "sha256Before": "cca718e11baa3db46989a0a14ae2dcd08dbf36e1e70eeb8aa149b7c61f7ee170",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "cca718e11baa3db46989a0a14ae2dcd08dbf36e1e70eeb8aa149b7c61f7ee170"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "sha256Before": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "sha256Before": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "sha256Before": "239c5e715e5da4a46bf99f4b0cff8e32a89f9ec8bd0ecc675bd7491f1e224343",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "239c5e715e5da4a46bf99f4b0cff8e32a89f9ec8bd0ecc675bd7491f1e224343"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "sha256Before": "ce419d50760d49160743805870a711b417c3d1ee72c3d6408dd80ac7895ba750",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "ce419d50760d49160743805870a711b417c3d1ee72c3d6408dd80ac7895ba750"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256Before": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256Before": "036ef766591e2c142003aae2ded17b5546129d771dadb8bd50e6877c635eff36",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "036ef766591e2c142003aae2ded17b5546129d771dadb8bd50e6877c635eff36"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "sha256Before": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "sha256Before": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f"
+    },
+    {
+      "branch": "BIM",
+      "source": "D:\\TCC\\outputs\\23-H03-R109-BIM-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "copy": "D:\\TCC\\outputs\\29-H03-R115-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "sha256Before": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571",
+      "copyInitiallyIdentical": true,
+      "afterSha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571"
+    }
+  ],
+  "sourceR109FilesUnchanged": true,
+  "nativeLoadApplicationPerformed": true,
+  "saveCloseReopenReadbackPerformed": true,
+  "processingPerformed": false,
+  "finalStructuralApproval": false,
+  "finalTimeRankingAllowed": false,
+  "comparisonPrecision": "Valores exibidos na interface: Fz reaberto arredondado a seis algarismos significativos neste ensaio; nao afirmar igualdade binaria interna dos valores.",
+  "otherRoofNodesReauditedInR115": false,
+  "limits": [
+    "Hipotese gravitacional parcial; metal e ligacoes nao dimensionados.",
+    "Agua, tara e apoio do reservatorio excluidos; nao assumir ausencias como zero fisico.",
+    "RP2-04 conserva My da varanda e soma Fz P2; demais nos nao foram todos relidos.",
+    "Sem processamento nesta revisao; resultados antigos nao representam R115.",
+    "Tempos de sessao incluem interface e evidencias; nao medem inferencia IA ou produtividade pura.",
+    "Vento/succao, caso localizado de manutencao e demais cargas e combinacoes nao encerrados."
+  ]
+}
