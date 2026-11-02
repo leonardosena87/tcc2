@@ -1,0 +1,1526 @@
+{
+  "revision": "H03/R141",
+  "createdAtUtc": "2026-11-02T01:11:58.488Z",
+  "scope": "Adendo de arquivos temporais diretos arquivados nas revisões R125–R140; não é inventário de todo o tempo da pesquisa",
+  "sourceUniverse": "Um exemplar versionado por arquivo; não relê cópias equivalentes em D:/TCC nem expande resultados/manifestos/contêineres.",
+  "legacySnapshot": {
+    "revision": "H03/R124",
+    "source": "tcc-assistente/estudos/h03-r124/R124-resumo.json",
+    "sha256": "6a039e4dc1a738a7a499bd4c40c7d06a85acd5dd98495bf3cb201977846fddb5",
+    "files": 203,
+    "counts": {
+      "registro_sem_duracao_principal": 26,
+      "intervalo_com_duracao": 162,
+      "container_nao_expandido": 15
+    },
+    "notAddedToCurrentCounts": true
+  },
+  "counts": {
+    "records": 45,
+    "withDuration": 45,
+    "derivedFromUTC": 4,
+    "withoutDuration": 0,
+    "processingObservationIntervals": 12,
+    "processingWithParent": 12,
+    "sharedOrUnassigned": 2,
+    "overlappingPairs": 12
+  },
+  "records": [
+    {
+      "id": "R125/BIM-retomada-tempo.json",
+      "revision": 125,
+      "name": "BIM-retomada-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r125/BIM-retomada-tempo.json",
+      "sha256": "b53272587056732e16ec2fd443fb47f640e92e8bd1cb1c2c7d50281ec237b7a8",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consulta de unidades, segmento retomado",
+      "scope": "Segmento retomado: alternancia de exibicao da carga linear, releitura e restauracao; nao inclui consulta preliminar/interrupcao da ajuda; sem edicao de cargas e sem ranking.",
+      "startUtc": "2026-11-01T17:09:29.104Z",
+      "endUtc": "2026-11-01T17:12:00.447Z",
+      "durationMs": 151342.5603,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 151342.5603
+        }
+      ],
+      "utcDifferenceMs": 151343,
+      "durationMinusUtcMs": -0.43969999998807907,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R126/CAD-tentativa-tempo.json",
+      "revision": 126,
+      "name": "CAD-tentativa-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r126/CAD-tentativa-tempo.json",
+      "sha256": "4785ab0cc416ac8e057813937b4c3ad54116f9de9446d60495fc4343a4db25bd",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "tentativa_descartada",
+      "phase": "Tentativa de faixa de parede descartada",
+      "scope": "Tentativa exploratoria de delimitar faixa por nos; pesquisa/interface/entradas de controle incluidas; nenhuma carga aplicada, alteracao de controle descartada ao fechar sem salvar; sem ranking.",
+      "startUtc": "2026-11-01T17:15:51.873Z",
+      "endUtc": "2026-11-01T17:28:19.662Z",
+      "durationMs": 747789.4834000021,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 747789.4834000021
+        }
+      ],
+      "utcDifferenceMs": 747789,
+      "durationMinusUtcMs": 0.48340000212192535,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R127/BIM-consulta-tempo.json",
+      "revision": 127,
+      "name": "BIM-consulta-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r127/BIM-consulta-tempo.json",
+      "sha256": "00acd9b6186620eb438bfb9d80cee6e68badf0e02d8a7056cc700ef5bab8a106",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consulta do apoio W17",
+      "scope": "Consulta do apoio W17 BIM; abertura, evidencias e fechamento sem salvar; sem ranking.",
+      "startUtc": "2026-11-01T17:33:59.173Z",
+      "endUtc": "2026-11-01T17:36:12.760Z",
+      "durationMs": 133586.11200000346,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 133586.11200000346
+        }
+      ],
+      "utcDifferenceMs": 133587,
+      "durationMinusUtcMs": -0.8879999965429306,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R127/CAD-consulta-tempo.json",
+      "revision": 127,
+      "name": "CAD-consulta-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r127/CAD-consulta-tempo.json",
+      "sha256": "0a985210ff922bde04341fe5bb7de444b6b7d0e7656ec821e9c05200e89d34cf",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consulta do apoio W17",
+      "scope": "Consulta do apoio W17 CAD; abertura, selecao entre entidades sobrepostas, evidencias e fechamento sem salvar; sem ranking.",
+      "startUtc": "2026-11-01T17:31:09.905Z",
+      "endUtc": "2026-11-01T17:33:37.328Z",
+      "durationMs": 147423.21329999715,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 147423.21329999715
+        }
+      ],
+      "utcDifferenceMs": 147423,
+      "durationMinusUtcMs": 0.21329999715089798,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R129/CAD-tempo-sessao.json",
+      "revision": 129,
+      "name": "CAD-tempo-sessao.json",
+      "source": "tcc-assistente/estudos/h03-r129/CAD-tempo-sessao.json",
+      "sha256": "aeaac00f883f6b7ca3107ed8a6b8e59b9b2b65580b28acd8505ba552652ee9be",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "tentativa_descartada",
+      "phase": "Tentativa W15 sem lançamento salvo",
+      "scope": "Sessao exploratoria CAD: abertura, navegacao, ampliacao, tentativas de no e descarte; inclui pesquisa e capturas. Nao e tempo puro do solver nem comparacao controlada.",
+      "startUtc": "2026-11-01T18:26:01.970Z",
+      "endUtc": "2026-11-01T18:35:36.827Z",
+      "durationMs": 574858.8069000021,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 574858.8069000021
+        }
+      ],
+      "utcDifferenceMs": 574857,
+      "durationMinusUtcMs": 1.8069000020623207,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R130/BIM-tempo-sessao.json",
+      "revision": 130,
+      "name": "BIM-tempo-sessao.json",
+      "source": "tcc-assistente/estudos/h03-r130/BIM-tempo-sessao.json",
+      "sha256": "6fad58d08e7e01a8372b69658973f1052e441a48f9789fdee2b3f114cfdb8d7f",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Lançamento isolado W15 e releitura",
+      "scope": "Lancamento W15, salvar/reabrir, releitura e exportacao DXF. Sessao exploratoria com capturas; nao e tempo puro nem ranking.",
+      "startUtc": "2026-11-01T18:45:59.021Z",
+      "endUtc": "2026-11-01T18:54:43.494Z",
+      "durationMs": 524473.5335000008,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 524473.5335000008
+        }
+      ],
+      "utcDifferenceMs": 524473,
+      "durationMinusUtcMs": 0.533500000834465,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R130/CAD-tempo-sessao.json",
+      "revision": 130,
+      "name": "CAD-tempo-sessao.json",
+      "source": "tcc-assistente/estudos/h03-r130/CAD-tempo-sessao.json",
+      "sha256": "c74a09b10e981d7cfd5c42cd222ffdd5f2beb56c59b51ef290aed7e5cadff1e9",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Lançamento isolado W15 e releitura",
+      "scope": "Lancamento exploratorio W15, releituras, salvar/reabrir e exportar DXF; inclui pesquisa e capturas. Nao e tempo puro nem ranking.",
+      "startUtc": "2026-11-01T18:37:10.267Z",
+      "endUtc": "2026-11-01T18:45:59.020Z",
+      "durationMs": 528753.6504999995,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 528753.6504999995
+        }
+      ],
+      "utcDifferenceMs": 528753,
+      "durationMinusUtcMs": 0.6504999995231628,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R131/BIM-processamento-tempo.json",
+      "revision": 131,
+      "name": "BIM-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r131/BIM-processamento-tempo.json",
+      "sha256": "29f99dce3404fb95a4e56aea1afb5a7bda4b81e22f32068310a650ed009a9c9a",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Análise parcial W15 e releitura",
+      "scope": "Comando ate primeira captura de termino; inclui espera e latencia. Contido na sessao.",
+      "startUtc": "2026-11-01T19:05:02.861Z",
+      "endUtc": "2026-11-01T19:05:44.670Z",
+      "durationMs": 41808.99199999869,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 41808.99199999869
+        }
+      ],
+      "utcDifferenceMs": 41809,
+      "durationMinusUtcMs": -0.008000001311302185,
+      "parentIntervalIds": [
+        "R131/BIM-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R131/BIM-sessao-tempo.json",
+      "revision": 131,
+      "name": "BIM-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r131/BIM-sessao-tempo.json",
+      "sha256": "eb3734ec2daaffe373b35f963c5e6ac4407db1fc84204295b06a21ca24e0de9d",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Análise parcial W15 e releitura",
+      "scope": "Abrir, conferir configuracao, processar, capturar resultados, salvar e fechar; contem intervalo do comando.",
+      "startUtc": "2026-11-01T19:02:53.674Z",
+      "endUtc": "2026-11-01T19:07:00.938Z",
+      "durationMs": 247264.33619999886,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "wallMs",
+          "ms": 247264.33619999886
+        }
+      ],
+      "utcDifferenceMs": 247264,
+      "durationMinusUtcMs": 0.3361999988555908,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R131/CAD-processamento-tempo.json",
+      "revision": 131,
+      "name": "CAD-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r131/CAD-processamento-tempo.json",
+      "sha256": "14b9d2cb24b77b94a682160bac709526d6ccd7e70aa140a2826cbe17751e66f0",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Análise parcial W15 e releitura",
+      "scope": "Comando ate primeira captura de termino; inclui espera e latencia. Contido na sessao.",
+      "startUtc": "2026-11-01T19:00:53.170Z",
+      "endUtc": "2026-11-01T19:01:33.842Z",
+      "durationMs": 40672.881200000644,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 40672.881200000644
+        }
+      ],
+      "utcDifferenceMs": 40672,
+      "durationMinusUtcMs": 0.8812000006437302,
+      "parentIntervalIds": [
+        "R131/CAD-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R131/CAD-sessao-tempo.json",
+      "revision": 131,
+      "name": "CAD-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r131/CAD-sessao-tempo.json",
+      "sha256": "ef403174b820d58500f4567b3bd706c2bd3774db6732c847a8c83f38c793b4be",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Análise parcial W15 e releitura",
+      "scope": "Abrir, configurar analise, processar, capturar resultados, salvar e fechar; contem intervalo do comando.",
+      "startUtc": "2026-11-01T18:59:07.011Z",
+      "endUtc": "2026-11-01T19:02:38.868Z",
+      "durationMs": 211857.0121999979,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "wallMs",
+          "ms": 211857.0121999979
+        }
+      ],
+      "utcDifferenceMs": 211857,
+      "durationMinusUtcMs": 0.012199997901916504,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R132/BIM-BASE-sessao-tempo.json",
+      "revision": 132,
+      "name": "BIM-BASE-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r132/BIM-BASE-sessao-tempo.json",
+      "sha256": "6b88c21e7bf9ddd41cb14be66b398f2af203f6f83d142076b2ccef005e19ab00",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Exportação analítica W15 e controle",
+      "scope": "Consulta da referencia BIM R116 e exportacao; sem processamento novo.",
+      "startUtc": "2026-11-01T19:39:31.410Z",
+      "endUtc": "2026-11-01T19:44:27.269Z",
+      "durationMs": 295858.65579999983,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 295858.65579999983
+        }
+      ],
+      "utcDifferenceMs": 295859,
+      "durationMinusUtcMs": -0.344200000166893,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R132/BIM-W15-sessao-tempo.json",
+      "revision": 132,
+      "name": "BIM-W15-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r132/BIM-W15-sessao-tempo.json",
+      "sha256": "5d47143423cf5012179de7f9a4cbcb44dde844824a1660a7c4108dd77c31e4f1",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Exportação analítica W15 e controle",
+      "scope": "Consulta e exportacao; inclui retomada do submenu que fechou antes de abrir exportador, capturas e navegacao.",
+      "startUtc": "2026-11-01T19:29:21.106Z",
+      "endUtc": "2026-11-01T19:34:47.339Z",
+      "durationMs": 326232.07880000025,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 326232.07880000025
+        }
+      ],
+      "utcDifferenceMs": 326233,
+      "durationMinusUtcMs": -0.9211999997496605,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R132/CAD-BASE-sessao-tempo.json",
+      "revision": 132,
+      "name": "CAD-BASE-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r132/CAD-BASE-sessao-tempo.json",
+      "sha256": "6d8b6d9c5e175b7b817060429b8f5c150016422be27e0d45aa8d6e0195a91c2a",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Exportação analítica W15 e controle",
+      "scope": "Consulta da referencia R116 e exportacao; sem processamento novo.",
+      "startUtc": "2026-11-01T19:35:10.121Z",
+      "endUtc": "2026-11-01T19:39:09.884Z",
+      "durationMs": 239762.2643999979,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 239762.2643999979
+        }
+      ],
+      "utcDifferenceMs": 239763,
+      "durationMinusUtcMs": -0.7356000021100044,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R132/CAD-W15-sessao-tempo.json",
+      "revision": 132,
+      "name": "CAD-W15-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r132/CAD-W15-sessao-tempo.json",
+      "sha256": "b5e5ed0d9e7113140f6ca257fa2d9a3140458a8d8142bca5574f9c9a7ba6ad1a",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Exportação analítica W15 e controle",
+      "scope": "Abertura, consulta e exportacao analitica; inclui evidencias e pesquisa, sem processamento novo.",
+      "startUtc": "2026-11-01T19:24:58.058Z",
+      "endUtc": "2026-11-01T19:28:52.901Z",
+      "durationMs": 234843.99109999835,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 234843.99109999835
+        }
+      ],
+      "utcDifferenceMs": 234843,
+      "durationMinusUtcMs": 0.9910999983549118,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R133/BIM-processamento-tempo.json",
+      "revision": 133,
+      "name": "BIM-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r133/BIM-processamento-tempo.json",
+      "sha256": "e2c9587b25069ef4489c09e4f121663fbe9fcfd934637069c922fe91f649e700",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Refinamento L4/W15 e análise parcial",
+      "scope": "Comando ate registro da primeira captura de termino, inclui latencia e intervalo de consulta; nao tempo puro do solver",
+      "startUtc": "2026-11-01T20:07:58.206Z",
+      "endUtc": "2026-11-01T20:08:39.630Z",
+      "durationMs": 41423.872100003064,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedSeconds",
+          "ms": 41423.872100003064
+        }
+      ],
+      "utcDifferenceMs": 41424,
+      "durationMinusUtcMs": -0.12789999693632126,
+      "parentIntervalIds": [
+        "R133/BIM-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R133/BIM-sessao-tempo.json",
+      "revision": 133,
+      "name": "BIM-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r133/BIM-sessao-tempo.json",
+      "sha256": "dfc7e3047899b8428baf2586827fd0d15dc7fdc76e5b7057c9c8cfbe5879e63b",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Refinamento L4/W15 e análise parcial",
+      "scope": "Abertura, navegacao, configuracao L4, processamento, exportacao e reabertura; inclui verificacao de arquivos durante sessao; nao ranking de produtividade",
+      "startUtc": "2026-11-01T20:02:51.618Z",
+      "endUtc": "2026-11-01T20:13:35.720Z",
+      "durationMs": 644102.2637000009,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "wallMs",
+          "ms": 644102.2637000009
+        }
+      ],
+      "utcDifferenceMs": 644102,
+      "durationMinusUtcMs": 0.2637000009417534,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R133/CAD-processamento-tempo.json",
+      "revision": 133,
+      "name": "CAD-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r133/CAD-processamento-tempo.json",
+      "sha256": "eedbe02d6ca258ee6befabb1f1be7c078e6348a459bc6ae80e3e74e67198f2ad",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Refinamento L4/W15 e análise parcial",
+      "scope": "Comando ate primeira captura de termino, inclui latencia e intervalo de consulta; nao tempo puro do solver",
+      "startUtc": "2026-11-01T19:58:04.471Z",
+      "endUtc": "2026-11-01T19:58:39.764Z",
+      "durationMs": 35292.77149999887,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedSeconds",
+          "ms": 35292.77149999887
+        }
+      ],
+      "utcDifferenceMs": 35293,
+      "durationMinusUtcMs": -0.22850000113248825,
+      "parentIntervalIds": [
+        "R133/CAD-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R133/CAD-sessao-tempo.json",
+      "revision": 133,
+      "name": "CAD-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r133/CAD-sessao-tempo.json",
+      "sha256": "f3b6d6a6494a6fcc23f136f517e56bb23d9211c2b8f2cffdabc22b4971edaa30",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Refinamento L4/W15 e análise parcial",
+      "scope": "Abertura, navegacao, configuracao L4, processamento, exportacao e reabertura; inclui retomada de contexto e tentativas de edicao/foco; nao ranking de produtividade",
+      "startUtc": "2026-11-01T19:48:26.229Z",
+      "endUtc": "2026-11-01T20:02:51.617Z",
+      "durationMs": 865387.1253999993,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "wallMs",
+          "ms": 865387.1253999993
+        }
+      ],
+      "utcDifferenceMs": 865388,
+      "durationMinusUtcMs": -0.874600000679493,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R133/recuperacao-texto-tempo.json",
+      "revision": 133,
+      "name": "recuperacao-texto-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r133/recuperacao-texto-tempo.json",
+      "sha256": "5aac39e448f7044e463a2cb1f1ef44d81284e84503ca34fabe97463da01f2d34",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "recuperacao_de_evidencia",
+      "phase": "Refinamento L4/W15 e análise parcial",
+      "scope": "Consulta adicional da disponibilidade de texto, menu de relatorios BIM, sem reprocessamento ou gravacao; nao contida nas sessoes principais",
+      "startUtc": "2026-11-01T20:17:08.263Z",
+      "endUtc": "2026-11-01T20:18:31.230Z",
+      "durationMs": 82966.9083000049,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "wallMs",
+          "ms": 82966.9083000049
+        }
+      ],
+      "utcDifferenceMs": 82967,
+      "durationMinusUtcMs": -0.0916999951004982,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R134/BIM-processamento-tempo.json",
+      "revision": 134,
+      "name": "BIM-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r134/BIM-processamento-tempo.json",
+      "sha256": "c72332f2dfcc2ae0cd56c0bf1a8b12d193221c8b8e37de7b5ba29d6980f2b53d",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Controle L4 de mesma malha sem W15",
+      "scope": "Comando ate primeira captura observada do termino; inclui espera e latencia, nao solver isolado.",
+      "startUtc": "2026-11-01T21:09:48.758Z",
+      "endUtc": "2026-11-01T21:10:28.953Z",
+      "durationMs": 40195.68439999968,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 40195.68439999968
+        }
+      ],
+      "utcDifferenceMs": 40195,
+      "durationMinusUtcMs": 0.6843999996781349,
+      "parentIntervalIds": [
+        "R134/BIM-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R134/BIM-sessao-tempo.json",
+      "revision": 134,
+      "name": "BIM-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r134/BIM-sessao-tempo.json",
+      "sha256": "30ef332b165e5a36e575a17f395110dc79a5f8318e92b61be2052523b38143de",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Controle L4 de mesma malha sem W15",
+      "scope": "Controle sem W15: abertura, configuracao, analise, salvar, reabrir e exportar; inclui consulta inicial de arquivos CAD e uma retomada do submenu; nao ranking",
+      "startUtc": "2026-11-01T21:01:46.179Z",
+      "endUtc": "2026-11-01T21:17:09.998Z",
+      "durationMs": 923819.5535999984,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "wallMs",
+          "ms": 923819.5535999984
+        }
+      ],
+      "utcDifferenceMs": 923819,
+      "durationMinusUtcMs": 0.5535999983549118,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R134/CAD-processamento-tempo.json",
+      "revision": 134,
+      "name": "CAD-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r134/CAD-processamento-tempo.json",
+      "sha256": "345b49ca848d2280bb50b31d5d60290ab641dff8bcdb56645b7356d34acdd2c3",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Controle L4 de mesma malha sem W15",
+      "scope": "Comando ate primeira captura observada do termino; inclui espera e latencia, nao solver isolado.",
+      "startUtc": "2026-11-01T20:55:48.218Z",
+      "endUtc": "2026-11-01T20:56:36.548Z",
+      "durationMs": 48329.4626000002,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 48329.4626000002
+        }
+      ],
+      "utcDifferenceMs": 48330,
+      "durationMinusUtcMs": -0.5373999997973442,
+      "parentIntervalIds": [
+        "R134/CAD-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R134/CAD-sessao-tempo.json",
+      "revision": 134,
+      "name": "CAD-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r134/CAD-sessao-tempo.json",
+      "sha256": "59dead597bd91c3a55a198b8c6fc54e3c9cf46c4263cbb28a3a867fa632b6a6f",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Controle L4 de mesma malha sem W15",
+      "scope": "Controle sem W15: abertura, configuracao, analise, salvar, reabrir e exportar; inclui consultas auxiliares e dificuldades da interface; nao ranking",
+      "startUtc": "2026-11-01T20:47:32.554Z",
+      "endUtc": "2026-11-01T21:01:46.178Z",
+      "durationMs": 853623.3081,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "wallMs",
+          "ms": 853623.3081
+        }
+      ],
+      "utcDifferenceMs": 853624,
+      "durationMinusUtcMs": -0.6918999999761581,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R135/BIM-tempo-sessao.json",
+      "revision": 135,
+      "name": "BIM-tempo-sessao.json",
+      "source": "tcc-assistente/estudos/h03-r135/BIM-tempo-sessao.json",
+      "sha256": "923f46c8e5d8242d9d2a29a4b429db9e26d1adb642b2def5eabebfd7a7382738",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Lançamento isolado W20 e recuperação de evidências",
+      "scope": "Desde seletor aberto: abertura, inspeção L3, entrada W20, salvar/fechar/reabrir, ações e DXF; inclui raciocínio e capturas; procedimento aprendido no CAD; não é tempo puro nem ranking",
+      "startUtc": "2026-11-01T22:43:24.521Z",
+      "endUtc": "2026-11-01T22:51:36.868Z",
+      "durationMs": 492347,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 492347
+        }
+      ],
+      "utcDifferenceMs": 492347,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R135/CAD-tempo-sessao.json",
+      "revision": 135,
+      "name": "CAD-tempo-sessao.json",
+      "source": "tcc-assistente/estudos/h03-r135/CAD-tempo-sessao.json",
+      "sha256": "28bd4ddacb465f012db8e92fc6462106fce734fba41710168671486d7178b184",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Lançamento isolado W20 e recuperação de evidências",
+      "scope": "Abertura, inspeção L3, entrada W20, salvar/fechar/reabrir, ações e DXF; inclui diálogo, raciocínio, leitura de código e recuperação de menus; não é tempo puro de execução nem ranking",
+      "startUtc": "2026-11-01T22:36:48.903Z",
+      "endUtc": "2026-11-01T22:43:23.391Z",
+      "durationMs": 394488,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 394488
+        }
+      ],
+      "utcDifferenceMs": 394488,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R135/recuperacao-capturas-tempo.json",
+      "revision": 135,
+      "name": "recuperacao-capturas-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r135/recuperacao-capturas-tempo.json",
+      "sha256": "b4869f2d769d56dd5581d705691dee1fa19a2a0f6204610b9e588adac04386bc",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "recuperacao_de_evidencia",
+      "phase": "Lançamento isolado W20 e recuperação de evidências",
+      "scope": "Recaptura pareada BIM e CAD e tentativas de reler L3 sobreposta à linha; não somar às sessões iniciais para ranking; sem salvar nem intervenção humana",
+      "startUtc": "2026-11-01T22:52:45.917Z",
+      "endUtc": "2026-11-01T22:58:21.107Z",
+      "durationMs": 335190,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 335190
+        }
+      ],
+      "utcDifferenceMs": 335190,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R136/BIM-processamento-tempo.json",
+      "revision": 136,
+      "name": "BIM-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r136/BIM-processamento-tempo.json",
+      "sha256": "d6a3a1ddfc67ea7deb26b621d8057de15409c6b9ce7638de85baf7d70dd36328",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Análise parcial W20, malha inicial",
+      "scope": null,
+      "startUtc": "2026-11-01T23:14:30.782Z",
+      "endUtc": "2026-11-01T23:15:34.679Z",
+      "durationMs": 63897,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 63897
+        }
+      ],
+      "utcDifferenceMs": 63897,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [
+        "R136/BIM-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R136/BIM-sessao-tempo.json",
+      "revision": 136,
+      "name": "BIM-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r136/BIM-sessao-tempo.json",
+      "sha256": "d567c7ee5e1da889c5cf1bbeb59d81567d70029b811c8db2da52e274fd23eafb",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Análise parcial W20, malha inicial",
+      "scope": "Abertura processamento parcial salvar fechar reabrir exportação; inclui leitura auxiliar e UI, não ranking",
+      "startUtc": "2026-11-01T23:12:03.482Z",
+      "endUtc": "2026-11-01T23:20:04.428Z",
+      "durationMs": 480946,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 480946
+        }
+      ],
+      "utcDifferenceMs": 480946,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R136/CAD-processamento-tempo.json",
+      "revision": 136,
+      "name": "CAD-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r136/CAD-processamento-tempo.json",
+      "sha256": "1b2f6a221a96429a4b9f6767565b0fa8df43398dc96fb7f8e33e4e255a70afc9",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Análise parcial W20, malha inicial",
+      "scope": null,
+      "startUtc": "2026-11-01T23:06:26.227Z",
+      "endUtc": "2026-11-01T23:07:17.193Z",
+      "durationMs": 50966,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 50966
+        }
+      ],
+      "utcDifferenceMs": 50966,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [
+        "R136/CAD-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R136/CAD-sessao-tempo.json",
+      "revision": 136,
+      "name": "CAD-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r136/CAD-sessao-tempo.json",
+      "sha256": "7557ca6dd2039b1aa886c9d13c3ca7b5b97a574aa7522a541f101b127e782692",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Análise parcial W20, malha inicial",
+      "scope": "Abertura processamento parcial salvar fechar reabrir exportação; inclui leitura auxiliar e recuperação de UI, não ranking",
+      "startUtc": "2026-11-01T23:04:26.238Z",
+      "endUtc": "2026-11-01T23:11:43.028Z",
+      "durationMs": 436790,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 436790
+        }
+      ],
+      "utcDifferenceMs": 436790,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R137/BIM-processamento-tempo.json",
+      "revision": 137,
+      "name": "BIM-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r137/BIM-processamento-tempo.json",
+      "sha256": "f50909ccdc4db38ff84f6e854c777cdb9e81eb363a866a0d5a1c5d70faf6797e",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Refinamento L3/W20 e análise parcial",
+      "scope": "comando ate primeira observacao; inclui leitura e latencia; contido na sessao",
+      "startUtc": "2026-11-01T23:54:40.244Z",
+      "endUtc": "2026-11-01T23:55:12.833Z",
+      "durationMs": 32589,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 32589
+        }
+      ],
+      "utcDifferenceMs": 32589,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [
+        "R137/BIM-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R137/BIM-sessao-tempo.json",
+      "revision": 137,
+      "name": "BIM-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r137/BIM-sessao-tempo.json",
+      "sha256": "4c9ced4c608ec2c89c9a985104cb14977c6577331704bb458f35f1873fc44d27",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Refinamento L3/W20 e análise parcial",
+      "scope": "sessao exploratoria de selecao, edicao, leitura, processamento e exportacao",
+      "startUtc": "2026-11-01T23:50:55.173Z",
+      "endUtc": "2026-11-01T23:59:32.392Z",
+      "durationMs": 517219,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 517219
+        }
+      ],
+      "utcDifferenceMs": 517219,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R137/CAD-processamento-tempo.json",
+      "revision": 137,
+      "name": "CAD-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r137/CAD-processamento-tempo.json",
+      "sha256": "38e08425e041ae7ed46f43c1b7be15cc8c6f1fe3dec75fe0f73a745a5d7e029c",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Refinamento L3/W20 e análise parcial",
+      "scope": "comando ate primeira observacao; inclui latencia e leitura; contido na sessao",
+      "startUtc": "2026-11-01T23:48:02.797Z",
+      "endUtc": "2026-11-01T23:48:28.554Z",
+      "durationMs": 25757,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 25757
+        }
+      ],
+      "utcDifferenceMs": 25757,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [
+        "R137/CAD-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R137/CAD-sessao-tempo.json",
+      "revision": 137,
+      "name": "CAD-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r137/CAD-sessao-tempo.json",
+      "sha256": "037d74649f48467903995a8132b2a38927a6789c472a047c4bbc9f892c9570c2",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Refinamento L3/W20 e análise parcial",
+      "scope": "sessao exploratoria de selecao, edicao, leitura, processamento e exportacao; inclui pausas de ferramenta e retomada",
+      "startUtc": "2026-11-01T23:28:55.692Z",
+      "endUtc": "2026-11-01T23:50:46.179Z",
+      "durationMs": 1310487,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 1310487
+        }
+      ],
+      "utcDifferenceMs": 1310487,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R138/BIM-processamento-tempo.json",
+      "revision": 138,
+      "name": "BIM-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r138/BIM-processamento-tempo.json",
+      "sha256": "a5dba91ca4f362bda6d7a506d00cd779543016ba04e4207eca153f8bf7a891ee",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Controle L3 de mesma malha sem W20",
+      "scope": "comando ate estado concluido observado; inclui ferramenta e leitura; contido na sessao",
+      "startUtc": "2026-11-02T00:16:57.638Z",
+      "endUtc": "2026-11-02T00:17:22.481Z",
+      "durationMs": 24843,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 24843
+        }
+      ],
+      "utcDifferenceMs": 24843,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [
+        "R138/BIM-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R138/BIM-sessao-tempo.json",
+      "revision": 138,
+      "name": "BIM-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r138/BIM-sessao-tempo.json",
+      "sha256": "675ebc1a7cab482525ad1752b1fb88dd4628fd5f0b4215062c523b8ef657cb42",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Controle L3 de mesma malha sem W20",
+      "scope": "sessao exploratoria edicao, processamento, leitura e exportacao; sem inferencia isolada",
+      "startUtc": "2026-11-02T00:13:31.035Z",
+      "endUtc": "2026-11-02T00:22:05.227Z",
+      "durationMs": 514192,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 514192
+        }
+      ],
+      "utcDifferenceMs": 514192,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R138/CAD-processamento-tempo.json",
+      "revision": 138,
+      "name": "CAD-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r138/CAD-processamento-tempo.json",
+      "sha256": "1754876f2866da58e8dfc6d35297c603101fa6ab439de1dcb6fd6f14d2b9944a",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Controle L3 de mesma malha sem W20",
+      "scope": "comando ate estado concluido observado; inclui ferramenta e leitura; contido na sessao",
+      "startUtc": "2026-11-02T00:08:15.763Z",
+      "endUtc": "2026-11-02T00:08:37.615Z",
+      "durationMs": 21852,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 21852
+        }
+      ],
+      "utcDifferenceMs": 21852,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [
+        "R138/CAD-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R138/CAD-sessao-tempo.json",
+      "revision": 138,
+      "name": "CAD-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r138/CAD-sessao-tempo.json",
+      "sha256": "8e099c7fd31d4a6e08576f43ea2b5547b3b8246435989693c77f021b7f62e1e4",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Controle L3 de mesma malha sem W20",
+      "scope": "sessao exploratoria edicao, processamento, leitura e exportacao; sem inferencia isolada",
+      "startUtc": "2026-11-02T00:05:13.660Z",
+      "endUtc": "2026-11-02T00:12:36.276Z",
+      "durationMs": 442616,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 442616
+        }
+      ],
+      "utcDifferenceMs": 442616,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R139/BIM-sessao-tempo.json",
+      "revision": 139,
+      "name": "BIM-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r139/BIM-sessao-tempo.json",
+      "sha256": "d98ecf66fe0bd063669ca191b89609e394e66a806f403f16badc5ef36e6ae2de",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consulta de processo de análise e vínculos",
+      "scope": "consulta exploratoria de configuracoes; sem processamento",
+      "startUtc": "2026-11-02T00:33:44.931Z",
+      "endUtc": "2026-11-02T00:37:16.697Z",
+      "durationMs": 211766,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 211766
+        }
+      ],
+      "utcDifferenceMs": 211766,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R139/CAD-sessao-tempo.json",
+      "revision": 139,
+      "name": "CAD-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r139/CAD-sessao-tempo.json",
+      "sha256": "7b69504aba541c4d2e0a421697a56b51c5b321b0fd2952fe48c1c290449c6c0b",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consulta de processo de análise e vínculos",
+      "scope": "consulta exploratoria de configuracoes; sem processamento",
+      "startUtc": "2026-11-02T00:28:30.220Z",
+      "endUtc": "2026-11-02T00:33:24.420Z",
+      "durationMs": 294200,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_ms",
+          "ms": 294200
+        }
+      ],
+      "utcDifferenceMs": 294200,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R140/BIM-consulta-fim.json",
+      "revision": 140,
+      "name": "BIM-consulta-fim.json",
+      "source": "tcc-assistente/estudos/h03-r140/BIM-consulta-fim.json",
+      "sha256": "f295ff5e5c2f1cf7a19263c5f57e10b978c5e3d1d85bcf6f9e28dc2ec5acbae7",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "consulta_de_resultados",
+      "phase": "Consulta gráfica G2 com W20 e controle",
+      "scope": null,
+      "startUtc": "2026-11-02T00:53:49.757Z",
+      "endUtc": "2026-11-02T00:56:16.578Z",
+      "durationMs": 146821,
+      "durationOrigin": "diferença de horários UTC, sem medição monotônica declarada",
+      "durationCandidates": [],
+      "utcDifferenceMs": 146821,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R140/BIM-controle-consulta-fim.json",
+      "revision": 140,
+      "name": "BIM-controle-consulta-fim.json",
+      "source": "tcc-assistente/estudos/h03-r140/BIM-controle-consulta-fim.json",
+      "sha256": "0d12345358dc4ee7eb763d579f486479b5793a83786902a4d252f77801b7068a",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "consulta_de_resultados",
+      "phase": "Consulta gráfica G2 com W20 e controle",
+      "scope": null,
+      "startUtc": "2026-11-02T01:01:05.873Z",
+      "endUtc": "2026-11-02T01:05:07.232Z",
+      "durationMs": 241359,
+      "durationOrigin": "diferença de horários UTC, sem medição monotônica declarada",
+      "durationCandidates": [],
+      "utcDifferenceMs": 241359,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R140/CAD-consulta-fim.json",
+      "revision": 140,
+      "name": "CAD-consulta-fim.json",
+      "source": "tcc-assistente/estudos/h03-r140/CAD-consulta-fim.json",
+      "sha256": "cf1bc3a5230e2ab6f3153594ddd56cb7022e816fc18bd4d3266e88c37ca4cfd4",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "consulta_de_resultados",
+      "phase": "Consulta gráfica G2 com W20 e controle",
+      "scope": null,
+      "startUtc": "2026-11-02T00:41:12.824Z",
+      "endUtc": "2026-11-02T00:53:14.893Z",
+      "durationMs": 722069,
+      "durationOrigin": "diferença de horários UTC, sem medição monotônica declarada",
+      "durationCandidates": [],
+      "utcDifferenceMs": 722069,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    },
+    {
+      "id": "R140/CAD-controle-consulta-fim.json",
+      "revision": 140,
+      "name": "CAD-controle-consulta-fim.json",
+      "source": "tcc-assistente/estudos/h03-r140/CAD-controle-consulta-fim.json",
+      "sha256": "f1a04374e2a037aa3125a37b97990f0dfc9cb302eb084fdd11bf76d438c95bb3",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "consulta_de_resultados",
+      "phase": "Consulta gráfica G2 com W20 e controle",
+      "scope": null,
+      "startUtc": "2026-11-02T00:58:05.408Z",
+      "endUtc": "2026-11-02T01:00:37.472Z",
+      "durationMs": 152064,
+      "durationOrigin": "diferença de horários UTC, sem medição monotônica declarada",
+      "durationCandidates": [],
+      "utcDifferenceMs": 152064,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null
+    }
+  ],
+  "overlaps": [
+    {
+      "a": "R131/BIM-processamento-tempo.json",
+      "b": "R131/BIM-sessao-tempo.json",
+      "overlapMs": 41809,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R131/CAD-processamento-tempo.json",
+      "b": "R131/CAD-sessao-tempo.json",
+      "overlapMs": 40672,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R133/BIM-processamento-tempo.json",
+      "b": "R133/BIM-sessao-tempo.json",
+      "overlapMs": 41424,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R133/CAD-processamento-tempo.json",
+      "b": "R133/CAD-sessao-tempo.json",
+      "overlapMs": 35293,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R134/BIM-processamento-tempo.json",
+      "b": "R134/BIM-sessao-tempo.json",
+      "overlapMs": 40195,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R134/CAD-processamento-tempo.json",
+      "b": "R134/CAD-sessao-tempo.json",
+      "overlapMs": 48330,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R136/BIM-processamento-tempo.json",
+      "b": "R136/BIM-sessao-tempo.json",
+      "overlapMs": 63897,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R136/CAD-processamento-tempo.json",
+      "b": "R136/CAD-sessao-tempo.json",
+      "overlapMs": 50966,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R137/BIM-processamento-tempo.json",
+      "b": "R137/BIM-sessao-tempo.json",
+      "overlapMs": 32589,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R137/CAD-processamento-tempo.json",
+      "b": "R137/CAD-sessao-tempo.json",
+      "overlapMs": 25757,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R138/BIM-processamento-tempo.json",
+      "b": "R138/BIM-sessao-tempo.json",
+      "overlapMs": 24843,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R138/CAD-processamento-tempo.json",
+      "b": "R138/CAD-sessao-tempo.json",
+      "overlapMs": 21852,
+      "parallelExecutionProven": false
+    }
+  ],
+  "fullFlowTotals": {
+    "CAD": null,
+    "BIM": null
+  },
+  "finalProductivityRankingAllowed": false,
+  "isolatedAIWork": {
+    "inferenceMs": null,
+    "tokens": null,
+    "cost": null
+  },
+  "humanActiveMs": null,
+  "monographEdited": false,
+  "nativeProjectsEdited": false,
+  "limits": [
+    "As sessões incluem navegação, pesquisa, raciocínio e falhas/retomadas diferentes; não são tempos ativos humanos ou tempos puros de software.",
+    "A duração explícita é preservada mesmo quando difere do relógio UTC; diferença UTC não substitui silenciosamente o registro.",
+    "As quatro consultas R140 não declaram duração monotônica: o intervalo é derivado dos horários UTC e identificado como tal.",
+    "Os intervalos comando→observação contidos nas sessões não são somados novamente; não há soma geral ou porcentagem de vantagem.",
+    "Intervalos de recuperação compartilhados permanecem sem rateio arbitrário CAD/BIM.",
+    "Código, documentação e decisões fora dos limites registrados não são preenchidos como zero nem estimados a partir de mensagens.",
+    "O recorte anterior R124 e este adendo usam universos diferentes; a soma das contagens não representa total atualizado de atividades.",
+    "Um campo de duração ou uma conclusão de sessão não demonstra escopo técnico completo ou aprovação estrutural."
+  ]
+}
