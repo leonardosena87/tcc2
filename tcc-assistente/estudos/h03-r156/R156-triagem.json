@@ -1,0 +1,129 @@
+{
+  "revision": "H03/R156",
+  "createdAtUtc": "2026-11-02T11:40:34.564005+00:00",
+  "sources": [
+    {
+      "path": "D:\\TCC\\outputs\\Autoria-H03-R83-SINCRONIZACAO-GEOMETRICA-NAO-EXECUTAR\\H03-R83-proposta.json",
+      "sha256": "54ecdb14a8dd7ce2f0183559c12b4214c124302560408138e39fff39746a7fc9"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Escada-H03-R153-17-9MAIS8-NAO-EXECUTAR\\R153-geometria9mais8.json",
+      "sha256": "1aec8a0d817fbe9e38bdb30d6bbd8cb0c0b94b427eb5c8ced891ca926439cc74"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Escada-H03-R155-Revit-17-NAO-EXECUTAR\\R155-resultado.json",
+      "sha256": "c4863d8138d7fe0888b92d174de883aa29e34243e88ddbe5181d014568ea2721"
+    }
+  ],
+  "scope": "Superficies acabadas R153 versus caixas nominais da proposta R83; nao e teste de solidos nativos R155/Eberick",
+  "nominalUpperHallEdgeYM": 2.85,
+  "finishedStairArrivalYM": 2.9357833333333323,
+  "arrivalBeyondNominalHallEdgeM": 0.08578333333333221,
+  "finishedUpperM": 3.25,
+  "nominalConcreteFloorTopM": 3.2,
+  "upperFinishAllowanceUnspecifiedM": 0.04999999999999982,
+  "overlaps": [
+    {
+      "finishedFaceKind": "tread",
+      "riserNumber": 15,
+      "nominalElementId": "V13-N1",
+      "nominalBoxM": [
+        6.45,
+        0,
+        2.8000000000000003,
+        6.6499999999999995,
+        3.9,
+        3.2
+      ],
+      "xMinM": 6.45,
+      "xMaxM": 6.4748833333333335,
+      "yMinM": 2.3757833333333322,
+      "yMaxM": 2.655783333333332,
+      "zM": 2.893529411764706,
+      "areaM2": 0.006967333333333338,
+      "yOverlapM": 0.2799999999999998
+    },
+    {
+      "finishedFaceKind": "tread",
+      "riserNumber": 16,
+      "nominalElementId": "V13-N1",
+      "nominalBoxM": [
+        6.45,
+        0,
+        2.8000000000000003,
+        6.6499999999999995,
+        3.9,
+        3.2
+      ],
+      "xMinM": 6.45,
+      "xMaxM": 6.4748833333333335,
+      "yMinM": 2.655783333333332,
+      "yMaxM": 2.9357833333333323,
+      "zM": 3.071764705882353,
+      "areaM2": 0.00696733333333335,
+      "yOverlapM": 0.28000000000000025
+    },
+    {
+      "finishedFaceKind": "tread",
+      "riserNumber": 16,
+      "nominalElementId": "V15-N1",
+      "nominalBoxM": [
+        4.4,
+        2.75,
+        2.9000000000000004,
+        6.55,
+        2.95,
+        3.2
+      ],
+      "xMinM": 5.5647166666666665,
+      "xMaxM": 6.4748833333333335,
+      "yMinM": 2.75,
+      "yMaxM": 2.9357833333333323,
+      "zM": 3.071764705882353,
+      "areaM2": 0.16909379722222134,
+      "yOverlapM": 0.1857833333333323
+    },
+    {
+      "finishedFaceKind": "tread",
+      "riserNumber": 16,
+      "nominalElementId": "L6-N1",
+      "nominalBoxM": [
+        4.4,
+        2.85,
+        3.06,
+        6.55,
+        3.9,
+        3.2
+      ],
+      "xMinM": 5.5647166666666665,
+      "xMaxM": 6.4748833333333335,
+      "yMinM": 2.85,
+      "yMaxM": 2.9357833333333323,
+      "zM": 3.071764705882353,
+      "areaM2": 0.07807713055555457,
+      "yOverlapM": 0.08578333333333221
+    }
+  ],
+  "nativeBooleanClashTestExecuted": false,
+  "overlapsAutomaticallyClassifiedAsDefects": false,
+  "finishedLandingM": 1.8241176470588236,
+  "landingStructuralDepthHypothesisM": 0.14,
+  "landingBottomUnderNoFinishHypothesisM": 1.6841176470588235,
+  "beamsAtLandingVerticalBandInNominalProposal": [],
+  "candidateExistingColumnsAtFacade": [
+    "P4-N1",
+    "P10-N1"
+  ],
+  "columnConnectionOrCapacityVerified": false,
+  "supportSchemeAdopted": false,
+  "loadsApplied": false,
+  "nativeFilesEdited": false,
+  "structuralApproval": false,
+  "nextSteps": [
+    "Distinguir superficies acabadas da geometria resistente; fechamento superior possui diferenca de5cm ainda sem camada definida.",
+    "Rever conjuntamente a borda L6/V15 e a chegada, verificando se existe uniao de apoio prevista ou interferencia; nao apagar a sobreposicao sem detalhar.",
+    "Definir apoio do patamar e transmissao de reacoes; duas colunas proximas nao demonstram apoio continuo ou autoportancia.",
+    "Conferir fisicamente as mesmas alteracoes na autoria CAD/Revit e nos receptores antes de contabilizar correcoes de intercambio."
+  ],
+  "officialMethodSource": "https://suporte.altoqi.com.br/hc/pt-br/articles/115001700534"
+}
