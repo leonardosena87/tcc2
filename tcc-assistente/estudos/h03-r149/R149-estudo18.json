@@ -1,0 +1,152 @@
+{
+  "revision": "H03/R149",
+  "createdAtUtc": "2026-11-02T09:22:20.503362+00:00",
+  "userDecision": {
+    "exactText": "continue, reavaliar 18 espelhos",
+    "effect": "Estudo atual passa a 18; historico de 17 preservado",
+    "permission": "Reavaliacao, nao aprovacao de alteracoes de paredes, portas ou arquitetura executiva"
+  },
+  "sources": [
+    {
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r147\\R147-planta.json",
+      "sha256": "70bbb79b55e16a3b188c38b592cbb99f8e00474202a2ad9c23bd1390c710299e"
+    },
+    {
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r68\\R68-referencia-arquitetonica-estudo.json",
+      "sha256": "11f7ceb45a14fd078afdad05df6f52f90078d4666393477e57251b8a71b308e4"
+    },
+    {
+      "path": "D:\\TCC\\work\\r149-escada18\\Lei_1481-2007_Anexos.pdf",
+      "sha256": "73aa321fde3507e0f44261955d984b1fb41ce07ce2c33aa56e3811daf0658661"
+    }
+  ],
+  "finishedFloorLevelsPreservedM": [
+    0.22,
+    3.25
+  ],
+  "options": {
+    "0.28": {
+      "geometry": {
+        "totalRisers": 18,
+        "lowerFlightRisers": 9,
+        "upperFlightRisers": 9,
+        "uniformRiserM": 0.16833333333333333,
+        "finishedGroundM": 0.22,
+        "finishedUpperM": 3.25,
+        "proposedFinishedLandingM": 1.735,
+        "landingChangeM": 0.03500000000000014,
+        "treadHypothesisM": 0.28,
+        "twoRisersPlusTreadM": 0.6166666666666667,
+        "lowerTreadsIfLandingIsLastRiser": 8,
+        "upperTreadsIfFloorIsLastRiser": 8,
+        "lowerTreadRunM": 2.24,
+        "upperTreadRunM": 2.24,
+        "nativeGeometryApplied": false,
+        "acceptedArchitectureChange": false,
+        "footprintHeadroomStructuralCapacityOrAccessibilityApproved": false
+      },
+      "extraRunM": 0.2799666666666649,
+      "landingIfHallPreservedM": 0.621733333333333,
+      "hallIfLandingPreservedM": 0.6090333333333325,
+      "planFitsWithoutChangingHallOrLanding": false
+    },
+    "0.3": {
+      "geometry": {
+        "totalRisers": 18,
+        "lowerFlightRisers": 9,
+        "upperFlightRisers": 9,
+        "uniformRiserM": 0.16833333333333333,
+        "finishedGroundM": 0.22,
+        "finishedUpperM": 3.25,
+        "proposedFinishedLandingM": 1.735,
+        "landingChangeM": 0.03500000000000014,
+        "treadHypothesisM": 0.3,
+        "twoRisersPlusTreadM": 0.6366666666666667,
+        "lowerTreadsIfLandingIsLastRiser": 8,
+        "upperTreadsIfFloorIsLastRiser": 8,
+        "lowerTreadRunM": 2.4,
+        "upperTreadRunM": 2.4,
+        "nativeGeometryApplied": false,
+        "acceptedArchitectureChange": false,
+        "footprintHeadroomStructuralCapacityOrAccessibilityApproved": false
+      },
+      "extraRunM": 0.4399666666666646,
+      "landingIfHallPreservedM": 0.46173333333333333,
+      "hallIfLandingPreservedM": 0.44903333333333284,
+      "planFitsWithoutChangingHallOrLanding": false
+    }
+  },
+  "forcedFitAtExistingRun": {
+    "treadM": 0.2450041666666669,
+    "twoRisersPlusTreadM": 0.5816708333333336,
+    "adopted": false,
+    "reason": "Nao se reduz pisada para mascarar falta de espaco."
+  },
+  "proposedExpandedLayout": {
+    "treadM": 0.3,
+    "flightTreadRunM": 2.4,
+    "landingDepthM": 0.95,
+    "hallDepthM": 0.95,
+    "totalLengthM": 4.3,
+    "existingTotalLengthM": 3.7507333333333306,
+    "extensionM": 0.5492666666666692,
+    "clearWidthRetainedGraphicallyM": 2.002366666666666,
+    "localYFrontM": 0.07408333333333413,
+    "localYNorthM": 4.374083333333334,
+    "upperLastRiserLocalYM": 3.424083333333334,
+    "status": "PROPOSTA GEOMETRICA PARA REVISAO; NAO APROVADA OU APLICADA",
+    "landingAndHallDepthsAreStudyHypothesesNotLegalMinima": true
+  },
+  "doorsRequiringReview": [
+    {
+      "id": "S-P2-01",
+      "x": 4.4,
+      "yMin": 3.05,
+      "yMax": 3.75,
+      "intersectsArrivalBoundary": true
+    },
+    {
+      "id": "S-P3-01",
+      "x": 6.55,
+      "yMin": 3.1263166666666664,
+      "yMax": 3.7274499999999984,
+      "intersectsArrivalBoundary": true
+    }
+  ],
+  "additionalArchitectureConflicts": [
+    "W17 no eixo Y3,90 e W16 no eixo X5,45 ocupam parte da caixa ampliada; rever contornos do hall/suite.",
+    "Portas S-P2-01 e S-P3-01 atravessam a nova linha de chegada de estudo Y≈3,424m; acessos e giro exigem redesenho.",
+    "Se a escada/patamar superior mudar de posicao, L5 e os apoios estruturais precisam ser revistos nos dois fluxos."
+  ],
+  "legislativeReading": {
+    "url": "https://www.pmvc.ba.gov.br/wp-content/uploads/Lei_1481-2007_Anexos.pdf",
+    "downloadSucceeded": true,
+    "pdfPagesOneBased": [
+      92,
+      93,
+      96
+    ],
+    "printedPages": [
+      154,
+      155,
+      158
+    ],
+    "referenceForCollectiveStairs": {
+      "pMinStrictM": 0.28,
+      "pMaxStrictM": 0.32,
+      "eMinStrictM": 0.16,
+      "eMaxStrictM": 0.18,
+      "twoEplusPMinStrictM": 0.63,
+      "twoEplusPMaxStrictM": 0.65
+    },
+    "applicationToThisPrivateStairOrConsolidatedLegalValidityApproved": false,
+    "interpretation": "M3 explicita uso publico/coletivo; nao se afirma incidencia automatica dos limites na escada interna unifamiliar. p30 avaliado como hipotese geometrica adicional."
+  },
+  "structuralLandingPlaneM": null,
+  "waistThicknessM": null,
+  "headroomVerified": false,
+  "newStairNativeLoadsApplied": false,
+  "modelsOrMonographEdited": false,
+  "finalStructuralApproval": false,
+  "conclusion": "18 espelhos fecha a altura com simetria 9+9, mas nao resolve o encaixe atual. p28 exige +28cm; p30 exige +44cm de lance. Proposta p30 com hall/patamar .95 exige caixa +≈55cm e revisao de paredes/portas."
+}

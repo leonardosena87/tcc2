@@ -1,0 +1,102 @@
+{
+  "revision": "H03/R147",
+  "createdAtUtc": "2026-11-02T04:41:00.373128+00:00",
+  "sources": [
+    {
+      "path": "D:\\TCC\\PROJETO ARQUITETONICO-A0.pdf",
+      "sha256": "3a57561f03e2c0e92964b19e577a02939b04fc93cdf1ef27cad6f79ad2deb12d"
+    },
+    {
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r68\\R68-referencia-arquitetonica-estudo.json",
+      "sha256": "11f7ceb45a14fd078afdad05df6f52f90078d4666393477e57251b8a71b308e4"
+    },
+    {
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r144\\R144-decisao-usuario.json",
+      "sha256": "9bb3c946450e070e429007d330ef76a838c8b493d2f02230e93e5e0a9e66dfc5"
+    }
+  ],
+  "userAuthorizedAlternative": {
+    "totalRisers": 17,
+    "lowerFlightRisers": 8,
+    "upperFlightRisers": 9,
+    "uniformRiserM": 0.17823529411764705,
+    "finishedGroundM": 0.22,
+    "finishedUpperM": 3.25,
+    "proposedFinishedLandingM": 1.6458823529411764,
+    "landingChangeM": -0.054117647058823604,
+    "treadHypothesisM": 0.28,
+    "twoRisersPlusTreadM": 0.6364705882352941,
+    "lowerTreadsIfLandingIsLastRiser": 7,
+    "upperTreadsIfFloorIsLastRiser": 8,
+    "lowerTreadRunM": 1.9600000000000002,
+    "upperTreadRunM": 2.24,
+    "nativeGeometryApplied": false,
+    "acceptedArchitectureChange": false,
+    "footprintHeadroomStructuralCapacityOrAccessibilityApproved": false
+  },
+  "pdfUnitsPerM": 56.69291338582678,
+  "selectedPlanLinesPdf": [
+    [
+      801.8400268554688,
+      1332.56005859375,
+      915.3599853515625,
+      1332.56005859375
+    ],
+    [
+      915.3599853515625,
+      1494.800048828125,
+      801.8400268554688,
+      1494.800048828125
+    ],
+    [
+      852.9600219726562,
+      1282.1600341796875,
+      919.6799926757812,
+      1282.1600341796875
+    ],
+    [
+      801.8400268554688,
+      1443.679931640625,
+      858.719970703125,
+      1443.679931640625
+    ]
+  ],
+  "graphicalMeasurementsM": {
+    "stairwellWidth": 2.002366666666666,
+    "flightStripWidth": 0.910166666666667,
+    "upperTreadRun": 1.9600333333333353,
+    "landingDepth": 0.901699999999998,
+    "hallDepth": 0.8889999999999975,
+    "totalClearNorthSouth": 3.7507333333333306
+  },
+  "cases": {
+    "extraRunM": 0.2799666666666649,
+    "keepHallLandingDepthM": 0.621733333333333,
+    "keepLandingHallDepthM": 0.6090333333333325,
+    "simultaneousPreservationPossible": false
+  },
+  "proposedPdfCoordinates": {
+    "keepLandingTopY": 1316.687874015748,
+    "keepHallLandingStartY": 1459.552125984252
+  },
+  "conclusions": [
+    "A alternativa mantém as cotas acabadas, mas ainda não cabe preservando simultaneamente hall e patamar desenhados.",
+    "Se mantiver o hall, a profundidade gráfica do patamar cai para cerca de 0,622 m.",
+    "Se mantiver o patamar, a profundidade gráfica do hall cai para cerca de 0,609 m, exigindo rever portas/circulação.",
+    "Não se aprovou nenhuma dessas redistribuições nem se alterou arquitetura ou modelo nativo."
+  ],
+  "legalReview": {
+    "officialMunicipalEntry": "https://www.pmvc.ba.gov.br/alvara-simplificado/",
+    "annexPdf": "https://www.pmvc.ba.gov.br/wp-content/uploads/Lei_1481-2007_Anexos.pdf",
+    "annexRetrieval": "Falha 502 na ferramenta web; trecho indexado não estabelece aplicação final à escada privativa. Não se fixou mínimo legal neste estudo."
+  },
+  "headroomVerified": false,
+  "finalStructuralApproval": false,
+  "nativeGeometryOrLoadsApplied": false,
+  "limits": [
+    "Linhas selecionadas por leitura visual prévia; confirmação de existência não é reconhecimento automático completo de arquitetura.",
+    "Largura de faixa gráfica não certifica largura útil após corrimãos, acabamento e tolerâncias.",
+    "A relação n−1 pisadas usa patamar/piso como última subida; conferir faces e apoio efetivos no lançamento.",
+    "Acabamento do patamar, espessura resistente e apoios continuam indefinidos."
+  ]
+}
