@@ -1,0 +1,119 @@
+Window: "AltoQi Eberick 2025 Infinity - [68-H03-R143-CAD-W05-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [68-H03-R143-CAD-W05-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		152119 diálogo Modelo SAP2000 Secondary Actions: Raise
+			152120 grupo
+			152121 caixa de seleção Pórtico unifilar ID: 101
+			152122 caixa de seleção Grelha das lajes ID: 102
+			152123 Lista ID: 104
+				152124 item de lista (selectable) N2
+				152125 item de lista (selectable) N1
+			152126 caixa de seleção (disabled) Grelha das escadas ID: 103
+			152127 Lista (disabled) ID: 105
+			152128 caixa de seleção Exportar seções ID: 106
+			152129 caixa de seleção Exportar coeficientes redutores das seções ID: 107
+			152130 botão OK ID: 1
+			152131 botão Cancelar ID: 2
+			152132 botão Ajuda ID: 9
+			152133 barra de título (settable, string) Value: Modelo SAP2000
+		1 Barra de status
+			152183 custom
+				152184 text Comando
+				152185 editar (settable, string)
+				152186 text 973.1,73.3
+				152187 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					152188 Lista
+						152189 item de lista (selectable) 1:1
+						152190 item de lista (selectable) 1:2
+						152191 item de lista (selectable) 1:5
+						152192 item de lista (selectable) 1:10
+						152193 item de lista (selectable) 1:12.5
+						152194 item de lista (selectable) 1:15
+						152195 item de lista (selectable) 1:20
+						152196 item de lista (selectable) 1:25
+						152197 item de lista (selectable) 1:30
+						152198 item de lista (selectable) 1:40
+						152199 item de lista (selectable) 1:50
+						152200 item de lista (selectable) 1:60
+						152201 item de lista (selectable) 1:75
+						152202 item de lista (selectable) 1:100
+						152203 item de lista (selectable) 1:200
+						152204 item de lista (selectable) 1:250
+						152205 item de lista (selectable) 1:500
+						152206 item de lista (selectable) 1:1000
+			152207 botão Atualizar
+			152208 botão Enquadrar
+			152209 botão Aproximar
+			152210 botão Afastar
+			152211 botão Zoom
+			152212 botão Zoom anterior
+			152213 botão Deslocar
+			152214 caixa de seleção Ortogonal
+			152215 caixa de seleção Captura personalizada
+			152216 botão Opções da captura personalizada
+			152217 caixa de seleção Quadrante
+			152218 caixa de seleção Centro
+			152219 caixa de seleção Ponto médio
+			152220 caixa de seleção Extremidade
+			152221 caixa de seleção Ponto no elemento
+			152222 caixa de seleção Intersecção
+			152223 caixa de seleção Perpendicular
+			152224 caixa de seleção Ponto intermediário
+			152225 caixa de seleção Ponto quadrante
+			152226 caixa de seleção Ponto na intersecção
+			152227 caixa de seleção Ponto relativo
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Croqui-N1
+						152228 item de tabulação (selectable) Notícias
+						152229 item de tabulação (selectable) Croqui-N1
+					8 painel
+						127317 painel
+							127318 painel Croqui-N1
+								127319 painel TCadPlotWindow
+				31 painel
+					32 tabulação
+						152230 item de tabulação (selectable)
+						152231 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									39 painel
+									127169 árvore ID: 101
+										150052 item da árvore (selectable, disabled) Pavimentos
+											150053 item da árvore (selectable, disabled) N2
+											150054 item da árvore (selectable, disabled) N1
+											150055 item da árvore (selectable, disabled) N0
+										150056 item da árvore (selectable, disabled) Pilares em prumada
+										150057 item da árvore (selectable, disabled) Cortes
+										150058 item da árvore (selectable, disabled) Gerenciador de desenhos
+										150059 item da árvore (selectable, disabled) Modelos 3D
+		40 barra de menus
+		152119 diálogo Modelo SAP2000 Secondary Actions: Raise
+			152120 grupo
+			152121 caixa de seleção Pórtico unifilar ID: 101
+			152122 caixa de seleção Grelha das lajes ID: 102
+			152123 Lista ID: 104
+				152124 item de lista (selectable) N2
+				152125 item de lista (selectable) N1
+			152126 caixa de seleção (disabled) Grelha das escadas ID: 103
+			152127 Lista (disabled) ID: 105
+			152128 caixa de seleção Exportar seções ID: 106
+			152129 caixa de seleção Exportar coeficientes redutores das seções ID: 107
+			152130 botão OK ID: 1
+			152131 botão Cancelar ID: 2
+			152132 botão Ajuda ID: 9
+			152133 barra de título (settable, string) Value: Modelo SAP2000
+
+Document text: ```
+Comando
+973.1,73.3
+```
+
+Focused element: 152119 diálogo Modelo SAP2000 Secondary Actions: Raise
+
+Document text:
+Comando
+973.1,73.3

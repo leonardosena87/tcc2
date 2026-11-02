@@ -1,0 +1,282 @@
+Window: "AltoQi Eberick 2025 Infinity - [68-H03-R143-CAD-W05-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [68-H03-R143-CAD-W05-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		148894 diálogo (disabled) Viga Secondary Actions: Raise
+			149045 diálogo Parede Secondary Actions: Raise
+				149046 grupo Dimensões ID: 121
+				149047 text Grupo ID: 122
+				149048 caixa de combinação (settable, string) Grupo Value: Nenhum ID: 120
+					149049 text (settable, string) Grupo Value: Nenhum
+					149050 botão Abrir ID: DropDown
+				149051 text Altura ID: 123
+				149052 editar (settable, string) Altura Value: 285 ID: 101
+				149053 text cm ID: 129
+				149054 text Carga ID: 127
+				149055 editar (disabled, settable, string) Carga Value: 4.46 ID: 105
+				149056 text kN/m ID: 104
+				149057 text Espessura ID: 124
+				149058 editar (settable, string) Espessura Value: 15 ID: 118
+				149059 text cm ID: 130
+				149060 text Peso ID: 125
+				149061 editar (settable, string) Peso Value: 10.4333 ID: 116
+				149062 text kN/m³ ID: 131
+				149063 grupo Aberturas ID: 126
+				149064 Lista Aberturas ID: 115
+				149065 botão Inserir ID: 108
+				149066 botão Editar ID: 107
+				149067 botão Excluir ID: 106
+				149068 botão OK ID: 1
+				149069 botão Cancelar ID: 2
+				149070 botão Ajuda ID: 9
+				149071 barra de título (settable, string) Value: Parede
+			148895 grupo Dados da viga ID: 101
+			148896 text Nome ID: 102
+			148897 editar (settable, string) Nome Value: V8 ID: 801
+			148898 text Ambiente ID: 105
+			148899 caixa de combinação (settable, string) Ambiente Value: Externo ID: 828
+				148900 text (settable, string) Ambiente Value: Externo
+				148901 botão Abrir ID: DropDown
+			148902 botão Modelo... ID: 902
+			148903 grupo Seção do trecho ID: 201
+			148904 text Tipo ID: 202
+			148905 caixa de combinação (settable, string) Tipo Value: retangular ID: 809
+				148906 text (settable, string) Tipo Value: retangular
+				148907 botão Abrir ID: DropDown
+			148908 text bw ID: 203
+			148909 editar (settable, string) bw Value: 20 ID: 810
+			148910 text cm ID: 814
+			148911 text h ID: 204
+			148912 editar (settable, string) h Value: 40 ID: 811
+			148913 text cm ID: 815
+			148914 text bf ID: 205
+			148915 editar (disabled, settable, string) bf Value: 0 ID: 565
+			148916 text cm ID: 816
+			148917 text hf ID: 206
+			148918 editar (disabled, settable, string) hf Value: 0 ID: 566
+			148919 text cm ID: 817
+			148920 caixa de seleção Obter elevação para viga invertida ID: 941
+			148921 text Elevação ID: 207
+			148922 editar (settable, string) / Value: 0 ID: 507
+			148923 text cm ID: 506
+			148924 caixa de seleção Manter seção constante na viga ID: 550
+			148925 text ID: 818
+			148926 grupo Cargas no trecho ID: 301
+			148927 text Carga de parede ID: 302
+			148928 text 0.00 kN/m ID: 508
+			148929 text Carga extra ID: 303
+			148930 editar (disabled, settable, string) Carga extra Value: 0 ID: 564
+			148931 text kN/m ID: 567
+			148932 text Temperatura e retração ID: 1282
+			148933 editar (disabled, settable, string) Temperatura e retração Value: 0 ID: 1113
+			148934 text °C ID: 1114
+			148935 botão Lançar... ID: 510
+			148936 botão Remover ID: 509
+			148937 botão Editar... ID: 501
+			148938 botão Remover ID: 651
+			148939 botão Editar... ID: 1280
+			148940 botão Remover ID: 1281
+			148941 botão OK ID: 1
+			148942 botão Cancelar ID: 2
+			148943 botão Desenho... ID: 547
+			148944 botão Ajuda ID: 9
+			148945 text ID: 1115
+			148946 barra de título (settable, string) Value: Viga
+		1 Barra de status
+			149170 custom
+				149171 text Editar
+				149172 editar (settable, string)
+				149173 text 965.1,88.7
+				149174 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					149175 Lista
+						149176 item de lista (selectable) 1:1
+						149177 item de lista (selectable) 1:2
+						149178 item de lista (selectable) 1:5
+						149179 item de lista (selectable) 1:10
+						149180 item de lista (selectable) 1:12.5
+						149181 item de lista (selectable) 1:15
+						149182 item de lista (selectable) 1:20
+						149183 item de lista (selectable) 1:25
+						149184 item de lista (selectable) 1:30
+						149185 item de lista (selectable) 1:40
+						149186 item de lista (selectable) 1:50
+						149187 item de lista (selectable) 1:60
+						149188 item de lista (selectable) 1:75
+						149189 item de lista (selectable) 1:100
+						149190 item de lista (selectable) 1:200
+						149191 item de lista (selectable) 1:250
+						149192 item de lista (selectable) 1:500
+						149193 item de lista (selectable) 1:1000
+			149194 botão Atualizar
+			149195 botão Enquadrar
+			149196 botão Aproximar
+			149197 botão Afastar
+			149198 botão Zoom
+			149199 botão Zoom anterior
+			149200 botão Deslocar
+			149201 caixa de seleção Ortogonal
+			149202 caixa de seleção Captura personalizada
+			149203 botão Opções da captura personalizada
+			149204 caixa de seleção Quadrante
+			149205 caixa de seleção Centro
+			149206 caixa de seleção Ponto médio
+			149207 caixa de seleção Extremidade
+			149208 caixa de seleção Ponto no elemento
+			149209 caixa de seleção Intersecção
+			149210 caixa de seleção Perpendicular
+			149211 caixa de seleção Ponto intermediário
+			149212 caixa de seleção Ponto quadrante
+			149213 caixa de seleção Ponto na intersecção
+			149214 caixa de seleção Ponto relativo
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Croqui-N1
+						149215 item de tabulação (selectable) Notícias
+						149216 item de tabulação (selectable) Croqui-N1
+					8 painel
+						127317 painel
+							127318 painel Croqui-N1
+								127319 painel TCadPlotWindow
+				31 painel
+					32 tabulação
+						149217 item de tabulação (selectable)
+						149218 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									39 painel
+									127169 árvore ID: 101
+										127170 item da árvore (selectable, disabled) Pavimentos
+											127171 item da árvore (selectable, disabled) N2
+											127172 item da árvore (selectable, disabled) N1
+												127216 item da árvore (selectable, disabled) Croqui
+												127217 item da árvore (selectable, disabled) Forma
+												127218 item da árvore (selectable, disabled) Desenho
+												127219 item da árvore (selectable, disabled) Lajes
+												127220 item da árvore (selectable, disabled) Pilares
+												127221 item da árvore (selectable, disabled) Vigas
+											127173 item da árvore (selectable, disabled) N0
+										127174 item da árvore (selectable, disabled) Pilares em prumada
+										127175 item da árvore (selectable, disabled) Cortes
+										127176 item da árvore (selectable, disabled) Gerenciador de desenhos
+										127177 item da árvore (selectable, disabled) Modelos 3D
+		40 barra de menus
+		149045 diálogo Parede Secondary Actions: Raise
+			149046 grupo Dimensões ID: 121
+			149047 text Grupo ID: 122
+			149048 caixa de combinação (settable, string) Grupo Value: Nenhum ID: 120
+				149049 text (settable, string) Grupo Value: Nenhum
+				149050 botão Abrir ID: DropDown
+			149051 text Altura ID: 123
+			149052 editar (settable, string) Altura Value: 285 ID: 101
+			149053 text cm ID: 129
+			149054 text Carga ID: 127
+			149055 editar (disabled, settable, string) Carga Value: 4.46 ID: 105
+			149056 text kN/m ID: 104
+			149057 text Espessura ID: 124
+			149058 editar (settable, string) Espessura Value: 15 ID: 118
+			149059 text cm ID: 130
+			149060 text Peso ID: 125
+			149061 editar (settable, string) Peso Value: 10.4333 ID: 116
+			149062 text kN/m³ ID: 131
+			149063 grupo Aberturas ID: 126
+			149064 Lista Aberturas ID: 115
+			149065 botão Inserir ID: 108
+			149066 botão Editar ID: 107
+			149067 botão Excluir ID: 106
+			149068 botão OK ID: 1
+			149069 botão Cancelar ID: 2
+			149070 botão Ajuda ID: 9
+			149071 barra de título (settable, string) Value: Parede
+		148894 diálogo (disabled) Viga Secondary Actions: Raise
+			149045 diálogo Parede Secondary Actions: Raise
+				149046 grupo Dimensões ID: 121
+				149047 text Grupo ID: 122
+				149048 caixa de combinação (settable, string) Grupo Value: Nenhum ID: 120
+					149049 text (settable, string) Grupo Value: Nenhum
+					149050 botão Abrir ID: DropDown
+				149051 text Altura ID: 123
+				149052 editar (settable, string) Altura Value: 285 ID: 101
+				149053 text cm ID: 129
+				149054 text Carga ID: 127
+				149055 editar (disabled, settable, string) Carga Value: 4.46 ID: 105
+				149056 text kN/m ID: 104
+				149057 text Espessura ID: 124
+				149058 editar (settable, string) Espessura Value: 15 ID: 118
+				149059 text cm ID: 130
+				149060 text Peso ID: 125
+				149061 editar (settable, string) Peso Value: 10.4333 ID: 116
+				149062 text kN/m³ ID: 131
+				149063 grupo Aberturas ID: 126
+				149064 Lista Aberturas ID: 115
+				149065 botão Inserir ID: 108
+				149066 botão Editar ID: 107
+				149067 botão Excluir ID: 106
+				149068 botão OK ID: 1
+				149069 botão Cancelar ID: 2
+				149070 botão Ajuda ID: 9
+				149071 barra de título (settable, string) Value: Parede
+			148895 grupo Dados da viga ID: 101
+			148896 text Nome ID: 102
+			148897 editar (settable, string) Nome Value: V8 ID: 801
+			148898 text Ambiente ID: 105
+			148899 caixa de combinação (settable, string) Ambiente Value: Externo ID: 828
+				148900 text (settable, string) Ambiente Value: Externo
+				148901 botão Abrir ID: DropDown
+			148902 botão Modelo... ID: 902
+			148903 grupo Seção do trecho ID: 201
+			148904 text Tipo ID: 202
+			148905 caixa de combinação (settable, string) Tipo Value: retangular ID: 809
+				148906 text (settable, string) Tipo Value: retangular
+				148907 botão Abrir ID: DropDown
+			148908 text bw ID: 203
+			148909 editar (settable, string) bw Value: 20 ID: 810
+			148910 text cm ID: 814
+			148911 text h ID: 204
+			148912 editar (settable, string) h Value: 40 ID: 811
+			148913 text cm ID: 815
+			148914 text bf ID: 205
+			148915 editar (disabled, settable, string) bf Value: 0 ID: 565
+			148916 text cm ID: 816
+			148917 text hf ID: 206
+			148918 editar (disabled, settable, string) hf Value: 0 ID: 566
+			148919 text cm ID: 817
+			148920 caixa de seleção Obter elevação para viga invertida ID: 941
+			148921 text Elevação ID: 207
+			148922 editar (settable, string) / Value: 0 ID: 507
+			148923 text cm ID: 506
+			148924 caixa de seleção Manter seção constante na viga ID: 550
+			148925 text ID: 818
+			148926 grupo Cargas no trecho ID: 301
+			148927 text Carga de parede ID: 302
+			148928 text 0.00 kN/m ID: 508
+			148929 text Carga extra ID: 303
+			148930 editar (disabled, settable, string) Carga extra Value: 0 ID: 564
+			148931 text kN/m ID: 567
+			148932 text Temperatura e retração ID: 1282
+			148933 editar (disabled, settable, string) Temperatura e retração Value: 0 ID: 1113
+			148934 text °C ID: 1114
+			148935 botão Lançar... ID: 510
+			148936 botão Remover ID: 509
+			148937 botão Editar... ID: 501
+			148938 botão Remover ID: 651
+			148939 botão Editar... ID: 1280
+			148940 botão Remover ID: 1281
+			148941 botão OK ID: 1
+			148942 botão Cancelar ID: 2
+			148943 botão Desenho... ID: 547
+			148944 botão Ajuda ID: 9
+			148945 text ID: 1115
+			148946 barra de título (settable, string) Value: Viga
+
+Document text: ```
+Editar
+965.1,88.7
+```
+
+Focused element: 149045 diálogo Parede Secondary Actions: Raise
+
+Document text:
+Editar
+965.1,88.7
