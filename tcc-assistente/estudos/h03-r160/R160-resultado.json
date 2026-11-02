@@ -1,0 +1,117 @@
+{
+  "revision": "H03/R160",
+  "recordedAtUtc": "2026-11-02T16:40:38.386882+00:00",
+  "nativeRevitPath": "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\H03-R160-Revit-SOMENTE-VIGA-PATAMAR-NAO-EXECUTAR.rvt",
+  "nativeRevitSha256": "b491460fb73deddf6e9552fc15fc6708254dce15733eb5b528e8a7fbc3fbcb6c",
+  "sourceR159Preserved": true,
+  "nativeCreatedSavedClosedReopenedExactReadbackMatch": true,
+  "readbackPath": "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-releitura-nativa-20261102-163548.json",
+  "readbackSha256": "fd43fd25e3665bfe6fc3b9eaa14892b9d7446b19809efaae6e278a0aad3f3a18",
+  "removedColumnMarks": [
+    "P12-ESC-N1",
+    "P13-ESC-N1"
+  ],
+  "removedIds": [
+    473797,
+    473798
+  ],
+  "unchangedBuildingElementsComparedToR159": 62,
+  "stairReadbackExactlyPreserved": true,
+  "countsByKind": {
+    "column": 22,
+    "beam": 30,
+    "slab": 11
+  },
+  "oneAddedBeamRelativeTo62ElementBase": true,
+  "beamMark": "V16-ESC-PAT",
+  "beamIdPreserved": true,
+  "beamAxisM": [
+    4.4,
+    0,
+    1.7741176470588231,
+    6.550000000000001,
+    0,
+    1.7741176470588231
+  ],
+  "beamWidthM": 0.20000000000000004,
+  "beamHeightM": 0.3,
+  "nativeCommandMs": 1244.8423,
+  "commandTimeIsNotFlowTime": true,
+  "nativeStairVisibilityEnabledManuallyInNewView": true,
+  "warnings": [],
+  "cadFormsVerified": true,
+  "cadFiles": [
+    {
+      "level": "N1",
+      "dwgPath": "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-CAD-N1-FORMA-CANDIDATA.dwg",
+      "dwgSha256": "3b4a780749fce33bcb660b2a51bd5e9f09d8f9b16ad78730a4b4e24c6c8fae0d",
+      "returnPath": "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-CAD-N1-FORMA-CANDIDATA-retorno.dxf",
+      "returnSha256": "c4fc82eefe1f49891c1ee18d0a2822cfe42710163dc4e6b4e8772760d8a1fb08",
+      "sourceSha256": "a627bd4d5438ba1654ff4f4e58f7a1837fbbaae9dd097d1a6eeef470686daa85",
+      "savedClosedReopenedByNativeScript": true,
+      "polylineCount": 32,
+      "selectedElementCount": 32,
+      "maxCoordinateDeltaM": 8.881784197001252e-16,
+      "xdataJsonRetainedExactly": true,
+      "textContentAndAxisLinesRetained": true,
+      "maxAxisCoordinateDeltaM": 8.881784197001252e-16,
+      "units": "m",
+      "zIs2DZero": true,
+      "eberickImported": false
+    },
+    {
+      "level": "N2",
+      "dwgPath": "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-CAD-N2-FORMA-CANDIDATA.dwg",
+      "dwgSha256": "42dae496cd915dc5d0fea04110b35c493a806b0b0e0cd042a94da58a132972f7",
+      "returnPath": "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-CAD-N2-FORMA-CANDIDATA-retorno.dxf",
+      "returnSha256": "7fe5a3a3c4ba53ed14db1f4d40c23aaf80c8ec774693b520807b3875b0560dbb",
+      "sourceSha256": "02bc64f5479b26d686a09cf04e6129e70d2b44c78c2546ba8872c3cf365f3340",
+      "savedClosedReopenedByNativeScript": true,
+      "polylineCount": 30,
+      "selectedElementCount": 30,
+      "maxCoordinateDeltaM": 8.881784197001252e-16,
+      "xdataJsonRetainedExactly": true,
+      "textContentAndAxisLinesRetained": true,
+      "maxAxisCoordinateDeltaM": 8.881784197001252e-16,
+      "units": "m",
+      "zIs2DZero": true,
+      "eberickImported": false
+    },
+    {
+      "level": "PATAMAR",
+      "dwgPath": "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-CAD-PATAMAR-FORMA-CANDIDATA.dwg",
+      "dwgSha256": "f4a8a4b48808a71663d39390302f8de3298150b80f1a9c68be90e63663221b96",
+      "returnPath": "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-CAD-PATAMAR-FORMA-CANDIDATA-retorno.dxf",
+      "returnSha256": "7986f7ac52aa6fc99c0513a87b204990d40367cad136ab1c0d326071cca86547",
+      "sourceSha256": "7b2e0e70eaa10f3528f5f9910c07549a1a9e01bae67c6e9ebf6d6ca6ea619868",
+      "savedClosedReopenedByNativeScript": true,
+      "polylineCount": 13,
+      "selectedElementCount": 1,
+      "maxCoordinateDeltaM": 8.881784197001252e-16,
+      "xdataJsonRetainedExactly": true,
+      "textContentAndAxisLinesRetained": true,
+      "maxAxisCoordinateDeltaM": 8.881784197001252e-16,
+      "units": "m",
+      "zIs2DZero": true,
+      "eberickImported": false
+    }
+  ],
+  "cadTiming": {
+    "utc": "2026-11-02T16:25:51.190Z",
+    "mono": 60097553.5632,
+    "sessionMs": 144887.6433000043,
+    "scope": "Sessão CAD com recuperação de foco, tentativas de iniciar script, geração, salvamento, reabertura e retorno DXF; não é CPU nem fluxo completo."
+  },
+  "revitApplicationObservation": {
+    "utc": "2026-11-02T16:31:33.202Z",
+    "sessionMs": 39701.302799999714,
+    "scope": "Clique no comando até observação após fechamento do resumo; exclui preparo, compilação e intervenção humana. Não é CPU nem fluxo completo."
+  },
+  "windowJ4ConflictUnderRecordedArchitectureInterpretation": true,
+  "architectureWindowChanged": false,
+  "allStructuralSupportsOrConnectionsVerified": false,
+  "structuralDimensioningOrApproval": false,
+  "ifcR160Exported": false,
+  "eberickR160Applied": false,
+  "pairedFlowRankingCompleted": false
+}
