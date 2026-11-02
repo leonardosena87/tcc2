@@ -1,0 +1,128 @@
+{
+  "revision": "H03/R154",
+  "createdAtUtc": "2026-11-02T11:03:12.373993+00:00",
+  "userInstruction": "faz o seguinte, volte como era antes no projeto original e subdivida a diferença na altura no primeiro degrau e no patamar.",
+  "decision": {
+    "currentReference": "Traçado original com dois lances retos e patamar",
+    "previousSeventeenRiserCandidatesActive": false,
+    "originalFilesPreserved": true,
+    "requestedConcentratedCorrectionAcceptedAsSafeOrCompliant": false
+  },
+  "originalAnnotation": {
+    "finishedGroundM": 0.22,
+    "finishedLandingM": 1.7,
+    "finishedUpperM": 3.25,
+    "lowerRiseM": 1.48,
+    "upperRiseM": 1.55,
+    "dimensionRiserInterpretedVisuallyM": 0.185,
+    "rawPdfRiserText": "185",
+    "superscriptHalfCentimetreNot185Centimetres": true,
+    "dimensionTreadM": 0.28,
+    "riseDividedByAnnotatedRiser": 16.37837837837838,
+    "lowerRisersAtAnnotatedRiser": 8.0,
+    "upperRisersAtAnnotatedRiser": 8.378378378378379,
+    "allRisersSameAsAnnotatedClosesLevels": false,
+    "dimensionReadingNotSurvey": true
+  },
+  "countHypothesis": {
+    "totalRisers": 16,
+    "lower": 8,
+    "upper": 8,
+    "status": "Hipótese compatível com sete intervalos de pisada por lance da referência gráfica; não levantamento executivo validado."
+  },
+  "arithmetic": {
+    "totalFinishedRiseM": 3.03,
+    "annotatedRiseForSixteenM": 2.96,
+    "unclosedDifferenceM": 0.07,
+    "equalShareAtTwoRisersM": 0.035,
+    "ordinaryRiserM": 0.185,
+    "enlargedRisersM": 0.22,
+    "firstPlusLandingMeaningRequiresClarification": true
+  },
+  "interpretations": [
+    {
+      "meaning": "Primeiro espelho inferior e espelho que chega ao patamar",
+      "enlargedRiserNumbers": [
+        1,
+        8
+      ],
+      "riserHeightsM": [
+        0.22,
+        0.185,
+        0.185,
+        0.185,
+        0.185,
+        0.185,
+        0.185,
+        0.22,
+        0.185,
+        0.185,
+        0.185,
+        0.185,
+        0.185,
+        0.185,
+        0.185,
+        0.185
+      ],
+      "finishedLandingM": 1.77,
+      "finishedUpperM": 3.25,
+      "riserSpreadM": 0.035,
+      "uniform": false,
+      "adopted": false
+    },
+    {
+      "meaning": "Primeiro espelho de cada lance, incluindo a saída do patamar",
+      "enlargedRiserNumbers": [
+        1,
+        9
+      ],
+      "riserHeightsM": [
+        0.22,
+        0.185,
+        0.185,
+        0.185,
+        0.185,
+        0.185,
+        0.185,
+        0.185,
+        0.22,
+        0.185,
+        0.185,
+        0.185,
+        0.185,
+        0.185,
+        0.185,
+        0.185
+      ],
+      "finishedLandingM": 1.735,
+      "finishedUpperM": 3.25,
+      "riserSpreadM": 0.035,
+      "uniform": false,
+      "adopted": false
+    }
+  ],
+  "consequence": "Ambas as interpretações fecham a soma criando dois espelhos de22cm entre outros de18,5cm. Fechamento altimétrico não equivale a adequação geométrica ou segurança.",
+  "requiredNextStep": "Rever geometria com espelhos uniformes e critérios aplicáveis; não aprovar automaticamente concentrar35mm em dois pontos.",
+  "sourceFiles": [
+    {
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r144\\R144-escada.json",
+      "sha256": "cef5496b8c77676ce40ef8323311860398e365b3bc6658d2a5e1872ade1fe05b"
+    },
+    {
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r147\\R147-planta.json",
+      "sha256": "70bbb79b55e16a3b188c38b592cbb99f8e00474202a2ad9c23bd1390c710299e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Escada-H03-R153-17-9MAIS8-NAO-EXECUTAR\\R153-geometria9mais8.json",
+      "sha256": "1aec8a0d817fbe9e38bdb30d6bbd8cb0c0b94b427eb5c8ced891ca926439cc74"
+    }
+  ],
+  "researchReference": {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32501252/",
+    "relevance": "Pesquisa experimental sobre alteração de segurança de passada com espelhos inconsistentes; não é regra normativa local nem previsão quantitativa para35mm."
+  },
+  "nativeProjectsEdited": false,
+  "newStairOrLoadsApplied": false,
+  "nativeAppsUsed": false,
+  "finalApproval": false
+}

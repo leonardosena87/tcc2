@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+ <AddIn Type="Command"><Name>TCC Escada17</Name><Text>TCC - lançar escada17 R155</Text><Assembly>D:\TCC\ferramentas\RevitStairs-R155\TccAssistente.RevitStairs.dll</Assembly><AddInId>6e3ce892-99ac-4c35-9f35-b878ccdd13da</AddInId><FullClassName>TccAssistente.RevitStairs.CreateStair</FullClassName><VendorId>TCC2</VendorId><VendorDescription>Estudo local17espelhos; somente cópia R155; não dimensiona.</VendorDescription></AddIn>
+ <AddIn Type="Command"><Name>TCC Conferir Escada17</Name><Text>TCC - conferir escada17 R155</Text><Assembly>D:\TCC\ferramentas\RevitStairs-R155\TccAssistente.RevitStairs.dll</Assembly><AddInId>d23fa1c9-7a89-44bf-80e9-cb1edb1d2b81</AddInId><FullClassName>TccAssistente.RevitStairs.AuditStair</FullClassName><VendorId>TCC2</VendorId><VendorDescription>Leitura nativa da escada na cópia R155.</VendorDescription></AddIn>
+</RevitAddIns>

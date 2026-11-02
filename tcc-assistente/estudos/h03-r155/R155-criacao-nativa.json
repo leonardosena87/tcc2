@@ -1,0 +1,69 @@
+{
+  "StartedUtc": "2026-11-02T11:25:34.2034699+00:00",
+  "EndedUtc": "2026-11-02T11:25:36.054605+00:00",
+  "CommandMs": 1851.1269,
+  "CommandTimeIsNotFlowTime": true,
+  "Document": "D:\\TCC\\outputs\\Escada-H03-R155-Revit-17-NAO-EXECUTAR\\H03-R155-Revit-ESCADA17-NAO-EXECUTAR.rvt",
+  "BeforeProtectedHash": "ADF5FDDAD904742B86074D976CFDC470C0F9450205BE50F7AE1B531FF67EE6FF",
+  "Readback": {
+    "Status": "ESBOCO ACADEMICO - NAO DIMENSIONADO - NAO EXECUTAR",
+    "Id": 473597,
+    "UniqueId": "aff08165-42a3-4df8-a0b0-8776ee9a5473-000739fd",
+    "TotalRisers": 17,
+    "BaseM": 0.22000000000000003,
+    "TopM": 3.25,
+    "RiserM": 0.17823529411764705,
+    "TreadM": 0.28,
+    "Runs": [
+      {
+        "Id": 473615,
+        "UniqueId": "aff08165-42a3-4df8-a0b0-8776ee9a5473-00073a0f",
+        "Risers": 9,
+        "Treads": 8,
+        "BaseRelativeM": 0,
+        "TopRelativeM": 1.6041176470588234,
+        "BeginsWithRiser": true,
+        "EndsWithRiser": true,
+        "TypeId": 473599
+      },
+      {
+        "Id": 473664,
+        "UniqueId": "aff08165-42a3-4df8-a0b0-8776ee9a5473-00073a40",
+        "Risers": 8,
+        "Treads": 7,
+        "BaseRelativeM": 1.6041176470588234,
+        "TopRelativeM": 3.0300000000000002,
+        "BeginsWithRiser": true,
+        "EndsWithRiser": true,
+        "TypeId": 473599
+      }
+    ],
+    "Landings": [
+      {
+        "Id": 473703,
+        "UniqueId": "aff08165-42a3-4df8-a0b0-8776ee9a5473-00073a67",
+        "FinishedM": 1.8241176470588236,
+        "ThicknessM": 0.14
+      }
+    ],
+    "Railings": [
+      473720,
+      473724
+    ],
+    "ProtectedGeometryHash": "ADF5FDDAD904742B86074D976CFDC470C0F9450205BE50F7AE1B531FF67EE6FF",
+    "StructuralApproval": false,
+    "SupportAndGuardDesignCompleted": false
+  },
+  "WarningsAndErrors": [
+    {
+      "Id": "4d5fea31-ba0d-45d0-b439-7008c39a42b7",
+      "Severity": "Warning",
+      "Description": "O corrim\u00E3o n\u00E3o \u00E9 cont\u00EDnuo. As quebras no corrim\u00E3o normalmente ocorrem em transi\u00E7\u00F5es de \u00E2ngulo muito agudo. Para solucionar o problema, tente:\r\n - Alterar o estilo de transi\u00E7\u00E3o nas propriedades de tipo do corrim\u00E3o ou\r\n - Modificar o caminho do corrim\u00E3o na transi\u00E7\u00E3o.\u0022",
+      "Elements": [
+        473752
+      ]
+    }
+  ],
+  "StructuralDepthHypothesisM": 0.14,
+  "StructuralApproval": false
+}

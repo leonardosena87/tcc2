@@ -1,0 +1,88 @@
+{
+  "revision": "H03/R155",
+  "nativeCreatedSavedReopenedReadbackMatched": true,
+  "readback": {
+    "Status": "ESBOCO ACADEMICO - NAO DIMENSIONADO - NAO EXECUTAR",
+    "Id": 473597,
+    "UniqueId": "aff08165-42a3-4df8-a0b0-8776ee9a5473-000739fd",
+    "TotalRisers": 17,
+    "BaseM": 0.22000000000000003,
+    "TopM": 3.25,
+    "RiserM": 0.17823529411764705,
+    "TreadM": 0.28,
+    "Runs": [
+      {
+        "Id": 473615,
+        "UniqueId": "aff08165-42a3-4df8-a0b0-8776ee9a5473-00073a0f",
+        "Risers": 9,
+        "Treads": 8,
+        "BaseRelativeM": 0,
+        "TopRelativeM": 1.6041176470588234,
+        "BeginsWithRiser": true,
+        "EndsWithRiser": true,
+        "TypeId": 473599
+      },
+      {
+        "Id": 473664,
+        "UniqueId": "aff08165-42a3-4df8-a0b0-8776ee9a5473-00073a40",
+        "Risers": 8,
+        "Treads": 7,
+        "BaseRelativeM": 1.6041176470588234,
+        "TopRelativeM": 3.0300000000000002,
+        "BeginsWithRiser": true,
+        "EndsWithRiser": true,
+        "TypeId": 473599
+      }
+    ],
+    "Landings": [
+      {
+        "Id": 473703,
+        "UniqueId": "aff08165-42a3-4df8-a0b0-8776ee9a5473-00073a67",
+        "FinishedM": 1.8241176470588236,
+        "ThicknessM": 0.14
+      }
+    ],
+    "Railings": [
+      473720,
+      473724
+    ],
+    "ProtectedGeometryHash": "ADF5FDDAD904742B86074D976CFDC470C0F9450205BE50F7AE1B531FF67EE6FF",
+    "StructuralApproval": false,
+    "SupportAndGuardDesignCompleted": false
+  },
+  "protectedGeometryHashUnchanged": true,
+  "originalR93Preserved": true,
+  "sourcePath": "D:\\TCC\\outputs\\Materiais-H03-R93-ALINHAMENTO-NAO-EXECUTAR\\H03-R93-Revit.rvt",
+  "sourceSha256": "82b58856ae7c40bbc4427b5603bdfc3ec74d5eefec76960b909a7424d0748db2",
+  "copyPath": "D:\\TCC\\outputs\\Escada-H03-R155-Revit-17-NAO-EXECUTAR\\H03-R155-Revit-ESCADA17-NAO-EXECUTAR.rvt",
+  "copySha256After": "ea9a0d7ebfbac63d467ac03b291c4b9a0453e9d2834287747cae273c98fda346",
+  "warningsAndErrors": [
+    {
+      "Id": "4d5fea31-ba0d-45d0-b439-7008c39a42b7",
+      "Severity": "Warning",
+      "Description": "O corrimão não é contínuo. As quebras no corrimão normalmente ocorrem em transições de ângulo muito agudo. Para solucionar o problema, tente:\r\n - Alterar o estilo de transição nas propriedades de tipo do corrimão ou\r\n - Modificar o caminho do corrimão na transição.\"",
+      "Elements": [
+        473752
+      ]
+    }
+  ],
+  "stairIntegratedInCalculationModel": false,
+  "structuralDepthM": 0.14,
+  "structuralDepthIsHypothesis": true,
+  "structuralApproval": false,
+  "commandMs": 1851.1269,
+  "commandTimeIsNotFlowTime": true,
+  "rereadSource": "R155-releitura-nativa-20261102-113344.json",
+  "visualStairInspectionCompleted": false,
+  "visualPendingReason": "Vista herdou disciplina Estrutural; lista fecha durante automacao; alteracao para Coordenacao pendente",
+  "supportingClosedObservation": {
+    "utc": "2026-11-02T11:32:55.753Z",
+    "mono": 42522116.8328,
+    "observed": "Revit Inicio; nenhum documento aberto; apos CtrlS e fechar ambas as vistas"
+  },
+  "supportingReopenedObservation": {
+    "utc": "2026-11-02T11:33:24.445Z",
+    "mono": 42550808.6054,
+    "observed": "H03-R155-Revit-ESCADA17-NAO-EXECUTAR reaberto na vista TCC-R155"
+  }
+}

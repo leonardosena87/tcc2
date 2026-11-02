@@ -1,0 +1,23 @@
+{
+  "Error": "System.InvalidOperationException: Cotas ou dimens\u00F5es nativas n\u00E3o coincidem com a defini\u00E7\u00E3o.\r\n   at TccAssistente.RevitStairs.Data.Read(Document doc, Stairs stairs) in C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10\u00BA Semestre\\TCC2\\tcc-assistente\\connectors\\RevitStairs\\Commands.cs:line 56\r\n   at TccAssistente.RevitStairs.CreateStair.Execute(ExternalCommandData data, String\u0026 message, ElementSet failed) in C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10\u00BA Semestre\\TCC2\\tcc-assistente\\connectors\\RevitStairs\\Commands.cs:line 155",
+  "Saved": false,
+  "CommandMs": 1223.8567,
+  "Failures": [
+    {
+      "Id": "4d5fea31-ba0d-45d0-b439-7008c39a42b7",
+      "Severity": "Warning",
+      "Description": "O corrim\u00E3o n\u00E3o \u00E9 cont\u00EDnuo. As quebras no corrim\u00E3o normalmente ocorrem em transi\u00E7\u00F5es de \u00E2ngulo muito agudo. Para solucionar o problema, tente:\r\n - Alterar o estilo de transi\u00E7\u00E3o nas propriedades de tipo do corrim\u00E3o ou\r\n - Modificar o caminho do corrim\u00E3o na transi\u00E7\u00E3o.\u0022",
+      "Elements": [
+        473750
+      ]
+    },
+    {
+      "Id": "057af793-26e5-4556-bc69-91d67e8a6fd2",
+      "Severity": "Warning",
+      "Description": "A extremidade superior da escada excede ou n\u00E3o pode atingir a eleva\u00E7\u00E3o superior da escada. Adicione/remova espelhos do degrau na parte superior por controle ou altere o par\u00E2metro \u0022Altura superior relativa\u0022 dos lances da escada na paleta Propriedades.",
+      "Elements": [
+        473595
+      ]
+    }
+  ]
+}
