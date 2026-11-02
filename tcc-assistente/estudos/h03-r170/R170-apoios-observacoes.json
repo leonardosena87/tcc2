@@ -1,0 +1,188 @@
+{
+  "recordedAtUtc": "2026-11-02T21:44:40.887924+00:00",
+  "bimN0Warnings": [
+    {
+      "order": 1,
+      "message": "Aviso L04 - Pilar P1 nascendo no vazio",
+      "evidence": "R170-BIM-N0-aviso-01.txt",
+      "sha256": "fc67ec5b8808cc0181712030fb5111575f0fe609c3981a8ef7e74fed68abc836"
+    },
+    {
+      "order": 2,
+      "message": "Aviso L04 - Pilar P2 nascendo no vazio",
+      "evidence": "R170-BIM-N0-aviso-02.txt",
+      "sha256": "67192eeb310ef7c29b2e4c3aca68c6334c87c3a44f0b2c27e5ce4444d17f75d4"
+    },
+    {
+      "order": 3,
+      "message": "Aviso L04 - Pilar P3 nascendo no vazio",
+      "evidence": "R170-BIM-N0-aviso-03.txt",
+      "sha256": "c1db3749090342d22984eb5d35c39101f1ad2de1a0534cbf5ba419276ad5dafb"
+    },
+    {
+      "order": 4,
+      "message": "Aviso L04 - Pilar P4 nascendo no vazio",
+      "evidence": "R170-BIM-N0-aviso-04.txt",
+      "sha256": "1a0f155f8306932144ae59555753e8e5de093bae14abe78cb5c22f786237923d"
+    },
+    {
+      "order": 5,
+      "message": "Aviso L04 - Pilar P5 nascendo no vazio",
+      "evidence": "R170-BIM-N0-aviso-05.txt",
+      "sha256": "f3e60830214c2156b501601283b65e0c02425e5b3052da930667b362de399ac3"
+    },
+    {
+      "order": 6,
+      "message": "Aviso L04 - Pilar P6 nascendo no vazio",
+      "evidence": "R170-BIM-N0-aviso-06.txt",
+      "sha256": "08385e84aeba623e257d1b28413b654b2988fcd133fd4579fc513306932b2e1f"
+    },
+    {
+      "order": 7,
+      "message": "Aviso L04 - Pilar P7 nascendo no vazio",
+      "evidence": "R170-BIM-N0-aviso-07.txt",
+      "sha256": "dcb2e1b477f37327db2f175e89d16506650e0996a5ef96270ba86c8a781bead0"
+    },
+    {
+      "order": 8,
+      "message": "Aviso L04 - Pilar P8 nascendo no vazio",
+      "evidence": "R170-BIM-N0-aviso-08.txt",
+      "sha256": "fbb47b02fd85ef71360d975a1ceaf7fe24d038b24349b0ed981be117169bb366"
+    },
+    {
+      "order": 9,
+      "message": "Aviso L04 - Pilar P9 nascendo no vazio",
+      "evidence": "R170-BIM-N0-aviso-09.txt",
+      "sha256": "ed41a478459c2401dce2a94720ace0d53c3c11bd564bb1507d722561a5fefee5"
+    },
+    {
+      "order": 10,
+      "message": "Aviso L04 - Pilar P10 nascendo no vazio",
+      "evidence": "R170-BIM-N0-aviso-10.txt",
+      "sha256": "b535038fd6d67efbd51bca0e590c4b35d93411ccda9f021a8170ce3baab332f4"
+    },
+    {
+      "order": 11,
+      "message": "Aviso L04 - Pilar P11 nascendo no vazio",
+      "evidence": "R170-BIM-N0-aviso-11.txt",
+      "sha256": "7acfb6c472b41318c782d359466caedd8aae1abc3401d535bce5668fd674dd7a"
+    },
+    {
+      "order": 12,
+      "message": "Erro L07 - O pavimento TCC-7a6267fd-N0 não possui fundações",
+      "evidence": "R170-BIM-N0-aviso-12.txt",
+      "sha256": "67f1ffa710a91aa6b102e64999e60835e2286bef0b2b607debcd1eccbc5274be"
+    }
+  ],
+  "cadNativeSupports": [
+    {
+      "nativeName": "P1",
+      "support": "Rotulado",
+      "columnConnection": "Engastado",
+      "fixedBarHeightCm": 10,
+      "dfCm": 0,
+      "evidence": "R170-CAD-P1-apoio.txt",
+      "sha256": "1ef4d9691692fdaa52b956e2f5a0e1bd2dd9b9dd51db2dc34bc1aa0c141bba8a"
+    },
+    {
+      "nativeName": "P2",
+      "support": "Rotulado",
+      "columnConnection": "Engastado",
+      "fixedBarHeightCm": 10,
+      "dfCm": 0,
+      "evidence": "R170-CAD-P2-apoio.txt",
+      "sha256": "c93ba6042a00a27b4a08ef41d9cf327c87ec6067213b3229ed2213a2a498a169"
+    },
+    {
+      "nativeName": "P3",
+      "support": "Rotulado",
+      "columnConnection": "Engastado",
+      "fixedBarHeightCm": 10,
+      "dfCm": 0,
+      "evidence": "R170-CAD-P3-apoio.txt",
+      "sha256": "9aa1d001ed7cc22724371c8078f3b2b2c3ed1d30d13c1e7e6682b0b3cec9556c"
+    },
+    {
+      "nativeName": "P4",
+      "support": "Rotulado",
+      "columnConnection": "Engastado",
+      "fixedBarHeightCm": 10,
+      "dfCm": 0,
+      "evidence": "R170-CAD-P4-apoio.txt",
+      "sha256": "40820733fbde62ca6f43f70607b1639d715dc380df3ca3a4dd8292dfa77ad440"
+    },
+    {
+      "nativeName": "P5",
+      "support": "Rotulado",
+      "columnConnection": "Engastado",
+      "fixedBarHeightCm": 10,
+      "dfCm": 0,
+      "evidence": "R170-CAD-P5-apoio.txt",
+      "sha256": "3a57b3ecc39251e26af1199e7c08689d827b3e4c25b67f673c0d0bd47d985bb8"
+    },
+    {
+      "nativeName": "P6",
+      "support": "Rotulado",
+      "columnConnection": "Engastado",
+      "fixedBarHeightCm": 10,
+      "dfCm": 0,
+      "evidence": "R170-CAD-P6-apoio.txt",
+      "sha256": "71b8f81b2b379ae37faf95781df89aaabd09718677cbe72385b7b43a840d2ac4"
+    },
+    {
+      "nativeName": "P7",
+      "support": "Rotulado",
+      "columnConnection": "Engastado",
+      "fixedBarHeightCm": 10,
+      "dfCm": 0,
+      "evidence": "R170-CAD-P7-apoio.txt",
+      "sha256": "c49c6fd6cdd92fd259168aa3be103415b4262a8818e7d3339666258e27d5f866"
+    },
+    {
+      "nativeName": "P8",
+      "support": "Rotulado",
+      "columnConnection": "Engastado",
+      "fixedBarHeightCm": 10,
+      "dfCm": 0,
+      "evidence": "R170-CAD-P8-apoio.txt",
+      "sha256": "203d8ac9f4cbf18d030c388aaf164fb1f3b83323f534e6038427e7db683fb568"
+    },
+    {
+      "nativeName": "P9",
+      "support": "Rotulado",
+      "columnConnection": "Engastado",
+      "fixedBarHeightCm": 10,
+      "dfCm": 0,
+      "evidence": "R170-CAD-P9-apoio.txt",
+      "sha256": "b63793279b558faeb0e13da6ffdc23849a07c726c4861a10e8062e3a43c25c67"
+    },
+    {
+      "nativeName": "P10",
+      "support": "Rotulado",
+      "columnConnection": "Engastado",
+      "fixedBarHeightCm": 10,
+      "dfCm": 0,
+      "evidence": "R170-CAD-P10-apoio.txt",
+      "sha256": "2bd88db9aa374773d9363a5ab9c6a6d48d1de3d369c897e5f977015548cac2cd"
+    },
+    {
+      "nativeName": "P11",
+      "support": "Rotulado",
+      "columnConnection": "Engastado",
+      "fixedBarHeightCm": 10,
+      "dfCm": 0,
+      "evidence": "R170-CAD-P11-apoio.txt",
+      "sha256": "251e4c0988af5de6c2f06910bd26a91d80a93031ea3ae4b6110394e363f31a7c"
+    }
+  ],
+  "sourceProjectHashes": {
+    "D:\\TCC\\outputs\\R165-CAD-REVISAO-ESCADA-R160-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj": "6eaf1a915410830e83613a0e1e0c60c23f961818881396b7991183532a8decdf",
+    "D:\\TCC\\outputs\\R169-BIM-VINCULO-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj": "112485c07b92c6448e896ab9463e4e9063f1da03f1e1d01105f7d5ac8bbdadfe"
+  },
+  "sourcesPreserved": true,
+  "foundationDesignInScope": false,
+  "structuralApproval": false,
+  "supportCorrectionNotYetPerformedInR170": true,
+  "nativeCommand": "Lancamento > Outros > Verificar lancamento",
+  "fullFlowTimeMeasured": false
+}

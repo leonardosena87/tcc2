@@ -1,0 +1,1509 @@
+{
+  "revision": "H03/R170",
+  "recordedAtUtc": "2026-11-02T21:39:35.930029+00:00",
+  "sourceHashes": {
+    "D:\\TCC\\outputs\\Intercambio-H03-R165-CAD-GEOMETRIA-NAO-EXECUTAR\\IFC-CAD-Eberick\\Modelo 3D.IFC": "776314f515be09c06a5caf81583b603527650d07eb7ef913ff4c0e8e68624623",
+    "D:\\TCC\\outputs\\R169-BIM-VINCULO-VARANDA-NAO-EXECUTAR\\Arquivos do projeto\\Modelo 3D.IFC": "0cd8302b0386b0dae18971c07c961404ee340861c1e804cbd97979c129c63e1c",
+    "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-releitura-nativa-20261102-163548.json": "fd43fd25e3665bfe6fc3b9eaa14892b9d7446b19809efaae6e278a0aad3f3a18"
+  },
+  "scope": "Receptores ja corrigidos CAD R165 e BIM R169; comparacao restrita a informacao explicitamente exportada.",
+  "sourcesUnchanged": true,
+  "branches": {
+    "CAD_R165": {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R165-CAD-GEOMETRIA-NAO-EXECUTAR\\IFC-CAD-Eberick\\Modelo 3D.IFC",
+      "productClasses": {
+        "IfcBeam": 46,
+        "IfcColumn": 22,
+        "IfcFooting": 11,
+        "IfcSlab": 11,
+        "IfcBuilding": 1,
+        "IfcBuildingStorey": 3,
+        "IfcSite": 1
+      },
+      "explicitIfcStructuralLoadOrActionEntities": {},
+      "beamParts": 46,
+      "beamOrigins": 30
+    },
+    "BIM_R169": {
+      "path": "D:\\TCC\\outputs\\R169-BIM-VINCULO-VARANDA-NAO-EXECUTAR\\Arquivos do projeto\\Modelo 3D.IFC",
+      "productClasses": {
+        "IfcBeam": 33,
+        "IfcColumn": 22,
+        "IfcSlab": 11,
+        "IfcBuilding": 1,
+        "IfcBuildingStorey": 2,
+        "IfcSite": 1
+      },
+      "explicitIfcStructuralLoadOrActionEntities": {},
+      "beamParts": 33,
+      "beamOrigins": 30
+    }
+  },
+  "beamOriginsWithEqualExportedUniformLoadSets": 30,
+  "beamExportedLoadFieldsAllZero": true,
+  "beamOriginsWithEqualExportedMaterialSets": 30,
+  "slabsWithEqualExportedPropertySets": 11,
+  "columnsWithEqualExportedPropertySets": 22,
+  "sourceNamesAloneNotUsedForMatching": true,
+  "rawIfcValuesComparedWithoutUnitConversion": true,
+  "beamPsetZerosDoNotProveNoAuxiliaryOrPointLoads": true,
+  "fullLoadInventoryVerified": false,
+  "roofWallTankLoadsEquivalenceVerified": false,
+  "allNativeBoundaryConditionsCompared": false,
+  "footingCountExcludedFromSuperstructureMetric": true,
+  "foundationDesignInScope": false,
+  "newStructuralCalculationPerformed": false,
+  "structuralApproval": false,
+  "fullFlowTimeCompared": false,
+  "beamPairs": [
+    {
+      "nativeId": 472942,
+      "nativeMark": "V1-N1",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V1"
+        ],
+        "BIM_R169": [
+          "V5"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 473034,
+      "nativeMark": "V1-N2",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V1_1",
+          "V1_1",
+          "V1_1"
+        ],
+        "BIM_R169": [
+          "V4"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 472978,
+      "nativeMark": "V10-N1",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V11"
+        ],
+        "BIM_R169": [
+          "V10"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 473054,
+      "nativeMark": "V10-N2",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V11_1"
+        ],
+        "BIM_R169": [
+          "V7"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 472980,
+      "nativeMark": "V11-N1",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V8"
+        ],
+        "BIM_R169": [
+          "V12"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 473056,
+      "nativeMark": "V11-N2",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V8_1"
+        ],
+        "BIM_R169": [
+          "V9"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 472982,
+      "nativeMark": "V12-N1",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V12"
+        ],
+        "BIM_R169": [
+          "V12"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 473058,
+      "nativeMark": "V12-N2",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V12_1"
+        ],
+        "BIM_R169": [
+          "V9"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 472984,
+      "nativeMark": "V13-N1",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V9",
+          "V9"
+        ],
+        "BIM_R169": [
+          "V11",
+          "V11"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 473060,
+      "nativeMark": "V13-N2",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V9_1"
+        ],
+        "BIM_R169": [
+          "V8"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 472986,
+      "nativeMark": "V15-N1",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V15"
+        ],
+        "BIM_R169": [
+          "V4"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 473802,
+      "nativeMark": "V16-ESC-PAT",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V16"
+        ],
+        "BIM_R169": [
+          "V6"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 472947,
+      "nativeMark": "V2-N1",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V4"
+        ],
+        "BIM_R169": [
+          "V7"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 473036,
+      "nativeMark": "V2-N2",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V3",
+          "V3",
+          "V4_1"
+        ],
+        "BIM_R169": [
+          "V4",
+          "V4"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 472949,
+      "nativeMark": "V3-N1",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V2"
+        ],
+        "BIM_R169": [
+          "V2"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 473038,
+      "nativeMark": "V3-N2",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V2_1",
+          "V2_1",
+          "V2_1"
+        ],
+        "BIM_R169": [
+          "V2"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 472954,
+      "nativeMark": "V4A-N1",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V14"
+        ],
+        "BIM_R169": [
+          "V2"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 473040,
+      "nativeMark": "V4A-N2",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V2",
+          "V2"
+        ],
+        "BIM_R169": [
+          "V2"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 472959,
+      "nativeMark": "V4B-N1",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V13"
+        ],
+        "BIM_R169": [
+          "V3"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 473042,
+      "nativeMark": "V4B-N2",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V13_1",
+          "V13_1",
+          "V13_1"
+        ],
+        "BIM_R169": [
+          "V3"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 472961,
+      "nativeMark": "V5-N1",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V3"
+        ],
+        "BIM_R169": [
+          "V1"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 473044,
+      "nativeMark": "V5-N2",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V3_1",
+          "V3_1",
+          "V3_1"
+        ],
+        "BIM_R169": [
+          "V1"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 472963,
+      "nativeMark": "V6-N1",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V5"
+        ],
+        "BIM_R169": [
+          "V1"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 473046,
+      "nativeMark": "V6-N2",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V5_1",
+          "V5_1",
+          "V5_1",
+          "V5_1"
+        ],
+        "BIM_R169": [
+          "V1"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 472969,
+      "nativeMark": "V7-N1",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V6"
+        ],
+        "BIM_R169": [
+          "V8"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 473048,
+      "nativeMark": "V7-N2",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V6_1"
+        ],
+        "BIM_R169": [
+          "V5"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 472974,
+      "nativeMark": "V8-N1",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V10"
+        ],
+        "BIM_R169": [
+          "V8"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 473050,
+      "nativeMark": "V8-N2",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V10_1"
+        ],
+        "BIM_R169": [
+          "V6"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 472976,
+      "nativeMark": "V9-N1",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V7",
+          "V7"
+        ],
+        "BIM_R169": [
+          "V9",
+          "V9"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    },
+    {
+      "nativeId": 473052,
+      "nativeMark": "V9-N2",
+      "receiverNamesByBranch": {
+        "CAD_R165": [
+          "V7_1"
+        ],
+        "BIM_R169": [
+          "V7"
+        ]
+      },
+      "exportedUniformLoadSetsEqual": true,
+      "exportedLoadSetsByBranch": {
+        "CAD_R165": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ],
+        "BIM_R169": [
+          {
+            "Acidental (Q)": 0.0,
+            "Adicional (G2)": 0.0,
+            "Cargas de parede (G2)": 0.0,
+            "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+            "Solo (S)": 0.0,
+            "Subpressão (AS)": 0.0,
+            "Água (A)": 0.0
+          }
+        ]
+      },
+      "exportedMaterialSetsEqual": true
+    }
+  ],
+  "slabPairs": [
+    {
+      "bimName": "L1",
+      "bimGuid": "2dOc3$rlmHyOyDa4iZOUxp",
+      "cadName": "L1",
+      "cadGuid": "1J1uQkqouHyOy801fzsd4G",
+      "exportedPropertySetsEqual": true,
+      "rawLoadSet": {
+        "Revestimento (G2)": 125.0,
+        "Adicional (G2)": 0.0,
+        "Solo (S)": 0.0,
+        "Acidental (Q)": 150.0,
+        "Água (A)": 0.0,
+        "Subpressão (AS)": 0.0,
+        "Q_TELHADO_MANUTENCAO (QT)": 0.0
+      }
+    },
+    {
+      "bimName": "L2",
+      "bimGuid": "33AUpzrlmHyOyDa4iZOUxp",
+      "cadName": "L2",
+      "cadGuid": "1ptf9$qouHyOy801fzsd4G",
+      "exportedPropertySetsEqual": true,
+      "rawLoadSet": {
+        "Revestimento (G2)": 125.0,
+        "Adicional (G2)": 0.0,
+        "Solo (S)": 0.0,
+        "Acidental (Q)": 150.0,
+        "Água (A)": 0.0,
+        "Subpressão (AS)": 0.0,
+        "Q_TELHADO_MANUTENCAO (QT)": 0.0
+      }
+    },
+    {
+      "bimName": "L3",
+      "bimGuid": "33AV5arlmHyOyDa4iZOUxp",
+      "cadName": "L3",
+      "cadGuid": "1ptfR5qouHyOy801fzsd4G",
+      "exportedPropertySetsEqual": true,
+      "rawLoadSet": {
+        "Revestimento (G2)": 125.0,
+        "Adicional (G2)": 0.0,
+        "Solo (S)": 0.0,
+        "Acidental (Q)": 150.0,
+        "Água (A)": 0.0,
+        "Subpressão (AS)": 0.0,
+        "Q_TELHADO_MANUTENCAO (QT)": 0.0
+      }
+    },
+    {
+      "bimName": "L4",
+      "bimGuid": "33AVOIrlmHyOyDa4iZOUxp",
+      "cadName": "L4",
+      "cadGuid": "1_MIkSqouHyOy801fzsd4G",
+      "exportedPropertySetsEqual": true,
+      "rawLoadSet": {
+        "Revestimento (G2)": 125.0,
+        "Adicional (G2)": 0.0,
+        "Solo (S)": 0.0,
+        "Acidental (Q)": 150.0,
+        "Água (A)": 0.0,
+        "Subpressão (AS)": 0.0,
+        "Q_TELHADO_MANUTENCAO (QT)": 0.0
+      }
+    },
+    {
+      "bimName": "L5",
+      "bimGuid": "3ChbJ_rlmHyOyDa4iZOUxp",
+      "cadName": "L5",
+      "cadGuid": "1v8mowrlaHyOyDa4iZOUxp",
+      "exportedPropertySetsEqual": true,
+      "rawLoadSet": {
+        "Revestimento (G2)": 100.0,
+        "Adicional (G2)": 0.0,
+        "Solo (S)": 0.0,
+        "Acidental (Q)": 250.0,
+        "Água (A)": 0.0,
+        "Subpressão (AS)": 0.0,
+        "Q_TELHADO_MANUTENCAO (QT)": 0.0
+      }
+    },
+    {
+      "bimName": "L6",
+      "bimGuid": "0wZ9GrrluHyOyDa4iZOUxp",
+      "cadName": "L6",
+      "cadGuid": "3ai3Ewqp0HyOy801fzsd4G",
+      "exportedPropertySetsEqual": true,
+      "rawLoadSet": {
+        "Revestimento (G2)": 100.0,
+        "Adicional (G2)": 0.0,
+        "Solo (S)": 0.0,
+        "Acidental (Q)": 250.0,
+        "Água (A)": 0.0,
+        "Subpressão (AS)": 0.0,
+        "Q_TELHADO_MANUTENCAO (QT)": 0.0
+      }
+    },
+    {
+      "bimName": "L1",
+      "bimGuid": "3mUzMmrlmHyOyDa4iZOUxp",
+      "cadName": "L1",
+      "cadGuid": "2NvO47qouHyOy801fzsd4G",
+      "exportedPropertySetsEqual": true,
+      "rawLoadSet": {
+        "Revestimento (G2)": 25.0,
+        "Adicional (G2)": 0.0,
+        "Solo (S)": 0.0,
+        "Acidental (Q)": 100.0,
+        "Água (A)": 0.0,
+        "Subpressão (AS)": 0.0,
+        "Q_TELHADO_MANUTENCAO (QT)": 0.0
+      }
+    },
+    {
+      "bimName": "L2",
+      "bimGuid": "02PlR0rlqHyOyDa4iZOUxp",
+      "cadName": "L2",
+      "cadGuid": "2Zt5m7qouHyOy801fzsd4G",
+      "exportedPropertySetsEqual": true,
+      "rawLoadSet": {
+        "Revestimento (G2)": 25.0,
+        "Adicional (G2)": 0.0,
+        "Solo (S)": 0.0,
+        "Acidental (Q)": 100.0,
+        "Água (A)": 0.0,
+        "Subpressão (AS)": 0.0,
+        "Q_TELHADO_MANUTENCAO (QT)": 0.0
+      }
+    },
+    {
+      "bimName": "L3",
+      "bimGuid": "02PlhHrlqHyOyDa4iZOUxp",
+      "cadName": "L3",
+      "cadGuid": "2kTiu8qouHyOy801fzsd4G",
+      "exportedPropertySetsEqual": true,
+      "rawLoadSet": {
+        "Revestimento (G2)": 25.0,
+        "Adicional (G2)": 0.0,
+        "Solo (S)": 0.0,
+        "Acidental (Q)": 100.0,
+        "Água (A)": 0.0,
+        "Subpressão (AS)": 0.0,
+        "Q_TELHADO_MANUTENCAO (QT)": 0.0
+      }
+    },
+    {
+      "bimName": "L4",
+      "bimGuid": "0D14TVrlqHyOyDa4iZOUxp",
+      "cadName": "L4",
+      "cadGuid": "2qvYMJqouHyOy801fzsd4G",
+      "exportedPropertySetsEqual": true,
+      "rawLoadSet": {
+        "Revestimento (G2)": 25.0,
+        "Adicional (G2)": 0.0,
+        "Solo (S)": 0.0,
+        "Acidental (Q)": 100.0,
+        "Água (A)": 0.0,
+        "Subpressão (AS)": 0.0,
+        "Q_TELHADO_MANUTENCAO (QT)": 0.0
+      }
+    },
+    {
+      "bimName": "L5",
+      "bimGuid": "0D14lurlqHyOyDa4iZOUxp",
+      "cadName": "L5",
+      "cadGuid": "2x0xMUqouHyOy801fzsd4G",
+      "exportedPropertySetsEqual": true,
+      "rawLoadSet": {
+        "Revestimento (G2)": 25.0,
+        "Adicional (G2)": 0.0,
+        "Solo (S)": 0.0,
+        "Acidental (Q)": 100.0,
+        "Água (A)": 0.0,
+        "Subpressão (AS)": 0.0,
+        "Q_TELHADO_MANUTENCAO (QT)": 0.0
+      }
+    }
+  ],
+  "columnPairs": [
+    {
+      "nativeId": 472930,
+      "nativeMark": "P1-N1",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 473025,
+      "nativeMark": "P1-N2",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 473097,
+      "nativeMark": "P10-N1",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 473098,
+      "nativeMark": "P10-N2",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 473143,
+      "nativeMark": "P11-N1",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 473144,
+      "nativeMark": "P11-N2",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 472931,
+      "nativeMark": "P2-N1",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 473026,
+      "nativeMark": "P2-N2",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 472932,
+      "nativeMark": "P3-N1",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 473027,
+      "nativeMark": "P3-N2",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 472933,
+      "nativeMark": "P4-N1",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 473028,
+      "nativeMark": "P4-N2",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 472934,
+      "nativeMark": "P5-N1",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 473029,
+      "nativeMark": "P5-N2",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 472935,
+      "nativeMark": "P6-N1",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 473030,
+      "nativeMark": "P6-N2",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 472936,
+      "nativeMark": "P7-N1",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 473031,
+      "nativeMark": "P7-N2",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 472937,
+      "nativeMark": "P8-N1",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 473032,
+      "nativeMark": "P8-N2",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 472938,
+      "nativeMark": "P9-N1",
+      "exportedPropertySetsEqual": true
+    },
+    {
+      "nativeId": 473033,
+      "nativeMark": "P9-N2",
+      "exportedPropertySetsEqual": true
+    }
+  ]
+}

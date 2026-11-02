@@ -1,0 +1,15 @@
+# R170 — propriedades exportadas e apoios inferiores
+
+Comparou-se a informação explícita dos IFCs dos receptores corrigidos CAD R165 e BIM R169. A associação utiliza posição, seção e origem geométrica, não apenas nomes, que se repetem e diferem entre projetos. As 46 partes CAD e 33 partes BIM correspondem às mesmas 30 origens de vigas: a segmentação distinta não constitui 13 erros.
+
+Os conjuntos exportados de materiais/cobrimentos coincidiram nas 30 origens de vigas; as propriedades exportadas coincidiram nos 22 segmentos de pilares e nas 11 lajes. Os conjuntos de cargas uniformes das vigas coincidiram e apresentaram valores zero. Esse resultado **não comprova ausência de cargas auxiliares, pontuais ou de paredes no modelo nativo**, nem equivalência completa dos carregamentos. Nenhuma entidade IFC explícita de carga/ação estrutural consta dessas saídas. Os valores brutos foram comparados sem conversão de unidade.
+
+A saída CAD inclui onze IfcFooting e a BIM nenhum. Como o escopo foi delimitado à superestrutura, não se usou essa diferença como índice de qualidade de fundações. Conferiu-se, porém, o nível inferior no Eberick: no BIM N0, o diagnóstico apresentou onze avisos L04, P1 a P11 “nascendo no vazio”, e um erro L07, pavimento sem fundações. Portanto, a verificação anterior dos níveis principais N1/N2 não encerrava os apoios do modelo.
+
+Em consulta aos onze pilares de fundação CAD, sem salvar alterações, a interface mostrou apoio Rotulado, vínculo do pilar Engastado, altura de barra Fixo 10 cm e df=0. São parâmetros existentes de idealização, não caracterização do terreno nem dimensionamento de sapata. Os arquivos CAD e BIM mantiveram seus hashes de controle. Os doze diagnósticos BIM e as onze consultas CAD possuem leituras textuais da interface; há imagens de controle do primeiro/último aviso e do primeiro apoio CAD.
+
+Próxima etapa: em nova cópia, reproduzir no receptor BIM a idealização de apoio registrada no CAD, mantendo explícitas as restrições do estudo e sem dimensionar fundações. A tipologia nativa exigida pelo programa será identificada como representação de apoio, sem aprovação geotécnica. A conferência completa de ações, vínculos internos, escada, conflito V16/J4 e ELU/ELS continua pendente.
+
+Não houve novo processamento, alteração de RVT/DWG ou monografia. As consultas desta etapa não possuem cronômetro completo e não recebem duração estimada nos resultados. `auditar_propriedades.py` executou sobre os arquivos IFC reais, somente em leitura, e confirmou integridade das fontes. A extração de dados reais não equivale a validação de projeto.
+
+Documentação primária consultada: [vínculos de apoio](https://suporte.altoqi.com.br/hc/pt-br/articles/360012152833), [lançamento de pilares de fundação](https://suporte.altoqi.com.br/hc/pt-br/articles/360007457533) e manual instalado `erro_l07.htm`, `converter_para_fundacao.htm`, `dialogo_converter_para_fundacao.htm`. A consulta normativa/geotécnica não foi encerrada por essa documentação operacional.

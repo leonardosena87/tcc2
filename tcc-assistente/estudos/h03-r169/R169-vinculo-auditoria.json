@@ -1,0 +1,57 @@
+{
+  "revision": "H03/R169",
+  "recordedAtUtc": "2026-11-02T21:36:32.911479+00:00",
+  "sourceFilesPreserved": {
+    "Arquivos do projeto\\Modelo 3D.IFC": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.ini": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-cad": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav": true,
+    "_DADOS_\\ConfigFolder.qib": true,
+    "_DADOS_\\EdificacaoEberick.ini": true,
+    "Arquivos do projeto\\Documentos\\Eberick\\logo.gif": true,
+    "Arquivos do projeto\\Documentos\\Eberick\\Relatorio_de_importacao_de_elementos_IFC.docx": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.oq3d": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\Planificacao_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\Vinculo_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini": true
+  },
+  "sourceHashes": {
+    "D:\\TCC\\outputs\\R169-BIM-VINCULO-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj": "112485c07b92c6448e896ab9463e4e9063f1da03f1e1d01105f7d5ac8bbdadfe",
+    "D:\\TCC\\outputs\\R169-BIM-VINCULO-VARANDA-NAO-EXECUTAR\\Arquivos do projeto\\Modelo 3D.IFC": "0cd8302b0386b0dae18971c07c961404ee340861c1e804cbd97979c129c63e1c",
+    "D:\\TCC\\outputs\\R167-BIM-LAJES-NAO-EXECUTAR\\Arquivos do projeto\\Modelo 3D.IFC": "64c08e9a362bf88e1949ac597e63192931c4ba6d294108b611101d8aaf5e369c"
+  },
+  "nativeProject": "D:\\TCC\\outputs\\R169-BIM-VINCULO-VARANDA-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+  "nativeCommand": "Modelo > Lajes > Engastar",
+  "scope": "Continuidade entre L4 e L6 pela borda comum V12, pavimento N1; nao comando Engastar em viga.",
+  "previousDiagnostic": "L10: Laje L6 em balanco nao engastada",
+  "diagnosticAfterSaveAndReopen": "Nao foram detectados problemas no lancamento deste pavimento.",
+  "nativeProjectClosedAndReopened": true,
+  "nativeDiagnosticPassedForN1": true,
+  "exportedComparison": {
+    "IfcBeam": {
+      "beforeCount": 33,
+      "afterCount": 33,
+      "exportedGeometryAndPropertySetsUnchanged": true
+    },
+    "IfcColumn": {
+      "beforeCount": 22,
+      "afterCount": 22,
+      "exportedGeometryAndPropertySetsUnchanged": true
+    },
+    "IfcSlab": {
+      "beforeCount": 11,
+      "afterCount": 11,
+      "exportedGeometryAndPropertySetsUnchanged": true
+    }
+  },
+  "ifcDoesNotEvidenceThisNativeBoundaryChange": true,
+  "allBoundaryConditionsComparedToCad": false,
+  "restraintDesignApproved": false,
+  "newStructuralCalculationPerformed": false,
+  "structuralApproval": false,
+  "stairMissingInCalculationModel": true,
+  "fullPairedComparisonFinished": false,
+  "partialCorrectionElapsedMs": 76077,
+  "fullFlowTime": false
+}
