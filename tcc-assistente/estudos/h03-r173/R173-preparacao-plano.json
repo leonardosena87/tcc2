@@ -1,0 +1,104 @@
+{
+  "revision": "H03/R173",
+  "recordedAtUtc": "2026-11-02T22:14:15.618699+00:00",
+  "sourceRoot": "D:\\TCC\\outputs\\R172-BIM-DIAGNOSTICO-PARCIAL-NAO-EXECUTAR",
+  "targetRoot": "D:\\TCC\\outputs\\R173-BIM-PATAMAR-ANALITICO-NAO-EXECUTAR",
+  "sourceFiles": [
+    {
+      "relativePath": "_DADOS_\\ConfigFolder.qib",
+      "sha256": "b2e8c6c10dd5a9580e5faffdc85942782726412e2c0b6dcf331c4187579c6436"
+    },
+    {
+      "relativePath": "_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "93398002b5455edd7095fb99c935abf601cd7b43e316d83a5a7d61549690c638"
+    },
+    {
+      "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\logo.gif",
+      "sha256": "b38857f1c1da842e6113c6464464d20c048457a36f01bb42519595ddebaab728"
+    },
+    {
+      "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\Relatorio_de_importacao_de_elementos_IFC.docx",
+      "sha256": "2fa2f52431feaac8e6aa693486a9b3a42fa54f7f1834e73925b536a5b1253f78"
+    },
+    {
+      "relativePath": "Arquivos do projeto\\Modelo 3D.IFC",
+      "sha256": "0e7607e3f72fed6c1c098bd17ddd1062be701c74c6b18db3887e0cc35b03ac3b"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak",
+      "sha256": "f23410596511c1d301e71567015628faf8a45bfa5a143202a2e8ebfeb8346fb3"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sha256": "6115cf41857b020ee64b1b2a529e1480e37e529e1bdc78d3f136025ba43c51f1"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-cad",
+      "sha256": "ffa3c8a1b4f24491aac4dba105dae790626bf0a614586c422d07fbc442929f82"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-g2",
+      "sha256": "00a5ef193fb32a3fe79fb2ba45ed6d136e850dc807ebafa812a686a2e48243a1"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-g3",
+      "sha256": "982229d6644196b4410bad768211de823469ae72cd7ba8e1913dc63810ec17b9"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav",
+      "sha256": "f23410596511c1d301e71567015628faf8a45bfa5a143202a2e8ebfeb8346fb3"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.x2",
+      "sha256": "217df5560bf4d83f7e3514d6f32e77981554e6833acdbfb35d925b2de2023123"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.x3",
+      "sha256": "a3c2997a0548c3a18857aeb05af468e46a4e0676b0b3a36c7153816d5b5fbfb3"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.oq3d",
+      "sha256": "00c25740bc63036e47ed84bb2e9404b0090d06d188da938f7e203e108cd4b9d5"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\Planificacao_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini",
+      "sha256": "bf20a78e7f28d18448ab1f2622aebe1e2e88998dac1e06c046d8457431a261d7"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\Vinculo_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini",
+      "sha256": "e2b4947978d79aa191e88fe60443dac03d45ab4bb9988c68c7867d058c9a3042"
+    }
+  ],
+  "scope": "Corrigir apenas a representacao da viga do patamar no nivel analitico. Conservar cargas para isolar a alteracao.",
+  "sourceBeam": {
+    "receiverName": "V6",
+    "floor": "N1",
+    "widthCm": 20,
+    "heightCm": 30,
+    "elevationCm": -142.6
+  },
+  "target": {
+    "intermediateUnderFloor": "N1",
+    "heightAboveN0Cm": 157.4,
+    "absoluteConcreteTopM": 1.774,
+    "widthCm": 20,
+    "heightCm": 30,
+    "elevationCm": 0,
+    "axisXcm": [
+      440,
+      655
+    ],
+    "axisYcm": 0,
+    "existingColumnNamesBim": [
+      "P9",
+      "P10"
+    ]
+  },
+  "noNewColumnPositions": true,
+  "noFoundationDesign": true,
+  "structuralApproval": false
+}
