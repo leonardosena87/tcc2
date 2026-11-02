@@ -1,0 +1,459 @@
+Window: "AltoQi Eberick 2025 Infinity - [64-H03-R139-CAD-CONSULTA-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [64-H03-R139-CAD-CONSULTA-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		77624 diálogo (disabled) Análise Secondary Actions: Raise
+			77702 diálogo Painéis de lajes Secondary Actions: Raise
+				77703 grupo Espaçamento das faixas ID: 2050
+				77704 text Lajes maciças ID: 2051
+				77705 editar (settable, string) Lajes maciças Value: 50 ID: 2052
+				77706 text cm ID: 2053
+				77707 text Número mínimo de faixas em uma direção ID: 2054
+				77708 editar (settable, string) Número mínimo de faixas em uma direção Value: 4 ID: 2055
+				77709 text Capitéis ID: 2056
+				77710 editar (settable, string) Capitéis Value: 15 ID: 2057
+				77711 text cm ID: 2058
+				77712 text Regiões maciças ID: 2059
+				77713 editar (settable, string) Regiões maciças Value: 15 ID: 2060
+				77714 text cm ID: 2061
+				77715 text Vigas de fundação ID: 2062
+				77716 editar (settable, string) Vigas de fundação Value: 20 ID: 2063
+				77717 text cm ID: 2064
+				77718 text Paredes e núcleos rígidos ID: 2065
+				77719 editar (settable, string) Paredes e núcleos rígidos Value: 50 ID: 2066
+				77720 text cm ID: 2067
+				77721 grupo Aberturas ID: 2100
+				77722 text Dispensar verificação de aberturas quando ID: 2101
+				77723 text Dimensão do furo menor ou igual a ID: 2102
+				77724 editar (settable, string) Dimensão do furo menor ou igual a Value: 20 ID: 2103
+				77725 text cm ID: 2104
+				77726 text Distância entre furos maior que ID: 2105
+				77727 botão de opção (selectable) L/2 ID: 2106
+				77728 botão de opção (selectable) Distância entre furos maior que ID: 2107
+				77729 editar (settable, string) Value: 40 ID: 2108
+				77730 text cm ID: 2109
+				77731 caixa de seleção Verificar distância do apoio ID: 2110
+				77732 caixa de seleção Dispensar análise de aberturas com incompatibilidade ID: 2111
+				77733 grupo Modelo para dimensionamento ID: 2200
+				77734 botão de opção (selectable) Simplificado ID: 2201
+				77735 botão de opção (selectable) Completo ID: 2202
+				77736 grupo Pilar ID: 2300
+				77737 text Distância mínima para considerar pilar dentro da laje ID: 2301
+				77738 editar (settable, string) Distância mínima para considerar pilar dentro da laje Value: 20 ID: 2302
+				77739 text cm ID: 2303
+				77740 grupo Grelha não linear ID: 2400
+				77741 text Continuidades ID: 2401
+				77742 text Redistribuição máxima ID: 2402
+				77743 editar (settable, string) Redistribuição máxima Value: 15 ID: 2403
+				77744 text % ID: 2404
+				77745 text Aplicar para taxas de armadura maiores que ID: 2405
+				77746 editar (settable, string) Aplicar para taxas de armadura maiores que Value: 0.3 ID: 2406
+				77747 text % ID: 2407
+				77748 text Demais Casos ID: 2410
+				77749 text Redistribuição máxima ID: 2411
+				77750 editar (settable, string) Redistribuição máxima Value: 15 ID: 2412
+				77751 text % ID: 2413
+				77752 text Aplicar para taxas de armadura maiores que ID: 2414
+				77753 editar (settable, string) Aplicar para taxas de armadura maiores que Value: 0.5 ID: 2415
+				77754 text % ID: 2416
+				77755 text Nº máximo de iterações ID: 2420
+				77756 editar (settable, string) Nº máximo de iterações Value: 10 ID: 2421
+				77757 grupo Paredes ID: 2500
+				77758 text Concentrar armadura no topo / base para tração superior a ID: 2501
+				77759 editar (settable, string) Concentrar armadura no topo / base para tração superior a Value: 100 ID: 2502
+				77760 text kN ID: 2503
+				77761 text Região de interesse ID: 2504
+				77762 editar (settable, string) Região de interesse Value: 15 ID: 2505
+				77763 text % h ID: 2506
+				77764 text Coeficiente de empuxo ID: 2507
+				77765 editar (settable, string) Coeficiente de empuxo Value: 0.5 ID: 2508
+				77766 grupo Escadas ID: 2600
+				77767 text Modelo para análise ID: 2601
+				77768 botão de opção (selectable) Pavimentos independentes ID: 2602
+				77769 botão de opção (selectable) Projeto inteiro ID: 2603
+				77770 caixa de seleção Desconsiderar o pilar para distância menor que ID: 2610
+				77771 editar (settable, string) Value: 20 ID: 2611
+				77772 text cm ID: 2612
+				77773 botão OK ID: 1
+				77774 botão Cancelar ID: 2
+				77775 botão Ajuda ID: 9
+				77776 text Vigas protendidas ID: 2068
+				77777 editar (settable, string) Vigas protendidas Value: 50 ID: 2069
+				77778 text cm ID: 2070
+				77779 grupo Viga ID: 2850
+				77780 caixa de seleção Permitir viga no interior da laje ID: 2851
+				77781 barra de título (settable, string) Value: Painéis de lajes
+			77625 grupo Geral ID: 1004
+			77626 text Redução no engaste para nós semirrígidos ID: 1030
+			77627 editar (settable, string) Redução no engaste para nós semirrígidos Value: 15 ID: 1001
+			77628 text % ID: 1031
+			77629 text Redução na torção para os pilares ID: 1032
+			77630 editar (settable, string) Redução na torção para os pilares Value: 0 ID: 1011
+			77631 text % ID: 1033
+			77632 text Redução na torção para as vigas ID: 1034
+			77633 editar (settable, string) Redução na torção para as vigas Value: 85 ID: 1023
+			77634 text % ID: 1035
+			77635 text Redução na torção para os núcleos rígidos ID: 1059
+			77636 editar (settable, string) Redução na torção para os núcleos rígidos Value: 0 ID: 1061
+			77637 text % ID: 1060
+			77638 text Aumento na rigidez axial dos pilares ID: 1006
+			77639 editar (settable, string) Aumento na rigidez axial dos pilares Value: 1 ID: 1025
+			77640 botão ... ID: 1024
+			77641 caixa de seleção Salvar automaticamente o projeto após o processamento ID: 1005
+			77642 grupo Ligação viga-pilar ID: 108
+			77643 caixa de seleção Flexibilizar ligação com pilar equivalente ID: 101
+			77644 text Aplicar para relação h/b maior que ID: 1203
+			77645 editar (settable, string) Aplicar para relação h/b maior que Value: 5 ID: 1201
+			77646 botão ... ID: 1202
+			77647 grupo Não linearidade física ID: 1036
+			77648 text Rigidez das vigas ID: 1037
+			77649 editar (settable, string) Rigidez das vigas Value: 0.4 ID: 1008
+			77650 text Ec.Ic ID: 1038
+			77651 text Rigidez dos pilares ID: 1039
+			77652 editar (settable, string) Rigidez dos pilares Value: 0.8 ID: 1009
+			77653 text Ec.Ic ID: 1040
+			77654 text Rigidez das lajes ID: 1041
+			77655 editar (settable, string) Rigidez das lajes Value: 0.3 ID: 1010
+			77656 text Ec.Ic ID: 1007
+			77657 text Rigidez das estacas ID: 1043
+			77658 editar (settable, string) Rigidez das estacas Value: 0.8 ID: 1045
+			77659 text Ec.Ic ID: 1044
+			77660 text Rigidez dos núcleos rígidos ID: 1062
+			77661 editar (settable, string) Rigidez dos núcleos rígidos Value: 0.9 ID: 1064
+			77662 text Ec.lc ID: 1063
+			77663 text Rigidez alvenaria estrutural ID: 1048
+			77664 editar (settable, string) Rigidez alvenaria estrutural Value: 0.8 ID: 1046
+			77665 text Ea.I ID: 1047
+			77666 grupo Não linearidade geométrica ID: 1051
+			77667 caixa de seleção Utilizar o processo P-Delta ID: 1019
+			77668 text Número máximo de iterações ID: 1052
+			77669 editar (settable, string) Número máximo de iterações Value: 10 ID: 1020
+			77670 text Precisão mínima ID: 1053
+			77671 editar (settable, string) Precisão mínima Value: 1 ID: 1021
+			77672 text % ID: 1054
+			77673 text Combinação vertical de cálculo ID: 1055
+			77674 text 1.4G1+1.4G2+1.4Q+1.1A+1.4QT ID: 1017
+			77675 botão ... ID: 1018
+			77676 grupo Imperfeições globais ID: 1056
+			77677 text Tipo de estrutura: ID: 1057
+			77678 caixa de combinação (settable, string) Tipo de estrutura: Value: Estruturas usuais ID: 1029
+				77679 text (settable, string) Tipo de estrutura: Value: Estruturas usuais
+				77680 botão Abrir ID: DropDown
+			77681 text Combinação vertical característica ID: 1058
+			77682 text G1+G2+Q+A+QT ID: 1016
+			77683 botão ... ID: 1013
+			77684 grupo Processo ID: 2140
+			77685 botão de opção (selectable) Grelhas + pórtico espacial ID: 2141
+			77686 botão de opção (selectable) Modelo integrado ID: 2142
+			77687 botão Painéis de lajes... ID: 1027
+			77688 botão Modelo da fundação... ID: 1026
+			77689 botão Modelo ELS... ID: 1204
+			77690 botão Avançado... ID: 1205
+			77691 botão Análise dinâmica... ID: 1200
+			77692 botão OK ID: 1
+			77693 botão Cancelar ID: 2
+			77694 botão Ajuda ID: 9
+			77695 barra de título (settable, string) Value: Análise
+		1 Barra de status
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Notícias
+						77782 item de tabulação (selectable) Notícias
+					8 painel
+						76346 painel
+							76347 painel (disabled) status.altoqi.com.br
+								76348 painel (disabled)
+								76349 região status.altoqi.com.br - Conteúdo da Web
+									76350 região
+										76351 região
+										76352 região
+											76353 região
+												76354 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													76355 gráfico
+													76356 título Hum… Não consigo chegar a esta página
+													76357 text status.altoqi.com.br
+													76358 text se recusou a se conectar.
+													76359 text Tente:
+													76360 Lista
+														76361 item de lista •Verificando a conexão
+														76362 item de lista •Verificação de proxy e firewall
+															76363 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													76364 text ERR_CONNECTION_REFUSED
+													76365 botão Atualizar ID: reload-button
+													76366 text Microsoft Edge
+												76367 região
+				31 painel
+					32 tabulação
+						77783 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									39 painel
+									77511 árvore ID: 101
+										77512 item da árvore (selectable, disabled) Pavimentos
+											77513 item da árvore (selectable, disabled) N2
+											77514 item da árvore (selectable, disabled) N1
+											77515 item da árvore (selectable, disabled) N0
+										77516 item da árvore (selectable, disabled) Pilares em prumada
+										77517 item da árvore (selectable, disabled) Cortes
+										77518 item da árvore (selectable, disabled) Gerenciador de desenhos
+										77519 item da árvore (selectable, disabled) Modelos 3D
+		40 barra de menus
+		77702 diálogo Painéis de lajes Secondary Actions: Raise
+			77703 grupo Espaçamento das faixas ID: 2050
+			77704 text Lajes maciças ID: 2051
+			77705 editar (settable, string) Lajes maciças Value: 50 ID: 2052
+			77706 text cm ID: 2053
+			77707 text Número mínimo de faixas em uma direção ID: 2054
+			77708 editar (settable, string) Número mínimo de faixas em uma direção Value: 4 ID: 2055
+			77709 text Capitéis ID: 2056
+			77710 editar (settable, string) Capitéis Value: 15 ID: 2057
+			77711 text cm ID: 2058
+			77712 text Regiões maciças ID: 2059
+			77713 editar (settable, string) Regiões maciças Value: 15 ID: 2060
+			77714 text cm ID: 2061
+			77715 text Vigas de fundação ID: 2062
+			77716 editar (settable, string) Vigas de fundação Value: 20 ID: 2063
+			77717 text cm ID: 2064
+			77718 text Paredes e núcleos rígidos ID: 2065
+			77719 editar (settable, string) Paredes e núcleos rígidos Value: 50 ID: 2066
+			77720 text cm ID: 2067
+			77721 grupo Aberturas ID: 2100
+			77722 text Dispensar verificação de aberturas quando ID: 2101
+			77723 text Dimensão do furo menor ou igual a ID: 2102
+			77724 editar (settable, string) Dimensão do furo menor ou igual a Value: 20 ID: 2103
+			77725 text cm ID: 2104
+			77726 text Distância entre furos maior que ID: 2105
+			77727 botão de opção (selectable) L/2 ID: 2106
+			77728 botão de opção (selectable) Distância entre furos maior que ID: 2107
+			77729 editar (settable, string) Value: 40 ID: 2108
+			77730 text cm ID: 2109
+			77731 caixa de seleção Verificar distância do apoio ID: 2110
+			77732 caixa de seleção Dispensar análise de aberturas com incompatibilidade ID: 2111
+			77733 grupo Modelo para dimensionamento ID: 2200
+			77734 botão de opção (selectable) Simplificado ID: 2201
+			77735 botão de opção (selectable) Completo ID: 2202
+			77736 grupo Pilar ID: 2300
+			77737 text Distância mínima para considerar pilar dentro da laje ID: 2301
+			77738 editar (settable, string) Distância mínima para considerar pilar dentro da laje Value: 20 ID: 2302
+			77739 text cm ID: 2303
+			77740 grupo Grelha não linear ID: 2400
+			77741 text Continuidades ID: 2401
+			77742 text Redistribuição máxima ID: 2402
+			77743 editar (settable, string) Redistribuição máxima Value: 15 ID: 2403
+			77744 text % ID: 2404
+			77745 text Aplicar para taxas de armadura maiores que ID: 2405
+			77746 editar (settable, string) Aplicar para taxas de armadura maiores que Value: 0.3 ID: 2406
+			77747 text % ID: 2407
+			77748 text Demais Casos ID: 2410
+			77749 text Redistribuição máxima ID: 2411
+			77750 editar (settable, string) Redistribuição máxima Value: 15 ID: 2412
+			77751 text % ID: 2413
+			77752 text Aplicar para taxas de armadura maiores que ID: 2414
+			77753 editar (settable, string) Aplicar para taxas de armadura maiores que Value: 0.5 ID: 2415
+			77754 text % ID: 2416
+			77755 text Nº máximo de iterações ID: 2420
+			77756 editar (settable, string) Nº máximo de iterações Value: 10 ID: 2421
+			77757 grupo Paredes ID: 2500
+			77758 text Concentrar armadura no topo / base para tração superior a ID: 2501
+			77759 editar (settable, string) Concentrar armadura no topo / base para tração superior a Value: 100 ID: 2502
+			77760 text kN ID: 2503
+			77761 text Região de interesse ID: 2504
+			77762 editar (settable, string) Região de interesse Value: 15 ID: 2505
+			77763 text % h ID: 2506
+			77764 text Coeficiente de empuxo ID: 2507
+			77765 editar (settable, string) Coeficiente de empuxo Value: 0.5 ID: 2508
+			77766 grupo Escadas ID: 2600
+			77767 text Modelo para análise ID: 2601
+			77768 botão de opção (selectable) Pavimentos independentes ID: 2602
+			77769 botão de opção (selectable) Projeto inteiro ID: 2603
+			77770 caixa de seleção Desconsiderar o pilar para distância menor que ID: 2610
+			77771 editar (settable, string) Value: 20 ID: 2611
+			77772 text cm ID: 2612
+			77773 botão OK ID: 1
+			77774 botão Cancelar ID: 2
+			77775 botão Ajuda ID: 9
+			77776 text Vigas protendidas ID: 2068
+			77777 editar (settable, string) Vigas protendidas Value: 50 ID: 2069
+			77778 text cm ID: 2070
+			77779 grupo Viga ID: 2850
+			77780 caixa de seleção Permitir viga no interior da laje ID: 2851
+			77781 barra de título (settable, string) Value: Painéis de lajes
+		77624 diálogo (disabled) Análise Secondary Actions: Raise
+			77702 diálogo Painéis de lajes Secondary Actions: Raise
+				77703 grupo Espaçamento das faixas ID: 2050
+				77704 text Lajes maciças ID: 2051
+				77705 editar (settable, string) Lajes maciças Value: 50 ID: 2052
+				77706 text cm ID: 2053
+				77707 text Número mínimo de faixas em uma direção ID: 2054
+				77708 editar (settable, string) Número mínimo de faixas em uma direção Value: 4 ID: 2055
+				77709 text Capitéis ID: 2056
+				77710 editar (settable, string) Capitéis Value: 15 ID: 2057
+				77711 text cm ID: 2058
+				77712 text Regiões maciças ID: 2059
+				77713 editar (settable, string) Regiões maciças Value: 15 ID: 2060
+				77714 text cm ID: 2061
+				77715 text Vigas de fundação ID: 2062
+				77716 editar (settable, string) Vigas de fundação Value: 20 ID: 2063
+				77717 text cm ID: 2064
+				77718 text Paredes e núcleos rígidos ID: 2065
+				77719 editar (settable, string) Paredes e núcleos rígidos Value: 50 ID: 2066
+				77720 text cm ID: 2067
+				77721 grupo Aberturas ID: 2100
+				77722 text Dispensar verificação de aberturas quando ID: 2101
+				77723 text Dimensão do furo menor ou igual a ID: 2102
+				77724 editar (settable, string) Dimensão do furo menor ou igual a Value: 20 ID: 2103
+				77725 text cm ID: 2104
+				77726 text Distância entre furos maior que ID: 2105
+				77727 botão de opção (selectable) L/2 ID: 2106
+				77728 botão de opção (selectable) Distância entre furos maior que ID: 2107
+				77729 editar (settable, string) Value: 40 ID: 2108
+				77730 text cm ID: 2109
+				77731 caixa de seleção Verificar distância do apoio ID: 2110
+				77732 caixa de seleção Dispensar análise de aberturas com incompatibilidade ID: 2111
+				77733 grupo Modelo para dimensionamento ID: 2200
+				77734 botão de opção (selectable) Simplificado ID: 2201
+				77735 botão de opção (selectable) Completo ID: 2202
+				77736 grupo Pilar ID: 2300
+				77737 text Distância mínima para considerar pilar dentro da laje ID: 2301
+				77738 editar (settable, string) Distância mínima para considerar pilar dentro da laje Value: 20 ID: 2302
+				77739 text cm ID: 2303
+				77740 grupo Grelha não linear ID: 2400
+				77741 text Continuidades ID: 2401
+				77742 text Redistribuição máxima ID: 2402
+				77743 editar (settable, string) Redistribuição máxima Value: 15 ID: 2403
+				77744 text % ID: 2404
+				77745 text Aplicar para taxas de armadura maiores que ID: 2405
+				77746 editar (settable, string) Aplicar para taxas de armadura maiores que Value: 0.3 ID: 2406
+				77747 text % ID: 2407
+				77748 text Demais Casos ID: 2410
+				77749 text Redistribuição máxima ID: 2411
+				77750 editar (settable, string) Redistribuição máxima Value: 15 ID: 2412
+				77751 text % ID: 2413
+				77752 text Aplicar para taxas de armadura maiores que ID: 2414
+				77753 editar (settable, string) Aplicar para taxas de armadura maiores que Value: 0.5 ID: 2415
+				77754 text % ID: 2416
+				77755 text Nº máximo de iterações ID: 2420
+				77756 editar (settable, string) Nº máximo de iterações Value: 10 ID: 2421
+				77757 grupo Paredes ID: 2500
+				77758 text Concentrar armadura no topo / base para tração superior a ID: 2501
+				77759 editar (settable, string) Concentrar armadura no topo / base para tração superior a Value: 100 ID: 2502
+				77760 text kN ID: 2503
+				77761 text Região de interesse ID: 2504
+				77762 editar (settable, string) Região de interesse Value: 15 ID: 2505
+				77763 text % h ID: 2506
+				77764 text Coeficiente de empuxo ID: 2507
+				77765 editar (settable, string) Coeficiente de empuxo Value: 0.5 ID: 2508
+				77766 grupo Escadas ID: 2600
+				77767 text Modelo para análise ID: 2601
+				77768 botão de opção (selectable) Pavimentos independentes ID: 2602
+				77769 botão de opção (selectable) Projeto inteiro ID: 2603
+				77770 caixa de seleção Desconsiderar o pilar para distância menor que ID: 2610
+				77771 editar (settable, string) Value: 20 ID: 2611
+				77772 text cm ID: 2612
+				77773 botão OK ID: 1
+				77774 botão Cancelar ID: 2
+				77775 botão Ajuda ID: 9
+				77776 text Vigas protendidas ID: 2068
+				77777 editar (settable, string) Vigas protendidas Value: 50 ID: 2069
+				77778 text cm ID: 2070
+				77779 grupo Viga ID: 2850
+				77780 caixa de seleção Permitir viga no interior da laje ID: 2851
+				77781 barra de título (settable, string) Value: Painéis de lajes
+			77625 grupo Geral ID: 1004
+			77626 text Redução no engaste para nós semirrígidos ID: 1030
+			77627 editar (settable, string) Redução no engaste para nós semirrígidos Value: 15 ID: 1001
+			77628 text % ID: 1031
+			77629 text Redução na torção para os pilares ID: 1032
+			77630 editar (settable, string) Redução na torção para os pilares Value: 0 ID: 1011
+			77631 text % ID: 1033
+			77632 text Redução na torção para as vigas ID: 1034
+			77633 editar (settable, string) Redução na torção para as vigas Value: 85 ID: 1023
+			77634 text % ID: 1035
+			77635 text Redução na torção para os núcleos rígidos ID: 1059
+			77636 editar (settable, string) Redução na torção para os núcleos rígidos Value: 0 ID: 1061
+			77637 text % ID: 1060
+			77638 text Aumento na rigidez axial dos pilares ID: 1006
+			77639 editar (settable, string) Aumento na rigidez axial dos pilares Value: 1 ID: 1025
+			77640 botão ... ID: 1024
+			77641 caixa de seleção Salvar automaticamente o projeto após o processamento ID: 1005
+			77642 grupo Ligação viga-pilar ID: 108
+			77643 caixa de seleção Flexibilizar ligação com pilar equivalente ID: 101
+			77644 text Aplicar para relação h/b maior que ID: 1203
+			77645 editar (settable, string) Aplicar para relação h/b maior que Value: 5 ID: 1201
+			77646 botão ... ID: 1202
+			77647 grupo Não linearidade física ID: 1036
+			77648 text Rigidez das vigas ID: 1037
+			77649 editar (settable, string) Rigidez das vigas Value: 0.4 ID: 1008
+			77650 text Ec.Ic ID: 1038
+			77651 text Rigidez dos pilares ID: 1039
+			77652 editar (settable, string) Rigidez dos pilares Value: 0.8 ID: 1009
+			77653 text Ec.Ic ID: 1040
+			77654 text Rigidez das lajes ID: 1041
+			77655 editar (settable, string) Rigidez das lajes Value: 0.3 ID: 1010
+			77656 text Ec.Ic ID: 1007
+			77657 text Rigidez das estacas ID: 1043
+			77658 editar (settable, string) Rigidez das estacas Value: 0.8 ID: 1045
+			77659 text Ec.Ic ID: 1044
+			77660 text Rigidez dos núcleos rígidos ID: 1062
+			77661 editar (settable, string) Rigidez dos núcleos rígidos Value: 0.9 ID: 1064
+			77662 text Ec.lc ID: 1063
+			77663 text Rigidez alvenaria estrutural ID: 1048
+			77664 editar (settable, string) Rigidez alvenaria estrutural Value: 0.8 ID: 1046
+			77665 text Ea.I ID: 1047
+			77666 grupo Não linearidade geométrica ID: 1051
+			77667 caixa de seleção Utilizar o processo P-Delta ID: 1019
+			77668 text Número máximo de iterações ID: 1052
+			77669 editar (settable, string) Número máximo de iterações Value: 10 ID: 1020
+			77670 text Precisão mínima ID: 1053
+			77671 editar (settable, string) Precisão mínima Value: 1 ID: 1021
+			77672 text % ID: 1054
+			77673 text Combinação vertical de cálculo ID: 1055
+			77674 text 1.4G1+1.4G2+1.4Q+1.1A+1.4QT ID: 1017
+			77675 botão ... ID: 1018
+			77676 grupo Imperfeições globais ID: 1056
+			77677 text Tipo de estrutura: ID: 1057
+			77678 caixa de combinação (settable, string) Tipo de estrutura: Value: Estruturas usuais ID: 1029
+				77679 text (settable, string) Tipo de estrutura: Value: Estruturas usuais
+				77680 botão Abrir ID: DropDown
+			77681 text Combinação vertical característica ID: 1058
+			77682 text G1+G2+Q+A+QT ID: 1016
+			77683 botão ... ID: 1013
+			77684 grupo Processo ID: 2140
+			77685 botão de opção (selectable) Grelhas + pórtico espacial ID: 2141
+			77686 botão de opção (selectable) Modelo integrado ID: 2142
+			77687 botão Painéis de lajes... ID: 1027
+			77688 botão Modelo da fundação... ID: 1026
+			77689 botão Modelo ELS... ID: 1204
+			77690 botão Avançado... ID: 1205
+			77691 botão Análise dinâmica... ID: 1200
+			77692 botão OK ID: 1
+			77693 botão Cancelar ID: 2
+			77694 botão Ajuda ID: 9
+			77695 barra de título (settable, string) Value: Análise
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```
+
+Focused element: 77702 diálogo Painéis de lajes Secondary Actions: Raise
+
+Document text:
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
