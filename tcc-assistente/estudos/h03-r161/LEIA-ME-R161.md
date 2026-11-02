@@ -10,6 +10,8 @@ O campo aceitou o separador decimal ponto. A tentativa com vírgula foi recusada
 
 O sólido da V16 mede 1,95 m entre faces de pilares; a distância nominal entre os eixos P4–P10 é 2,15 m. O auditor compara as faces correspondentes, sem tratar a diferença como encurtamento indevido e sem inferir conectividade analítica. O IFC contém 22 sólidos de pilares com 11 nomes distintos, P1–P11, dois trechos por nome; 46 sólidos de vigas e 11 lajes. A segmentação das vigas anteriores não foi reclassificada como erro pela contagem. Nenhum IfcStair/IfcStairFlight consta dessa saída do Eberick.
 
+O diagnóstico adicional identificou L5 como candidata espacial única à L6-N1 do Revit. A L6 do Eberick fica em outra região da planta. A V15 do Eberick ainda tem eixo Y=2,85 m e altura 30 cm; a R160 pede Y=3,035783333 m e altura 16 cm. A diferença de posição é +18,578333 cm. Essa associação não altera nomes nem o projeto e não prova equivalência integral de contornos. O plano e as caixas geométricas estão em `R161-planejamento-revisao-CAD.json`.
+
 ## Arquivos de trabalho
 
 - Eberick CAD parcial: `D:\TCC\outputs\R161-CAD-REVISAO-R160-NAO-EXECUTAR\Projeto Eberick\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj`.
@@ -36,7 +38,7 @@ A cópia técnica dos diretórios levou 667,5686 ms e não representa um fluxo d
 
 ## Validação e reprodução
 
-No diretório deste estudo: `python -m unittest -v test_auditoria` passou 13 testes. Em `tcc-assistente`, `npm test` passou 81 testes, sem falhas ou saltos. Esses testes cobrem código e não substituem o ensaio dentro dos programas.
+No diretório deste estudo: `python -m unittest -v test_auditoria` passou 16 testes. Em `tcc-assistente`, `npm test` passou 81 testes, sem falhas ou saltos. Esses testes cobrem código e não substituem o ensaio dentro dos programas.
 
 `auditar_cad_eberick.py` executou sobre o IFC4 real e as releituras nativas, preservando os hashes das fontes. `auditar_exportacao.py` está preparado para o IFC do Revit e ainda não executou sobre uma exportação R160. Usa leitura numérica derivada da R94, com proveniência em `R161-preparacao.json`; ausência de propriedade permanece ausente, sem virar zero.
 

@@ -5,6 +5,7 @@ import unittest
 from auditar_exportacao import by_native_tag, require_complete_identity, compare_length, ifcopenshell
 from leitor_propriedades_r94 import numeric_property, scale_to_si
 from auditar_cad_eberick import check_landing_beam
+from planejar_revisao_cad import unique_slab_candidate
 
 
 class IdentityTests(unittest.TestCase):
@@ -88,6 +89,24 @@ class GeometryTests(unittest.TestCase):
         self.supports['P4']*=2
         with self.assertRaisesRegex(ValueError,'ambiguos'):
             check_landing_beam(self.box,self.supports,self.native)
+
+
+class SlabAssociationTests(unittest.TestCase):
+    def setUp(self):
+        self.target={'ProfileM':[[4.4,2.935783,3.2],[6.55,3.9,3.2]],'AxisM':[3.2],'HM':.14}
+        self.actual={'name':'L5','geometry':{'minM':[4.5,2.95,3.06],'maxM':[6.45,3.8,3.2]}}
+        self.same_name={'name':'L6','geometry':{'minM':[9.75,3.8,3.06],'maxM':[10.725,7.1,3.2]}}
+
+    def test_different_label_does_not_prevent_spatial_candidate(self):
+        self.assertIs(unique_slab_candidate([self.same_name,self.actual],self.target),self.actual)
+
+    def test_same_label_outside_location_is_not_associated(self):
+        with self.assertRaisesRegex(ValueError,'ausente ou ambigua'):
+            unique_slab_candidate([self.same_name],self.target)
+
+    def test_ambiguous_spatial_candidates_are_rejected(self):
+        with self.assertRaisesRegex(ValueError,'ausente ou ambigua'):
+            unique_slab_candidate([self.actual,self.actual],self.target)
 
 
 if __name__=='__main__':unittest.main()

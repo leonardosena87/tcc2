@@ -11,5 +11,7 @@ Ler `LEIA-ME-R161.md` e `R161-CAD-Eberick-auditoria.json` antes de editar.
 - Próxima etapa BIM: obter diálogo Exportar IFC do Revit; importar `R161-configuracao-IFC-CV.json`, reler/salvar configuração, exportar bruto para a pasta R161, executar `auditar_exportacao.py`, conferir materiais, 63 identidades, ausência P12/P13 e unidades da escada. Se mudar configuração/material mapping, preservar controle e variante separadamente.
 - Próxima etapa CAD: referência DWG R160 do patamar não importada; seletor QiCadViewer foi cancelado. Atualizar V15/L6 e lançar escada/apoios somente com conferência da geometria. Não interpretar V16 isolada como revisão comum concluída.
 - Compatibilização J4 permanece pendente; o usuário não autorizou alterar a janela. Apoio inferior e cálculo da escada também pendentes.
-- Cronômetro parcial CAD: 392.668 ms até Salvar pela barra. Não somar à primeira tentativa Ctrl+S nem promover a tempo final. Validação: 13 testes Python + 81 Node; ensaio real Eberick separado.
+- Cronômetro parcial CAD: 392.668 ms até Salvar pela barra. Não somar à primeira tentativa Ctrl+S nem promover a tempo final. Validação: 16 testes Python + 81 Node; ensaio real Eberick separado.
 - Não editar o trabalho escrito nesta continuidade. Não publicar/push sem solicitação. Preservar mudanças locais não relacionadas.
+
+Atenção à identificação: L6-N1 no Revit tem candidata espacial L5 no Eberick; não editar a L6 desse receptor pelo nome. A V15 ainda requer deslocamento Y de +18,578333 cm e revisão de altura de 30 para 16 cm como hipótese comum. Consultar `R161-planejamento-revisao-CAD.json` e conferir contornos/apoios antes de aplicar.

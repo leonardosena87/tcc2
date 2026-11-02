@@ -1,6 +1,6 @@
 {
   "revision": "H03/R161",
-  "recordedAtUtc": "2026-11-02T17:22:15.185324+00:00",
+  "recordedAtUtc": "2026-11-02T17:26:53.054390+00:00",
   "nativeFilesNotVersioned": true,
   "entries": [
     {
@@ -25,18 +25,23 @@
     },
     {
       "file": "CONTINUAR-AQUI-H03-R161.md",
-      "sha256": "d9ece546c60b343db4392a0ffc7a0668f3b14b49f393dd7b6f01d9c685539ac5",
-      "bytes": 2153
+      "sha256": "50efc1d6368264add410aaf0d66f679be4348786bfadae4b5ade39a4aceef017",
+      "bytes": 2501
     },
     {
       "file": "LEIA-ME-R161.md",
-      "sha256": "7aa97c04ec2d11c0ddac329832ada4f70e99306be7549ca4dc5341806f58b249",
-      "bytes": 5818
+      "sha256": "9f4262d1c9bd77fc2922557285a3551f41cd9c12208535e621a605576032553a",
+      "bytes": 6331
     },
     {
       "file": "leitor_propriedades_r94.py",
       "sha256": "5d54cb5070bf51705a2a5fecf3828f2638448b0fe6ec61b134693ba507ec1d43",
       "bytes": 12184
+    },
+    {
+      "file": "planejar_revisao_cad.py",
+      "sha256": "d4349ca956be3b88096afc9bbe790f7858bdece5f0ce83ee8a0fffe64174f85c",
+      "bytes": 3403
     },
     {
       "file": "R161-apontador-anterior.json",
@@ -94,6 +99,11 @@
       "bytes": 106315
     },
     {
+      "file": "R161-planejamento-revisao-CAD.json",
+      "sha256": "24c41e0a05312dce6a545c67c77f3e56e27ae1d4b0cc16ccd75e6c83c358c129",
+      "bytes": 3138
+    },
+    {
       "file": "R161-preparacao.json",
       "sha256": "661b4a635538cd6e8c195fdbbbb0b3d97be4fdc31f946949fc4ec39ee9f50c94",
       "bytes": 1424
@@ -120,13 +130,13 @@
     },
     {
       "file": "R161-validacao.json",
-      "sha256": "6cd2397304915e35a62b7b2426aa91cf4b288d5861018c285c1aa3e5ea10b9e4",
-      "bytes": 861
+      "sha256": "5a0d7225faa0031344fabc02b7bb09caa4e0a474f27c28d945a8fd20ec799697",
+      "bytes": 939
     },
     {
       "file": "test_auditoria.py",
-      "sha256": "16562b7e03c26b727a89c9c4455b8edfd24dcce3f71b0d98698f0c3b98dbc2c5",
-      "bytes": 4434
+      "sha256": "aa1e7bb5e7e628345cfdd72fb8db88e8e619a5c07ea4793adc8b3287265b2b61",
+      "bytes": 5418
     }
   ]
 }

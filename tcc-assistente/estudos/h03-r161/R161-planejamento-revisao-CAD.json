@@ -1,0 +1,114 @@
+{
+  "revision": "H03/R161",
+  "recordedAtUtc": "2026-11-02T17:26:24.032562+00:00",
+  "sources": {
+    "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\IFC-CAD-Eberick\\Modelo 3D.IFC": "354bc6251184005930de2d9c654800a3d4b59989cf6f11a4c12768ad34cff687",
+    "D:\\TCC\\outputs\\R161-CAD-REVISAO-R160-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj": "3de0c32a8c29a65e381d881790533852fbfc2e0ebd1294793b4108ccb8bf321e",
+    "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-releitura-nativa-20261102-163548.json": "fd43fd25e3665bfe6fc3b9eaa14892b9d7446b19809efaae6e278a0aad3f3a18"
+  },
+  "slab": {
+    "revitMark": "L6-N1",
+    "revitId": 473020,
+    "revitProfileM": [
+      [
+        4.4,
+        2.9357833333333323,
+        3.2000000000000006
+      ],
+      [
+        4.4,
+        3.9,
+        3.2000000000000006
+      ],
+      [
+        6.550000000000001,
+        2.9357833333333323,
+        3.2000000000000006
+      ],
+      [
+        6.550000000000001,
+        3.9,
+        3.2000000000000006
+      ]
+    ],
+    "eberickSpatialCandidate": {
+      "name": "L5",
+      "guid": "26EsQMqouHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          4.500000000000001,
+          2.95,
+          3.06
+        ],
+        "maxM": [
+          6.45,
+          3.8,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    "namesDiffer": true,
+    "sameNameOtherSlabs": [
+      {
+        "name": "L6",
+        "guid": "3ai3Ewqp0HyOy801fzsd4G",
+        "geometry": {
+          "minM": [
+            9.75,
+            3.8,
+            3.06
+          ],
+          "maxM": [
+            10.725000000000001,
+            7.1000000000000005,
+            3.2
+          ],
+          "vertices": 8,
+          "triangles": 12
+        }
+      }
+    ],
+    "associationByIndependentIdentityProved": false,
+    "contourEquivalenceApproved": false,
+    "comparisonRule": "Unico candidato no nivel, espessura e faixa X correspondentes com intersecao Y. Contornos de faces livres no Eberick e perfil Revit nao se equiparam por area de caixa."
+  },
+  "beam": {
+    "revitMark": "V15-N1",
+    "revitId": 472986,
+    "eberickName": "V15",
+    "eberickGeometry": {
+      "minM": [
+        4.4,
+        2.75,
+        2.9000000000000004
+      ],
+      "maxM": [
+        6.550000000000001,
+        2.95,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12
+    },
+    "revitAxisM": [
+      4.4,
+      3.035783333333333,
+      3.2000000000000006,
+      6.550000000000001,
+      3.035783333333333,
+      3.2000000000000006
+    ],
+    "eberickCurrentCenterYM": 2.85,
+    "requiredCenterYChangeM": 0.18578333333333275,
+    "eberickCurrentHeightM": 0.2999999999999998,
+    "revitCandidateHeightM": 0.16,
+    "structuralAdequacyOfCandidateProved": false
+  },
+  "sourceHashesUnchangedAfterRead": true,
+  "nativeChangesApplied": false,
+  "quantityDifferenceFromBoundingBoxesReportedAsError": false,
+  "finalPairedComparisonCompleted": false,
+  "structuralApproval": false
+}

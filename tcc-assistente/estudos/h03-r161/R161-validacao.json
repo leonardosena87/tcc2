@@ -1,12 +1,13 @@
 {
   "revision": "H03/R161",
-  "recordedAtUtc": "2026-11-02T17:19:42.432425+00:00",
+  "recordedAtUtc": "2026-11-02T17:26:53.007917+00:00",
   "pythonUnitTests": {
     "command": "python -m unittest -v test_auditoria",
-    "passed": 13,
+    "passed": 16,
     "failed": 0,
     "skipped": 0,
-    "exitCode": 0
+    "exitCode": 0,
+    "previousRunPassed": 13
   },
   "assistantNodeTests": {
     "command": "npm test",
@@ -27,5 +28,6 @@
   "currentBimReceiverTestPerformed": false,
   "paidAiCallPerformed": false,
   "structuralAnalysisPerformed": false,
-  "structuralApproval": false
+  "structuralApproval": false,
+  "geometricDiagnosticExecutedReadOnly": true
 }
