@@ -1,0 +1,978 @@
+{
+  "revision": "H03/R161",
+  "recordedAtUtc": "2026-11-02T18:30:10.387596+00:00",
+  "sources": {
+    "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\R161-IFC-auditoria.json": "8685c5f5f287aefe6e4788d0f3ca8454ea9dfcd0d6c8a5ef5373bfc6b0d66ce8",
+    "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\R161-Eberick-recepcao-auditoria.json": "529603baed7a954a7e20d4ba92ba35f2d214b171c8e6f714dcdfe5086addafee"
+  },
+  "associatedPartCount": 29,
+  "associatedOriginCount": 28,
+  "originsWithRawTopDifferentFromNominal": 12,
+  "originsWithAdditionalReceiverTopDifference": 0,
+  "originsWithAdditionalReceiverHeightDifference": 2,
+  "additionalReceiverHeightDifferenceMarks": [
+    "V15-N1",
+    "V4A-N1"
+  ],
+  "rawExportDifferenceCauseNotIsolated": true,
+  "receiverHeightChangeAlgorithmNotIsolated": true,
+  "bboxHeightIsNotAnalyticalSectionForNonPrismaticSolids": true,
+  "unmatchedOriginsNotForceAssociated": [
+    {
+      "nativeId": 472984,
+      "nativeMark": "V13-N1",
+      "axisM": [
+        6.550000000000001,
+        0,
+        3.2000000000000006,
+        6.550000000000001,
+        3.9,
+        3.2000000000000006
+      ]
+    },
+    {
+      "nativeId": 472976,
+      "nativeMark": "V9-N1",
+      "axisM": [
+        4.4,
+        0,
+        3.2000000000000006,
+        4.4,
+        3.9,
+        3.2000000000000006
+      ]
+    }
+  ],
+  "completeBeamCoverageNotVerified": true,
+  "structuralApproval": false,
+  "rows": [
+    {
+      "nativeId": 473802,
+      "nativeMark": "V16-ESC-PAT",
+      "receiverName": "V1",
+      "receiverGuid": "0nGhvNrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "1ltUz0oN12IOfJpAa5zY0U",
+      "nominal": {
+        "topM": 1.7741176470588231,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 1.7741176470588231,
+        "heightM": 0.2999999999999998
+      },
+      "receiverMeshBox": {
+        "topM": 1.77411765,
+        "heightM": 0.2999999999999998
+      },
+      "rawMinusNominal": {
+        "topM": 0.0,
+        "heightM": -1.6653345369377348e-16
+      },
+      "receiverMinusRaw": {
+        "topM": 2.9411768576181885e-09,
+        "heightM": 0.0
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 472949,
+      "nativeMark": "V3-N1",
+      "receiverName": "V1",
+      "receiverGuid": "0nGhvZrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVjA",
+      "nominal": {
+        "topM": 3.2000000000000006,
+        "heightM": 0.45
+      },
+      "rawIfcMeshBox": {
+        "topM": 3.060000000000001,
+        "heightM": 0.3100000000000014
+      },
+      "receiverMeshBox": {
+        "topM": 3.06,
+        "heightM": 0.3099999999999996
+      },
+      "rawMinusNominal": {
+        "topM": -0.13999999999999968,
+        "heightM": -0.13999999999999863
+      },
+      "receiverMinusRaw": {
+        "topM": -8.881784197001252e-16,
+        "heightM": -1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": true,
+      "rawHeightDiffersFromNominal": true,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 472954,
+      "nativeMark": "V4A-N1",
+      "receiverName": "V1",
+      "receiverGuid": "0nGhw1rkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVj5",
+      "nominal": {
+        "topM": 3.2000000000000006,
+        "heightM": 0.16
+      },
+      "rawIfcMeshBox": {
+        "topM": 3.0600000000000014,
+        "heightM": 0.020000000000002238
+      },
+      "receiverMeshBox": {
+        "topM": 3.06,
+        "heightM": 0.04999999999999982
+      },
+      "rawMinusNominal": {
+        "topM": -0.13999999999999924,
+        "heightM": -0.13999999999999777
+      },
+      "receiverMinusRaw": {
+        "topM": -1.3322676295501878e-15,
+        "heightM": 0.029999999999997584
+      },
+      "rawTopDiffersFromNominal": true,
+      "rawHeightDiffersFromNominal": true,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": true,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 472959,
+      "nativeMark": "V4B-N1",
+      "receiverName": "V2",
+      "receiverGuid": "0nGhv_rkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVj0",
+      "nominal": {
+        "topM": 3.2000000000000006,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 3.060000000000001,
+        "heightM": 0.16000000000000192
+      },
+      "receiverMeshBox": {
+        "topM": 3.06,
+        "heightM": 0.16000000000000014
+      },
+      "rawMinusNominal": {
+        "topM": -0.13999999999999968,
+        "heightM": -0.13999999999999807
+      },
+      "receiverMinusRaw": {
+        "topM": -8.881784197001252e-16,
+        "heightM": -1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": true,
+      "rawHeightDiffersFromNominal": true,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 472986,
+      "nativeMark": "V15-N1",
+      "receiverName": "V3",
+      "receiverGuid": "0nGhw6rkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVkb",
+      "nominal": {
+        "topM": 3.2000000000000006,
+        "heightM": 0.16
+      },
+      "rawIfcMeshBox": {
+        "topM": 3.0600000000000014,
+        "heightM": 0.020000000000002238
+      },
+      "receiverMeshBox": {
+        "topM": 3.06,
+        "heightM": 0.04999999999999982
+      },
+      "rawMinusNominal": {
+        "topM": -0.13999999999999924,
+        "heightM": -0.13999999999999777
+      },
+      "receiverMinusRaw": {
+        "topM": -1.3322676295501878e-15,
+        "heightM": 0.029999999999997584
+      },
+      "rawTopDiffersFromNominal": true,
+      "rawHeightDiffersFromNominal": true,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": true,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 472978,
+      "nativeMark": "V10-N1",
+      "receiverName": "V4",
+      "receiverGuid": "0nGhvurkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVkj",
+      "nominal": {
+        "topM": 3.2000000000000006,
+        "heightM": 0.35
+      },
+      "rawIfcMeshBox": {
+        "topM": 3.060000000000001,
+        "heightM": 0.21000000000000174
+      },
+      "receiverMeshBox": {
+        "topM": 3.06,
+        "heightM": 0.20999999999999996
+      },
+      "rawMinusNominal": {
+        "topM": -0.13999999999999968,
+        "heightM": -0.13999999999999824
+      },
+      "receiverMinusRaw": {
+        "topM": -8.881784197001252e-16,
+        "heightM": -1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": true,
+      "rawHeightDiffersFromNominal": true,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 472982,
+      "nativeMark": "V12-N1",
+      "receiverName": "V5",
+      "receiverGuid": "0nGhvxrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVkf",
+      "nominal": {
+        "topM": 3.2000000000000006,
+        "heightM": 0.35
+      },
+      "rawIfcMeshBox": {
+        "topM": 3.060000000000001,
+        "heightM": 0.21000000000000174
+      },
+      "receiverMeshBox": {
+        "topM": 3.06,
+        "heightM": 0.20999999999999996
+      },
+      "rawMinusNominal": {
+        "topM": -0.13999999999999968,
+        "heightM": -0.13999999999999824
+      },
+      "receiverMinusRaw": {
+        "topM": -8.881784197001252e-16,
+        "heightM": -1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": true,
+      "rawHeightDiffersFromNominal": true,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 472963,
+      "nativeMark": "V6-N1",
+      "receiverName": "V1",
+      "receiverGuid": "0nGhvQrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVky",
+      "nominal": {
+        "topM": 3.2000000000000006,
+        "heightM": 0.55
+      },
+      "rawIfcMeshBox": {
+        "topM": 3.2,
+        "heightM": 0.5499999999999998
+      },
+      "receiverMeshBox": {
+        "topM": 3.2,
+        "heightM": 0.5499999999999998
+      },
+      "rawMinusNominal": {
+        "topM": -4.440892098500626e-16,
+        "heightM": -2.220446049250313e-16
+      },
+      "receiverMinusRaw": {
+        "topM": 0.0,
+        "heightM": 0.0
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 472961,
+      "nativeMark": "V5-N1",
+      "receiverName": "V1",
+      "receiverGuid": "0nGhvWrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVk_",
+      "nominal": {
+        "topM": 3.2000000000000006,
+        "heightM": 0.45
+      },
+      "rawIfcMeshBox": {
+        "topM": 3.199999999999998,
+        "heightM": 0.4499999999999993
+      },
+      "receiverMeshBox": {
+        "topM": 3.2,
+        "heightM": 0.4500000000000002
+      },
+      "rawMinusNominal": {
+        "topM": -2.6645352591003757e-15,
+        "heightM": -7.216449660063518e-16
+      },
+      "receiverMinusRaw": {
+        "topM": 2.220446049250313e-15,
+        "heightM": 8.881784197001252e-16
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 472942,
+      "nativeMark": "V1-N1",
+      "receiverName": "V2",
+      "receiverGuid": "0nGhvcrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVjH",
+      "nominal": {
+        "topM": 3.2000000000000006,
+        "heightM": 0.45
+      },
+      "rawIfcMeshBox": {
+        "topM": 3.199999999999998,
+        "heightM": 0.4499999999999993
+      },
+      "receiverMeshBox": {
+        "topM": 3.2,
+        "heightM": 0.4500000000000002
+      },
+      "rawMinusNominal": {
+        "topM": -2.6645352591003757e-15,
+        "heightM": -7.216449660063518e-16
+      },
+      "receiverMinusRaw": {
+        "topM": 2.220446049250313e-15,
+        "heightM": 8.881784197001252e-16
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 472947,
+      "nativeMark": "V2-N1",
+      "receiverName": "V3",
+      "receiverGuid": "0nGhvTrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVjC",
+      "nominal": {
+        "topM": 3.2000000000000006,
+        "heightM": 0.55
+      },
+      "rawIfcMeshBox": {
+        "topM": 3.2,
+        "heightM": 0.5499999999999998
+      },
+      "receiverMeshBox": {
+        "topM": 3.2,
+        "heightM": 0.5499999999999998
+      },
+      "rawMinusNominal": {
+        "topM": -4.440892098500626e-16,
+        "heightM": -2.220446049250313e-16
+      },
+      "receiverMinusRaw": {
+        "topM": 0.0,
+        "heightM": 0.0
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 472969,
+      "nativeMark": "V7-N1",
+      "receiverName": "V4",
+      "receiverGuid": "0nGhvlrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVks",
+      "nominal": {
+        "topM": 3.2000000000000006,
+        "heightM": 0.4000000000000001
+      },
+      "rawIfcMeshBox": {
+        "topM": 3.2,
+        "heightM": 0.40000000000000036
+      },
+      "receiverMeshBox": {
+        "topM": 3.2,
+        "heightM": 0.40000000000000036
+      },
+      "rawMinusNominal": {
+        "topM": -4.440892098500626e-16,
+        "heightM": 2.7755575615628914e-16
+      },
+      "receiverMinusRaw": {
+        "topM": 0.0,
+        "heightM": 0.0
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 472974,
+      "nativeMark": "V8-N1",
+      "receiverName": "V5",
+      "receiverGuid": "0nGhvrrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVkn",
+      "nominal": {
+        "topM": 3.2000000000000006,
+        "heightM": 0.35
+      },
+      "rawIfcMeshBox": {
+        "topM": 3.1999999999999984,
+        "heightM": 0.3500000000000001
+      },
+      "receiverMeshBox": {
+        "topM": 3.2,
+        "heightM": 0.34999999999999964
+      },
+      "rawMinusNominal": {
+        "topM": -2.220446049250313e-15,
+        "heightM": 1.1102230246251565e-16
+      },
+      "receiverMinusRaw": {
+        "topM": 1.7763568394002505e-15,
+        "heightM": -4.440892098500626e-16
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 472980,
+      "nativeMark": "V11-N1",
+      "receiverName": "V8",
+      "receiverGuid": "0nGhvirkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVkh",
+      "nominal": {
+        "topM": 3.2000000000000006,
+        "heightM": 0.4000000000000001
+      },
+      "rawIfcMeshBox": {
+        "topM": 3.2,
+        "heightM": 0.40000000000000036
+      },
+      "receiverMeshBox": {
+        "topM": 3.2,
+        "heightM": 0.40000000000000036
+      },
+      "rawMinusNominal": {
+        "topM": -4.440892098500626e-16,
+        "heightM": 2.7755575615628914e-16
+      },
+      "receiverMinusRaw": {
+        "topM": 0.0,
+        "heightM": 0.0
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 473044,
+      "nativeMark": "V5-N2",
+      "receiverName": "V1",
+      "receiverGuid": "0nGhw9rkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVlh",
+      "nominal": {
+        "topM": 6.39,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 6.389999999999998,
+        "heightM": 0.29999999999999893
+      },
+      "receiverMeshBox": {
+        "topM": 6.390000000000001,
+        "heightM": 0.3000000000000007
+      },
+      "rawMinusNominal": {
+        "topM": -1.7763568394002505e-15,
+        "heightM": -1.0547118733938987e-15
+      },
+      "receiverMinusRaw": {
+        "topM": 2.6645352591003757e-15,
+        "heightM": 1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 473046,
+      "nativeMark": "V6-N2",
+      "receiverName": "V1",
+      "receiverGuid": "0nGhwCrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVlf",
+      "nominal": {
+        "topM": 6.39,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 6.389999999999998,
+        "heightM": 0.29999999999999893
+      },
+      "receiverMeshBox": {
+        "topM": 6.390000000000001,
+        "heightM": 0.3000000000000007
+      },
+      "rawMinusNominal": {
+        "topM": -1.7763568394002505e-15,
+        "heightM": -1.0547118733938987e-15
+      },
+      "receiverMinusRaw": {
+        "topM": 2.6645352591003757e-15,
+        "heightM": 1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 473038,
+      "nativeMark": "V3-N2",
+      "receiverName": "V2",
+      "receiverGuid": "0nGhwOrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVln",
+      "nominal": {
+        "topM": 6.39,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 6.250000000000002,
+        "heightM": 0.16000000000000192
+      },
+      "receiverMeshBox": {
+        "topM": 6.250000000000001,
+        "heightM": 0.16000000000000014
+      },
+      "rawMinusNominal": {
+        "topM": -0.1399999999999979,
+        "heightM": -0.13999999999999807
+      },
+      "receiverMinusRaw": {
+        "topM": -8.881784197001252e-16,
+        "heightM": -1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": true,
+      "rawHeightDiffersFromNominal": true,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 473040,
+      "nativeMark": "V4A-N2",
+      "receiverName": "V2",
+      "receiverGuid": "0nGhwRrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVll",
+      "nominal": {
+        "topM": 6.39,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 6.250000000000002,
+        "heightM": 0.16000000000000192
+      },
+      "receiverMeshBox": {
+        "topM": 6.250000000000001,
+        "heightM": 0.16000000000000014
+      },
+      "rawMinusNominal": {
+        "topM": -0.1399999999999979,
+        "heightM": -0.13999999999999807
+      },
+      "receiverMinusRaw": {
+        "topM": -8.881784197001252e-16,
+        "heightM": -1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": true,
+      "rawHeightDiffersFromNominal": true,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 473042,
+      "nativeMark": "V4B-N2",
+      "receiverName": "V3",
+      "receiverGuid": "0nGhwUrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVlj",
+      "nominal": {
+        "topM": 6.39,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 6.250000000000002,
+        "heightM": 0.16000000000000192
+      },
+      "receiverMeshBox": {
+        "topM": 6.250000000000001,
+        "heightM": 0.16000000000000014
+      },
+      "rawMinusNominal": {
+        "topM": -0.1399999999999979,
+        "heightM": -0.13999999999999807
+      },
+      "receiverMinusRaw": {
+        "topM": -8.881784197001252e-16,
+        "heightM": -1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": true,
+      "rawHeightDiffersFromNominal": true,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 473034,
+      "nativeMark": "V1-N2",
+      "receiverName": "V4",
+      "receiverGuid": "0nGhwjrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVlr",
+      "nominal": {
+        "topM": 6.39,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 6.389999999999998,
+        "heightM": 0.29999999999999893
+      },
+      "receiverMeshBox": {
+        "topM": 6.390000000000001,
+        "heightM": 0.3000000000000007
+      },
+      "rawMinusNominal": {
+        "topM": -1.7763568394002505e-15,
+        "heightM": -1.0547118733938987e-15
+      },
+      "receiverMinusRaw": {
+        "topM": 2.6645352591003757e-15,
+        "heightM": 1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 473036,
+      "nativeMark": "V2-N2",
+      "receiverName": "V4",
+      "receiverGuid": "0nGhyirkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVlp",
+      "nominal": {
+        "topM": 6.39,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 6.389999999999997,
+        "heightM": 0.29999999999999893
+      },
+      "receiverMeshBox": {
+        "topM": 6.390000000000001,
+        "heightM": 0.3000000000000007
+      },
+      "rawMinusNominal": {
+        "topM": -2.6645352591003757e-15,
+        "heightM": -1.0547118733938987e-15
+      },
+      "receiverMinusRaw": {
+        "topM": 3.552713678800501e-15,
+        "heightM": 1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 473036,
+      "nativeMark": "V2-N2",
+      "receiverName": "V4",
+      "receiverGuid": "0nGhycrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVlp",
+      "nominal": {
+        "topM": 6.39,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 6.389999999999997,
+        "heightM": 0.29999999999999893
+      },
+      "receiverMeshBox": {
+        "topM": 6.390000000000001,
+        "heightM": 0.3000000000000007
+      },
+      "rawMinusNominal": {
+        "topM": -2.6645352591003757e-15,
+        "heightM": -1.0547118733938987e-15
+      },
+      "receiverMinusRaw": {
+        "topM": 3.552713678800501e-15,
+        "heightM": 1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 473050,
+      "nativeMark": "V8-N2",
+      "receiverName": "V5",
+      "receiverGuid": "0nGhwIrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVlb",
+      "nominal": {
+        "topM": 6.39,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 6.389999999999998,
+        "heightM": 0.29999999999999893
+      },
+      "receiverMeshBox": {
+        "topM": 6.390000000000001,
+        "heightM": 0.3000000000000007
+      },
+      "rawMinusNominal": {
+        "topM": -1.7763568394002505e-15,
+        "heightM": -1.0547118733938987e-15
+      },
+      "receiverMinusRaw": {
+        "topM": 2.6645352591003757e-15,
+        "heightM": 1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 473048,
+      "nativeMark": "V7-N2",
+      "receiverName": "V5",
+      "receiverGuid": "0nGhwXrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVld",
+      "nominal": {
+        "topM": 6.39,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 6.389999999999998,
+        "heightM": 0.29999999999999893
+      },
+      "receiverMeshBox": {
+        "topM": 6.390000000000001,
+        "heightM": 0.3000000000000007
+      },
+      "rawMinusNominal": {
+        "topM": -1.7763568394002505e-15,
+        "heightM": -1.0547118733938987e-15
+      },
+      "receiverMinusRaw": {
+        "topM": 2.6645352591003757e-15,
+        "heightM": 1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 473054,
+      "nativeMark": "V10-N2",
+      "receiverName": "V6",
+      "receiverGuid": "0nGhwLrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVlX",
+      "nominal": {
+        "topM": 6.39,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 6.250000000000002,
+        "heightM": 0.16000000000000192
+      },
+      "receiverMeshBox": {
+        "topM": 6.250000000000001,
+        "heightM": 0.16000000000000014
+      },
+      "rawMinusNominal": {
+        "topM": -0.1399999999999979,
+        "heightM": -0.13999999999999807
+      },
+      "receiverMinusRaw": {
+        "topM": -8.881784197001252e-16,
+        "heightM": -1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": true,
+      "rawHeightDiffersFromNominal": true,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 473052,
+      "nativeMark": "V9-N2",
+      "receiverName": "V6",
+      "receiverGuid": "0nGhwarkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVlZ",
+      "nominal": {
+        "topM": 6.39,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 6.250000000000002,
+        "heightM": 0.16000000000000192
+      },
+      "receiverMeshBox": {
+        "topM": 6.250000000000001,
+        "heightM": 0.16000000000000014
+      },
+      "rawMinusNominal": {
+        "topM": -0.1399999999999979,
+        "heightM": -0.13999999999999807
+      },
+      "receiverMinusRaw": {
+        "topM": -8.881784197001252e-16,
+        "heightM": -1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": true,
+      "rawHeightDiffersFromNominal": true,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 473060,
+      "nativeMark": "V13-N2",
+      "receiverName": "V7",
+      "receiverGuid": "0nGhwdrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVlR",
+      "nominal": {
+        "topM": 6.39,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 6.250000000000002,
+        "heightM": 0.16000000000000192
+      },
+      "receiverMeshBox": {
+        "topM": 6.250000000000001,
+        "heightM": 0.16000000000000014
+      },
+      "rawMinusNominal": {
+        "topM": -0.1399999999999979,
+        "heightM": -0.13999999999999807
+      },
+      "receiverMinusRaw": {
+        "topM": -8.881784197001252e-16,
+        "heightM": -1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": true,
+      "rawHeightDiffersFromNominal": true,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 473056,
+      "nativeMark": "V11-N2",
+      "receiverName": "V8",
+      "receiverGuid": "0nGhwgrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVlV",
+      "nominal": {
+        "topM": 6.39,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 6.389999999999998,
+        "heightM": 0.29999999999999893
+      },
+      "receiverMeshBox": {
+        "topM": 6.390000000000001,
+        "heightM": 0.3000000000000007
+      },
+      "rawMinusNominal": {
+        "topM": -1.7763568394002505e-15,
+        "heightM": -1.0547118733938987e-15
+      },
+      "receiverMinusRaw": {
+        "topM": 2.6645352591003757e-15,
+        "heightM": 1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    },
+    {
+      "nativeId": 473058,
+      "nativeMark": "V12-N2",
+      "receiverName": "V9",
+      "receiverGuid": "0nGhwFrkeHyOyDa4iZOUxp",
+      "sourceIfcGuid": "13FVx86UH85RTcavq9tVlT",
+      "nominal": {
+        "topM": 6.39,
+        "heightM": 0.3
+      },
+      "rawIfcMeshBox": {
+        "topM": 6.389999999999998,
+        "heightM": 0.29999999999999893
+      },
+      "receiverMeshBox": {
+        "topM": 6.390000000000001,
+        "heightM": 0.3000000000000007
+      },
+      "rawMinusNominal": {
+        "topM": -1.7763568394002505e-15,
+        "heightM": -1.0547118733938987e-15
+      },
+      "receiverMinusRaw": {
+        "topM": 2.6645352591003757e-15,
+        "heightM": 1.7763568394002505e-15
+      },
+      "rawTopDiffersFromNominal": false,
+      "rawHeightDiffersFromNominal": false,
+      "receiverTopDiffersFromRaw": false,
+      "receiverHeightDiffersFromRaw": false,
+      "comparisonToleranceM": 1e-05
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "revision": "H03/R161",
+  "recordedAtUtc": "2026-11-02T17:54:46.776747+00:00",
+  "attempts": [
+    {
+      "kind": "filesystem_path_error",
+      "operation": "Criar comparador com caminho relativo repetido ao ja estar no diretorio do estudo",
+      "outcome": "FileNotFoundError; corrigido para caminho absoluto; nenhum IFC alterado",
+      "elapsedTimeNotMeasured": true
+    },
+    {
+      "kind": "hypothesis_rejected_by_real_data",
+      "operation": "Comparar exportacoes supondo apenas a V16 com nuvem de vertices diferente",
+      "outcome": "AssertionError; inspecao encontrou tambem 472976/V9-N1 e 472984/V13-N1; comparador passou a registrar diferencas adicionais sem ocultar o resultado",
+      "elapsedTimeNotMeasured": true
+    }
+  ],
+  "finalUnitTestsPassed": 23,
+  "finalRealIfcAuditsPassed": true,
+  "humanOpeningOfRevitIfcDialogObserved": true,
+  "humanOpeningTimeNotMeasured": true,
+  "rawEberickWizardOpeningStillRequiresHumanIntervention": true,
+  "totalAiCreditConsumptionNotMeasured": true
+}

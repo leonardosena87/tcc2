@@ -1,0 +1,20 @@
+{
+  "revision": "H03/R161",
+  "recordedAtUtc": "2026-11-02T18:31:40.024799+00:00",
+  "pythonTests": {
+    "command": "python -m unittest -v test_auditoria test_recepcao test_malha test_etapas",
+    "passed": 26,
+    "failed": 0,
+    "skipped": 0
+  },
+  "realEberickWizardCompleted": true,
+  "realNativeReportRead": true,
+  "realIfc4ReceiverAuditExecuted": true,
+  "realNativeLandingBeamPropertiesRead": true,
+  "firstSavedPrjUnchangedAfterAudit": true,
+  "threeStageGeometryComparisonExecuted": true,
+  "sourceR148ProjectsUnchanged": true,
+  "structuralAnalysisPerformed": false,
+  "finalPairedRankingAvailable": false,
+  "paidAiCallMeasured": false
+}

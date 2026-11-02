@@ -1,0 +1,156 @@
+{
+  "revision": "H03/R161",
+  "recordedAtUtc": "2026-11-02T17:51:43.723958+00:00",
+  "sources": {
+    "D:\\TCC\\outputs\\Escada-H03-R159-IMPLANTACAO-NAO-EXECUTAR\\H03-R159-Revit-VIGA-PATAMAR-NAO-EXECUTAR.ifc": "ff2f68a7562cc36ec7d4d7a485497036be394f64268c6a7c82cdc18572da5da8",
+    "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\H03-R160-Revit-SOMENTE-VIGA-PATAMAR-NAO-EXECUTAR.ifc": "4003d78dea0e3c60bd62a31ffbbb4d0ab58058cb3056928a204106b66598e555",
+    "D:\\TCC\\outputs\\Escada-H03-R159-IMPLANTACAO-NAO-EXECUTAR\\R159-IFC-auditoria.json": "509f80f40cda609de579d93ab28a14e0a0bd78b2a83526d988877886459e5aa2",
+    "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\R161-IFC-auditoria.json": "8685c5f5f287aefe6e4788d0f3ca8454ea9dfcd0d6c8a5ef5373bfc6b0d66ce8"
+  },
+  "sourceHashesUnchangedAfterRead": true,
+  "removed": [
+    {
+      "ifcClass": "IfcColumn",
+      "tag": "473797"
+    },
+    {
+      "ifcClass": "IfcColumn",
+      "tag": "473798"
+    }
+  ],
+  "added": [],
+  "commonProductCount": 66,
+  "unchangedPointCloudCount": 63,
+  "changedPointClouds": [
+    {
+      "ifcClass": "IfcBeam",
+      "tag": "472976",
+      "before": {
+        "guid": "13FVx86UH85RTcavq9tVkl",
+        "pointsSha256": "8f4d47aed27d7d178987302ce774bac382767bcb1d3b1ddb154a9e28aee1bf76",
+        "minM": [
+          4.3,
+          0.15,
+          2.8000000000000003
+        ],
+        "maxM": [
+          4.5,
+          3.75,
+          3.2
+        ],
+        "uniqueRoundedVertices": 27,
+        "triangulatedClosedOrientedEdgeCheck": true,
+        "triangulatedSignedVolumeAbsoluteM3": 0.2064009666666661,
+        "triangulatedAreaM2": 3.996019333333334
+      },
+      "after": {
+        "guid": "13FVx86UH85RTcavq9tVkl",
+        "pointsSha256": "92aa74859f23c72df7f2b98106716c4642f59dbc3f41e41054115513f51c7af9",
+        "minM": [
+          4.3,
+          0.15,
+          2.8000000000000003
+        ],
+        "maxM": [
+          4.5,
+          3.75,
+          3.2
+        ],
+        "uniqueRoundedVertices": 15,
+        "triangulatedClosedOrientedEdgeCheck": true,
+        "triangulatedSignedVolumeAbsoluteM3": 0.22620096666667275,
+        "triangulatedAreaM2": 4.2240193333333345
+      }
+    },
+    {
+      "ifcClass": "IfcBeam",
+      "tag": "472984",
+      "before": {
+        "guid": "13FVx86UH85RTcavq9tVkd",
+        "pointsSha256": "0d4437aa13f11b5e11823a630c4a7e542126c05ea367beabeeb03f0ba40045ae",
+        "minM": [
+          6.45,
+          0.15,
+          2.8000000000000003
+        ],
+        "maxM": [
+          6.65,
+          3.8000000000000003,
+          3.2
+        ],
+        "uniqueRoundedVertices": 27,
+        "triangulatedClosedOrientedEdgeCheck": true,
+        "triangulatedSignedVolumeAbsoluteM3": 0.20900096666666398,
+        "triangulatedAreaM2": 4.042019333333333
+      },
+      "after": {
+        "guid": "13FVx86UH85RTcavq9tVkd",
+        "pointsSha256": "cac89f0542503bc4498c7c681ec9c5e01b5ca907ab83c0d5440445c93cef4889",
+        "minM": [
+          6.45,
+          0.15,
+          2.8000000000000003
+        ],
+        "maxM": [
+          6.65,
+          3.8,
+          3.2
+        ],
+        "uniqueRoundedVertices": 15,
+        "triangulatedClosedOrientedEdgeCheck": true,
+        "triangulatedSignedVolumeAbsoluteM3": 0.22880096666667268,
+        "triangulatedAreaM2": 4.270019333333334
+      }
+    },
+    {
+      "ifcClass": "IfcBeam",
+      "tag": "473802",
+      "before": {
+        "guid": "1ltUz0oN12IOfJpAa5zY0U",
+        "pointsSha256": "44f33c1bf9dfd01e1aeb6ce5531e502402a2a2a0019e03bf80cfbaa8dbe920b0",
+        "minM": [
+          4.5,
+          0.7757833333333305,
+          1.4741176470588233
+        ],
+        "maxM": [
+          6.449999999999999,
+          0.9757833333333338,
+          1.7741176470588231
+        ],
+        "uniqueRoundedVertices": 8,
+        "triangulatedClosedOrientedEdgeCheck": true,
+        "triangulatedSignedVolumeAbsoluteM3": 0.11700000000000088,
+        "triangulatedAreaM2": 2.0700000000000136
+      },
+      "after": {
+        "guid": "1ltUz0oN12IOfJpAa5zY0U",
+        "pointsSha256": "7aca86a81684b41b457fd32b50f77b1259559cdaaacb5a4af4969804d009d075",
+        "minM": [
+          4.5,
+          -0.10000000000000167,
+          1.4741176470588233
+        ],
+        "maxM": [
+          6.449999999999999,
+          0.10000000000000167,
+          1.7741176470588231
+        ],
+        "uniqueRoundedVertices": 8,
+        "triangulatedClosedOrientedEdgeCheck": true,
+        "triangulatedSignedVolumeAbsoluteM3": 0.11700000000000188,
+        "triangulatedAreaM2": 2.070000000000014
+      }
+    }
+  ],
+  "additionalChangedProductTags": [
+    "472976",
+    "472984"
+  ],
+  "causeOfAdditionalGeometryChangesNotIsolated": true,
+  "roundingDecimalsM": 8,
+  "pointCloudEqualityDoesNotProveSurfaceSolidOrAnalyticalEquivalence": true,
+  "stairFlightsPointCloudsUnchanged": true,
+  "rawIfcFilesUnmodified": true,
+  "structuralApproval": false
+}

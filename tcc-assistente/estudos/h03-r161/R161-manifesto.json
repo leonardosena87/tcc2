@@ -1,6 +1,6 @@
 {
   "revision": "H03/R161",
-  "recordedAtUtc": "2026-11-02T17:26:53.054390+00:00",
+  "recordedAtUtc": "2026-11-02T18:31:40.423484+00:00",
   "nativeFilesNotVersioned": true,
   "entries": [
     {
@@ -15,8 +15,8 @@
     },
     {
       "file": "auditar_cad_eberick.py",
-      "sha256": "9a1d56273eab8faeeaf11b92362e5169c2aa70b36e7fc4bd13905028e1ab9398",
-      "bytes": 6002
+      "sha256": "09896ec8548294ad82aecc38b2abb10c413162c3410bcdcaaf1f64a305e722df",
+      "bytes": 6007
     },
     {
       "file": "auditar_exportacao.py",
@@ -24,14 +24,34 @@
       "bytes": 13057
     },
     {
+      "file": "auditar_recepcao.py",
+      "sha256": "14aaf677d8f260d028854c96650b9ed1261da335ceca34de75c2c71c037cd6dd",
+      "bytes": 7794
+    },
+    {
+      "file": "comparar_etapas_vigas.py",
+      "sha256": "f8f37cd687e40289ec147ab6e33504861f1940cb478ef5aedfa82aee70f57803",
+      "bytes": 3197
+    },
+    {
+      "file": "comparar_ifc_r159_r160.py",
+      "sha256": "86425fe0b99b6bbaf0dc0c0107823cb954b8bacb454fa2718990a836397e5ead",
+      "bytes": 4331
+    },
+    {
+      "file": "consolidar_recepcao.py",
+      "sha256": "4bd42bfed233dae58d05bdce406581d1cf5a192a26b58a028fc392bc06d31b71",
+      "bytes": 7629
+    },
+    {
       "file": "CONTINUAR-AQUI-H03-R161.md",
-      "sha256": "50efc1d6368264add410aaf0d66f679be4348786bfadae4b5ade39a4aceef017",
-      "bytes": 2501
+      "sha256": "610610563d0de302aeca12ecdb1ec8c09045e3beb47257aeda66295a79616edc",
+      "bytes": 3442
     },
     {
       "file": "LEIA-ME-R161.md",
-      "sha256": "9f4262d1c9bd77fc2922557285a3551f41cd9c12208535e621a605576032553a",
-      "bytes": 6331
+      "sha256": "6feeb17287966918baf87f79eb50b788fff8319e563b2d809c1b17ee3c62ba22",
+      "bytes": 6643
     },
     {
       "file": "leitor_propriedades_r94.py",
@@ -49,9 +69,29 @@
       "bytes": 4069
     },
     {
-      "file": "R161-apontador-atual.json",
+      "file": "R161-apontador-antes-IFC.json",
       "sha256": "6d3a74e8acdbc4e998726dc067afeef94080a2496f78956666beb3e18ce1a28c",
       "bytes": 4965
+    },
+    {
+      "file": "R161-apontador-antes-recepcao.json",
+      "sha256": "31dc06c598a9ba5c1c3ca2185df9b49d996bbec7088336ad722aafe6a85f29f9",
+      "bytes": 5207
+    },
+    {
+      "file": "R161-apontador-apos-IFC.json",
+      "sha256": "31dc06c598a9ba5c1c3ca2185df9b49d996bbec7088336ad722aafe6a85f29f9",
+      "bytes": 5207
+    },
+    {
+      "file": "R161-apontador-apos-recepcao.json",
+      "sha256": "c769c737707d8bd5290e395f48edde03d6833ea6cfde3647125ba3ee6784b4f4",
+      "bytes": 5768
+    },
+    {
+      "file": "R161-apontador-atual.json",
+      "sha256": "c769c737707d8bd5290e395f48edde03d6833ea6cfde3647125ba3ee6784b4f4",
+      "bytes": 5768
     },
     {
       "file": "R161-CAD-congelamento.json",
@@ -89,14 +129,84 @@
       "bytes": 2287
     },
     {
+      "file": "R161-configuracao-IFC-releitura-nativa.json",
+      "sha256": "6c84ab714d4fe226b67b97c5db3c198df933571adad7440f31b7a51d3da48d2a",
+      "bytes": 2301
+    },
+    {
       "file": "R161-copias-receptores-preparadas.json",
       "sha256": "d42c4cc192bb9fc61c371db4bf979cbe85a1712587188c70dd8e0602e1086d23",
       "bytes": 9907
     },
     {
+      "file": "R161-Eberick-aviso-retangular.png",
+      "sha256": "4026fed5df587b594fd032d7e87a3b745a0232acda72c40862e98f8a26e576bd",
+      "bytes": 121802
+    },
+    {
       "file": "R161-Eberick-CAD-V16-lancada.png",
       "sha256": "6c4b493fb7907086cf00af43861b7b7370e9e8d2d49f25641d2825b26569171c",
       "bytes": 106315
+    },
+    {
+      "file": "R161-Eberick-exportacao-observacao.json",
+      "sha256": "b0a8c994d2d057b241a456b74a45939ddafbe571b47c99389fe7aa714839fc1c",
+      "bytes": 462
+    },
+    {
+      "file": "R161-Eberick-niveis-brutos.png",
+      "sha256": "bc4fd31381a739e3b81cfd9e0347e42a133e6f5a2e502545027022a22c77bfe7",
+      "bytes": 121623
+    },
+    {
+      "file": "R161-Eberick-perfil-IFC4.png",
+      "sha256": "acbc9492ada966e4b18208c2d9bedfe3704921699acd82bb982d4b616f72ae5c",
+      "bytes": 156547
+    },
+    {
+      "file": "R161-Eberick-recepcao-auditoria.json",
+      "sha256": "529603baed7a954a7e20d4ba92ba35f2d214b171c8e6f714dcdfe5086addafee",
+      "bytes": 169395
+    },
+    {
+      "file": "R161-Eberick-recepcao-observacao.json",
+      "sha256": "c30ed35dc76e00a5db71fb2211b8e6c37f721aa98c9afa683323ae16dfc66582",
+      "bytes": 642
+    },
+    {
+      "file": "R161-execucoes-de-auditoria.json",
+      "sha256": "809f0adc2f8710698b6a8af63d01777e16377c19d78fedbe758eac3da4f89d40",
+      "bytes": 1040
+    },
+    {
+      "file": "R161-IFC-auditoria.json",
+      "sha256": "8685c5f5f287aefe6e4788d0f3ca8454ea9dfcd0d6c8a5ef5373bfc6b0d66ce8",
+      "bytes": 85180
+    },
+    {
+      "file": "R161-IFC-comparacao-R159-R160.json",
+      "sha256": "48e84861a9b11666da2b444024213a44dcbf6a1217eea4c4b96b80679d71ef60",
+      "bytes": 5069
+    },
+    {
+      "file": "R161-IFC-congelamento.json",
+      "sha256": "39118f1b3530b9611b7fa19c68af6b21971aa5c9ea35e869bfa82eef6f9df5a3",
+      "bytes": 1251
+    },
+    {
+      "file": "R161-IFC-E-RECEPCAO.md",
+      "sha256": "d57e096a193c46a7e82bcb9b9852e15eca432732f5a39d74b2cda18909140c6a",
+      "bytes": 8683
+    },
+    {
+      "file": "R161-IFC-exportacao-observacao.json",
+      "sha256": "e77a2db11c416b2ccb6a592f305c2f44a81464ea55fcd3b328cc71b9a9db6d4a",
+      "bytes": 813
+    },
+    {
+      "file": "R161-pendencias-recepcao-bruta.md",
+      "sha256": "93b8c36fe25c18e7b0a65c2b23a550c5ba1beed2cc6d352d570046a0f31198fb",
+      "bytes": 2568
     },
     {
       "file": "R161-planejamento-revisao-CAD.json",
@@ -119,6 +229,36 @@
       "bytes": 1020
     },
     {
+      "file": "R161-recepcao-resultado.json",
+      "sha256": "51c8b91cd09a0565e1ca475c1f3fe0d15dce3a25bfeeb74fae630be073611ac4",
+      "bytes": 32004
+    },
+    {
+      "file": "R161-receptor-bruto-congelamento.json",
+      "sha256": "9c519ec5101d939afccc8651b87c1a092375c761205dd3878bbb46fd0062c5ac",
+      "bytes": 2889
+    },
+    {
+      "file": "R161-receptor-controle-congelamento.json",
+      "sha256": "c8dfac5051f06d34eae77a73f84018079f2c48bb39540386148e56ddd3415111",
+      "bytes": 372
+    },
+    {
+      "file": "R161-receptor-viga-patamar-AX.txt",
+      "sha256": "254da3c7477bb6d8a42f765c3bd3764ebcb8f7d26af1fc6424b662f484368915",
+      "bytes": 6519
+    },
+    {
+      "file": "R161-receptor-viga-patamar.png",
+      "sha256": "a165356e47686493d3b6ad8fa6d2454a8279793cf7b1f8de8fb9672cbf138193",
+      "bytes": 147752
+    },
+    {
+      "file": "R161-resultado-IFC.json",
+      "sha256": "5a6720673093bb7c0cb36325f309e42382b599786db937be37b71ee9fe9232ad",
+      "bytes": 2050
+    },
+    {
       "file": "R161-resultado-parcial.json",
       "sha256": "caaf322d348acb2597714a0391cb62ffedbcda26288f54d6fd6006b8c21638fd",
       "bytes": 2398
@@ -129,14 +269,44 @@
       "bytes": 936
     },
     {
+      "file": "R161-validacao-IFC.json",
+      "sha256": "be49ce445203433156298d4eadcf097f8b0a17ac79579adfef2c349b2414edde",
+      "bytes": 766
+    },
+    {
+      "file": "R161-validacao-recepcao.json",
+      "sha256": "7c263fcac0198ad1c86a26a5ae12e5bf04be0fdab9243655f5401811aceedc06",
+      "bytes": 670
+    },
+    {
       "file": "R161-validacao.json",
       "sha256": "5a0d7225faa0031344fabc02b7bb09caa4e0a474f27c28d945a8fd20ec799697",
       "bytes": 939
     },
     {
+      "file": "R161-vigas-comparacao-tres-etapas.json",
+      "sha256": "00aa57e4b17e87b9828f3849ddba7045c6941c60a1d0ce4b0ea91b946994e65f",
+      "bytes": 29115
+    },
+    {
       "file": "test_auditoria.py",
       "sha256": "aa1e7bb5e7e628345cfdd72fb8db88e8e619a5c07ea4793adc8b3287265b2b61",
       "bytes": 5418
+    },
+    {
+      "file": "test_etapas.py",
+      "sha256": "fa4c518154189939a251d6b491da957dc58656e6a4987a24c881885de632335e",
+      "bytes": 1396
+    },
+    {
+      "file": "test_malha.py",
+      "sha256": "f1f5dc5e36a0bc35112b831ce40d23ab93a4cf26cea390d2c422e1d012f48adc",
+      "bytes": 1171
+    },
+    {
+      "file": "test_recepcao.py",
+      "sha256": "4bf8404cc6c70619de397ac4ee4724bef9733f857e9921398cb91ceba93ca66f",
+      "bytes": 1451
     }
   ]
 }

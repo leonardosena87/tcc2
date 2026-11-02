@@ -8,10 +8,14 @@ Ler `LEIA-ME-R161.md` e `R161-CAD-Eberick-auditoria.json` antes de editar.
 - Cópia BIM R161 intacta, derivada da R148. Não representa a R160 recebida.
 - Referências R148 CAD/BIM intactas, verificadas por hash.
 - IFC de controle Eberick já existe em `D:\TCC\outputs\Intercambio-H03-R161-R160-NAO-EXECUTAR\IFC-CAD-Eberick\Modelo 3D.IFC`. Não confundir com a exportação Revit pendente.
-- Próxima etapa BIM: obter diálogo Exportar IFC do Revit; importar `R161-configuracao-IFC-CV.json`, reler/salvar configuração, exportar bruto para a pasta R161, executar `auditar_exportacao.py`, conferir materiais, 63 identidades, ausência P12/P13 e unidades da escada. Se mudar configuração/material mapping, preservar controle e variante separadamente.
+- Próxima etapa BIM: receptor bruto R160 criado em D:\TCC\outputs\R161-R160-IFC-BRUTO-NAO-EXECUTAR. Relatório e IFC4 auditados; 52 origens e V16 convertida como V1. Preservar esse bruto. Fazer correções em cópia/variante explicitamente derivada e medir. Ler R161-IFC-E-RECEPCAO.md e R161-vigas-comparacao-tres-etapas.json antes de atribuir erros ao receptor.
 - Próxima etapa CAD: referência DWG R160 do patamar não importada; seletor QiCadViewer foi cancelado. Atualizar V15/L6 e lançar escada/apoios somente com conferência da geometria. Não interpretar V16 isolada como revisão comum concluída.
 - Compatibilização J4 permanece pendente; o usuário não autorizou alterar a janela. Apoio inferior e cálculo da escada também pendentes.
 - Cronômetro parcial CAD: 392.668 ms até Salvar pela barra. Não somar à primeira tentativa Ctrl+S nem promover a tempo final. Validação: 16 testes Python + 81 Node; ensaio real Eberick separado.
 - Não editar o trabalho escrito nesta continuidade. Não publicar/push sem solicitação. Preservar mudanças locais não relacionadas.
 
 Atenção à identificação: L6-N1 no Revit tem candidata espacial L5 no Eberick; não editar a L6 desse receptor pelo nome. A V15 ainda requer deslocamento Y de +18,578333 cm e revisão de altura de 30 para 16 cm como hipótese comum. Consultar `R161-planejamento-revisao-CAD.json` e conferir contornos/apoios antes de aplicar.
+
+IFC bruto: 63 identidades, P12/P13 ausentes, 17 espelhos preservados; propriedades mecânicas de materiais ausentes. Atributos diretos dos lances divergem das unidades, Pset dimensional coincide com o nativo. Comparação com R159 encontrou malhas diferentes na V16, V9-N1 e V13-N1; causa das duas últimas não isolada. Novos tempos: preparação/exportação 200.065 ms, contendo observação do clique Exportar de 6.302 ms; não somar. Validação adicional: 23 testes Python.
+
+Recepção concluída nesta continuação: 31 partes de vigas/64 de pilares, sem lajes/escada na saída nativa. 12 diferenças frente ao nominal já têm topo rebaixado no IFC bruto; V4A-N1/V15-N1 recebem mudança adicional de altura de 2 para 5 cm. Duas partes longitudinais não associadas. Não tratar os 12 desvios como 12 erros novos do Eberick. Tempo parcial seleção IFC→Salvar: 204.681 ms; controle IFC4: 1.054 ms. 26 testes Python passaram.

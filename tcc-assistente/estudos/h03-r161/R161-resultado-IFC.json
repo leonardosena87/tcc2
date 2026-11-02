@@ -1,0 +1,66 @@
+{
+  "revision": "H03/R161",
+  "recordedAtUtc": "2026-11-02T17:44:32.740454+00:00",
+  "sourceRevitRevision": "H03/R160",
+  "exportedNativeIfcPath": "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\H03-R160-Revit-SOMENTE-VIGA-PATAMAR-NAO-EXECUTAR.ifc",
+  "sourceRevitUnchanged": true,
+  "rawNativeIfcUnmodified": true,
+  "expectedElements": 63,
+  "foundElements": 63,
+  "classes": {
+    "IfcColumn": 22,
+    "IfcBeam": 30,
+    "IfcSlab": 11
+  },
+  "removedColumnsAbsent": true,
+  "namedMaterials": 63,
+  "materialPropertyEntities": 0,
+  "compressionMatchingNative": 0,
+  "stairRiserCountsPreserved": true,
+  "stairDimensionalAttributeDiscrepancy": true,
+  "stairPsetDimensionsMatchNative": true,
+  "beamV16NativeIfcVsCadEberick": {
+    "rawIfcMinM": [
+      4.5,
+      -0.10000000000000167,
+      1.4741176470588233
+    ],
+    "rawIfcMaxM": [
+      6.449999999999999,
+      0.10000000000000167,
+      1.7741176470588231
+    ],
+    "cadEberickMinM": [
+      4.500000000000001,
+      -0.1,
+      1.4740000000000004
+    ],
+    "cadEberickMaxM": [
+      6.450000000000001,
+      0.1,
+      1.7740000000000002
+    ],
+    "signedCadMinusNativeDeltasM": {
+      "minM": [
+        8.881784197001252e-16,
+        1.6653345369377348e-15,
+        -0.0001176470588228895
+      ],
+      "maxM": [
+        1.7763568394002505e-15,
+        -1.6653345369377348e-15,
+        -0.0001176470588228895
+      ]
+    },
+    "boundingComparisonOnly": true,
+    "analyticalConnectionNotVerified": true
+  },
+  "eberickRawR160ReceptionPerformed": false,
+  "cadR161OnlyPartialRevision": true,
+  "pairedWorkflowComplete": false,
+  "structuralApproval": false,
+  "sourceEvidence": {
+    "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\R161-IFC-auditoria.json": "8685c5f5f287aefe6e4788d0f3ca8454ea9dfcd0d6c8a5ef5373bfc6b0d66ce8",
+    "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\R161-CAD-Eberick-auditoria.json": "774a799b57d12c20ad17cd4b981996ef57c01f0633081fcae060fb1c2d29dd47"
+  }
+}

@@ -2,6 +2,8 @@
 
 Data: 02/11/2026. Estudo de superestrutura. NÃO EXECUTAR.
 
+Atualização posterior: o IFC nativo da R160 já foi exportado e auditado. Consultar `R161-IFC-E-RECEPCAO.md` para o estado atual. Os tempos e evidências CAD abaixo correspondem à primeira etapa, preservada com suas datas.
+
 ## Resultado efetivamente verificado
 
 A cópia CAD do Eberick recebeu um nível intermediário em N1 e somente a viga V16 entre P4 e P10. A viga conserva a hipótese de seção 20 × 30 cm, com elevação local zero. Não se adicionou P12 ou P13. A gravação foi realizada pelo botão Salvar, seguida de fechamento, reabertura e consulta das propriedades da viga e do nível.
@@ -30,17 +32,17 @@ A cópia técnica dos diretórios levou 667,5686 ms e não representa um fluxo d
 
 ## Etapas ainda pendentes
 
-1. Exportar o IFC nativo da R160 no Revit. A configuração CV preparada não foi aplicada nem relida nesta revisão. O arquivo esperado pelo auditor ainda não existe. A R159 anterior apresentou ausência de propriedades mecânicas, apesar da opção de materiais habilitada; não se presumiu o mesmo resultado para a R160.
+1. IFC nativo R160 exportado e configuração relida. A auditoria confirmou 63 identidades, ausência dos pilares extras e nomes de materiais, com omissão de propriedades mecânicas e divergência dimensional nos atributos da escada. A recepção bruta no Eberick também foi concluída: consultar `R161-IFC-E-RECEPCAO.md`; as correções e o cálculo continuam pendentes.
 2. Importar a referência DWG revisada. O seletor foi aberto por QiCadViewer.exe e o controle recusou o clique por pertencer a outro processo sem janela enumerada. O seletor foi cancelado com Escape. A V16 foi lançada usando os nós P4/P10 já existentes, sem declarar importação DWG concluída.
 3. Aplicar a revisão V15/L6 do pavimento superior e a escada/patamar ao modelo de cálculo. A cópia CAD não contém ainda toda a geometria comum R160.
-4. Medir a recepção BIM e suas correções a partir do novo IFC, preservando o bruto. A cópia BIM R161 continua sem alteração.
+4. Recepção BIM bruta medida e auditada em receptor experimental separado. Planejar e medir correções em cópia, preservando o bruto. A cópia BIM R161 derivada da R148 continua sem alteração.
 5. Resolver a compatibilização com J4 sem alterar paredes, portas ou janela por iniciativa automática. Conferir apoios, continuidade, torção, altura livre, cargas, ELU/ELS e armaduras. A escada não está integrada ao cálculo. Os resultados herdados foram invalidados na cópia CAD e não se efetuou novo cálculo nesta etapa.
 
 ## Validação e reprodução
 
 No diretório deste estudo: `python -m unittest -v test_auditoria` passou 16 testes. Em `tcc-assistente`, `npm test` passou 81 testes, sem falhas ou saltos. Esses testes cobrem código e não substituem o ensaio dentro dos programas.
 
-`auditar_cad_eberick.py` executou sobre o IFC4 real e as releituras nativas, preservando os hashes das fontes. `auditar_exportacao.py` está preparado para o IFC do Revit e ainda não executou sobre uma exportação R160. Usa leitura numérica derivada da R94, com proveniência em `R161-preparacao.json`; ausência de propriedade permanece ausente, sem virar zero.
+`auditar_cad_eberick.py` executou sobre o IFC4 real e as releituras nativas, preservando os hashes das fontes. `auditar_exportacao.py` executou sobre o IFC nativo R160 nesta continuação. Usa leitura numérica derivada da R94, com proveniência em `R161-preparacao.json`; ausência de propriedade permanece ausente, sem virar zero.
 
 Referência operacional consultada: AltoQi, [inserção de nível intermediário](https://suporte.altoqi.com.br/hc/pt-br/articles/115002186654). O procedimento foi confirmado na instalação Eberick 2025, e a altura foi relida no arquivo salvo.
 

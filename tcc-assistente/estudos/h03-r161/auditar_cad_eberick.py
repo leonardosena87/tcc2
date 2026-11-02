@@ -93,7 +93,7 @@ def main():
         commonRevisionFullyAppliedToCad=False,upperFloorV15L6RevisionApplied=False,
         stairNativeElementsLaunched=False,stairLoadsApplied=False,
         inheritedCalculationResultsInvalidated=True,newStructuralCalculationPerformed=False,
-        bimWorkingCopyStillUnmodified=bim_unchanged,currentR160RevitIfcExportProduced=False,
+        bimWorkingCopyStillUnmodified=bim_unchanged,revitIfcExportNotAssessedByThisCadAudit=True,
         fullFlowComparisonCompleted=False,structuralApproval=False,
         windowJ4CompatibilityPending=True,auditScriptSeconds=time.perf_counter()-t0,columns=columns)
     (OUT/'R161-CAD-Eberick-auditoria.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')

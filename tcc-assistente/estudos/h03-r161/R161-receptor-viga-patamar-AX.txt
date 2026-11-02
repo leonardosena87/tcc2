@@ -1,0 +1,155 @@
+Window: "AltoQi Eberick 2025 Infinity - [R161-R160-IFC-BRUTO-NAO-EXECUTAR (R161-R160-IFC-BRUTO-NAO-EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [R161-R160-IFC-BRUTO-NAO-EXECUTAR (R161-R160-IFC-BRUTO-NAO-EXECUTAR)] Secondary Actions: Raise
+		27 Barra de status
+			2555 custom
+				2556 text Comando
+				2557 editar (settable, string)
+				2558 text
+				2559 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					2560 Lista
+						2561 item de lista (selectable) 1:1
+						2562 item de lista (selectable) 1:2
+						2563 item de lista (selectable) 1:5
+						2564 item de lista (selectable) 1:10
+						2565 item de lista (selectable) 1:12.5
+						2566 item de lista (selectable) 1:15
+						2567 item de lista (selectable) 1:20
+						2568 item de lista (selectable) 1:25
+						2569 item de lista (selectable) 1:30
+						2570 item de lista (selectable) 1:40
+						2571 item de lista (selectable) 1:50
+						2572 item de lista (selectable) 1:60
+						2573 item de lista (selectable) 1:75
+						2574 item de lista (selectable) 1:100
+						2575 item de lista (selectable) 1:200
+						2576 item de lista (selectable) 1:250
+						2577 item de lista (selectable) 1:500
+						2578 item de lista (selectable) 1:1000
+			2579 botão Atualizar
+			2580 botão Enquadrar
+			2581 botão Aproximar
+			2582 botão Afastar
+			2583 botão Zoom
+			2584 botão Zoom anterior
+			2585 botão Deslocar
+			2586 caixa de seleção Ortogonal
+			2587 caixa de seleção Captura personalizada
+			2588 botão Opções da captura personalizada
+			2589 caixa de seleção Quadrante
+			2590 caixa de seleção Centro
+			2591 caixa de seleção Ponto médio
+			2592 caixa de seleção Extremidade
+			2593 caixa de seleção Ponto no elemento
+			2594 caixa de seleção Intersecção
+			2595 caixa de seleção Perpendicular
+			2596 caixa de seleção Ponto intermediário
+			2597 caixa de seleção Ponto quadrante
+			2598 caixa de seleção Ponto na intersecção
+			2599 caixa de seleção Ponto relativo
+		28 painel
+			29 botão de divisão
+				30 elevador
+				31 painel
+					32 tabulação Croqui-TCC-R159-PATAMAR-CONCRETO
+						2600 item de tabulação (selectable) Notícias
+						2601 item de tabulação (selectable) Croqui-TCC-R159-PATAMAR-CONCRETO
+					34 painel
+						2060 painel
+							2061 painel Croqui-TCC-R159-PATAMAR-CONCRETO
+								2062 painel TCadPlotWindow
+				57 painel
+					58 tabulação
+						2602 item de tabulação (selectable)
+						2603 item de tabulação (selectable)
+					60 painel
+						61 janela Edificação Secondary Actions: Raise
+							62 painel
+								63 painel Projeto
+									64 painel
+									890 árvore ID: 101
+										891 barra de rolagem (settable, float) Horizontal Value: 0 ID: NonClientHorizontalScrollBar
+											892 botão Uma coluna à esquerda ID: UpButton
+											893 elevador Posição ID: ScrollbarThumb
+											894 botão Uma página à direita ID: DownPageButton
+											895 botão Uma coluna à direita ID: DownButton
+										1010 item da árvore (selectable) Pavimentos
+											1011 item da árvore (selectable) TCC-7a6267fd-N2
+											1012 item da árvore (selectable) TCC-R155-PISO-ACABADO-325
+											1013 item da árvore (selectable) TCC-7a6267fd-N1
+											1014 item da árvore (selectable) Nível 2
+											1015 item da árvore (selectable) TCC-R159-PATAMAR-CONCRETO
+												1909 item da árvore (selectable) Croqui
+												1910 item da árvore (selectable) Forma
+												1911 item da árvore (selectable) Desenho
+												1912 item da árvore (selectable) H03-R160-Revit-SOMENTE-VIGA-PATAMAR-NAO-EXECUTAR
+											1016 item da árvore (selectable) TCC-R155-PISO-ACABADO-022
+											1017 item da árvore (selectable) TCC-7a6267fd-N0
+											1018 item da árvore (selectable) TCC-R159-BASE-VIRTUAL-017-APOIO-PENDENTE
+											1019 item da árvore (selectable) Nível 1
+										1020 item da árvore (selectable) Cortes
+										1021 item da árvore (selectable) Gerenciador de desenhos
+										1022 item da árvore (selectable) Modelos 3D
+											1023 item da árvore (selectable) H03-R160-Revit-SOMENTE-VIGA-PATAMAR-NAO-EXECUTAR
+		66 barra de menus
+		2604 diálogo Viga Secondary Actions: Raise
+			2605 grupo Dados da viga ID: 101
+			2606 text Nome ID: 102
+			2607 editar (settable, string) Nome Value: V1 ID: 801
+			2608 text Ambiente ID: 105
+			2609 caixa de combinação (settable, string) Ambiente Value: Externo ID: 828
+				2610 text (settable, string) Ambiente Value: Externo
+				2611 botão Abrir ID: DropDown
+			2612 botão Modelo... ID: 902
+			2613 grupo Seção do trecho ID: 201
+			2614 text Tipo ID: 202
+			2615 caixa de combinação (settable, string) Tipo Value: retangular ID: 809
+				2616 text (settable, string) Tipo Value: retangular
+				2617 botão Abrir ID: DropDown
+			2618 text bw ID: 203
+			2619 editar (settable, string) bw Value: 20 ID: 810
+			2620 text cm ID: 814
+			2621 text h ID: 204
+			2622 editar (settable, string) h Value: 30 ID: 811
+			2623 text cm ID: 815
+			2624 text bf ID: 205
+			2625 editar (disabled, settable, string) bf Value: 0 ID: 565
+			2626 text cm ID: 816
+			2627 text hf ID: 206
+			2628 editar (disabled, settable, string) hf Value: 0 ID: 566
+			2629 text cm ID: 817
+			2630 caixa de seleção Obter elevação para viga invertida ID: 941
+			2631 text Elevação ID: 207
+			2632 editar (settable, string) / Value: 0 ID: 507
+			2633 text cm ID: 506
+			2634 caixa de seleção Manter seção constante na viga ID: 550
+			2635 text ID: 818
+			2636 grupo Cargas no trecho ID: 301
+			2637 text Carga de parede ID: 302
+			2638 text 0.00 kN/m ID: 508
+			2639 text Carga extra ID: 303
+			2640 editar (disabled, settable, string) Carga extra Value: 0 ID: 564
+			2641 text kN/m ID: 567
+			2642 text Temperatura e retração ID: 1282
+			2643 editar (disabled, settable, string) Temperatura e retração Value: 0 ID: 1113
+			2644 text °C ID: 1114
+			2645 botão Lançar... ID: 510
+			2646 botão Remover ID: 509
+			2647 botão Editar... ID: 501
+			2648 botão Remover ID: 651
+			2649 botão Editar... ID: 1280
+			2650 botão Remover ID: 1281
+			2651 botão OK ID: 1
+			2652 botão Cancelar ID: 2
+			2653 botão Desenho... ID: 547
+			2654 botão Ajuda ID: 9
+			2655 text ID: 1115
+			2656 barra de título (settable, string) Value: Viga
+
+Document text: ```
+Comando
+```
+
+Focused element: 0 janela AltoQi Eberick 2025 Infinity - [R161-R160-IFC-BRUTO-NAO-EXECUTAR (R161-R160-IFC-BRUTO-NAO-EXECUTAR)] Secondary Actions: Raise
+
+Document text:
+Comando
