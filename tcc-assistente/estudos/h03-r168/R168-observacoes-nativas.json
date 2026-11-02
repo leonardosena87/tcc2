@@ -1,0 +1,72 @@
+{
+  "revision": "H03/R168",
+  "recordedAtUtc": "2026-11-02T21:00:41.443Z",
+  "results": [
+    {
+      "branch": "BIM_R167",
+      "floor": "N2",
+      "start": {
+        "utc": "2026-11-02T20:56:45.252Z",
+        "ms": 1793653005252
+      },
+      "elapsedClickToObservedResultMs": 948,
+      "message": "Não foram detectados problemas no lançamento deste pavimento.",
+      "scope": "Verificar lancamento, nao calculo ELU/ELS"
+    },
+    {
+      "branch": "BIM_R167",
+      "floor": "N1",
+      "start": {
+        "utc": "2026-11-02T20:57:36.466Z",
+        "ms": 1793653056466
+      },
+      "observedResult": {
+        "utc": "2026-11-02T20:57:37.578Z",
+        "ms": 1793653057578
+      },
+      "elapsedClickToObservedResultMs": 1112,
+      "warnings": [
+        {
+          "code": "L10",
+          "element": "L6",
+          "message": "Laje em balanço não engastada"
+        }
+      ],
+      "scope": "Verificar lancamento, nao calculo ELU/ELS"
+    },
+    {
+      "branch": "CAD_R165",
+      "floor": "N1",
+      "start": {
+        "utc": "2026-11-02T20:59:31.760Z",
+        "ms": 1793653171760
+      },
+      "observedResult": {
+        "utc": "2026-11-02T20:59:34.342Z",
+        "ms": 1793653174342
+      },
+      "elapsedClickToObservedResultMs": 2582,
+      "message": "Não foram detectados problemas no lançamento deste pavimento.",
+      "scope": "Verificar lancamento, nao calculo ELU/ELS"
+    },
+    {
+      "branch": "CAD_R165",
+      "floor": "N2",
+      "start": {
+        "utc": "2026-11-02T21:00:04.645Z",
+        "ms": 1793653204645
+      },
+      "observedResult": {
+        "utc": "2026-11-02T21:00:05.778Z",
+        "ms": 1793653205778
+      },
+      "elapsedClickToObservedResultMs": 1133,
+      "message": "Não foram detectados problemas no lançamento deste pavimento.",
+      "scope": "Verificar lancamento, nao calculo ELU/ELS"
+    }
+  ],
+  "fullFlowTimes": false,
+  "onlyCurrentFloorLaunchDiagnostic": true,
+  "rawExportComparison": false,
+  "structuralApproval": false
+}
