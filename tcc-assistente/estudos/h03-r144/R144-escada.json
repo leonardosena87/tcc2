@@ -1,0 +1,157 @@
+{
+  "revision": "H03/R144",
+  "createdAtUtc": "2026-11-02T04:11:55.473994+00:00",
+  "sources": [
+    {
+      "path": "D:\\TCC\\PROJETO ARQUITETONICO-A0.pdf",
+      "sha256": "3a57561f03e2c0e92964b19e577a02939b04fc93cdf1ef27cad6f79ad2deb12d"
+    },
+    {
+      "path": "D:\\TCC\\materiais\\normas\\ABNT NBR 6120-2019.pdf",
+      "sha256": "807c22009de912321bf743704cc4b5ad454ef0a68721b50f8d34bf2182f567b7"
+    }
+  ],
+  "pdfPageOneBased": 1,
+  "section": "AA",
+  "labelPositionsPdf": {
+    "0,22": [
+      [
+        340.55999755859375,
+        2175.758544921875,
+        359.00146484375,
+        2184.624755859375
+      ],
+      [
+        502.55999755859375,
+        2175.758544921875,
+        521.00146484375,
+        2184.624755859375
+      ]
+    ],
+    "1,70": [
+      [
+        569.280029296875,
+        2091.99853515625,
+        587.7215576171875,
+        2100.86474609375
+      ]
+    ],
+    "3,25": [
+      [
+        257.2799072265625,
+        2004.3988037109375,
+        275.72137451171875,
+        2013.2650146484375
+      ],
+      [
+        354.7200012207031,
+        2004.3988037109375,
+        373.1614685058594,
+        2013.2650146484375
+      ]
+    ],
+    "185": [
+      [
+        418.8576965332031,
+        2164.901611328125,
+        430.92608642578125,
+        2182.639892578125
+      ]
+    ],
+    "28": [
+      [
+        462.0,
+        2134.0419921875,
+        475.1730651855469,
+        2145.326416015625
+      ]
+    ]
+  },
+  "architecture": {
+    "finishedGroundM": 0.22,
+    "finishedLandingM": 1.7,
+    "finishedUpperM": 3.25,
+    "lowerRiseM": 1.48,
+    "upperRiseM": 1.55,
+    "dimensionRiserInterpretedVisuallyM": 0.185,
+    "rawPdfRiserText": "185",
+    "superscriptHalfCentimetreNot185Centimetres": true,
+    "dimensionTreadM": 0.28,
+    "riseDividedByAnnotatedRiser": 16.37837837837838,
+    "lowerRisersAtAnnotatedRiser": 8.0,
+    "upperRisersAtAnnotatedRiser": 8.378378378378379,
+    "allRisersSameAsAnnotatedClosesLevels": false,
+    "dimensionReadingNotSurvey": true
+  },
+  "alternatives": [
+    {
+      "totalRisers": 17,
+      "lowerFlightRisers": 8,
+      "upperFlightRisers": 9,
+      "uniformRiserM": 0.17823529411764705,
+      "finishedGroundM": 0.22,
+      "finishedUpperM": 3.25,
+      "proposedFinishedLandingM": 1.6458823529411764,
+      "landingChangeM": -0.054117647058823604,
+      "treadHypothesisM": 0.28,
+      "twoRisersPlusTreadM": 0.6364705882352941,
+      "lowerTreadsIfLandingIsLastRiser": 7,
+      "upperTreadsIfFloorIsLastRiser": 8,
+      "lowerTreadRunM": 1.9600000000000002,
+      "upperTreadRunM": 2.24,
+      "nativeGeometryApplied": false,
+      "acceptedArchitectureChange": false,
+      "footprintHeadroomStructuralCapacityOrAccessibilityApproved": false
+    },
+    {
+      "totalRisers": 18,
+      "lowerFlightRisers": 9,
+      "upperFlightRisers": 9,
+      "uniformRiserM": 0.16833333333333333,
+      "finishedGroundM": 0.22,
+      "finishedUpperM": 3.25,
+      "proposedFinishedLandingM": 1.735,
+      "landingChangeM": 0.03500000000000014,
+      "treadHypothesisM": 0.28,
+      "twoRisersPlusTreadM": 0.6166666666666667,
+      "lowerTreadsIfLandingIsLastRiser": 8,
+      "upperTreadsIfFloorIsLastRiser": 8,
+      "lowerTreadRunM": 2.24,
+      "upperTreadRunM": 2.24,
+      "nativeGeometryApplied": false,
+      "acceptedArchitectureChange": false,
+      "footprintHeadroomStructuralCapacityOrAccessibilityApproved": false
+    }
+  ],
+  "normativeLoadReference": {
+    "standard": "ABNT NBR 6120:2019, exemplar local",
+    "table10PdfPage": 27,
+    "printedPage": 21,
+    "privateResidentialStairLiveKNm2": 2.5,
+    "footnoteTOnPdfPage32": {
+      "cantileverAlternatingCasesRequiredIfApplicable": true,
+      "isolatedStepPointKN": 2.5,
+      "pointCaseSeparateFromUniformLiveCase": true
+    },
+    "barrierHorizontalKNm": 1.0,
+    "barrierLoadHeightAboveFinishedFloorM": 1.1,
+    "barrierTable12PdfPage": 34,
+    "applicationRulePdfPage": 33,
+    "noStructuralNativeApplicationOrFullNormComplianceAsserted": true
+  },
+  "nativeModellingSources": [
+    "https://suporte.altoqi.com.br/hc/pt-br/articles/115002281074",
+    "https://suporte.altoqi.com.br/hc/pt-br/articles/115003584493"
+  ],
+  "unresolved": [
+    "Escolha geométrica e referência de acabamentos do patamar.",
+    "Contagem e posição executiva dos espelhos/pisadas e folga de circulação/altura livre.",
+    "Largura útil, espessura estrutural e peso próprio; não adotar os acabamentos como seção resistente.",
+    "Apoio inferior, vinculação ao hall e eventual patamar autoportante com continuidade comprovada.",
+    "Guarda-corpo/peso/ancoragem e transferência de reações para o modelo integrado."
+  ],
+  "newStructuralLoadsApplied": false,
+  "modelsOrMonographChanged": false,
+  "finalStructuralApproval": false,
+  "timingIsScriptOnlyNotResearchOrFlow": true
+}
