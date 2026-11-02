@@ -1,0 +1,201 @@
+{
+  "revision": "H03/R140",
+  "publicFiles": [
+    {
+      "path": ".gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": "arquivar.py",
+      "sha256": "79ecd77f6eef44ce65091b780c2aa515865a1b14d19a9c8188d8af5f5468a3ab"
+    },
+    {
+      "path": "auditar.py",
+      "sha256": "98905920d0d73adecf2bea414f37ea961f18a816fbd7e25e310639e1e1548443"
+    },
+    {
+      "path": "BIM-consulta-fim.json",
+      "sha256": "f295ff5e5c2f1cf7a19263c5f57e10b978c5e3d1d85bcf6f9e28dc2ec5acbae7"
+    },
+    {
+      "path": "BIM-consulta-inicio.json",
+      "sha256": "b2fc728b75cf71930ea0a554d9495712e785b7e3ffd04bdad88824ace4418974"
+    },
+    {
+      "path": "BIM-controle-consulta-fim.json",
+      "sha256": "0d12345358dc4ee7eb763d579f486479b5793a83786902a4d252f77801b7068a"
+    },
+    {
+      "path": "BIM-controle-consulta-inicio.json",
+      "sha256": "96e94858f9da48c3004f43753c36465b008eaac7e85328a993eb4007a16c9edd"
+    },
+    {
+      "path": "BIM-controle-reacoes-lajes-N1-G2-0.jpg",
+      "sha256": "55b08f2eed58196209c0c9d512dd621b71f956431512f506d0123389685e137a"
+    },
+    {
+      "path": "BIM-controle-reacoes-lajes-N1-G2-captura.json",
+      "sha256": "a6d0d6688f35e28c8b98b3363054c152152ee66a1b6a0fd8c4f635900e0e9380"
+    },
+    {
+      "path": "BIM-controle-reacoes-lajes-N1-G2-UI.txt",
+      "sha256": "60109af68bd61f02c613c450edcef8b0a63da617c461571ace9586c90b51d429"
+    },
+    {
+      "path": "BIM-controle-reacoes-N1-G2.dxf",
+      "sha256": "94c78d4f31e991f4bc5ac3459bdf29f7e1cb7f8c2a5bd8974b19de924deb2ec5"
+    },
+    {
+      "path": "BIM-W20-reacoes-lajes-N1-G2-0.jpg",
+      "sha256": "86fceb613b801c3e1395d37e14b582e18bf1c5cc5475ca1fc332324b49c49a4f"
+    },
+    {
+      "path": "BIM-W20-reacoes-lajes-N1-G2-captura.json",
+      "sha256": "8b9a9d94519a3e2fe3e6f7dd1ad0520ac271b339c861b9b8a7af567ea9b06b15"
+    },
+    {
+      "path": "BIM-W20-reacoes-lajes-N1-G2-UI.txt",
+      "sha256": "9f3ef26eb0665fc427bdd9fce30b99c04506ebfb3edc73cd91021c40ccf76dec"
+    },
+    {
+      "path": "BIM-W20-reacoes-N1-G2.dxf",
+      "sha256": "85a657fef9a5dc26b61c97cd68b392008c931a6f12146a24cbac4ea2b2813c5e"
+    },
+    {
+      "path": "CAD-consulta-fim.json",
+      "sha256": "cf1bc3a5230e2ab6f3153594ddd56cb7022e816fc18bd4d3266e88c37ca4cfd4"
+    },
+    {
+      "path": "CAD-consulta-inicio.json",
+      "sha256": "c17d1e356044653d2d77e88a127ac530120d2a8f1c34314481c1072b6388f076"
+    },
+    {
+      "path": "CAD-controle-consulta-fim.json",
+      "sha256": "f1a04374e2a037aa3125a37b97990f0dfc9cb302eb084fdd11bf76d438c95bb3"
+    },
+    {
+      "path": "CAD-controle-consulta-inicio.json",
+      "sha256": "102071068843dcbdd80ed60f9c0285bd34c42b6033c6a3decb3398b9d1b6519f"
+    },
+    {
+      "path": "CAD-controle-reacoes-lajes-N1-G2-0.jpg",
+      "sha256": "369edd30128b1a2e18d4147518b1536bb6e1d4e8f69c9bc71bb27a8147f0d47c"
+    },
+    {
+      "path": "CAD-controle-reacoes-lajes-N1-G2-captura.json",
+      "sha256": "acfd339cc844d5891d0df4d24fe78cd06c36b8a055c3b0960398cdcd0169f343"
+    },
+    {
+      "path": "CAD-controle-reacoes-lajes-N1-G2-UI.txt",
+      "sha256": "076b53b97d4bae78a8ef31d57799693591f22c2da1eea7f4890704c56d820c90"
+    },
+    {
+      "path": "CAD-controle-reacoes-N1-G2.dxf",
+      "sha256": "081ec4814112c7ea0495657ff90aa4ee412af825ce1bb50dceee3574e0104d77"
+    },
+    {
+      "path": "CAD-grelha-duplo-clique-abre-edicao-nao-rotacoes-0.jpg",
+      "sha256": "2e23b5c141c59a476bf5d61a9cd87b60821b7726e9eb716704e0653d104d37ef"
+    },
+    {
+      "path": "CAD-grelha-duplo-clique-abre-edicao-nao-rotacoes-1.jpg",
+      "sha256": "e8528bfdf9a4b2ca85943d340ead8a752d737edf2821213e160e6bc198100ac3"
+    },
+    {
+      "path": "CAD-grelha-duplo-clique-abre-edicao-nao-rotacoes-2.jpg",
+      "sha256": "8aa2117685e7a10cd91991437a8d11db4e8196e2ebe289ec7e677a7e17fca7da"
+    },
+    {
+      "path": "CAD-grelha-duplo-clique-abre-edicao-nao-rotacoes-3.jpg",
+      "sha256": "0f8d1b37e748d8ee501844923b5814e8ab8ed9146398c7a4b321dee35eaee1da"
+    },
+    {
+      "path": "CAD-grelha-duplo-clique-abre-edicao-nao-rotacoes-captura.json",
+      "sha256": "2759fe43a7a9bc848ab567ed18ab504e8a40d9c2e94d137796d425745ce79bc3"
+    },
+    {
+      "path": "CAD-grelha-duplo-clique-abre-edicao-nao-rotacoes-UI.txt",
+      "sha256": "b434fa41d803e76aaf58a09b32af104d2d904ad9aa67ebeeed230bdc51a1ab41"
+    },
+    {
+      "path": "CAD-W20-G2-deslocamentos-0.jpg",
+      "sha256": "a1377510b5b27f0c9b8b6aa89a0ba632bbe35145b8d5ea546f0ab2e3e743f94e"
+    },
+    {
+      "path": "CAD-W20-G2-deslocamentos-1.jpg",
+      "sha256": "e8528bfdf9a4b2ca85943d340ead8a752d737edf2821213e160e6bc198100ac3"
+    },
+    {
+      "path": "CAD-W20-G2-deslocamentos-2.jpg",
+      "sha256": "7bbd7c999cf1440520ad48a4a23daebe645f400e6303cce09329a01b41f39562"
+    },
+    {
+      "path": "CAD-W20-G2-deslocamentos-captura.json",
+      "sha256": "f891775b9422fdc83a40bcfa9e3a839e3e679c9f3b6d2efe27e6be47dc15b9c1"
+    },
+    {
+      "path": "CAD-W20-G2-deslocamentos-UI.txt",
+      "sha256": "4c7ed8822b307f770505ef3969b4a11c35fbc8add16c3dccd7b1f9394fa9c36a"
+    },
+    {
+      "path": "CAD-W20-G2-fletores-finalizado-0.jpg",
+      "sha256": "b57abfd4352d7746c88bb33be16182bfff2c853b3943e9f734aff87c2280899c"
+    },
+    {
+      "path": "CAD-W20-G2-fletores-finalizado-1.jpg",
+      "sha256": "8ea0558221b038ce54a61a9e55919d1445595ed085713f56d496311e6f182a25"
+    },
+    {
+      "path": "CAD-W20-G2-fletores-finalizado-2.jpg",
+      "sha256": "7bbd7c999cf1440520ad48a4a23daebe645f400e6303cce09329a01b41f39562"
+    },
+    {
+      "path": "CAD-W20-G2-fletores-finalizado-captura.json",
+      "sha256": "0b44579d2d12e1fbf63db8941a090c21198ee6d108e47e633ca2dbb6b8477b8c"
+    },
+    {
+      "path": "CAD-W20-G2-fletores-finalizado-UI.txt",
+      "sha256": "afa96fc9fbdc8cc85408dc98211dae668f4c2fa8e686a568dccb513acbf0976b"
+    },
+    {
+      "path": "CAD-W20-reacoes-lajes-N1-G2-0.jpg",
+      "sha256": "0f920f910e8eb801e57bfc46d69a86aecc3df46a42998e1bae8c3106c01d6f7a"
+    },
+    {
+      "path": "CAD-W20-reacoes-lajes-N1-G2-captura.json",
+      "sha256": "6012c69f09d6519e2abed8caf5e39c88f325f5bd7c169a561d08d6c02b2cce82"
+    },
+    {
+      "path": "CAD-W20-reacoes-lajes-N1-G2-UI.txt",
+      "sha256": "90231456df41492871252c564160c49b7f3a24484f6ba44a1fc99e090d87d2ce"
+    },
+    {
+      "path": "CAD-W20-reacoes-N1-G2.dxf",
+      "sha256": "b79cf277a2daba4fbc09ae7921a6bcb418f5dbe3097a6b652110bea5dcac3f51"
+    },
+    {
+      "path": "LEIA-ME-R140.md",
+      "sha256": "51ef16c02261b42e99aa69235ad6bc1ab811e1c19b09d41b4dc33040a41f7981"
+    },
+    {
+      "path": "preparar.py",
+      "sha256": "9c73efde9303dd7943dd5523a4b06482c1591da6459934c16278ff1175278d0f"
+    },
+    {
+      "path": "R140-preparacao.json",
+      "sha256": "2f875440577207c325f3a797d0046b55399900eb95bc8dcaec38f82ec4a11f1e"
+    },
+    {
+      "path": "R140-resultado.json",
+      "sha256": "a83919fa4cde1af2499c5fc93a3ade6b637bc77f2268f86af025364700c389cf"
+    },
+    {
+      "path": "relatar.py",
+      "sha256": "e1369c0df567d665223f76331932dabb03e3b263951907e3ec55eb1bbba0511e"
+    },
+    {
+      "path": "test_auditoria.py",
+      "sha256": "49a096c36acbc66c2731039ca658b272f5861de04faeb13756c69a57a12af4c0"
+    }
+  ]
+}

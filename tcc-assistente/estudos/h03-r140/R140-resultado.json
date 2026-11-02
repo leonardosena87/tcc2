@@ -1,0 +1,1503 @@
+{
+  "revision": "H03/R140",
+  "createdAtUtc": "2026-11-02T01:06:16.009315+00:00",
+  "scope": "Reações gráficas das lajes N1 na ação Adicional G2; R137 com W20 e controle R138 de mesma malha",
+  "protectedSourceFiles": [
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "sha256": "7aa6766c18ddf61254be0ffdbbdc69823bdecd4fadf5ffb2ef54e96c42d411c3",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "sha256": "9dcb0c71361fda7632994e86c865bc166197e7035a09cf24b6ea2a97db06c553",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "sha256": "464da20e7951be3fa769888c894e02d1c9765bb5a8ecccb2bb64dbad2490f93a",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "eac8e1bdc4fa8cda377c66aef16fed6b1226add30578a1be60ea230281d122e2",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256": "cad0db357e6bfebed02e6bb91098950121e31461df6a6d29e662a0166604ec19",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "sha256": "ff5bacace491fe8a34e54f3dbac31e55038f52975484f3668baaaa4ae93c732f",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "sha256": "d66b61152ae84118a276a7ab41cad04e900bdea48a8460e62ecec80f45fcb1ca",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256": "eac8e1bdc4fa8cda377c66aef16fed6b1226add30578a1be60ea230281d122e2",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "sha256": "ff5bacace491fe8a34e54f3dbac31e55038f52975484f3668baaaa4ae93c732f",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "sha256": "d66b61152ae84118a276a7ab41cad04e900bdea48a8460e62ecec80f45fcb1ca",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "sha256": "3d31aa7fb44b06ee15e6311ca2bcfcb6f26a6b5d53af07f01dafdbad1925da54",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "sha256": "0ce728b4e17f495b66da6d8ac1369142e1f8ce2f8f822ac705caebdbfc430cb1",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_2508.log",
+      "sha256": "284c19e38fb87337e88195f74b1ff47fa3bd84e34f3cb1e083a30ecbf54ea8ef",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "b8cdba590ade3f091d0d6f4b985331349a572a8a8be2f313a2487aaed94a1d75",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "sha256": "626a83ac3449104102c6100ec0a494e972cdef3521d9117a7c0f75c6da97fc72",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "sha256": "4791e7ef1b750af6cbca2c024dce2573a2bf07e83fe082613bec317198cee759",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "sha256": "c140449fd81c9897ff1f380b4b7119fb58be1d83292852ba9cf1f3d7f3db469d",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256": "710e11c16fc482f9579de10a85e790fd8caff5d83f49edb4e33298144f47bb24",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "sha256": "1ab4f094f5ece86fd83b025787f84963fb5a843c2a3e4d2232adbf2dbf0ec092",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "sha256": "4ae486f6dab97a26d2a4ce154a3a2ee73d68e6e8d5d20347d47a7c035cf8a5ef",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "sha256": "a2425ede6e737599e17a043cb802392c7481148a852eadff2f7c2f1bf306eef5",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "sha256": "710e11c16fc482f9579de10a85e790fd8caff5d83f49edb4e33298144f47bb24",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "sha256": "4ae486f6dab97a26d2a4ce154a3a2ee73d68e6e8d5d20347d47a7c035cf8a5ef",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "sha256": "a2425ede6e737599e17a043cb802392c7481148a852eadff2f7c2f1bf306eef5",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "sha256": "19b0cc28a0904249ff7f64fb401c26b7761bcf249659b39feca676b0861a4f6c",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "sha256": "8c649ab7874070a5d1a9704d153be4b1329f12c918d8ecee6c44da487e2121c7",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_2508.log",
+      "sha256": "987f790be38e2b3e8d628a95eb20a2ebb6dd164876b93f0d3df3cd00b4d67f47",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "2e6544f83382f445ac50c309e0255e5b236d07643aeccee1da4c0da2faaa745f",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571",
+      "revision": "R138"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "sha256": "f1eaacfdeee8528d030804d354888f0cc5130b9c74522d11a2e0707e2474bb3f",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "sha256": "798deab8568fed6d59de46d23f9cfe0af926d5bf749a7461a9568c88b47a5d95",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "sha256": "230c8e11509e1d3b9fd478692d440cda0c964d37c3e178df96be6cebe856e5ed",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "675202c3cb1eb853c0542e6c7a05bc239b60e148b3c67304b823f6bdf68fe229",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256": "cf8be5667f36bf9406909e0d2dad6e65957319c39bfc7743f55f410d9967e865",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "sha256": "0e7618633b1f6eccd6371d186cd8ba72f78302ea3d7b1b43cc4521359dad7b1f",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "sha256": "e87dad6acae1048e4ff2e1c91e22681683a2cc0a94f88316055eeaede24dfa0d",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256": "675202c3cb1eb853c0542e6c7a05bc239b60e148b3c67304b823f6bdf68fe229",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "sha256": "0e7618633b1f6eccd6371d186cd8ba72f78302ea3d7b1b43cc4521359dad7b1f",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "sha256": "e87dad6acae1048e4ff2e1c91e22681683a2cc0a94f88316055eeaede24dfa0d",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "sha256": "0ef802c15e686e6c22509480c73e06b21aed5badf4d288c0ca5b41ffebc6d932",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "sha256": "1213a9847587f765ef5519bed2b62484b601aaa07fbfbfe9a950d880558c8539",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_2508.log",
+      "sha256": "b47acceda1da5ba127697680c3b0eb07d9eea81ecbc7a3df30d29ff627182649",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "98d521e143b3f76882c219d78c38baf84c8a8440d6cf5aff27cf22cd18bdd9d5",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "sha256": "4afa8dfa71d148dfc9016bb6d43ffda91410fa577d50da1b7e829da5e5815e68",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "sha256": "c175bf7583841e054bd2ef8aaab33e7d1898c31879d756cfdba854c71e6d88d1",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "sha256": "856c1d2363714dac777dc11226b76e9171efc56e5d310ff80a4dc982607258be",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256": "8fdc65aa252512cf006f7f4a1e7b5ba9850d4c4f112816e4acd50d784243ba92",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "sha256": "e7ca80931b10667a562fe300fb5b1a30ef2b0b36eef3988e943ef951cbb44111",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "sha256": "f36f4b12e4975aef6ef3dc205dde068ad05906c6b49c921e09daef19c11184f5",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "sha256": "7f9d712f6f4903b3597496d248be877646a884e9bc017f5ee57f60730dc29575",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "sha256": "8fdc65aa252512cf006f7f4a1e7b5ba9850d4c4f112816e4acd50d784243ba92",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "sha256": "f36f4b12e4975aef6ef3dc205dde068ad05906c6b49c921e09daef19c11184f5",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "sha256": "7f9d712f6f4903b3597496d248be877646a884e9bc017f5ee57f60730dc29575",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "sha256": "d1940fc839accc2b1999033a014dff795e790d6f74341875f5042c7c9fbf9f6f",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "sha256": "8e46417de5252be645d3d52ed4c5e9cb3686a713861eb52ed26539478d51e546",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_2508.log",
+      "sha256": "bf0bec45da14c24193cc2aa0b42722e04036cdb1dc10219f75fa630f20c142f8",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "d990db7e9cdb2a48bb8b25d0befb54196824c5281e25304b8da203ac16fdc08a",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f",
+      "revision": "R137"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571",
+      "revision": "R137"
+    }
+  ],
+  "sourceFilesUnchanged": true,
+  "sessions": {
+    "CAD": {
+      "inicio_utc": "2026-11-02T00:41:12.824Z",
+      "fim_utc": "2026-11-02T00:53:14.893Z",
+      "path": "D:\\TCC\\outputs\\64-H03-R139-CAD-CONSULTA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256Before": "675202c3cb1eb853c0542e6c7a05bc239b60e148b3c67304b823f6bdf68fe229",
+      "sha256After": "675202c3cb1eb853c0542e6c7a05bc239b60e148b3c67304b823f6bdf68fe229",
+      "unchanged": true,
+      "durationSeconds": 722.069,
+      "durationMinutes": 12.034483333333332,
+      "category": "consulta exploratória de resultados já processados",
+      "humanInteractionRequired": false,
+      "pureSolverTime": false,
+      "aiInferenceTimeIsolated": false
+    },
+    "BIM": {
+      "inicio_utc": "2026-11-02T00:53:49.757Z",
+      "fim_utc": "2026-11-02T00:56:16.578Z",
+      "path": "D:\\TCC\\outputs\\65-H03-R139-BIM-CONSULTA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256Before": "8fdc65aa252512cf006f7f4a1e7b5ba9850d4c4f112816e4acd50d784243ba92",
+      "sha256After": "8fdc65aa252512cf006f7f4a1e7b5ba9850d4c4f112816e4acd50d784243ba92",
+      "unchanged": true,
+      "durationSeconds": 146.821,
+      "durationMinutes": 2.447016666666667,
+      "category": "consulta exploratória de resultados já processados",
+      "humanInteractionRequired": false,
+      "pureSolverTime": false,
+      "aiInferenceTimeIsolated": false
+    },
+    "CAD-controle": {
+      "inicio_utc": "2026-11-02T00:58:05.408Z",
+      "fim_utc": "2026-11-02T01:00:37.472Z",
+      "path": "D:\\TCC\\outputs\\66-H03-R140-CAD-CONTROLE-CONSULTA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256Before": "eac8e1bdc4fa8cda377c66aef16fed6b1226add30578a1be60ea230281d122e2",
+      "sha256After": "eac8e1bdc4fa8cda377c66aef16fed6b1226add30578a1be60ea230281d122e2",
+      "unchanged": true,
+      "durationSeconds": 152.064,
+      "durationMinutes": 2.5343999999999998,
+      "category": "consulta exploratória de resultados já processados",
+      "humanInteractionRequired": false,
+      "pureSolverTime": false,
+      "aiInferenceTimeIsolated": false
+    },
+    "BIM-controle": {
+      "inicio_utc": "2026-11-02T01:01:05.873Z",
+      "fim_utc": "2026-11-02T01:05:07.232Z",
+      "path": "D:\\TCC\\outputs\\67-H03-R140-BIM-CONTROLE-CONSULTA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256Before": "710e11c16fc482f9579de10a85e790fd8caff5d83f49edb4e33298144f47bb24",
+      "sha256After": "710e11c16fc482f9579de10a85e790fd8caff5d83f49edb4e33298144f47bb24",
+      "unchanged": true,
+      "durationSeconds": 241.359,
+      "durationMinutes": 4.0226500000000005,
+      "category": "consulta exploratória de resultados já processados",
+      "humanInteractionRequired": false,
+      "pureSolverTime": false,
+      "aiInferenceTimeIsolated": false
+    }
+  },
+  "exportedReactionDrawings": [
+    {
+      "path": "D:\\TCC\\outputs\\Reacoes-Grelha-H03-R140-CONSULTA-NAO-EXECUTAR\\CAD-W20-reacoes-N1-G2.dxf",
+      "sha256": "b79cf277a2daba4fbc09ae7921a6bcb418f5dbe3097a6b652110bea5dcac3f51"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Reacoes-Grelha-H03-R140-CONSULTA-NAO-EXECUTAR\\CAD-controle-reacoes-N1-G2.dxf",
+      "sha256": "081ec4814112c7ea0495657ff90aa4ee412af825ce1bb50dceee3574e0104d77"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Reacoes-Grelha-H03-R140-CONSULTA-NAO-EXECUTAR\\BIM-W20-reacoes-N1-G2.dxf",
+      "sha256": "85a657fef9a5dc26b61c97cd68b392008c931a6f12146a24cbac4ea2b2813c5e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Reacoes-Grelha-H03-R140-CONSULTA-NAO-EXECUTAR\\BIM-controle-reacoes-N1-G2.dxf",
+      "sha256": "94c78d4f31e991f4bc5ac3459bdf29f7e1cb7f8c2a5bd8974b19de924deb2ec5"
+    }
+  ],
+  "comparisons": {
+    "withW20CADversusBIM": {
+      "numericLabelCount": 25,
+      "changedLabelCount": 0,
+      "maxAbsDeltaDisplayed": "0.00",
+      "labels": [
+        {
+          "positionDrawingRaw": [
+            "0.6354",
+            "3.9",
+            "0.0"
+          ],
+          "left": "1.13",
+          "right": "1.13",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "0.6354",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.98",
+          "right": "0.98",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "0.9531",
+            "0.0"
+          ],
+          "left": "1.02",
+          "right": "1.02",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "6.9528",
+            "0.0"
+          ],
+          "left": "0.92",
+          "right": "0.92",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "8.7531",
+            "0.0"
+          ],
+          "left": "0.81",
+          "right": "0.81",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "13.2528",
+            "0.0"
+          ],
+          "left": "1.07",
+          "right": "1.07",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "7.846900000000002",
+            "2.88",
+            "0.0"
+          ],
+          "left": "1.21",
+          "right": "1.21",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "7.846900000000002",
+            "6.72",
+            "0.0"
+          ],
+          "left": "0.80",
+          "right": "0.80",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "7.846900000000001",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.82",
+          "right": "0.82",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "9.435400000000001",
+            "6.72",
+            "0.0"
+          ],
+          "left": "-0.77",
+          "right": "-0.77",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "9.4354",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.53",
+          "right": "0.53",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "10.9",
+            "6.9528",
+            "0.0"
+          ],
+          "left": "1.24",
+          "right": "1.24",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "10.9",
+            "8.7531",
+            "0.0"
+          ],
+          "left": "1.06",
+          "right": "1.06",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "10.95",
+            "6.6531",
+            "0.0"
+          ],
+          "left": "0.63",
+          "right": "0.63",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "11.9351",
+            "6.6351",
+            "0.0"
+          ],
+          "left": "1.19",
+          "right": "1.19",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "12.1469",
+            "6.75",
+            "0.0"
+          ],
+          "left": "-0.80",
+          "right": "-0.80",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "13.7354",
+            "2.88",
+            "0.0"
+          ],
+          "left": "2.50",
+          "right": "2.50",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "13.7354",
+            "6.75",
+            "0.0"
+          ],
+          "left": "-0.40",
+          "right": "-0.40",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "14.05",
+            "13.2528",
+            "0.0"
+          ],
+          "left": "1.03",
+          "right": "1.03",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "16.2",
+            "0.9531",
+            "0.0"
+          ],
+          "left": "1.96",
+          "right": "1.96",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "16.25",
+            "6.9528",
+            "0.0"
+          ],
+          "left": "2.76",
+          "right": "2.76",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "16.25",
+            "8.753099999999998",
+            "0.0"
+          ],
+          "left": "0.13",
+          "right": "0.13",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "18.3469",
+            "3.9",
+            "0.0"
+          ],
+          "left": "2.32",
+          "right": "2.32",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "18.3469",
+            "10.95",
+            "0.0"
+          ],
+          "left": "1.70",
+          "right": "1.70",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "19.9354",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.94",
+          "right": "0.94",
+          "deltaRightMinusLeft": "0.00"
+        }
+      ],
+      "matching": "Posição no desenho 2D, tolerância 1e-6 de unidade gráfica; nomes V ignorados",
+      "unitPrintedInDXF": false,
+      "forceOrMomentIntegralCalculated": false
+    },
+    "controlCADversusBIM": {
+      "numericLabelCount": 25,
+      "changedLabelCount": 0,
+      "maxAbsDeltaDisplayed": "0.00",
+      "labels": [
+        {
+          "positionDrawingRaw": [
+            "0.6354",
+            "3.9",
+            "0.0"
+          ],
+          "left": "1.13",
+          "right": "1.13",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "0.6354",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.98",
+          "right": "0.98",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "0.9531",
+            "0.0"
+          ],
+          "left": "1.02",
+          "right": "1.02",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "6.9528",
+            "0.0"
+          ],
+          "left": "0.92",
+          "right": "0.92",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "8.7531",
+            "0.0"
+          ],
+          "left": "0.82",
+          "right": "0.82",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "13.2528",
+            "0.0"
+          ],
+          "left": "1.07",
+          "right": "1.07",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "7.846900000000002",
+            "2.88",
+            "0.0"
+          ],
+          "left": "1.22",
+          "right": "1.22",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "7.846900000000002",
+            "6.72",
+            "0.0"
+          ],
+          "left": "0.78",
+          "right": "0.78",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "7.846900000000001",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.81",
+          "right": "0.81",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "9.435400000000001",
+            "6.72",
+            "0.0"
+          ],
+          "left": "-0.81",
+          "right": "-0.81",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "9.4354",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.53",
+          "right": "0.53",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "10.9",
+            "6.9528",
+            "0.0"
+          ],
+          "left": "1.07",
+          "right": "1.07",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "10.9",
+            "8.7531",
+            "0.0"
+          ],
+          "left": "1.06",
+          "right": "1.06",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "10.95",
+            "6.6531",
+            "0.0"
+          ],
+          "left": "0.55",
+          "right": "0.55",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "11.9351",
+            "6.6351",
+            "0.0"
+          ],
+          "left": "1.15",
+          "right": "1.15",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "12.1469",
+            "6.75",
+            "0.0"
+          ],
+          "left": "-0.25",
+          "right": "-0.25",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "13.7354",
+            "2.88",
+            "0.0"
+          ],
+          "left": "1.09",
+          "right": "1.09",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "13.7354",
+            "6.75",
+            "0.0"
+          ],
+          "left": "-0.04",
+          "right": "-0.04",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "14.05",
+            "13.2528",
+            "0.0"
+          ],
+          "left": "1.00",
+          "right": "1.00",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "16.2",
+            "0.9531",
+            "0.0"
+          ],
+          "left": "0.67",
+          "right": "0.67",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "16.25",
+            "6.9528",
+            "0.0"
+          ],
+          "left": "0.94",
+          "right": "0.94",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "16.25",
+            "8.753099999999998",
+            "0.0"
+          ],
+          "left": "0.53",
+          "right": "0.53",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "18.3469",
+            "3.9",
+            "0.0"
+          ],
+          "left": "1.11",
+          "right": "1.11",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "18.3469",
+            "10.95",
+            "0.0"
+          ],
+          "left": "1.47",
+          "right": "1.47",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "19.9354",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.95",
+          "right": "0.95",
+          "deltaRightMinusLeft": "0.00"
+        }
+      ],
+      "matching": "Posição no desenho 2D, tolerância 1e-6 de unidade gráfica; nomes V ignorados",
+      "unitPrintedInDXF": false,
+      "forceOrMomentIntegralCalculated": false
+    },
+    "CADcontrolToW20": {
+      "numericLabelCount": 25,
+      "changedLabelCount": 18,
+      "maxAbsDeltaDisplayed": "1.82",
+      "labels": [
+        {
+          "positionDrawingRaw": [
+            "0.6354",
+            "3.9",
+            "0.0"
+          ],
+          "left": "1.13",
+          "right": "1.13",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "0.6354",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.98",
+          "right": "0.98",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "0.9531",
+            "0.0"
+          ],
+          "left": "1.02",
+          "right": "1.02",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "6.9528",
+            "0.0"
+          ],
+          "left": "0.92",
+          "right": "0.92",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "8.7531",
+            "0.0"
+          ],
+          "left": "0.82",
+          "right": "0.81",
+          "deltaRightMinusLeft": "-0.01"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "13.2528",
+            "0.0"
+          ],
+          "left": "1.07",
+          "right": "1.07",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "7.846900000000002",
+            "2.88",
+            "0.0"
+          ],
+          "left": "1.22",
+          "right": "1.21",
+          "deltaRightMinusLeft": "-0.01"
+        },
+        {
+          "positionDrawingRaw": [
+            "7.846900000000002",
+            "6.72",
+            "0.0"
+          ],
+          "left": "0.78",
+          "right": "0.80",
+          "deltaRightMinusLeft": "0.02"
+        },
+        {
+          "positionDrawingRaw": [
+            "7.846900000000001",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.81",
+          "right": "0.82",
+          "deltaRightMinusLeft": "0.01"
+        },
+        {
+          "positionDrawingRaw": [
+            "9.435400000000001",
+            "6.72",
+            "0.0"
+          ],
+          "left": "-0.81",
+          "right": "-0.77",
+          "deltaRightMinusLeft": "0.04"
+        },
+        {
+          "positionDrawingRaw": [
+            "9.4354",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.53",
+          "right": "0.53",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "10.9",
+            "6.9528",
+            "0.0"
+          ],
+          "left": "1.07",
+          "right": "1.24",
+          "deltaRightMinusLeft": "0.17"
+        },
+        {
+          "positionDrawingRaw": [
+            "10.9",
+            "8.7531",
+            "0.0"
+          ],
+          "left": "1.06",
+          "right": "1.06",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "10.95",
+            "6.6531",
+            "0.0"
+          ],
+          "left": "0.55",
+          "right": "0.63",
+          "deltaRightMinusLeft": "0.08"
+        },
+        {
+          "positionDrawingRaw": [
+            "11.9351",
+            "6.6351",
+            "0.0"
+          ],
+          "left": "1.15",
+          "right": "1.19",
+          "deltaRightMinusLeft": "0.04"
+        },
+        {
+          "positionDrawingRaw": [
+            "12.1469",
+            "6.75",
+            "0.0"
+          ],
+          "left": "-0.25",
+          "right": "-0.80",
+          "deltaRightMinusLeft": "-0.55"
+        },
+        {
+          "positionDrawingRaw": [
+            "13.7354",
+            "2.88",
+            "0.0"
+          ],
+          "left": "1.09",
+          "right": "2.50",
+          "deltaRightMinusLeft": "1.41"
+        },
+        {
+          "positionDrawingRaw": [
+            "13.7354",
+            "6.75",
+            "0.0"
+          ],
+          "left": "-0.04",
+          "right": "-0.40",
+          "deltaRightMinusLeft": "-0.36"
+        },
+        {
+          "positionDrawingRaw": [
+            "14.05",
+            "13.2528",
+            "0.0"
+          ],
+          "left": "1.00",
+          "right": "1.03",
+          "deltaRightMinusLeft": "0.03"
+        },
+        {
+          "positionDrawingRaw": [
+            "16.2",
+            "0.9531",
+            "0.0"
+          ],
+          "left": "0.67",
+          "right": "1.96",
+          "deltaRightMinusLeft": "1.29"
+        },
+        {
+          "positionDrawingRaw": [
+            "16.25",
+            "6.9528",
+            "0.0"
+          ],
+          "left": "0.94",
+          "right": "2.76",
+          "deltaRightMinusLeft": "1.82"
+        },
+        {
+          "positionDrawingRaw": [
+            "16.25",
+            "8.753099999999998",
+            "0.0"
+          ],
+          "left": "0.53",
+          "right": "0.13",
+          "deltaRightMinusLeft": "-0.40"
+        },
+        {
+          "positionDrawingRaw": [
+            "18.3469",
+            "3.9",
+            "0.0"
+          ],
+          "left": "1.11",
+          "right": "2.32",
+          "deltaRightMinusLeft": "1.21"
+        },
+        {
+          "positionDrawingRaw": [
+            "18.3469",
+            "10.95",
+            "0.0"
+          ],
+          "left": "1.47",
+          "right": "1.70",
+          "deltaRightMinusLeft": "0.23"
+        },
+        {
+          "positionDrawingRaw": [
+            "19.9354",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.95",
+          "right": "0.94",
+          "deltaRightMinusLeft": "-0.01"
+        }
+      ],
+      "matching": "Posição no desenho 2D, tolerância 1e-6 de unidade gráfica; nomes V ignorados",
+      "unitPrintedInDXF": false,
+      "forceOrMomentIntegralCalculated": false
+    },
+    "BIMcontrolToW20": {
+      "numericLabelCount": 25,
+      "changedLabelCount": 18,
+      "maxAbsDeltaDisplayed": "1.82",
+      "labels": [
+        {
+          "positionDrawingRaw": [
+            "0.6354",
+            "3.9",
+            "0.0"
+          ],
+          "left": "1.13",
+          "right": "1.13",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "0.6354",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.98",
+          "right": "0.98",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "0.9531",
+            "0.0"
+          ],
+          "left": "1.02",
+          "right": "1.02",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "6.9528",
+            "0.0"
+          ],
+          "left": "0.92",
+          "right": "0.92",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "8.7531",
+            "0.0"
+          ],
+          "left": "0.82",
+          "right": "0.81",
+          "deltaRightMinusLeft": "-0.01"
+        },
+        {
+          "positionDrawingRaw": [
+            "4.4",
+            "13.2528",
+            "0.0"
+          ],
+          "left": "1.07",
+          "right": "1.07",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "7.846900000000002",
+            "2.88",
+            "0.0"
+          ],
+          "left": "1.22",
+          "right": "1.21",
+          "deltaRightMinusLeft": "-0.01"
+        },
+        {
+          "positionDrawingRaw": [
+            "7.846900000000002",
+            "6.72",
+            "0.0"
+          ],
+          "left": "0.78",
+          "right": "0.80",
+          "deltaRightMinusLeft": "0.02"
+        },
+        {
+          "positionDrawingRaw": [
+            "7.846900000000001",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.81",
+          "right": "0.82",
+          "deltaRightMinusLeft": "0.01"
+        },
+        {
+          "positionDrawingRaw": [
+            "9.435400000000001",
+            "6.72",
+            "0.0"
+          ],
+          "left": "-0.81",
+          "right": "-0.77",
+          "deltaRightMinusLeft": "0.04"
+        },
+        {
+          "positionDrawingRaw": [
+            "9.4354",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.53",
+          "right": "0.53",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "10.9",
+            "6.9528",
+            "0.0"
+          ],
+          "left": "1.07",
+          "right": "1.24",
+          "deltaRightMinusLeft": "0.17"
+        },
+        {
+          "positionDrawingRaw": [
+            "10.9",
+            "8.7531",
+            "0.0"
+          ],
+          "left": "1.06",
+          "right": "1.06",
+          "deltaRightMinusLeft": "0.00"
+        },
+        {
+          "positionDrawingRaw": [
+            "10.95",
+            "6.6531",
+            "0.0"
+          ],
+          "left": "0.55",
+          "right": "0.63",
+          "deltaRightMinusLeft": "0.08"
+        },
+        {
+          "positionDrawingRaw": [
+            "11.9351",
+            "6.6351",
+            "0.0"
+          ],
+          "left": "1.15",
+          "right": "1.19",
+          "deltaRightMinusLeft": "0.04"
+        },
+        {
+          "positionDrawingRaw": [
+            "12.1469",
+            "6.75",
+            "0.0"
+          ],
+          "left": "-0.25",
+          "right": "-0.80",
+          "deltaRightMinusLeft": "-0.55"
+        },
+        {
+          "positionDrawingRaw": [
+            "13.7354",
+            "2.88",
+            "0.0"
+          ],
+          "left": "1.09",
+          "right": "2.50",
+          "deltaRightMinusLeft": "1.41"
+        },
+        {
+          "positionDrawingRaw": [
+            "13.7354",
+            "6.75",
+            "0.0"
+          ],
+          "left": "-0.04",
+          "right": "-0.40",
+          "deltaRightMinusLeft": "-0.36"
+        },
+        {
+          "positionDrawingRaw": [
+            "14.05",
+            "13.2528",
+            "0.0"
+          ],
+          "left": "1.00",
+          "right": "1.03",
+          "deltaRightMinusLeft": "0.03"
+        },
+        {
+          "positionDrawingRaw": [
+            "16.2",
+            "0.9531",
+            "0.0"
+          ],
+          "left": "0.67",
+          "right": "1.96",
+          "deltaRightMinusLeft": "1.29"
+        },
+        {
+          "positionDrawingRaw": [
+            "16.25",
+            "6.9528",
+            "0.0"
+          ],
+          "left": "0.94",
+          "right": "2.76",
+          "deltaRightMinusLeft": "1.82"
+        },
+        {
+          "positionDrawingRaw": [
+            "16.25",
+            "8.753099999999998",
+            "0.0"
+          ],
+          "left": "0.53",
+          "right": "0.13",
+          "deltaRightMinusLeft": "-0.40"
+        },
+        {
+          "positionDrawingRaw": [
+            "18.3469",
+            "3.9",
+            "0.0"
+          ],
+          "left": "1.11",
+          "right": "2.32",
+          "deltaRightMinusLeft": "1.21"
+        },
+        {
+          "positionDrawingRaw": [
+            "18.3469",
+            "10.95",
+            "0.0"
+          ],
+          "left": "1.47",
+          "right": "1.70",
+          "deltaRightMinusLeft": "0.23"
+        },
+        {
+          "positionDrawingRaw": [
+            "19.9354",
+            "10.95",
+            "0.0"
+          ],
+          "left": "0.95",
+          "right": "0.94",
+          "deltaRightMinusLeft": "-0.01"
+        }
+      ],
+      "matching": "Posição no desenho 2D, tolerância 1e-6 de unidade gráfica; nomes V ignorados",
+      "unitPrintedInDXF": false,
+      "forceOrMomentIntegralCalculated": false
+    }
+  },
+  "actionSelectionEvidence": "Seleção visual Adicional (G2) registrada nas quatro imagens; o DXF não contém metadado de ação",
+  "observations": [
+    "A troca de Fletores para Deslocamentos na grelha CAD retornou a seleção a G1; G2 foi selecionada novamente e conferida.",
+    "Deslocamentos CAD/G2: legenda visual mínima -0.06 cm e máxima 0.00 cm; ação completa, não incremento exclusivo W20; sem avaliação ELS.",
+    "Duplo clique em barra interna da grelha abriu Edição da barra (multiplicadores 1/1/1), cancelada sem edição; não abriu tabela de rotações.",
+    "Botão Vista superior foi inicialmente confundido com tabela; apenas mudou a projeção.",
+    "Quatro diagramas de Reações das lajes foram abertos pelo botão de setas opostas na janela Lajes.",
+    "Os nomes das vigas diferem entre os receptores; a comparação usa coordenadas dos rótulos numéricos.",
+    "Dois avisos de nome inválido na exportação CAD decorreram do caminho com barras mistas e foco não confirmado; corrigido por caminho Windows e campo conferido.",
+    "No controle BIM, uma tentativa de exportação chegou ao aviso de salvar desenho; foi cancelada e a exportação repetida com sucesso."
+  ],
+  "units": "Rótulos numéricos preservados sem atribuir unidade física ausente no DXF; coordenadas referem-se ao desenho, não à posição da reação física.",
+  "springRotationsObtained": false,
+  "springMomentsCalculated": false,
+  "completeMomentBalanceClosed": false,
+  "residualCauseProven": false,
+  "processingPerformed": false,
+  "SAP2000Executed": false,
+  "W20AcceptedAsFinal": false,
+  "finalStructuralApproval": false,
+  "finalProductivityRankingAllowed": false,
+  "monographEdited": false,
+  "authorshipRVTorDWGEdited": false,
+  "timingLimit": "Sessão CAD inclui descoberta do caminho, consulta de diagramas e diagnóstico de UI; demais sessões usam caminho aprendido. Sem comparação de produtividade ou soma a solver.",
+  "primaryReference": "https://suporte.altoqi.com.br/hc/pt-br/articles/360038283234",
+  "referenceApplicability": "O artigo descreve duplo clique para deslocamentos dos nós no pórtico, inclusive grelha de paredes. Não garante a mesma janela na grelha separada de lajes desta versão.",
+  "nextStep": "Investigar rotações e reações nodais por recurso documentado; enquanto isso, manter a divergência de momentos aberta e avançar em tarefas independentes."
+}
