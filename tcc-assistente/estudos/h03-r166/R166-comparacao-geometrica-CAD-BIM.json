@@ -1,0 +1,5357 @@
+{
+  "revision": "H03/R166",
+  "recordedAtUtc": "2026-11-02T20:29:16.150765+00:00",
+  "sourceHashes": {
+    "D:\\TCC\\outputs\\Intercambio-H03-R165-CAD-GEOMETRIA-NAO-EXECUTAR\\IFC-CAD-Eberick\\Modelo 3D.IFC": "776314f515be09c06a5caf81583b603527650d07eb7ef913ff4c0e8e68624623",
+    "D:\\TCC\\outputs\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR\\Arquivos do projeto\\Modelo 3D.IFC": "63c68d7cbb7d3408f5b90dad0eb22e4e00df43a56270f7643e1a68dfdf143f94",
+    "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-releitura-nativa-20261102-163548.json": "fd43fd25e3665bfe6fc3b9eaa14892b9d7446b19809efaae6e278a0aad3f3a18"
+  },
+  "sourcesUnchanged": true,
+  "scope": "Geometrias corrigidas CAD R165 versus BIM derivado R166; nao intercambios brutos nem calculo final",
+  "xyAndSectionToleranceM": 0.0001,
+  "topToleranceM": 0.0002,
+  "commonBeamOrigins": 30,
+  "beamOriginsWithEqualFreeSpanProjections": 30,
+  "allBeamOriginsCoveredInBoth": true,
+  "columnOriginsCoveredByBranch": {
+    "CAD_R165": 22,
+    "BIM_R166": 22
+  },
+  "segmentationCountsAreNotPhysicalElementCounts": true,
+  "slabAndStairParityNotEstablished": true,
+  "analyticalConnectivityVerified": false,
+  "loadsAndConfigurationEqualityVerified": false,
+  "fullFlowTimesCompared": false,
+  "structuralCalculationCompared": false,
+  "structuralApproval": false,
+  "branches": {
+    "CAD_R165": {
+      "productCounts": {
+        "IfcBeam": 46,
+        "IfcColumn": 22,
+        "IfcSlab": 11,
+        "IfcStair": 0,
+        "IfcStairFlight": 0
+      },
+      "matchedBeamParts": 46,
+      "matchedBeamOrigins": 30,
+      "beams": {
+        "472942": {
+          "nativeMark": "V1-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.10000000000000002,
+              4.300000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                0.10000000000000009,
+                4.300000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 4.200000000000001,
+            "referenceLengthM": 4.200000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.10000000000000009,
+              4.300000000000001
+            ]
+          ]
+        },
+        "473034": {
+          "nativeMark": "V1-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.10000000000000002,
+              4.300000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                0.10000000000000002,
+                4.300000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 4.200000000000001,
+            "referenceLengthM": 4.200000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.10000000000000002,
+              4.300000000000001
+            ]
+          ]
+        },
+        "472978": {
+          "nativeMark": "V10-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.05,
+              6.899999999999999
+            ],
+            "mergedIntervalsM": [
+              [
+                4.050000000000001,
+                6.899999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.849999999999998,
+            "referenceLengthM": 2.8499999999999988,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.050000000000001,
+              6.899999999999999
+            ]
+          ]
+        },
+        "473054": {
+          "nativeMark": "V10-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.05,
+              6.899999999999999
+            ],
+            "mergedIntervalsM": [
+              [
+                4.050000000000001,
+                6.899999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.849999999999998,
+            "referenceLengthM": 2.8499999999999988,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.050000000000001,
+              6.899999999999999
+            ]
+          ]
+        },
+        "472980": {
+          "nativeMark": "V11-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.75
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15,
+                3.75
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.6,
+            "referenceLengthM": 3.6,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15,
+              3.75
+            ]
+          ]
+        },
+        "473056": {
+          "nativeMark": "V11-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.75
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15,
+                3.75
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.6,
+            "referenceLengthM": 3.6,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15,
+              3.75
+            ]
+          ]
+        },
+        "472982": {
+          "nativeMark": "V12-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.05,
+              6.899999999999999
+            ],
+            "mergedIntervalsM": [
+              [
+                4.050000000000001,
+                6.899999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.849999999999998,
+            "referenceLengthM": 2.8499999999999988,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.050000000000001,
+              6.899999999999999
+            ]
+          ]
+        },
+        "473058": {
+          "nativeMark": "V12-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.05,
+              6.899999999999999
+            ],
+            "mergedIntervalsM": [
+              [
+                4.050000000000001,
+                6.899999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.849999999999998,
+            "referenceLengthM": 2.8499999999999988,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.050000000000001,
+              6.899999999999999
+            ]
+          ]
+        },
+        "472984": {
+          "nativeMark": "V13-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.8
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15000000000000013,
+                3.8
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.6499999999999995,
+            "referenceLengthM": 3.65,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15000000000000013,
+              3.8
+            ]
+          ]
+        },
+        "473060": {
+          "nativeMark": "V13-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.8
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15000000000000013,
+                3.8
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.6499999999999995,
+            "referenceLengthM": 3.65,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15000000000000013,
+              3.8
+            ]
+          ]
+        },
+        "472986": {
+          "nativeMark": "V15-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.5,
+              6.450000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                4.5,
+                6.450000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 1.950000000000001,
+            "referenceLengthM": 1.950000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.5,
+              6.450000000000001
+            ]
+          ]
+        },
+        "473802": {
+          "nativeMark": "V16-ESC-PAT",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.5,
+              6.450000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                4.500000000000001,
+                6.450000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 1.9500000000000002,
+            "referenceLengthM": 1.950000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.500000000000001,
+              6.450000000000001
+            ]
+          ]
+        },
+        "472947": {
+          "nativeMark": "V2-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              6.65,
+              9.55
+            ],
+            "mergedIntervalsM": [
+              [
+                6.65,
+                9.549999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.8999999999999986,
+            "referenceLengthM": 2.9000000000000004,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              6.65,
+              9.549999999999999
+            ]
+          ]
+        },
+        "473036": {
+          "nativeMark": "V2-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.5,
+              9.55
+            ],
+            "mergedIntervalsM": [
+              [
+                4.5,
+                9.549999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 5.049999999999999,
+            "referenceLengthM": 5.050000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.5,
+              6.45
+            ],
+            [
+              6.65,
+              9.549999999999999
+            ]
+          ]
+        },
+        "472949": {
+          "nativeMark": "V3-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.10000000000000002,
+              4.300000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                0.10000000000000009,
+                4.300000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 4.200000000000001,
+            "referenceLengthM": 4.200000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.10000000000000009,
+              4.300000000000001
+            ]
+          ]
+        },
+        "473038": {
+          "nativeMark": "V3-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.10000000000000002,
+              4.300000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                0.10000000000000002,
+                4.300000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 4.200000000000001,
+            "referenceLengthM": 4.200000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.10000000000000002,
+              4.300000000000001
+            ]
+          ]
+        },
+        "472954": {
+          "nativeMark": "V4A-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.5,
+              6.4
+            ],
+            "mergedIntervalsM": [
+              [
+                4.5,
+                6.4
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 1.9000000000000004,
+            "referenceLengthM": 1.9000000000000004,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.5,
+              6.4
+            ]
+          ]
+        },
+        "473040": {
+          "nativeMark": "V4A-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.5,
+              6.4
+            ],
+            "mergedIntervalsM": [
+              [
+                4.5,
+                6.3999999999999995
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 1.8999999999999995,
+            "referenceLengthM": 1.9000000000000004,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.5,
+              6.3999999999999995
+            ]
+          ]
+        },
+        "472959": {
+          "nativeMark": "V4B-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              6.700000000000001,
+              9.55
+            ],
+            "mergedIntervalsM": [
+              [
+                6.700000000000001,
+                9.55
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.8499999999999996,
+            "referenceLengthM": 2.8499999999999996,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              6.700000000000001,
+              9.55
+            ]
+          ]
+        },
+        "473042": {
+          "nativeMark": "V4B-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              6.700000000000001,
+              9.55
+            ],
+            "mergedIntervalsM": [
+              [
+                6.700000000000001,
+                9.55
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.8499999999999996,
+            "referenceLengthM": 2.8499999999999996,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              6.700000000000001,
+              9.55
+            ]
+          ]
+        },
+        "472961": {
+          "nativeMark": "V5-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.10000000000000002,
+              4.300000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                0.10000000000000009,
+                4.300000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 4.200000000000001,
+            "referenceLengthM": 4.200000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.10000000000000009,
+              4.300000000000001
+            ]
+          ]
+        },
+        "473044": {
+          "nativeMark": "V5-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.10000000000000002,
+              4.300000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                0.10000000000000002,
+                4.300000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 4.200000000000001,
+            "referenceLengthM": 4.200000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.10000000000000002,
+              4.300000000000001
+            ]
+          ]
+        },
+        "472963": {
+          "nativeMark": "V6-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.5,
+              9.55
+            ],
+            "mergedIntervalsM": [
+              [
+                4.5,
+                9.55
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 5.050000000000001,
+            "referenceLengthM": 5.050000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.5,
+              9.55
+            ]
+          ]
+        },
+        "473046": {
+          "nativeMark": "V6-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.5,
+              9.55
+            ],
+            "mergedIntervalsM": [
+              [
+                4.5,
+                9.55
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 5.050000000000001,
+            "referenceLengthM": 5.050000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.5,
+              9.55
+            ]
+          ]
+        },
+        "472969": {
+          "nativeMark": "V7-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.75
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15,
+                3.75
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.6,
+            "referenceLengthM": 3.6,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15,
+              3.75
+            ]
+          ]
+        },
+        "473048": {
+          "nativeMark": "V7-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.75
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15,
+                3.75
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.6,
+            "referenceLengthM": 3.6,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15,
+              3.75
+            ]
+          ]
+        },
+        "472974": {
+          "nativeMark": "V8-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.05,
+              6.899999999999999
+            ],
+            "mergedIntervalsM": [
+              [
+                4.050000000000001,
+                6.899999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.849999999999998,
+            "referenceLengthM": 2.8499999999999988,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.050000000000001,
+              6.899999999999999
+            ]
+          ]
+        },
+        "473050": {
+          "nativeMark": "V8-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.05,
+              6.899999999999999
+            ],
+            "mergedIntervalsM": [
+              [
+                4.050000000000001,
+                6.899999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.849999999999998,
+            "referenceLengthM": 2.8499999999999988,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.050000000000001,
+              6.899999999999999
+            ]
+          ]
+        },
+        "472976": {
+          "nativeMark": "V9-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.75
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15000000000000013,
+                3.75
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.5999999999999996,
+            "referenceLengthM": 3.6,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15000000000000013,
+              3.75
+            ]
+          ]
+        },
+        "473052": {
+          "nativeMark": "V9-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.75
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15,
+                3.75
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.6,
+            "referenceLengthM": 3.6,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15,
+              3.75
+            ]
+          ]
+        }
+      },
+      "columnOrigins": {
+        "472930": {
+          "nativeMark": "P1-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473025": {
+          "nativeMark": "P1-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473097": {
+          "nativeMark": "P10-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473098": {
+          "nativeMark": "P10-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473143": {
+          "nativeMark": "P11-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473144": {
+          "nativeMark": "P11-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472931": {
+          "nativeMark": "P2-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473026": {
+          "nativeMark": "P2-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472932": {
+          "nativeMark": "P3-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473027": {
+          "nativeMark": "P3-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472933": {
+          "nativeMark": "P4-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473028": {
+          "nativeMark": "P4-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472934": {
+          "nativeMark": "P5-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473029": {
+          "nativeMark": "P5-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472935": {
+          "nativeMark": "P6-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473030": {
+          "nativeMark": "P6-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472936": {
+          "nativeMark": "P7-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473031": {
+          "nativeMark": "P7-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472937": {
+          "nativeMark": "P8-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473032": {
+          "nativeMark": "P8-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472938": {
+          "nativeMark": "P9-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473033": {
+          "nativeMark": "P9-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        }
+      },
+      "beamParts": [
+        {
+          "name": "V1",
+          "guid": "0Ubls1qoaHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              0.10000000000000009,
+              -0.1,
+              2.75
+            ],
+            "maxM": [
+              4.300000000000001,
+              0.1,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472942,
+            "nativeMark": "V1-N1",
+            "receiverIntervalM": [
+              0.10000000000000009,
+              4.300000000000001
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 1.6653345369377348e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V10",
+          "guid": "2z3S9nqoeHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              -0.1,
+              4.050000000000001,
+              2.8500000000000005
+            ],
+            "maxM": [
+              0.1,
+              6.9,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472974,
+            "nativeMark": "V8-N1",
+            "receiverIntervalM": [
+              4.050000000000001,
+              6.9
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": -3.3306690738754696e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V11",
+          "guid": "3WERLcqoeHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              4.300000000000001,
+              4.050000000000001,
+              2.8500000000000005
+            ],
+            "maxM": [
+              4.5,
+              6.9,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472978,
+            "nativeMark": "V10-N1",
+            "receiverIntervalM": [
+              4.050000000000001,
+              6.9
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": -3.3306690738754696e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V12",
+          "guid": "04qZtUqoiHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              9.55,
+              4.050000000000001,
+              2.8500000000000005
+            ],
+            "maxM": [
+              9.75,
+              6.9,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472982,
+            "nativeMark": "V12-N1",
+            "receiverIntervalM": [
+              4.050000000000001,
+              6.9
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": -3.3306690738754696e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V13",
+          "guid": "1P8G4pqoiHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              6.7,
+              3.8,
+              2.9000000000000004
+            ],
+            "maxM": [
+              9.55,
+              4.0,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472959,
+            "nativeMark": "V4B-N1",
+            "receiverIntervalM": [
+              6.7,
+              9.55
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": -1.6653345369377348e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V14",
+          "guid": "1g4q1lqomHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              4.5,
+              3.8,
+              3.04
+            ],
+            "maxM": [
+              6.4,
+              4.0,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472954,
+            "nativeMark": "V4A-N1",
+            "receiverIntervalM": [
+              4.5,
+              6.4
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 1.3877787807814457e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V15",
+          "guid": "2RmpXiqomHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              4.4,
+              2.9358,
+              3.04
+            ],
+            "maxM": [
+              6.550000000000001,
+              3.1358,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472986,
+            "nativeMark": "V15-N1",
+            "receiverIntervalM": [
+              4.4,
+              6.550000000000001
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 1.3877787807814457e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V16",
+          "guid": "3H1mC8rjyHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              4.500000000000001,
+              -0.1,
+              1.4740000000000004
+            ],
+            "maxM": [
+              6.450000000000001,
+              0.1,
+              1.7740000000000002
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473802,
+            "nativeMark": "V16-ESC-PAT",
+            "receiverIntervalM": [
+              4.500000000000001,
+              6.450000000000001
+            ],
+            "topDeltaM": -0.0001176470588228895,
+            "heightDeltaM": -1.6653345369377348e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V2",
+          "guid": "0ybZq2qoaHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              0.10000000000000009,
+              3.8,
+              2.75
+            ],
+            "maxM": [
+              4.300000000000001,
+              4.0,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472949,
+            "nativeMark": "V3-N1",
+            "receiverIntervalM": [
+              0.10000000000000009,
+              4.300000000000001
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 1.6653345369377348e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V3",
+          "guid": "1OaXyKqoaHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              0.10000000000000009,
+              6.95,
+              2.75
+            ],
+            "maxM": [
+              4.300000000000001,
+              7.1499999999999995,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472961,
+            "nativeMark": "V5-N1",
+            "receiverIntervalM": [
+              0.10000000000000009,
+              4.300000000000001
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 1.6653345369377348e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V4",
+          "guid": "2ZIb8mqoaHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              6.6499999999999995,
+              -0.1,
+              2.6500000000000004
+            ],
+            "maxM": [
+              9.549999999999999,
+              0.1,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472947,
+            "nativeMark": "V2-N1",
+            "receiverIntervalM": [
+              6.6499999999999995,
+              9.549999999999999
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": -2.220446049250313e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V5",
+          "guid": "31sdWjqoaHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              4.5,
+              6.95,
+              2.6500000000000004
+            ],
+            "maxM": [
+              9.55,
+              7.1499999999999995,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472963,
+            "nativeMark": "V6-N1",
+            "receiverIntervalM": [
+              4.5,
+              9.55
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": -2.220446049250313e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V6",
+          "guid": "0AyePMqoeHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              -0.1,
+              0.1499999999999999,
+              2.8
+            ],
+            "maxM": [
+              0.1,
+              3.75,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472969,
+            "nativeMark": "V7-N1",
+            "receiverIntervalM": [
+              0.1499999999999999,
+              3.75
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 2.7755575615628914e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V7",
+          "guid": "2RmpWwqomHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              4.300000000000001,
+              0.15000000000000013,
+              2.8
+            ],
+            "maxM": [
+              4.5,
+              3.0358,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472976,
+            "nativeMark": "V9-N1",
+            "receiverIntervalM": [
+              0.15000000000000013,
+              3.0358
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 2.7755575615628914e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V7",
+          "guid": "2RmpWuqomHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              4.300000000000001,
+              3.0358000000000005,
+              2.8
+            ],
+            "maxM": [
+              4.5,
+              3.7500000000000004,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472976,
+            "nativeMark": "V9-N1",
+            "receiverIntervalM": [
+              3.0358000000000005,
+              3.7500000000000004
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 2.7755575615628914e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V8",
+          "guid": "1Aq$xBqoeHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              9.55,
+              0.1499999999999999,
+              2.8
+            ],
+            "maxM": [
+              9.75,
+              3.75,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472980,
+            "nativeMark": "V11-N1",
+            "receiverIntervalM": [
+              0.1499999999999999,
+              3.75
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 2.7755575615628914e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V9",
+          "guid": "2RmpX5qomHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              6.45,
+              3.0358000000000005,
+              2.8
+            ],
+            "maxM": [
+              6.6499999999999995,
+              3.8000000000000007,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472984,
+            "nativeMark": "V13-N1",
+            "receiverIntervalM": [
+              3.0358000000000005,
+              3.8000000000000007
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 2.7755575615628914e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V9",
+          "guid": "2RmpX7qomHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              6.45,
+              0.15000000000000013,
+              2.8
+            ],
+            "maxM": [
+              6.6499999999999995,
+              3.0358,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472984,
+            "nativeMark": "V13-N1",
+            "receiverIntervalM": [
+              0.15000000000000013,
+              3.0358
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 2.7755575615628914e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V10_1",
+          "guid": "1JL$w3qomHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              -0.1,
+              4.050000000000001,
+              6.09
+            ],
+            "maxM": [
+              0.1,
+              6.9,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473050,
+            "nativeMark": "V8-N2",
+            "receiverIntervalM": [
+              4.050000000000001,
+              6.9
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V11_1",
+          "guid": "1JL$whqomHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              4.300000000000001,
+              4.050000000000001,
+              6.09
+            ],
+            "maxM": [
+              4.5,
+              6.9,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473054,
+            "nativeMark": "V10-N2",
+            "receiverIntervalM": [
+              4.050000000000001,
+              6.9
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V12_1",
+          "guid": "1JL$xLqomHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              9.55,
+              4.050000000000001,
+              6.09
+            ],
+            "maxM": [
+              9.75,
+              6.9,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473058,
+            "nativeMark": "V12-N2",
+            "receiverIntervalM": [
+              4.050000000000001,
+              6.9
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V13_1",
+          "guid": "1_shUQqyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              7.324999999999999,
+              3.8,
+              6.09
+            ],
+            "maxM": [
+              8.875,
+              4.0,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473042,
+            "nativeMark": "V4B-N2",
+            "receiverIntervalM": [
+              7.324999999999999,
+              8.875
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V13_1",
+          "guid": "1_shUOqyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              8.875,
+              3.8,
+              6.09
+            ],
+            "maxM": [
+              9.55,
+              4.0,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473042,
+            "nativeMark": "V4B-N2",
+            "receiverIntervalM": [
+              8.875,
+              9.55
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V13_1",
+          "guid": "1rLpsAqyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              6.7,
+              3.8,
+              6.09
+            ],
+            "maxM": [
+              7.325,
+              4.0,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473042,
+            "nativeMark": "V4B-N2",
+            "receiverIntervalM": [
+              6.7,
+              7.325
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V1_1",
+          "guid": "3tPC99qy4HyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              3.3000000000000003,
+              -0.1,
+              6.09
+            ],
+            "maxM": [
+              4.300000000000001,
+              0.1,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473034,
+            "nativeMark": "V1-N2",
+            "receiverIntervalM": [
+              3.3000000000000003,
+              4.300000000000001
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V1_1",
+          "guid": "3tPC9Bqy4HyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              1.1,
+              -0.1,
+              6.09
+            ],
+            "maxM": [
+              3.3000000000000003,
+              0.1,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473034,
+            "nativeMark": "V1-N2",
+            "receiverIntervalM": [
+              1.1,
+              3.3000000000000003
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V1_1",
+          "guid": "3ZjiJOqy4HyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              0.09999999999999998,
+              -0.1,
+              6.09
+            ],
+            "maxM": [
+              1.1,
+              0.1,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473034,
+            "nativeMark": "V1-N2",
+            "receiverIntervalM": [
+              0.09999999999999998,
+              1.1
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V2",
+          "guid": "1rLpInqyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              5.475,
+              3.8,
+              6.09
+            ],
+            "maxM": [
+              6.3999999999999995,
+              4.0,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473040,
+            "nativeMark": "V4A-N2",
+            "receiverIntervalM": [
+              5.475,
+              6.3999999999999995
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V2",
+          "guid": "1rLpIpqyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              4.5,
+              3.8,
+              6.09
+            ],
+            "maxM": [
+              5.475,
+              4.0,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473040,
+            "nativeMark": "V4A-N2",
+            "receiverIntervalM": [
+              4.5,
+              5.475
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V2_1",
+          "guid": "1jE8mWqyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              3.3000000000000003,
+              3.8,
+              6.09
+            ],
+            "maxM": [
+              4.300000000000001,
+              4.0,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473038,
+            "nativeMark": "V3-N2",
+            "receiverIntervalM": [
+              3.3000000000000003,
+              4.300000000000001
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V2_1",
+          "guid": "1jE8mYqyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              1.1,
+              3.8,
+              6.09
+            ],
+            "maxM": [
+              3.3000000000000003,
+              4.0,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473038,
+            "nativeMark": "V3-N2",
+            "receiverIntervalM": [
+              1.1,
+              3.3000000000000003
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V2_1",
+          "guid": "1jE8EoqyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              0.09999999999999998,
+              3.8,
+              6.09
+            ],
+            "maxM": [
+              1.1,
+              4.0,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473038,
+            "nativeMark": "V3-N2",
+            "receiverIntervalM": [
+              0.09999999999999998,
+              1.1
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V3",
+          "guid": "1Zdv8nqyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              5.4750000000000005,
+              -0.1,
+              6.09
+            ],
+            "maxM": [
+              6.45,
+              0.1,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473036,
+            "nativeMark": "V2-N2",
+            "receiverIntervalM": [
+              5.4750000000000005,
+              6.45
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V3",
+          "guid": "1Zdv8pqyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              4.5,
+              -0.1,
+              6.09
+            ],
+            "maxM": [
+              5.475,
+              0.1,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473036,
+            "nativeMark": "V2-N2",
+            "receiverIntervalM": [
+              4.5,
+              5.475
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V3_1",
+          "guid": "26tFijqyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              1.1,
+              6.95,
+              6.09
+            ],
+            "maxM": [
+              3.3000000000000003,
+              7.1499999999999995,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473044,
+            "nativeMark": "V5-N2",
+            "receiverIntervalM": [
+              1.1,
+              3.3000000000000003
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V3_1",
+          "guid": "1_si3$qyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              0.09999999999999998,
+              6.95,
+              6.09
+            ],
+            "maxM": [
+              1.1,
+              7.1499999999999995,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473044,
+            "nativeMark": "V5-N2",
+            "receiverIntervalM": [
+              0.09999999999999998,
+              1.1
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V3_1",
+          "guid": "26tFihqyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              3.3000000000000003,
+              6.95,
+              6.09
+            ],
+            "maxM": [
+              4.300000000000001,
+              7.1499999999999995,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473044,
+            "nativeMark": "V5-N2",
+            "receiverIntervalM": [
+              3.3000000000000003,
+              4.300000000000001
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V4_1",
+          "guid": "1JL$_KqomHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              6.6499999999999995,
+              -0.1,
+              6.09
+            ],
+            "maxM": [
+              9.549999999999999,
+              0.1,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473036,
+            "nativeMark": "V2-N2",
+            "receiverIntervalM": [
+              6.6499999999999995,
+              9.549999999999999
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V5_1",
+          "guid": "26tG4NqyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              4.5,
+              6.95,
+              6.09
+            ],
+            "maxM": [
+              5.475,
+              7.1499999999999995,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473046,
+            "nativeMark": "V6-N2",
+            "receiverIntervalM": [
+              4.5,
+              5.475
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V5_1",
+          "guid": "2GKj2IqyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              5.4750000000000005,
+              6.95,
+              6.09
+            ],
+            "maxM": [
+              7.325000000000001,
+              7.1499999999999995,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473046,
+            "nativeMark": "V6-N2",
+            "receiverIntervalM": [
+              5.4750000000000005,
+              7.325000000000001
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V5_1",
+          "guid": "2GKjT9qyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              7.324999999999999,
+              6.95,
+              6.09
+            ],
+            "maxM": [
+              8.875,
+              7.1499999999999995,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473046,
+            "nativeMark": "V6-N2",
+            "receiverIntervalM": [
+              7.324999999999999,
+              8.875
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V5_1",
+          "guid": "2GKjT7qyKHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              8.875,
+              6.95,
+              6.09
+            ],
+            "maxM": [
+              9.55,
+              7.1499999999999995,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473046,
+            "nativeMark": "V6-N2",
+            "receiverIntervalM": [
+              8.875,
+              9.55
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V6_1",
+          "guid": "1JL$$_qomHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              -0.1,
+              0.1499999999999999,
+              6.09
+            ],
+            "maxM": [
+              0.1,
+              3.75,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473048,
+            "nativeMark": "V7-N2",
+            "receiverIntervalM": [
+              0.1499999999999999,
+              3.75
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V7_1",
+          "guid": "1JM00sqomHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              4.300000000000001,
+              0.1499999999999999,
+              6.09
+            ],
+            "maxM": [
+              4.5,
+              3.75,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473052,
+            "nativeMark": "V9-N2",
+            "receiverIntervalM": [
+              0.1499999999999999,
+              3.75
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V8_1",
+          "guid": "1JM01mqomHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              9.55,
+              0.1499999999999999,
+              6.09
+            ],
+            "maxM": [
+              9.75,
+              3.75,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473056,
+            "nativeMark": "V11-N2",
+            "receiverIntervalM": [
+              0.1499999999999999,
+              3.75
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V9_1",
+          "guid": "1JM02iqomHyOy801fzsd4G",
+          "geometry": {
+            "minM": [
+              6.45,
+              0.15000000000000013,
+              6.09
+            ],
+            "maxM": [
+              6.6499999999999995,
+              3.8,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473060,
+            "nativeMark": "V13-N2",
+            "receiverIntervalM": [
+              0.15000000000000013,
+              3.8
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        }
+      ]
+    },
+    "BIM_R166": {
+      "productCounts": {
+        "IfcBeam": 33,
+        "IfcColumn": 22,
+        "IfcSlab": 0,
+        "IfcStair": 0,
+        "IfcStairFlight": 0
+      },
+      "matchedBeamParts": 33,
+      "matchedBeamOrigins": 30,
+      "beams": {
+        "472942": {
+          "nativeMark": "V1-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.10000000000000002,
+              4.300000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                0.10000000000000009,
+                4.300000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 4.200000000000001,
+            "referenceLengthM": 4.200000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.10000000000000009,
+              4.300000000000001
+            ]
+          ]
+        },
+        "473034": {
+          "nativeMark": "V1-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.10000000000000002,
+              4.300000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                0.10000000000000053,
+                4.300000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 4.2,
+            "referenceLengthM": 4.200000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.10000000000000053,
+              4.300000000000001
+            ]
+          ]
+        },
+        "472978": {
+          "nativeMark": "V10-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.05,
+              6.899999999999999
+            ],
+            "mergedIntervalsM": [
+              [
+                4.050000000000001,
+                6.899999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.849999999999998,
+            "referenceLengthM": 2.8499999999999988,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.050000000000001,
+              6.899999999999999
+            ]
+          ]
+        },
+        "473054": {
+          "nativeMark": "V10-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.05,
+              6.899999999999999
+            ],
+            "mergedIntervalsM": [
+              [
+                4.050000000000001,
+                6.899999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.849999999999998,
+            "referenceLengthM": 2.8499999999999988,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.050000000000001,
+              6.899999999999999
+            ]
+          ]
+        },
+        "472980": {
+          "nativeMark": "V11-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.75
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15,
+                3.75
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.6,
+            "referenceLengthM": 3.6,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15,
+              3.75
+            ]
+          ]
+        },
+        "473056": {
+          "nativeMark": "V11-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.75
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15,
+                3.75
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.6,
+            "referenceLengthM": 3.6,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15,
+              3.75
+            ]
+          ]
+        },
+        "472982": {
+          "nativeMark": "V12-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.05,
+              6.899999999999999
+            ],
+            "mergedIntervalsM": [
+              [
+                4.050000000000001,
+                6.899999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.849999999999998,
+            "referenceLengthM": 2.8499999999999988,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.050000000000001,
+              6.899999999999999
+            ]
+          ]
+        },
+        "473058": {
+          "nativeMark": "V12-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.05,
+              6.899999999999999
+            ],
+            "mergedIntervalsM": [
+              [
+                4.050000000000001,
+                6.899999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.849999999999998,
+            "referenceLengthM": 2.8499999999999988,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.050000000000001,
+              6.899999999999999
+            ]
+          ]
+        },
+        "472984": {
+          "nativeMark": "V13-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.8
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15000000000000013,
+                3.8
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.6499999999999995,
+            "referenceLengthM": 3.65,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15000000000000013,
+              3.8
+            ]
+          ]
+        },
+        "473060": {
+          "nativeMark": "V13-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.8
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15000000000000013,
+                3.8
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.6499999999999995,
+            "referenceLengthM": 3.65,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15000000000000013,
+              3.8
+            ]
+          ]
+        },
+        "472986": {
+          "nativeMark": "V15-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.5,
+              6.450000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                4.5,
+                6.450000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 1.950000000000001,
+            "referenceLengthM": 1.950000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.5,
+              6.450000000000001
+            ]
+          ]
+        },
+        "473802": {
+          "nativeMark": "V16-ESC-PAT",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.5,
+              6.450000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                4.500000000000001,
+                6.450000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 1.9500000000000002,
+            "referenceLengthM": 1.950000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.500000000000001,
+              6.450000000000001
+            ]
+          ]
+        },
+        "472947": {
+          "nativeMark": "V2-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              6.65,
+              9.55
+            ],
+            "mergedIntervalsM": [
+              [
+                6.65,
+                9.549999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.8999999999999986,
+            "referenceLengthM": 2.9000000000000004,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              6.65,
+              9.549999999999999
+            ]
+          ]
+        },
+        "473036": {
+          "nativeMark": "V2-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.5,
+              9.55
+            ],
+            "mergedIntervalsM": [
+              [
+                4.5,
+                9.549999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 5.049999999999999,
+            "referenceLengthM": 5.050000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.5,
+              6.45
+            ],
+            [
+              6.65,
+              9.549999999999999
+            ]
+          ]
+        },
+        "472949": {
+          "nativeMark": "V3-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.10000000000000002,
+              4.300000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                0.10000000000000053,
+                4.300000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 4.2,
+            "referenceLengthM": 4.200000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.10000000000000053,
+              4.300000000000001
+            ]
+          ]
+        },
+        "473038": {
+          "nativeMark": "V3-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.10000000000000002,
+              4.300000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                0.10000000000000053,
+                4.300000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 4.2,
+            "referenceLengthM": 4.200000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.10000000000000053,
+              4.300000000000001
+            ]
+          ]
+        },
+        "472954": {
+          "nativeMark": "V4A-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.5,
+              6.4
+            ],
+            "mergedIntervalsM": [
+              [
+                4.5,
+                6.4
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 1.9000000000000004,
+            "referenceLengthM": 1.9000000000000004,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.5,
+              6.4
+            ]
+          ]
+        },
+        "473040": {
+          "nativeMark": "V4A-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.5,
+              6.4
+            ],
+            "mergedIntervalsM": [
+              [
+                4.5,
+                6.4
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 1.9000000000000004,
+            "referenceLengthM": 1.9000000000000004,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.5,
+              6.4
+            ]
+          ]
+        },
+        "472959": {
+          "nativeMark": "V4B-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              6.700000000000001,
+              9.55
+            ],
+            "mergedIntervalsM": [
+              [
+                6.700000000000001,
+                9.55
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.8499999999999996,
+            "referenceLengthM": 2.8499999999999996,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              6.700000000000001,
+              9.55
+            ]
+          ]
+        },
+        "473042": {
+          "nativeMark": "V4B-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              6.700000000000001,
+              9.55
+            ],
+            "mergedIntervalsM": [
+              [
+                6.700000000000001,
+                9.55
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.8499999999999996,
+            "referenceLengthM": 2.8499999999999996,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              6.700000000000001,
+              9.55
+            ]
+          ]
+        },
+        "472961": {
+          "nativeMark": "V5-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.10000000000000002,
+              4.300000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                0.10000000000000053,
+                4.300000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 4.2,
+            "referenceLengthM": 4.200000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.10000000000000053,
+              4.300000000000001
+            ]
+          ]
+        },
+        "473044": {
+          "nativeMark": "V5-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.10000000000000002,
+              4.300000000000001
+            ],
+            "mergedIntervalsM": [
+              [
+                0.10000000000000053,
+                4.300000000000001
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 4.2,
+            "referenceLengthM": 4.200000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.10000000000000053,
+              4.300000000000001
+            ]
+          ]
+        },
+        "472963": {
+          "nativeMark": "V6-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.5,
+              9.55
+            ],
+            "mergedIntervalsM": [
+              [
+                4.500000000000001,
+                9.55
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 5.05,
+            "referenceLengthM": 5.050000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.500000000000001,
+              9.55
+            ]
+          ]
+        },
+        "473046": {
+          "nativeMark": "V6-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.5,
+              9.55
+            ],
+            "mergedIntervalsM": [
+              [
+                4.500000000000001,
+                9.55
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 5.05,
+            "referenceLengthM": 5.050000000000001,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.500000000000001,
+              9.55
+            ]
+          ]
+        },
+        "472969": {
+          "nativeMark": "V7-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.75
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15,
+                3.75
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.6,
+            "referenceLengthM": 3.6,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15,
+              3.75
+            ]
+          ]
+        },
+        "473048": {
+          "nativeMark": "V7-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.75
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15,
+                3.75
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.6,
+            "referenceLengthM": 3.6,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15,
+              3.75
+            ]
+          ]
+        },
+        "472974": {
+          "nativeMark": "V8-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.05,
+              6.899999999999999
+            ],
+            "mergedIntervalsM": [
+              [
+                4.050000000000001,
+                6.899999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.849999999999998,
+            "referenceLengthM": 2.8499999999999988,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.050000000000001,
+              6.899999999999999
+            ]
+          ]
+        },
+        "473050": {
+          "nativeMark": "V8-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              4.05,
+              6.899999999999999
+            ],
+            "mergedIntervalsM": [
+              [
+                4.050000000000001,
+                6.899999999999999
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 2.849999999999998,
+            "referenceLengthM": 2.8499999999999988,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              4.050000000000001,
+              6.899999999999999
+            ]
+          ]
+        },
+        "472976": {
+          "nativeMark": "V9-N1",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.75
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15000000000000013,
+                3.75
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.5999999999999996,
+            "referenceLengthM": 3.6,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15000000000000013,
+              3.75
+            ]
+          ]
+        },
+        "473052": {
+          "nativeMark": "V9-N2",
+          "coverageOutsideColumns": {
+            "referenceIntervalM": [
+              0.15,
+              3.75
+            ],
+            "mergedIntervalsM": [
+              [
+                0.15,
+                3.75
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.6,
+            "referenceLengthM": 3.6,
+            "noGapAboveTolerance": true
+          },
+          "observedIntervalsOutsideColumnsM": [
+            [
+              0.15,
+              3.75
+            ]
+          ]
+        }
+      },
+      "columnOrigins": {
+        "472930": {
+          "nativeMark": "P1-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473025": {
+          "nativeMark": "P1-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473097": {
+          "nativeMark": "P10-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473098": {
+          "nativeMark": "P10-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473143": {
+          "nativeMark": "P11-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473144": {
+          "nativeMark": "P11-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472931": {
+          "nativeMark": "P2-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473026": {
+          "nativeMark": "P2-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472932": {
+          "nativeMark": "P3-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473027": {
+          "nativeMark": "P3-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472933": {
+          "nativeMark": "P4-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473028": {
+          "nativeMark": "P4-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472934": {
+          "nativeMark": "P5-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473029": {
+          "nativeMark": "P5-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472935": {
+          "nativeMark": "P6-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473030": {
+          "nativeMark": "P6-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472936": {
+          "nativeMark": "P7-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473031": {
+          "nativeMark": "P7-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472937": {
+          "nativeMark": "P8-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473032": {
+          "nativeMark": "P8-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        },
+        "472938": {
+          "nativeMark": "P9-N1",
+          "coverage": {
+            "referenceIntervalM": [
+              0.20000000000000004,
+              3.2000000000000006
+            ],
+            "mergedIntervalsM": [
+              [
+                0.20000000000000018,
+                3.2
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.0,
+            "referenceLengthM": 3.0000000000000004,
+            "noGapAboveTolerance": true
+          }
+        },
+        "473033": {
+          "nativeMark": "P9-N2",
+          "coverage": {
+            "referenceIntervalM": [
+              3.2000000000000006,
+              6.39
+            ],
+            "mergedIntervalsM": [
+              [
+                3.2000000000000006,
+                6.39
+              ]
+            ],
+            "uncoveredIntervalsM": [],
+            "coveredLengthM": 3.189999999999999,
+            "referenceLengthM": 3.189999999999999,
+            "noGapAboveTolerance": true
+          }
+        }
+      },
+      "beamParts": [
+        {
+          "name": "V1",
+          "guid": "0KG6sXrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              4.500000000000001,
+              6.95,
+              2.6500000000000004
+            ],
+            "maxM": [
+              9.55,
+              7.1499999999999995,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472963,
+            "nativeMark": "V6-N1",
+            "receiverIntervalM": [
+              4.500000000000001,
+              9.55
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": -2.220446049250313e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V1",
+          "guid": "0KG6sdrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              0.10000000000000053,
+              6.95,
+              2.75
+            ],
+            "maxM": [
+              4.300000000000001,
+              7.1499999999999995,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472961,
+            "nativeMark": "V5-N1",
+            "receiverIntervalM": [
+              0.10000000000000053,
+              4.300000000000001
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 1.6653345369377348e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V10",
+          "guid": "0KG6syrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              4.300000000000001,
+              4.050000000000001,
+              2.8500000000000005
+            ],
+            "maxM": [
+              4.5,
+              6.9,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472978,
+            "nativeMark": "V10-N1",
+            "receiverIntervalM": [
+              4.050000000000001,
+              6.9
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": -3.3306690738754696e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V11",
+          "guid": "0KG6tSrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              6.45,
+              0.15000000000000013,
+              2.8
+            ],
+            "maxM": [
+              6.6499999999999995,
+              3.0358,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472984,
+            "nativeMark": "V13-N1",
+            "receiverIntervalM": [
+              0.15000000000000013,
+              3.0358
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 2.7755575615628914e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V11",
+          "guid": "0KG6tQrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              6.45,
+              3.0358000000000005,
+              2.8
+            ],
+            "maxM": [
+              6.6499999999999995,
+              3.8000000000000007,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472984,
+            "nativeMark": "V13-N1",
+            "receiverIntervalM": [
+              3.0358000000000005,
+              3.8000000000000007
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 2.7755575615628914e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V12",
+          "guid": "0KG6smrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              9.55,
+              0.1499999999999999,
+              2.8
+            ],
+            "maxM": [
+              9.75,
+              3.75,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472980,
+            "nativeMark": "V11-N1",
+            "receiverIntervalM": [
+              0.1499999999999999,
+              3.75
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 2.7755575615628914e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V12",
+          "guid": "0KG6s$rliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              9.55,
+              4.050000000000001,
+              2.8500000000000005
+            ],
+            "maxM": [
+              9.75,
+              6.9,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472982,
+            "nativeMark": "V12-N1",
+            "receiverIntervalM": [
+              4.050000000000001,
+              6.9
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": -3.3306690738754696e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V2",
+          "guid": "0KG6sgrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              0.10000000000000053,
+              3.8,
+              2.75
+            ],
+            "maxM": [
+              4.300000000000001,
+              4.0,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472949,
+            "nativeMark": "V3-N1",
+            "receiverIntervalM": [
+              0.10000000000000053,
+              4.300000000000001
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 1.6653345369377348e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V2",
+          "guid": "0KG6t8rliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              4.5,
+              3.8,
+              3.04
+            ],
+            "maxM": [
+              6.4,
+              4.0,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472954,
+            "nativeMark": "V4A-N1",
+            "receiverIntervalM": [
+              4.5,
+              6.4
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 1.3877787807814457e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V3",
+          "guid": "0KG6t5rliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              6.7,
+              3.8,
+              2.9000000000000004
+            ],
+            "maxM": [
+              9.55,
+              4.0,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472959,
+            "nativeMark": "V4B-N1",
+            "receiverIntervalM": [
+              6.7,
+              9.55
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": -1.6653345369377348e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V4",
+          "guid": "0KG6tbrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              4.4,
+              2.9358,
+              3.04
+            ],
+            "maxM": [
+              6.550000000000001,
+              3.1358,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472986,
+            "nativeMark": "V15-N1",
+            "receiverIntervalM": [
+              4.4,
+              6.550000000000001
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 1.3877787807814457e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V5",
+          "guid": "0KG6sjrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              0.10000000000000009,
+              -0.1,
+              2.75
+            ],
+            "maxM": [
+              4.300000000000001,
+              0.1,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472942,
+            "nativeMark": "V1-N1",
+            "receiverIntervalM": [
+              0.10000000000000009,
+              4.300000000000001
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 1.6653345369377348e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V6",
+          "guid": "0KG6sUrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              4.500000000000001,
+              -0.1,
+              1.4740000000000004
+            ],
+            "maxM": [
+              6.450000000000001,
+              0.1,
+              1.7740000000000002
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473802,
+            "nativeMark": "V16-ESC-PAT",
+            "receiverIntervalM": [
+              4.500000000000001,
+              6.450000000000001
+            ],
+            "topDeltaM": -0.0001176470588228895,
+            "heightDeltaM": -1.6653345369377348e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V7",
+          "guid": "0KG6sarliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              6.6499999999999995,
+              -0.1,
+              2.6500000000000004
+            ],
+            "maxM": [
+              9.549999999999999,
+              0.1,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472947,
+            "nativeMark": "V2-N1",
+            "receiverIntervalM": [
+              6.6499999999999995,
+              9.549999999999999
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": -2.220446049250313e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V8",
+          "guid": "0KG6sprliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              -0.1,
+              0.1499999999999999,
+              2.8
+            ],
+            "maxM": [
+              0.1,
+              3.75,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472969,
+            "nativeMark": "V7-N1",
+            "receiverIntervalM": [
+              0.1499999999999999,
+              3.75
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 2.7755575615628914e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V8",
+          "guid": "0KG6t2rliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              -0.1,
+              4.050000000000001,
+              2.8500000000000005
+            ],
+            "maxM": [
+              0.1,
+              6.9,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472974,
+            "nativeMark": "V8-N1",
+            "receiverIntervalM": [
+              4.050000000000001,
+              6.9
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": -3.3306690738754696e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V9",
+          "guid": "0KG6tFrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              4.300000000000001,
+              0.15000000000000013,
+              2.8
+            ],
+            "maxM": [
+              4.5,
+              3.0358,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472976,
+            "nativeMark": "V9-N1",
+            "receiverIntervalM": [
+              0.15000000000000013,
+              3.0358
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 2.7755575615628914e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V9",
+          "guid": "0KG6tDrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              4.300000000000001,
+              3.0358000000000005,
+              2.8
+            ],
+            "maxM": [
+              4.5,
+              3.7500000000000004,
+              3.2
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 472976,
+            "nativeMark": "V9-N1",
+            "receiverIntervalM": [
+              3.0358000000000005,
+              3.7500000000000004
+            ],
+            "topDeltaM": -4.440892098500626e-16,
+            "heightDeltaM": 2.7755575615628914e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V1",
+          "guid": "0KG6terliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              0.10000000000000053,
+              6.95,
+              6.09
+            ],
+            "maxM": [
+              4.300000000000001,
+              7.1499999999999995,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473044,
+            "nativeMark": "V5-N2",
+            "receiverIntervalM": [
+              0.10000000000000053,
+              4.300000000000001
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V1",
+          "guid": "0KG6tkrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              4.500000000000001,
+              6.95,
+              6.09
+            ],
+            "maxM": [
+              9.55,
+              7.1499999999999995,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473046,
+            "nativeMark": "V6-N2",
+            "receiverIntervalM": [
+              4.500000000000001,
+              9.55
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V2",
+          "guid": "0KG6tnrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              0.10000000000000053,
+              3.8,
+              6.09
+            ],
+            "maxM": [
+              4.300000000000001,
+              4.0,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473038,
+            "nativeMark": "V3-N2",
+            "receiverIntervalM": [
+              0.10000000000000053,
+              4.300000000000001
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V2",
+          "guid": "0KG6ttrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              4.5,
+              3.8,
+              6.09
+            ],
+            "maxM": [
+              6.4,
+              4.0,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473040,
+            "nativeMark": "V4A-N2",
+            "receiverIntervalM": [
+              4.5,
+              6.4
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V3",
+          "guid": "0KG6twrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              6.7,
+              3.8,
+              6.09
+            ],
+            "maxM": [
+              9.55,
+              4.0,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473042,
+            "nativeMark": "V4B-N2",
+            "receiverIntervalM": [
+              6.7,
+              9.55
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": 1.3877787807814457e-16
+          }
+        },
+        {
+          "name": "V4",
+          "guid": "0KG6u6rliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              0.10000000000000053,
+              -0.1,
+              6.09
+            ],
+            "maxM": [
+              4.300000000000001,
+              0.1,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473034,
+            "nativeMark": "V1-N2",
+            "receiverIntervalM": [
+              0.10000000000000053,
+              4.300000000000001
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V4",
+          "guid": "0KG6wBrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              4.5,
+              -0.1,
+              6.09
+            ],
+            "maxM": [
+              6.45,
+              0.1,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473036,
+            "nativeMark": "V2-N2",
+            "receiverIntervalM": [
+              4.5,
+              6.45
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V4",
+          "guid": "0KG6w5rliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              6.649999999999999,
+              -0.1,
+              6.09
+            ],
+            "maxM": [
+              9.549999999999999,
+              0.1,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473036,
+            "nativeMark": "V2-N2",
+            "receiverIntervalM": [
+              6.649999999999999,
+              9.549999999999999
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V5",
+          "guid": "0KG6u3rliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              -0.1,
+              0.1499999999999999,
+              6.09
+            ],
+            "maxM": [
+              0.1,
+              3.75,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473048,
+            "nativeMark": "V7-N2",
+            "receiverIntervalM": [
+              0.1499999999999999,
+              3.75
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V6",
+          "guid": "0KG6thrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              -0.1,
+              4.050000000000001,
+              6.09
+            ],
+            "maxM": [
+              0.1,
+              6.9,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473050,
+            "nativeMark": "V8-N2",
+            "receiverIntervalM": [
+              4.050000000000001,
+              6.9
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -2.7755575615628914e-17
+          }
+        },
+        {
+          "name": "V7",
+          "guid": "0KG6tqrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              4.300000000000001,
+              4.050000000000001,
+              6.09
+            ],
+            "maxM": [
+              4.5,
+              6.9,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473054,
+            "nativeMark": "V10-N2",
+            "receiverIntervalM": [
+              4.050000000000001,
+              6.9
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V7",
+          "guid": "0KG6u9rliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              4.300000000000001,
+              0.1499999999999999,
+              6.09
+            ],
+            "maxM": [
+              4.5,
+              3.75,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473052,
+            "nativeMark": "V9-N2",
+            "receiverIntervalM": [
+              0.1499999999999999,
+              3.75
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V8",
+          "guid": "0KG6uFrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              6.45,
+              0.15000000000000013,
+              6.09
+            ],
+            "maxM": [
+              6.6499999999999995,
+              3.8,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473060,
+            "nativeMark": "V13-N2",
+            "receiverIntervalM": [
+              0.15000000000000013,
+              3.8
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V9",
+          "guid": "0KG6tzrliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              9.55,
+              4.050000000000001,
+              6.09
+            ],
+            "maxM": [
+              9.75,
+              6.9,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473058,
+            "nativeMark": "V12-N2",
+            "receiverIntervalM": [
+              4.050000000000001,
+              6.9
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        },
+        {
+          "name": "V9",
+          "guid": "0KG6u0rliHyOyDa4iZOUxp",
+          "geometry": {
+            "minM": [
+              9.55,
+              0.1499999999999999,
+              6.09
+            ],
+            "maxM": [
+              9.75,
+              3.75,
+              6.390000000000001
+            ],
+            "vertices": 8,
+            "triangles": 12,
+            "rectangularClosedMeshVerified": true
+          },
+          "origin": {
+            "nativeId": 473056,
+            "nativeMark": "V11-N2",
+            "receiverIntervalM": [
+              0.1499999999999999,
+              3.75
+            ],
+            "topDeltaM": 8.881784197001252e-16,
+            "heightDeltaM": 7.216449660063518e-16,
+            "widthDeltaM": -7.494005416219807e-16
+          }
+        }
+      ]
+    }
+  },
+  "beamComparison": [
+    {
+      "nativeId": 472942,
+      "nativeMark": "V1-N1",
+      "cadIntervalsM": [
+        [
+          0.10000000000000009,
+          4.300000000000001
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          0.10000000000000009,
+          4.300000000000001
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 473034,
+      "nativeMark": "V1-N2",
+      "cadIntervalsM": [
+        [
+          0.10000000000000002,
+          4.300000000000001
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          0.10000000000000053,
+          4.300000000000001
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 472978,
+      "nativeMark": "V10-N1",
+      "cadIntervalsM": [
+        [
+          4.050000000000001,
+          6.899999999999999
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          4.050000000000001,
+          6.899999999999999
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 473054,
+      "nativeMark": "V10-N2",
+      "cadIntervalsM": [
+        [
+          4.050000000000001,
+          6.899999999999999
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          4.050000000000001,
+          6.899999999999999
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 472980,
+      "nativeMark": "V11-N1",
+      "cadIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 473056,
+      "nativeMark": "V11-N2",
+      "cadIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 472982,
+      "nativeMark": "V12-N1",
+      "cadIntervalsM": [
+        [
+          4.050000000000001,
+          6.899999999999999
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          4.050000000000001,
+          6.899999999999999
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 473058,
+      "nativeMark": "V12-N2",
+      "cadIntervalsM": [
+        [
+          4.050000000000001,
+          6.899999999999999
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          4.050000000000001,
+          6.899999999999999
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 472984,
+      "nativeMark": "V13-N1",
+      "cadIntervalsM": [
+        [
+          0.15000000000000013,
+          3.8
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          0.15000000000000013,
+          3.8
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 473060,
+      "nativeMark": "V13-N2",
+      "cadIntervalsM": [
+        [
+          0.15000000000000013,
+          3.8
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          0.15000000000000013,
+          3.8
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 472986,
+      "nativeMark": "V15-N1",
+      "cadIntervalsM": [
+        [
+          4.5,
+          6.450000000000001
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          4.5,
+          6.450000000000001
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 473802,
+      "nativeMark": "V16-ESC-PAT",
+      "cadIntervalsM": [
+        [
+          4.500000000000001,
+          6.450000000000001
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          4.500000000000001,
+          6.450000000000001
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 472947,
+      "nativeMark": "V2-N1",
+      "cadIntervalsM": [
+        [
+          6.65,
+          9.549999999999999
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          6.65,
+          9.549999999999999
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 473036,
+      "nativeMark": "V2-N2",
+      "cadIntervalsM": [
+        [
+          4.5,
+          6.45
+        ],
+        [
+          6.65,
+          9.549999999999999
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          4.5,
+          6.45
+        ],
+        [
+          6.65,
+          9.549999999999999
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 472949,
+      "nativeMark": "V3-N1",
+      "cadIntervalsM": [
+        [
+          0.10000000000000009,
+          4.300000000000001
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          0.10000000000000053,
+          4.300000000000001
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 473038,
+      "nativeMark": "V3-N2",
+      "cadIntervalsM": [
+        [
+          0.10000000000000002,
+          4.300000000000001
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          0.10000000000000053,
+          4.300000000000001
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 472954,
+      "nativeMark": "V4A-N1",
+      "cadIntervalsM": [
+        [
+          4.5,
+          6.4
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          4.5,
+          6.4
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 473040,
+      "nativeMark": "V4A-N2",
+      "cadIntervalsM": [
+        [
+          4.5,
+          6.3999999999999995
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          4.5,
+          6.4
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 472959,
+      "nativeMark": "V4B-N1",
+      "cadIntervalsM": [
+        [
+          6.700000000000001,
+          9.55
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          6.700000000000001,
+          9.55
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 473042,
+      "nativeMark": "V4B-N2",
+      "cadIntervalsM": [
+        [
+          6.700000000000001,
+          9.55
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          6.700000000000001,
+          9.55
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 472961,
+      "nativeMark": "V5-N1",
+      "cadIntervalsM": [
+        [
+          0.10000000000000009,
+          4.300000000000001
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          0.10000000000000053,
+          4.300000000000001
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 473044,
+      "nativeMark": "V5-N2",
+      "cadIntervalsM": [
+        [
+          0.10000000000000002,
+          4.300000000000001
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          0.10000000000000053,
+          4.300000000000001
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 472963,
+      "nativeMark": "V6-N1",
+      "cadIntervalsM": [
+        [
+          4.5,
+          9.55
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          4.500000000000001,
+          9.55
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 473046,
+      "nativeMark": "V6-N2",
+      "cadIntervalsM": [
+        [
+          4.5,
+          9.55
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          4.500000000000001,
+          9.55
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 472969,
+      "nativeMark": "V7-N1",
+      "cadIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 473048,
+      "nativeMark": "V7-N2",
+      "cadIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 472974,
+      "nativeMark": "V8-N1",
+      "cadIntervalsM": [
+        [
+          4.050000000000001,
+          6.899999999999999
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          4.050000000000001,
+          6.899999999999999
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 473050,
+      "nativeMark": "V8-N2",
+      "cadIntervalsM": [
+        [
+          4.050000000000001,
+          6.899999999999999
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          4.050000000000001,
+          6.899999999999999
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 472976,
+      "nativeMark": "V9-N1",
+      "cadIntervalsM": [
+        [
+          0.15000000000000013,
+          3.75
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          0.15000000000000013,
+          3.75
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    },
+    {
+      "nativeId": 473052,
+      "nativeMark": "V9-N2",
+      "cadIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "bimIntervalsM": [
+        [
+          0.15,
+          3.75
+        ]
+      ],
+      "projectionOutsideColumnsEqualWithinTolerance": true,
+      "cadCovered": true,
+      "bimCovered": true
+    }
+  ]
+}

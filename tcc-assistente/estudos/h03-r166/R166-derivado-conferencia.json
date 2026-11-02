@@ -1,0 +1,447 @@
+{
+  "revision": "H03/R166",
+  "recordedAtUtc": "2026-11-02T20:19:09.318046+00:00",
+  "sourcePath": "D:\\TCC\\outputs\\Intercambio-H03-R164-CONTINUIDADE-PILARES-NAO-EXECUTAR\\H03-R160-R164-DERIVADO-VIGAS-E-4-PILARES-NAO-EXECUTAR.ifc",
+  "sourceSha256": "c3ef584960752b7a21341aa6388797b56bbdbeceb4844b85d981a84dc55e0218",
+  "targetPath": "D:\\TCC\\outputs\\Intercambio-H03-R166-NIVEIS-ESTRUTURAIS-NAO-EXECUTAR\\H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ifc",
+  "targetSha256": "e38ebc0724980f8f6052f40d8c368bebaef3195c4b22a5cfc43f75ed6c6bf6b7",
+  "sourceUnchanged": true,
+  "notNativeRevitExport": true,
+  "nativeProjectsNotEdited": true,
+  "levelsBefore": [
+    {
+      "guid": "1qv6ynVKX7xf87anS8vNi1",
+      "name": "Nível 1",
+      "elevationRaw": 0.0
+    },
+    {
+      "guid": "1ltUz0oN12IOfJpAa5zY0Q",
+      "name": "TCC-R159-BASE-VIRTUAL-017-APOIO-PENDENTE",
+      "elevationRaw": 170.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjY",
+      "name": "TCC-7a6267fd-N0",
+      "elevationRaw": 200.0
+    },
+    {
+      "guid": "2ly85bGgDD_A2mXtRkdMs9",
+      "name": "TCC-R155-PISO-ACABADO-022",
+      "elevationRaw": 220.0
+    },
+    {
+      "guid": "1ltUz0oN12IOfJpAa5zY0J",
+      "name": "TCC-R159-PATAMAR-CONCRETO",
+      "elevationRaw": 1774.1176470588232
+    },
+    {
+      "guid": "1qv6ynVKX7xf87anS8vN2n",
+      "name": "Nível 2",
+      "elevationRaw": 3000.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjX",
+      "name": "TCC-7a6267fd-N1",
+      "elevationRaw": 3200.0
+    },
+    {
+      "guid": "2ly85bGgDD_A2mXtRkdMs8",
+      "name": "TCC-R155-PISO-ACABADO-325",
+      "elevationRaw": 3249.9999999999995
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjW",
+      "name": "TCC-7a6267fd-N2",
+      "elevationRaw": 6389.999999999999
+    }
+  ],
+  "levelsAfter": [
+    {
+      "guid": "13FVx86UH85RTcavq9tVjY",
+      "name": "TCC-7a6267fd-N0",
+      "elevationRaw": 200.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjX",
+      "name": "TCC-7a6267fd-N1",
+      "elevationRaw": 3200.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjW",
+      "name": "TCC-7a6267fd-N2",
+      "elevationRaw": 6389.999999999999
+    }
+  ],
+  "remappedContainers": [
+    {
+      "guid": "1ltUz0oN12IOfJpAa5zY0R",
+      "tag": "473807",
+      "ifcClass": "IfcStair",
+      "oldContainer": "TCC-R159-BASE-VIRTUAL-017-APOIO-PENDENTE",
+      "newContainer": "TCC-7a6267fd-N0"
+    },
+    {
+      "guid": "1ltUz0oN12IOfJpAa5zY0U",
+      "tag": "473802",
+      "ifcClass": "IfcBeam",
+      "oldContainer": "TCC-R159-PATAMAR-CONCRETO",
+      "newContainer": "TCC-7a6267fd-N1"
+    }
+  ],
+  "worldMeshedElementCount": 68,
+  "worldGeometriesPreserved": true,
+  "elementIdentitiesPropertiesMaterialsPreserved": true,
+  "schemaIssuesBefore": [],
+  "schemaIssuesAfter": [],
+  "landingBeamAssignedToN1WithWorldTopM": 1.7741176470588231,
+  "landingBeamReceiverElevationNotYetVerified": true,
+  "stairVirtualBaseRemainsWorldZ017": true,
+  "stairLowerSupportNotResolved": true,
+  "materialMechanicalPropertiesNotRepaired": true,
+  "receiverImportPerformed": false,
+  "structuralApproval": false,
+  "elapsedScriptMs": 1917.6357999967877,
+  "elapsedIsNotFullBimFlow": true,
+  "geometryComparisons": [
+    {
+      "guid": "13FVx86UH85RTcavq9tVjH",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjC",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjA",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVj5",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVj0",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVk_",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVky",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVks",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVkn",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVkl",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVkj",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVkh",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVkf",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVkd",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVkb",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlr",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlp",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVln",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVll",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlj",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlh",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlf",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVld",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlb",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlZ",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlX",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlV",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlT",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlR",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "1ltUz0oN12IOfJpAa5zY0U",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjT",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjS",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjR",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjQ",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjP",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjO",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjN",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjM",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVjL",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVl_",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlz",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVly",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlx",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlw",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlv",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlu",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlt",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVls",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVGs",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVGr",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVG8",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVG7",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "1ltUz0oN12IOfJpAa5zY6U",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "1ltUz0oN12IOfJpAa5zY6Q",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVkV",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVkO",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVkH",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVkA",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVk3",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlN",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVlG",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVl9",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVl2",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVGx",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "13FVx86UH85RTcavq9tVG4",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "1ltUz0oN12IOfJpAa5zY7j",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "1ltUz0oN12IOfJpAa5zY0r",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    },
+    {
+      "guid": "1ltUz0oN12IOfJpAa5zY76",
+      "pointCloudPreserved": true,
+      "maxBoxDeltaM": 0.0
+    }
+  ]
+}
