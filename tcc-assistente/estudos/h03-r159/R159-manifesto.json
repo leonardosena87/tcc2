@@ -5,7 +5,15 @@
   },
   {
     "path": ".gitignore",
-    "sha256": "6604a69155d022bf77e840b84fd23b395b96d53cc0b5575bdaf4599534f12759"
+    "sha256": "ebaa9ccc6ab3d049b33c5e9ccfa14a15be1ed4b299a08506bdcc5dd6af0e7f98"
+  },
+  {
+    "path": "auditar_ifc.py",
+    "sha256": "0e2970dc337fe9108cd1dbab2c52f42a9d2105660d2769784d038f451a7de6bb"
+  },
+  {
+    "path": "auditar_receptor_bruto.py",
+    "sha256": "25c906b2919daad746e3618ada7c7fbe96b83f9a18246f4edac06eafe4b3448d"
   },
   {
     "path": "CAD-retomada-fim.json",
@@ -25,11 +33,11 @@
   },
   {
     "path": "CONTINUAR-AQUI-H03-2026-11-02.md",
-    "sha256": "2c0d5e960a552f869fb339ea2df082e0b9cac18a5242fc4780a96fe0b3fd7ee3"
+    "sha256": "f861a2501f1b46c141a11ee4c7ba48d8ccddb637d4c86b089d0841dbbad523fe"
   },
   {
     "path": "LEIA-ME-R159.md",
-    "sha256": "92fa7ee22f6d890b3076e3864c9f139c3de4dc0e971d63e3e275f87b94ad7e2e"
+    "sha256": "b1ce5c6cb98348165805fd5598db77e7415eea1b5ede4506cb3e6c1eda436f98"
   },
   {
     "path": "preparar.py",
@@ -52,8 +60,16 @@
     "sha256": "3a094369a8ddae4b1f8a6d2025fc8aba83050a5bb4cf4c1774e60afefd581e65"
   },
   {
+    "path": "R159-apontador-antes-IFC.json",
+    "sha256": "f0b9ac6a30105c4b8a1452a4f23111c337d4d703d2abef23c7edbff00b331f1f"
+  },
+  {
     "path": "R159-apontador-antes-releitura.json",
     "sha256": "f829cc2a6357ead541ca0086004ef30ae8c3aa71fe98359fb6e5742bc83bdf6e"
+  },
+  {
+    "path": "R159-apontador-apos-IFC.json",
+    "sha256": "aaf9b958849fda05aa2bc8edf5878cf3236701a6aa55c57dad67e549f327f5d5"
   },
   {
     "path": "R159-apontador-apos-releitura.json",
@@ -136,6 +152,10 @@
     "sha256": "785a070ef626fc4e6cbf2011ca67d483a0605872514f1122a57ad2fae1a604d5"
   },
   {
+    "path": "R159-configuracao-IFC-releitura-nativa.json",
+    "sha256": "17f64c21381f870cd7446871f83ca1fc3d4dc8c1de470d86be6bcac164db8ee0"
+  },
+  {
     "path": "R159-correcao-largura-croqui.json",
     "sha256": "2d7b275bba5f288464ab8d2edeaba1ff4d6c2233262ecfe9e31a2891a841e846"
   },
@@ -146,6 +166,42 @@
   {
     "path": "R159-criacao-nativa.json",
     "sha256": "6af83d4fc5ac894bb99b8be5ddcd6318ac442d5fc7f5978d46a45f87a2b9eebc"
+  },
+  {
+    "path": "R159-Eberick-assistente-niveis-brutos.png",
+    "sha256": "33704dd22a8ad9a8c698aa44a6304117eb1a25c9f679928ae8f521f8b3107c45"
+  },
+  {
+    "path": "R159-Eberick-aviso-retangular.png",
+    "sha256": "d46eec834628044c6c97df53d5af7a6cbb4de0ac2e7b3832b1690f2f39a3f687"
+  },
+  {
+    "path": "R159-Eberick-exportacao-completa.png",
+    "sha256": "f69c175f031f1274c3ec10a05ef111e5df10c16e5492fb30db1c4b3758fbc1ea"
+  },
+  {
+    "path": "R159-Eberick-exportacao-observacao.json",
+    "sha256": "7f94f9977e8046e0e685bb761e3ec5d3c5c107aace5bf46deca00c5db5fd13c9"
+  },
+  {
+    "path": "R159-Eberick-importar-pilares-vigas-confirmado.png",
+    "sha256": "189997494e595cb61888cc4132c2a6b70d951aa353e6ad88289e9a2e28ffd9f1"
+  },
+  {
+    "path": "R159-Eberick-opcoes-IFC4.png",
+    "sha256": "0e6dc872aa91ab04010d4385b6dce88b5cd9e55eca36471197055c849d607327"
+  },
+  {
+    "path": "R159-Eberick-portico-com-referencia-externa.png",
+    "sha256": "d6d03d05d1cb58974fa0b89662951993f2381f3603be4a6951fce5087ae12da4"
+  },
+  {
+    "path": "R159-Eberick-recepcao-auditoria.json",
+    "sha256": "904f146f9cf7811b1a6cd4eae84cdbba40a950e8e39086ff1e084f72ea128db2"
+  },
+  {
+    "path": "R159-Eberick-recepcao-observacao.json",
+    "sha256": "282db6c8461ee97333da73a05896b2a5c48ff76b004e6b86e51c1294743481ff"
   },
   {
     "path": "R159-falha-20261102-123531.json",
@@ -166,6 +222,26 @@
   {
     "path": "R159-formas-CAD-geradas.json",
     "sha256": "286f8611934d18cb7f32be64f5cc8099406c4e165cc206566dca3869c9aa6f86"
+  },
+  {
+    "path": "R159-IFC-auditoria.json",
+    "sha256": "509f80f40cda609de579d93ab28a14e0a0bd78b2a83526d988877886459e5aa2"
+  },
+  {
+    "path": "R159-IFC-E-RECEPCAO.md",
+    "sha256": "259ebd04d8f588c9fac8d29c1e36cb6ec2050a9391dd5686bbe6f4bd26588d0a"
+  },
+  {
+    "path": "R159-IFC-exportacao-inicio.json",
+    "sha256": "c840ea4e7ed6fa88756b07a62d261531e9c24252a1649121f1761465bb475591"
+  },
+  {
+    "path": "R159-IFC-exportacao-observacao.json",
+    "sha256": "93c0a382d1bea16c72ab8738b92fba61d90d020a629b650076534b9a631b784c"
+  },
+  {
+    "path": "R159-IFC-preparo-inicio.json",
+    "sha256": "dbeebd1660ddb1ef528289ebda5a130a907ebf5f4ca7f7da7a2d8d9f54cf078e"
   },
   {
     "path": "R159-inicio-comando.json",
@@ -212,6 +288,10 @@
     "sha256": "ccce5b464d78b76cbf46984f62cb55f7e42bf1868376e9c4dd26810548ea294d"
   },
   {
+    "path": "R159-receptor-bruto-congelamento.json",
+    "sha256": "385f0902414c77f2144247860dfad1980072df26c1e6659d7d56542f023c7365"
+  },
+  {
     "path": "R159-releitura-nativa-20261102-134930.json",
     "sha256": "75a2aed8229259873b540c60db01473cf37070df88069f35e3097fc7d7e50e6d"
   },
@@ -252,6 +332,10 @@
     "sha256": "71467edd27957c60b8e87abb72af32936416aef6abf2c7f37490c6728af4079b"
   },
   {
+    "path": "R159-validacao-IFC-recepcao.json",
+    "sha256": "32c4b1615b66494921803365027a65f1cda56aa2438f15699dcb5d3adc8d5493"
+  },
+  {
     "path": "R159-validacao-nativa.json",
     "sha256": "843321255d38b38215cf3f1da66915eee42f47f7aa110c7c0e952e924ac0cf91"
   },
@@ -270,6 +354,14 @@
   {
     "path": "TccAssistente.StairSupport.addin",
     "sha256": "9e20317907ae6ee5a44ce6ddbfdf7e1c727e6e2ae180ab097c7194fd9038f718"
+  },
+  {
+    "path": "test_auditar_ifc.py",
+    "sha256": "15f96176c6c9b8740b176239b99066b7a2b361355958397d80fa8236f3a137b6"
+  },
+  {
+    "path": "test_receptor_bruto.py",
+    "sha256": "90fbcf94534f72e7b8722658ada6f7b855c0d38865987bc29362d9487e4caf2e"
   },
   {
     "path": "test_verificar_cad.py",

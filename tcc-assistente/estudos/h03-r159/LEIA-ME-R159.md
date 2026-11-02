@@ -1,6 +1,6 @@
 # H03/R159 — implantação do candidato com viga no patamar
 
-**Estado atualizado:** a viga e os dois pilares laterais foram criados e salvos no Revit. O RVT foi fechado, reaberto e relido pelo comando somente leitura; o relatório coincidiu integralmente com a leitura da criação. Confirmaram-se 65 elementos estruturais (24 segmentos de pilares, 30 vigas e 11 lajes), preservação lógica dos 60 elementos retidos e escada nativa de 17 espelhos, em 9+8. As plantas CAD descritas abaixo também têm retorno nativo conferido. A exportação/recepção IFC, o lançamento no Eberick e a aprovação estrutural permanecem pendentes.
+**Estado atualizado:** a viga e os dois pilares laterais foram criados e salvos no Revit. O RVT foi fechado, reaberto e relido pelo comando somente leitura; o relatório coincidiu integralmente com a leitura da criação. Confirmaram-se 65 elementos estruturais (24 segmentos de pilares, 30 vigas e 11 lajes), preservação lógica dos 60 elementos retidos e escada nativa de 17 espelhos, em 9+8. As plantas CAD descritas abaixo também têm retorno nativo conferido. A exportação IFC e uma recepção experimental bruta no Eberick foram concluídas e auditadas; há diferenças e complementações pendentes. Ver `R159-IFC-E-RECEPCAO.md`. O lançamento resistente completo e a aprovação estrutural permanecem pendentes.
 
 O relatório nativo de interferências após reabrir apresentou um único par: escada ID 473807 com V16-ESC-PAT ID 473802. O contato é compatível com a posição geométrica candidata do apoio, mas não comprova continuidade, engaste ou transferência de reações. Não se classificou automaticamente esse par como erro. Os cinco pares da R157 não reapareceram nessa verificação entre as mesmas categorias; isso não representa índice de produtividade ou redução comprovada de defeitos, pois a geometria e a representação do acabamento foram revistas. Mantém-se pendente a compatibilização completa.
 
@@ -42,6 +42,8 @@ A escada usa acabamento hipotético constante de 5 cm, referência virtual infer
 
 ## Recepção no Eberick e igualdade dos fluxos
 
+**Atualização posterior:** o ensaio bruto foi criado e auditado. O parágrafo seguinte preserva o estado anterior; o estado corrente, as 54 origens importadas e as divergências de materiais/geometria estão em `R159-IFC-E-RECEPCAO.md`. Os receptores principais CAD/BIM continuam sem incorporar a revisão completa.
+
 As novas plantas ainda não foram incorporadas aos receptores CAD/BIM do Eberick. Um DWG/DXF fornece referência gráfica; não se afirmou que seus XDATA sejam convertidos automaticamente em material ou objetos de cálculo. A exportação IFC e sua recepção também permanecem pendentes. O estudo deve registrar em cada receptor o que efetivamente chegou, o que exigiu relançamento e o tempo correspondente.
 
 No [procedimento oficial de nível intermediário da AltoQi](https://suporte.altoqi.com.br/hc/pt-br/articles/115002186654), a inserção ocorre a partir do pavimento superior e a altura é medida desde o pavimento inferior. Com N0=+0,20 m e patamar de concreto=+1,774118 m, a diferença geométrica candidata é de 1,574118 m. Esse valor não autoriza modificar níveis sem conferir a convenção e os vínculos das duas cópias. A própria documentação distingue os pilares passantes e sua continuidade; não se deve duplicá-los como novos pilares independentes por constarem no desenho de contexto.
@@ -54,7 +56,7 @@ A retomada da conferência do desenho CAD parcial durou 133.299,75 ms (2 min 13,
 
 Esses valores são medições de desenvolvimento e conferência parcial. Não estabelecem vantagem de CAD ou BIM, pois não constituem ensaio pareado completo. O registro distingue a falha do suplemento, a correção do código, a intervenção humana de confiança, as esperas e a navegação. Não há telemetria de tempo de inferência, tokens ou custo de IA para atribuir valores a essas categorias.
 
-Executou-se a suíte existente de `tcc-assistente`: 81 testes aprovados, nenhum reprovado ou ignorado. Executaram-se também cinco testes do comparador de retorno CAD, incluindo rejeição de face ausente, vértice deslocado, contorno cruzado e camada alterada. Os testes automatizados não acionaram cálculo estrutural, inferência paga ou uma sessão real do Word. A gravação/reabertura no AutoCAD foi uma verificação nativa separada; o comando Revit corrigido ainda aguarda verificação nativa.
+Executou-se a suíte existente de `tcc-assistente`: 81 testes aprovados, nenhum reprovado ou ignorado. Executaram-se também cinco testes do comparador de retorno CAD, incluindo rejeição de face ausente, vértice deslocado, contorno cruzado e camada alterada. Os testes automatizados não acionaram cálculo estrutural, inferência paga ou uma sessão real do Word. A gravação/reabertura no AutoCAD foi uma verificação nativa separada; o comando Revit corrigido foi posteriormente aplicado, salvo e relido após reabertura. A exportação e recepção bruta também foram conferidas em etapa posterior, com oito novos testes dos auditores. As afirmações de pendência anteriores são históricas.
 
 ## Retomada
 
