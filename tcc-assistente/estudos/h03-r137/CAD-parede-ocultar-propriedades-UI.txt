@@ -1,0 +1,212 @@
+Window: "AltoQi Eberick 2025 Infinity - [60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		45943 diálogo (disabled) Níveis Secondary Actions: Raise
+			46123 diálogo Propriedades do nível Secondary Actions: Raise
+				46124 text Nome ID: 101
+				46125 editar (settable, string) Nome Value: CR-Paredes ID: 102
+				46126 text Cor ID: 103
+				46127 caixa de combinação (settable, string) Cor Value: ???? ID: 104
+					46128 text (settable, string) Cor Value: ????
+					46129 botão Abrir ID: DropDown
+				46130 text Cor de impressão ID: 105
+				46131 caixa de combinação (settable, string) Cor de impressão Value: ???? ID: 106
+					46132 text (settable, string) Cor de impressão Value: ????
+					46133 botão Abrir ID: DropDown
+				46134 text Linha ID: 107
+				46135 caixa de combinação (settable, string) Linha ID: 108
+					46136 text Linha
+					46137 botão Abrir ID: DropDown
+				46138 caixa de seleção Visível ID: 109
+				46139 caixa de seleção Ativo ID: 110
+				46140 botão OK ID: 1
+				46141 botão Cancelar ID: 2
+				46142 botão Ajuda ID: 9
+				46143 barra de título (settable, string) Value: Propriedades do nível
+			45944 text
+			45945 text Nome
+			45946 text Cor ID: 102
+			45947 text Cor de impressão ID: 103
+			45948 text Tipo da linha
+			45949 text Visível
+			45950 text Ativo
+			45951 Lista Ativo ID: 101
+				45952 item de lista (selectable)
+				45953 item de lista (selectable)
+				45954 item de lista (selectable)
+				45955 item de lista (selectable)
+				45956 item de lista (selectable)
+				45957 item de lista (selectable)
+				45958 item de lista (selectable)
+				45959 item de lista (selectable)
+				45960 item de lista (selectable)
+			45961 text Nível atual da janela corrente
+			45962 caixa de combinação (settable, string) Nível atual da janela corrente Value: 0 ID: 107
+				45963 text (settable, string) Nível atual da janela corrente Value: 0
+				45964 botão Abrir ID: DropDown
+			45965 botão (disabled) Novo... ID: 104
+			45966 botão (disabled) Excluir... ID: 105
+			45967 botão Propriedades... ID: 106
+			45968 botão Gravar perfil... ID: 108
+			45969 grupo Visualizar
+			45970 botão de opção (selectable) Todos ID: 109
+			45971 botão de opção (selectable) Em uso na janela ID: 110
+			45972 botão OK ID: 1
+			45973 botão Cancelar ID: 2
+			45974 botão Ajuda ID: 9
+			45975 barra de título (settable, string) Value: Níveis
+		1 Barra de status
+			46193 custom
+				46194 text Comando
+				46195 editar (settable, string)
+				46196 text 801.3,205.6
+				46197 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					46198 Lista
+						46199 item de lista (selectable) 1:1
+						46200 item de lista (selectable) 1:2
+						46201 item de lista (selectable) 1:5
+						46202 item de lista (selectable) 1:10
+						46203 item de lista (selectable) 1:12.5
+						46204 item de lista (selectable) 1:15
+						46205 item de lista (selectable) 1:20
+						46206 item de lista (selectable) 1:25
+						46207 item de lista (selectable) 1:30
+						46208 item de lista (selectable) 1:40
+						46209 item de lista (selectable) 1:50
+						46210 item de lista (selectable) 1:60
+						46211 item de lista (selectable) 1:75
+						46212 item de lista (selectable) 1:100
+						46213 item de lista (selectable) 1:200
+						46214 item de lista (selectable) 1:250
+						46215 item de lista (selectable) 1:500
+						46216 item de lista (selectable) 1:1000
+			46217 botão Atualizar
+			46218 botão Enquadrar
+			46219 botão Aproximar
+			46220 botão Afastar
+			46221 botão Zoom
+			46222 botão Zoom anterior
+			46223 botão Deslocar
+			46224 caixa de seleção Ortogonal
+			46225 caixa de seleção Captura personalizada
+			46226 botão Opções da captura personalizada
+			46227 caixa de seleção Quadrante
+			46228 caixa de seleção Centro
+			46229 caixa de seleção Ponto médio
+			46230 caixa de seleção Extremidade
+			46231 caixa de seleção Ponto no elemento
+			46232 caixa de seleção Intersecção
+			46233 caixa de seleção Perpendicular
+			46234 caixa de seleção Ponto intermediário
+			46235 caixa de seleção Ponto quadrante
+			46236 caixa de seleção Ponto na intersecção
+			46237 caixa de seleção Ponto relativo
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Croqui-N1
+						46238 item de tabulação (selectable) Notícias
+						46239 item de tabulação (selectable) Croqui-N1
+					8 painel
+						36357 painel
+							36358 painel Croqui-N1
+								36359 painel TCadPlotWindow
+				31 painel
+					32 tabulação
+						46240 item de tabulação (selectable)
+						46241 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									39 painel
+									36294 árvore ID: 101
+										36295 item da árvore (selectable, disabled) Pavimentos
+											36296 item da árvore (selectable, disabled) N2
+											36297 item da árvore (selectable, disabled) N1
+											36298 item da árvore (selectable, disabled) N0
+										36299 item da árvore (selectable, disabled) Pilares em prumada
+										36300 item da árvore (selectable, disabled) Cortes
+										36301 item da árvore (selectable, disabled) Gerenciador de desenhos
+										36302 item da árvore (selectable, disabled) Modelos 3D
+		40 barra de menus
+		46123 diálogo Propriedades do nível Secondary Actions: Raise
+			46124 text Nome ID: 101
+			46125 editar (settable, string) Nome Value: CR-Paredes ID: 102
+			46126 text Cor ID: 103
+			46127 caixa de combinação (settable, string) Cor Value: ???? ID: 104
+				46128 text (settable, string) Cor Value: ????
+				46129 botão Abrir ID: DropDown
+			46130 text Cor de impressão ID: 105
+			46131 caixa de combinação (settable, string) Cor de impressão Value: ???? ID: 106
+				46132 text (settable, string) Cor de impressão Value: ????
+				46133 botão Abrir ID: DropDown
+			46134 text Linha ID: 107
+			46135 caixa de combinação (settable, string) Linha ID: 108
+				46136 text Linha
+				46137 botão Abrir ID: DropDown
+			46138 caixa de seleção Visível ID: 109
+			46139 caixa de seleção Ativo ID: 110
+			46140 botão OK ID: 1
+			46141 botão Cancelar ID: 2
+			46142 botão Ajuda ID: 9
+			46143 barra de título (settable, string) Value: Propriedades do nível
+		45943 diálogo (disabled) Níveis Secondary Actions: Raise
+			46123 diálogo Propriedades do nível Secondary Actions: Raise
+				46124 text Nome ID: 101
+				46125 editar (settable, string) Nome Value: CR-Paredes ID: 102
+				46126 text Cor ID: 103
+				46127 caixa de combinação (settable, string) Cor Value: ???? ID: 104
+					46128 text (settable, string) Cor Value: ????
+					46129 botão Abrir ID: DropDown
+				46130 text Cor de impressão ID: 105
+				46131 caixa de combinação (settable, string) Cor de impressão Value: ???? ID: 106
+					46132 text (settable, string) Cor de impressão Value: ????
+					46133 botão Abrir ID: DropDown
+				46134 text Linha ID: 107
+				46135 caixa de combinação (settable, string) Linha ID: 108
+					46136 text Linha
+					46137 botão Abrir ID: DropDown
+				46138 caixa de seleção Visível ID: 109
+				46139 caixa de seleção Ativo ID: 110
+				46140 botão OK ID: 1
+				46141 botão Cancelar ID: 2
+				46142 botão Ajuda ID: 9
+				46143 barra de título (settable, string) Value: Propriedades do nível
+			45944 text
+			45945 text Nome
+			45946 text Cor ID: 102
+			45947 text Cor de impressão ID: 103
+			45948 text Tipo da linha
+			45949 text Visível
+			45950 text Ativo
+			45951 Lista Ativo ID: 101
+				45952 item de lista (selectable)
+				45953 item de lista (selectable)
+				45954 item de lista (selectable)
+				45955 item de lista (selectable)
+				45956 item de lista (selectable)
+				45957 item de lista (selectable)
+				45958 item de lista (selectable)
+				45959 item de lista (selectable)
+				45960 item de lista (selectable)
+			45961 text Nível atual da janela corrente
+			45962 caixa de combinação (settable, string) Nível atual da janela corrente Value: 0 ID: 107
+				45963 text (settable, string) Nível atual da janela corrente Value: 0
+				45964 botão Abrir ID: DropDown
+			45965 botão (disabled) Novo... ID: 104
+			45966 botão (disabled) Excluir... ID: 105
+			45967 botão Propriedades... ID: 106
+			45968 botão Gravar perfil... ID: 108
+			45969 grupo Visualizar
+			45970 botão de opção (selectable) Todos ID: 109
+			45971 botão de opção (selectable) Em uso na janela ID: 110
+			45972 botão OK ID: 1
+			45973 botão Cancelar ID: 2
+			45974 botão Ajuda ID: 9
+			45975 barra de título (settable, string) Value: Níveis
+
+Document text: ```
+Comando
+801.3,205.6
+```

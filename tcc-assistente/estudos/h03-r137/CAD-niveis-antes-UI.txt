@@ -1,0 +1,116 @@
+Window: "AltoQi Eberick 2025 Infinity - [60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		1 Barra de status
+			45894 custom
+				45895 text Comando
+				45896 editar (settable, string)
+				45897 text 801.3,205.6
+				45898 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					45899 Lista
+						45900 item de lista (selectable) 1:1
+						45901 item de lista (selectable) 1:2
+						45902 item de lista (selectable) 1:5
+						45903 item de lista (selectable) 1:10
+						45904 item de lista (selectable) 1:12.5
+						45905 item de lista (selectable) 1:15
+						45906 item de lista (selectable) 1:20
+						45907 item de lista (selectable) 1:25
+						45908 item de lista (selectable) 1:30
+						45909 item de lista (selectable) 1:40
+						45910 item de lista (selectable) 1:50
+						45911 item de lista (selectable) 1:60
+						45912 item de lista (selectable) 1:75
+						45913 item de lista (selectable) 1:100
+						45914 item de lista (selectable) 1:200
+						45915 item de lista (selectable) 1:250
+						45916 item de lista (selectable) 1:500
+						45917 item de lista (selectable) 1:1000
+			45918 botão Atualizar
+			45919 botão Enquadrar
+			45920 botão Aproximar
+			45921 botão Afastar
+			45922 botão Zoom
+			45923 botão Zoom anterior
+			45924 botão Deslocar
+			45925 caixa de seleção Ortogonal
+			45926 caixa de seleção Captura personalizada
+			45927 botão Opções da captura personalizada
+			45928 caixa de seleção Quadrante
+			45929 caixa de seleção Centro
+			45930 caixa de seleção Ponto médio
+			45931 caixa de seleção Extremidade
+			45932 caixa de seleção Ponto no elemento
+			45933 caixa de seleção Intersecção
+			45934 caixa de seleção Perpendicular
+			45935 caixa de seleção Ponto intermediário
+			45936 caixa de seleção Ponto quadrante
+			45937 caixa de seleção Ponto na intersecção
+			45938 caixa de seleção Ponto relativo
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Croqui-N1
+						45939 item de tabulação (selectable) Notícias
+						45940 item de tabulação (selectable) Croqui-N1
+					8 painel
+						36357 painel
+							36358 painel Croqui-N1
+								36359 painel TCadPlotWindow
+				31 painel
+					32 tabulação
+						45941 item de tabulação (selectable)
+						45942 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									39 painel
+									36294 árvore ID: 101
+										36295 item da árvore (selectable) Pavimentos
+											36296 item da árvore (selectable) N2
+											36297 item da árvore (selectable) N1
+											36298 item da árvore (selectable) N0
+										36299 item da árvore (selectable) Pilares em prumada
+										36300 item da árvore (selectable) Cortes
+										36301 item da árvore (selectable) Gerenciador de desenhos
+										36302 item da árvore (selectable) Modelos 3D
+		40 barra de menus
+		45943 diálogo Níveis Secondary Actions: Raise
+			45944 text
+			45945 text Nome
+			45946 text Cor ID: 102
+			45947 text Cor de impressão ID: 103
+			45948 text Tipo da linha
+			45949 text Visível
+			45950 text Ativo
+			45951 Lista Ativo ID: 101
+				45952 item de lista (selectable)
+				45953 item de lista (selectable)
+				45954 item de lista (selectable)
+				45955 item de lista (selectable)
+				45956 item de lista (selectable)
+				45957 item de lista (selectable)
+				45958 item de lista (selectable)
+				45959 item de lista (selectable)
+				45960 item de lista (selectable)
+			45961 text Nível atual da janela corrente
+			45962 caixa de combinação (settable, string) Nível atual da janela corrente Value: 0 ID: 107
+				45963 text (settable, string) Nível atual da janela corrente Value: 0
+				45964 botão Abrir ID: DropDown
+			45965 botão (disabled) Novo... ID: 104
+			45966 botão (disabled) Excluir... ID: 105
+			45967 botão Propriedades... ID: 106
+			45968 botão Gravar perfil... ID: 108
+			45969 grupo Visualizar
+			45970 botão de opção (selectable) Todos ID: 109
+			45971 botão de opção (selectable) Em uso na janela ID: 110
+			45972 botão OK ID: 1
+			45973 botão Cancelar ID: 2
+			45974 botão Ajuda ID: 9
+			45975 barra de título (settable, string) Value: Níveis
+
+Document text: ```
+Comando
+801.3,205.6
+```

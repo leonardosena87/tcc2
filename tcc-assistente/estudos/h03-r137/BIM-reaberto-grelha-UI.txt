@@ -1,0 +1,375 @@
+Window: "AltoQi Eberick 2025 Infinity - [61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+		56798 diálogo (disabled) Laje Secondary Actions: Raise
+			57029 diálogo Grelha Secondary Actions: Raise
+				57030 grupo Discretização da laje ID: 101
+				57031 caixa de seleção Adotar espaçamento configurado ID: 102
+				57032 text Espaçamento X ID: 103
+				57033 editar (settable, string) Espaçamento X Value: 10 ID: 104
+				57034 text cm ID: 105
+				57035 text Espaçamento Y ID: 106
+				57036 editar (settable, string) Espaçamento Y Value: 10 ID: 107
+				57037 text cm ID: 108
+				57038 text Ângulo ID: 109
+				57039 editar (settable, string) Ângulo Value: 0 ID: 110
+				57040 text ° ID: 111
+				57041 grupo Pré-fabricadas 1D ID: 201
+				57042 caixa de seleção (disabled) Adotar configuração ID: 202
+				57043 text Vão inicial mínimo ID: 203
+				57044 editar (disabled, settable, string) Vão inicial mínimo ID: 204
+				57045 text cm ID: 205
+				57046 text Vão entre nervuras ID: 206
+				57047 editar (disabled, settable, string) Vão entre nervuras ID: 207
+				57048 text cm ID: 208
+				57049 grupo Grelha não linear ID: 301
+				57050 caixa de seleção Utilizar análise com plastificação dos apoios ID: 302
+				57051 caixa de seleção (disabled) Adotar limites configurados ID: 303
+				57052 text Redistribuição máxima ID: 304
+				57053 editar (disabled, settable, string) Redistribuição máxima Value: 15 ID: 305
+				57054 text % ID: 306
+				57055 text Aplicar para taxas de armadura maiores que ID: 307
+				57056 editar (disabled, settable, string) Aplicar para taxas de armadura maiores que Value: 0.5 ID: 308
+				57057 text % ID: 309
+				57058 text Armadura equivalente ID: 310
+				57059 editar (disabled, settable, string) Armadura equivalente Value: 0.00 ID: 311
+				57060 text cm²/m ID: 312
+				57061 text Momento de plastificação ID: 316
+				57062 editar (disabled, settable, string) Momento de plastificação Value: 0.00 ID: 317
+				57063 text kN.m ID: 318
+				57064 botão OK ID: 1
+				57065 botão Cancelar ID: 2
+				57066 botão Ajuda ID: 9
+				57067 barra de título (settable, string) Value: Grelha
+			56799 grupo ID: 1213
+			56800 text Nome ID: 1218
+			56801 editar (settable, string) Nome Value: L3 ID: 801
+			56802 text Tipo ID: 1219
+			56803 caixa de combinação (settable, string) Tipo Value: Maciça ID: 563
+				56804 text (settable, string) Tipo Value: Maciça
+				56805 botão Abrir ID: DropDown
+			56806 botão Grelha... ID: 548
+			56807 text Ambiente ID: 798
+			56808 caixa de combinação (settable, string) Ambiente Value: Externo ID: 828
+				56809 text (settable, string) Ambiente Value: Externo
+				56810 botão Abrir ID: DropDown
+			56811 grupo Cargas ID: 1214
+			56812 text Grupo ID: 1234
+			56813 caixa de combinação (settable, string) Grupo Value: Nenhum ID: 1235
+				56814 text (settable, string) Grupo Value: Nenhum
+				56815 botão Abrir ID: DropDown
+			56816 text Acidental ID: 1222
+			56817 editar (settable, string) Acidental Value: 1.5 ID: 562
+			56818 text kN/m² ID: 568
+			56819 text Extra ID: 1224
+			56820 editar (disabled, settable, string) Extra Value: 0 ID: 559
+			56821 text kN/m² ID: 571
+			56822 text Temperatura e retração ID: 1282
+			56823 editar (disabled, settable, string) Temperatura e retração Value: 0 ID: 1113
+			56824 text °C ID: 1114
+			56825 text °C ID: 1115
+			56826 text Revestimento ID: 1223
+			56827 editar (settable, string) Revestimento Value: 1 ID: 561
+			56828 text kN/m² ID: 569
+			56829 botão Editar... ID: 628
+			56830 botão Remover ID: 651
+			56831 botão Editar... ID: 1280
+			56832 botão Remover ID: 1281
+			56833 grupo Enchimento ID: 1216
+			56834 text Tipo ID: 1220
+			56835 caixa de combinação (disabled, settable, string) Tipo ID: 647
+				56836 text Tipo
+				56837 botão Abrir ID: DropDown
+			56838 text Dimensão ID: 1221
+			56839 caixa de combinação (disabled, settable, string) Dimensão ID: 648
+				56840 text Dimensão
+				56841 botão Abrir ID: DropDown
+			56842 botão (disabled) ... ID: 650
+			56843 grupo Seção ID: 1217
+			56844 text Espessura ID: 1225
+			56845 editar (settable, string) Espessura Value: 14 ID: 558
+			56846 text cm ID: 526
+			56847 text Elevação ID: 896
+			56848 editar (settable, string) Elevação Value: 0 ID: 572
+			56849 text cm ID: 573
+			56850 text ec ID: 1228
+			56851 editar (disabled, settable, string) ec Value: 4 ID: 557
+			56852 text cm ID: 525
+			56853 text cm ID: 818
+			56854 text ee ID: 1229
+			56855 editar (disabled, settable, string) ee Value: 10 ID: 556
+			56856 text cm ID: 524
+			56857 text enx ID: 1230
+			56858 editar (disabled, settable, string) enx Value: 8 ID: 555
+			56859 text cm ID: 523
+			56860 text eny ID: 1231
+			56861 editar (disabled, settable, string) eny Value: 8 ID: 554
+			56862 text cm ID: 522
+			56863 botão OK ID: 1
+			56864 botão Cancelar ID: 2
+			56865 botão Desenho... ID: 547
+			56866 botão Ajuda ID: 9
+			56867 grupo Vigota protendida ID: 882
+			56868 text Tipo ID: 884
+			56869 caixa de combinação (disabled, settable, string) Tipo Value: Vigota protendida com bloco cerâmico ID: 886
+				56870 text (settable, string) Tipo Value: Vigota protendida com bloco cerâmico
+				56871 botão Abrir ID: DropDown
+			56872 botão (disabled) ... ID: 887
+			56873 text Arranjo ID: 883
+			56874 caixa de combinação (disabled, settable, string) Arranjo Value: Simples ID: 888
+				56875 text (settable, string) Arranjo Value: Simples
+				56876 botão Abrir ID: DropDown
+			56877 text Altura ID: 885
+			56878 caixa de combinação (disabled, settable, string) Altura ID: 889
+				56879 text Altura
+				56880 botão Abrir ID: DropDown
+			56881 barra de título (settable, string) Value: Laje
+		1 Barra de status
+			57068 custom
+				57069 text Editar
+				57070 editar (settable, string)
+				57071 text 815.5,207.1
+				57072 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					57073 Lista
+						57074 item de lista (selectable) 1:1
+						57075 item de lista (selectable) 1:2
+						57076 item de lista (selectable) 1:5
+						57077 item de lista (selectable) 1:10
+						57078 item de lista (selectable) 1:12.5
+						57079 item de lista (selectable) 1:15
+						57080 item de lista (selectable) 1:20
+						57081 item de lista (selectable) 1:25
+						57082 item de lista (selectable) 1:30
+						57083 item de lista (selectable) 1:40
+						57084 item de lista (selectable) 1:50
+						57085 item de lista (selectable) 1:60
+						57086 item de lista (selectable) 1:75
+						57087 item de lista (selectable) 1:100
+						57088 item de lista (selectable) 1:200
+						57089 item de lista (selectable) 1:250
+						57090 item de lista (selectable) 1:500
+						57091 item de lista (selectable) 1:1000
+			57092 botão Atualizar
+			57093 botão Enquadrar
+			57094 botão Aproximar
+			57095 botão Afastar
+			57096 botão Zoom
+			57097 botão Zoom anterior
+			57098 botão Deslocar
+			57099 caixa de seleção Ortogonal
+			57100 caixa de seleção Captura personalizada
+			57101 botão Opções da captura personalizada
+			57102 caixa de seleção Quadrante
+			57103 caixa de seleção Centro
+			57104 caixa de seleção Ponto médio
+			57105 caixa de seleção Extremidade
+			57106 caixa de seleção Ponto no elemento
+			57107 caixa de seleção Intersecção
+			57108 caixa de seleção Perpendicular
+			57109 caixa de seleção Ponto intermediário
+			57110 caixa de seleção Ponto quadrante
+			57111 caixa de seleção Ponto na intersecção
+			57112 caixa de seleção Ponto relativo
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Croqui-TCC-cdd31967-N1
+						57113 item de tabulação (selectable) Notícias
+						57114 item de tabulação (selectable) Croqui-TCC-cdd31967-N1
+					8 painel
+						55611 painel
+							55612 painel Croqui-TCC-cdd31967-N1
+								55613 painel TCadPlotWindow
+				31 painel
+					32 tabulação
+						57115 item de tabulação (selectable)
+						57116 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									39 painel
+									55532 árvore ID: 101
+										55533 item da árvore (selectable, disabled) Pavimentos
+											55534 item da árvore (selectable, disabled) TCC-cdd31967-N2
+											55535 item da árvore (selectable, disabled) TCC-cdd31967-N1
+											55536 item da árvore (selectable, disabled) TCC-cdd31967-N0
+										55537 item da árvore (selectable, disabled) Pilares em prumada
+										55538 item da árvore (selectable, disabled) Cortes
+										55539 item da árvore (selectable, disabled) Gerenciador de desenhos
+										55540 item da árvore (selectable, disabled) Modelos 3D
+											55541 item da árvore (selectable, disabled) H03-R44-geometria-nominal
+		40 barra de menus
+		57029 diálogo Grelha Secondary Actions: Raise
+			57030 grupo Discretização da laje ID: 101
+			57031 caixa de seleção Adotar espaçamento configurado ID: 102
+			57032 text Espaçamento X ID: 103
+			57033 editar (settable, string) Espaçamento X Value: 10 ID: 104
+			57034 text cm ID: 105
+			57035 text Espaçamento Y ID: 106
+			57036 editar (settable, string) Espaçamento Y Value: 10 ID: 107
+			57037 text cm ID: 108
+			57038 text Ângulo ID: 109
+			57039 editar (settable, string) Ângulo Value: 0 ID: 110
+			57040 text ° ID: 111
+			57041 grupo Pré-fabricadas 1D ID: 201
+			57042 caixa de seleção (disabled) Adotar configuração ID: 202
+			57043 text Vão inicial mínimo ID: 203
+			57044 editar (disabled, settable, string) Vão inicial mínimo ID: 204
+			57045 text cm ID: 205
+			57046 text Vão entre nervuras ID: 206
+			57047 editar (disabled, settable, string) Vão entre nervuras ID: 207
+			57048 text cm ID: 208
+			57049 grupo Grelha não linear ID: 301
+			57050 caixa de seleção Utilizar análise com plastificação dos apoios ID: 302
+			57051 caixa de seleção (disabled) Adotar limites configurados ID: 303
+			57052 text Redistribuição máxima ID: 304
+			57053 editar (disabled, settable, string) Redistribuição máxima Value: 15 ID: 305
+			57054 text % ID: 306
+			57055 text Aplicar para taxas de armadura maiores que ID: 307
+			57056 editar (disabled, settable, string) Aplicar para taxas de armadura maiores que Value: 0.5 ID: 308
+			57057 text % ID: 309
+			57058 text Armadura equivalente ID: 310
+			57059 editar (disabled, settable, string) Armadura equivalente Value: 0.00 ID: 311
+			57060 text cm²/m ID: 312
+			57061 text Momento de plastificação ID: 316
+			57062 editar (disabled, settable, string) Momento de plastificação Value: 0.00 ID: 317
+			57063 text kN.m ID: 318
+			57064 botão OK ID: 1
+			57065 botão Cancelar ID: 2
+			57066 botão Ajuda ID: 9
+			57067 barra de título (settable, string) Value: Grelha
+		56798 diálogo (disabled) Laje Secondary Actions: Raise
+			57029 diálogo Grelha Secondary Actions: Raise
+				57030 grupo Discretização da laje ID: 101
+				57031 caixa de seleção Adotar espaçamento configurado ID: 102
+				57032 text Espaçamento X ID: 103
+				57033 editar (settable, string) Espaçamento X Value: 10 ID: 104
+				57034 text cm ID: 105
+				57035 text Espaçamento Y ID: 106
+				57036 editar (settable, string) Espaçamento Y Value: 10 ID: 107
+				57037 text cm ID: 108
+				57038 text Ângulo ID: 109
+				57039 editar (settable, string) Ângulo Value: 0 ID: 110
+				57040 text ° ID: 111
+				57041 grupo Pré-fabricadas 1D ID: 201
+				57042 caixa de seleção (disabled) Adotar configuração ID: 202
+				57043 text Vão inicial mínimo ID: 203
+				57044 editar (disabled, settable, string) Vão inicial mínimo ID: 204
+				57045 text cm ID: 205
+				57046 text Vão entre nervuras ID: 206
+				57047 editar (disabled, settable, string) Vão entre nervuras ID: 207
+				57048 text cm ID: 208
+				57049 grupo Grelha não linear ID: 301
+				57050 caixa de seleção Utilizar análise com plastificação dos apoios ID: 302
+				57051 caixa de seleção (disabled) Adotar limites configurados ID: 303
+				57052 text Redistribuição máxima ID: 304
+				57053 editar (disabled, settable, string) Redistribuição máxima Value: 15 ID: 305
+				57054 text % ID: 306
+				57055 text Aplicar para taxas de armadura maiores que ID: 307
+				57056 editar (disabled, settable, string) Aplicar para taxas de armadura maiores que Value: 0.5 ID: 308
+				57057 text % ID: 309
+				57058 text Armadura equivalente ID: 310
+				57059 editar (disabled, settable, string) Armadura equivalente Value: 0.00 ID: 311
+				57060 text cm²/m ID: 312
+				57061 text Momento de plastificação ID: 316
+				57062 editar (disabled, settable, string) Momento de plastificação Value: 0.00 ID: 317
+				57063 text kN.m ID: 318
+				57064 botão OK ID: 1
+				57065 botão Cancelar ID: 2
+				57066 botão Ajuda ID: 9
+				57067 barra de título (settable, string) Value: Grelha
+			56799 grupo ID: 1213
+			56800 text Nome ID: 1218
+			56801 editar (settable, string) Nome Value: L3 ID: 801
+			56802 text Tipo ID: 1219
+			56803 caixa de combinação (settable, string) Tipo Value: Maciça ID: 563
+				56804 text (settable, string) Tipo Value: Maciça
+				56805 botão Abrir ID: DropDown
+			56806 botão Grelha... ID: 548
+			56807 text Ambiente ID: 798
+			56808 caixa de combinação (settable, string) Ambiente Value: Externo ID: 828
+				56809 text (settable, string) Ambiente Value: Externo
+				56810 botão Abrir ID: DropDown
+			56811 grupo Cargas ID: 1214
+			56812 text Grupo ID: 1234
+			56813 caixa de combinação (settable, string) Grupo Value: Nenhum ID: 1235
+				56814 text (settable, string) Grupo Value: Nenhum
+				56815 botão Abrir ID: DropDown
+			56816 text Acidental ID: 1222
+			56817 editar (settable, string) Acidental Value: 1.5 ID: 562
+			56818 text kN/m² ID: 568
+			56819 text Extra ID: 1224
+			56820 editar (disabled, settable, string) Extra Value: 0 ID: 559
+			56821 text kN/m² ID: 571
+			56822 text Temperatura e retração ID: 1282
+			56823 editar (disabled, settable, string) Temperatura e retração Value: 0 ID: 1113
+			56824 text °C ID: 1114
+			56825 text °C ID: 1115
+			56826 text Revestimento ID: 1223
+			56827 editar (settable, string) Revestimento Value: 1 ID: 561
+			56828 text kN/m² ID: 569
+			56829 botão Editar... ID: 628
+			56830 botão Remover ID: 651
+			56831 botão Editar... ID: 1280
+			56832 botão Remover ID: 1281
+			56833 grupo Enchimento ID: 1216
+			56834 text Tipo ID: 1220
+			56835 caixa de combinação (disabled, settable, string) Tipo ID: 647
+				56836 text Tipo
+				56837 botão Abrir ID: DropDown
+			56838 text Dimensão ID: 1221
+			56839 caixa de combinação (disabled, settable, string) Dimensão ID: 648
+				56840 text Dimensão
+				56841 botão Abrir ID: DropDown
+			56842 botão (disabled) ... ID: 650
+			56843 grupo Seção ID: 1217
+			56844 text Espessura ID: 1225
+			56845 editar (settable, string) Espessura Value: 14 ID: 558
+			56846 text cm ID: 526
+			56847 text Elevação ID: 896
+			56848 editar (settable, string) Elevação Value: 0 ID: 572
+			56849 text cm ID: 573
+			56850 text ec ID: 1228
+			56851 editar (disabled, settable, string) ec Value: 4 ID: 557
+			56852 text cm ID: 525
+			56853 text cm ID: 818
+			56854 text ee ID: 1229
+			56855 editar (disabled, settable, string) ee Value: 10 ID: 556
+			56856 text cm ID: 524
+			56857 text enx ID: 1230
+			56858 editar (disabled, settable, string) enx Value: 8 ID: 555
+			56859 text cm ID: 523
+			56860 text eny ID: 1231
+			56861 editar (disabled, settable, string) eny Value: 8 ID: 554
+			56862 text cm ID: 522
+			56863 botão OK ID: 1
+			56864 botão Cancelar ID: 2
+			56865 botão Desenho... ID: 547
+			56866 botão Ajuda ID: 9
+			56867 grupo Vigota protendida ID: 882
+			56868 text Tipo ID: 884
+			56869 caixa de combinação (disabled, settable, string) Tipo Value: Vigota protendida com bloco cerâmico ID: 886
+				56870 text (settable, string) Tipo Value: Vigota protendida com bloco cerâmico
+				56871 botão Abrir ID: DropDown
+			56872 botão (disabled) ... ID: 887
+			56873 text Arranjo ID: 883
+			56874 caixa de combinação (disabled, settable, string) Arranjo Value: Simples ID: 888
+				56875 text (settable, string) Arranjo Value: Simples
+				56876 botão Abrir ID: DropDown
+			56877 text Altura ID: 885
+			56878 caixa de combinação (disabled, settable, string) Altura ID: 889
+				56879 text Altura
+				56880 botão Abrir ID: DropDown
+			56881 barra de título (settable, string) Value: Laje
+
+Document text: ```
+Editar
+815.5,207.1
+```
+
+Focused element: 57029 diálogo Grelha Secondary Actions: Raise
+
+Document text:
+Editar
+815.5,207.1
