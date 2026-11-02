@@ -1,0 +1,40 @@
+{
+  "clocks": {
+    "Revit-inicio.json": {
+      "utc": "2026-11-02T11:44:51.047Z",
+      "mono": 43237409.7392
+    },
+    "Revit-fechado-apos-gravar.json": {
+      "utc": "2026-11-02T11:49:52.997Z",
+      "mono": 43539361.1973,
+      "observed": "Tela Inicio apos CtrlS e CtrlF4; arquivo fechado antes de copiar e restaurar R155"
+    },
+    "Revit-reaberto-observado.json": {
+      "utc": "2026-11-02T11:50:38.631Z",
+      "mono": 43584995.0166,
+      "observed": "R157 reaberta; escada visivel, vista Coordenacao e anotacoes ocultas"
+    },
+    "Revit-interferencia-inicio.json": {
+      "utc": "2026-11-02T11:52:09.496Z",
+      "mono": 43675859.9161
+    },
+    "Revit-interferencia-observacao.json": {
+      "utc": "2026-11-02T11:52:12.670Z",
+      "mono": 43679033.9034
+    },
+    "Revit-fim.json": {
+      "utc": "2026-11-02T11:53:43.276Z",
+      "mono": 43769639.5989,
+      "scope": "Conferencia visual, categorias, preservacao de copias, reabertura e interferencias; inclui navegacao e esperas; nao tempo pareado CAD/BIM"
+    }
+  },
+  "sessionElapsedMonotonicMs": 532229.8596999943,
+  "sessionElapsedUtcMs": 532229.0,
+  "interferenceCommandToObservationMs": 3173.987299993634,
+  "interferenceIntervalIncludedInSession": true,
+  "includesNavigationCaptureWaitingAndReasoning": true,
+  "solverCpuTimeUnknown": true,
+  "aiInferenceTimeUnknown": true,
+  "usableForPairedCadBimRanking": false,
+  "doNotSumNestedIntervals": true
+}

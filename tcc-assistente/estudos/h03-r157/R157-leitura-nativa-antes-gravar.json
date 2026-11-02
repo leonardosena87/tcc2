@@ -1,0 +1,49 @@
+{
+  "Status": "ESBOCO ACADEMICO - NAO DIMENSIONADO - NAO EXECUTAR",
+  "Id": 473597,
+  "UniqueId": "aff08165-42a3-4df8-a0b0-8776ee9a5473-000739fd",
+  "TotalRisers": 17,
+  "BaseM": 0.22000000000000003,
+  "TopM": 3.25,
+  "RiserM": 0.17823529411764705,
+  "TreadM": 0.28,
+  "Runs": [
+    {
+      "Id": 473615,
+      "UniqueId": "aff08165-42a3-4df8-a0b0-8776ee9a5473-00073a0f",
+      "Risers": 9,
+      "Treads": 8,
+      "BaseRelativeM": 0,
+      "TopRelativeM": 1.6041176470588234,
+      "BeginsWithRiser": true,
+      "EndsWithRiser": true,
+      "TypeId": 473599
+    },
+    {
+      "Id": 473664,
+      "UniqueId": "aff08165-42a3-4df8-a0b0-8776ee9a5473-00073a40",
+      "Risers": 8,
+      "Treads": 7,
+      "BaseRelativeM": 1.6041176470588234,
+      "TopRelativeM": 3.0300000000000002,
+      "BeginsWithRiser": true,
+      "EndsWithRiser": true,
+      "TypeId": 473599
+    }
+  ],
+  "Landings": [
+    {
+      "Id": 473703,
+      "UniqueId": "aff08165-42a3-4df8-a0b0-8776ee9a5473-00073a67",
+      "FinishedM": 1.8241176470588236,
+      "ThicknessM": 0.14
+    }
+  ],
+  "Railings": [
+    473720,
+    473724
+  ],
+  "ProtectedGeometryHash": "ADF5FDDAD904742B86074D976CFDC470C0F9450205BE50F7AE1B531FF67EE6FF",
+  "StructuralApproval": false,
+  "SupportAndGuardDesignCompleted": false
+}

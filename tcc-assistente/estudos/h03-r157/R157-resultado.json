@@ -1,0 +1,76 @@
+{
+  "revision": "H03/R157",
+  "copyPath": "D:\\TCC\\outputs\\Escada-H03-R157-VISUAL-NAO-EXECUTAR\\H03-R157-Revit-ESCADA17-VISUAL-NAO-EXECUTAR.rvt",
+  "copySha256": "c867a669df5f4c3c4b5bdba415fa149eb22d92ae07bd111c970499d31a88f2c1",
+  "r155ByteIdenticalPreserved": true,
+  "r93ByteIdenticalPreserved": true,
+  "geometryChangedByThisRevision": false,
+  "stairsCategoryOriginallyUnchecked": true,
+  "coordinationAloneDidNotRestoreVisibility": true,
+  "stairsVisibilityEnabled": true,
+  "annotationsHiddenInThisViewOnly": true,
+  "visualizationSavedClosedReopened": true,
+  "initialVisualReviewPerformed": true,
+  "fullCompatibilityReviewCompleted": false,
+  "nativeReadbackBeforeSaveMatchedR155": true,
+  "fullApiReadbackAfterCopyReopenPerformed": false,
+  "originalAuditCommandLimitedToR155Path": true,
+  "nativeInterferenceReportExportedAfterReopen": true,
+  "nativeInterferencePairCount": 5,
+  "pairs": [
+    {
+      "nativeReportRow": 1,
+      "stairId": 473597,
+      "otherId": 472933,
+      "otherMark": "P4-N1",
+      "category": "Pilares estruturais",
+      "nativeTextA": "Escadas : Escada moldada no local : Escada - Marca TCC-H03-ESCADA17 : ID 473597",
+      "nativeTextB": "Pilares estruturais : M_Concreto-Retangular-Coluna : TCC-7a6267fd-0 - Marca P4-N1 : ID 472933"
+    },
+    {
+      "nativeReportRow": 2,
+      "stairId": 473597,
+      "otherId": 472984,
+      "otherMark": "V13-N1",
+      "category": "Quadro estrutural",
+      "nativeTextA": "Escadas : Escada moldada no local : Escada - Marca TCC-H03-ESCADA17 : ID 473597",
+      "nativeTextB": "Quadro estrutural : Concreto-Viga Retangular : TCC-7a6267fd-5 - Marca V13-N1 : ID 472984"
+    },
+    {
+      "nativeReportRow": 3,
+      "stairId": 473597,
+      "otherId": 472986,
+      "otherMark": "V15-N1",
+      "category": "Quadro estrutural",
+      "nativeTextA": "Escadas : Escada moldada no local : Escada - Marca TCC-H03-ESCADA17 : ID 473597",
+      "nativeTextB": "Quadro estrutural : Concreto-Viga Retangular : TCC-7a6267fd-4 - Marca V15-N1 : ID 472986"
+    },
+    {
+      "nativeReportRow": 4,
+      "stairId": 473597,
+      "otherId": 473020,
+      "otherMark": "L6-N1",
+      "category": "Pisos",
+      "nativeTextA": "Escadas : Escada moldada no local : Escada - Marca TCC-H03-ESCADA17 : ID 473597",
+      "nativeTextB": "Pisos : Piso : TCC-7a6267fd-L0 - Marca L6-N1 : ID 473020"
+    },
+    {
+      "nativeReportRow": 5,
+      "stairId": 473597,
+      "otherId": 473097,
+      "otherMark": "P10-N1",
+      "category": "Pilares estruturais",
+      "nativeTextA": "Escadas : Escada moldada no local : Escada - Marca TCC-H03-ESCADA17 : ID 473597",
+      "nativeTextB": "Pilares estruturais : M_Concreto-Retangular-Coluna : TCC-7a6267fd-0 - Marca P10-N1 : ID 473097"
+    }
+  ],
+  "reportPath": "D:\\TCC\\outputs\\Escada-H03-R157-VISUAL-NAO-EXECUTAR\\R157-interferencias-nativas.html",
+  "reportSha256": "0ec2df4a102307f8e0e9c761505f3d66a6bb64b976cc9ad26f806b78e2a579bb",
+  "interferencePairsAreNotAutomaticallyDefects": true,
+  "connectedSupportAndFinishDetailingStillPending": true,
+  "geometryOrLoadsAppliedToCadOrEberick": false,
+  "structuralApproval": false,
+  "humanIntervention": "Usuario alterou Disciplina para Coordenacao; categoria Escadas habilitada pelo agente depois da verificacao",
+  "supersedesPriorVisibilityExplanation": "R155/R156 atribuiam a ocultacao a disciplina; R157 constatou tambem categoria Escadas desmarcada",
+  "officialMethodSource": "https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/How-to-run-an-interference-check-between-elements-in-Revit.html"
+}
