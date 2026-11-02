@@ -1,0 +1,130 @@
+{
+  "revision": "H03/R142",
+  "createdAtUtc": "2026-11-02T01:22:30.016283+00:00",
+  "architecture": {
+    "path": "D:\\TCC\\PROJETO ARQUITETONICO-A0.pdf",
+    "sha256": "3a57561f03e2c0e92964b19e577a02939b04fc93cdf1ef27cad6f79ad2deb12d",
+    "pageOneBased": 1,
+    "section": "BB"
+  },
+  "r112Source": {
+    "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r112\\R112-envelope-reservatorio.json",
+    "sha256": "a7ccb3a20204054614c89e1c319b64a26672fbf906b1926cd610dbb6e2134e93"
+  },
+  "scalePdfUnitsPerM": 56.67696439302885,
+  "scaleOrigin": "Cota bruta 1,30 m até a platibanda, preservada da R112",
+  "baseTopPdfY": 1816.4000244140625,
+  "architecturalSlabTopPdfY": 1850.47998046875,
+  "levelControls": [
+    {
+      "name": "W.C.",
+      "zM": 3.24,
+      "arrowTipPdf": [
+        1458.0,
+        2018.719970703125
+      ],
+      "verticalLineStart": [
+        1458.0,
+        2008.4000244140625
+      ],
+      "label": "3,24 m",
+      "textRegion": [
+        1461,
+        2004.5,
+        1492,
+        2014
+      ],
+      "labelReadFromPdf": "3,24 m",
+      "baseElevationFromThisDatumM": 6.809703290494991,
+      "architecturalSlabTopFromThisDatumM": 6.208401572598483
+    },
+    {
+      "name": "Quarto",
+      "zM": 3.25,
+      "arrowTipPdf": [
+        1092.239990234375,
+        2018.0
+      ],
+      "verticalLineStart": [
+        1092.239990234375,
+        2007.9200439453125
+      ],
+      "label": "3,25 m",
+      "textRegion": [
+        1095,
+        2004.2,
+        1127,
+        2014
+      ],
+      "labelReadFromPdf": "3,25 m",
+      "baseElevationFromThisDatumM": 6.807000233603441,
+      "architecturalSlabTopFromThisDatumM": 6.205698515706932
+    }
+  ],
+  "datumSpreadM": 0.0027030568915495934,
+  "graphicalAgreementCheckM": 0.005,
+  "graphicalAgreementIsConstructionOrNormativeTolerance": false,
+  "primaryDatum": "W.C. +3,24 m no próprio corte BB; Quarto +3,25 m como conferência independente",
+  "baseElevationApproxM": 6.81,
+  "architecturalSlabTopApproxM": 6.21,
+  "drawnLocalRaisedDifferenceM": 0.6013017178965087,
+  "structuralReferenceExports": [
+    {
+      "branch": "CAD",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r138\\SAP-CAD\\grelha_SAP2000_laje_N2.$2k",
+      "sha256": "f0be5ea16888742994d784714cb9c18e7d7f46d377228add14c3d12ff112960b",
+      "nodeCount": 443,
+      "zCm": "639.00",
+      "referencePlaneM": 6.39,
+      "isAnalyticalPlaneNotSurvey": true
+    },
+    {
+      "branch": "BIM",
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r138\\SAP-BIM\\grelha_SAP2000_laje_TCC-cdd31967-N2.$2k",
+      "sha256": "b55f2155c96296335fbcac38cc408c2bb46f6e6e41d739b7d792deb11851b15f",
+      "nodeCount": 443,
+      "zCm": "639.00",
+      "referencePlaneM": 6.39,
+      "isAnalyticalPlaneNotSurvey": true
+    }
+  ],
+  "relationAssumingCommonVerticalDatum": {
+    "referencePlaneM": 6.39,
+    "baseAboveReferenceM": 0.4197032904949909,
+    "physicalPedestalHeightM": null
+  },
+  "differenceIfIncorrectlyUsingN2Plus060M": 0.18029670950500876,
+  "absoluteOriginSurveyed": false,
+  "currentNativeN2PlaneReopenedThisStage": false,
+  "physicalPedestalHeightM": null,
+  "platformThicknessSelectedM": null,
+  "approximateTankBearingTopEstablishedFromDrawing": true,
+  "finalTankElevationApproved": false,
+  "maintenanceAccessApproved": false,
+  "tankModelSelected": false,
+  "completeAssemblyWeightKN": null,
+  "supportDesigned": false,
+  "nativeLoadsApplied": false,
+  "nativeProjectsEdited": false,
+  "monographEdited": false,
+  "limits": [
+    "Cota aproximada extraída do desenho e de seu datum; não é levantamento ou detalhamento executivo.",
+    "Comparação com +6,39 m assume a mesma referência vertical do estudo; não confirma implantação ou datum geodésico.",
+    "Plano analítico exportado N2 não define sozinho face física de apoio, acabamento, espessura da plataforma ou altura do pedestal.",
+    "A folga efetiva sob o telhado e o acesso da R112 seguem pendentes; estabelecer cota não resolve manutenção.",
+    "O valor 0,60 m do corte não deve ser transferido diretamente como N2+0,60 m.",
+    "Tara, plataforma, pedestal, cargas cheio/vazio e dimensionamento de apoio não foram definidos."
+  ],
+  "manufacturerDimensionsRechecked": {
+    "dateUtc": "2026-11-02",
+    "url": "https://www.bakof.com.br/produtos/4",
+    "capacityL": 1000,
+    "upperLengthM": 1.88,
+    "upperWidthM": 1.23,
+    "heightM": 0.68,
+    "tareConfirmed": false,
+    "productSelected": false
+  },
+  "finalStructuralApproval": false,
+  "finalProductivityRankingAllowed": false
+}
