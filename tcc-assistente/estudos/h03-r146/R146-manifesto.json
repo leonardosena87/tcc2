@@ -1,0 +1,166 @@
+{
+  "revision": "H03/R146",
+  "nativeBinariesRemainLocalOnly": true,
+  "publicFiles": [
+    {
+      "path": ".gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": "arquivar.py",
+      "sha256": "ab20d8c047d48c6e92f8bf12bb89cb237e6ff7e00ecaf8c1598c2dcb4329ad66"
+    },
+    {
+      "path": "BIM-configuracao-processamento-0.jpg",
+      "sha256": "2049dc2c2e49d12c1d783ada9a8862360e876667756741c9562e9c8a31b68b40"
+    },
+    {
+      "path": "BIM-configuracao-processamento-1.jpg",
+      "sha256": "d72dad0d538db6413dfe661abac5dbbec20f306e63d7e16feb771a7d2cb637b6"
+    },
+    {
+      "path": "BIM-configuracao-processamento-captura.json",
+      "sha256": "5d945130bebeff9db785f6f0fe6d45090ed6fab846c391b50d507de585b2ee88"
+    },
+    {
+      "path": "BIM-configuracao-processamento-UI.txt",
+      "sha256": "6ad6ea2dcd5a83251d38fc87228f1e23519ff25b7ad8df41369a4b00fa8b9dfe"
+    },
+    {
+      "path": "BIM-inicio.json",
+      "sha256": "bac97003f32b5371798088561d5ffcb0133cbb3ac0798728a5895dd0e7580255"
+    },
+    {
+      "path": "BIM-processamento-estado-0.jpg",
+      "sha256": "3af47ad8129c34869b7f644407d3918c5c7da9566c73cb3fdccbbe3fe0b71b93"
+    },
+    {
+      "path": "BIM-processamento-estado-1.jpg",
+      "sha256": "5734efa6705dcd3ea1b7c1e451ed5ab320b88f8fabd1df656b9f1eb9cafa4004"
+    },
+    {
+      "path": "BIM-processamento-estado-captura.json",
+      "sha256": "ae7d840f7f859993678431cb10b4fa2cd148d2c67dfa745603e22e194cd26505"
+    },
+    {
+      "path": "BIM-processamento-estado-UI.txt",
+      "sha256": "f77fa27ce6bdccd42efa682b2f0d400d7e540dda7e2226d82b1d733d4b03e04d"
+    },
+    {
+      "path": "BIM-processamento-tempo.json",
+      "sha256": "2d383036e772c16815f9217dadbe70962452ba082fa04f5976b2f0832c765395"
+    },
+    {
+      "path": "BIM-resumo-analise-0.jpg",
+      "sha256": "79a17bb5ee1d8a96a469cbd4cc76f24f4dd3044d1c1dd3965c91a832d2c5f7c0"
+    },
+    {
+      "path": "BIM-resumo-analise-1.jpg",
+      "sha256": "03e70f0fbc6fa0ee5c62872714c3f824d87e01e9f78f74e491138ccc8026c70c"
+    },
+    {
+      "path": "BIM-resumo-analise-2.jpg",
+      "sha256": "0372885bf28f6b86a5f02cda7edc89baffd07b352a03b292010667f6f894498d"
+    },
+    {
+      "path": "BIM-resumo-analise-captura.json",
+      "sha256": "79d194795f5a69dfc14e78084cad0b6519da300223563f2024772648ace1c225"
+    },
+    {
+      "path": "BIM-resumo-analise-UI.txt",
+      "sha256": "be969fe3faba7c7e2badd6de0431434b6699702ff38469429d7865623652841f"
+    },
+    {
+      "path": "BIM-sessao-tempo.json",
+      "sha256": "86d16b41278c69e41ad4043d75749c7381211e584156dae6fd80c4ed31b966ff"
+    },
+    {
+      "path": "CAD-configuracao-processamento-0.jpg",
+      "sha256": "1f2fda70b830637f457f6b81641ca84a1b910721aba76a034837afd4e0aeb20d"
+    },
+    {
+      "path": "CAD-configuracao-processamento-1.jpg",
+      "sha256": "d72dad0d538db6413dfe661abac5dbbec20f306e63d7e16feb771a7d2cb637b6"
+    },
+    {
+      "path": "CAD-configuracao-processamento-captura.json",
+      "sha256": "8dfbe09bfc2b29c3c403d492a1f636e07b7881e0a20f1bd6284adc8e21426ff1"
+    },
+    {
+      "path": "CAD-configuracao-processamento-UI.txt",
+      "sha256": "38fe17b2d5ac19e0b3cea385562b7451d0002f2d62142b97d209ccd77908fbe2"
+    },
+    {
+      "path": "CAD-inicio.json",
+      "sha256": "9efbc89bdb898a1a90d75627501bce8fbee73a997ff76159457b9c01f6758b67"
+    },
+    {
+      "path": "CAD-processamento-estado-0.jpg",
+      "sha256": "97e6be3e3b6bb9f524eee6abf5f3843c74e6b03845a0344e13a4764e9201076b"
+    },
+    {
+      "path": "CAD-processamento-estado-1.jpg",
+      "sha256": "5734efa6705dcd3ea1b7c1e451ed5ab320b88f8fabd1df656b9f1eb9cafa4004"
+    },
+    {
+      "path": "CAD-processamento-estado-captura.json",
+      "sha256": "3ede0fec7083dcf7fd1366c40c31694f868fde68964a18b5a296a6555824e9af"
+    },
+    {
+      "path": "CAD-processamento-estado-UI.txt",
+      "sha256": "ab164b2cbdb8054efb49d1d940b754c9a88ded5385cbc48b2638f71de76cdfc8"
+    },
+    {
+      "path": "CAD-processamento-tempo.json",
+      "sha256": "a7eb596dc5f21891fbe2b4a4902811485be194b6125030eea1ee8a1c6ea95432"
+    },
+    {
+      "path": "CAD-resumo-analise-0.jpg",
+      "sha256": "c177b5e7085d81c233eb53bf5107a0ebb627341a5c4a800b940ae214f173a984"
+    },
+    {
+      "path": "CAD-resumo-analise-1.jpg",
+      "sha256": "c70bc08ea539e433670c20752405b612916a85af11d0e1d0ae28966c1f7cd0a7"
+    },
+    {
+      "path": "CAD-resumo-analise-2.jpg",
+      "sha256": "c34ada5196e779e4230c0c9be8aa075b329e82d2570860f3310da78a5ef2fd3c"
+    },
+    {
+      "path": "CAD-resumo-analise-captura.json",
+      "sha256": "abbe7a1e535bff022aa005861fba4fd95f8e7203755f44db3135ddee963b7463"
+    },
+    {
+      "path": "CAD-resumo-analise-UI.txt",
+      "sha256": "4f37a77f7117af687ff1fd616df178e915947d156d9e33ed817b6d86a7a17759"
+    },
+    {
+      "path": "CAD-sessao-tempo.json",
+      "sha256": "3201792e801c603be635dc787bb4b292065655bfda976ea40890fbd2545f2d61"
+    },
+    {
+      "path": "consolidar.py",
+      "sha256": "27a13435e7bb565106f470178f43ce254fe751a980705276ffeeb8b214770493"
+    },
+    {
+      "path": "LEIA-ME-R146.md",
+      "sha256": "64bb3fccd9d0e9baf7b418ef760e12cf00dbd4ef669a9f9795e7a87d243cb4eb"
+    },
+    {
+      "path": "preparar.py",
+      "sha256": "5ab67004a10328c25c9ac004c23b21bbfadb658bc9aaaa79f4a944ef438d189d"
+    },
+    {
+      "path": "R102-preparacao.json",
+      "sha256": "d00494676f446e51d861904754c5b7a5640f12c0e1c1833a5130dbfcb77727eb"
+    },
+    {
+      "path": "R146-resultado.json",
+      "sha256": "fe7d06532a791666b35b9d8f9f722514522a3c6776b79e20fe5af00805b2c3cd"
+    },
+    {
+      "path": "test_resumo.py",
+      "sha256": "914806b61527204e561367668ccbb2fab06ae4585e26bd7388aa9b5902248245"
+    }
+  ]
+}
