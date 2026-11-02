@@ -1,0 +1,297 @@
+{
+  "revision": "H03/R151",
+  "createdAtUtc": "2026-11-02T09:40:52.113412+00:00",
+  "userDecision": {
+    "exactText": "Preservar as paredes e portas; estudar outra configuração de escada",
+    "effect": "Ampliação R149 descartada para aplicação; estudar compensados dentro da caixa existente.",
+    "preserves": [
+      "paredes",
+      "portas",
+      "fachada",
+      "pisos +0,22 e +3,25",
+      "limite norte de chegada desenhado"
+    ],
+    "notAuthorizationForFinalConstruction": true
+  },
+  "sources": [
+    {
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r147\\R147-planta.json",
+      "sha256": "70bbb79b55e16a3b188c38b592cbb99f8e00474202a2ad9c23bd1390c710299e"
+    }
+  ],
+  "candidate": {
+    "outerRadiusM": 1.001183333333333,
+    "innerRadiusM": 0.09101666666666608,
+    "walklineRadiusM": 0.5910166666666661,
+    "walklineOffsetFromInnerRailM": 0.5,
+    "transitionStraightExtensionM": 0.77,
+    "totalRisers": 18,
+    "totalTreadIntervals": 17,
+    "lowerStraightTreadIntervals": 3,
+    "compensatedTreadIntervals": 11,
+    "upperStraightTreadIntervals": 3,
+    "finishedFloorLevelsM": [
+      0.22,
+      3.25
+    ],
+    "riserM": 0.16833333333333333,
+    "walkingPitchAlongCurveM": 0.30879396528628417,
+    "twoRisersPlusPitchM": 0.6454606319529508,
+    "innerBoundaryChordLengthsM": [
+      0.15400000000000003,
+      0.15399999999999997,
+      0.15400000000000003,
+      0.15399999999999997,
+      0.15400000000000003,
+      0.18203333333333216,
+      0.154,
+      0.154,
+      0.15400000000000003,
+      0.15399999999999997,
+      0.15400000000000003
+    ],
+    "minimumInnerBoundaryChordM": 0.15399999999999997,
+    "walkingChordLengthsM": [
+      0.30879396528628417,
+      0.30879396528628417,
+      0.3076638979473191,
+      0.305293597740077,
+      0.30529359774007725,
+      0.30529359774007725,
+      0.3052935977400773,
+      0.3052935977400772,
+      0.3076638979473194,
+      0.3087939652862839,
+      0.30879396528628433
+    ],
+    "contourOrderVerified": true,
+    "outerBoundaryStationsM": [
+      0.0,
+      0.43577661480946606,
+      0.868702952408105,
+      1.2495626600082606,
+      1.6682917540211069,
+      2.1443889503549074,
+      2.540921254541632,
+      3.0170184508754327,
+      3.43574754488828,
+      3.8166072524884362,
+      4.249533590087075,
+      4.685310204896541
+    ],
+    "transitionRiserSegments": [
+      {
+        "index": 4,
+        "inner": [
+          -0.09101666666666608,
+          0.77
+        ],
+        "walk": [
+          -0.5910166666666661,
+          0.77
+        ],
+        "outer": [
+          -1.001183333333333,
+          0.77
+        ]
+      },
+      {
+        "index": 5,
+        "inner": [
+          -0.09101666666666608,
+          0.616
+        ],
+        "walk": [
+          -0.5910166666666661,
+          0.46120603471371585
+        ],
+        "outer": [
+          -1.001183333333333,
+          0.33422338519053396
+        ]
+      },
+      {
+        "index": 6,
+        "inner": [
+          -0.09101666666666608,
+          0.462
+        ],
+        "walk": [
+          -0.5910166666666661,
+          0.15241206942743168
+        ],
+        "outer": [
+          -0.9963218936708017,
+          -0.09854314352947907
+        ]
+      },
+      {
+        "index": 7,
+        "inner": [
+          -0.09101666666666608,
+          0.308
+        ],
+        "walk": [
+          -0.5704479157331778,
+          -0.1545635005861681
+        ],
+        "outer": [
+          -0.8885083307155948,
+          -0.4614336498278286
+        ]
+      },
+      {
+        "index": 8,
+        "inner": [
+          -0.09101666666666608,
+          0.15400000000000003
+        ],
+        "walk": [
+          -0.41720953110561504,
+          -0.4186130760408828
+        ],
+        "outer": [
+          -0.6245155079495792,
+          -0.7825269626504402
+        ]
+      },
+      {
+        "index": 9,
+        "inner": [
+          -0.09101666666666608,
+          0.0
+        ],
+        "walk": [
+          -0.15264679887003874,
+          -0.5709637948876505
+        ],
+        "outer": [
+          -0.19697280335559833,
+          -0.9816159033362696
+        ]
+      },
+      {
+        "index": 10,
+        "inner": [
+          0.09101666666666608,
+          0.0
+        ],
+        "walk": [
+          0.1526467988700385,
+          -0.5709637948876506
+        ],
+        "outer": [
+          0.19697280335559794,
+          -0.9816159033362698
+        ]
+      },
+      {
+        "index": 11,
+        "inner": [
+          0.09101666666666608,
+          0.154
+        ],
+        "walk": [
+          0.4172095311056149,
+          -0.41861307604088294
+        ],
+        "outer": [
+          0.624515507949579,
+          -0.7825269626504404
+        ]
+      },
+      {
+        "index": 12,
+        "inner": [
+          0.09101666666666608,
+          0.308
+        ],
+        "walk": [
+          0.5704479157331778,
+          -0.15456350058616805
+        ],
+        "outer": [
+          0.8885083307155949,
+          -0.4614336498278285
+        ]
+      },
+      {
+        "index": 13,
+        "inner": [
+          0.09101666666666608,
+          0.462
+        ],
+        "walk": [
+          0.5910166666666661,
+          0.15241206942743202
+        ],
+        "outer": [
+          0.9963218936708018,
+          -0.09854314352947852
+        ]
+      },
+      {
+        "index": 14,
+        "inner": [
+          0.09101666666666608,
+          0.616
+        ],
+        "walk": [
+          0.5910166666666661,
+          0.4612060347137159
+        ],
+        "outer": [
+          1.001183333333333,
+          0.3342233851905341
+        ]
+      },
+      {
+        "index": 15,
+        "inner": [
+          0.09101666666666608,
+          0.77
+        ],
+        "walk": [
+          0.5910166666666661,
+          0.7700000000000002
+        ],
+        "outer": [
+          1.001183333333333,
+          0.7700000000000005
+        ]
+      }
+    ],
+    "requiredStairLengthM": 2.6975652291921857,
+    "graphicalFlightWidthBeforeHandrailsM": 0.910166666666667,
+    "headroomVerified": false,
+    "openingsAndDoorSwingsVerified": false,
+    "structuralSupportVerified": false,
+    "legalApproval": false,
+    "nativeApplied": false,
+    "availableLengthWithoutHallM": 2.8617333333333335,
+    "southGraphicalReserveM": 0.1641681041411478,
+    "envelopeFitsGraphicalBox": true
+  },
+  "benchmarks": {
+    "innerBoundaryChordM": 0.15,
+    "walklineOffsetM": 0.5,
+    "status": "HIPOTESES DE TRIAGEM; não se declara mínimo legal aplicável à escada privada."
+  },
+  "referenceUrls": [
+    "https://www.pmvc.ba.gov.br/wp-content/uploads/Lei_1481-2007_Anexos.pdf",
+    "https://suporte.altoqi.com.br/hc/pt-br/articles/115001824894",
+    "https://www.ba.gov.br/bombeiros/normas-tecnicas"
+  ],
+  "limitations": [
+    "Contorno curvo reduz área útil nos cantos; guardas e corrimãos não modelados.",
+    "Largura gráfica não equivale a largura útil acabada após guardas/corrimãos.",
+    "Pisada constante medida por comprimento da linha curva adotada; cordas variam e precisam de conferência normativa.",
+    "Não foi resolvida altura livre nem a união à laje/hall e estrutura de apoio.",
+    "Não há patamar horizontal em +1,735 m nesta hipótese; não reaproveitar cotas/cargas de R149.",
+    "Critérios do anexo municipal para uso coletivo não foram impostos automaticamente à unidade unifamiliar.",
+    "Página oficial CBMBA consultada, mas não forneceu texto da instrução aplicável; sem atestado legal."
+  ],
+  "monographOrAuthoringModelsEdited": false,
+  "newLoadsApplied": false,
+  "finalApproval": false
+}

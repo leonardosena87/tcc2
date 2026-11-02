@@ -1,0 +1,269 @@
+{
+  "revision": "H03/R150",
+  "branchAudited": "BIM",
+  "cadCopyOpened": false,
+  "floor": "TCC-cdd31967-N1",
+  "beamNativeName": "V2",
+  "selectedNode": 2,
+  "supportNativeName": "P5",
+  "perDiameterNativeAccessibilityReading": [
+    {
+      "diameterMm": 8.0,
+      "code": "A07",
+      "message": "Taxa de armadura > que a configurada."
+    },
+    {
+      "diameterMm": 10.0,
+      "code": "A07",
+      "message": "Taxa de armadura > que a configurada."
+    },
+    {
+      "diameterMm": 12.5,
+      "code": "A07",
+      "message": "Taxa de armadura > que a configurada."
+    },
+    {
+      "diameterMm": 16.0,
+      "code": "A07",
+      "message": "Taxa de armadura > que a configurada."
+    },
+    {
+      "diameterMm": 20.0,
+      "code": "A07",
+      "message": "Taxa de armadura > que a configurada."
+    }
+  ],
+  "visualTranscription": {
+    "automaticallyParsed": false,
+    "nodes": [
+      {
+        "node": 1,
+        "support": "P6",
+        "supportWidthCm": 30,
+        "negativeMomentKNm": -6.71,
+        "error": "D16"
+      },
+      {
+        "node": 2,
+        "support": "P5",
+        "supportWidthCm": 20,
+        "negativeMomentKNm": -39.26,
+        "error": "D16"
+      },
+      {
+        "node": 3,
+        "support": "P4",
+        "supportWidthCm": 20,
+        "negativeMomentKNm": -34.02,
+        "error": "D16"
+      }
+    ],
+    "rectangularSpansCm": [
+      {
+        "span": 1,
+        "bw": 20,
+        "h": 16,
+        "elevation": 0
+      },
+      {
+        "span": 2,
+        "bw": 20,
+        "h": 45,
+        "elevation": 0
+      }
+    ]
+  },
+  "configuredMaximumReinforcementRatioRead": false,
+  "reinforcementAreaNumericallyRead": false,
+  "sourceFilesPreserved": [
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_2508.log",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\74-H03-R148-CAD-DIM-PARCIAL-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_2508.log",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\TCC\\outputs\\75-H03-R148-BIM-DIM-PARCIAL-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "unchanged": true
+    }
+  ],
+  "consultationProjects": [
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\76-H03-R150-CAD-CONSULTA-D16-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "unchanged": true
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\77-H03-R150-BIM-CONSULTA-D16-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "unchanged": true
+    }
+  ],
+  "timing": {
+    "start": {
+      "utc": "2026-11-02T09:25:43.163Z",
+      "mono": 34889526.3807
+    },
+    "end": {
+      "utc": "2026-11-02T09:30:34.861Z",
+      "mono": 35181224.2738
+    },
+    "wallMs": 291697.8931000009,
+    "scope": "consulta V2 N1, aba No, resultados por bitola no2, secoes; fechar sem salvar/reprocessar",
+    "humanIntervention": false,
+    "finalRankingAllowed": false
+  },
+  "screenshots": [
+    {
+      "path": "BIM-V2-No2-bitolas-0.jpg",
+      "sha256": "e45e52bd06f94efbc51623cdcc0424890663279ea2f2ea6031b2e89c89e9a4a2"
+    },
+    {
+      "path": "BIM-V2-No2-bitolas-1.jpg",
+      "sha256": "f016f6162021ee869aad60d2329615323938c31e1e07a22f823478db435b1d39"
+    },
+    {
+      "path": "BIM-V2-Nos-0.jpg",
+      "sha256": "8a585a3e4769042871755bd36dd61ec1a7f84d8513e97151c124ed73331509e9"
+    },
+    {
+      "path": "BIM-V2-Secoes-0.jpg",
+      "sha256": "b21861c002ab53fd5fcb0b25c04201b7c9b1d9cee9eff1779ecd2cc5f676d100"
+    }
+  ],
+  "nativeDataEdited": false,
+  "reprocessed": false,
+  "ifcCausalityEstablished": false,
+  "nativeNamesAreNotGeometricMapping": true,
+  "finalStructuralApproval": false
+}
