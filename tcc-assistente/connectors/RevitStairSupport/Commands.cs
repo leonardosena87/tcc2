@@ -75,10 +75,14 @@ public static class Study
     public static double Material25(Document doc,Element e)
     {
         var mid=e is FamilyInstance fi?fi.StructuralMaterialId:((FloorType)doc.GetElement(e.GetTypeId())).StructuralMaterialId;
-        var mat=doc.GetElement(mid) as Material??throw new InvalidOperationException("Material estrutural ausente:"+Tag(e));
-        var prop=doc.GetElement(mat.StructuralAssetId) as PropertySetElement??throw new InvalidOperationException("Ativo ausente:"+Tag(e));
+        return Material25Id(doc,mid,Tag(e));
+    }
+    public static double Material25Id(Document doc,ElementId mid,string label)
+    {
+        var mat=doc.GetElement(mid) as Material??throw new InvalidOperationException("Material estrutural ausente:"+label);
+        var prop=doc.GetElement(mat.StructuralAssetId) as PropertySetElement??throw new InvalidOperationException("Ativo ausente:"+label);
         using var a=prop.GetStructuralAsset();if(a.StructuralAssetClass!=StructuralAssetClass.Concrete)throw new InvalidOperationException("Material não é concreto.");
-        var mpa=UnitUtils.ConvertFromInternalUnits(a.ConcreteCompression,UnitTypeId.Megapascals);Near(mpa,25,"fck "+Tag(e));return mpa;
+        var mpa=UnitUtils.ConvertFromInternalUnits(a.ConcreteCompression,UnitTypeId.Megapascals);Near(mpa,25,"fck "+label);return mpa;
     }
     public static double[][] Profile(Document doc,Floor f)
     {
@@ -140,9 +144,33 @@ public static class Study
         var s=Stair(doc);var runs=s.GetStairsRuns().Select(id=>(StairsRun)doc.GetElement(id)).OrderBy(r=>r.BaseElevation).ToArray();var lands=s.GetStairsLandings().Select(id=>(StairsLanding)doc.GetElement(id)).ToArray();
         if(s.ActualRisersNumber!=17||runs.Length!=2||runs[0].ActualRisersNumber!=9||runs[1].ActualRisersNumber!=8||lands.Length!=1)throw new InvalidOperationException("Escada não confirmou17/9+8.");
         Near(M(s.BaseElevation),.17,"base virtual concreto");Near(M(s.TopElevation),3.20,"topo concreto");Near(M(s.ActualRiserHeight),3.03/17,"espelho");Near(M(s.ActualTreadDepth),.28,"pisada");
-        foreach(var r in runs)Near(M(r.ActualRunWidth),.90,"largura nominal lance");Near(M(s.BaseElevation+lands[0].BaseElevation),.22+9*3.03/17-.05,"patamar concreto");
+        Near(M(s.BaseElevation+lands[0].BaseElevation),.22+9*3.03/17-.05,"patamar concreto");
+        double[][] Footprint(CurveLoop loop)=>loop.SelectMany(c=>new[]{c.GetEndPoint(0),c.GetEndPoint(1)}).Select(p=>new[]{M(p.X),M(p.Y),M(p.Z)}).ToArray();
+        var plan=Plan();var landing=plan.GetProperty("concreteTopSurfaces").EnumerateArray().Single(f=>f.GetProperty("kind").GetString()=="landing");
+        var vertices=landing.GetProperty("vertices").EnumerateArray().Select(v=>v.EnumerateArray().Select(x=>x.GetDouble()).ToArray()).ToArray();
+        double xl=vertices.Min(p=>p[0]),xr=vertices.Max(p=>p[0]),ys=vertices.Min(p=>p[1]),yn=vertices.Max(p=>p[1]);
+        void CheckBounds(double[][] points,double xmin,double xmax,double ymin,double ymax,string label)
+        {
+            Near(points.Min(p=>p[0]),xmin,label+" Xmin");Near(points.Max(p=>p[0]),xmax,label+" Xmax");
+            Near(points.Min(p=>p[1]),ymin,label+" Ymin");Near(points.Max(p=>p[1]),ymax,label+" Ymax");
+        }
+        var runDetails=runs.Select((r,i)=>
+        {
+            var type=(StairsRunType)doc.GetElement(r.GetTypeId());Near(M(type.StructuralDepth),.14,"espessura hipotetica lance");
+            var fck=Material25Id(doc,type.MaterialId,"lance "+r.Id.Value);
+            var footprint=Footprint(r.GetFootprintBoundary());
+            // ActualRunWidth é documentado como zero para lances por croqui; medir o contorno destes lances retos.
+            CheckBounds(footprint,i==0?xl:xr-.90,i==0?xl+.90:xr,yn,yn+(i==0?8:7)*.28,"lance "+i);
+            double width=footprint.Max(p=>p[0])-footprint.Min(p=>p[0]);Near(width,.90,"largura nominal pelo contorno");
+            return new{Id=r.Id.Value,Risers=r.ActualRisersNumber,Treads=r.ActualTreadsNumber,WidthM=width,ApiActualRunWidthM=M(r.ActualRunWidth),WidthMeasuredFromFootprint=true,BaseRelativeM=M(r.BaseElevation),TopRelativeM=M(r.TopElevation),
+                StructuralDepthM=M(type.StructuralDepth),MaterialFckMPa=fck,FootprintProjectedToBaseLevelM=footprint};
+        }).ToArray();
+        Near(M(lands[0].Thickness),.14,"espessura hipotetica patamar");
+        var landingType=(StairsLandingType)doc.GetElement(lands[0].GetTypeId());
+        var landingFck=Material25Id(doc,landingType.get_Parameter(BuiltInParameter.STAIRS_LANDINGTYPE_LANDING_MATERIAL).AsElementId(),"patamar");
+        var landingFootprint=Footprint(lands[0].GetFootprintBoundary());CheckBounds(landingFootprint,xl,xr,ys,yn,"patamar");
         return new{Id=s.Id.Value,s.UniqueId,TotalRisers=s.ActualRisersNumber,BaseVirtualConcreteM=M(s.BaseElevation),TopConcreteM=M(s.TopElevation),RiserM=M(s.ActualRiserHeight),TreadM=M(s.ActualTreadDepth),
-            Runs=runs.Select(r=>new{Id=r.Id.Value,Risers=r.ActualRisersNumber,Treads=r.ActualTreadsNumber,WidthM=M(r.ActualRunWidth),BaseRelativeM=M(r.BaseElevation),TopRelativeM=M(r.TopElevation)}),
+            Runs=runDetails,LandingFootprintProjectedM=landingFootprint,LandingMaterialFckMPa=landingFck,
             ConcreteLandingM=M(s.BaseElevation+lands[0].BaseElevation),LandingThicknessM=M(lands[0].Thickness),Railings=s.GetAssociatedRailings().Select(id=>id.Value),
             FinishHypothesisM=.05,LowerSupportUnresolved=true,StructuralApproval=false};
     }
@@ -168,7 +196,7 @@ public class ApplyCandidate:IExternalCommand
 {
     public Result Execute(ExternalCommandData data,ref string message,ElementSet failed)
     {
-        var watch=Stopwatch.StartNew();var warnings=new Failures();bool saved=false;
+        var watch=Stopwatch.StartNew();var warnings=new Failures();bool saved=false,assimilated=false;string phase="guard";
         try
         {
             var ui=data.Application.ActiveUIDocument??throw new InvalidOperationException("Abra a cópia R159.");var doc=ui.Document;Study.Guard(doc);
@@ -225,8 +253,11 @@ public class ApplyCandidate:IExternalCommand
                     scope.Start(floor.SketchId);
                     using(var tx=new Transaction(doc,"Atualizar borda preservando a laje"))
                     {
-                        tx.Start();var sketch=(Sketch)doc.GetElement(floor.SketchId);var curves=sketch.GetAllElements().Select(id=>doc.GetElement(id)).OfType<ModelCurve>().ToArray();
-                        if(curves.Length!=4)throw new InvalidOperationException("L6 sem os4lados previstos.");
+                        tx.Start();var sketch=(Sketch)doc.GetElement(floor.SketchId);
+                        // A API documenta o vínculo entre o perfil e sua curva por Reference.ElementId.
+                        // GetAllElements inclui elementos auxiliares e não define os quatro lados do perfil.
+                        var curves=sketch.Profile.Cast<CurveArray>().SelectMany(a=>a.Cast<Curve>()).Select(c=>doc.GetElement(c.Reference.ElementId) as CurveElement??throw new InvalidOperationException("Curva do perfil L6 sem elemento associado.")).ToArray();
+                        if(curves.Length!=4||curves.Select(c=>c.Id.Value).Distinct().Count()!=4)throw new InvalidOperationException("L6 sem os4lados distintos previstos no perfil.");
                         int count=0;
                         foreach(var mc in curves)
                         {
@@ -239,7 +270,7 @@ public class ApplyCandidate:IExternalCommand
                     scope.Commit(warnings);
                 }
                 CreateStair(doc,plan,warnings);
-                var nativeElements=Study.ReadElements(doc,entries);var nativeStair=Study.ReadStair(doc);
+                phase="read-elements";var nativeElements=Study.ReadElements(doc,entries);phase="read-stair";var nativeStair=Study.ReadStair(doc);
                 if(Study.LogicalHash(doc,retained)!=before)throw new InvalidOperationException("Um dos60elementos retidos mudou de identidade, tipo, eixo/perfil ou material.");
                 using(var tx=new Transaction(doc,"Vista R159 de conferência"))
                 {
@@ -249,12 +280,12 @@ public class ApplyCandidate:IExternalCommand
                     view.SetCategoryHidden(new ElementId(BuiltInCategory.OST_Stairs),false);view.SetCategoryHidden(new ElementId(BuiltInCategory.OST_Levels),true);view.SetCategoryHidden(new ElementId(BuiltInCategory.OST_Grids),true);tx.Commit();
                 }
                 read=new{Elements=nativeElements,Stair=nativeStair,RetainedLogicalHash=before,RetainedCount=60,Count=65,StructuralApproval=false,AnalyticalModelOrEberickUpdated=false};
-                group.Assimilate();ui.ActiveView=view!;doc.Save();saved=true;
+                phase="assimilate";group.Assimilate();assimilated=true;phase="save";ui.ActiveView=view!;doc.Save();saved=true;
                 Study.Write("R159-criacao-nativa.json",new{StartedUtc=DateTimeOffset.UtcNow.Subtract(watch.Elapsed),EndedUtc=DateTimeOffset.UtcNow,CommandMs=watch.Elapsed.TotalMilliseconds,CommandTimeIsNotFlowTime=true,Document=doc.PathName,Readback=read,Warnings=warnings.Rows,FullSolidClashAndStructuralDesignCompleted=false});
             }
             TaskDialog.Show("TCC R159","Candidato salvo:65elementos estruturais + escada17.\nViga no patamar e2pilares laterais criados.\nSeções, ancoragem, apoio inferior, ELU/ELS e interferências ainda em estudo. NÃO EXECUTAR.");return Result.Succeeded;
         }
-        catch(Exception ex){Study.Write("R159-falha-"+DateTime.UtcNow.ToString("yyyyMMdd-HHmmss")+".json",new{Error=ex.ToString(),Saved=saved,CommandMs=watch.Elapsed.TotalMilliseconds,Warnings=warnings.Rows});message=ex.Message;return Result.Failed;}
+        catch(Exception ex){Study.Write("R159-falha-"+DateTime.UtcNow.ToString("yyyyMMdd-HHmmss")+".json",new{Error=ex.ToString(),Phase=phase,Assimilated=assimilated,Saved=saved,DocumentModifiedAfterFailure=data.Application.ActiveUIDocument?.Document.IsModified,CommandMs=watch.Elapsed.TotalMilliseconds,Warnings=warnings.Rows});message=ex.Message;return Result.Failed;}
     }
     static void CreateStair(Document doc,JsonElement plan,Failures warnings)
     {

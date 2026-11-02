@@ -21,9 +21,11 @@ def main():
     for f in forms['files']:assert sha(Path(f['dwgPath']))==f['dwgSha256'] and sha(Path(f['returnPath']))==f['returnSha256']
     assert sha(Path(partial['dwgPath']))==partial['dwgSha256']
     failures=[read(p) for p in sorted(OUT.glob('R159-falha-*.json'))]
-    assert len(failures)==1 and failures[0]['Saved'] is False
+    assert failures and all(f['Saved'] is False for f in failures)
     result=dict(revision='H03/R159',recordedAtUtc=datetime.now(timezone.utc).isoformat(),sourceR157PreservedByteIdentical=True,r159CopyStillBaselineByteIdentical=True,
-        revitCandidateApplied=False,revitFailureBeforeTransactions=True,revitCommandFailureMs=failures[0]['CommandMs'],revitHashReadCorrected=True,
+        revitCandidateApplied=False,firstRevitFailureBeforeTransactions=True,revitFirstCommandFailureMs=failures[0]['CommandMs'],revitHashReadCorrected=True,
+        revitFailedAttemptCount=len(failures),revitFailedAttempts=[dict(error=f['Error'],commandMs=f['CommandMs'],saved=f['Saved'],warnings=f['Warnings']) for f in failures],
+        revitSketchProfileLookupCorrected=True,geometryUnchangedAfterRollback=True,softwareFailuresAreNotGeometryOrIfcImportDefects=True,
         revitRestartWaitingForVisibleTrustDialog=True,securityPolicyChanged=False,revitCorrectedDllPath=prep['dllPath'],revitCorrectedDllSha256=sha(Path(prep['dllPath'])),
         originalBuildDllSha256=prep['dllSha256'],candidateSha256=prep['candidateSha256'],candidateElementCount=65,
         cadPartialSavedClosedReopened=True,cadFormsSavedClosedReopened=True,cadFormsUniqueBuildingElementCount=65,

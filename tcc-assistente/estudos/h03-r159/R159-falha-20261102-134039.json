@@ -1,0 +1,15 @@
+{
+  "Error": "System.InvalidOperationException: largura nominal lance: 0 != 0,9\r\n   at TccAssistente.RevitStairSupport.Study.Near(Double value, Double expected, String label)\r\n   at TccAssistente.RevitStairSupport.Study.ReadStair(Document doc)\r\n   at TccAssistente.RevitStairSupport.ApplyCandidate.Execute(ExternalCommandData data, String\u0026 message, ElementSet failed)",
+  "Saved": false,
+  "CommandMs": 1391.767,
+  "Warnings": [
+    {
+      "Id": "4d5fea31-ba0d-45d0-b439-7008c39a42b7",
+      "Severity": "Warning",
+      "Description": "O corrim\u00E3o n\u00E3o \u00E9 cont\u00EDnuo. As quebras no corrim\u00E3o normalmente ocorrem em transi\u00E7\u00F5es de \u00E2ngulo muito agudo. Para solucionar o problema, tente:\r\n - Alterar o estilo de transi\u00E7\u00E3o nas propriedades de tipo do corrim\u00E3o ou\r\n - Modificar o caminho do corrim\u00E3o na transi\u00E7\u00E3o.\u0022",
+      "ElementIds": [
+        473962
+      ]
+    }
+  ]
+}

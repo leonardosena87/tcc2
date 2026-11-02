@@ -1,5 +1,9 @@
 # H03/R159 — implantação do candidato com viga no patamar
 
+**Estado atualizado:** a viga e os dois pilares laterais foram criados e salvos no Revit. O RVT foi fechado, reaberto e relido pelo comando somente leitura; o relatório coincidiu integralmente com a leitura da criação. Confirmaram-se 65 elementos estruturais (24 segmentos de pilares, 30 vigas e 11 lajes), preservação lógica dos 60 elementos retidos e escada nativa de 17 espelhos, em 9+8. As plantas CAD descritas abaixo também têm retorno nativo conferido. A exportação/recepção IFC, o lançamento no Eberick e a aprovação estrutural permanecem pendentes.
+
+O relatório nativo de interferências após reabrir apresentou um único par: escada ID 473807 com V16-ESC-PAT ID 473802. O contato é compatível com a posição geométrica candidata do apoio, mas não comprova continuidade, engaste ou transferência de reações. Não se classificou automaticamente esse par como erro. Os cinco pares da R157 não reapareceram nessa verificação entre as mesmas categorias; isso não representa índice de produtividade ou redução comprovada de defeitos, pois a geometria e a representação do acabamento foram revistas. Mantém-se pendente a compatibilização completa.
+
 ## Estado desta rodada
 
 A revisão dá continuidade à orientação do usuário de incluir a viga exigida pelo orientador nos dois fluxos. A posição e as seções do candidato R158 continuam hipóteses. Não se modificou a monografia, nem se promoveu a revisão à condição de projeto calculado.
@@ -10,13 +14,21 @@ Adicionalmente, geraram-se três plantas 2D a partir do JSON comum R158: N1, N2 
 
 As três plantas foram abertas no AutoCAD, salvas como DWG 2018, fechadas, reabertas e exportadas para arquivos DXF de retorno por uma sequência nativa de comandos. A conferência externa confirmou polilinhas fechadas, camadas, identificadores, conteúdo JSON XDATA, textos e eixos. A diferença máxima dos contornos foi de 8,882 x 10^-16 m. A conferência do arquivo não equivale à revisão completa de legibilidade ou compatibilização arquitetônica. Houve cancelamento de uma abertura duplicada durante a navegação; essa ocorrência está incluída na duração da sessão.
 
-## Situação do Revit
+## Histórico das tentativas no Revit
 
 Preparou-se uma cópia isolada da R157, com hash inicial idêntico à referência congelada. A primeira tentativa do comando R159 falhou antes de iniciar transações, ao tentar ler o SHA-256 do RVT aberto com compartilhamento incompatível com o bloqueio do Revit. O relatório nativo registrou `Saved=false`, nenhum aviso e 17,2766 ms de execução do comando. Corrigiu-se a leitura para um fluxo somente leitura com compartilhamento de leitura/escrita/exclusão, mantendo a conferência do hash e da ausência de alterações pendentes.
 
 A DLL corrigida compilou com zero avisos e zero erros. Após reiniciar, o Revit permaneceu sem janela principal capturável. Os journals locais indicaram um diálogo de confiança de complemento. Solicitou-se ao usuário que trouxesse a janela para a tela; não se alterou a política de segurança nem se escolheu confiança por automação. Uma tentativa condicionada de recuperação por encerramento foi abortada pela proteção que detectou journals já iniciados; nenhum processo foi encerrado por essa tentativa.
 
-Portanto, **a viga ainda não tem implantação nativa R159 confirmada no Revit**. A cópia R159 continua byte a byte igual à R157 congelada enquanto não houver criação, salvamento e releitura nativos confirmados. Não se deve utilizar sua existência como prova de aplicação da viga.
+Nesse primeiro encerramento parcial, a viga ainda não tinha implantação nativa R159 confirmada no Revit. A cópia R159 permanecia byte a byte igual à R157 congelada; sua existência não foi utilizada como prova de aplicação da viga. Esse estado histórico está em `R159-resultado-parcial.json`, e foi superado pelo relatório de aplicação/releitura `R159-resultado-nativo.json`.
+
+Após o usuário liberar o carregamento, recuperou-se o foco da sessão e executou-se novamente o comando. A leitura compartilhada do arquivo funcionou. A segunda tentativa parou na busca das curvas de L6, com 885,3948 ms de execução, sem avisos e `Saved=false`. O grupo de transações foi revertido; após fechar a sessão, o hash do RVT confirmou a preservação da base inicial. Corrigiu-se a correspondência entre o perfil e os elementos de curva com `Curve.Reference.ElementId`, conforme o XML da API instalado em `C:/Program Files/Autodesk/Revit 2027/RevitAPI.xml`, verbete `Sketch.GetAllElements`. O erro da consulta não comprova uma laje com contorno irregular e não deve ser contado como defeito geométrico ou perda na importação IFC.
+
+A segunda correção também amplia a releitura prevista da escada com contornos projetados, espessuras hipotéticas e resistência cadastrada nos materiais dos lances/patamar. Compilou com zero erros e avisos, mas a verificação nativa dessa versão depende de seu carregamento e execução. Fecharam-se as sessões sem documentos para substituir a DLL, e iniciou-se uma única nova sessão. A solicitação anterior para trazer a janela R159 ao primeiro plano ficou desatualizada durante essa reinicialização; informou-se isso ao usuário.
+
+A terceira tentativa superou a edição de L6 e a conferência dos 65 elementos, mas foi revertida pela verificação de largura: utilizou-se indevidamente `StairsRun.ActualRunWidth`, que a documentação da API define como zero para lances por croqui. Corrigiu-se a verificação para medir a largura pelo contorno nativo dos dois lances retos, mantendo o zero da propriedade original como dado bruto no relatório. Também se conferiram os limites XY de lances e patamar contra o candidato, além dos 17 espelhos, alturas, pisada, espessuras hipotéticas de 14 cm e cadastro de 25 MPa. Essa falha da checagem não demonstra lance sem largura.
+
+Na quarta tentativa, a rotina concluiu e salvou a R159. O comando mediu 2.287,8561 ms, valor que exclui desenvolvimento, correções, reinicializações e conferência posterior. Após fechar e reabrir o RVT, a releitura coincidiu integralmente com o objeto `Readback` da criação, incluindo identidades, eixos/perfis, seções, contornos da escada e materiais. O aviso de corrimão não contínuo ficou registrado; não se declarou o guarda-corpo/corrimão dimensionado ou resolvido. A fonte R157 e o original R93 foram conferidos por hash e permanecem preservados.
 
 Ao fechar a sessão anterior da R157, preservou-se primeiro a referência congelada. Salvou-se a sessão aberta em arquivo de preservação separado e restaurou-se a referência congelada com verificação do hash. Não se adotaram automaticamente eventuais alterações daquela sessão. Os caminhos e hashes estão em `R159-preservacao-R157.json`.
 
@@ -30,7 +42,7 @@ A escada usa acabamento hipotético constante de 5 cm, referência virtual infer
 
 ## Recepção no Eberick e igualdade dos fluxos
 
-As novas plantas ainda não foram incorporadas aos receptores CAD/BIM do Eberick. Um DWG/DXF fornece referência gráfica; não se afirmou que seus XDATA sejam convertidos automaticamente em material ou objetos de cálculo. A aplicação IFC também permanece pendente do Revit. O estudo deve registrar em cada receptor o que efetivamente chegou, o que exigiu relançamento e o tempo correspondente.
+As novas plantas ainda não foram incorporadas aos receptores CAD/BIM do Eberick. Um DWG/DXF fornece referência gráfica; não se afirmou que seus XDATA sejam convertidos automaticamente em material ou objetos de cálculo. A exportação IFC e sua recepção também permanecem pendentes. O estudo deve registrar em cada receptor o que efetivamente chegou, o que exigiu relançamento e o tempo correspondente.
 
 No [procedimento oficial de nível intermediário da AltoQi](https://suporte.altoqi.com.br/hc/pt-br/articles/115002186654), a inserção ocorre a partir do pavimento superior e a altura é medida desde o pavimento inferior. Com N0=+0,20 m e patamar de concreto=+1,774118 m, a diferença geométrica candidata é de 1,574118 m. Esse valor não autoriza modificar níveis sem conferir a convenção e os vínculos das duas cópias. A própria documentação distingue os pilares passantes e sua continuidade; não se deve duplicá-los como novos pilares independentes por constarem no desenho de contexto.
 
@@ -46,6 +58,6 @@ Executou-se a suíte existente de `tcc-assistente`: 81 testes aprovados, nenhum 
 
 ## Retomada
 
-Após a janela do Revit ficar acessível, conferir o aviso e a DLL local corrigida com o usuário, abrir a cópia R159 e executar o comando novo de aplicação. Inspecionar o resultado e os avisos, salvar, fechar, reabrir e executar a conferência R159. Exigir os relatórios de criação e releitura e conferir os 65 elementos antes de atualizar o apontador de estado. Repetir a verificação nativa de interferências, classificar os contatos e completar a análise dos apoios. Somente então preparar a exportação IFC e o ensaio de recepção correspondente ao DWG.
+Dar continuidade à exportação IFC a partir da R159 conferida, verificar o conteúdo realmente exportado e preparar o ensaio de recepção correspondente ao DWG. Completar a análise do contato com V16 e do apoio inferior, os materiais e cargas e o lançamento resistente no Eberick. Manter os mesmos critérios nos dois receptores, cronometrando as correções realmente realizadas. Não executar novamente o comando de aplicação sobre a R159 já alterada: o bloqueio de hash/contagem inicial deve recusar essa repetição.
 
 `preparar.py` e `preparar_formas_cad.py` recusam sobrescrever a preparação. O arquivo SCR preservado documenta a execução nativa desta rodada; não deve ser reaplicado sobre arquivos existentes. Os binários RVT/DWG/DLL permanecem em D:\TCC e não são versionados. **NÃO EXECUTAR EM OBRA.**

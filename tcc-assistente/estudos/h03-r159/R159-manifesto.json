@@ -16,12 +16,16 @@
     "sha256": "03b7a928116578ae04112fe62adb4d9cb49e3aa897a60b9f0f905f1fe34197a8"
   },
   {
+    "path": "consolidar_nativo.py",
+    "sha256": "3518233a8c8f3485daf9c5e07af24693eb80b4aaa797f75a99b5aa47923c5636"
+  },
+  {
     "path": "consolidar_parcial.py",
-    "sha256": "2d2b8a45e21360fc82155185cbba426158cb49ea9809c4ef387d5188f086633e"
+    "sha256": "1bbc0cb827716e521af4913b89ce21d566e752c0d4851e4103b8cc2574d78344"
   },
   {
     "path": "LEIA-ME-R159.md",
-    "sha256": "e64c036cbe2d1a23a824ab9a92263166011fb9c884e3dc4aa448d19a28d57a46"
+    "sha256": "92fa7ee22f6d890b3076e3864c9f139c3de4dc0e971d63e3e275f87b94ad7e2e"
   },
   {
     "path": "preparar.py",
@@ -42,6 +46,14 @@
   {
     "path": "R159-apontador-anterior.json",
     "sha256": "3a094369a8ddae4b1f8a6d2025fc8aba83050a5bb4cf4c1774e60afefd581e65"
+  },
+  {
+    "path": "R159-apontador-antes-releitura.json",
+    "sha256": "f829cc2a6357ead541ca0086004ef30ae8c3aa71fe98359fb6e5742bc83bdf6e"
+  },
+  {
+    "path": "R159-apontador-apos-releitura.json",
+    "sha256": "f0b9ac6a30105c4b8a1452a4f23111c337d4d703d2abef23c7edbff00b331f1f"
   },
   {
     "path": "R159-apontador-atual.json",
@@ -100,6 +112,10 @@
     "sha256": "29af96e6a595f8eaaf143bd7afb954937996bb8068cf71f393e58ef8907801ad"
   },
   {
+    "path": "R159-conferencia-fim.json",
+    "sha256": "c1f6998c1ae4db2a96d729872d4f6443745bb395d0e312fa8eaed9fa6c0953f2"
+  },
+  {
     "path": "R159-conferir-formas.scr",
     "sha256": "4060fb557d8a35dcbaf00cecf742121a2bfd6580190eacfe4224fc9fc430ff1f"
   },
@@ -108,8 +124,32 @@
     "sha256": "50c09c041d102aaac7af9fa48212b0ed782399fbfb813cf6e093fd6ce886ca85"
   },
   {
+    "path": "R159-correcao-largura-croqui.json",
+    "sha256": "2d7b275bba5f288464ab8d2edeaba1ff4d6c2233262ecfe9e31a2891a841e846"
+  },
+  {
+    "path": "R159-correcao-perfil-L6.json",
+    "sha256": "6e1e841defaf66e389dbb4d529214857b76cf674e6c3dc8e2310bba8c21dcfbe"
+  },
+  {
+    "path": "R159-criacao-nativa.json",
+    "sha256": "6af83d4fc5ac894bb99b8be5ddcd6318ac442d5fc7f5978d46a45f87a2b9eebc"
+  },
+  {
     "path": "R159-falha-20261102-123531.json",
     "sha256": "a57cb699c551fa07d7734099e037aad7ba51ca6c7dbe4c96f62974486e0a6c73"
+  },
+  {
+    "path": "R159-falha-20261102-133027.json",
+    "sha256": "66c52f32e67cb51b0e1f276580f5d89129891d5c996e3f993033e1e33aeb71e3"
+  },
+  {
+    "path": "R159-falha-20261102-134039.json",
+    "sha256": "36c70b4c0d764f122acf7320e25f741875a2e2c9a41eb068e0a1e7898a953d09"
+  },
+  {
+    "path": "R159-fechado-apos-criacao.json",
+    "sha256": "48452112d1bd96be101160d568f8f3fab9469472fa927af2c0c402a6e11233b9"
   },
   {
     "path": "R159-formas-CAD-geradas.json",
@@ -118,6 +158,26 @@
   {
     "path": "R159-inicio-comando.json",
     "sha256": "fdbd8142460fb7fb1508845dfabc2961f9c057319bcfb6552208c333aea4d3c3"
+  },
+  {
+    "path": "R159-interferencia-config.png",
+    "sha256": "54505301ebaeb3f6fb956d3202dafbe0054ef2c7ead7d0aa25ccee9e834bc636"
+  },
+  {
+    "path": "R159-interferencia-inicio.json",
+    "sha256": "cafc9a086af8594885507997d2f7be142488484dcafcc7d958c8dd98709ae885"
+  },
+  {
+    "path": "R159-interferencia-observacao.json",
+    "sha256": "2675aa925c18a6810d953faabe893230282b528e13f91c7a0ee0892509b64380"
+  },
+  {
+    "path": "R159-interferencia-relatorio.png",
+    "sha256": "d6c653aa0b8b92ff55166d682bda9785db2c953e7f9f9d029860fd67471b04dd"
+  },
+  {
+    "path": "R159-interferencias-nativas.html",
+    "sha256": "56630e83bdc2db701f84a0c78ce356cb3daf05b5be769b05fd6e4ff852339d9d"
   },
   {
     "path": "R159-preparacao.json",
@@ -132,8 +192,56 @@
     "sha256": "5f97e177479e175203338aea2002d2a2dee41e6c271b432c5c90757a7ddc328d"
   },
   {
+    "path": "R159-quarta-tentativa-inicio.json",
+    "sha256": "2ffd6af6a4a120d78644f9217434a619065c06f38c49d3cf6fa287b6bb08ad2c"
+  },
+  {
+    "path": "R159-quarta-tentativa-observacao.json",
+    "sha256": "ccce5b464d78b76cbf46984f62cb55f7e42bf1868376e9c4dd26810548ea294d"
+  },
+  {
+    "path": "R159-releitura-nativa-20261102-134930.json",
+    "sha256": "75a2aed8229259873b540c60db01473cf37070df88069f35e3097fc7d7e50e6d"
+  },
+  {
+    "path": "R159-resultado-nativo.json",
+    "sha256": "3801e6fdb5bb7b719e096053084e1d7af70b350f4a8556cbbaf28364eeeb5488"
+  },
+  {
     "path": "R159-resultado-parcial.json",
     "sha256": "11cbae2519c6faf3558c144da51a042a24b2d793a73aa18b48e2d69e0aedfd96"
+  },
+  {
+    "path": "R159-retomada-apos-confianca.json",
+    "sha256": "3708a1f76502c8e9e7006782e4849c15be2662b095a56bf43ecc0cad0b6f2303"
+  },
+  {
+    "path": "R159-Revit-criado.png",
+    "sha256": "259d07eb07a9619067a45b70a8243a4a007eda2ffeb9422e193e9e47456e07d1"
+  },
+  {
+    "path": "R159-Revit-reaberto.png",
+    "sha256": "cc04dae76aa7e8e23ff02d997e78325edff84a848825a7e8448870e84353513f"
+  },
+  {
+    "path": "R159-segunda-tentativa-inicio.json",
+    "sha256": "17a60293037d187ac4a0dbd45a71e4060315403277b2be7b1e475cd66216b984"
+  },
+  {
+    "path": "R159-segunda-tentativa-observacao.json",
+    "sha256": "150a44eb65b0432523add7c66c5b5d1ff46ee3b2c4ec3aa9ee46cb94c2591914"
+  },
+  {
+    "path": "R159-terceira-tentativa-inicio.json",
+    "sha256": "8944085e5878d6694c1151f42fcce6b729548a49ef7c41b649355d35ade0e3fb"
+  },
+  {
+    "path": "R159-terceira-tentativa-observacao.json",
+    "sha256": "71467edd27957c60b8e87abb72af32936416aef6abf2c7f37490c6728af4079b"
+  },
+  {
+    "path": "R159-validacao-nativa.json",
+    "sha256": "843321255d38b38215cf3f1da66915eee42f47f7aa110c7c0e952e924ac0cf91"
   },
   {
     "path": "R159-validacao.json",

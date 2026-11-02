@@ -1,0 +1,32 @@
+{
+  "recordedAtUtc": "2026-11-02T14:01:00.7758929Z",
+  "nodeTests": {
+    "paidAiInference": false,
+    "passed": 81,
+    "failed": 0,
+    "skipped": 0
+  },
+  "pythonComparatorTests": {
+    "failed": 0,
+    "passed": 5
+  },
+  "connectorBuild": {
+    "dllSha256": "ADD723674D0103EE6A83AEF98540DBB7ED97E761E952C2201D082D88D164F5EB",
+    "errors": 0,
+    "warnings": 0
+  },
+  "nativeRevit": {
+    "nativeInterferencePairCount": 1,
+    "createdSavedClosedReopened": true,
+    "retainedLogicalCount": 60,
+    "stairRisers": 17,
+    "readbackExactMatch": true,
+    "structuralElementCount": 65,
+    "structuralApproval": false
+  },
+  "nativeAutoCad": {
+    "structuralUniqueElementsRepresented": 65,
+    "threeFormsSavedClosedReopened": true
+  },
+  "ifcAndEberickReceptionCompleted": false
+}
