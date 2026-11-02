@@ -1,0 +1,6 @@
+{
+  "Error": "System.IO.IOException: The process cannot access the file \u0027D:\\TCC\\outputs\\Escada-H03-R159-IMPLANTACAO-NAO-EXECUTAR\\H03-R159-Revit-VIGA-PATAMAR-NAO-EXECUTAR.rvt\u0027 because it is being used by another process.\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable\u00601 unixCreateMode)\r\n   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.File.ReadAllBytes(String path)\r\n   at TccAssistente.RevitStairSupport.Study.Hash(String path) in C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10\u00BA Semestre\\TCC2\\tcc-assistente\\connectors\\RevitStairSupport\\Commands.cs:line 21\r\n   at TccAssistente.RevitStairSupport.ApplyCandidate.Execute(ExternalCommandData data, String\u0026 message, ElementSet failed) in C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10\u00BA Semestre\\TCC2\\tcc-assistente\\connectors\\RevitStairSupport\\Commands.cs:line 171",
+  "Saved": false,
+  "CommandMs": 17.2766,
+  "Warnings": []
+}
