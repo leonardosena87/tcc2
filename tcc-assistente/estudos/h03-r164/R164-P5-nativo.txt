@@ -1,0 +1,232 @@
+Window: "AltoQi Eberick 2025 Infinity - [R164-R160-CONTINUIDADE-PILARES-NAO-EXECUTAR (R164-R160-CONTINUIDADE-PILARES-NAO-EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [R164-R160-CONTINUIDADE-PILARES-NAO-EXECUTAR (R164-R160-CONTINUIDADE-PILARES-NAO-EXECUTAR)] Secondary Actions: Raise
+		37549 diálogo Pilar Secondary Actions: Raise
+			37550 grupo Dados do pilar ID: 1010
+			37551 text Nome ID: 797
+			37552 editar (settable, string) Nome Value: P5 ID: 801
+			37553 text Ambiente ID: 798
+			37554 caixa de combinação (settable, string) Ambiente Value: Externo ID: 828
+				37555 text (settable, string) Ambiente Value: Externo
+				37556 botão Abrir ID: DropDown
+			37557 caixa de seleção Detalhamento contínuo no lance ID: 1036
+			37558 grupo Modelo ID: 823
+			37559 text Vínculo ID: 800
+			37560 caixa de combinação (settable, string) Vínculo Value: Engastado ID: 821
+				37561 text (settable, string) Vínculo Value: Engastado
+				37562 botão Abrir ID: DropDown
+			37563 text Verticalidade ID: 799
+			37564 caixa de combinação (settable, string) Verticalidade Value: Automático ID: 1009
+				37565 text (settable, string) Verticalidade Value: Automático
+				37566 botão Abrir ID: DropDown
+			37567 grupo Seção ID: 843
+			37568 text Tipo ID: 446
+			37569 caixa de combinação (settable, string) Tipo Value: retangular ID: 809
+				37570 text (settable, string) Tipo Value: retangular
+				37571 botão Abrir ID: DropDown
+			37572 text b ID: 500
+			37573 editar (settable, string) b Value: 20 ID: 810
+			37574 text cm ID: 814
+			37575 text h ID: 448
+			37576 editar (settable, string) h Value: 30 ID: 811
+			37577 text cm ID: 815
+			37578 text b1 ID: 449
+			37579 editar (disabled, settable, string) b1 Value: 0 ID: 812
+			37580 text cm ID: 816
+			37581 text h1 ID: 447
+			37582 editar (disabled, settable, string) h1 Value: 0 ID: 813
+			37583 text cm ID: 817
+			37584 text Ângulo de abertura ID: 855
+			37585 editar (disabled, settable, string) Ângulo de abertura Value: 90 ID: 856
+			37586 text o ID: 857
+			37587 text Ângulo de rotação ID: 795
+			37588 editar (settable, string) Ângulo de rotação Value: 0 ID: 802
+			37589 text o
+			37590 text Elevação ID: 796
+			37591 editar (settable, string) Elevação Value: 0 ID: 820
+			37592 text cm ID: 819
+			37593 caixa de seleção Manter seção constante na prumada ID: 834
+			37594 text ID: 818
+			37595 grupo Capitel ID: 846
+			37596 caixa de seleção Usar capitel ID: 837
+			37597 text Ângulo de rotação ID: 847
+			37598 editar (disabled, settable, string) Ângulo de rotação Value: 0 ID: 838
+			37599 text o ID: 848
+			37600 text b ID: 849
+			37601 editar (disabled, settable, string) b Value: 100 ID: 840
+			37602 text cm ID: 850
+			37603 text Espessura ID: 851
+			37604 editar (disabled, settable, string) Espessura Value: 30 ID: 839
+			37605 text cm ID: 852
+			37606 text h ID: 853
+			37607 editar (disabled, settable, string) h Value: 100 ID: 841
+			37608 text cm ID: 854
+			37609 botão OK ID: 1
+			37610 botão Cancelar ID: 2
+			37611 botão Desenho... ID: 547
+			37612 botão Cargas... ID: 822
+			37613 botão Ajuda ID: 9
+			37614 barra de título (settable, string) Value: Pilar
+		27 Barra de status
+			37664 custom
+				37665 text Editar
+				37666 editar (settable, string)
+				37667 text 439.6,388.6
+				37668 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					37669 Lista
+						37670 item de lista (selectable) 1:1
+						37671 item de lista (selectable) 1:2
+						37672 item de lista (selectable) 1:5
+						37673 item de lista (selectable) 1:10
+						37674 item de lista (selectable) 1:12.5
+						37675 item de lista (selectable) 1:15
+						37676 item de lista (selectable) 1:20
+						37677 item de lista (selectable) 1:25
+						37678 item de lista (selectable) 1:30
+						37679 item de lista (selectable) 1:40
+						37680 item de lista (selectable) 1:50
+						37681 item de lista (selectable) 1:60
+						37682 item de lista (selectable) 1:75
+						37683 item de lista (selectable) 1:100
+						37684 item de lista (selectable) 1:200
+						37685 item de lista (selectable) 1:250
+						37686 item de lista (selectable) 1:500
+						37687 item de lista (selectable) 1:1000
+			37688 botão Atualizar
+			37689 botão Enquadrar
+			37690 botão Aproximar
+			37691 botão Afastar
+			37692 botão Zoom
+			37693 botão Zoom anterior
+			37694 botão Deslocar
+			37695 caixa de seleção Ortogonal
+			37696 caixa de seleção Captura personalizada
+			37697 botão Opções da captura personalizada
+			37698 caixa de seleção Quadrante
+			37699 caixa de seleção Centro
+			37700 caixa de seleção Ponto médio
+			37701 caixa de seleção Extremidade
+			37702 caixa de seleção Ponto no elemento
+			37703 caixa de seleção Intersecção
+			37704 caixa de seleção Perpendicular
+			37705 caixa de seleção Ponto intermediário
+			37706 caixa de seleção Ponto quadrante
+			37707 caixa de seleção Ponto na intersecção
+			37708 caixa de seleção Ponto relativo
+		28 painel
+			29 botão de divisão
+				30 elevador
+				31 painel
+					32 tabulação Croqui-TCC-7a6267fd-N1
+						37709 item de tabulação (selectable) Notícias
+						37710 item de tabulação (selectable) Croqui-TCC-7a6267fd-N1
+					34 painel
+						37103 painel
+							37104 painel Croqui-TCC-7a6267fd-N1
+								37105 painel TCadPlotWindow
+				57 painel
+					58 tabulação
+						37711 item de tabulação (selectable)
+						37712 item de tabulação (selectable)
+					60 painel
+						61 janela Edificação Secondary Actions: Raise
+							62 painel
+								63 painel Projeto
+									64 painel
+									36861 árvore ID: 101
+										36862 barra de rolagem (settable, float) Horizontal Value: 0 ID: NonClientHorizontalScrollBar
+											36863 botão Uma coluna à esquerda ID: UpButton
+											36864 elevador Posição ID: ScrollbarThumb
+											36865 botão Uma página à direita ID: DownPageButton
+											36866 botão Uma coluna à direita ID: DownButton
+										36979 item da árvore (selectable, disabled) Pavimentos
+											36980 item da árvore (selectable, disabled) TCC-7a6267fd-N2
+											36926 item da árvore (selectable, disabled) TCC-R155-PISO-ACABADO-325
+											36981 item da árvore (selectable, disabled) TCC-7a6267fd-N1
+											36982 item da árvore (selectable, disabled) Nível 2
+											36913 item da árvore (selectable, disabled) TCC-R159-PATAMAR-CONCRETO
+											36983 item da árvore (selectable, disabled) TCC-R155-PISO-ACABADO-022
+											36920 item da árvore (selectable, disabled) TCC-7a6267fd-N0
+											36916 item da árvore (selectable, disabled) TCC-R159-BASE-VIRTUAL-017-APOIO-PENDENTE
+											36984 item da árvore (selectable, disabled) Nível 1
+										36985 item da árvore (selectable, disabled) Cortes
+										36986 item da árvore (selectable, disabled) Gerenciador de desenhos
+										36987 item da árvore (selectable, disabled) Modelos 3D
+											36919 item da árvore (selectable, disabled) H03-R160-R164-DERIVADO-VIGAS-E-4-PILARES-NAO-EXECUTAR
+		66 barra de menus
+		37549 diálogo Pilar Secondary Actions: Raise
+			37550 grupo Dados do pilar ID: 1010
+			37551 text Nome ID: 797
+			37552 editar (settable, string) Nome Value: P5 ID: 801
+			37553 text Ambiente ID: 798
+			37554 caixa de combinação (settable, string) Ambiente Value: Externo ID: 828
+				37555 text (settable, string) Ambiente Value: Externo
+				37556 botão Abrir ID: DropDown
+			37557 caixa de seleção Detalhamento contínuo no lance ID: 1036
+			37558 grupo Modelo ID: 823
+			37559 text Vínculo ID: 800
+			37560 caixa de combinação (settable, string) Vínculo Value: Engastado ID: 821
+				37561 text (settable, string) Vínculo Value: Engastado
+				37562 botão Abrir ID: DropDown
+			37563 text Verticalidade ID: 799
+			37564 caixa de combinação (settable, string) Verticalidade Value: Automático ID: 1009
+				37565 text (settable, string) Verticalidade Value: Automático
+				37566 botão Abrir ID: DropDown
+			37567 grupo Seção ID: 843
+			37568 text Tipo ID: 446
+			37569 caixa de combinação (settable, string) Tipo Value: retangular ID: 809
+				37570 text (settable, string) Tipo Value: retangular
+				37571 botão Abrir ID: DropDown
+			37572 text b ID: 500
+			37573 editar (settable, string) b Value: 20 ID: 810
+			37574 text cm ID: 814
+			37575 text h ID: 448
+			37576 editar (settable, string) h Value: 30 ID: 811
+			37577 text cm ID: 815
+			37578 text b1 ID: 449
+			37579 editar (disabled, settable, string) b1 Value: 0 ID: 812
+			37580 text cm ID: 816
+			37581 text h1 ID: 447
+			37582 editar (disabled, settable, string) h1 Value: 0 ID: 813
+			37583 text cm ID: 817
+			37584 text Ângulo de abertura ID: 855
+			37585 editar (disabled, settable, string) Ângulo de abertura Value: 90 ID: 856
+			37586 text o ID: 857
+			37587 text Ângulo de rotação ID: 795
+			37588 editar (settable, string) Ângulo de rotação Value: 0 ID: 802
+			37589 text o
+			37590 text Elevação ID: 796
+			37591 editar (settable, string) Elevação Value: 0 ID: 820
+			37592 text cm ID: 819
+			37593 caixa de seleção Manter seção constante na prumada ID: 834
+			37594 text ID: 818
+			37595 grupo Capitel ID: 846
+			37596 caixa de seleção Usar capitel ID: 837
+			37597 text Ângulo de rotação ID: 847
+			37598 editar (disabled, settable, string) Ângulo de rotação Value: 0 ID: 838
+			37599 text o ID: 848
+			37600 text b ID: 849
+			37601 editar (disabled, settable, string) b Value: 100 ID: 840
+			37602 text cm ID: 850
+			37603 text Espessura ID: 851
+			37604 editar (disabled, settable, string) Espessura Value: 30 ID: 839
+			37605 text cm ID: 852
+			37606 text h ID: 853
+			37607 editar (disabled, settable, string) h Value: 100 ID: 841
+			37608 text cm ID: 854
+			37609 botão OK ID: 1
+			37610 botão Cancelar ID: 2
+			37611 botão Desenho... ID: 547
+			37612 botão Cargas... ID: 822
+			37613 botão Ajuda ID: 9
+			37614 barra de título (settable, string) Value: Pilar
+
+Document text: ```
+Editar
+439.6,388.6
+```
+
+Focused element: 37549 diálogo Pilar Secondary Actions: Raise
+
+Document text:
+Editar
+439.6,388.6

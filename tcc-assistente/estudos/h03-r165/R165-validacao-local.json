@@ -1,0 +1,37 @@
+{
+  "recordedAtUtc": "2026-11-02T20:16:08.713Z",
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "820d71",
+        "wall_time_seconds": 0.8484826,
+        "exit_code": 0,
+        "original_token_count": 254,
+        "output": "test_column_above_beam_does_not_supply_end_support (test_cobertura.CoverageTests.test_column_above_beam_does_not_supply_end_support) ... ok\r\ntest_end_extension_requires_support_envelope (test_cobertura.CoverageTests.test_end_extension_requires_support_envelope) ... ok\r\ntest_exclusion_does_not_mask_gap_outside_column (test_cobertura.CoverageTests.test_exclusion_does_not_mask_gap_outside_column) ... ok\r\ntest_gap_is_not_hidden_by_summed_lengths (test_cobertura.CoverageTests.test_gap_is_not_hidden_by_summed_lengths) ... ok\r\ntest_rotated_column_dimensions_and_rejection (test_cobertura.CoverageTests.test_rotated_column_dimensions_and_rejection) ... ok\r\ntest_rounding_is_distinguished_from_real_gap (test_cobertura.CoverageTests.test_rounding_is_distinguished_from_real_gap) ... ok\r\ntest_wrong_section_and_top_remain_unmatched (test_cobertura.CoverageTests.test_wrong_section_and_top_remain_unmatched) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 7 tests in 0.000s\r\n\r\nOK\r\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "cf866d",
+        "wall_time_seconds": 0.9058809,
+        "exit_code": 0,
+        "original_token_count": 122,
+        "output": "test_preserves_nominal_endpoint_and_footprint (test_colunas.ColumnGuardTests.test_preserves_nominal_endpoint_and_footprint) ... ok\r\ntest_refuses_invalid_height_width_and_nonfinite (test_colunas.ColumnGuardTests.test_refuses_invalid_height_width_and_nonfinite) ... ok\r\ntest_refuses_other_kind_and_rotation (test_colunas.ColumnGuardTests.test_refuses_other_kind_and_rotation) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 3 tests in 0.000s\r\n\r\nOK\r\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "ccf289",
+        "wall_time_seconds": 1.5479178999999998,
+        "exit_code": 0,
+        "original_token_count": 1805,
+        "output": "Warning: truncated output (original token count: 1805)\nTotal output lines: 93\n\n\n> tcc-assistente@0.1.0 test\n> node --test tests/*.test.mjs\n\n✔ anexos entram como input_file e não como instruções (2.4464ms)\n✔ valida tipo, assinatura, base64 e limites dos arquivos (143.8088ms)\n✔ formatos Word e Excel gerados são pacotes OOXML válidos e texto é escapado (41.929ms)\n✔ exportação rejeita tabela irregular e formatos não autorizados (0.8408ms)\n✔ DXF roundtrip ignores handles but preserves nominal geometry and labels (2.9954ms)\n✔ same element count does not conceal a changed beam section label (0.5089ms)\n✔ same rectangle size does not conceal a moved vertex (0.2767ms)\n✔ duplicate labels are counted instead of collapsed into a set (0.4027ms)\n✔ centered text uses its alignment point after native regeneration (2.0758ms)\n✔ unsupported arcs, nonplanar entities and incomplete files fail closed (1.4481ms)\n✔ revisão exige trecho e limita contexto sem truncar silenciosamente (3.2191ms)\n✔ não armazena resposta e mantém dados do documento como cont…1305 tokens truncated…773ms)\n✔ aplica ao trecho capturado mesmo se seleção do cursor mudar (4.1041ms)\n✔ bloqueia proposta se texto original foi alterado (0.7153ms)\n✔ conteúdo com tabelas ou campos não é substituído (0.2309ms)\n✔ inserção de resposta não substitui a seleção atual (0.2669ms)\n✔ limpeza de sugestões tolera ranges invalidados após aplicação (0.2795ms)\n✔ captura seleção dentro de Word.run e mantém índices do documento (1.6092ms)\n✔ captura o documento inteiro sem tentar ler uma seleção inexistente (0.5579ms)\n✔ localiza o parágrafo se o Word deslocar seu índice durante a análise (1.1217ms)\n✔ não escolhe um parágrafo vizinho quando o texto de origem está duplicado (0.5832ms)\n✔ remove destaques em novo Word.run usando índices e texto revisado (0.5784ms)\n✔ fora do Word falha claramente; conversa sem contexto continua disponível (0.4504ms)\nℹ tests 81\nℹ suites 0\nℹ pass 81\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 519.9394\n"
+      }
+    }
+  ],
+  "scope": "Testes de codigo locais; sem chamada real a IA, sem validacao de calculo estrutural.",
+  "nativeEvidence": "R165-CAD-auditoria.json e R164-recepcao-auditoria.json"
+}

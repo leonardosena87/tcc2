@@ -1,0 +1,148 @@
+{
+  "revision": "H03/R164",
+  "recordedAtUtc": "2026-11-02T19:19:23.730918+00:00",
+  "inputPath": "D:\\TCC\\outputs\\Intercambio-H03-R162-SECOES-NOMINAIS-NAO-EXECUTAR\\H03-R160-R162-DERIVADO-VIGAS-NOMINAIS-NAO-EXECUTAR.ifc",
+  "inputSha256": "a5ff9ccdeb5522f2b84d6e7d83e21074ab563a229fc30417421f5565b9bab1df",
+  "nativeReadbackPath": "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-releitura-nativa-20261102-163548.json",
+  "nativeReadbackSha256": "fd43fd25e3665bfe6fc3b9eaa14892b9d7446b19809efaae6e278a0aad3f3a18",
+  "targetPath": "D:\\TCC\\outputs\\Intercambio-H03-R164-CONTINUIDADE-PILARES-NAO-EXECUTAR\\H03-R160-R164-DERIVADO-VIGAS-E-4-PILARES-NAO-EXECUTAR.ifc",
+  "targetSha256": "c3ef584960752b7a21341aa6388797b56bbdbeceb4844b85d981a84dc55e0218",
+  "priorAuditPath": "D:\\TCC\\outputs\\Intercambio-H03-R163-COBERTURA-GEOMETRICA-NAO-EXECUTAR\\R163-cobertura-geometrica.json",
+  "priorAuditSha256": "edb6fddc0111f9d1525ce07fa2ad933b669e02d1530edcfee9139f10e0096259",
+  "changedColumnRepresentations": 4,
+  "newColumnOrigins": 0,
+  "unchangedOtherMeshedElements": 64,
+  "identitiesPropertiesMaterialsAndLevelsPreserved": true,
+  "sourceHashesUnchanged": true,
+  "notNativeRevitExport": true,
+  "revitCadAndEberickProjectsNotEdited": true,
+  "columnCutCauseNotIsolated": true,
+  "importerBirthColumnEffectNotYetTested": true,
+  "schemaValidationIssuesBefore": [],
+  "schemaValidationIssuesAfter": [],
+  "notStructuralApproval": true,
+  "elapsedScriptMs": 2269.6161000058055,
+  "timeIsNotWholeFlowOrOperatorEffort": true,
+  "rows": [
+    {
+      "nativeId": "473143",
+      "mark": "P11-N1",
+      "before": {
+        "minM": [
+          6.3999999999999995,
+          3.8,
+          0.2
+        ],
+        "maxM": [
+          6.7,
+          4.0,
+          3.06
+        ],
+        "pointsSha256": "986c11117abbe3e015237f106f9679c45da1459e9c0218b5935bf12494de578f"
+      },
+      "after": {
+        "minM": [
+          6.4,
+          3.8,
+          0.20000000000000004
+        ],
+        "maxM": [
+          6.700000000000001,
+          4.0,
+          3.2000000000000006
+        ],
+        "pointsSha256": "703267837e70ad6a086ff9d39bcc69c0da9eab1ecffbfd9ff412c50c9fc57ed0"
+      }
+    },
+    {
+      "nativeId": "473144",
+      "mark": "P11-N2",
+      "before": {
+        "minM": [
+          6.3999999999999995,
+          3.8,
+          3.2
+        ],
+        "maxM": [
+          6.7,
+          4.0,
+          6.25
+        ],
+        "pointsSha256": "39fd320aeec6ff68aba3ab275ab71d4519ec4964b9ab98f1623fc67fa5657feb"
+      },
+      "after": {
+        "minM": [
+          6.4,
+          3.8,
+          3.2000000000000006
+        ],
+        "maxM": [
+          6.700000000000001,
+          4.0,
+          6.39
+        ],
+        "pointsSha256": "8909f82a5b8a3789c401e0b4c94d3790cac821f37860baebc4fb09726394a525"
+      }
+    },
+    {
+      "nativeId": "472934",
+      "mark": "P5-N1",
+      "before": {
+        "minM": [
+          4.300000000000001,
+          3.75,
+          0.2
+        ],
+        "maxM": [
+          4.5,
+          4.05,
+          3.06
+        ],
+        "pointsSha256": "e794cb7463133cfb160455cb153ab826701938a5dc91f136e959787109d32c71"
+      },
+      "after": {
+        "minM": [
+          4.300000000000001,
+          3.75,
+          0.20000000000000004
+        ],
+        "maxM": [
+          4.5,
+          4.05,
+          3.2000000000000006
+        ],
+        "pointsSha256": "74ae4b128b57541a796a42f00404451ce8885145eb2698d2991dd83ebd8d5ab9"
+      }
+    },
+    {
+      "nativeId": "473029",
+      "mark": "P5-N2",
+      "before": {
+        "minM": [
+          4.300000000000001,
+          3.75,
+          3.2
+        ],
+        "maxM": [
+          4.5,
+          4.05,
+          6.25
+        ],
+        "pointsSha256": "f7fd114eca3981e7ef9cb95617f7ed5a489a83ea2444ceb0bf8231afdf3a1785"
+      },
+      "after": {
+        "minM": [
+          4.300000000000001,
+          3.75,
+          3.2000000000000006
+        ],
+        "maxM": [
+          4.5,
+          4.05,
+          6.39
+        ],
+        "pointsSha256": "e38341878b5b84987f4459e0dc5af91891e77454fc34271f069b3b4de507f7e1"
+      }
+    }
+  ]
+}

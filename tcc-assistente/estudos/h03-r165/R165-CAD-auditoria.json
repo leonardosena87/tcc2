@@ -1,0 +1,332 @@
+{
+  "revision": "H03/R165",
+  "recordedAtUtc": "2026-11-02T20:15:03.646671+00:00",
+  "sourceHashes": {
+    "D:\\TCC\\outputs\\R165-CAD-REVISAO-ESCADA-R160-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj": "6eaf1a915410830e83613a0e1e0c60c23f961818881396b7991183532a8decdf",
+    "D:\\TCC\\outputs\\Intercambio-H03-R165-CAD-GEOMETRIA-NAO-EXECUTAR\\IFC-CAD-Eberick\\Modelo 3D.IFC": "776314f515be09c06a5caf81583b603527650d07eb7ef913ff4c0e8e68624623",
+    "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\IFC-CAD-Eberick\\Modelo 3D.IFC": "354bc6251184005930de2d9c654800a3d4b59989cf6f11a4c12768ad34cff687",
+    "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-releitura-nativa-20261102-163548.json": "fd43fd25e3665bfe6fc3b9eaa14892b9d7446b19809efaae6e278a0aad3f3a18",
+    "D:\\TCC\\outputs\\Intercambio-H03-R165-CAD-GEOMETRIA-NAO-EXECUTAR\\R165-L5-parametros.txt": "470496a9077e881ab4d5dc7e03e2cc4714bf10ed9c00c5afdac57e0c4b26f3ea",
+    "D:\\TCC\\outputs\\Intercambio-H03-R165-CAD-GEOMETRIA-NAO-EXECUTAR\\R165-L5-parametros-depois.txt": "39f0d1909e0d5fb5ee8ba65894259af647ba43f4bad53b8ba29579186e904ee1",
+    "D:\\TCC\\outputs\\Intercambio-H03-R165-CAD-GEOMETRIA-NAO-EXECUTAR\\R165-L5-grelha-antes.txt": "3c9baccd8582498c31b5cc11761986e6bd17a2640ef8d3abe13f01145ac1bea7",
+    "D:\\TCC\\outputs\\Intercambio-H03-R165-CAD-GEOMETRIA-NAO-EXECUTAR\\R165-L5-grelha-depois.txt": "bdf6a9163235d9e1d67fe388873fa6dcdc210f2ac4881d9cf1f2f6007815689e",
+    "D:\\TCC\\outputs\\Intercambio-H03-R165-CAD-GEOMETRIA-NAO-EXECUTAR\\R165-reabertura-V15.txt": "56d1bf20b5714a2d032472d00d4f9ac397284066cb0ac3c52cfbab7ef580340a",
+    "D:\\TCC\\outputs\\Intercambio-H03-R165-CAD-GEOMETRIA-NAO-EXECUTAR\\R165-reabertura-L5.txt": "00598d33d0f555f2764acc4cb331c4ec24ca01563b246e44be84816a620189d3"
+  },
+  "originalR161CadFilesPreserved": {
+    "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak": true,
+    "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2": true,
+    "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3": true,
+    "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini": true,
+    "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj": true,
+    "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad": true,
+    "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2": true,
+    "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3": true,
+    "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav": true,
+    "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2": true,
+    "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3": true,
+    "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2": true,
+    "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3": true,
+    "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_2508.log": true,
+    "_DADOS_\\ConfigFolder.qib": true,
+    "_DADOS_\\EdificacaoEberick.ini": true
+  },
+  "readOnlyAuditSourcesPreserved": true,
+  "nativeClosedAndReopened": true,
+  "project": "D:\\TCC\\outputs\\R165-CAD-REVISAO-ESCADA-R160-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+  "productCounts": {
+    "IfcBeam": 46,
+    "IfcColumn": 22,
+    "IfcSlab": 11,
+    "IfcStair": 0,
+    "IfcStairFlight": 0
+  },
+  "distinctColumnPositions": 11,
+  "columnParts": 22,
+  "columnGeometricBoxesPreserved": true,
+  "beam": {
+    "revitId": 472986,
+    "revitMark": "V15-N1",
+    "nativeEberickName": "V15",
+    "geometry": {
+      "minM": [
+        4.4,
+        2.9358,
+        3.04
+      ],
+      "maxM": [
+        6.550000000000001,
+        3.1358,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12
+    },
+    "sourceAxisM": [
+      4.4,
+      3.035783333333333,
+      3.2000000000000006,
+      6.550000000000001,
+      3.035783333333333,
+      3.2000000000000006
+    ],
+    "centerYDeltaM": 1.6666666667219943e-05,
+    "sectionCm": [
+      20,
+      16
+    ],
+    "sectionIsPreliminary": true
+  },
+  "slab": {
+    "revitId": 473020,
+    "revitMark": "L6-N1",
+    "nativeEberickName": "L5",
+    "oldClearSolid": {
+      "minM": [
+        4.500000000000001,
+        2.95,
+        3.06
+      ],
+      "maxM": [
+        6.45,
+        3.8,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12
+    },
+    "newClearSolid": {
+      "minM": [
+        4.500000000000001,
+        3.13581,
+        3.06
+      ],
+      "maxM": [
+        6.45,
+        3.8000000000000003,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12
+    },
+    "nominalRevitProfileM": [
+      [
+        4.4,
+        2.9357833333333323,
+        3.2000000000000006
+      ],
+      [
+        4.4,
+        3.9,
+        3.2000000000000006
+      ],
+      [
+        6.550000000000001,
+        2.9357833333333323,
+        3.2000000000000006
+      ],
+      [
+        6.550000000000001,
+        3.9,
+        3.2000000000000006
+      ]
+    ],
+    "clearFaceToBeamFaceGapM": 1.0000000000065512e-05,
+    "independentIdentityProved": false,
+    "comparisonIsSpatialAndNotNominalAreaEquality": true,
+    "removedAndRelaunched": true,
+    "recordedLoadsMaintained": {
+      "accidentalKnM2": 2.5,
+      "finishKnM2": 1,
+      "extraKnM2": 0
+    },
+    "gridAngleDeg": 90,
+    "gridAdoptsConfiguredSpacing": true,
+    "boundaryRestraintsNotCompletelyAudited": true
+  },
+  "changedBoundingBoxSignatures": {
+    "beforeOnly": [
+      [
+        "IfcBeam",
+        "V15",
+        4.4,
+        2.75,
+        2.9,
+        6.55,
+        2.95,
+        3.2
+      ],
+      [
+        "IfcBeam",
+        "V7",
+        4.3,
+        0.15,
+        2.8,
+        4.5,
+        2.85,
+        3.2
+      ],
+      [
+        "IfcBeam",
+        "V7",
+        4.3,
+        2.85,
+        2.8,
+        4.5,
+        3.75,
+        3.2
+      ],
+      [
+        "IfcBeam",
+        "V9",
+        6.45,
+        2.85,
+        2.8,
+        6.65,
+        3.8,
+        3.2
+      ],
+      [
+        "IfcBeam",
+        "V9",
+        6.45,
+        0.15,
+        2.8,
+        6.65,
+        2.85,
+        3.2
+      ],
+      [
+        "IfcSlab",
+        "L5",
+        4.5,
+        2.95,
+        3.06,
+        6.45,
+        3.8,
+        3.2
+      ]
+    ],
+    "afterOnly": [
+      [
+        "IfcBeam",
+        "V15",
+        4.4,
+        2.9358,
+        3.04,
+        6.55,
+        3.1358,
+        3.2
+      ],
+      [
+        "IfcBeam",
+        "V7",
+        4.3,
+        0.15,
+        2.8,
+        4.5,
+        3.0358,
+        3.2
+      ],
+      [
+        "IfcBeam",
+        "V7",
+        4.3,
+        3.0358,
+        2.8,
+        4.5,
+        3.75,
+        3.2
+      ],
+      [
+        "IfcBeam",
+        "V9",
+        6.45,
+        3.0358,
+        2.8,
+        6.65,
+        3.8,
+        3.2
+      ],
+      [
+        "IfcBeam",
+        "V9",
+        6.45,
+        0.15,
+        2.8,
+        6.65,
+        3.0358,
+        3.2
+      ],
+      [
+        "IfcSlab",
+        "L5",
+        4.5,
+        3.13581,
+        3.06,
+        6.45,
+        3.8,
+        3.2
+      ]
+    ]
+  },
+  "landingBeam": {
+    "expectedClearSolidMinM": [
+      4.5,
+      -0.10000000000000002,
+      1.474117647058823
+    ],
+    "expectedClearSolidMaxM": [
+      6.45,
+      0.10000000000000002,
+      1.7741176470588231
+    ],
+    "actualMinM": [
+      4.500000000000001,
+      -0.1,
+      1.4740000000000004
+    ],
+    "actualMaxM": [
+      6.450000000000001,
+      0.1,
+      1.7740000000000002
+    ],
+    "signedDeltasM": [
+      8.881784197001252e-16,
+      1.3877787807814457e-17,
+      -0.00011764705882266746,
+      8.881784197001252e-16,
+      -1.3877787807814457e-17,
+      -0.0001176470588228895
+    ],
+    "matchesWithinDeclaredTolerance": true,
+    "topDeltaM": -0.0001176470588228895,
+    "widthM": 0.2,
+    "heightM": 0.2999999999999998,
+    "clearLengthM": 1.9500000000000002,
+    "nominalAxisLengthM": 2.1500000000000004,
+    "xyToleranceM": 1e-06,
+    "zToleranceM": 0.0002,
+    "supportFaceAlignmentIsNotAnalyticalConnectivity": true
+  },
+  "geometricToleranceM": 0.0001,
+  "correctionLog": [
+    "V15 altura 30 para 16 cm",
+    "Dois nos Y=285 para 303.5783333333 cm",
+    "L5 removida e relancada no novo contorno, com parametros registrados reaplicados"
+  ],
+  "earlierTextOnlyMoveIncludedInObservedTime": true,
+  "tccVigasLayerHiddenInWorkingCopy": true,
+  "partialCorrectionElapsedMs": 2369140,
+  "partialTimeIncludesAttemptsResearchAndAudit": true,
+  "earlierOverlappingIntervalsNotAdditive": true,
+  "fullCadFlowTime": false,
+  "nativeStairPlacementInEberickPending": true,
+  "lowerStairSupportPending": true,
+  "windowJ4ConflictPending": true,
+  "newStructuralCalculationPerformed": false,
+  "inheritedCalculationResultsNotCurrent": true,
+  "fullPairedFlowComparisonFinished": false,
+  "structuralApproval": false,
+  "auditElapsedMs": 379.82309999642894
+}
