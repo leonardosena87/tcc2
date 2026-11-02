@@ -1,0 +1,312 @@
+{
+  "revision": "H03/R152",
+  "createdAtUtc": "2026-11-02T10:27:05.509194+00:00",
+  "userDecision": {
+    "exactText": "coloque com 17 espelhos",
+    "adoptedForCurrentStudy": true,
+    "configuration": "U com dois lances retos e patamar",
+    "supersedesStudyOptions": [
+      "R149: 18 espelhos com patamar",
+      "R151: 18 espelhos com compensados"
+    ],
+    "priorPreserveWallsDoorsFacadeAndFinishedFloorsStillApplies": true
+  },
+  "geometry": {
+    "totalRisers": 17,
+    "lowerFlightRisers": 8,
+    "upperFlightRisers": 9,
+    "uniformRiserM": 0.17823529411764705,
+    "finishedGroundM": 0.22,
+    "finishedUpperM": 3.25,
+    "proposedFinishedLandingM": 1.6458823529411764,
+    "landingChangeM": -0.054117647058823604,
+    "treadHypothesisM": 0.28,
+    "twoRisersPlusTreadM": 0.6364705882352941,
+    "lowerTreadsIfLandingIsLastRiser": 7,
+    "upperTreadsIfFloorIsLastRiser": 8,
+    "lowerTreadRunM": 1.9600000000000002,
+    "upperTreadRunM": 2.24,
+    "nativeGeometryApplied": false,
+    "acceptedArchitectureChange": false,
+    "footprintHeadroomStructuralCapacityOrAccessibilityApproved": false
+  },
+  "landingDepthGraphicalReferenceM": 0.901699999999998,
+  "sources": [
+    {
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r147\\R147-planta.json",
+      "sha256": "70bbb79b55e16a3b188c38b592cbb99f8e00474202a2ad9c23bd1390c710299e"
+    },
+    {
+      "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r68\\R68-referencia-arquitetonica-estudo.json",
+      "sha256": "11f7ceb45a14fd078afdad05df6f52f90078d4666393477e57251b8a71b308e4"
+    }
+  ],
+  "fit": {
+    "extraUpperRunM": 0.2799666666666649,
+    "hallRemainingIfLandingAndSouthWallPreservedM": 0.6090333333333325,
+    "landingRemainingIfHallPreservedM": 0.621733333333333,
+    "arrivalLocalYM": 3.2157833333333325,
+    "doorScreening": [
+      {
+        "id": "S-P3-01",
+        "openingYMinM": 3.1263166666666664,
+        "openingYMaxM": 3.7274499999999984,
+        "arrivalWithinLongitudinalOpeningRange": true,
+        "significance": "Triagem da faixa da porta na lateral do lance superior; conferir faces e cortes, não é colisão 3D automaticamente provada."
+      }
+    ],
+    "placementResolved": false,
+    "automaticHallOrLandingReductionAuthorized": false
+  },
+  "profile": {
+    "description": "Perfil acabado desdobrado; não é corte espacial da escada em U.",
+    "pointsM": [
+      [
+        0.0,
+        0.22
+      ],
+      [
+        0.0,
+        0.398235294117647
+      ],
+      [
+        0.28,
+        0.398235294117647
+      ],
+      [
+        0.28,
+        0.5764705882352941
+      ],
+      [
+        0.56,
+        0.5764705882352941
+      ],
+      [
+        0.56,
+        0.7547058823529411
+      ],
+      [
+        0.8400000000000001,
+        0.7547058823529411
+      ],
+      [
+        0.8400000000000001,
+        0.9329411764705882
+      ],
+      [
+        1.12,
+        0.9329411764705882
+      ],
+      [
+        1.12,
+        1.1111764705882352
+      ],
+      [
+        1.4000000000000001,
+        1.1111764705882352
+      ],
+      [
+        1.4000000000000001,
+        1.2894117647058823
+      ],
+      [
+        1.6800000000000002,
+        1.2894117647058823
+      ],
+      [
+        1.6800000000000002,
+        1.4676470588235293
+      ],
+      [
+        1.9600000000000002,
+        1.4676470588235293
+      ],
+      [
+        1.9600000000000002,
+        1.6458823529411764
+      ],
+      [
+        2.861699999999998,
+        1.6458823529411764
+      ],
+      [
+        2.861699999999998,
+        1.8241176470588234
+      ],
+      [
+        3.1416999999999984,
+        1.8241176470588234
+      ],
+      [
+        3.1416999999999984,
+        2.0023529411764707
+      ],
+      [
+        3.4216999999999986,
+        2.0023529411764707
+      ],
+      [
+        3.4216999999999986,
+        2.1805882352941177
+      ],
+      [
+        3.701699999999999,
+        2.1805882352941177
+      ],
+      [
+        3.701699999999999,
+        2.3588235294117648
+      ],
+      [
+        3.981699999999999,
+        2.3588235294117648
+      ],
+      [
+        3.981699999999999,
+        2.537058823529412
+      ],
+      [
+        4.261699999999999,
+        2.537058823529412
+      ],
+      [
+        4.261699999999999,
+        2.715294117647059
+      ],
+      [
+        4.5417,
+        2.715294117647059
+      ],
+      [
+        4.5417,
+        2.893529411764706
+      ],
+      [
+        4.8217,
+        2.893529411764706
+      ],
+      [
+        4.8217,
+        3.071764705882353
+      ],
+      [
+        5.1017,
+        3.071764705882353
+      ],
+      [
+        5.1017,
+        3.25
+      ]
+    ],
+    "risers": [
+      {
+        "number": 1,
+        "xM": 0.0,
+        "bottomM": 0.22,
+        "topM": 0.398235294117647
+      },
+      {
+        "number": 2,
+        "xM": 0.28,
+        "bottomM": 0.398235294117647,
+        "topM": 0.5764705882352941
+      },
+      {
+        "number": 3,
+        "xM": 0.56,
+        "bottomM": 0.5764705882352941,
+        "topM": 0.7547058823529411
+      },
+      {
+        "number": 4,
+        "xM": 0.8400000000000001,
+        "bottomM": 0.7547058823529411,
+        "topM": 0.9329411764705882
+      },
+      {
+        "number": 5,
+        "xM": 1.12,
+        "bottomM": 0.9329411764705882,
+        "topM": 1.1111764705882352
+      },
+      {
+        "number": 6,
+        "xM": 1.4000000000000001,
+        "bottomM": 1.1111764705882352,
+        "topM": 1.2894117647058823
+      },
+      {
+        "number": 7,
+        "xM": 1.6800000000000002,
+        "bottomM": 1.2894117647058823,
+        "topM": 1.4676470588235293
+      },
+      {
+        "number": 8,
+        "xM": 1.9600000000000002,
+        "bottomM": 1.4676470588235293,
+        "topM": 1.6458823529411764
+      },
+      {
+        "number": 9,
+        "xM": 2.861699999999998,
+        "bottomM": 1.6458823529411764,
+        "topM": 1.8241176470588234
+      },
+      {
+        "number": 10,
+        "xM": 3.1416999999999984,
+        "bottomM": 1.8241176470588234,
+        "topM": 2.0023529411764707
+      },
+      {
+        "number": 11,
+        "xM": 3.4216999999999986,
+        "bottomM": 2.0023529411764707,
+        "topM": 2.1805882352941177
+      },
+      {
+        "number": 12,
+        "xM": 3.701699999999999,
+        "bottomM": 2.1805882352941177,
+        "topM": 2.3588235294117648
+      },
+      {
+        "number": 13,
+        "xM": 3.981699999999999,
+        "bottomM": 2.3588235294117648,
+        "topM": 2.537058823529412
+      },
+      {
+        "number": 14,
+        "xM": 4.261699999999999,
+        "bottomM": 2.537058823529412,
+        "topM": 2.715294117647059
+      },
+      {
+        "number": 15,
+        "xM": 4.5417,
+        "bottomM": 2.715294117647059,
+        "topM": 2.893529411764706
+      },
+      {
+        "number": 16,
+        "xM": 4.8217,
+        "bottomM": 2.893529411764706,
+        "topM": 3.071764705882353
+      },
+      {
+        "number": 17,
+        "xM": 5.1017,
+        "bottomM": 3.071764705882353,
+        "topM": 3.25
+      }
+    ],
+    "notStructuralWaistGeometry": true
+  },
+  "cadProfileIsIndependentStudyDrawing": true,
+  "nativeRevitAutoCadEberickProjectsEdited": false,
+  "newLoadsApplied": false,
+  "headroomVerified": false,
+  "finalStructuralOrNormativeApproval": false
+}
