@@ -1,0 +1,30 @@
+{
+  "recordedAtUtc": "2026-11-02T12:20:01.954592+00:00",
+  "exactUserMessage": "o orientador disse que vai precisar de uma viga no patamar",
+  "source": "Relato do usuário sobre orientação do orientador; não é aprovação técnica assinada",
+  "landingBeamRequired": true,
+  "appliesToBothCadAndBim": true,
+  "existingCandidatePath": "D:\\TCC\\outputs\\Escada-H03-R158-CANDIDATO-COMUM-NAO-EXECUTAR\\R158-candidato-comum.json",
+  "existingCandidateSha256": "a0dec2b713ea8ea945207c366b0c31ad2c7a0bd1be41dd6a7f196adc752764eb",
+  "candidateBeam": {
+    "id": "V16-ESC-PAT",
+    "kind": "beam",
+    "x": 4.4,
+    "y": 0.8757833333333321,
+    "x2": 6.55,
+    "y2": 0.8757833333333321,
+    "z": 1.7741176470588234,
+    "b": 0.2,
+    "h": 0.3,
+    "levelReference": "ESC-INTERMEDIARIO",
+    "role": "candidato-apoio-patamar"
+  },
+  "candidatePositionApprovedByAdvisor": false,
+  "candidateSectionApprovedByAdvisor": false,
+  "candidateColumnsApprovedByAdvisor": false,
+  "connectionsAndAnchorageVerified": false,
+  "structuralDimensioningCompleted": false,
+  "nativeGeometryAppliedByThisRecord": false,
+  "monographEdited": false,
+  "nextStep": "Implantar e conferir solução comum de viga e apoios nos dois ramos; calcular e verificar ligações/ELU/ELS no Eberick."
+}
