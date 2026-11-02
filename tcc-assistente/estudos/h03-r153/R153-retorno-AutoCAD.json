@@ -1,0 +1,42 @@
+{
+  "nativeAutoCad2027OpenedSourceDxf": true,
+  "independentDwgSavedClosedReopened": true,
+  "sourceFaces": 33,
+  "returnedFaces": 33,
+  "unitsCode": 6,
+  "units": "metres",
+  "maximumCoordinateDeltaM": 1.7763568394002505e-15,
+  "canonicalPairingDecimalPlaces": 9,
+  "faceOrientationOrNormalsNotCompared": true,
+  "layerNamesAndVertexSetsPreserved": true,
+  "fileEvidence": [
+    {
+      "path": "R153-escada17-superficies3D.dxf",
+      "bytes": 31870,
+      "sha256": "2ba3f967c170e0005105f50ccd167e61029d3d57cbbb28e6466dc5a317f21024"
+    },
+    {
+      "path": "R153-AutoCAD-DWG-reaberto.dxf",
+      "bytes": 261510,
+      "sha256": "db43be882c837ef2f7413ae2e27b446fbfada3359fe0acd76de2baad65282fba"
+    },
+    {
+      "path": "R153-escada17-9mais8-ESTUDO-NAO-EXECUTAR.dwg",
+      "bytes": 21035,
+      "sha256": "1705a4734d78857ac5fb2b5ffdfe70f78eefb309cb3003538ee0b9b980214d6d"
+    }
+  ],
+  "nativeDwgRemainsLocalOnly": true,
+  "existingBuildingProjectsEdited": false,
+  "stairIntegratedInExistingBuilding": false,
+  "structuralAnalysisPerformed": false,
+  "cadSessionWallMs": 413824.8123999983,
+  "cadSessionNotFinalFlowTime": true,
+  "warnings": [
+    "Arquivo de superfícies sem espessura; não define volume/peso próprio.",
+    "Recuperação de sessão anterior foi informada no início; arquivos de recuperação H02/H03 não foram abertos/editados.",
+    "AtalhosCtrl+O/Ctrl+Shift+S não acionaram o resultado esperado na tela inicial; usaram-se Abrir e SAVEAS.",
+    "ZOOM recebeu comando como opção em uma tentativa; opçãoExtents foi repetida e conferida. VPOINT abriu diálogo, cancelado; usou-se -VPOINT.",
+    "Tempo inclui inicialização, aviso, tentativas, navegação, capturas e exportação, sem tempo de autoria/script ou comparaçãoBIM."
+  ]
+}
