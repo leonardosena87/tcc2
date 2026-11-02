@@ -1,0 +1,1651 @@
+{
+  "revision": "H03/R162",
+  "startedAtUtc": "2026-11-02T18:34:28.019854+00:00",
+  "endedAtUtc": "2026-11-02T18:34:29.924187+00:00",
+  "sourcePath": "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\H03-R160-Revit-SOMENTE-VIGA-PATAMAR-NAO-EXECUTAR.ifc",
+  "sourceSha256": "4003d78dea0e3c60bd62a31ffbbb4d0ab58058cb3056928a204106b66598e555",
+  "nativeReadbackPath": "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-releitura-nativa-20261102-163548.json",
+  "nativeReadbackSha256": "fd43fd25e3665bfe6fc3b9eaa14892b9d7446b19809efaae6e278a0aad3f3a18",
+  "targetPath": "D:\\TCC\\outputs\\Intercambio-H03-R162-SECOES-NOMINAIS-NAO-EXECUTAR\\H03-R160-R162-DERIVADO-VIGAS-NOMINAIS-NAO-EXECUTAR.ifc",
+  "targetSha256": "a5ff9ccdeb5522f2b84d6e7d83e21074ab563a229fc30417421f5565b9bab1df",
+  "sourceUnchanged": true,
+  "derivedFileIsNotNativeRevitExport": true,
+  "replacedBeamRepresentations": 30,
+  "allReopenedBeamBoxesMatchNominal": true,
+  "boxToleranceM": 1e-07,
+  "nonBeamMeshedElementsUnchanged": 38,
+  "allProductsIdentitiesMaterialsAndPsetsPreserved": true,
+  "levelsPreserved": true,
+  "stairAndLandingNotEdited": true,
+  "mechanicalMaterialPropertiesStillAbsent": true,
+  "schemaValidationIssuesBefore": [],
+  "schemaValidationIssuesAfter": [],
+  "schemaValidationIsNotStructuralApproval": true,
+  "elapsedScriptMs": 1905.052500005695,
+  "timeIsNotWholeBimFlow": true,
+  "eberickReceptionTestPerformed": false,
+  "supportsConnectionsLoadsAndStairCalculationNotResolved": true,
+  "structuralApproval": false,
+  "rows": [
+    {
+      "nativeId": "472942",
+      "mark": "V1-N1",
+      "guid": "13FVx86UH85RTcavq9tVjH",
+      "target": {
+        "id": "V1-N1",
+        "kind": "beam",
+        "x": 0,
+        "y": 0,
+        "x2": 4.4,
+        "y2": 0,
+        "z": 3.2000000000000006,
+        "b": 0.20000000000000004,
+        "h": 0.45
+      },
+      "before": {
+        "minM": [
+          0.1,
+          -0.1,
+          2.7499999999999987
+        ],
+        "maxM": [
+          4.300000000000001,
+          0.1,
+          3.199999999999998
+        ],
+        "pointsSha256": "70301eccde66dcbd9d5fa856de4c9aef3f7db8192e08cf4037e161f8a68fa5d9"
+      },
+      "after": {
+        "minM": [
+          0.0,
+          -0.10000000000000002,
+          2.75
+        ],
+        "maxM": [
+          4.4,
+          0.10000000000000002,
+          3.2
+        ],
+        "pointsSha256": "6f571e98a45692392dbc794fb7b9c19c9c2b053324ef9441c5765aa54234d277"
+      },
+      "expectedMinM": [
+        0,
+        -0.10000000000000002,
+        2.7500000000000004
+      ],
+      "expectedMaxM": [
+        4.4,
+        0.10000000000000002,
+        3.2000000000000006
+      ],
+      "maxAbsoluteBoxDeltaM": 4.440892098500626e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "473034",
+      "mark": "V1-N2",
+      "guid": "13FVx86UH85RTcavq9tVlr",
+      "target": {
+        "id": "V1-N2",
+        "kind": "beam",
+        "x": 0,
+        "y": 0,
+        "x2": 4.4,
+        "y2": 0,
+        "z": 6.39,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          0.1,
+          -0.1,
+          6.089999999999999
+        ],
+        "maxM": [
+          4.3,
+          0.1,
+          6.389999999999998
+        ],
+        "pointsSha256": "36907639de91d2f19df9375d6caa951a857ff2473ade288feb4a3e3bdff73047"
+      },
+      "after": {
+        "minM": [
+          0.0,
+          -0.10000000000000002,
+          6.09
+        ],
+        "maxM": [
+          4.4,
+          0.10000000000000002,
+          6.390000000000001
+        ],
+        "pointsSha256": "7ef79ec560fb20e20e567aa348c5730b2472cb91039e30760c7fcecb00ba14ff"
+      },
+      "expectedMinM": [
+        0,
+        -0.10000000000000002,
+        6.09
+      ],
+      "expectedMaxM": [
+        4.4,
+        0.10000000000000002,
+        6.39
+      ],
+      "maxAbsoluteBoxDeltaM": 8.881784197001252e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "472978",
+      "mark": "V10-N1",
+      "guid": "13FVx86UH85RTcavq9tVkj",
+      "target": {
+        "id": "V10-N1",
+        "kind": "beam",
+        "x": 4.4,
+        "y": 3.9,
+        "x2": 4.4,
+        "y2": 7.049999999999999,
+        "z": 3.2000000000000006,
+        "b": 0.20000000000000004,
+        "h": 0.35
+      },
+      "before": {
+        "minM": [
+          4.299999999999999,
+          4.05,
+          2.849999999999999
+        ],
+        "maxM": [
+          4.500000000000002,
+          6.8999999999999995,
+          3.060000000000001
+        ],
+        "pointsSha256": "6ea5b9d0377cc163eb5c66bd969307d23b9af35bb4c56ed43bf312bcfee152cb"
+      },
+      "after": {
+        "minM": [
+          4.300000000000001,
+          3.9,
+          2.850000000000001
+        ],
+        "maxM": [
+          4.5,
+          7.049999999999999,
+          3.2000000000000006
+        ],
+        "pointsSha256": "f163230ca5c13d27a0629a4e52a90f71ba6f85c3eafead9ffaba4c89ec9ed63e"
+      },
+      "expectedMinM": [
+        4.300000000000001,
+        3.9,
+        2.8500000000000005
+      ],
+      "expectedMaxM": [
+        4.5,
+        7.049999999999999,
+        3.2000000000000006
+      ],
+      "maxAbsoluteBoxDeltaM": 4.440892098500626e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "473054",
+      "mark": "V10-N2",
+      "guid": "13FVx86UH85RTcavq9tVlX",
+      "target": {
+        "id": "V10-N2",
+        "kind": "beam",
+        "x": 4.4,
+        "y": 3.9,
+        "x2": 4.4,
+        "y2": 7.049999999999999,
+        "z": 6.39,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          4.299999999999999,
+          4.05,
+          6.09
+        ],
+        "maxM": [
+          4.500000000000002,
+          6.8999999999999995,
+          6.250000000000002
+        ],
+        "pointsSha256": "aad1b691ac6754f62649c2775d7ee40f189043560f87a77bd7d7d1bf20a0d018"
+      },
+      "after": {
+        "minM": [
+          4.300000000000001,
+          3.9,
+          6.09
+        ],
+        "maxM": [
+          4.5,
+          7.049999999999999,
+          6.390000000000001
+        ],
+        "pointsSha256": "4028def4f204c5e0702c1d88c3e17b2981b76bcec7a3ebf5cba3770edd7aa5e8"
+      },
+      "expectedMinM": [
+        4.300000000000001,
+        3.9,
+        6.09
+      ],
+      "expectedMaxM": [
+        4.5,
+        7.049999999999999,
+        6.39
+      ],
+      "maxAbsoluteBoxDeltaM": 8.881784197001252e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "472980",
+      "mark": "V11-N1",
+      "guid": "13FVx86UH85RTcavq9tVkh",
+      "target": {
+        "id": "V11-N1",
+        "kind": "beam",
+        "x": 9.65,
+        "y": 0,
+        "x2": 9.65,
+        "y2": 3.9,
+        "z": 3.2000000000000006,
+        "b": 0.20000000000000004,
+        "h": 0.4000000000000001
+      },
+      "before": {
+        "minM": [
+          9.55,
+          0.15,
+          2.8
+        ],
+        "maxM": [
+          9.75,
+          3.7499999999999996,
+          3.2
+        ],
+        "pointsSha256": "537f1a79096342a79ddf8c8c9764251c0727f0f0f6603ef2022c62210faf447b"
+      },
+      "after": {
+        "minM": [
+          9.55,
+          0.0,
+          2.8000000000000003
+        ],
+        "maxM": [
+          9.75,
+          3.9,
+          3.2000000000000006
+        ],
+        "pointsSha256": "0cf52bb4136a1bf793bef71f55906fb9c6479de70f4421d3047c762b39aa2cef"
+      },
+      "expectedMinM": [
+        9.55,
+        0,
+        2.8000000000000007
+      ],
+      "expectedMaxM": [
+        9.75,
+        3.9,
+        3.2000000000000006
+      ],
+      "maxAbsoluteBoxDeltaM": 4.440892098500626e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "473056",
+      "mark": "V11-N2",
+      "guid": "13FVx86UH85RTcavq9tVlV",
+      "target": {
+        "id": "V11-N2",
+        "kind": "beam",
+        "x": 9.65,
+        "y": 0,
+        "x2": 9.65,
+        "y2": 3.9,
+        "z": 6.39,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          9.55,
+          0.15,
+          6.089999999999999
+        ],
+        "maxM": [
+          9.75,
+          3.7499999999999996,
+          6.389999999999998
+        ],
+        "pointsSha256": "e522ec55a9aef830dbb9c7ddc34b41f61ff4f14dd58bb7ce57e91fa0f9e4ef65"
+      },
+      "after": {
+        "minM": [
+          9.55,
+          0.0,
+          6.09
+        ],
+        "maxM": [
+          9.75,
+          3.9,
+          6.390000000000001
+        ],
+        "pointsSha256": "20ec688ef416e98549af39d14f4984c6dd1dcc17ed87139545aa9612dfb1b62c"
+      },
+      "expectedMinM": [
+        9.55,
+        0,
+        6.09
+      ],
+      "expectedMaxM": [
+        9.75,
+        3.9,
+        6.39
+      ],
+      "maxAbsoluteBoxDeltaM": 8.881784197001252e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "472982",
+      "mark": "V12-N1",
+      "guid": "13FVx86UH85RTcavq9tVkf",
+      "target": {
+        "id": "V12-N1",
+        "kind": "beam",
+        "x": 9.65,
+        "y": 3.9,
+        "x2": 9.65,
+        "y2": 7.049999999999999,
+        "z": 3.2000000000000006,
+        "b": 0.20000000000000004,
+        "h": 0.35
+      },
+      "before": {
+        "minM": [
+          9.549999999999999,
+          4.05,
+          2.849999999999999
+        ],
+        "maxM": [
+          9.750000000000002,
+          6.8999999999999995,
+          3.060000000000001
+        ],
+        "pointsSha256": "61dbac2470a828540e93aa2965616f1cbc6ff17c710bc9a73b10601d6debf160"
+      },
+      "after": {
+        "minM": [
+          9.55,
+          3.9,
+          2.850000000000001
+        ],
+        "maxM": [
+          9.75,
+          7.049999999999999,
+          3.2000000000000006
+        ],
+        "pointsSha256": "6cd6bca7dd48a6d681b8dfde17f3b4ef72bb40d33299b15c178f25d9730c6c7e"
+      },
+      "expectedMinM": [
+        9.55,
+        3.9,
+        2.8500000000000005
+      ],
+      "expectedMaxM": [
+        9.75,
+        7.049999999999999,
+        3.2000000000000006
+      ],
+      "maxAbsoluteBoxDeltaM": 4.440892098500626e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "473058",
+      "mark": "V12-N2",
+      "guid": "13FVx86UH85RTcavq9tVlT",
+      "target": {
+        "id": "V12-N2",
+        "kind": "beam",
+        "x": 9.65,
+        "y": 3.9,
+        "x2": 9.65,
+        "y2": 7.049999999999999,
+        "z": 6.39,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          9.55,
+          4.05,
+          6.089999999999999
+        ],
+        "maxM": [
+          9.75,
+          6.8999999999999995,
+          6.389999999999998
+        ],
+        "pointsSha256": "94c5c1038e582fe5a1e8268473798375e470f34816a320a24ae674b55adc9a3b"
+      },
+      "after": {
+        "minM": [
+          9.55,
+          3.9,
+          6.09
+        ],
+        "maxM": [
+          9.75,
+          7.049999999999999,
+          6.390000000000001
+        ],
+        "pointsSha256": "3387a29a3965c9ed14a4eacbc2910d774655e1aa6949bb1f686d548d1c4f3563"
+      },
+      "expectedMinM": [
+        9.55,
+        3.9,
+        6.09
+      ],
+      "expectedMaxM": [
+        9.75,
+        7.049999999999999,
+        6.39
+      ],
+      "maxAbsoluteBoxDeltaM": 8.881784197001252e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "472984",
+      "mark": "V13-N1",
+      "guid": "13FVx86UH85RTcavq9tVkd",
+      "target": {
+        "id": "V13-N1",
+        "kind": "beam",
+        "x": 6.550000000000001,
+        "y": 0,
+        "x2": 6.550000000000001,
+        "y2": 3.9,
+        "z": 3.2000000000000006,
+        "b": 0.20000000000000004,
+        "h": 0.4000000000000001
+      },
+      "before": {
+        "minM": [
+          6.45,
+          0.15,
+          2.8000000000000003
+        ],
+        "maxM": [
+          6.65,
+          3.8,
+          3.2
+        ],
+        "pointsSha256": "cac89f0542503bc4498c7c681ec9c5e01b5ca907ab83c0d5440445c93cef4889"
+      },
+      "after": {
+        "minM": [
+          6.450000000000001,
+          0.0,
+          2.8000000000000003
+        ],
+        "maxM": [
+          6.65,
+          3.9,
+          3.2000000000000006
+        ],
+        "pointsSha256": "98d9de264c871fa1e67169b28b5634c43358a9806d558306ecc3df06b10b9777"
+      },
+      "expectedMinM": [
+        6.450000000000001,
+        0,
+        2.8000000000000007
+      ],
+      "expectedMaxM": [
+        6.65,
+        3.9,
+        3.2000000000000006
+      ],
+      "maxAbsoluteBoxDeltaM": 4.440892098500626e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "473060",
+      "mark": "V13-N2",
+      "guid": "13FVx86UH85RTcavq9tVlR",
+      "target": {
+        "id": "V13-N2",
+        "kind": "beam",
+        "x": 6.550000000000001,
+        "y": 0,
+        "x2": 6.550000000000001,
+        "y2": 3.9,
+        "z": 6.39,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          6.449999999999998,
+          0.15,
+          6.09
+        ],
+        "maxM": [
+          6.650000000000001,
+          3.8000000000000003,
+          6.250000000000002
+        ],
+        "pointsSha256": "31c0dc70cc6438305abdd4b776ef8b3ff68cfe515af65a1defde84afbea46585"
+      },
+      "after": {
+        "minM": [
+          6.450000000000001,
+          0.0,
+          6.09
+        ],
+        "maxM": [
+          6.65,
+          3.9,
+          6.390000000000001
+        ],
+        "pointsSha256": "2269ac6784fbe3c8e768f38f8b75e96c7da8f9a6c9ff2b740285705db05245c6"
+      },
+      "expectedMinM": [
+        6.450000000000001,
+        0,
+        6.09
+      ],
+      "expectedMaxM": [
+        6.65,
+        3.9,
+        6.39
+      ],
+      "maxAbsoluteBoxDeltaM": 8.881784197001252e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "472986",
+      "mark": "V15-N1",
+      "guid": "13FVx86UH85RTcavq9tVkb",
+      "target": {
+        "id": "V15-N1",
+        "kind": "beam",
+        "x": 4.4,
+        "y": 3.035783333333333,
+        "x2": 6.550000000000001,
+        "y2": 3.035783333333333,
+        "z": 3.2000000000000006,
+        "b": 0.20000000000000004,
+        "h": 0.16
+      },
+      "before": {
+        "minM": [
+          4.5,
+          2.9357833333333305,
+          3.039999999999999
+        ],
+        "maxM": [
+          6.449999999999997,
+          3.1357833333333343,
+          3.0600000000000014
+        ],
+        "pointsSha256": "bb7b8ab0bb97dd79b25c94376e12f03cbf4a6f788cd19ddbefa0b882b23db4e8"
+      },
+      "after": {
+        "minM": [
+          4.4,
+          2.9357833333333327,
+          3.0400000000000005
+        ],
+        "maxM": [
+          6.550000000000001,
+          3.135783333333333,
+          3.2000000000000006
+        ],
+        "pointsSha256": "a94a2d1f58ce956dec3121e59431b86e62b032216959c5766df02892d588bf51"
+      },
+      "expectedMinM": [
+        4.4,
+        2.9357833333333327,
+        3.0400000000000005
+      ],
+      "expectedMaxM": [
+        6.550000000000001,
+        3.135783333333333,
+        3.2000000000000006
+      ],
+      "maxAbsoluteBoxDeltaM": 0.0,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "473802",
+      "mark": "V16-ESC-PAT",
+      "guid": "1ltUz0oN12IOfJpAa5zY0U",
+      "target": {
+        "id": "V16-ESC-PAT",
+        "kind": "beam",
+        "x": 4.4,
+        "y": 0,
+        "x2": 6.550000000000001,
+        "y2": 0,
+        "z": 1.7741176470588231,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          4.5,
+          -0.10000000000000167,
+          1.4741176470588233
+        ],
+        "maxM": [
+          6.449999999999999,
+          0.10000000000000167,
+          1.7741176470588231
+        ],
+        "pointsSha256": "7aca86a81684b41b457fd32b50f77b1259559cdaaacb5a4af4969804d009d075"
+      },
+      "after": {
+        "minM": [
+          4.4,
+          -0.10000000000000002,
+          1.4741176470588233
+        ],
+        "maxM": [
+          6.550000000000001,
+          0.10000000000000002,
+          1.7741176470588231
+        ],
+        "pointsSha256": "e2a05212a257de7df0abd9629bd173aa56174ae2bd81f77a34a7f1e22cbe786f"
+      },
+      "expectedMinM": [
+        4.4,
+        -0.10000000000000002,
+        1.474117647058823
+      ],
+      "expectedMaxM": [
+        6.550000000000001,
+        0.10000000000000002,
+        1.7741176470588231
+      ],
+      "maxAbsoluteBoxDeltaM": 2.220446049250313e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "472947",
+      "mark": "V2-N1",
+      "guid": "13FVx86UH85RTcavq9tVjC",
+      "target": {
+        "id": "V2-N1",
+        "kind": "beam",
+        "x": 6.550000000000001,
+        "y": 0,
+        "x2": 9.65,
+        "y2": 0,
+        "z": 3.2000000000000006,
+        "b": 0.20000000000000004,
+        "h": 0.55
+      },
+      "before": {
+        "minM": [
+          6.6499999999999995,
+          -0.1,
+          2.6500000000000004
+        ],
+        "maxM": [
+          9.549999999999999,
+          0.1,
+          3.2
+        ],
+        "pointsSha256": "1feffa384ee1aa22cad3ca41ccbe93f1857b7983cf83731965db1ab6a402a325"
+      },
+      "after": {
+        "minM": [
+          6.550000000000001,
+          -0.10000000000000002,
+          2.650000000000001
+        ],
+        "maxM": [
+          9.65,
+          0.10000000000000002,
+          3.2000000000000006
+        ],
+        "pointsSha256": "ff422795ec7e5d700f8fa791b9e221c448dc3b43e3ef3d882c413a03f0ab3a64"
+      },
+      "expectedMinM": [
+        6.550000000000001,
+        -0.10000000000000002,
+        2.6500000000000004
+      ],
+      "expectedMaxM": [
+        9.65,
+        0.10000000000000002,
+        3.2000000000000006
+      ],
+      "maxAbsoluteBoxDeltaM": 4.440892098500626e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "473036",
+      "mark": "V2-N2",
+      "guid": "13FVx86UH85RTcavq9tVlp",
+      "target": {
+        "id": "V2-N2",
+        "kind": "beam",
+        "x": 4.4,
+        "y": 0,
+        "x2": 9.65,
+        "y2": 0,
+        "z": 6.39,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          4.5,
+          -0.1,
+          6.089999999999998
+        ],
+        "maxM": [
+          9.55,
+          0.1,
+          6.389999999999997
+        ],
+        "pointsSha256": "0a87a82130271dc7981f04142f7fc45d14ce8b03f9ad15e3ceba0b3aace4d9df"
+      },
+      "after": {
+        "minM": [
+          4.4,
+          -0.10000000000000002,
+          6.09
+        ],
+        "maxM": [
+          9.65,
+          0.10000000000000002,
+          6.390000000000001
+        ],
+        "pointsSha256": "5ed3c5350191eafeded646fb8a6f522c49f62ccd3900f443e5a0bde682fe568f"
+      },
+      "expectedMinM": [
+        4.4,
+        -0.10000000000000002,
+        6.09
+      ],
+      "expectedMaxM": [
+        9.65,
+        0.10000000000000002,
+        6.39
+      ],
+      "maxAbsoluteBoxDeltaM": 8.881784197001252e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "472949",
+      "mark": "V3-N1",
+      "guid": "13FVx86UH85RTcavq9tVjA",
+      "target": {
+        "id": "V3-N1",
+        "kind": "beam",
+        "x": 0,
+        "y": 3.9,
+        "x2": 4.4,
+        "y2": 3.9,
+        "z": 3.2000000000000006,
+        "b": 0.20000000000000004,
+        "h": 0.45
+      },
+      "before": {
+        "minM": [
+          0.1,
+          3.799999999999998,
+          2.7499999999999996
+        ],
+        "maxM": [
+          4.300000000000001,
+          4.000000000000002,
+          3.060000000000001
+        ],
+        "pointsSha256": "6e8cd76931dbc2bd6cd00d1578064bfa732743e14a8df70e4113962b9a487571"
+      },
+      "after": {
+        "minM": [
+          0.0,
+          3.8,
+          2.7500000000000004
+        ],
+        "maxM": [
+          4.4,
+          4.0,
+          3.2000000000000006
+        ],
+        "pointsSha256": "c1b3c07281b3a87a3506a01322622acd4dd1b707832fc86c6a06b89d2b0587e9"
+      },
+      "expectedMinM": [
+        0,
+        3.8,
+        2.7500000000000004
+      ],
+      "expectedMaxM": [
+        4.4,
+        4.0,
+        3.2000000000000006
+      ],
+      "maxAbsoluteBoxDeltaM": 0.0,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "473038",
+      "mark": "V3-N2",
+      "guid": "13FVx86UH85RTcavq9tVln",
+      "target": {
+        "id": "V3-N2",
+        "kind": "beam",
+        "x": 0,
+        "y": 3.9,
+        "x2": 4.4,
+        "y2": 3.9,
+        "z": 6.39,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          0.1,
+          3.799999999999998,
+          6.09
+        ],
+        "maxM": [
+          4.3,
+          4.000000000000002,
+          6.250000000000002
+        ],
+        "pointsSha256": "8eb663240f23426b239be3335475ce5852dc964ee2bcef72bb5d778922513f79"
+      },
+      "after": {
+        "minM": [
+          0.0,
+          3.8,
+          6.09
+        ],
+        "maxM": [
+          4.4,
+          4.0,
+          6.390000000000001
+        ],
+        "pointsSha256": "7e440b6627284b285a1a81718f0005c806382e6e84efac3a81807a6dedaad5d9"
+      },
+      "expectedMinM": [
+        0,
+        3.8,
+        6.09
+      ],
+      "expectedMaxM": [
+        4.4,
+        4.0,
+        6.39
+      ],
+      "maxAbsoluteBoxDeltaM": 8.881784197001252e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "472954",
+      "mark": "V4A-N1",
+      "guid": "13FVx86UH85RTcavq9tVj5",
+      "target": {
+        "id": "V4A-N1",
+        "kind": "beam",
+        "x": 4.4,
+        "y": 3.9,
+        "x2": 6.550000000000001,
+        "y2": 3.9,
+        "z": 3.2000000000000006,
+        "b": 0.20000000000000004,
+        "h": 0.16
+      },
+      "before": {
+        "minM": [
+          4.5,
+          3.799999999999998,
+          3.039999999999999
+        ],
+        "maxM": [
+          6.399999999999999,
+          4.000000000000002,
+          3.0600000000000014
+        ],
+        "pointsSha256": "026f9f65e2de0d8425e1d233190a95119ab36c219cdca2ecc420c71ef3f1c45c"
+      },
+      "after": {
+        "minM": [
+          4.4,
+          3.8,
+          3.0400000000000005
+        ],
+        "maxM": [
+          6.550000000000001,
+          4.0,
+          3.2000000000000006
+        ],
+        "pointsSha256": "4c2f1be45daf8bb120d8c9b0b20c20af346c894ec9238f5bc39eaa18b024e067"
+      },
+      "expectedMinM": [
+        4.4,
+        3.8,
+        3.0400000000000005
+      ],
+      "expectedMaxM": [
+        6.550000000000001,
+        4.0,
+        3.2000000000000006
+      ],
+      "maxAbsoluteBoxDeltaM": 0.0,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "473040",
+      "mark": "V4A-N2",
+      "guid": "13FVx86UH85RTcavq9tVll",
+      "target": {
+        "id": "V4A-N2",
+        "kind": "beam",
+        "x": 4.4,
+        "y": 3.9,
+        "x2": 6.550000000000001,
+        "y2": 3.9,
+        "z": 6.39,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          4.5,
+          3.799999999999998,
+          6.09
+        ],
+        "maxM": [
+          6.399999999999999,
+          4.000000000000002,
+          6.250000000000002
+        ],
+        "pointsSha256": "f4ffdb6f8516ff1f071497ded399b23eac7287afa66320c6d1b0e84b468eb0e7"
+      },
+      "after": {
+        "minM": [
+          4.4,
+          3.8,
+          6.09
+        ],
+        "maxM": [
+          6.550000000000001,
+          4.0,
+          6.390000000000001
+        ],
+        "pointsSha256": "fe4c3df3b8b871ccc94fe5a0aa5c9f17a1f62694cc378e6ea6e46b6154c08f31"
+      },
+      "expectedMinM": [
+        4.4,
+        3.8,
+        6.09
+      ],
+      "expectedMaxM": [
+        6.550000000000001,
+        4.0,
+        6.39
+      ],
+      "maxAbsoluteBoxDeltaM": 8.881784197001252e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "472959",
+      "mark": "V4B-N1",
+      "guid": "13FVx86UH85RTcavq9tVj0",
+      "target": {
+        "id": "V4B-N1",
+        "kind": "beam",
+        "x": 6.550000000000001,
+        "y": 3.9,
+        "x2": 9.65,
+        "y2": 3.9,
+        "z": 3.2000000000000006,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          6.7,
+          3.799999999999998,
+          2.899999999999999
+        ],
+        "maxM": [
+          9.55,
+          4.000000000000002,
+          3.060000000000001
+        ],
+        "pointsSha256": "76b7eb9952f0abd5e731a00fb17b6030516d22725d8c00471baa897efb021976"
+      },
+      "after": {
+        "minM": [
+          6.550000000000001,
+          3.8,
+          2.900000000000001
+        ],
+        "maxM": [
+          9.65,
+          4.0,
+          3.2000000000000006
+        ],
+        "pointsSha256": "6db190bb883196c94548afd8eed4e3042db6f4924bf98449bf55e7bd408a57ce"
+      },
+      "expectedMinM": [
+        6.550000000000001,
+        3.8,
+        2.900000000000001
+      ],
+      "expectedMaxM": [
+        9.65,
+        4.0,
+        3.2000000000000006
+      ],
+      "maxAbsoluteBoxDeltaM": 0.0,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "473042",
+      "mark": "V4B-N2",
+      "guid": "13FVx86UH85RTcavq9tVlj",
+      "target": {
+        "id": "V4B-N2",
+        "kind": "beam",
+        "x": 6.550000000000001,
+        "y": 3.9,
+        "x2": 9.65,
+        "y2": 3.9,
+        "z": 6.39,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          6.7,
+          3.799999999999998,
+          6.09
+        ],
+        "maxM": [
+          9.55,
+          4.000000000000002,
+          6.250000000000002
+        ],
+        "pointsSha256": "4945a567d0486f3ba7cfcb57be85bf456222ff60a817152ecde6ee11c30f350b"
+      },
+      "after": {
+        "minM": [
+          6.550000000000001,
+          3.8,
+          6.09
+        ],
+        "maxM": [
+          9.65,
+          4.0,
+          6.390000000000001
+        ],
+        "pointsSha256": "0fd18787a8541942f03fe2072a356d9fe1a2a05c71395a1fccad7e7624bf93e5"
+      },
+      "expectedMinM": [
+        6.550000000000001,
+        3.8,
+        6.09
+      ],
+      "expectedMaxM": [
+        9.65,
+        4.0,
+        6.39
+      ],
+      "maxAbsoluteBoxDeltaM": 8.881784197001252e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "472961",
+      "mark": "V5-N1",
+      "guid": "13FVx86UH85RTcavq9tVk_",
+      "target": {
+        "id": "V5-N1",
+        "kind": "beam",
+        "x": 0,
+        "y": 7.049999999999999,
+        "x2": 4.4,
+        "y2": 7.049999999999999,
+        "z": 3.2000000000000006,
+        "b": 0.20000000000000004,
+        "h": 0.45
+      },
+      "before": {
+        "minM": [
+          0.1,
+          6.95,
+          2.7499999999999987
+        ],
+        "maxM": [
+          4.300000000000001,
+          7.1499999999999995,
+          3.199999999999998
+        ],
+        "pointsSha256": "1ada009838e556088b846bb373c387d0b7e2c9e9b13317939daf641131121965"
+      },
+      "after": {
+        "minM": [
+          0.0,
+          6.949999999999999,
+          2.7500000000000004
+        ],
+        "maxM": [
+          4.4,
+          7.149999999999999,
+          3.2000000000000006
+        ],
+        "pointsSha256": "4287c94c1ca7b7fe6538457b4b9d51c55e9b60143870dcb8e70ed8288d7d68c3"
+      },
+      "expectedMinM": [
+        0,
+        6.949999999999999,
+        2.7500000000000004
+      ],
+      "expectedMaxM": [
+        4.4,
+        7.149999999999999,
+        3.2000000000000006
+      ],
+      "maxAbsoluteBoxDeltaM": 0.0,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "473044",
+      "mark": "V5-N2",
+      "guid": "13FVx86UH85RTcavq9tVlh",
+      "target": {
+        "id": "V5-N2",
+        "kind": "beam",
+        "x": 0,
+        "y": 7.049999999999999,
+        "x2": 4.4,
+        "y2": 7.049999999999999,
+        "z": 6.39,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          0.1,
+          6.95,
+          6.089999999999999
+        ],
+        "maxM": [
+          4.3,
+          7.1499999999999995,
+          6.389999999999998
+        ],
+        "pointsSha256": "57b2380009f85ffa8a031eda0f585031aadbda1708e016b030b3657ed842f2c7"
+      },
+      "after": {
+        "minM": [
+          0.0,
+          6.949999999999999,
+          6.09
+        ],
+        "maxM": [
+          4.4,
+          7.149999999999999,
+          6.390000000000001
+        ],
+        "pointsSha256": "cb9b5c012e90e9d1788da1147ca4c05ec9f6fe9e85beb7ea75fcb3a0915941ae"
+      },
+      "expectedMinM": [
+        0,
+        6.949999999999999,
+        6.09
+      ],
+      "expectedMaxM": [
+        4.4,
+        7.149999999999999,
+        6.39
+      ],
+      "maxAbsoluteBoxDeltaM": 8.881784197001252e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "472963",
+      "mark": "V6-N1",
+      "guid": "13FVx86UH85RTcavq9tVky",
+      "target": {
+        "id": "V6-N1",
+        "kind": "beam",
+        "x": 4.4,
+        "y": 7.049999999999999,
+        "x2": 9.65,
+        "y2": 7.049999999999999,
+        "z": 3.2000000000000006,
+        "b": 0.20000000000000004,
+        "h": 0.55
+      },
+      "before": {
+        "minM": [
+          4.5,
+          6.95,
+          2.6500000000000004
+        ],
+        "maxM": [
+          9.55,
+          7.1499999999999995,
+          3.2
+        ],
+        "pointsSha256": "c5c8b786ff401b2462f33ce89a2d2f997a1ef0cb31fc900f288ae10c02cbb32f"
+      },
+      "after": {
+        "minM": [
+          4.4,
+          6.949999999999999,
+          2.650000000000001
+        ],
+        "maxM": [
+          9.65,
+          7.149999999999999,
+          3.2000000000000006
+        ],
+        "pointsSha256": "bfbcf6faf78929ed32c83e7be33d97474d46434c5a45888b65bbc8af7a93d31b"
+      },
+      "expectedMinM": [
+        4.4,
+        6.949999999999999,
+        2.6500000000000004
+      ],
+      "expectedMaxM": [
+        9.65,
+        7.149999999999999,
+        3.2000000000000006
+      ],
+      "maxAbsoluteBoxDeltaM": 4.440892098500626e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "473046",
+      "mark": "V6-N2",
+      "guid": "13FVx86UH85RTcavq9tVlf",
+      "target": {
+        "id": "V6-N2",
+        "kind": "beam",
+        "x": 4.4,
+        "y": 7.049999999999999,
+        "x2": 9.65,
+        "y2": 7.049999999999999,
+        "z": 6.39,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          4.5,
+          6.95,
+          6.089999999999999
+        ],
+        "maxM": [
+          9.55,
+          7.1499999999999995,
+          6.389999999999998
+        ],
+        "pointsSha256": "9275cbc0800ae314c57bc603d5e001daf137ceefdd50c34e5f7be687795355e4"
+      },
+      "after": {
+        "minM": [
+          4.4,
+          6.949999999999999,
+          6.09
+        ],
+        "maxM": [
+          9.65,
+          7.149999999999999,
+          6.390000000000001
+        ],
+        "pointsSha256": "c48f7c67a7ef7b62ac2d7125799a93254ba276c8384b4989c43bdb0d2f3f9efb"
+      },
+      "expectedMinM": [
+        4.4,
+        6.949999999999999,
+        6.09
+      ],
+      "expectedMaxM": [
+        9.65,
+        7.149999999999999,
+        6.39
+      ],
+      "maxAbsoluteBoxDeltaM": 8.881784197001252e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "472969",
+      "mark": "V7-N1",
+      "guid": "13FVx86UH85RTcavq9tVks",
+      "target": {
+        "id": "V7-N1",
+        "kind": "beam",
+        "x": 0,
+        "y": 0,
+        "x2": 0,
+        "y2": 3.9,
+        "z": 3.2000000000000006,
+        "b": 0.20000000000000004,
+        "h": 0.4000000000000001
+      },
+      "before": {
+        "minM": [
+          -0.1,
+          0.15,
+          2.8
+        ],
+        "maxM": [
+          0.1,
+          3.7499999999999996,
+          3.2
+        ],
+        "pointsSha256": "416805121c0deba9a968447c42298a63730307be3cabf2673dddb4f23aa5fad7"
+      },
+      "after": {
+        "minM": [
+          -0.10000000000000002,
+          0.0,
+          2.8000000000000003
+        ],
+        "maxM": [
+          0.10000000000000002,
+          3.9,
+          3.2000000000000006
+        ],
+        "pointsSha256": "46b5723bb0d0af162bd20b70009791fef749bf70da5a152f45e2992aa3a8e009"
+      },
+      "expectedMinM": [
+        -0.10000000000000002,
+        0,
+        2.8000000000000007
+      ],
+      "expectedMaxM": [
+        0.10000000000000002,
+        3.9,
+        3.2000000000000006
+      ],
+      "maxAbsoluteBoxDeltaM": 4.440892098500626e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "473048",
+      "mark": "V7-N2",
+      "guid": "13FVx86UH85RTcavq9tVld",
+      "target": {
+        "id": "V7-N2",
+        "kind": "beam",
+        "x": 0,
+        "y": 0,
+        "x2": 0,
+        "y2": 3.9,
+        "z": 6.39,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          -0.1,
+          0.15,
+          6.089999999999999
+        ],
+        "maxM": [
+          0.1,
+          3.7499999999999996,
+          6.389999999999998
+        ],
+        "pointsSha256": "e3a4f14210b419720b4ecac1f8652cd67c35103f28e2c56a584cefe76b4e283b"
+      },
+      "after": {
+        "minM": [
+          -0.10000000000000002,
+          0.0,
+          6.09
+        ],
+        "maxM": [
+          0.10000000000000002,
+          3.9,
+          6.390000000000001
+        ],
+        "pointsSha256": "0c3d25a7c87878e95c71edfc88a8ca876e10559469e01095faa49ccf2b48e7f8"
+      },
+      "expectedMinM": [
+        -0.10000000000000002,
+        0,
+        6.09
+      ],
+      "expectedMaxM": [
+        0.10000000000000002,
+        3.9,
+        6.39
+      ],
+      "maxAbsoluteBoxDeltaM": 8.881784197001252e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "472974",
+      "mark": "V8-N1",
+      "guid": "13FVx86UH85RTcavq9tVkn",
+      "target": {
+        "id": "V8-N1",
+        "kind": "beam",
+        "x": 0,
+        "y": 3.9,
+        "x2": 0,
+        "y2": 7.049999999999999,
+        "z": 3.2000000000000006,
+        "b": 0.20000000000000004,
+        "h": 0.35
+      },
+      "before": {
+        "minM": [
+          -0.1,
+          4.05,
+          2.8499999999999983
+        ],
+        "maxM": [
+          0.1,
+          6.8999999999999995,
+          3.1999999999999984
+        ],
+        "pointsSha256": "d7317e95c75b6a08cf802ec9ab5b6601643fa2e011a3ea8f8839ba263cef4f8d"
+      },
+      "after": {
+        "minM": [
+          -0.10000000000000002,
+          3.9,
+          2.850000000000001
+        ],
+        "maxM": [
+          0.10000000000000002,
+          7.049999999999999,
+          3.2000000000000006
+        ],
+        "pointsSha256": "44930ecee211336f419b49ef88685810f12c9b3e59c5966c895fcaeff11148f7"
+      },
+      "expectedMinM": [
+        -0.10000000000000002,
+        3.9,
+        2.8500000000000005
+      ],
+      "expectedMaxM": [
+        0.10000000000000002,
+        7.049999999999999,
+        3.2000000000000006
+      ],
+      "maxAbsoluteBoxDeltaM": 4.440892098500626e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "473050",
+      "mark": "V8-N2",
+      "guid": "13FVx86UH85RTcavq9tVlb",
+      "target": {
+        "id": "V8-N2",
+        "kind": "beam",
+        "x": 0,
+        "y": 3.9,
+        "x2": 0,
+        "y2": 7.049999999999999,
+        "z": 6.39,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          -0.1,
+          4.05,
+          6.089999999999999
+        ],
+        "maxM": [
+          0.1,
+          6.8999999999999995,
+          6.389999999999998
+        ],
+        "pointsSha256": "ce2ec9f6ae138a9ad82f9961922e6a94dc82b7b65908b5db34fbabbe0731da31"
+      },
+      "after": {
+        "minM": [
+          -0.10000000000000002,
+          3.9,
+          6.09
+        ],
+        "maxM": [
+          0.10000000000000002,
+          7.049999999999999,
+          6.390000000000001
+        ],
+        "pointsSha256": "664530165766f9e180e4c05777d97d88676e979885efc4b555d6edb83f3eddcb"
+      },
+      "expectedMinM": [
+        -0.10000000000000002,
+        3.9,
+        6.09
+      ],
+      "expectedMaxM": [
+        0.10000000000000002,
+        7.049999999999999,
+        6.39
+      ],
+      "maxAbsoluteBoxDeltaM": 8.881784197001252e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "472976",
+      "mark": "V9-N1",
+      "guid": "13FVx86UH85RTcavq9tVkl",
+      "target": {
+        "id": "V9-N1",
+        "kind": "beam",
+        "x": 4.4,
+        "y": 0,
+        "x2": 4.4,
+        "y2": 3.9,
+        "z": 3.2000000000000006,
+        "b": 0.20000000000000004,
+        "h": 0.4000000000000001
+      },
+      "before": {
+        "minM": [
+          4.3,
+          0.15,
+          2.8000000000000003
+        ],
+        "maxM": [
+          4.5,
+          3.75,
+          3.2
+        ],
+        "pointsSha256": "92aa74859f23c72df7f2b98106716c4642f59dbc3f41e41054115513f51c7af9"
+      },
+      "after": {
+        "minM": [
+          4.300000000000001,
+          0.0,
+          2.8000000000000003
+        ],
+        "maxM": [
+          4.5,
+          3.9,
+          3.2000000000000006
+        ],
+        "pointsSha256": "3de583999d5c722f81fc53664eb5778d31ee3aa3433eba555c01a0cc08ad21a9"
+      },
+      "expectedMinM": [
+        4.300000000000001,
+        0,
+        2.8000000000000007
+      ],
+      "expectedMaxM": [
+        4.5,
+        3.9,
+        3.2000000000000006
+      ],
+      "maxAbsoluteBoxDeltaM": 4.440892098500626e-16,
+      "materialAndPropertiesPreserved": true
+    },
+    {
+      "nativeId": "473052",
+      "mark": "V9-N2",
+      "guid": "13FVx86UH85RTcavq9tVlZ",
+      "target": {
+        "id": "V9-N2",
+        "kind": "beam",
+        "x": 4.4,
+        "y": 0,
+        "x2": 4.4,
+        "y2": 3.9,
+        "z": 6.39,
+        "b": 0.20000000000000004,
+        "h": 0.3
+      },
+      "before": {
+        "minM": [
+          4.299999999999999,
+          0.15,
+          6.09
+        ],
+        "maxM": [
+          4.500000000000002,
+          3.7499999999999996,
+          6.250000000000002
+        ],
+        "pointsSha256": "11c278862128020fdbe159befc2f00f7103f1cb859687752a2e6080db29af888"
+      },
+      "after": {
+        "minM": [
+          4.300000000000001,
+          0.0,
+          6.09
+        ],
+        "maxM": [
+          4.5,
+          3.9,
+          6.390000000000001
+        ],
+        "pointsSha256": "cec665a6c9115cc94840b746a7155c158539afed8a8df84a4dd14aad1ab75d78"
+      },
+      "expectedMinM": [
+        4.300000000000001,
+        0,
+        6.09
+      ],
+      "expectedMaxM": [
+        4.5,
+        3.9,
+        6.39
+      ],
+      "maxAbsoluteBoxDeltaM": 8.881784197001252e-16,
+      "materialAndPropertiesPreserved": true
+    }
+  ]
+}

@@ -1,0 +1,2885 @@
+{
+  "revision": "H03/R162",
+  "recordedAtUtc": "2026-11-02T18:43:47.075138+00:00",
+  "sourceHashes": {
+    "D:\\TCC\\outputs\\Intercambio-H03-R162-SECOES-NOMINAIS-NAO-EXECUTAR\\H03-R160-R162-DERIVADO-VIGAS-NOMINAIS-NAO-EXECUTAR.ifc": "a5ff9ccdeb5522f2b84d6e7d83e21074ab563a229fc30417421f5565b9bab1df",
+    "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-releitura-nativa-20261102-163548.json": "fd43fd25e3665bfe6fc3b9eaa14892b9d7446b19809efaae6e278a0aad3f3a18",
+    "D:\\TCC\\outputs\\R162-R160-VIGAS-NOMINAIS-NAO-EXECUTAR\\Projeto Eberick\\R162-R160-VIGAS-NOMINAIS-NAO-EXECUTAR.prj": "6ae6ff777d3cdd8afe0198d561e1604fdd70ee67822b647d2e0eead7b24b57cc",
+    "D:\\TCC\\outputs\\R162-R160-VIGAS-NOMINAIS-NAO-EXECUTAR\\Arquivos do projeto\\Modelo 3D.IFC": "9f348088296dd531b198b4ff36e9cd86fe11d3a6c9a514b896a84f95750ec8d0",
+    "D:\\TCC\\outputs\\R162-R160-VIGAS-NOMINAIS-NAO-EXECUTAR\\Arquivos do projeto\\Documentos\\Eberick\\Relatorio_de_importacao_de_elementos_IFC.docx": "09ecbe5c76ff5885354ca76cdb86cd7bd0a3312ad2d11db26de81b2cd7cc918d"
+  },
+  "sourceHashesUnchangedAfterRead": true,
+  "receiverProject": "D:\\TCC\\outputs\\R162-R160-VIGAS-NOMINAIS-NAO-EXECUTAR\\Projeto Eberick\\R162-R160-VIGAS-NOMINAIS-NAO-EXECUTAR.prj",
+  "receiverRoot": "D:\\TCC\\outputs\\R162-R160-VIGAS-NOMINAIS-NAO-EXECUTAR",
+  "receiverInputWasExplicitlyDerived": true,
+  "replacedNativeRevitOrCadFiles": false,
+  "expectedOriginCount": 52,
+  "importedOriginCount": 52,
+  "importedOriginsByReport": {
+    "Vigas": 30,
+    "Pilares": 22
+  },
+  "originalR148Preserved": {
+    "CAD": true,
+    "BIM": true
+  },
+  "rawR161ReceiverPrjPreserved": true,
+  "receiverCounts": {
+    "IfcBeam": 33,
+    "IfcColumn": 64,
+    "IfcSlab": 0,
+    "IfcStair": 0,
+    "IfcStairFlight": 0
+  },
+  "beamPartCount": 33,
+  "spatiallyAssociatedParts": 28,
+  "distinctAssociatedBeamOrigins": 26,
+  "unmatchedBeamParts": [
+    {
+      "name": "V10",
+      "guid": "3T4bPgrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          6.45,
+          3.0358000000000005,
+          2.8
+        ],
+        "maxM": [
+          6.6499999999999995,
+          4.000000000000001,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1335
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 40.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1337
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1339
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1341
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 40",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1343
+        }
+      },
+      "nominalBeamAssociation": null
+    },
+    {
+      "name": "V2",
+      "guid": "3T4bOwrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          0.09999999999999964,
+          3.8,
+          2.75
+        ],
+        "maxM": [
+          4.5,
+          4.0,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1434
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 45.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1436
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1438
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1440
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 45",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1442
+        }
+      },
+      "nominalBeamAssociation": null
+    },
+    {
+      "name": "V2",
+      "guid": "3T4bPOrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          4.4,
+          3.8,
+          3.04
+        ],
+        "maxM": [
+          6.7,
+          4.0,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1467
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 16.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1469
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1471
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1473
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 16",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1475
+        }
+      },
+      "nominalBeamAssociation": null
+    },
+    {
+      "name": "V3",
+      "guid": "3T4bPLrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          6.45,
+          3.8,
+          2.9000000000000004
+        ],
+        "maxM": [
+          9.55,
+          4.0,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1500
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1502
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1504
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1506
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1508
+        }
+      },
+      "nominalBeamAssociation": null
+    },
+    {
+      "name": "V9",
+      "guid": "3T4bPCrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          4.300000000000001,
+          3.7500000000000004,
+          2.8500000000000005
+        ],
+        "maxM": [
+          4.5,
+          6.9,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1764
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 35.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1766
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1768
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1770
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 35",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1772
+        }
+      },
+      "nominalBeamAssociation": null
+    }
+  ],
+  "associatedPartsWithTopDifference": 0,
+  "associatedPartsWithHeightDifference": 0,
+  "associatedPartsWithWidthDifference": 0,
+  "beforeRawReceiver": {
+    "distinctAssociatedBeamOrigins": 28,
+    "associatedPartsWithTopDifference": 12,
+    "associatedPartsWithHeightDifference": 12
+  },
+  "valuesAreObservedGeometryNotApproval": true,
+  "beamAxialCoverageAndConnectionsNotVerified": true,
+  "mechanicalMaterialPropertiesNotRepaired": true,
+  "stairAndSlabNativeConversionNotResolved": true,
+  "levelsNotSimplified": true,
+  "loadsNotApplied": true,
+  "newStructuralCalculationPerformed": false,
+  "nativeProjectClosedReopened": false,
+  "completeCadBimComparisonFinished": false,
+  "structuralApproval": false,
+  "reportRows": [
+    {
+      "group": "Vigas",
+      "revId": "472942",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-1:472942 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Vigas",
+      "revId": "472949",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-1:472949 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Vigas",
+      "revId": "472961",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-1:472961 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Vigas",
+      "revId": "472947",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-2:472947 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Vigas",
+      "revId": "472963",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-2:472963 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Vigas",
+      "revId": "472954",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-3:472954 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Vigas",
+      "revId": "472959",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-4:472959 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Vigas",
+      "revId": "473034",
+      "level": "TCC-7a6267fd-N2",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-4:473034 - Pavimento IFC: TCC-7a6267fd-N2"
+    },
+    {
+      "group": "Vigas",
+      "revId": "473036",
+      "level": "TCC-7a6267fd-N2",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-4:473036 - Pavimento IFC: TCC-7a6267fd-N2"
+    },
+    {
+      "group": "Vigas",
+      "revId": "473038",
+      "level": "TCC-7a6267fd-N2",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-4:473038 - Pavimento IFC: TCC-7a6267fd-N2"
+    },
+    {
+      "group": "Vigas",
+      "revId": "473040",
+      "level": "TCC-7a6267fd-N2",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-4:473040 - Pavimento IFC: TCC-7a6267fd-N2"
+    },
+    {
+      "group": "Vigas",
+      "revId": "473042",
+      "level": "TCC-7a6267fd-N2",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-4:473042 - Pavimento IFC: TCC-7a6267fd-N2"
+    },
+    {
+      "group": "Vigas",
+      "revId": "473044",
+      "level": "TCC-7a6267fd-N2",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-4:473044 - Pavimento IFC: TCC-7a6267fd-N2"
+    },
+    {
+      "group": "Vigas",
+      "revId": "473046",
+      "level": "TCC-7a6267fd-N2",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-4:473046 - Pavimento IFC: TCC-7a6267fd-N2"
+    },
+    {
+      "group": "Vigas",
+      "revId": "473048",
+      "level": "TCC-7a6267fd-N2",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-4:473048 - Pavimento IFC: TCC-7a6267fd-N2"
+    },
+    {
+      "group": "Vigas",
+      "revId": "473050",
+      "level": "TCC-7a6267fd-N2",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-4:473050 - Pavimento IFC: TCC-7a6267fd-N2"
+    },
+    {
+      "group": "Vigas",
+      "revId": "473052",
+      "level": "TCC-7a6267fd-N2",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-4:473052 - Pavimento IFC: TCC-7a6267fd-N2"
+    },
+    {
+      "group": "Vigas",
+      "revId": "473054",
+      "level": "TCC-7a6267fd-N2",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-4:473054 - Pavimento IFC: TCC-7a6267fd-N2"
+    },
+    {
+      "group": "Vigas",
+      "revId": "473056",
+      "level": "TCC-7a6267fd-N2",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-4:473056 - Pavimento IFC: TCC-7a6267fd-N2"
+    },
+    {
+      "group": "Vigas",
+      "revId": "473058",
+      "level": "TCC-7a6267fd-N2",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-4:473058 - Pavimento IFC: TCC-7a6267fd-N2"
+    },
+    {
+      "group": "Vigas",
+      "revId": "473060",
+      "level": "TCC-7a6267fd-N2",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-4:473060 - Pavimento IFC: TCC-7a6267fd-N2"
+    },
+    {
+      "group": "Vigas",
+      "revId": "472969",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-5:472969 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Vigas",
+      "revId": "472976",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-5:472976 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Vigas",
+      "revId": "472980",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-5:472980 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Vigas",
+      "revId": "472984",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-5:472984 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Vigas",
+      "revId": "472974",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-6:472974 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Vigas",
+      "revId": "472978",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-6:472978 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Vigas",
+      "revId": "472982",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-7a6267fd-6:472982 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Vigas",
+      "revId": "472986",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-R159-V15-20x16-HIPOTESE:472986 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Vigas",
+      "revId": "473802",
+      "level": "TCC-R159-PATAMAR-CONCRETO",
+      "nativeText": "Nome IFC: Concreto-Viga Retangular:TCC-R159-V16-20x30-HIPOTESE:473802 - Pavimento IFC: TCC-R159-PATAMAR-CONCRETO"
+    },
+    {
+      "group": "Pilares",
+      "revId": "472930",
+      "level": "TCC-7a6267fd-N0",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:472930 - Pavimento IFC: TCC-7a6267fd-N0"
+    },
+    {
+      "group": "Pilares",
+      "revId": "472931",
+      "level": "TCC-7a6267fd-N0",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:472931 - Pavimento IFC: TCC-7a6267fd-N0"
+    },
+    {
+      "group": "Pilares",
+      "revId": "472932",
+      "level": "TCC-7a6267fd-N0",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:472932 - Pavimento IFC: TCC-7a6267fd-N0"
+    },
+    {
+      "group": "Pilares",
+      "revId": "472933",
+      "level": "TCC-7a6267fd-N0",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:472933 - Pavimento IFC: TCC-7a6267fd-N0"
+    },
+    {
+      "group": "Pilares",
+      "revId": "472934",
+      "level": "TCC-7a6267fd-N0",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:472934 - Pavimento IFC: TCC-7a6267fd-N0"
+    },
+    {
+      "group": "Pilares",
+      "revId": "472935",
+      "level": "TCC-7a6267fd-N0",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:472935 - Pavimento IFC: TCC-7a6267fd-N0"
+    },
+    {
+      "group": "Pilares",
+      "revId": "472936",
+      "level": "TCC-7a6267fd-N0",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:472936 - Pavimento IFC: TCC-7a6267fd-N0"
+    },
+    {
+      "group": "Pilares",
+      "revId": "472937",
+      "level": "TCC-7a6267fd-N0",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:472937 - Pavimento IFC: TCC-7a6267fd-N0"
+    },
+    {
+      "group": "Pilares",
+      "revId": "472938",
+      "level": "TCC-7a6267fd-N0",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:472938 - Pavimento IFC: TCC-7a6267fd-N0"
+    },
+    {
+      "group": "Pilares",
+      "revId": "473025",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:473025 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Pilares",
+      "revId": "473026",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:473026 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Pilares",
+      "revId": "473027",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:473027 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Pilares",
+      "revId": "473028",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:473028 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Pilares",
+      "revId": "473029",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:473029 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Pilares",
+      "revId": "473030",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:473030 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Pilares",
+      "revId": "473031",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:473031 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Pilares",
+      "revId": "473032",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:473032 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Pilares",
+      "revId": "473033",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:473033 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Pilares",
+      "revId": "473097",
+      "level": "TCC-7a6267fd-N0",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:473097 - Pavimento IFC: TCC-7a6267fd-N0"
+    },
+    {
+      "group": "Pilares",
+      "revId": "473098",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-0:473098 - Pavimento IFC: TCC-7a6267fd-N1"
+    },
+    {
+      "group": "Pilares",
+      "revId": "473143",
+      "level": "TCC-7a6267fd-N0",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-7:473143 - Pavimento IFC: TCC-7a6267fd-N0"
+    },
+    {
+      "group": "Pilares",
+      "revId": "473144",
+      "level": "TCC-7a6267fd-N1",
+      "nativeText": "Nome IFC: M_Concreto-Retangular-Coluna:TCC-7a6267fd-7:473144 - Pavimento IFC: TCC-7a6267fd-N1"
+    }
+  ],
+  "beams": [
+    {
+      "name": "V1",
+      "guid": "3T4bOkrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          4.500000000000001,
+          -0.1,
+          1.4741176500000002
+        ],
+        "maxM": [
+          6.450000000000001,
+          0.1,
+          1.77411765
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 511
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 513
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 515
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 517
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 519
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V16-ESC-PAT",
+        "nativeId": 473802,
+        "nativeTopM": 1.7741176470588231,
+        "receiverTopM": 1.77411765,
+        "topDeltaM": 2.9411768576181885e-09,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.2,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.2999999999999998,
+        "heightDeltaM": -1.6653345369377348e-16
+      }
+    },
+    {
+      "name": "V1",
+      "guid": "3T4bOnrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          4.500000000000001,
+          6.95,
+          2.6500000000000004
+        ],
+        "maxM": [
+          9.55,
+          7.1499999999999995,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1236
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 55.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1238
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1240
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1242
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 55",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1244
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V6-N1",
+        "nativeId": 472963,
+        "nativeTopM": 3.2000000000000006,
+        "receiverTopM": 3.2,
+        "topDeltaM": -4.440892098500626e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.1999999999999993,
+        "nativeHeightM": 0.55,
+        "receiverHeightM": 0.5499999999999998,
+        "heightDeltaM": -2.220446049250313e-16
+      }
+    },
+    {
+      "name": "V1",
+      "guid": "3T4bOtrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          0.10000000000000053,
+          6.95,
+          2.75
+        ],
+        "maxM": [
+          4.300000000000001,
+          7.1499999999999995,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1269
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 45.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1271
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1273
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1275
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 45",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1277
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V5-N1",
+        "nativeId": 472961,
+        "nativeTopM": 3.2000000000000006,
+        "receiverTopM": 3.2,
+        "topDeltaM": -4.440892098500626e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.1999999999999993,
+        "nativeHeightM": 0.45,
+        "receiverHeightM": 0.4500000000000002,
+        "heightDeltaM": 1.6653345369377348e-16
+      }
+    },
+    {
+      "name": "V10",
+      "guid": "3T4bPirkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          6.45,
+          0.15000000000000013,
+          2.8
+        ],
+        "maxM": [
+          6.6499999999999995,
+          3.0358,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1302
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 40.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1304
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1306
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1308
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 40",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1310
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V13-N1",
+        "nativeId": 472984,
+        "nativeTopM": 3.2000000000000006,
+        "receiverTopM": 3.2,
+        "topDeltaM": -4.440892098500626e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.1999999999999993,
+        "nativeHeightM": 0.4000000000000001,
+        "receiverHeightM": 0.40000000000000036,
+        "heightDeltaM": 2.7755575615628914e-16
+      }
+    },
+    {
+      "name": "V10",
+      "guid": "3T4bPgrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          6.45,
+          3.0358000000000005,
+          2.8
+        ],
+        "maxM": [
+          6.6499999999999995,
+          4.000000000000001,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1335
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 40.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1337
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1339
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1341
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 40",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1343
+        }
+      },
+      "nominalBeamAssociation": null
+    },
+    {
+      "name": "V11",
+      "guid": "3T4bP0rkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          9.55,
+          0.1499999999999999,
+          2.8
+        ],
+        "maxM": [
+          9.75,
+          3.75,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1368
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 40.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1370
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1372
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1374
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 40",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1376
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V11-N1",
+        "nativeId": 472980,
+        "nativeTopM": 3.2000000000000006,
+        "receiverTopM": 3.2,
+        "topDeltaM": -4.440892098500626e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.1999999999999993,
+        "nativeHeightM": 0.4000000000000001,
+        "receiverHeightM": 0.40000000000000036,
+        "heightDeltaM": 2.7755575615628914e-16
+      }
+    },
+    {
+      "name": "V11",
+      "guid": "3T4bPFrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          9.55,
+          4.050000000000001,
+          2.8500000000000005
+        ],
+        "maxM": [
+          9.75,
+          6.9,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1401
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 35.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1403
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1405
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1407
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 35",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1409
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V12-N1",
+        "nativeId": 472982,
+        "nativeTopM": 3.2000000000000006,
+        "receiverTopM": 3.2,
+        "topDeltaM": -4.440892098500626e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.1999999999999993,
+        "nativeHeightM": 0.35,
+        "receiverHeightM": 0.34999999999999964,
+        "heightDeltaM": -3.3306690738754696e-16
+      }
+    },
+    {
+      "name": "V2",
+      "guid": "3T4bOwrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          0.09999999999999964,
+          3.8,
+          2.75
+        ],
+        "maxM": [
+          4.5,
+          4.0,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1434
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 45.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1436
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1438
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1440
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 45",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1442
+        }
+      },
+      "nominalBeamAssociation": null
+    },
+    {
+      "name": "V2",
+      "guid": "3T4bPOrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          4.4,
+          3.8,
+          3.04
+        ],
+        "maxM": [
+          6.7,
+          4.0,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1467
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 16.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1469
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1471
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1473
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 16",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1475
+        }
+      },
+      "nominalBeamAssociation": null
+    },
+    {
+      "name": "V3",
+      "guid": "3T4bPLrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          6.45,
+          3.8,
+          2.9000000000000004
+        ],
+        "maxM": [
+          9.55,
+          4.0,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1500
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1502
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1504
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1506
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1508
+        }
+      },
+      "nominalBeamAssociation": null
+    },
+    {
+      "name": "V4",
+      "guid": "3T4bPrrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          4.4,
+          2.9358,
+          3.04
+        ],
+        "maxM": [
+          6.550000000000001,
+          3.1358,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1533
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 16.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1535
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1537
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1539
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 16",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1541
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V15-N1",
+        "nativeId": 472986,
+        "nativeTopM": 3.2000000000000006,
+        "receiverTopM": 3.2,
+        "topDeltaM": -4.440892098500626e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.20000000000000018,
+        "nativeHeightM": 0.16,
+        "receiverHeightM": 0.16000000000000014,
+        "heightDeltaM": 1.3877787807814457e-16
+      }
+    },
+    {
+      "name": "V5",
+      "guid": "3T4bOzrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          0.10000000000000009,
+          -0.1,
+          2.75
+        ],
+        "maxM": [
+          4.300000000000001,
+          0.1,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1566
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 45.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1568
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1570
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1572
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 45",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1574
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V1-N1",
+        "nativeId": 472942,
+        "nativeTopM": 3.2000000000000006,
+        "receiverTopM": 3.2,
+        "topDeltaM": -4.440892098500626e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.2,
+        "nativeHeightM": 0.45,
+        "receiverHeightM": 0.4500000000000002,
+        "heightDeltaM": 1.6653345369377348e-16
+      }
+    },
+    {
+      "name": "V6",
+      "guid": "3T4bOqrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          6.6499999999999995,
+          -0.1,
+          2.6500000000000004
+        ],
+        "maxM": [
+          9.549999999999999,
+          0.1,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1599
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 55.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1601
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1603
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1605
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 55",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1607
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V2-N1",
+        "nativeId": 472947,
+        "nativeTopM": 3.2000000000000006,
+        "receiverTopM": 3.2,
+        "topDeltaM": -4.440892098500626e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.2,
+        "nativeHeightM": 0.55,
+        "receiverHeightM": 0.5499999999999998,
+        "heightDeltaM": -2.220446049250313e-16
+      }
+    },
+    {
+      "name": "V7",
+      "guid": "3T4bP3rkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          -0.1,
+          0.1499999999999999,
+          2.8
+        ],
+        "maxM": [
+          0.1,
+          3.75,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1632
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 40.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1634
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1636
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1638
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 40",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1640
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V7-N1",
+        "nativeId": 472969,
+        "nativeTopM": 3.2000000000000006,
+        "receiverTopM": 3.2,
+        "topDeltaM": -4.440892098500626e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.2,
+        "nativeHeightM": 0.4000000000000001,
+        "receiverHeightM": 0.40000000000000036,
+        "heightDeltaM": 2.7755575615628914e-16
+      }
+    },
+    {
+      "name": "V7",
+      "guid": "3T4bPIrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          -0.1,
+          4.050000000000001,
+          2.8500000000000005
+        ],
+        "maxM": [
+          0.1,
+          6.9,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1665
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 35.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1667
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1669
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1671
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 35",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1673
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V8-N1",
+        "nativeId": 472974,
+        "nativeTopM": 3.2000000000000006,
+        "receiverTopM": 3.2,
+        "topDeltaM": -4.440892098500626e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.2,
+        "nativeHeightM": 0.35,
+        "receiverHeightM": 0.34999999999999964,
+        "heightDeltaM": -3.3306690738754696e-16
+      }
+    },
+    {
+      "name": "V8",
+      "guid": "3T4bPVrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          4.300000000000001,
+          0.15000000000000013,
+          2.8
+        ],
+        "maxM": [
+          4.5,
+          3.0358,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1698
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 40.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1700
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1702
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1704
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 40",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1706
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V9-N1",
+        "nativeId": 472976,
+        "nativeTopM": 3.2000000000000006,
+        "receiverTopM": 3.2,
+        "topDeltaM": -4.440892098500626e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.1999999999999993,
+        "nativeHeightM": 0.4000000000000001,
+        "receiverHeightM": 0.40000000000000036,
+        "heightDeltaM": 2.7755575615628914e-16
+      }
+    },
+    {
+      "name": "V8",
+      "guid": "3T4bPTrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          4.300000000000001,
+          3.0358000000000005,
+          2.8
+        ],
+        "maxM": [
+          4.5,
+          3.8000000000000007,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1731
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 40.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1733
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1735
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1737
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 40",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1739
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V9-N1",
+        "nativeId": 472976,
+        "nativeTopM": 3.2000000000000006,
+        "receiverTopM": 3.2,
+        "topDeltaM": -4.440892098500626e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.1999999999999993,
+        "nativeHeightM": 0.4000000000000001,
+        "receiverHeightM": 0.40000000000000036,
+        "heightDeltaM": 2.7755575615628914e-16
+      }
+    },
+    {
+      "name": "V9",
+      "guid": "3T4bPCrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          4.300000000000001,
+          3.7500000000000004,
+          2.8500000000000005
+        ],
+        "maxM": [
+          4.5,
+          6.9,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 1764
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 35.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 1766
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 1768
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 1770
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 35",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 1772
+        }
+      },
+      "nominalBeamAssociation": null
+    },
+    {
+      "name": "V1",
+      "guid": "3T4bPurkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          0.10000000000000053,
+          6.95,
+          6.09
+        ],
+        "maxM": [
+          4.300000000000001,
+          7.1499999999999995,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 2427
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 2429
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 2431
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 2433
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 2435
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V5-N2",
+        "nativeId": 473044,
+        "nativeTopM": 6.39,
+        "receiverTopM": 6.390000000000001,
+        "topDeltaM": 8.881784197001252e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.1999999999999993,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.3000000000000007,
+        "heightDeltaM": 7.216449660063518e-16
+      }
+    },
+    {
+      "name": "V1",
+      "guid": "3T4bP_rkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          4.500000000000001,
+          6.95,
+          6.09
+        ],
+        "maxM": [
+          9.55,
+          7.1499999999999995,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 2460
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 2462
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 2464
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 2466
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 2468
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V6-N2",
+        "nativeId": 473046,
+        "nativeTopM": 6.39,
+        "receiverTopM": 6.390000000000001,
+        "topDeltaM": 8.881784197001252e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.1999999999999993,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.3000000000000007,
+        "heightDeltaM": 7.216449660063518e-16
+      }
+    },
+    {
+      "name": "V2",
+      "guid": "3T4bQ1rkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          0.10000000000000053,
+          3.8,
+          6.09
+        ],
+        "maxM": [
+          4.4,
+          4.0,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 2493
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 2495
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 2497
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 2499
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 2501
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V3-N2",
+        "nativeId": 473038,
+        "nativeTopM": 6.39,
+        "receiverTopM": 6.390000000000001,
+        "topDeltaM": 8.881784197001252e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.20000000000000018,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.3000000000000007,
+        "heightDeltaM": 7.216449660063518e-16
+      }
+    },
+    {
+      "name": "V2",
+      "guid": "3T4bQ7rkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          4.4,
+          3.8,
+          6.09
+        ],
+        "maxM": [
+          6.550000000000001,
+          4.0,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 2526
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 2528
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 2530
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 2532
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 2534
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V4A-N2",
+        "nativeId": 473040,
+        "nativeTopM": 6.39,
+        "receiverTopM": 6.390000000000001,
+        "topDeltaM": 8.881784197001252e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.20000000000000018,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.3000000000000007,
+        "heightDeltaM": 7.216449660063518e-16
+      }
+    },
+    {
+      "name": "V3",
+      "guid": "3T4bQArkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          6.550000000000001,
+          3.8,
+          6.09
+        ],
+        "maxM": [
+          9.55,
+          4.0,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 2559
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 2561
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 2563
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 2565
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 2567
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V4B-N2",
+        "nativeId": 473042,
+        "nativeTopM": 6.39,
+        "receiverTopM": 6.390000000000001,
+        "topDeltaM": 8.881784197001252e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.20000000000000018,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.3000000000000007,
+        "heightDeltaM": 7.216449660063518e-16
+      }
+    },
+    {
+      "name": "V4",
+      "guid": "3T4bQJrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          0.10000000000000053,
+          -0.1,
+          6.09
+        ],
+        "maxM": [
+          4.300000000000001,
+          0.1,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 2592
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 2594
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 2596
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 2598
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 2600
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V1-N2",
+        "nativeId": 473034,
+        "nativeTopM": 6.39,
+        "receiverTopM": 6.390000000000001,
+        "topDeltaM": 8.881784197001252e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.2,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.3000000000000007,
+        "heightDeltaM": 7.216449660063518e-16
+      }
+    },
+    {
+      "name": "V4",
+      "guid": "3T4bSRrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          4.5,
+          -0.1,
+          6.09
+        ],
+        "maxM": [
+          6.45,
+          0.1,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 2625
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 2627
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 2629
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 2631
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 2633
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V2-N2",
+        "nativeId": 473036,
+        "nativeTopM": 6.39,
+        "receiverTopM": 6.390000000000001,
+        "topDeltaM": 8.881784197001252e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.2,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.3000000000000007,
+        "heightDeltaM": 7.216449660063518e-16
+      }
+    },
+    {
+      "name": "V4",
+      "guid": "3T4bSLrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          6.649999999999999,
+          -0.1,
+          6.09
+        ],
+        "maxM": [
+          9.549999999999999,
+          0.1,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 2658
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 2660
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 2662
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 2664
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 2666
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V2-N2",
+        "nativeId": 473036,
+        "nativeTopM": 6.39,
+        "receiverTopM": 6.390000000000001,
+        "topDeltaM": 8.881784197001252e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.2,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.3000000000000007,
+        "heightDeltaM": 7.216449660063518e-16
+      }
+    },
+    {
+      "name": "V5",
+      "guid": "3T4bQMrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          -0.1,
+          0.1499999999999999,
+          6.09
+        ],
+        "maxM": [
+          0.1,
+          3.75,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 2691
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 2693
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 2695
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 2697
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 2699
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V7-N2",
+        "nativeId": 473048,
+        "nativeTopM": 6.39,
+        "receiverTopM": 6.390000000000001,
+        "topDeltaM": 8.881784197001252e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.2,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.3000000000000007,
+        "heightDeltaM": 7.216449660063518e-16
+      }
+    },
+    {
+      "name": "V6",
+      "guid": "3T4bPxrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          -0.1,
+          4.050000000000001,
+          6.09
+        ],
+        "maxM": [
+          0.1,
+          6.9,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 2724
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 2726
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 2728
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 2730
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 2732
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V8-N2",
+        "nativeId": 473050,
+        "nativeTopM": 6.39,
+        "receiverTopM": 6.390000000000001,
+        "topDeltaM": 8.881784197001252e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.2,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.3000000000000007,
+        "heightDeltaM": 7.216449660063518e-16
+      }
+    },
+    {
+      "name": "V7",
+      "guid": "3T4bQ4rkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          4.300000000000001,
+          3.9000000000000004,
+          6.09
+        ],
+        "maxM": [
+          4.5,
+          6.9,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 2757
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 2759
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 2761
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 2763
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 2765
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V10-N2",
+        "nativeId": 473054,
+        "nativeTopM": 6.39,
+        "receiverTopM": 6.390000000000001,
+        "topDeltaM": 8.881784197001252e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.1999999999999993,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.3000000000000007,
+        "heightDeltaM": 7.216449660063518e-16
+      }
+    },
+    {
+      "name": "V7",
+      "guid": "3T4bQPrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          4.300000000000001,
+          0.1499999999999999,
+          6.09
+        ],
+        "maxM": [
+          4.5,
+          3.9,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 2790
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 2792
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 2794
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 2796
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 2798
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V9-N2",
+        "nativeId": 473052,
+        "nativeTopM": 6.39,
+        "receiverTopM": 6.390000000000001,
+        "topDeltaM": 8.881784197001252e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.1999999999999993,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.3000000000000007,
+        "heightDeltaM": 7.216449660063518e-16
+      }
+    },
+    {
+      "name": "V8",
+      "guid": "3T4bQVrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          6.45,
+          0.1499999999999999,
+          6.09
+        ],
+        "maxM": [
+          6.6499999999999995,
+          3.9,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 2823
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 2825
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 2827
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 2829
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 2831
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V13-N2",
+        "nativeId": 473060,
+        "nativeTopM": 6.39,
+        "receiverTopM": 6.390000000000001,
+        "topDeltaM": 8.881784197001252e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.1999999999999993,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.3000000000000007,
+        "heightDeltaM": 7.216449660063518e-16
+      }
+    },
+    {
+      "name": "V9",
+      "guid": "3T4bQDrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          9.55,
+          0.1499999999999999,
+          6.09
+        ],
+        "maxM": [
+          9.75,
+          3.75,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 2856
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 2858
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 2860
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 2862
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 2864
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V11-N2",
+        "nativeId": 473056,
+        "nativeTopM": 6.39,
+        "receiverTopM": 6.390000000000001,
+        "topDeltaM": 8.881784197001252e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.1999999999999993,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.3000000000000007,
+        "heightDeltaM": 7.216449660063518e-16
+      }
+    },
+    {
+      "name": "V9",
+      "guid": "3T4bQGrkmHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          9.55,
+          4.050000000000001,
+          6.09
+        ],
+        "maxM": [
+          9.75,
+          6.9,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "psets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 3.0,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25",
+          "id": 2889
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Viga",
+          "Tipo": "retangular",
+          "Seção_bw": 20.0,
+          "Seção_h": 30.0,
+          "Elevação": 0.0,
+          "Taxa de armadura": "Não calculado",
+          "id": 2891
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 3.0,
+          "Classe de concreto": "C-25",
+          "id": 2893
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Cargas de parede (G2)": 0.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 0.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "id": 2895
+        },
+        "Pset_BeamCommon": {
+          "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+          "IsExternal": true,
+          "LoadBearing": true,
+          "id": 2897
+        }
+      },
+      "nominalBeamAssociation": {
+        "nativeMark": "V12-N2",
+        "nativeId": 473058,
+        "nativeTopM": 6.39,
+        "receiverTopM": 6.390000000000001,
+        "topDeltaM": 8.881784197001252e-16,
+        "nativeWidthM": 0.20000000000000004,
+        "receiverWidthM": 0.1999999999999993,
+        "nativeHeightM": 0.3,
+        "receiverHeightM": 0.3000000000000007,
+        "heightDeltaM": 7.216449660063518e-16
+      }
+    }
+  ]
+}
