@@ -1,0 +1,547 @@
+{
+  "revision": "H03/R174",
+  "scope": "cinco apoios VP1/P2; RC01-RC13 ainda pendentes",
+  "nativeChangesPerformed": true,
+  "projectPath": "D:\\TCC\\outputs\\R174-BIM-CARGAS-COBERTURA-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+  "projectSha256": "8276615ab7bcfb72b8ccd42de467c0f6087225b627bc2486c6578e823871858c",
+  "sourceFilesUnchanged": true,
+  "protectedSourceFiles": 21,
+  "readings": [
+    {
+      "id": "VP1-02",
+      "pillar": "P3",
+      "positionCm": [
+        965.0,
+        705.0,
+        639.0
+      ],
+      "action": "G",
+      "expected": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.521164,
+        "Mx": 0,
+        "My": 0.260582,
+        "Mz": 0
+      },
+      "displayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": -0.521164,
+        "Mx": 0.0,
+        "My": 0.260582,
+        "Mz": 0.0
+      },
+      "originalDisplayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "beforeEvidence": "R174-VP1-02-cargas-iniciais.txt",
+      "beforeSha256": "dc0a5b5a165ff0545cc3cd1897c99f44ec6e5e257e079880b249b7f85f229f8e",
+      "afterEvidence": "R174-VP1-02-G-reaberto.txt",
+      "afterSha256": "a39d84eca7e97d60a487a3405f7324002fa8659e76239dc17ecf18a0dadb9a3e",
+      "identitySha256": "1bccd9757e0365f70979beee89a3f6651559d00492dc5986b84d602e5c39705b"
+    },
+    {
+      "id": "VP1-02",
+      "pillar": "P3",
+      "positionCm": [
+        965.0,
+        705.0,
+        639.0
+      ],
+      "action": "QT",
+      "expected": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.39375,
+        "Mx": 0,
+        "My": 0.196875,
+        "Mz": 0
+      },
+      "displayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": -0.39375,
+        "Mx": 0.0,
+        "My": 0.196875,
+        "Mz": 0.0
+      },
+      "originalDisplayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "beforeEvidence": "R174-VP1-02-QT-antes.txt",
+      "beforeSha256": "673afb1eaeeb4fde398b1ba9254cf9cd63a16c0c59b17d2b34e2f599c3f37004",
+      "afterEvidence": "R174-VP1-02-QT-reaberto.txt",
+      "afterSha256": "f8d3c75fd5b570be7171bd39699a5771d93f16bddfbe2fc090c53c3a4bddf0d2",
+      "identitySha256": "1bccd9757e0365f70979beee89a3f6651559d00492dc5986b84d602e5c39705b"
+    },
+    {
+      "id": "RP2-01",
+      "pillar": "P10",
+      "positionCm": [
+        655.0,
+        0.0,
+        639.0
+      ],
+      "action": "G",
+      "expected": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.000138,
+        "Mx": 0,
+        "My": 0.0,
+        "Mz": 0
+      },
+      "displayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": -1.00014,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "originalDisplayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "beforeEvidence": "R174-RP2-01-G-antes.txt",
+      "beforeSha256": "085ae508ea8dbe164579c74c097ae29c69bb34e5ba5660aa354fe1b72ded8173",
+      "afterEvidence": "R174-RP2-01-G-reaberto.txt",
+      "afterSha256": "f947d1213873c640ff237814095552f3cb56e9fa21644c4fab8cf42c88d94461",
+      "identitySha256": "50ea68152b39da845306c3d81e94efeec3aa768cd02982c687f54c08e188ce41"
+    },
+    {
+      "id": "RP2-01",
+      "pillar": "P10",
+      "positionCm": [
+        655.0,
+        0.0,
+        639.0
+      ],
+      "action": "QT",
+      "expected": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.755625,
+        "Mx": 0,
+        "My": 0.0,
+        "Mz": 0
+      },
+      "displayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": -0.755625,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "originalDisplayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "beforeEvidence": "R174-RP2-01-QT-antes.txt",
+      "beforeSha256": "13751b579903ceb5517219d63dea90c6f271daa2f3514be53475de1fe0666f84",
+      "afterEvidence": "R174-RP2-01-QT-reaberto.txt",
+      "afterSha256": "237d385f0f98df3f201095dbc76f70f13809c07244d7ecdc44b6d5d27f2758b1",
+      "identitySha256": "50ea68152b39da845306c3d81e94efeec3aa768cd02982c687f54c08e188ce41"
+    },
+    {
+      "id": "RP2-02",
+      "pillar": "P11",
+      "positionCm": [
+        965.0,
+        0.0,
+        639.0
+      ],
+      "action": "G",
+      "expected": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.000138,
+        "Mx": 0,
+        "My": 0.0,
+        "Mz": 0
+      },
+      "displayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": -1.00014,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "originalDisplayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "beforeEvidence": "R174-RP2-02-G-antes.txt",
+      "beforeSha256": "08d9a4f842255ff3935cb1869ca3c5df2638183d938b6c99e047ac6811ed4526",
+      "afterEvidence": "R174-RP2-02-G-reaberto.txt",
+      "afterSha256": "293d5037c88ff3d1e21d095cd3323f8b3db5a508578c0547964de737ac96cc48",
+      "identitySha256": "8b9b3717b6374bf951cf9a78d544dffce5587c0587b0ecc076eb027d4d933701"
+    },
+    {
+      "id": "RP2-02",
+      "pillar": "P11",
+      "positionCm": [
+        965.0,
+        0.0,
+        639.0
+      ],
+      "action": "QT",
+      "expected": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.755625,
+        "Mx": 0,
+        "My": 0.0,
+        "Mz": 0
+      },
+      "displayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": -0.755625,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "originalDisplayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "beforeEvidence": "R174-RP2-02-QT-antes.txt",
+      "beforeSha256": "6e18a90749eba5471fe10ec7632d6659d85163f327926c35476b0a071cd99cd0",
+      "afterEvidence": "R174-RP2-02-QT-reaberto.txt",
+      "afterSha256": "0c88df9d5620b0ad611a480535561a074f8c4d2d50e6538364360f026c8335c2",
+      "identitySha256": "8b9b3717b6374bf951cf9a78d544dffce5587c0587b0ecc076eb027d4d933701"
+    },
+    {
+      "id": "RP2-03",
+      "pillar": "P6",
+      "positionCm": [
+        655.0,
+        390.0,
+        639.0
+      ],
+      "action": "G",
+      "expected": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.000138,
+        "Mx": 0,
+        "My": 0.0,
+        "Mz": 0
+      },
+      "displayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": -1.00014,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "originalDisplayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "beforeEvidence": "R174-RP2-03-G-antes.txt",
+      "beforeSha256": "2d2c303126d69e50c87298f69a2fcff7f7896b72a1077ad72acbbc60452561c7",
+      "afterEvidence": "R174-RP2-03-G-reaberto.txt",
+      "afterSha256": "ffd593b896c8c40c5deebd1b8186898a6a8c1bdf97c18f9c4df70c49e80c7ae2",
+      "identitySha256": "da184aaaed9ff0763c120238cb405593889588b67961b892faa9cf840cd70b8a"
+    },
+    {
+      "id": "RP2-03",
+      "pillar": "P6",
+      "positionCm": [
+        655.0,
+        390.0,
+        639.0
+      ],
+      "action": "QT",
+      "expected": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.755625,
+        "Mx": 0,
+        "My": 0.0,
+        "Mz": 0
+      },
+      "displayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": -0.755625,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "originalDisplayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "beforeEvidence": "R174-RP2-03-QT-antes.txt",
+      "beforeSha256": "c52baf353ff24aa245fda08786de78c25934871dd51d6882bb8ab50719da06a5",
+      "afterEvidence": "R174-RP2-03-QT-reaberto.txt",
+      "afterSha256": "dbd5185a60a9e3bfb85039b1d35c7279c645ee6bf08f6f5d349cc9da92f6b5b4",
+      "identitySha256": "da184aaaed9ff0763c120238cb405593889588b67961b892faa9cf840cd70b8a"
+    },
+    {
+      "id": "RP2-04",
+      "pillar": "P7",
+      "positionCm": [
+        965.0,
+        390.0,
+        639.0
+      ],
+      "action": "G",
+      "expected": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.521302,
+        "Mx": 0,
+        "My": 0.260582,
+        "Mz": 0
+      },
+      "displayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": -1.5213,
+        "Mx": 0.0,
+        "My": 0.260582,
+        "Mz": 0.0
+      },
+      "originalDisplayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "beforeEvidence": "R174-RP2-04-G-antes.txt",
+      "beforeSha256": "ad3b3b2c19391978bc14951a5d25246180f038d387c844d36b5cc7fb4a9bae6f",
+      "afterEvidence": "R174-RP2-04-G-reaberto.txt",
+      "afterSha256": "79d4ddcd9f8b330e7c5294ee143a09b8c2b71bb7e1d243ac50756bdc2616a841",
+      "identitySha256": "86ff5e85c3301ee4e0a448e8a3626d843288b57971349ff54862746dc84ade9b"
+    },
+    {
+      "id": "RP2-04",
+      "pillar": "P7",
+      "positionCm": [
+        965.0,
+        390.0,
+        639.0
+      ],
+      "action": "QT",
+      "expected": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.149375,
+        "Mx": 0,
+        "My": 0.196875,
+        "Mz": 0
+      },
+      "displayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": -1.14938,
+        "Mx": 0.0,
+        "My": 0.196875,
+        "Mz": 0.0
+      },
+      "originalDisplayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "beforeEvidence": "R174-RP2-04-QT-antes.txt",
+      "beforeSha256": "e0598748ee268742740d2d63343e3a792c8fe8f1c81b0b17d4057bb36ebd7f3b",
+      "afterEvidence": "R174-RP2-04-QT-reaberto.txt",
+      "afterSha256": "9ad5ce21a44793992da20949ac5fba44178ab1730cee681c0410d8b13a5d1583",
+      "identitySha256": "86ff5e85c3301ee4e0a448e8a3626d843288b57971349ff54862746dc84ade9b"
+    }
+  ],
+  "componentsChecked": 60,
+  "initialZeroComponentsChecked": 60,
+  "restoredSupports": 5,
+  "remainingRoofBeamNodes": 13,
+  "allRoofLoadsRestored": false,
+  "calculationPerformed": false,
+  "priorAnalysisInvalidatedByLoadEdits": true,
+  "sessionTime": {
+    "inicio": {
+      "utc": "2026-11-02T23:00:40.467Z",
+      "ms": 1793660440467
+    },
+    "fim": {
+      "utc": "2026-11-02T23:18:30.611Z",
+      "ms": 1793661510611
+    },
+    "durationMs": 1070144,
+    "scope": "cinco apoios VP1/P2 incluindo salvar fechar reabrir reler e fechar; inclui intervalo de edicao que nao deve ser somado novamente"
+  },
+  "containedEditionTime": {
+    "inicio": {
+      "utc": "2026-11-02T23:00:40.467Z",
+      "ms": 1793660440467
+    },
+    "fim": {
+      "utc": "2026-11-02T23:11:47.388Z",
+      "ms": 1793661107388
+    },
+    "durationMs": 666921,
+    "scope": "cinco apoios VP1/P2; inclui tentativas numericas recusadas e verificacoes; RC01-RC13 ainda pendentes"
+  },
+  "doNotAddContainedTimes": true,
+  "fullFlowTimeMeasured": false,
+  "finalRankingAllowed": false,
+  "inputPermanentFzKN": -5.04288,
+  "inputMaintenanceFzKN": -3.81,
+  "sharedSupportContainsVp1AndP2Once": true,
+  "forroAlreadyPresentAndNotAddedAgain": true,
+  "structuralApproval": false,
+  "frozenFiles": [
+    {
+      "relativePath": "_DADOS_\\ConfigFolder.qib",
+      "sha256": "b2e8c6c10dd5a9580e5faffdc85942782726412e2c0b6dcf331c4187579c6436",
+      "bytes": 6198
+    },
+    {
+      "relativePath": "_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "5d46ec955dba43d7fa3dea31953f9c20b130521de24088454113aa7bb6a55091",
+      "bytes": 273
+    },
+    {
+      "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\logo.gif",
+      "sha256": "b38857f1c1da842e6113c6464464d20c048457a36f01bb42519595ddebaab728",
+      "bytes": 3533
+    },
+    {
+      "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\Relatorio_de_importacao_de_elementos_IFC.docx",
+      "sha256": "2fa2f52431feaac8e6aa693486a9b3a42fa54f7f1834e73925b536a5b1253f78",
+      "bytes": 7793
+    },
+    {
+      "relativePath": "Arquivos do projeto\\Modelo 3D.IFC",
+      "sha256": "0e7607e3f72fed6c1c098bd17ddd1062be701c74c6b18db3887e0cc35b03ac3b",
+      "bytes": 181703
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak",
+      "sha256": "b8d3c76612e2fac813cdd2f6f6b1736c5c6ab2df11044c1ffc4fecf8de8f7aa4",
+      "bytes": 390947
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak-g2",
+      "sha256": "557a4dbc1597e1c0fbad82561907f075abb56064b242a391c6d7185ad19f3152",
+      "bytes": 254703
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak-g3",
+      "sha256": "bb4ccf947d96ccfaa1dc02ca3671488390789c45f2b0ccc56e67b597d2fed813",
+      "bytes": 239575
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2",
+      "bytes": 7850
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sha256": "8276615ab7bcfb72b8ccd42de467c0f6087225b627bc2486c6578e823871858c",
+      "bytes": 391427
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-cad",
+      "sha256": "d05292b2cc3ca3ed45d02c72ffc1263b49cf6711822a82c6c326f9969e4b9250",
+      "bytes": 202012
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-g2",
+      "sha256": "557a4dbc1597e1c0fbad82561907f075abb56064b242a391c6d7185ad19f3152",
+      "bytes": 254703
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-g3",
+      "sha256": "bb4ccf947d96ccfaa1dc02ca3671488390789c45f2b0ccc56e67b597d2fed813",
+      "bytes": 239575
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav",
+      "sha256": "8276615ab7bcfb72b8ccd42de467c0f6087225b627bc2486c6578e823871858c",
+      "bytes": 391427
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav-g2",
+      "sha256": "557a4dbc1597e1c0fbad82561907f075abb56064b242a391c6d7185ad19f3152",
+      "bytes": 254703
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav-g3",
+      "sha256": "bb4ccf947d96ccfaa1dc02ca3671488390789c45f2b0ccc56e67b597d2fed813",
+      "bytes": 239575
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.x2",
+      "sha256": "2c9ea7a9ca9581e5a94925f4be30be963a5d9c7b26775bd7f82491f4f0e04666",
+      "bytes": 5514987
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.x3",
+      "sha256": "2598fb93f745a779ae2b0ea51fa39a58ee02aac93ee831c03824b7f2005d55a6",
+      "bytes": 5062708
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.oq3d",
+      "sha256": "00c25740bc63036e47ed84bb2e9404b0090d06d188da938f7e203e108cd4b9d5",
+      "bytes": 24945
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\Planificacao_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini",
+      "sha256": "bf20a78e7f28d18448ab1f2622aebe1e2e88998dac1e06c046d8457431a261d7",
+      "bytes": 284
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\Vinculo_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini",
+      "sha256": "e2b4947978d79aa191e88fe60443dac03d45ab4bb9988c68c7867d058c9a3042",
+      "bytes": 172
+    }
+  ]
+}
