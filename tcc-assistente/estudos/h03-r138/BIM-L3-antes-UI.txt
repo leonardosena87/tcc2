@@ -1,0 +1,174 @@
+Window: "AltoQi Eberick 2025 Infinity - [63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+		1 Barra de status
+			69157 custom
+				69158 text Comando
+				69159 editar (settable, string)
+				69160 text
+				69161 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					69162 Lista
+						69163 item de lista (selectable) 1:1
+						69164 item de lista (selectable) 1:2
+						69165 item de lista (selectable) 1:5
+						69166 item de lista (selectable) 1:10
+						69167 item de lista (selectable) 1:12.5
+						69168 item de lista (selectable) 1:15
+						69169 item de lista (selectable) 1:20
+						69170 item de lista (selectable) 1:25
+						69171 item de lista (selectable) 1:30
+						69172 item de lista (selectable) 1:40
+						69173 item de lista (selectable) 1:50
+						69174 item de lista (selectable) 1:60
+						69175 item de lista (selectable) 1:75
+						69176 item de lista (selectable) 1:100
+						69177 item de lista (selectable) 1:200
+						69178 item de lista (selectable) 1:250
+						69179 item de lista (selectable) 1:500
+						69180 item de lista (selectable) 1:1000
+			69181 botão Atualizar
+			69182 botão Enquadrar
+			69183 botão Aproximar
+			69184 botão Afastar
+			69185 botão Zoom
+			69186 botão Zoom anterior
+			69187 botão Deslocar
+			69188 caixa de seleção Ortogonal
+			69189 caixa de seleção Captura personalizada
+			69190 botão Opções da captura personalizada
+			69191 caixa de seleção Quadrante
+			69192 caixa de seleção Centro
+			69193 caixa de seleção Ponto médio
+			69194 caixa de seleção Extremidade
+			69195 caixa de seleção Ponto no elemento
+			69196 caixa de seleção Intersecção
+			69197 caixa de seleção Perpendicular
+			69198 caixa de seleção Ponto intermediário
+			69199 caixa de seleção Ponto quadrante
+			69200 caixa de seleção Ponto na intersecção
+			69201 caixa de seleção Ponto relativo
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Croqui-TCC-cdd31967-N1
+						69202 item de tabulação (selectable) Notícias
+						69203 item de tabulação (selectable) Croqui-TCC-cdd31967-N1
+					8 painel
+						68319 painel
+							68320 painel Croqui-TCC-cdd31967-N1
+								68321 painel TCadPlotWindow
+				31 painel
+					32 tabulação
+						69204 item de tabulação (selectable)
+						69205 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									39 painel
+									68220 árvore ID: 101
+										68221 item da árvore (selectable) Pavimentos
+											68222 item da árvore (selectable) TCC-cdd31967-N2
+											68223 item da árvore (selectable) TCC-cdd31967-N1
+											68224 item da árvore (selectable) TCC-cdd31967-N0
+										68225 item da árvore (selectable) Pilares em prumada
+										68226 item da árvore (selectable) Cortes
+										68227 item da árvore (selectable) Gerenciador de desenhos
+										68228 item da árvore (selectable) Modelos 3D
+											68229 item da árvore (selectable) H03-R44-geometria-nominal
+		40 barra de menus
+		69206 diálogo Laje Secondary Actions: Raise
+			69207 grupo ID: 1213
+			69208 text Nome ID: 1218
+			69209 editar (settable, string) Nome Value: L3 ID: 801
+			69210 text Tipo ID: 1219
+			69211 caixa de combinação (settable, string) Tipo Value: Maciça ID: 563
+				69212 text (settable, string) Tipo Value: Maciça
+				69213 botão Abrir ID: DropDown
+			69214 botão Grelha... ID: 548
+			69215 text Ambiente ID: 798
+			69216 caixa de combinação (settable, string) Ambiente Value: Externo ID: 828
+				69217 text (settable, string) Ambiente Value: Externo
+				69218 botão Abrir ID: DropDown
+			69219 grupo Cargas ID: 1214
+			69220 text Grupo ID: 1234
+			69221 caixa de combinação (settable, string) Grupo Value: Nenhum ID: 1235
+				69222 text (settable, string) Grupo Value: Nenhum
+				69223 botão Abrir ID: DropDown
+			69224 text Acidental ID: 1222
+			69225 editar (settable, string) Acidental Value: 1.5 ID: 562
+			69226 text kN/m² ID: 568
+			69227 text Extra ID: 1224
+			69228 editar (disabled, settable, string) Extra Value: 0 ID: 559
+			69229 text kN/m² ID: 571
+			69230 text Temperatura e retração ID: 1282
+			69231 editar (disabled, settable, string) Temperatura e retração Value: 0 ID: 1113
+			69232 text °C ID: 1114
+			69233 text °C ID: 1115
+			69234 text Revestimento ID: 1223
+			69235 editar (settable, string) Revestimento Value: 1 ID: 561
+			69236 text kN/m² ID: 569
+			69237 botão Editar... ID: 628
+			69238 botão Remover ID: 651
+			69239 botão Editar... ID: 1280
+			69240 botão Remover ID: 1281
+			69241 grupo Enchimento ID: 1216
+			69242 text Tipo ID: 1220
+			69243 caixa de combinação (disabled, settable, string) Tipo ID: 647
+				69244 text Tipo
+				69245 botão Abrir ID: DropDown
+			69246 text Dimensão ID: 1221
+			69247 caixa de combinação (disabled, settable, string) Dimensão ID: 648
+				69248 text Dimensão
+				69249 botão Abrir ID: DropDown
+			69250 botão (disabled) ... ID: 650
+			69251 grupo Seção ID: 1217
+			69252 text Espessura ID: 1225
+			69253 editar (settable, string) Espessura Value: 14 ID: 558
+			69254 text cm ID: 526
+			69255 text Elevação ID: 896
+			69256 editar (settable, string) Elevação Value: 0 ID: 572
+			69257 text cm ID: 573
+			69258 text ec ID: 1228
+			69259 editar (disabled, settable, string) ec Value: 4 ID: 557
+			69260 text cm ID: 525
+			69261 text cm ID: 818
+			69262 text ee ID: 1229
+			69263 editar (disabled, settable, string) ee Value: 10 ID: 556
+			69264 text cm ID: 524
+			69265 text enx ID: 1230
+			69266 editar (disabled, settable, string) enx Value: 8 ID: 555
+			69267 text cm ID: 523
+			69268 text eny ID: 1231
+			69269 editar (disabled, settable, string) eny Value: 8 ID: 554
+			69270 text cm ID: 522
+			69271 botão OK ID: 1
+			69272 botão Cancelar ID: 2
+			69273 botão Desenho... ID: 547
+			69274 botão Ajuda ID: 9
+			69275 grupo Vigota protendida ID: 882
+			69276 text Tipo ID: 884
+			69277 caixa de combinação (disabled, settable, string) Tipo Value: Vigota protendida com bloco cerâmico ID: 886
+				69278 text (settable, string) Tipo Value: Vigota protendida com bloco cerâmico
+				69279 botão Abrir ID: DropDown
+			69280 botão (disabled) ... ID: 887
+			69281 text Arranjo ID: 883
+			69282 caixa de combinação (disabled, settable, string) Arranjo Value: Simples ID: 888
+				69283 text (settable, string) Arranjo Value: Simples
+				69284 botão Abrir ID: DropDown
+			69285 text Altura ID: 885
+			69286 caixa de combinação (disabled, settable, string) Altura ID: 889
+				69287 text Altura
+				69288 botão Abrir ID: DropDown
+			69289 barra de título (settable, string) Value: Laje
+
+Document text: ```
+Editar
+809.9,199.4
+```
+
+Focused element: 0 janela AltoQi Eberick 2025 Infinity - [63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR (H03_BIM_R46_IFC_NAO_EXECUTAR)] Secondary Actions: Raise
+
+Document text:
+Editar
+809.9,199.4

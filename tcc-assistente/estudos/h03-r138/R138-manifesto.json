@@ -1,0 +1,405 @@
+{
+  "revision": "H03/R138",
+  "publicFiles": [
+    {
+      "path": ".gitattributes",
+      "sha256": "174fbd4ccefeece81dafaaf9f58aef316abf772da7bd403ca32aa4b0086fdbc6"
+    },
+    {
+      "path": "arquivar.py",
+      "sha256": "79f81f86a83180cf86365147c4f499bff3fb682d0734400106b9abda7de56193"
+    },
+    {
+      "path": "auditar.py",
+      "sha256": "193e44ce014f53518a66c4cf1180f1ab6096edb7ce41d6b21ae03945daa6573d"
+    },
+    {
+      "path": "BIM-escopo-processamento-0.jpg",
+      "sha256": "2aa342197f3af747e32f8de508f9c6df9376fdcdb0c3756f6d70b75acfae0457"
+    },
+    {
+      "path": "BIM-escopo-processamento-1.jpg",
+      "sha256": "f26e944cf67f8db5bf3691f7bbb15156f0808867a684fc94877112d385519ef8"
+    },
+    {
+      "path": "BIM-escopo-processamento-captura.json",
+      "sha256": "138ca99b83488f3ff74f0f01cace5537aaea303489f6553b12d2949ce2569ab4"
+    },
+    {
+      "path": "BIM-escopo-processamento-UI.txt",
+      "sha256": "b99c3bb155189a10ce684e34ab76a1c8f30e5a7593a51fa3fa441223bb459f59"
+    },
+    {
+      "path": "BIM-exportacao-SAP-opcoes-0.jpg",
+      "sha256": "44d8f18320e5df9ef8124d4b8b2e4b0cb90b5c828a4ff0b31a38c68e6bc302f1"
+    },
+    {
+      "path": "BIM-exportacao-SAP-opcoes-1.jpg",
+      "sha256": "b58f29200b22b300e8efe31d069a7cad683c023950c1b88ce28d6d8660f04272"
+    },
+    {
+      "path": "BIM-exportacao-SAP-opcoes-captura.json",
+      "sha256": "6dcb20fad64fd0f63c379eb3624dfc4f45c3fd0a37f39e55b5f997bae287ad39"
+    },
+    {
+      "path": "BIM-exportacao-SAP-opcoes-UI.txt",
+      "sha256": "8a948d3ebd4f64fcccb2a1f8d876719351aaea354218a9281018ae0a941699d6"
+    },
+    {
+      "path": "BIM-grelha-10-configurada-0.jpg",
+      "sha256": "999808e97e3ec849e64d02b447a3f3aa962ad79f55a15f940c70629da27df381"
+    },
+    {
+      "path": "BIM-grelha-10-configurada-1.jpg",
+      "sha256": "6d42129f4da7c8ff0387ac36eb8ce3919278da6e1e04c44df1c233b4e20ce1d5"
+    },
+    {
+      "path": "BIM-grelha-10-configurada-2.jpg",
+      "sha256": "0cc6ba740ba127992150fb75235304a631b35ad84f351b763d2f8327997dcddc"
+    },
+    {
+      "path": "BIM-grelha-10-configurada-captura.json",
+      "sha256": "ec0d88781faaba794d6de74e1ecea0ca922276095b29c2dc8924566c00915305"
+    },
+    {
+      "path": "BIM-grelha-10-configurada-UI.txt",
+      "sha256": "be76394dbb8c99983d65c8bab7d247768664a9e2732d94680c58fa7e346306a7"
+    },
+    {
+      "path": "BIM-grelha-antes-0.jpg",
+      "sha256": "396f1b095fd42c519fd7b19e511d0248454e9a0065df2532a5969b13954fe70c"
+    },
+    {
+      "path": "BIM-grelha-antes-1.jpg",
+      "sha256": "275c22719f08f56f2dc985c84d1884ef73555ee18da68a24e4ff3d612ab8d126"
+    },
+    {
+      "path": "BIM-grelha-antes-2.jpg",
+      "sha256": "fd79ce8a42785000c4a761bf109ad2bbfcf644bc33574cd925c063e76e5e8dfb"
+    },
+    {
+      "path": "BIM-grelha-antes-captura.json",
+      "sha256": "e20c6df8769e8452db782d4d06f811e77b5278e3395acc4e51ce4d1cba06dd03"
+    },
+    {
+      "path": "BIM-grelha-antes-UI.txt",
+      "sha256": "0cf5e69e259108fafa1c8583a3248b44034b690a1d2465132c0928b01ab21a14"
+    },
+    {
+      "path": "BIM-L3-antes-0.jpg",
+      "sha256": "3dc102a1e1cb2dbc6d0253aa598153c972a92e3beed28b20fd240d2deb3e3983"
+    },
+    {
+      "path": "BIM-L3-antes-1.jpg",
+      "sha256": "1456d932ab9bed2a4432009cafbe1c661a0318da2a6ae7debb222e7dcd60c2f8"
+    },
+    {
+      "path": "BIM-L3-antes-captura.json",
+      "sha256": "e199bd056c5aaf6aff2a33bc7667db02b5097418ba8182c494e266846c648443"
+    },
+    {
+      "path": "BIM-L3-antes-UI.txt",
+      "sha256": "ddfdf3fb506ad43102ff5c7d2e8078d95543513d52cd5078aec335058373d826"
+    },
+    {
+      "path": "BIM-processamento-fim-0.jpg",
+      "sha256": "5bbd9b2ce295732dacbcf7231d3f8a73277b700ef730c8087ad43a99d4e59d70"
+    },
+    {
+      "path": "BIM-processamento-fim-1.jpg",
+      "sha256": "35f64551f8206c01b1c433ba518fab9ec2d2b8b00e31425999b6d70c1639b6fd"
+    },
+    {
+      "path": "BIM-processamento-fim-captura.json",
+      "sha256": "dc93e6f839583177322041d698ad8494ac564d3caf156b5259988b034d6f0b86"
+    },
+    {
+      "path": "BIM-processamento-fim-UI.txt",
+      "sha256": "ce8268a6f24c796520d8f5e2f33ea7734d38bec028578bccb9e37e02c201691d"
+    },
+    {
+      "path": "BIM-processamento-tempo.json",
+      "sha256": "a5dba91ca4f362bda6d7a506d00cd779543016ba04e4207eca153f8bf7a891ee"
+    },
+    {
+      "path": "BIM-reaberto-grelha-0.jpg",
+      "sha256": "01e77e79a329a9431a2b8f1050176bd59805037302b3532291e9a41c77a94f0d"
+    },
+    {
+      "path": "BIM-reaberto-grelha-1.jpg",
+      "sha256": "30ca4a0317bd2f1303d567fd9deef4bd841ab4b106ac82eb5cb404a395661fc0"
+    },
+    {
+      "path": "BIM-reaberto-grelha-2.jpg",
+      "sha256": "602fa85ecabbf64590c09e753194b5a6ca26d177e693332d194f52ac28380f14"
+    },
+    {
+      "path": "BIM-reaberto-grelha-captura.json",
+      "sha256": "61681872b3cfd17a0ab41fec1b81fabf5243d7fd1b51f1a3ce560c5d58552d29"
+    },
+    {
+      "path": "BIM-reaberto-grelha-UI.txt",
+      "sha256": "765e6be0ed0cc19b54eac740c3be1b382a126498b3f629f894d0396f77acfad0"
+    },
+    {
+      "path": "BIM-reaberto-L3-0.jpg",
+      "sha256": "c495e0144a514446ab777eaf6ac58333ff0ce013ded5ae9108eb8caaf240c718"
+    },
+    {
+      "path": "BIM-reaberto-L3-1.jpg",
+      "sha256": "b9c053678d936fe14148c124ca206871f298892c2d0a26643023483998f31a0c"
+    },
+    {
+      "path": "BIM-reaberto-L3-captura.json",
+      "sha256": "f024cf3b25cbe174faadd5977ff93944bc51fd1857b8d7757387ba1932cab581"
+    },
+    {
+      "path": "BIM-reaberto-L3-UI.txt",
+      "sha256": "a1e2e4016546a42914a1df5eef68814a91f847f3f3cb738a1c1220b778a7cfa6"
+    },
+    {
+      "path": "BIM-resumo-analise-0.jpg",
+      "sha256": "a00b44b243622517563a603f3df5b82535259363d1883d4c174cdea90a05d18f"
+    },
+    {
+      "path": "BIM-resumo-analise-1.jpg",
+      "sha256": "1e3eead90ddfde8b4135c9889cdf30c875b52bb0a89a5bcfc738bfcabfe1342c"
+    },
+    {
+      "path": "BIM-resumo-analise-2.jpg",
+      "sha256": "5e2617688017d693c0f9be8dda02dbd229eeee4a5f02210916ffba153f90362f"
+    },
+    {
+      "path": "BIM-resumo-analise-captura.json",
+      "sha256": "2f1ce9e6ee0f3b1a58cc644864b6a503d71b22ae346356ca13ac8b0477d86ca0"
+    },
+    {
+      "path": "BIM-resumo-analise-UI.txt",
+      "sha256": "67de43e8fe7d1a8d5c2f095e50241284ee904cc59b65e3051df88de79a5af727"
+    },
+    {
+      "path": "BIM-sessao-tempo.json",
+      "sha256": "675ebc1a7cab482525ad1752b1fb88dd4628fd5f0b4215062c523b8ef657cb42"
+    },
+    {
+      "path": "CAD-escopo-processamento-0.jpg",
+      "sha256": "5c3b8bee5154b28c76ee01551349e5aa3bfc5d7e7558308b44879e23b26f8531"
+    },
+    {
+      "path": "CAD-escopo-processamento-1.jpg",
+      "sha256": "f20d43bfec6eeed99e5b92d1b1d4cf2c03d8a3a1d3135c1217a5f3d0f15006de"
+    },
+    {
+      "path": "CAD-escopo-processamento-captura.json",
+      "sha256": "7a6aaf9666697eb436d9c91ab605155284b37ea88a81c760dec83387841387e0"
+    },
+    {
+      "path": "CAD-escopo-processamento-UI.txt",
+      "sha256": "662e2da32eb38146f1a88b0caafad00c5b7a06aa09c9799de7e087fa2aec7442"
+    },
+    {
+      "path": "CAD-exportacao-SAP-opcoes-0.jpg",
+      "sha256": "75dade8d9720ac56be863fea886f691720c3e34c6ec32cf63d07cb15710c0015"
+    },
+    {
+      "path": "CAD-exportacao-SAP-opcoes-1.jpg",
+      "sha256": "10852a4e7a775545ed734d6c1b1b15c3fd60c82d5c2dee3a403aaffdac43c3ce"
+    },
+    {
+      "path": "CAD-exportacao-SAP-opcoes-captura.json",
+      "sha256": "f463d6468359489bbc66a1dcf1668ab898e7b525c29606db658bea6e41b3dfa9"
+    },
+    {
+      "path": "CAD-exportacao-SAP-opcoes-UI.txt",
+      "sha256": "a2f87e10d12aa218c34993b4d11826638412b19e44c0c07defbf0b41f14ce7f9"
+    },
+    {
+      "path": "CAD-grelha-10-configurada-0.jpg",
+      "sha256": "d3adab2cac0ee176e7d5ceb01da09a6e6b606b558501067171e3b6d2a59ec720"
+    },
+    {
+      "path": "CAD-grelha-10-configurada-1.jpg",
+      "sha256": "1e98a6fe33a902aa23032fbd97d2d80c348272dc00f703c01f751952b3f67726"
+    },
+    {
+      "path": "CAD-grelha-10-configurada-2.jpg",
+      "sha256": "0cc6ba740ba127992150fb75235304a631b35ad84f351b763d2f8327997dcddc"
+    },
+    {
+      "path": "CAD-grelha-10-configurada-captura.json",
+      "sha256": "a670df39043657d27859c6baf885cde4ac290ae236e426b50372c39f46222c23"
+    },
+    {
+      "path": "CAD-grelha-10-configurada-UI.txt",
+      "sha256": "17b3df7fa177ab32e8a54377aa69a35e18e165c203719b70b8b35f915f08aca5"
+    },
+    {
+      "path": "CAD-grelha-antes-0.jpg",
+      "sha256": "442b90a7d6b6bf7e3b3ff1a49e31c7ee86ae5b2cfd1d2dc3089c572c418aa2fe"
+    },
+    {
+      "path": "CAD-grelha-antes-1.jpg",
+      "sha256": "6d6c069db850a7724cb0727bbd8220cce433855f58033a9c389cd8de9027578d"
+    },
+    {
+      "path": "CAD-grelha-antes-2.jpg",
+      "sha256": "fd79ce8a42785000c4a761bf109ad2bbfcf644bc33574cd925c063e76e5e8dfb"
+    },
+    {
+      "path": "CAD-grelha-antes-captura.json",
+      "sha256": "45eede86a02ed2e758db47dc3be7ef5e08f500bd62da89a98d6f92b50347f935"
+    },
+    {
+      "path": "CAD-grelha-antes-UI.txt",
+      "sha256": "0c04e7f3954f056b3fa122bf41b94ed96c85cb9da32ea3a99608b75e1c8bcfea"
+    },
+    {
+      "path": "CAD-L3-antes-0.jpg",
+      "sha256": "944e526adf8ee2f9c80484f0a38170ef6bada9abad22917498205717447f0d0f"
+    },
+    {
+      "path": "CAD-L3-antes-1.jpg",
+      "sha256": "0dd4e8fc8fcd1eacdfc0ac2c3caae866acde4a5b57d65cca45b61495f86f4b9d"
+    },
+    {
+      "path": "CAD-L3-antes-captura.json",
+      "sha256": "4a5e0afafc075f1e73801d03c09bc84eb8a078c211185c6269ffe8fb6d45797b"
+    },
+    {
+      "path": "CAD-L3-antes-UI.txt",
+      "sha256": "c635f94f4a03f483d4d9ca381d9f0368be70711df2a6875e5dee3109aefdadf8"
+    },
+    {
+      "path": "CAD-processamento-fim-0.jpg",
+      "sha256": "cd3da8997d20a99854dbe33b694b5d7577057358b70e74c2d44fa247ccb7aa39"
+    },
+    {
+      "path": "CAD-processamento-fim-1.jpg",
+      "sha256": "72de749b3746810689f34a02f0c3c34e03e0f133b22920468dd3335a8b433482"
+    },
+    {
+      "path": "CAD-processamento-fim-captura.json",
+      "sha256": "064d760abf39b5f00d4c7efbceb4797e6d7fe22c26e1b8463423da1ca846f9b1"
+    },
+    {
+      "path": "CAD-processamento-fim-UI.txt",
+      "sha256": "0a2dfdc02258f2d58152c3ea736b33d494eaa2372209f45d5f3718809040d80b"
+    },
+    {
+      "path": "CAD-processamento-tempo.json",
+      "sha256": "1754876f2866da58e8dfc6d35297c603101fa6ab439de1dcb6fd6f14d2b9944a"
+    },
+    {
+      "path": "CAD-reaberto-grelha-0.jpg",
+      "sha256": "ac2b811c5fe8632b21510a667190e046be2813982a90f4834982660b14b18e3b"
+    },
+    {
+      "path": "CAD-reaberto-grelha-1.jpg",
+      "sha256": "f28110786e6630c94c1952e3fdd7b2f61f6df1445ab4bee0a42d5ff43f6656c5"
+    },
+    {
+      "path": "CAD-reaberto-grelha-2.jpg",
+      "sha256": "602fa85ecabbf64590c09e753194b5a6ca26d177e693332d194f52ac28380f14"
+    },
+    {
+      "path": "CAD-reaberto-grelha-captura.json",
+      "sha256": "2b73f6fdd258b54cbfeb4c20ddf23c4a5b4fa43035c5090d9b3becd171b965ad"
+    },
+    {
+      "path": "CAD-reaberto-grelha-UI.txt",
+      "sha256": "20112bce84fd5b90b7b75cf6b489547d04300d349bc9dd8cd930c52d45eaae7e"
+    },
+    {
+      "path": "CAD-reaberto-L3-0.jpg",
+      "sha256": "5a47469b9a8c86119a5e133321bbcd2a5c3f83a6092d1a8205f882eb86aa7699"
+    },
+    {
+      "path": "CAD-reaberto-L3-1.jpg",
+      "sha256": "0dd4e8fc8fcd1eacdfc0ac2c3caae866acde4a5b57d65cca45b61495f86f4b9d"
+    },
+    {
+      "path": "CAD-reaberto-L3-captura.json",
+      "sha256": "cab3ad3228eac82fb3ee3dd488131c3e1317f1ccbfa3643517e8265f3faeb12c"
+    },
+    {
+      "path": "CAD-reaberto-L3-UI.txt",
+      "sha256": "1fca3e5a983022f7161b94d48ba53c4e1aa0cd0a3b89c419e9d96cc201f6f11e"
+    },
+    {
+      "path": "CAD-resumo-analise-0.jpg",
+      "sha256": "00dc58bbd46e67eee31709d02769a98d68156b8da430f0cd357bc267f3118441"
+    },
+    {
+      "path": "CAD-resumo-analise-1.jpg",
+      "sha256": "7b6629bf35b180478800eb7cc85394611da2c1f4e8dc099d3c9395665f92bdb2"
+    },
+    {
+      "path": "CAD-resumo-analise-2.jpg",
+      "sha256": "4073effc9b89c74e6f2a0f9feae7c3c92f95ce991ccd1bcc7793deb0672688be"
+    },
+    {
+      "path": "CAD-resumo-analise-captura.json",
+      "sha256": "30b8af0f7af485fd3e5cab60a0ba49fc512bc8f73167a20d727f0c56228ebb62"
+    },
+    {
+      "path": "CAD-resumo-analise-UI.txt",
+      "sha256": "35a4b88cbc2fbf34f2901af5f6a6906af41957c665f8720f6878330f746c4297"
+    },
+    {
+      "path": "CAD-sessao-tempo.json",
+      "sha256": "8e099c7fd31d4a6e08576f43ea2b5547b3b8246435989693c77f021b7f62e1e4"
+    },
+    {
+      "path": "LEIA-ME-R138.md",
+      "sha256": "94ffd37e3c6a547fb993a2a499e819a4d65e80f84da3f0a86618bd80669fdfa6"
+    },
+    {
+      "path": "observacoes-visuais.json",
+      "sha256": "a17fc00fc7e7888639d6d27e2a9504e2b0cd96fcdde089fb751296f1ddeea8c6"
+    },
+    {
+      "path": "preparar.py",
+      "sha256": "888828b9943b5217a50c3483ea2b75b88a0498be82d932d191dc34d8936fffc7"
+    },
+    {
+      "path": "R102-preparacao.json",
+      "sha256": "eeb171f448d0e6bebbf1d9aafab37c58abca1414ee775173c5e3c31ce7e17551"
+    },
+    {
+      "path": "R138-resultado.json",
+      "sha256": "188b684d981b65839a148567d60d0a5184e61e11ec723f69eb4aa26ecfb0b70f"
+    },
+    {
+      "path": "relatar.py",
+      "sha256": "22ad7e510a501e1792b3a848c120719082387759e2651ed9f769a6d224814dcd"
+    },
+    {
+      "path": "SAP-BIM/grelha_SAP2000_laje_TCC-cdd31967-N1.$2k",
+      "sha256": "9ed64055081505204182fdc2ed2f0139bd7223704300c7a6eff291d91e160817"
+    },
+    {
+      "path": "SAP-BIM/grelha_SAP2000_laje_TCC-cdd31967-N2.$2k",
+      "sha256": "b55f2155c96296335fbcac38cc408c2bb46f6e6e41d739b7d792deb11851b15f"
+    },
+    {
+      "path": "SAP-BIM/portico_SAP2000_elastico.$2k",
+      "sha256": "d88e49769fbcc95de1f584ad9a41360e73aeac3c83ceaaf9bc223dd7ec4b2952"
+    },
+    {
+      "path": "SAP-CAD/grelha_SAP2000_laje_N1.$2k",
+      "sha256": "e55bd6cee95bf5d10ad3e6d17b90bbbd11916e1bdd054dcc6b1088130c80eac2"
+    },
+    {
+      "path": "SAP-CAD/grelha_SAP2000_laje_N2.$2k",
+      "sha256": "f0be5ea16888742994d784714cb9c18e7d7f46d377228add14c3d12ff112960b"
+    },
+    {
+      "path": "SAP-CAD/portico_SAP2000_elastico.$2k",
+      "sha256": "608a6b52c05587f565aa583e110c9128c53486efe0354d0c95a9fba5c52695ad"
+    },
+    {
+      "path": "test_auditoria.py",
+      "sha256": "6832506b621138f00a99474d93c5ba72a6afa3651703d660ebe4b7bbd5957f72"
+    }
+  ]
+}

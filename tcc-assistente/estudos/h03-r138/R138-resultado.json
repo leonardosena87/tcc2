@@ -1,0 +1,2152 @@
+{
+  "revision": "H03/R138",
+  "createdAtUtc": "2026-11-02T00:23:34.223294+00:00",
+  "scope": "Controles L3/N1 10x10 cm/0 graus sem W20, comparados com R137 com W20/S58.",
+  "protectedR116Files": [
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "sha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "sha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "sha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "7aa6766c18ddf61254be0ffdbbdc69823bdecd4fadf5ffb2ef54e96c42d411c3"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256": "0e4684dfb5cca95f0c7e2da23f3acbf81936bb3db7a751bd07054e6e0784e6e5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "sha256": "9dcb0c71361fda7632994e86c865bc166197e7035a09cf24b6ea2a97db06c553"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "sha256": "464da20e7951be3fa769888c894e02d1c9765bb5a8ecccb2bb64dbad2490f93a"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256": "35340d4307343b6ffc36649d9ebf043a0b854df99d986a1dc75290af0c26eb87"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "sha256": "b08928ff860cdf51c4e6830a0d014678068758f1ee13d7a32bc6679a9676855d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "sha256": "74db776ce39ace56878e3ef3b26d698edb3b121254a44505488bb69b718b99a7"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "sha256": "ea3a76687bd74b4f76f9417671082f63ae6e626fb85ebbd11b5a6dd87c486af1"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "sha256": "c84d378ae74e8a078661ee3d3eefd2387be125cb580091004cb06da9bcda77f2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_7704.log",
+      "sha256": "126b9850b9446cdc3b3732800356d4aa4e95a130a0be94fb1a2d53f4debc78b6"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\30-H03-R116-CAD-P2-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "4f718e7088c20868d8bdf65ed8e9125abcf4ed921684e9145df3f004d3e92a06"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "sha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "sha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "sha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256": "626a83ac3449104102c6100ec0a494e972cdef3521d9117a7c0f75c6da97fc72"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "sha256": "c2d2f5e1963760dbb356fcccf3dfc33a42d5b9332e02a7d73f6bd8f3de4dc297"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "sha256": "4791e7ef1b750af6cbca2c024dce2573a2bf07e83fe082613bec317198cee759"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "sha256": "c140449fd81c9897ff1f380b4b7119fb58be1d83292852ba9cf1f3d7f3db469d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "sha256": "a6a0a6a739c3749c4290442494bd14f14c27c6443faf81580b9556b510837cff"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "sha256": "11a8a08e5c99accf49d476276c9b5816be6f2e021d83311c523e144eaeca4e28"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "sha256": "2cb5c2663cf15549738fffdeb06c82d2c853189bc25e2658829556620cf52a3e"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "sha256": "59fd5b938dc866ad1676223fc4cadb38645407a45504f4343944a3e906b4d91a"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "sha256": "6e0ed5136ca045f6a705fbdde33aaf5642cc705ad905443725914f99e57c9031"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_7704.log",
+      "sha256": "03fc54fff903111e62423165f4478c96850f8f1badc5b6e32db01b00a67ab19f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "7dba18a90e4d45a7d5c3a5db6bf0037eb668518885dab4b412e3f3d3ca4e6954"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\31-H03-R116-BIM-P2-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571"
+    }
+  ],
+  "protectedR137Files": [
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "98d521e143b3f76882c219d78c38baf84c8a8440d6cf5aff27cf22cd18bdd9d5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "sha256": "f1eaacfdeee8528d030804d354888f0cc5130b9c74522d11a2e0707e2474bb3f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "sha256": "798deab8568fed6d59de46d23f9cfe0af926d5bf749a7461a9568c88b47a5d95"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "sha256": "230c8e11509e1d3b9fd478692d440cda0c964d37c3e178df96be6cebe856e5ed"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "675202c3cb1eb853c0542e6c7a05bc239b60e148b3c67304b823f6bdf68fe229"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "sha256": "cf8be5667f36bf9406909e0d2dad6e65957319c39bfc7743f55f410d9967e865"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "sha256": "0e7618633b1f6eccd6371d186cd8ba72f78302ea3d7b1b43cc4521359dad7b1f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "sha256": "e87dad6acae1048e4ff2e1c91e22681683a2cc0a94f88316055eeaede24dfa0d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "sha256": "675202c3cb1eb853c0542e6c7a05bc239b60e148b3c67304b823f6bdf68fe229"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "sha256": "0e7618633b1f6eccd6371d186cd8ba72f78302ea3d7b1b43cc4521359dad7b1f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "sha256": "e87dad6acae1048e4ff2e1c91e22681683a2cc0a94f88316055eeaede24dfa0d"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "sha256": "0ef802c15e686e6c22509480c73e06b21aed5badf4d288c0ca5b41ffebc6d932"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "sha256": "1213a9847587f765ef5519bed2b62484b601aaa07fbfbfe9a950d880558c8539"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\60-H03-R137-CAD-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_2508.log",
+      "sha256": "b47acceda1da5ba127697680c3b0eb07d9eea81ecbc7a3df30d29ff627182649"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\_DADOS_\\ConfigFolder.qib",
+      "sha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "d990db7e9cdb2a48bb8b25d0befb54196824c5281e25304b8da203ac16fdc08a"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+      "sha256": "4afa8dfa71d148dfc9016bb6d43ffda91410fa577d50da1b7e829da5e5815e68"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+      "sha256": "c175bf7583841e054bd2ef8aaab33e7d1898c31879d756cfdba854c71e6d88d1"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+      "sha256": "856c1d2363714dac777dc11226b76e9171efc56e5d310ff80a4dc982607258be"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "sha256": "8fdc65aa252512cf006f7f4a1e7b5ba9850d4c4f112816e4acd50d784243ba92"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+      "sha256": "e7ca80931b10667a562fe300fb5b1a30ef2b0b36eef3988e943ef951cbb44111"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+      "sha256": "f36f4b12e4975aef6ef3dc205dde068ad05906c6b49c921e09daef19c11184f5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+      "sha256": "7f9d712f6f4903b3597496d248be877646a884e9bc017f5ee57f60730dc29575"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+      "sha256": "8fdc65aa252512cf006f7f4a1e7b5ba9850d4c4f112816e4acd50d784243ba92"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+      "sha256": "f36f4b12e4975aef6ef3dc205dde068ad05906c6b49c921e09daef19c11184f5"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+      "sha256": "7f9d712f6f4903b3597496d248be877646a884e9bc017f5ee57f60730dc29575"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+      "sha256": "d1940fc839accc2b1999033a014dff795e790d6f74341875f5042c7c9fbf9f6f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+      "sha256": "8e46417de5252be645d3d52ed4c5e9cb3686a713861eb52ed26539478d51e546"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_2508.log",
+      "sha256": "bf0bec45da14c24193cc2aa0b42722e04036cdb1dc10219f75fa630f20c142f8"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\H03-R44-geometria-nominal.oq3d",
+      "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Planificacao_H03-R44-geometria-nominal.ini",
+      "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\61-H03-R137-BIM-W20-GRELHA-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D\\Vinculo_H03-R44-geometria-nominal.ini",
+      "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571"
+    }
+  ],
+  "sourceFilesUnchanged": true,
+  "branches": {
+    "CAD": {
+      "projectPath": "D:\\TCC\\outputs\\62-H03-R138-CAD-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "projectSha256": "eac8e1bdc4fa8cda377c66aef16fed6b1226add30578a1be60ea230281d122e2",
+      "frozenFiles": [
+        {
+          "path": "_DADOS_/ConfigFolder.qib",
+          "sha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5"
+        },
+        {
+          "path": "_DADOS_/EdificacaoEberick.ini",
+          "sha256": "b8cdba590ade3f091d0d6f4b985331349a572a8a8be2f313a2487aaed94a1d75"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+          "sha256": "7aa6766c18ddf61254be0ffdbbdc69823bdecd4fadf5ffb2ef54e96c42d411c3"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+          "sha256": "9dcb0c71361fda7632994e86c865bc166197e7035a09cf24b6ea2a97db06c553"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+          "sha256": "464da20e7951be3fa769888c894e02d1c9765bb5a8ecccb2bb64dbad2490f93a"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+          "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+          "sha256": "eac8e1bdc4fa8cda377c66aef16fed6b1226add30578a1be60ea230281d122e2"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+          "sha256": "cad0db357e6bfebed02e6bb91098950121e31461df6a6d29e662a0166604ec19"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+          "sha256": "ff5bacace491fe8a34e54f3dbac31e55038f52975484f3668baaaa4ae93c732f"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+          "sha256": "d66b61152ae84118a276a7ab41cad04e900bdea48a8460e62ecec80f45fcb1ca"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+          "sha256": "eac8e1bdc4fa8cda377c66aef16fed6b1226add30578a1be60ea230281d122e2"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+          "sha256": "ff5bacace491fe8a34e54f3dbac31e55038f52975484f3668baaaa4ae93c732f"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+          "sha256": "d66b61152ae84118a276a7ab41cad04e900bdea48a8460e62ecec80f45fcb1ca"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+          "sha256": "3d31aa7fb44b06ee15e6311ca2bcfcb6f26a6b5d53af07f01dafdbad1925da54"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+          "sha256": "0ce728b4e17f495b66da6d8ac1369142e1f8ce2f8f822ac705caebdbfc430cb1"
+        },
+        {
+          "path": "Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR_2508.log",
+          "sha256": "284c19e38fb87337e88195f74b1ff47fa3bd84e34f3cb1e083a30ecbf54ea8ef"
+        }
+      ],
+      "controlExports": {
+        "N1": {
+          "path": "D:\\TCC\\outputs\\Controle-L3-H03-R138-SEM-W20-NAO-EXECUTAR\\SAP-CAD\\grelha_SAP2000_laje_N1.$2k",
+          "sha256": "e55bd6cee95bf5d10ad3e6d17b90bbbd11916e1bdd054dcc6b1088130c80eac2"
+        },
+        "N2": {
+          "path": "D:\\TCC\\outputs\\Controle-L3-H03-R138-SEM-W20-NAO-EXECUTAR\\SAP-CAD\\grelha_SAP2000_laje_N2.$2k",
+          "sha256": "f0be5ea16888742994d784714cb9c18e7d7f46d377228add14c3d12ff112960b"
+        },
+        "portico": {
+          "path": "D:\\TCC\\outputs\\Controle-L3-H03-R138-SEM-W20-NAO-EXECUTAR\\SAP-CAD\\portico_SAP2000_elastico.$2k",
+          "sha256": "608a6b52c05587f565aa583e110c9128c53486efe0354d0c95a9fba5c52695ad"
+        }
+      },
+      "wallExports": {
+        "N1": {
+          "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r137\\SAP-CAD\\grelha_SAP2000_laje_N1.$2k",
+          "sha256": "793a4ba10c3d75f65fab38886d7597432e5889589145c6f30b63da294cbeaca1"
+        },
+        "N2": {
+          "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r137\\SAP-CAD\\grelha_SAP2000_laje_N2.$2k",
+          "sha256": "f0be5ea16888742994d784714cb9c18e7d7f46d377228add14c3d12ff112960b"
+        },
+        "portico": {
+          "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r137\\SAP-CAD\\portico_SAP2000_elastico.$2k",
+          "sha256": "acd51cb7beb159490c5b96f9d1363925ff5e48103f588ea50262115c6a80f504"
+        }
+      },
+      "comparisons": {
+        "N1": {
+          "sameJointIdsCoordinates": true,
+          "sameFrameIdsOrderedEndpoints": true,
+          "jointCounts": [
+            1738,
+            1738
+          ],
+          "frameCounts": [
+            3325,
+            3325
+          ],
+          "changedTables": {
+            "JOINT LOADS - FORCE": {
+              "addedCount": 37,
+              "removedCount": 0
+            }
+          }
+        },
+        "N2": {
+          "sameJointIdsCoordinates": true,
+          "sameFrameIdsOrderedEndpoints": true,
+          "jointCounts": [
+            443,
+            443
+          ],
+          "frameCounts": [
+            794,
+            794
+          ],
+          "changedTables": {}
+        },
+        "portico": {
+          "sameJointIdsCoordinates": true,
+          "sameFrameIdsOrderedEndpoints": true,
+          "jointCounts": [
+            110,
+            110
+          ],
+          "frameCounts": [
+            133,
+            133
+          ],
+          "changedTables": {
+            "FRAME LOADS - POINT": {
+              "addedCount": 243,
+              "removedCount": 243
+            },
+            "JOINT LOADS - FORCE": {
+              "addedCount": 3,
+              "removedCount": 3
+            }
+          }
+        }
+      },
+      "addedNodalG2N1": [
+        {
+          "jointId": "535",
+          "xyzCm": [
+            "810.0",
+            "375.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "583",
+          "xyzCm": [
+            "810.0",
+            "365.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "633",
+          "xyzCm": [
+            "810.0",
+            "355.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "683",
+          "xyzCm": [
+            "810.0",
+            "345.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "723",
+          "xyzCm": [
+            "810.0",
+            "285.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "733",
+          "xyzCm": [
+            "810.0",
+            "335.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "770",
+          "xyzCm": [
+            "810.0",
+            "275.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "771",
+          "xyzCm": [
+            "810.0",
+            "295.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "782",
+          "xyzCm": [
+            "810.0",
+            "325.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "818",
+          "xyzCm": [
+            "810.0",
+            "265.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "821",
+          "xyzCm": [
+            "810.0",
+            "305.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "830",
+          "xyzCm": [
+            "810.0",
+            "315.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "862",
+          "xyzCm": [
+            "810.0",
+            "255.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "905",
+          "xyzCm": [
+            "810.0",
+            "245.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "945",
+          "xyzCm": [
+            "810.0",
+            "235.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "982",
+          "xyzCm": [
+            "810.0",
+            "225.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1018",
+          "xyzCm": [
+            "810.0",
+            "215.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1051",
+          "xyzCm": [
+            "810.0",
+            "205.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1084",
+          "xyzCm": [
+            "810.0",
+            "195.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1117",
+          "xyzCm": [
+            "810.0",
+            "185.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1150",
+          "xyzCm": [
+            "810.0",
+            "175.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1183",
+          "xyzCm": [
+            "810.0",
+            "165.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1216",
+          "xyzCm": [
+            "810.0",
+            "155.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1248",
+          "xyzCm": [
+            "810.0",
+            "145.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1279",
+          "xyzCm": [
+            "810.0",
+            "135.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1309",
+          "xyzCm": [
+            "810.0",
+            "125.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1338",
+          "xyzCm": [
+            "810.0",
+            "115.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1366",
+          "xyzCm": [
+            "810.0",
+            "105.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1393",
+          "xyzCm": [
+            "810.0",
+            "95.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1419",
+          "xyzCm": [
+            "810.0",
+            "85.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1444",
+          "xyzCm": [
+            "810.0",
+            "75.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1468",
+          "xyzCm": [
+            "810.0",
+            "65.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1491",
+          "xyzCm": [
+            "810.0",
+            "55.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1513",
+          "xyzCm": [
+            "810.0",
+            "45.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1534",
+          "xyzCm": [
+            "810.0",
+            "35.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1554",
+          "xyzCm": [
+            "810.0",
+            "25.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1573",
+          "xyzCm": [
+            "810.0",
+            "15.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        }
+      ],
+      "resultantN1": {
+        "signedFzKgf": "-1742.9405",
+        "nominalSignedFzUnderR125Kgf": "-1742.9405",
+        "signedForceDeltaKgf": "0.0000",
+        "possibleRoundingBoundKgf": "0.00185",
+        "forceExactlyEqualToNominal": true,
+        "compatibleWithFourDecimalExport": true,
+        "roundingProvenAsCause": false,
+        "centroidXYCm": [
+          "810.0",
+          "195.0"
+        ],
+        "idealCentroidXYCm": [
+          "810",
+          "195"
+        ],
+        "centroidDeltaXYCm": [
+          "0.0",
+          "0.0"
+        ],
+        "centroidDistanceCm": "0.0",
+        "originMomentFromForcesKgfCm": {
+          "Mx": "-339873.39750",
+          "My": "1411781.80500"
+        },
+        "idealOriginMomentKgfCm": {
+          "Mx": "-339873.3975",
+          "My": "1411781.8050"
+        },
+        "originMomentDeltaKgfCm": {
+          "Mx": "0.00000",
+          "My": "0.00000"
+        }
+      },
+      "conditionalPorticoIncrement": {
+        "interpretationConditionalOnSAPDefaultForUnassignedAxes": true,
+        "SAPImportExecutionPerformed": false,
+        "EberickInternalAxesProvenEquivalent": false,
+        "frameIdsWithoutExplicitRotation": [
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45"
+        ],
+        "signedComponentForcesKgf": {
+          "jointGlobal": "-5.9858",
+          "pointLocal2UnderDefaultAssumption": "-1736.9552"
+        },
+        "signedTotals": {
+          "Fz": "-1742.9410",
+          "Mx": "-341229.503175790",
+          "My": "1412443.351155234"
+        },
+        "units": {
+          "Fz": "kgf",
+          "Mx": "kgf.cm",
+          "My": "kgf.cm"
+        },
+        "differenceFromN1Forces": {
+          "FzKgf": "-0.0005",
+          "MxKgfCm": "-1356.105675790",
+          "MyKgfCm": "661.546155234"
+        }
+      },
+      "session": {
+        "inicio_utc": "2026-11-02T00:05:13.660Z",
+        "fim_utc": "2026-11-02T00:12:36.276Z",
+        "duracao_ms": 442616,
+        "tipo": "sessao exploratoria edicao, processamento, leitura e exportacao; sem inferencia isolada",
+        "comparavel_com_fluxo_final": false,
+        "intervencoes_humanas": 0
+      },
+      "processingObservation": {
+        "inicio_utc": "2026-11-02T00:08:15.763Z",
+        "fim_primeira_observacao_utc": "2026-11-02T00:08:37.615Z",
+        "duracao_ms": 21852,
+        "tipo": "comando ate estado concluido observado; inclui ferramenta e leitura; contido na sessao"
+      }
+    },
+    "BIM": {
+      "projectPath": "D:\\TCC\\outputs\\63-H03-R138-BIM-L3-SEM-W20-NAO-EXECUTAR\\Projeto Eberick\\H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+      "projectSha256": "710e11c16fc482f9579de10a85e790fd8caff5d83f49edb4e33298144f47bb24",
+      "frozenFiles": [
+        {
+          "path": "_DADOS_/ConfigFolder.qib",
+          "sha256": "97ea7b69c3c7fdae5aa020c568093c9de7e5003870339c3aea263307481cb1a3"
+        },
+        {
+          "path": "_DADOS_/EdificacaoEberick.ini",
+          "sha256": "2e6544f83382f445ac50c309e0255e5b236d07643aeccee1da4c0da2faaa745f"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.bak",
+          "sha256": "626a83ac3449104102c6100ec0a494e972cdef3521d9117a7c0f75c6da97fc72"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g2",
+          "sha256": "4791e7ef1b750af6cbca2c024dce2573a2bf07e83fe082613bec317198cee759"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.bak-g3",
+          "sha256": "c140449fd81c9897ff1f380b4b7119fb58be1d83292852ba9cf1f3d7f3db469d"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.ini",
+          "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj",
+          "sha256": "710e11c16fc482f9579de10a85e790fd8caff5d83f49edb4e33298144f47bb24"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj-cad",
+          "sha256": "1ab4f094f5ece86fd83b025787f84963fb5a843c2a3e4d2232adbf2dbf0ec092"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g2",
+          "sha256": "4ae486f6dab97a26d2a4ce154a3a2ee73d68e6e8d5d20347d47a7c035cf8a5ef"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.prj-g3",
+          "sha256": "a2425ede6e737599e17a043cb802392c7481148a852eadff2f7c2f1bf306eef5"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.sav",
+          "sha256": "710e11c16fc482f9579de10a85e790fd8caff5d83f49edb4e33298144f47bb24"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g2",
+          "sha256": "4ae486f6dab97a26d2a4ce154a3a2ee73d68e6e8d5d20347d47a7c035cf8a5ef"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.sav-g3",
+          "sha256": "a2425ede6e737599e17a043cb802392c7481148a852eadff2f7c2f1bf306eef5"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.x2",
+          "sha256": "19b0cc28a0904249ff7f64fb401c26b7761bcf249659b39feca676b0861a4f6c"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR.x3",
+          "sha256": "8c649ab7874070a5d1a9704d153be4b1329f12c918d8ecee6c44da487e2121c7"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR_2508.log",
+          "sha256": "987f790be38e2b3e8d628a95eb20a2ebb6dd164876b93f0d3df3cd00b4d67f47"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D/H03-R44-geometria-nominal.oq3d",
+          "sha256": "f5ac248f745c63e6de38fd3114b208e0da23d88d7fa943e82593672fc48ca183"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D/Planificacao_H03-R44-geometria-nominal.ini",
+          "sha256": "e3b0680b1204977788d9829bfd3b1e7f7899d93cf6424a5d7c990824c6b4be3f"
+        },
+        {
+          "path": "Projeto Eberick/H03_BIM_R46_IFC_NAO_EXECUTAR_Modelos 3D/Vinculo_H03-R44-geometria-nominal.ini",
+          "sha256": "667b9b6f22701503de45619d4f29ca4205219e0c467762abc6cf9795e638b571"
+        }
+      ],
+      "controlExports": {
+        "N1": {
+          "path": "D:\\TCC\\outputs\\Controle-L3-H03-R138-SEM-W20-NAO-EXECUTAR\\SAP-BIM\\grelha_SAP2000_laje_TCC-cdd31967-N1.$2k",
+          "sha256": "9ed64055081505204182fdc2ed2f0139bd7223704300c7a6eff291d91e160817"
+        },
+        "N2": {
+          "path": "D:\\TCC\\outputs\\Controle-L3-H03-R138-SEM-W20-NAO-EXECUTAR\\SAP-BIM\\grelha_SAP2000_laje_TCC-cdd31967-N2.$2k",
+          "sha256": "b55f2155c96296335fbcac38cc408c2bb46f6e6e41d739b7d792deb11851b15f"
+        },
+        "portico": {
+          "path": "D:\\TCC\\outputs\\Controle-L3-H03-R138-SEM-W20-NAO-EXECUTAR\\SAP-BIM\\portico_SAP2000_elastico.$2k",
+          "sha256": "d88e49769fbcc95de1f584ad9a41360e73aeac3c83ceaaf9bc223dd7ec4b2952"
+        }
+      },
+      "wallExports": {
+        "N1": {
+          "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r137\\SAP-BIM\\grelha_SAP2000_laje_TCC-cdd31967-N1.$2k",
+          "sha256": "847e7453a75cdc66196fc02847adb361f61e72736d2cabd3e6b6b897fbcc9fc7"
+        },
+        "N2": {
+          "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r137\\SAP-BIM\\grelha_SAP2000_laje_TCC-cdd31967-N2.$2k",
+          "sha256": "b55f2155c96296335fbcac38cc408c2bb46f6e6e41d739b7d792deb11851b15f"
+        },
+        "portico": {
+          "path": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r137\\SAP-BIM\\portico_SAP2000_elastico.$2k",
+          "sha256": "a663f9db9fc832f1a22ec56dd9ab72d3f9abf3c3da7a904e0efab149feae0f11"
+        }
+      },
+      "comparisons": {
+        "N1": {
+          "sameJointIdsCoordinates": true,
+          "sameFrameIdsOrderedEndpoints": true,
+          "jointCounts": [
+            1738,
+            1738
+          ],
+          "frameCounts": [
+            3325,
+            3325
+          ],
+          "changedTables": {
+            "JOINT LOADS - FORCE": {
+              "addedCount": 37,
+              "removedCount": 0
+            }
+          }
+        },
+        "N2": {
+          "sameJointIdsCoordinates": true,
+          "sameFrameIdsOrderedEndpoints": true,
+          "jointCounts": [
+            443,
+            443
+          ],
+          "frameCounts": [
+            794,
+            794
+          ],
+          "changedTables": {}
+        },
+        "portico": {
+          "sameJointIdsCoordinates": true,
+          "sameFrameIdsOrderedEndpoints": true,
+          "jointCounts": [
+            110,
+            110
+          ],
+          "frameCounts": [
+            133,
+            133
+          ],
+          "changedTables": {
+            "FRAME LOADS - POINT": {
+              "addedCount": 243,
+              "removedCount": 243
+            },
+            "JOINT LOADS - FORCE": {
+              "addedCount": 3,
+              "removedCount": 3
+            }
+          }
+        }
+      },
+      "addedNodalG2N1": [
+        {
+          "jointId": "535",
+          "xyzCm": [
+            "810.0",
+            "375.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "583",
+          "xyzCm": [
+            "810.0",
+            "365.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "633",
+          "xyzCm": [
+            "810.0",
+            "355.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "683",
+          "xyzCm": [
+            "810.0",
+            "345.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "723",
+          "xyzCm": [
+            "810.0",
+            "285.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "733",
+          "xyzCm": [
+            "810.0",
+            "335.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "770",
+          "xyzCm": [
+            "810.0",
+            "275.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "771",
+          "xyzCm": [
+            "810.0",
+            "295.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "782",
+          "xyzCm": [
+            "810.0",
+            "325.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "818",
+          "xyzCm": [
+            "810.0",
+            "265.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "821",
+          "xyzCm": [
+            "810.0",
+            "305.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "830",
+          "xyzCm": [
+            "810.0",
+            "315.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "862",
+          "xyzCm": [
+            "810.0",
+            "255.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "905",
+          "xyzCm": [
+            "810.0",
+            "245.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "945",
+          "xyzCm": [
+            "810.0",
+            "235.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "982",
+          "xyzCm": [
+            "810.0",
+            "225.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1018",
+          "xyzCm": [
+            "810.0",
+            "215.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1051",
+          "xyzCm": [
+            "810.0",
+            "205.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1084",
+          "xyzCm": [
+            "810.0",
+            "195.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1117",
+          "xyzCm": [
+            "810.0",
+            "185.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1150",
+          "xyzCm": [
+            "810.0",
+            "175.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1183",
+          "xyzCm": [
+            "810.0",
+            "165.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1216",
+          "xyzCm": [
+            "810.0",
+            "155.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1248",
+          "xyzCm": [
+            "810.0",
+            "145.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1279",
+          "xyzCm": [
+            "810.0",
+            "135.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1309",
+          "xyzCm": [
+            "810.0",
+            "125.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1338",
+          "xyzCm": [
+            "810.0",
+            "115.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1366",
+          "xyzCm": [
+            "810.0",
+            "105.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1393",
+          "xyzCm": [
+            "810.0",
+            "95.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1419",
+          "xyzCm": [
+            "810.0",
+            "85.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1444",
+          "xyzCm": [
+            "810.0",
+            "75.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1468",
+          "xyzCm": [
+            "810.0",
+            "65.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1491",
+          "xyzCm": [
+            "810.0",
+            "55.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1513",
+          "xyzCm": [
+            "810.0",
+            "45.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1534",
+          "xyzCm": [
+            "810.0",
+            "35.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1554",
+          "xyzCm": [
+            "810.0",
+            "25.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        },
+        {
+          "jointId": "1573",
+          "xyzCm": [
+            "810.0",
+            "15.0",
+            "320.0"
+          ],
+          "forceKgf": [
+            "0.0000",
+            "0.0000",
+            "-47.1065"
+          ],
+          "momentKgfCm": [
+            "0.0000",
+            "0.0000",
+            "0.0000"
+          ]
+        }
+      ],
+      "resultantN1": {
+        "signedFzKgf": "-1742.9405",
+        "nominalSignedFzUnderR125Kgf": "-1742.9405",
+        "signedForceDeltaKgf": "0.0000",
+        "possibleRoundingBoundKgf": "0.00185",
+        "forceExactlyEqualToNominal": true,
+        "compatibleWithFourDecimalExport": true,
+        "roundingProvenAsCause": false,
+        "centroidXYCm": [
+          "810.0",
+          "195.0"
+        ],
+        "idealCentroidXYCm": [
+          "810",
+          "195"
+        ],
+        "centroidDeltaXYCm": [
+          "0.0",
+          "0.0"
+        ],
+        "centroidDistanceCm": "0.0",
+        "originMomentFromForcesKgfCm": {
+          "Mx": "-339873.39750",
+          "My": "1411781.80500"
+        },
+        "idealOriginMomentKgfCm": {
+          "Mx": "-339873.3975",
+          "My": "1411781.8050"
+        },
+        "originMomentDeltaKgfCm": {
+          "Mx": "0.00000",
+          "My": "0.00000"
+        }
+      },
+      "conditionalPorticoIncrement": {
+        "interpretationConditionalOnSAPDefaultForUnassignedAxes": true,
+        "SAPImportExecutionPerformed": false,
+        "EberickInternalAxesProvenEquivalent": false,
+        "frameIdsWithoutExplicitRotation": [
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45"
+        ],
+        "signedComponentForcesKgf": {
+          "jointGlobal": "-5.9858",
+          "pointLocal2UnderDefaultAssumption": "-1736.9552"
+        },
+        "signedTotals": {
+          "Fz": "-1742.9410",
+          "Mx": "-341229.503175790",
+          "My": "1412443.351155234"
+        },
+        "units": {
+          "Fz": "kgf",
+          "Mx": "kgf.cm",
+          "My": "kgf.cm"
+        },
+        "differenceFromN1Forces": {
+          "FzKgf": "-0.0005",
+          "MxKgfCm": "-1356.105675790",
+          "MyKgfCm": "661.546155234"
+        }
+      },
+      "session": {
+        "inicio_utc": "2026-11-02T00:13:31.035Z",
+        "fim_utc": "2026-11-02T00:22:05.227Z",
+        "duracao_ms": 514192,
+        "tipo": "sessao exploratoria edicao, processamento, leitura e exportacao; sem inferencia isolada",
+        "comparavel_com_fluxo_final": false,
+        "intervencoes_humanas": 0
+      },
+      "processingObservation": {
+        "inicio_utc": "2026-11-02T00:16:57.638Z",
+        "fim_primeira_observacao_utc": "2026-11-02T00:17:22.481Z",
+        "duracao_ms": 24843,
+        "tipo": "comando ate estado concluido observado; inclui ferramenta e leitura; contido na sessao"
+      }
+    }
+  },
+  "pairedNodalLoadsIncludingIdsEqual": true,
+  "pairedConditionalPorticoIncrementsEqual": true,
+  "fineMeshWithoutW20ControlPerformed": true,
+  "sameOrderedGeometryConfirmed": true,
+  "forceAndFirstMomentsRetainedInN1WrittenExport": true,
+  "porticoFirstMomentsExactlyEqualToN1UnderConditionalInterpretation": false,
+  "localSupportReactionsVerified": false,
+  "meshConvergenceDemonstrated": false,
+  "W20AcceptedAsFinal": false,
+  "SAP2000Executed": false,
+  "internalAxesProvenEquivalentToSAPDefault": false,
+  "processingPerformed": true,
+  "dimensioningPerformed": false,
+  "slabDeflectionPerformed": false,
+  "finalStructuralApproval": false,
+  "CADorBIMTransferDefectProven": false,
+  "finalProductivityRankingAllowed": false,
+  "monographEdited": false,
+  "authorshipRVTorDWGEdited": false,
+  "axisReferences": [
+    "https://docs.csiamerica.com/help-files/sap/Menus/Assign/Frame/Frame_Local_Axes.htm",
+    "https://docs.csiamerica.com/manuals/sap2000/CSiRefer.pdf#page=132"
+  ],
+  "nextStep": "Examinar momentos/transmissão local e rigidez de apoios, mantendo carga nominal; não compensar valor nem deslocar linha para forçar coincidência."
+}
