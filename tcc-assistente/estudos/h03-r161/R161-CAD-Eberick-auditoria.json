@@ -1,0 +1,548 @@
+{
+  "revision": "H03/R161",
+  "commonAuthoringRevision": "H03/R160",
+  "recordedAtUtc": "2026-11-02T17:18:53.308797+00:00",
+  "sources": {
+    "D:\\TCC\\outputs\\R161-CAD-REVISAO-R160-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj": "3de0c32a8c29a65e381d881790533852fbfc2e0ebd1294793b4108ccb8bf321e",
+    "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\IFC-CAD-Eberick\\Modelo 3D.IFC": "354bc6251184005930de2d9c654800a3d4b59989cf6f11a4c12768ad34cff687",
+    "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-releitura-nativa-20261102-163548.json": "fd43fd25e3665bfe6fc3b9eaa14892b9d7446b19809efaae6e278a0aad3f3a18",
+    "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\R161-CAD-V16-releitura-AX.txt": "b5323cc67c65b3ac066ffd9c4898ba8af4ece9e8a4a24c2796f540c133983f45",
+    "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\R161-CAD-nivel-releitura-AX.txt": "9b2acbafec57b625604db98646256e5dec317d3f058ca9671647011dcea4a6b1",
+    "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\R161-copias-receptores-preparadas.json": "d42c4cc192bb9fc61c371db4bf979cbe85a1712587188c70dd8e0602e1086d23"
+  },
+  "sourceHashesUnchangedAfterRead": true,
+  "sourceR148ProjectsPreserved": {
+    "CAD": true,
+    "BIM": true
+  },
+  "cadWorkingProject": "D:\\TCC\\outputs\\R161-CAD-REVISAO-R160-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+  "cadClosedAndReopened": true,
+  "nativeBeamReadbackConfirmed": true,
+  "nativeLevelReadbackConfirmed": true,
+  "intermediateHeightCm": 157.4,
+  "intermediateAbsoluteLevelCm": 177.4,
+  "requestedIntermediateHeightCm": 157.4117647,
+  "ifcSchema": "IFC4",
+  "ifcProfile": "IFC4",
+  "propertySetsEnabled": true,
+  "completeBuildingSelected": true,
+  "productCounts": {
+    "IfcBeam": 46,
+    "IfcColumn": 22,
+    "IfcSlab": 11,
+    "IfcStair": 0,
+    "IfcStairFlight": 0
+  },
+  "columnPartsByNativeName": {
+    "P1": 2,
+    "P10": 2,
+    "P11": 2,
+    "P2": 2,
+    "P3": 2,
+    "P4": 2,
+    "P5": 2,
+    "P6": 2,
+    "P7": 2,
+    "P8": 2,
+    "P9": 2
+  },
+  "distinctColumnNames": 11,
+  "addedRejectedP12P13Present": false,
+  "columnCountIsSegmentCount": true,
+  "landingBeam": {
+    "nativeName": "V16",
+    "sourceRevitId": 473802,
+    "guid": "3H1mC8rjyHyOyDa4iZOUxp",
+    "geometry": {
+      "expectedClearSolidMinM": [
+        4.5,
+        -0.10000000000000002,
+        1.474117647058823
+      ],
+      "expectedClearSolidMaxM": [
+        6.45,
+        0.10000000000000002,
+        1.7741176470588231
+      ],
+      "actualMinM": [
+        4.500000000000001,
+        -0.1,
+        1.4740000000000004
+      ],
+      "actualMaxM": [
+        6.450000000000001,
+        0.1,
+        1.7740000000000002
+      ],
+      "signedDeltasM": [
+        8.881784197001252e-16,
+        1.3877787807814457e-17,
+        -0.00011764705882266746,
+        8.881784197001252e-16,
+        -1.3877787807814457e-17,
+        -0.0001176470588228895
+      ],
+      "matchesWithinDeclaredTolerance": true,
+      "topDeltaM": -0.0001176470588228895,
+      "widthM": 0.2,
+      "heightM": 0.2999999999999998,
+      "clearLengthM": 1.9500000000000002,
+      "nominalAxisLengthM": 2.1500000000000004,
+      "xyToleranceM": 1e-06,
+      "zToleranceM": 0.0002,
+      "supportFaceAlignmentIsNotAnalyticalConnectivity": true
+    },
+    "psets": {
+      "Pset_ConcreteElementGeneral": {
+        "ConcreteCover": 3.0,
+        "ConstructionMethod": "InSitu",
+        "ExposureClass": "2",
+        "StrengthClass": "C-25",
+        "id": 1449
+      },
+      "AltoQi_Eberick_Elemento": {
+        "Elemento": "Viga",
+        "Tipo": "retangular",
+        "Seção_bw": 20.0,
+        "Seção_h": 30.0,
+        "Elevação": 0.0,
+        "Taxa de armadura": "Não calculado",
+        "id": 1451
+      },
+      "AltoQi_Eberick_Padrão": {
+        "Ambiente": "Externo",
+        "Cobrimento": 3.0,
+        "Classe de concreto": "C-25",
+        "id": 1453
+      },
+      "AltoQi_Eberick_Cargas": {
+        "Cargas de parede (G2)": 0.0,
+        "Adicional (G2)": 0.0,
+        "Solo (S)": 0.0,
+        "Acidental (Q)": 0.0,
+        "Água (A)": 0.0,
+        "Subpressão (AS)": 0.0,
+        "Q_TELHADO_MANUTENCAO (QT)": 0.0,
+        "id": 1455
+      },
+      "Pset_BeamCommon": {
+        "Reference": "Viga C-25 - Seção Retangular 20 X 30",
+        "IsExternal": true,
+        "LoadBearing": true,
+        "id": 1457
+      }
+    }
+  },
+  "dwgR160ImportCompleted": false,
+  "dwgImportBlocker": "Seletor em QiCadViewer.exe fora das superficies enumeradas; cancelado com Escape. V16 lancada pelos nos P4/P10 existentes.",
+  "commonRevisionFullyAppliedToCad": false,
+  "upperFloorV15L6RevisionApplied": false,
+  "stairNativeElementsLaunched": false,
+  "stairLoadsApplied": false,
+  "inheritedCalculationResultsInvalidated": true,
+  "newStructuralCalculationPerformed": false,
+  "bimWorkingCopyStillUnmodified": true,
+  "currentR160RevitIfcExportProduced": false,
+  "fullFlowComparisonCompleted": false,
+  "structuralApproval": false,
+  "windowJ4CompatibilityPending": true,
+  "auditScriptSeconds": 0.07470189999730792,
+  "columns": [
+    {
+      "name": "P1",
+      "guid": "1hEz0gqnWHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          -0.1,
+          -0.15,
+          0.20000000000000018
+        ],
+        "maxM": [
+          0.1,
+          0.15,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P10",
+      "guid": "0KFOcaqneHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          6.45,
+          -0.15,
+          0.20000000000000018
+        ],
+        "maxM": [
+          6.6499999999999995,
+          0.15,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P11",
+      "guid": "1aoj6LqneHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          6.3999999999999995,
+          3.8,
+          0.20000000000000018
+        ],
+        "maxM": [
+          6.7,
+          4.0,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P2",
+      "guid": "33aLOhqnWHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          -0.1,
+          3.75,
+          0.20000000000000018
+        ],
+        "maxM": [
+          0.1,
+          4.05,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P3",
+      "guid": "3XaXoAqnWHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          -0.1,
+          6.8999999999999995,
+          0.20000000000000018
+        ],
+        "maxM": [
+          0.1,
+          7.2,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P4",
+      "guid": "0GpjxtqnaHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          4.300000000000001,
+          -0.15,
+          0.20000000000000018
+        ],
+        "maxM": [
+          4.5,
+          0.15,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P5",
+      "guid": "0zEP43qnaHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          4.300000000000001,
+          3.75,
+          0.20000000000000018
+        ],
+        "maxM": [
+          4.5,
+          4.05,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P6",
+      "guid": "1bbF7VqnaHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          4.300000000000001,
+          6.8999999999999995,
+          0.20000000000000018
+        ],
+        "maxM": [
+          4.5,
+          7.2,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P7",
+      "guid": "2HLPnLqnaHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          9.55,
+          -0.15,
+          0.20000000000000018
+        ],
+        "maxM": [
+          9.75,
+          0.15,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P8",
+      "guid": "2$na$jqnaHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          9.55,
+          3.75,
+          0.20000000000000018
+        ],
+        "maxM": [
+          9.75,
+          4.05,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P9",
+      "guid": "3i0ghxqnaHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          9.55,
+          6.8999999999999995,
+          0.20000000000000018
+        ],
+        "maxM": [
+          9.75,
+          7.2,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P1",
+      "guid": "1ZyH5SqniHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          -0.1,
+          -0.15,
+          3.2000000000000006
+        ],
+        "maxM": [
+          0.1,
+          0.15,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P10",
+      "guid": "1ZyH60qniHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          6.45,
+          -0.15,
+          3.2000000000000006
+        ],
+        "maxM": [
+          6.6499999999999995,
+          0.15,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P11",
+      "guid": "1ZyH64qniHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          6.3999999999999995,
+          3.8,
+          3.2000000000000006
+        ],
+        "maxM": [
+          6.7,
+          4.0,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P2",
+      "guid": "1ZyH5WqniHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          -0.1,
+          3.75,
+          3.2000000000000006
+        ],
+        "maxM": [
+          0.1,
+          4.05,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P3",
+      "guid": "1ZyH5aqniHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          -0.1,
+          6.8999999999999995,
+          3.2000000000000006
+        ],
+        "maxM": [
+          0.1,
+          7.2,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P4",
+      "guid": "1ZyH5eqniHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          4.300000000000001,
+          -0.15,
+          3.2000000000000006
+        ],
+        "maxM": [
+          4.5,
+          0.15,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P5",
+      "guid": "1ZyH5iqniHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          4.300000000000001,
+          3.75,
+          3.2000000000000006
+        ],
+        "maxM": [
+          4.5,
+          4.05,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P6",
+      "guid": "1ZyH5mqniHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          4.300000000000001,
+          6.8999999999999995,
+          3.2000000000000006
+        ],
+        "maxM": [
+          4.5,
+          7.2,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P7",
+      "guid": "1ZyH5qqniHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          9.55,
+          -0.15,
+          3.2000000000000006
+        ],
+        "maxM": [
+          9.75,
+          0.15,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P8",
+      "guid": "1ZyH5uqniHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          9.55,
+          3.75,
+          3.2000000000000006
+        ],
+        "maxM": [
+          9.75,
+          4.05,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    },
+    {
+      "name": "P9",
+      "guid": "1ZyH5yqniHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          9.55,
+          6.8999999999999995,
+          3.2000000000000006
+        ],
+        "maxM": [
+          9.75,
+          7.2,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      }
+    }
+  ]
+}

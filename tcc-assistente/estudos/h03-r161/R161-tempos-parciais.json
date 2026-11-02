@@ -1,0 +1,30 @@
+{
+  "revision": "H03/R161",
+  "cadStart": {
+    "utc": "2026-11-02T17:01:21.900Z",
+    "ms": 1793638881900
+  },
+  "cadFirstCtrlSObservation": {
+    "utc": "2026-11-02T17:07:16.890Z",
+    "elapsedMs": 354990,
+    "diskSaveConfirmedAtThisObservation": false
+  },
+  "cadToolbarSaveObservation": {
+    "utc": "2026-11-02T17:07:54.568Z",
+    "elapsedMs": 392668,
+    "diskSaveSubsequentlyVerified": true
+  },
+  "cadIfcExportStart": {
+    "utc": "2026-11-02T17:11:04.147Z",
+    "ms": 1793639464147
+  },
+  "cadIfcExportObservation": {
+    "utc": "2026-11-02T17:11:05.560Z",
+    "elapsedMs": 1413
+  },
+  "scope": "Abertura da copia CAD, tentativas de edicao, nivel intermediario e lancamento da V16; IFC de controle medido separadamente.",
+  "fullCadFlow": false,
+  "fullBimFlow": false,
+  "readyForRanking": false,
+  "overlapPolicy": "Primeira observacao Ctrl+S e subconjunto do intervalo ate Salvar; nao somar."
+}

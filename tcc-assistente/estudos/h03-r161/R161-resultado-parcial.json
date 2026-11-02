@@ -1,0 +1,67 @@
+{
+  "revision": "H03/R161",
+  "recordedAtUtc": "2026-11-02T17:22:15.054422+00:00",
+  "commonAuthoringRevision": "H03/R160",
+  "cadPartialReviewSavedClosedReopened": true,
+  "cadWorkingProject": "D:\\TCC\\outputs\\R161-CAD-REVISAO-R160-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+  "cadWorkingProjectSha256": "3de0c32a8c29a65e381d881790533852fbfc2e0ebd1294793b4108ccb8bf321e",
+  "landingBeamGeometryCheck": {
+    "expectedClearSolidMinM": [
+      4.5,
+      -0.10000000000000002,
+      1.474117647058823
+    ],
+    "expectedClearSolidMaxM": [
+      6.45,
+      0.10000000000000002,
+      1.7741176470588231
+    ],
+    "actualMinM": [
+      4.500000000000001,
+      -0.1,
+      1.4740000000000004
+    ],
+    "actualMaxM": [
+      6.450000000000001,
+      0.1,
+      1.7740000000000002
+    ],
+    "signedDeltasM": [
+      8.881784197001252e-16,
+      1.3877787807814457e-17,
+      -0.00011764705882266746,
+      8.881784197001252e-16,
+      -1.3877787807814457e-17,
+      -0.0001176470588228895
+    ],
+    "matchesWithinDeclaredTolerance": true,
+    "topDeltaM": -0.0001176470588228895,
+    "widthM": 0.2,
+    "heightM": 0.2999999999999998,
+    "clearLengthM": 1.9500000000000002,
+    "nominalAxisLengthM": 2.1500000000000004,
+    "xyToleranceM": 1e-06,
+    "zToleranceM": 0.0002,
+    "supportFaceAlignmentIsNotAnalyticalConnectivity": true
+  },
+  "nativeIntermediateHeightCm": 157.4,
+  "nativeIntermediateLevelCm": 177.4,
+  "sourceR148ProjectsPreserved": {
+    "CAD": true,
+    "BIM": true
+  },
+  "sourceR160RvtStillMatchesPreparation": true,
+  "currentRevitIfcExportProduced": false,
+  "currentR160DwgReferenceImported": false,
+  "cadUpperFloorV15L6RevisionApplied": false,
+  "cadStairLaunched": false,
+  "bimWorkingCopyUnmodified": true,
+  "currentR160GeometryFullyAppliedToBothReceivers": false,
+  "newAnalysisPerformed": false,
+  "finalPairedTimesAvailable": false,
+  "structuralApproval": false,
+  "cadAuditPath": "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\R161-CAD-Eberick-auditoria.json",
+  "cadAuditSha256": "774a799b57d12c20ad17cd4b981996ef57c01f0633081fcae060fb1c2d29dd47",
+  "partialTimesPath": "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\R161-tempos-parciais.json",
+  "validationPath": "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\R161-validacao.json"
+}
