@@ -1,0 +1,760 @@
+{
+  "revision": "H03/R167",
+  "recordedAtUtc": "2026-11-02T20:53:14.952887+00:00",
+  "sourceHashes": {
+    "D:\\TCC\\outputs\\R167-BIM-LAJES-NAO-EXECUTAR\\Arquivos do projeto\\Modelo 3D.IFC": "64c08e9a362bf88e1949ac597e63192931c4ba6d294108b611101d8aaf5e369c",
+    "D:\\TCC\\outputs\\Intercambio-H03-R165-CAD-GEOMETRIA-NAO-EXECUTAR\\IFC-CAD-Eberick\\Modelo 3D.IFC": "776314f515be09c06a5caf81583b603527650d07eb7ef913ff4c0e8e68624623",
+    "D:\\TCC\\outputs\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR\\Arquivos do projeto\\Modelo 3D.IFC": "63c68d7cbb7d3408f5b90dad0eb22e4e00df43a56270f7643e1a68dfdf143f94",
+    "D:\\TCC\\outputs\\R167-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj": "936da7d187905771b918a906481f5d4149887928083a618fec6eb59dfc106e24"
+  },
+  "readOnlyAuditSourcesPreserved": true,
+  "previousR166FilesPreserved": {
+    "Arquivos do projeto\\Modelo 3D.IFC": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.ini": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-cad": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav": true,
+    "_DADOS_\\ConfigFolder.qib": true,
+    "_DADOS_\\EdificacaoEberick.ini": true,
+    "Arquivos do projeto\\Documentos\\Eberick\\logo.gif": true,
+    "Arquivos do projeto\\Documentos\\Eberick\\Relatorio_de_importacao_de_elementos_IFC.docx": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.oq3d": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\Planificacao_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini": true,
+    "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\Vinculo_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini": true
+  },
+  "nativeProject": "D:\\TCC\\outputs\\R167-BIM-LAJES-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+  "nativeProjectClosedAndReopened": true,
+  "nativeSlabsPlaced": 11,
+  "nativeSlabCountByFloor": {
+    "N1": 6,
+    "N2": 5
+  },
+  "receiverProductCounts": {
+    "IfcBeam": 33,
+    "IfcColumn": 22,
+    "IfcSlab": 11,
+    "IfcStair": 0,
+    "IfcStairFlight": 0
+  },
+  "slabPairsUniquelyAssociatedByGeometry": 11,
+  "slabPointCloudsExactlyEqualToCad": 10,
+  "slabPointCloudsWithinToleranceToCad": 11,
+  "slabPointComparisonToleranceM": 0.0001,
+  "slabExportedPropertySetsEqualToCad": 11,
+  "priorBeamAndColumnGeometriesUnchanged": {
+    "IfcBeam": true,
+    "IfcColumn": true
+  },
+  "slabBoundingToleranceM": 1e-05,
+  "propertyComparisonUsesRawIfcValuesWithoutUnitConversion": true,
+  "nativeInputValues": {
+    "N1Main": {
+      "accidentalKnM2": 1.5,
+      "finishKnM2": 1.25
+    },
+    "N1StairArrivalAndBalcony": {
+      "accidentalKnM2": 2.5,
+      "finishKnM2": 1
+    },
+    "N2": {
+      "accidentalKnM2": 1,
+      "finishKnM2": 0.25
+    },
+    "thicknessCm": 14
+  },
+  "nativeInputsWereMatchedToExistingCadReference": true,
+  "loadsNormativelyApprovedByThisAudit": false,
+  "balconyContourBarsAdded": 3,
+  "balconyContourWidthCm": 0,
+  "balconyOuterLimitsM": {
+    "x": 10.725,
+    "yMin": 3.8,
+    "yMax": 7.1
+  },
+  "newColumnsAdded": false,
+  "newPhysicalBeamsAdded": false,
+  "nativeStairStillMissing": true,
+  "beamLoadsAndBoundaryRestraintsEqualityNotVerified": true,
+  "gridAnglesNotComparedForAllSlabs": true,
+  "analyticalConnectivityVerified": false,
+  "newStructuralCalculationPerformed": false,
+  "structuralApproval": false,
+  "fullPairedComparisonFinished": false,
+  "partialSlabPlacementElapsedMs": 722648,
+  "subintervalsOverlapWholeInterval": true,
+  "fullBimFlowTime": false,
+  "slabPairs": [
+    {
+      "bimName": "L1",
+      "bimGuid": "2dOc3$rlmHyOyDa4iZOUxp",
+      "cadName": "L1",
+      "cadGuid": "1J1uQkqouHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          0.10000000000000009,
+          0.09999999999999987,
+          3.06
+        ],
+        "maxM": [
+          4.300000000000001,
+          3.8,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "pointCloudEqual": true,
+      "pointCloudComparison": {
+        "matches": true,
+        "maxNearestDistanceM": 0.0,
+        "uniqueNearestCorrespondence": true
+      },
+      "exportedPropertySetsEqual": true,
+      "exportedPropertySets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 2.5,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25"
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Laje",
+          "Tipo": "Maciça",
+          "Elevação": 0.0,
+          "Espessura": 14.0
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 2.5,
+          "Classe de concreto": "C-25"
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Revestimento (G2)": 125.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 150.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "Q_TELHADO_MANUTENCAO (QT)": 0.0
+        },
+        "Pset_SlabCommon": {
+          "Reference": "Laje Maciça - h=14cm",
+          "LoadBearing": true,
+          "IsExternal": true,
+          "PitchAngle": 0.0
+        }
+      }
+    },
+    {
+      "bimName": "L2",
+      "bimGuid": "33AUpzrlmHyOyDa4iZOUxp",
+      "cadName": "L2",
+      "cadGuid": "1ptf9$qouHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          0.10000000000000009,
+          4.0,
+          3.06
+        ],
+        "maxM": [
+          4.300000000000001,
+          6.950000000000001,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "pointCloudEqual": true,
+      "pointCloudComparison": {
+        "matches": true,
+        "maxNearestDistanceM": 0.0,
+        "uniqueNearestCorrespondence": true
+      },
+      "exportedPropertySetsEqual": true,
+      "exportedPropertySets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 2.5,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25"
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Laje",
+          "Tipo": "Maciça",
+          "Elevação": 0.0,
+          "Espessura": 14.0
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 2.5,
+          "Classe de concreto": "C-25"
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Revestimento (G2)": 125.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 150.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "Q_TELHADO_MANUTENCAO (QT)": 0.0
+        },
+        "Pset_SlabCommon": {
+          "Reference": "Laje Maciça - h=14cm",
+          "LoadBearing": true,
+          "IsExternal": true,
+          "PitchAngle": 0.0
+        }
+      }
+    },
+    {
+      "bimName": "L3",
+      "bimGuid": "33AV5arlmHyOyDa4iZOUxp",
+      "cadName": "L3",
+      "cadGuid": "1ptfR5qouHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          6.6499999999999995,
+          0.09999999999999987,
+          3.06
+        ],
+        "maxM": [
+          9.549999999999999,
+          3.8,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "pointCloudEqual": false,
+      "pointCloudComparison": {
+        "matches": true,
+        "maxNearestDistanceM": 1.0000000000509601e-05,
+        "uniqueNearestCorrespondence": true
+      },
+      "exportedPropertySetsEqual": true,
+      "exportedPropertySets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 2.5,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25"
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Laje",
+          "Tipo": "Maciça",
+          "Elevação": 0.0,
+          "Espessura": 14.0
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 2.5,
+          "Classe de concreto": "C-25"
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Revestimento (G2)": 125.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 150.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "Q_TELHADO_MANUTENCAO (QT)": 0.0
+        },
+        "Pset_SlabCommon": {
+          "Reference": "Laje Maciça - h=14cm",
+          "LoadBearing": true,
+          "IsExternal": true,
+          "PitchAngle": 0.0
+        }
+      }
+    },
+    {
+      "bimName": "L4",
+      "bimGuid": "33AVOIrlmHyOyDa4iZOUxp",
+      "cadName": "L4",
+      "cadGuid": "1_MIkSqouHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          4.5,
+          4.0,
+          3.06
+        ],
+        "maxM": [
+          9.55,
+          6.950000000000001,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "pointCloudEqual": true,
+      "pointCloudComparison": {
+        "matches": true,
+        "maxNearestDistanceM": 0.0,
+        "uniqueNearestCorrespondence": true
+      },
+      "exportedPropertySetsEqual": true,
+      "exportedPropertySets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 2.5,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25"
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Laje",
+          "Tipo": "Maciça",
+          "Elevação": 0.0,
+          "Espessura": 14.0
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 2.5,
+          "Classe de concreto": "C-25"
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Revestimento (G2)": 125.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 150.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "Q_TELHADO_MANUTENCAO (QT)": 0.0
+        },
+        "Pset_SlabCommon": {
+          "Reference": "Laje Maciça - h=14cm",
+          "LoadBearing": true,
+          "IsExternal": true,
+          "PitchAngle": 0.0
+        }
+      }
+    },
+    {
+      "bimName": "L5",
+      "bimGuid": "3ChbJ_rlmHyOyDa4iZOUxp",
+      "cadName": "L5",
+      "cadGuid": "1v8mowrlaHyOyDa4iZOUxp",
+      "geometry": {
+        "minM": [
+          4.500000000000001,
+          3.13581,
+          3.06
+        ],
+        "maxM": [
+          6.45,
+          3.8000000000000003,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "pointCloudEqual": true,
+      "pointCloudComparison": {
+        "matches": true,
+        "maxNearestDistanceM": 0.0,
+        "uniqueNearestCorrespondence": true
+      },
+      "exportedPropertySetsEqual": true,
+      "exportedPropertySets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 2.5,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25"
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Laje",
+          "Tipo": "Maciça",
+          "Elevação": 0.0,
+          "Espessura": 14.0
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 2.5,
+          "Classe de concreto": "C-25"
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Revestimento (G2)": 100.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 250.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "Q_TELHADO_MANUTENCAO (QT)": 0.0
+        },
+        "Pset_SlabCommon": {
+          "Reference": "Laje Maciça - h=14cm",
+          "LoadBearing": true,
+          "IsExternal": true,
+          "PitchAngle": 0.0
+        }
+      }
+    },
+    {
+      "bimName": "L6",
+      "bimGuid": "0wZ9GrrluHyOyDa4iZOUxp",
+      "cadName": "L6",
+      "cadGuid": "3ai3Ewqp0HyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          9.75,
+          3.8,
+          3.06
+        ],
+        "maxM": [
+          10.725000000000001,
+          7.1000000000000005,
+          3.2
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "pointCloudEqual": true,
+      "pointCloudComparison": {
+        "matches": true,
+        "maxNearestDistanceM": 0.0,
+        "uniqueNearestCorrespondence": true
+      },
+      "exportedPropertySetsEqual": true,
+      "exportedPropertySets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 2.5,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25"
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Laje",
+          "Tipo": "Maciça",
+          "Elevação": 0.0,
+          "Espessura": 14.0
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 2.5,
+          "Classe de concreto": "C-25"
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Revestimento (G2)": 100.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 250.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "Q_TELHADO_MANUTENCAO (QT)": 0.0
+        },
+        "Pset_SlabCommon": {
+          "Reference": "Laje Maciça - h=14cm",
+          "LoadBearing": true,
+          "IsExternal": true,
+          "PitchAngle": 0.0
+        }
+      }
+    },
+    {
+      "bimName": "L1",
+      "bimGuid": "3mUzMmrlmHyOyDa4iZOUxp",
+      "cadName": "L1",
+      "cadGuid": "2NvO47qouHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          0.10000000000000009,
+          0.09999999999999987,
+          6.250000000000001
+        ],
+        "maxM": [
+          4.300000000000001,
+          3.8,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "pointCloudEqual": true,
+      "pointCloudComparison": {
+        "matches": true,
+        "maxNearestDistanceM": 0.0,
+        "uniqueNearestCorrespondence": true
+      },
+      "exportedPropertySetsEqual": true,
+      "exportedPropertySets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 2.5,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25"
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Laje",
+          "Tipo": "Maciça",
+          "Elevação": 0.0,
+          "Espessura": 14.0
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 2.5,
+          "Classe de concreto": "C-25"
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Revestimento (G2)": 25.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 100.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "Q_TELHADO_MANUTENCAO (QT)": 0.0
+        },
+        "Pset_SlabCommon": {
+          "Reference": "Laje Maciça - h=14cm",
+          "LoadBearing": true,
+          "IsExternal": true,
+          "PitchAngle": 0.0
+        }
+      }
+    },
+    {
+      "bimName": "L2",
+      "bimGuid": "02PlR0rlqHyOyDa4iZOUxp",
+      "cadName": "L2",
+      "cadGuid": "2Zt5m7qouHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          0.10000000000000009,
+          4.0,
+          6.250000000000001
+        ],
+        "maxM": [
+          4.300000000000001,
+          6.950000000000001,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "pointCloudEqual": true,
+      "pointCloudComparison": {
+        "matches": true,
+        "maxNearestDistanceM": 0.0,
+        "uniqueNearestCorrespondence": true
+      },
+      "exportedPropertySetsEqual": true,
+      "exportedPropertySets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 2.5,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25"
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Laje",
+          "Tipo": "Maciça",
+          "Elevação": 0.0,
+          "Espessura": 14.0
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 2.5,
+          "Classe de concreto": "C-25"
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Revestimento (G2)": 25.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 100.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "Q_TELHADO_MANUTENCAO (QT)": 0.0
+        },
+        "Pset_SlabCommon": {
+          "Reference": "Laje Maciça - h=14cm",
+          "LoadBearing": true,
+          "IsExternal": true,
+          "PitchAngle": 0.0
+        }
+      }
+    },
+    {
+      "bimName": "L3",
+      "bimGuid": "02PlhHrlqHyOyDa4iZOUxp",
+      "cadName": "L3",
+      "cadGuid": "2kTiu8qouHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          6.6499999999999995,
+          0.09999999999999987,
+          6.250000000000001
+        ],
+        "maxM": [
+          9.549999999999999,
+          3.8,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "pointCloudEqual": true,
+      "pointCloudComparison": {
+        "matches": true,
+        "maxNearestDistanceM": 0.0,
+        "uniqueNearestCorrespondence": true
+      },
+      "exportedPropertySetsEqual": true,
+      "exportedPropertySets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 2.5,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25"
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Laje",
+          "Tipo": "Maciça",
+          "Elevação": 0.0,
+          "Espessura": 14.0
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 2.5,
+          "Classe de concreto": "C-25"
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Revestimento (G2)": 25.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 100.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "Q_TELHADO_MANUTENCAO (QT)": 0.0
+        },
+        "Pset_SlabCommon": {
+          "Reference": "Laje Maciça - h=14cm",
+          "LoadBearing": true,
+          "IsExternal": true,
+          "PitchAngle": 0.0
+        }
+      }
+    },
+    {
+      "bimName": "L4",
+      "bimGuid": "0D14TVrlqHyOyDa4iZOUxp",
+      "cadName": "L4",
+      "cadGuid": "2qvYMJqouHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          4.5,
+          4.0,
+          6.250000000000001
+        ],
+        "maxM": [
+          9.55,
+          6.950000000000001,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "pointCloudEqual": true,
+      "pointCloudComparison": {
+        "matches": true,
+        "maxNearestDistanceM": 0.0,
+        "uniqueNearestCorrespondence": true
+      },
+      "exportedPropertySetsEqual": true,
+      "exportedPropertySets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 2.5,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25"
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Laje",
+          "Tipo": "Maciça",
+          "Elevação": 0.0,
+          "Espessura": 14.0
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 2.5,
+          "Classe de concreto": "C-25"
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Revestimento (G2)": 25.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 100.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "Q_TELHADO_MANUTENCAO (QT)": 0.0
+        },
+        "Pset_SlabCommon": {
+          "Reference": "Laje Maciça - h=14cm",
+          "LoadBearing": true,
+          "IsExternal": true,
+          "PitchAngle": 0.0
+        }
+      }
+    },
+    {
+      "bimName": "L5",
+      "bimGuid": "0D14lurlqHyOyDa4iZOUxp",
+      "cadName": "L5",
+      "cadGuid": "2x0xMUqouHyOy801fzsd4G",
+      "geometry": {
+        "minM": [
+          4.500000000000001,
+          0.09999999999999987,
+          6.250000000000001
+        ],
+        "maxM": [
+          6.45,
+          3.8,
+          6.390000000000001
+        ],
+        "vertices": 8,
+        "triangles": 12
+      },
+      "pointCloudEqual": true,
+      "pointCloudComparison": {
+        "matches": true,
+        "maxNearestDistanceM": 0.0,
+        "uniqueNearestCorrespondence": true
+      },
+      "exportedPropertySetsEqual": true,
+      "exportedPropertySets": {
+        "Pset_ConcreteElementGeneral": {
+          "ConcreteCover": 2.5,
+          "ConstructionMethod": "InSitu",
+          "ExposureClass": "2",
+          "StrengthClass": "C-25"
+        },
+        "AltoQi_Eberick_Elemento": {
+          "Elemento": "Laje",
+          "Tipo": "Maciça",
+          "Elevação": 0.0,
+          "Espessura": 14.0
+        },
+        "AltoQi_Eberick_Padrão": {
+          "Ambiente": "Externo",
+          "Cobrimento": 2.5,
+          "Classe de concreto": "C-25"
+        },
+        "AltoQi_Eberick_Cargas": {
+          "Revestimento (G2)": 25.0,
+          "Adicional (G2)": 0.0,
+          "Solo (S)": 0.0,
+          "Acidental (Q)": 100.0,
+          "Água (A)": 0.0,
+          "Subpressão (AS)": 0.0,
+          "Q_TELHADO_MANUTENCAO (QT)": 0.0
+        },
+        "Pset_SlabCommon": {
+          "Reference": "Laje Maciça - h=14cm",
+          "LoadBearing": true,
+          "IsExternal": true,
+          "PitchAngle": 0.0
+        }
+      }
+    }
+  ]
+}
