@@ -1,0 +1,25 @@
+{
+  "revisao": "H03/R196",
+  "parede": "W08 superior",
+  "viga": "V16",
+  "q_kN_m": 6.75454,
+  "largura_livre_m": 1.95,
+  "vao_lido_BIM_m": 2.13,
+  "carga_total_antes_tf": 111.74,
+  "carga_total_depois_tf": 113.18,
+  "peso_inferior_pendente_kN": 3.8269,
+  "fluxos": {
+    "CAD": {
+      "PRJ_sha256": "73b7f744e178af2bd32ad68fe93af55fd01ed5927d6993202fc37756e453e4da",
+      "relatorio_sha256": "14fe7e2a73f9c70bba07a93bfce70c1557e15299d2fab014c51f27bd4c867aee",
+      "processamento_s": 7,
+      "dimensionamento_incluido_s": 2
+    },
+    "BIM": {
+      "PRJ_sha256": "c68923b146b023fe935d6602c8bab60682654f993ad212ef55393ed7f734c253",
+      "relatorio_sha256": "6b110e057075f829c725d70fd638e1d60cd82ce5be5f2cd89e479dd98880936b",
+      "processamento_s": 7,
+      "dimensionamento_incluido_s": 2
+    }
+  }
+}
