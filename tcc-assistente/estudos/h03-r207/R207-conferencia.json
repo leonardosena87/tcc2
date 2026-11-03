@@ -1,0 +1,245 @@
+{
+  "recorded_at": "2026-11-03T19:58:58.826238-03:00",
+  "scope": "Ensaio de carga equivalente W08 superior; nao constitui aprovacao estrutural",
+  "flows": {
+    "CAD": {
+      "portico_sha256": "59f691c7c34ac998f618f4ae5f4da843fcc24f4313ee5355be3122a94d6ca862",
+      "segments": [
+        {
+          "frame": "42",
+          "start_cm": [
+            441.0,
+            0.0,
+            177.4
+          ],
+          "end_cm": [
+            452.0,
+            0.0,
+            177.4
+          ],
+          "length_m": 0.11,
+          "G2_distributed": [
+            {
+              "Frame": "42",
+              "LoadPat": "G2",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,2300",
+              "FOverLB": "-1,2300"
+            }
+          ]
+        },
+        {
+          "frame": "43",
+          "start_cm": [
+            452.0,
+            0.0,
+            177.4
+          ],
+          "end_cm": [
+            643.0,
+            0.0,
+            177.4
+          ],
+          "length_m": 1.91,
+          "G2_distributed": [
+            {
+              "Frame": "43",
+              "LoadPat": "G2",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-6,7545",
+              "FOverLB": "-6,7545"
+            }
+          ]
+        },
+        {
+          "frame": "44",
+          "start_cm": [
+            643.0,
+            0.0,
+            177.4
+          ],
+          "end_cm": [
+            654.0,
+            0.0,
+            177.4
+          ],
+          "length_m": 0.11,
+          "G2_distributed": [
+            {
+              "Frame": "44",
+              "LoadPat": "G2",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,2300",
+              "FOverLB": "-1,2300"
+            }
+          ]
+        }
+      ],
+      "nominal_SI_resultant_kN": 13.171695,
+      "note": "SI reconstruido com valores de entrada; exportacao SAP declara kgf/cm com conversao nominal propria. Nao aplicar 9.80665 como se os numeros fossem SI.",
+      "saved_prj": {
+        "path": "D:\\TCC\\outputs\\W08-H03-R207-ENSAIO\\Projetos-salvos\\CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+        "sha256": "150c34a6fc82172a480009e8704a31fc547de013c4b9f08671ec5ba7684ee0d4",
+        "bytes": 1929015
+      },
+      "time_status": "Relatorio emitido na sessao R207, apos recalculo confirmado.",
+      "native_time_lines": [
+        "    Tempo consumido na construção do modelo: 00:00:00",
+        "    Tempo de processamento do pórtico: 00:00:00",
+        "    Tempo de processamento do pórtico: 00:00:00",
+        "    Tempo de processamento do pórtico: 00:00:00",
+        "    Tempo consumido no cálculo dos painéis: 00:00:02",
+        "    Tempo de processamento do pórtico: 00:00:01",
+        "    Tempo de dimensionamento dos elementos: 00:00:03",
+        "    Tempo consumido no cálculo dos painéis: 00:00:01",
+        "    Tempo consumido no cálculo das flechas no pórtico: 00:00:00",
+        "Tempo total de processamento: 00:00:10"
+      ]
+    },
+    "BIM": {
+      "portico_sha256": "00f9b96c3c7d77110c2e22a2b47616cdeeb3fc18c94b74cc3decf0554536a002",
+      "segments": [
+        {
+          "frame": "42",
+          "start_cm": [
+            441.0,
+            0.0,
+            177.4
+          ],
+          "end_cm": [
+            452.0,
+            0.0,
+            177.4
+          ],
+          "length_m": 0.11,
+          "G2_distributed": [
+            {
+              "Frame": "42",
+              "LoadPat": "G2",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,2300",
+              "FOverLB": "-1,2300"
+            }
+          ]
+        },
+        {
+          "frame": "43",
+          "start_cm": [
+            452.0,
+            0.0,
+            177.4
+          ],
+          "end_cm": [
+            643.0,
+            0.0,
+            177.4
+          ],
+          "length_m": 1.91,
+          "G2_distributed": [
+            {
+              "Frame": "43",
+              "LoadPat": "G2",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-6,7545",
+              "FOverLB": "-6,7545"
+            }
+          ]
+        },
+        {
+          "frame": "44",
+          "start_cm": [
+            643.0,
+            0.0,
+            177.4
+          ],
+          "end_cm": [
+            654.0,
+            0.0,
+            177.4
+          ],
+          "length_m": 0.11,
+          "G2_distributed": [
+            {
+              "Frame": "44",
+              "LoadPat": "G2",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,2300",
+              "FOverLB": "-1,2300"
+            }
+          ]
+        }
+      ],
+      "nominal_SI_resultant_kN": 13.171695,
+      "note": "SI reconstruido com valores de entrada; exportacao SAP declara kgf/cm com conversao nominal propria. Nao aplicar 9.80665 como se os numeros fossem SI.",
+      "native_time_lines": [
+        "    Tempo consumido na construção do modelo: 00:00:00",
+        "    Tempo de processamento do pórtico: 00:00:00",
+        "    Tempo de processamento do pórtico: 00:00:00",
+        "    Tempo de processamento do pórtico: 00:00:00",
+        "    Tempo consumido no cálculo dos painéis: 00:00:02",
+        "    Tempo de processamento do pórtico: 00:00:01",
+        "    Tempo de dimensionamento dos elementos: 00:00:03",
+        "    Tempo consumido no cálculo dos painéis: 00:00:02",
+        "    Tempo consumido no cálculo das flechas no pórtico: 00:00:00",
+        "Tempo total de processamento: 00:00:11"
+      ],
+      "saved_prj": {
+        "path": "D:\\TCC\\outputs\\W08-H03-R207-ENSAIO\\Projetos-salvos\\BIM\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+        "sha256": "a1beb6c9f1ee3389f15a6eeb6a14399cc3437ef78feea9e8ee5c08cd60ae5406",
+        "bytes": 1940428
+      },
+      "time_status": "Relatorio emitido na sessao R207, apos recalculo confirmado."
+    }
+  },
+  "target_kN": 13.171353,
+  "rounding_difference_kN": 0.00034199999999984243,
+  "rounding_percent": 0.002596544181909799,
+  "approximation": {
+    "wall_extent_cm": [
+      450,
+      645
+    ],
+    "model_segment_limits_cm": [
+      441,
+      452,
+      643,
+      654
+    ],
+    "outer_strip_actual_width_cm": 2,
+    "outer_segment_width_cm": 11,
+    "exact_outer_equivalent_kN_m": 1.228098181818182,
+    "entered_outer_kN_m": 1.23,
+    "strip_centroid_outward_shift_cm": 4.5,
+    "note": "Preserva aproximadamente resultante e centroide global por simetria, mas altera distribuicao local. Exige avaliacao dos esforcos; nao declarar equivalencia exata de momentos."
+  }
+}
