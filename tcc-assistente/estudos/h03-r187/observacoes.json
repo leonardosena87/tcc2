@@ -1,0 +1,21 @@
+{
+  "method": "Transcricao manual das telas nativas R187; nao OCR nem exportacao de todos os casos",
+  "operation": "Unificar V2 e V14 de N1, nessa ordem, mantendo o pilar intermediario P5 e sem incluir V13",
+  "V2": {
+    "nativeNodeOrder": ["P2", "P5", "P11"],
+    "sectionsCmInNativeOrder": [[20, 45], [20, 16]],
+    "spansCmInNativeOrder": [440, 199.6],
+    "nodesMdKnM": {"P2": "-31.17", "P5": "-36.90", "P11": "-5.62"},
+    "error": "D16",
+    "errorNodeIndexOneBased": 2,
+    "diameterErrors": {"8.0": "A07", "10.0": "A07", "12.5": "A07", "16.0": "A07", "20.0": "A07"},
+    "span1": {"initialShearMagnitudeKn": "41.49", "finalShearMagnitudeKn": "46.30", "positiveMdKnM": "32.22", "negativeMdKnM": "-36.90", "torsionEnvelopeMagnitudeKnM": "0.05"},
+    "span2": {"initialShearMagnitudeKn": "22.18", "finalShearMagnitudeKn": "15.36", "positiveMdKnM": "1.69", "negativeMdKnM": "-7.96", "torsionEnvelopeMagnitudeKnM": "0.16"}
+  },
+  "stairsPositiveTable": {"LE1": "calculado", "LE2": "calculado", "LE3": "D31"},
+  "summary": {"selfWeightTf": "78.93", "additionalTf": "12.58", "accidentalTf": "18.45", "roofMaintenanceTf": "1.78", "totalTf": "111.74", "areaM2": "138.18", "gammaZ": ["1.07", "1.06", "1.06", "1.05"], "maxRelativeWindCase": "N1 Y-", "maxRelativeDisplacementCm": "0.16"},
+  "nativeIntegrityCheckOnOpening": true,
+  "freshGeometryAndLoadExportsAvailable": false,
+  "fullAnalyticalEquivalenceVerified": false,
+  "structuralApproval": false
+}

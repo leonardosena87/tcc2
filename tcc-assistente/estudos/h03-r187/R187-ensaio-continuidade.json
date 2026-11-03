@@ -1,0 +1,124 @@
+{
+  "revision": "H03/R187",
+  "recordedAtUtc": "2026-11-03T12:47:27.152984+00:00",
+  "referenceProjects": {
+    "CAD": {
+      "path": "D:\\TCC\\outputs\\R182-CAD-DIAGNOSTICO-DIMENSIONAMENTO-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "63b0428c15652b4baf0695dfd33f9619c0a60652f4a9342c14c5d36e3f6d3351",
+      "unchanged": true
+    },
+    "BIM": {
+      "path": "D:\\TCC\\outputs\\R182-BIM-DIAGNOSTICO-DIMENSIONAMENTO-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sha256": "44515fc4a1752f3923d835c554391fb553937d7a41f7266dd552043712ad22e9",
+      "unchanged": true
+    }
+  },
+  "experimentalProjectPath": "D:\\TCC\\outputs\\R187-CAD-ENSAIO-CONTINUIDADE-V2-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+  "experimentalProjectSha256": "d88a70aa39b356bab3bff1c9e4e6f2924b1fff5ae8ede83936ca79b8b71fb3eb",
+  "preparationPath": "D:\\TCC\\outputs\\Comparacao-H03-R187-CONTINUIDADE-V2-NAO-EXECUTAR\\R187-preparacao.json",
+  "nativeIntegrityCheckOnOpening": true,
+  "reportPath": "D:\\TCC\\outputs\\Comparacao-H03-R187-CONTINUIDADE-V2-NAO-EXECUTAR\\CAD-mensagens.docx",
+  "reportSha256": "586aea63383f223f2b14fa5609d3513a6a0b8e4cc58a85add428a938e2838f40",
+  "nativeReport": {
+    "levels": {
+      "N2": {
+        "nativeLevelName": "N2",
+        "reportedCategories": {
+          "Pilares": {
+            "reportedSuccess": 11,
+            "reportedError": 0
+          },
+          "Vigas": {
+            "reportedSuccess": 15,
+            "reportedError": 0
+          },
+          "Lajes": {
+            "reportedSuccess": 5,
+            "reportedError": 0
+          }
+        },
+        "emptyLevelBlockIsNotAZeroCount": false
+      },
+      "N1": {
+        "nativeLevelName": "N1",
+        "reportedCategories": {
+          "Pilares": {
+            "reportedSuccess": 11,
+            "reportedError": 0
+          },
+          "Vigas": {
+            "reportedSuccess": 14,
+            "reportedError": 1
+          },
+          "Lajes": {
+            "reportedSuccess": 9,
+            "reportedError": 0
+          }
+        },
+        "emptyLevelBlockIsNotAZeroCount": false
+      }
+    },
+    "nativeTotalSeconds": 7,
+    "nativeDimensioningSeconds": 2,
+    "dimensioningTimeIsIncludedInTotal": true,
+    "reportedSuccessMayIncludeWarnings": true,
+    "stairPassCannotBeInferredFromReportedSlabCounts": true
+  },
+  "observationPath": "C:\\Users\\leona\\OneDrive\\Documentos\\FTC\\10º Semestre\\TCC2\\tcc-assistente\\estudos\\h03-r187\\observacoes.json",
+  "observationSha256": "d2b6cba17abbd79c5bb1e0b83c3481350984e908bcc73b0423f0fc4295451f8a",
+  "displayedEnvelopeComparisons": [
+    {
+      "baselineGroup": "V2",
+      "experimentalSpan": "span1",
+      "equalAtDisplayedPrecision": true,
+      "differencesAtDisplayedPrecision": {
+        "initialShearMagnitudeKn": "0.00",
+        "finalShearMagnitudeKn": "0.00",
+        "positiveMdKnM": "0.00",
+        "negativeMdKnM": "0.00",
+        "torsionEnvelopeMagnitudeKnM": "0.00"
+      },
+      "comparisonIsOfDisplayedMagnitudesAndExtremaNotSignedForceVectors": true,
+      "exactInternalEqualityOrControllingCombinationNotVerified": true
+    },
+    {
+      "baselineGroup": "V14",
+      "experimentalSpan": "span2",
+      "equalAtDisplayedPrecision": true,
+      "differencesAtDisplayedPrecision": {
+        "initialShearMagnitudeKn": "0.00",
+        "finalShearMagnitudeKn": "0.00",
+        "positiveMdKnM": "0.00",
+        "negativeMdKnM": "0.00",
+        "torsionEnvelopeMagnitudeKnM": "0.00"
+      },
+      "comparisonIsOfDisplayedMagnitudesAndExtremaNotSignedForceVectors": true,
+      "exactInternalEqualityOrControllingCombinationNotVerified": true
+    }
+  ],
+  "displayedEnvelopeScalarsUnchanged": 10,
+  "sectionsRetainedAtDisplayedPrecision": true,
+  "nativeErrorReproduced": "V2 N1 D16 / A07 no 2",
+  "stairLE3StillD31": true,
+  "sourceR182CADGroupsN1": 16,
+  "experimentalCADGroupsN1": 15,
+  "baselineBIMGroupsN1": 12,
+  "onlyOneCADGroupPairTested": true,
+  "timing": {
+    "nativeTotalSeconds": 7,
+    "nativeDimensioningSecondsIncludedInTotal": 2,
+    "observedInterval": {
+      "startUtc": "2026-11-03T12:39:40.581Z",
+      "meaning": "Clique em OK ate primeira confirmacao observada; inclui latencia do controle. Nao e tempo ativo nem fluxo completo.",
+      "firstConfirmedUtc": "2026-11-03T12:39:54.017Z",
+      "elapsedSeconds": 13.436
+    },
+    "completeFlowMeasured": false,
+    "wholeFlowRankingPermitted": false
+  },
+  "interpretation": "O erro D16/A07 tambem aparece no CAD ao agrupar V2/V14. Sustenta a influencia do agrupamento neste caso, sem provar identidade integral dos modelos ou a causa interna do dimensionador.",
+  "freshGeometryAndLoadExportsAvailable": false,
+  "fullAnalyticalEquivalenceVerified": false,
+  "directComparisonOfRawBeamErrorRatesValid": false,
+  "structuralApproval": false
+}
