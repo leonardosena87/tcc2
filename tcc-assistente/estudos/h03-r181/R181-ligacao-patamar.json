@@ -1,0 +1,400 @@
+{
+  "revision": "H03/R181",
+  "recordedAtUtc": "2026-11-03T04:24:54.212088+00:00",
+  "scope": "Secao fisica local em IFC e conectividade por ID na grelha textual exportada, sem alteracao nativa",
+  "branches": {
+    "Revit": {
+      "ifcPath": "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\H03-R160-Revit-SOMENTE-VIGA-PATAMAR-NAO-EXECUTAR.ifc",
+      "ifcSha256": "4003d78dea0e3c60bd62a31ffbbb4d0ab58058cb3056928a204106b66598e555",
+      "beamGuid": "1ltUz0oN12IOfJpAa5zY0U",
+      "landingGuid": "1ltUz0oN12IOfJpAa5zY7j",
+      "beamMinM": [
+        4.5,
+        -0.10000000000000167,
+        1.4741176470588233
+      ],
+      "beamMaxM": [
+        6.449999999999999,
+        0.10000000000000167,
+        1.7741176470588231
+      ],
+      "landingMinM": [
+        4.5,
+        0.07408333333333408,
+        1.4299246624977955
+      ],
+      "landingMaxM": [
+        6.45,
+        1.0007833333333322,
+        1.7741176470588236
+      ],
+      "sectionAtBeamFaceY": 0.10000000000000167,
+      "sectionAtBeamFace": {
+        "mode": "closed_convex_section",
+        "areaM2": 0.2729999999999988,
+        "polygonsXZ": [
+          [
+            [
+              4.5,
+              1.634117647
+            ],
+            [
+              4.5,
+              1.767590947
+            ],
+            [
+              4.5,
+              1.774117647
+            ],
+            [
+              4.525867805,
+              1.774117647
+            ],
+            [
+              4.530179106,
+              1.774117647
+            ],
+            [
+              6.424132195,
+              1.774117647
+            ],
+            [
+              6.45,
+              1.774117647
+            ],
+            [
+              6.45,
+              1.770093766
+            ],
+            [
+              6.45,
+              1.634117647
+            ],
+            [
+              6.401049751,
+              1.634117647
+            ],
+            [
+              4.541957356,
+              1.634117647
+            ]
+          ]
+        ]
+      },
+      "signedLandingFrontMinusBeamFaceM": -0.025916666666667587,
+      "observedContactAtExportedFace": true,
+      "nativeSupportTypeNotEstablishedByGeometry": true
+    },
+    "CAD": {
+      "ifcPath": "D:\\TCC\\outputs\\R178-CAD-CONTORNO-PATAMAR-NAO-EXECUTAR\\Arquivos do projeto\\r178-cad-patamar-controle.IFC",
+      "ifcSha256": "6ab9afaf1dffcbb9ca75a86136f8687e422aa850fe9fb6e34b48b5ab25096256",
+      "beamGuid": "3H1mC8rjyHyOyDa4iZOUxp",
+      "landingGuid": "35aMLJrouHyOyDa4iZOUxp",
+      "beamMinM": [
+        4.500000000000001,
+        -0.1,
+        1.4740000000000004
+      ],
+      "beamMaxM": [
+        6.450000000000001,
+        0.1,
+        1.7740000000000002
+      ],
+      "landingMinM": [
+        4.500000000000001,
+        0.10000000000000003,
+        1.6340000000000003
+      ],
+      "landingMaxM": [
+        6.45,
+        0.9758,
+        1.7740000000000005
+      ],
+      "sectionAtBeamFaceY": 0.1,
+      "sectionAtBeamFace": {
+        "mode": "coplanar_mesh_faces",
+        "areaM2": 0.2729999999999997,
+        "polygonsXZ": [
+          [
+            [
+              4.500000000000001,
+              1.7740000000000005
+            ],
+            [
+              4.500000000000001,
+              1.6340000000000003
+            ],
+            [
+              6.45,
+              1.6340000000000003
+            ]
+          ],
+          [
+            [
+              6.45,
+              1.7740000000000005
+            ],
+            [
+              4.500000000000001,
+              1.7740000000000005
+            ],
+            [
+              6.45,
+              1.6340000000000003
+            ]
+          ]
+        ]
+      },
+      "signedLandingFrontMinusBeamFaceM": 2.7755575615628914e-17,
+      "observedContactAtExportedFace": true,
+      "nativeSupportTypeNotEstablishedByGeometry": true,
+      "exportedGridSharedNodes": [
+        {
+          "jointId": "32",
+          "positionCm": [
+            474.38,
+            0.0,
+            177.4
+          ],
+          "beamFrames": [
+            "27",
+            "171"
+          ],
+          "landingFrames": [
+            "194"
+          ]
+        },
+        {
+          "jointId": "55",
+          "positionCm": [
+            523.13,
+            0.0,
+            177.4
+          ],
+          "beamFrames": [
+            "169",
+            "171"
+          ],
+          "landingFrames": [
+            "189"
+          ]
+        },
+        {
+          "jointId": "84",
+          "positionCm": [
+            571.88,
+            0.0,
+            177.4
+          ],
+          "beamFrames": [
+            "167",
+            "169"
+          ],
+          "landingFrames": [
+            "184"
+          ]
+        },
+        {
+          "jointId": "117",
+          "positionCm": [
+            620.63,
+            0.0,
+            177.4
+          ],
+          "beamFrames": [
+            "165",
+            "167"
+          ],
+          "landingFrames": [
+            "179"
+          ]
+        }
+      ]
+    },
+    "BIM": {
+      "ifcPath": "D:\\TCC\\outputs\\R178-BIM-CONTORNO-PATAMAR-NAO-EXECUTAR\\Arquivos do projeto\\r178-bim-patamar-controle.IFC",
+      "ifcSha256": "d0efc1542c929962197bcb15c438afac4c200e73a5bd8d8d21687985ff73a8bd",
+      "beamGuid": "2FxTSCrmmHyOyDa4iZOUxp",
+      "landingGuid": "3AeHjnroyHyOyDa4iZOUxp",
+      "beamMinM": [
+        4.500000000000001,
+        -0.1,
+        1.4740000000000004
+      ],
+      "beamMaxM": [
+        6.450000000000001,
+        0.1,
+        1.7740000000000002
+      ],
+      "landingMinM": [
+        4.500000000000001,
+        0.10000000000000003,
+        1.6340000000000003
+      ],
+      "landingMaxM": [
+        6.45,
+        0.9758,
+        1.7740000000000005
+      ],
+      "sectionAtBeamFaceY": 0.1,
+      "sectionAtBeamFace": {
+        "mode": "coplanar_mesh_faces",
+        "areaM2": 0.2729999999999997,
+        "polygonsXZ": [
+          [
+            [
+              4.500000000000001,
+              1.7740000000000005
+            ],
+            [
+              4.500000000000001,
+              1.6340000000000003
+            ],
+            [
+              6.45,
+              1.6340000000000003
+            ]
+          ],
+          [
+            [
+              6.45,
+              1.7740000000000005
+            ],
+            [
+              4.500000000000001,
+              1.7740000000000005
+            ],
+            [
+              6.45,
+              1.6340000000000003
+            ]
+          ]
+        ]
+      },
+      "signedLandingFrontMinusBeamFaceM": 2.7755575615628914e-17,
+      "observedContactAtExportedFace": true,
+      "nativeSupportTypeNotEstablishedByGeometry": true,
+      "exportedGridSharedNodes": [
+        {
+          "jointId": "121",
+          "positionCm": [
+            474.38,
+            0.0,
+            177.4
+          ],
+          "beamFrames": [
+            "27",
+            "171"
+          ],
+          "landingFrames": [
+            "194"
+          ]
+        },
+        {
+          "jointId": "154",
+          "positionCm": [
+            523.13,
+            0.0,
+            177.4
+          ],
+          "beamFrames": [
+            "169",
+            "171"
+          ],
+          "landingFrames": [
+            "189"
+          ]
+        },
+        {
+          "jointId": "133",
+          "positionCm": [
+            571.88,
+            0.0,
+            177.4
+          ],
+          "beamFrames": [
+            "167",
+            "169"
+          ],
+          "landingFrames": [
+            "184"
+          ]
+        },
+        {
+          "jointId": "99",
+          "positionCm": [
+            620.63,
+            0.0,
+            177.4
+          ],
+          "beamFrames": [
+            "165",
+            "167"
+          ],
+          "landingFrames": [
+            "179"
+          ]
+        }
+      ]
+    }
+  },
+  "sourceFilesPreserved": [
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\H03-R160-Revit-SOMENTE-VIGA-PATAMAR-NAO-EXECUTAR.ifc",
+      "sha256": "4003d78dea0e3c60bd62a31ffbbb4d0ab58058cb3056928a204106b66598e555"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\R160-releitura-nativa-20261102-163548.json",
+      "sha256": "fd43fd25e3665bfe6fc3b9eaa14892b9d7446b19809efaae6e278a0aad3f3a18"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Escada-H03-R160-SOMENTE-VIGA-NAO-EXECUTAR\\H03-R160-Revit-SOMENTE-VIGA-PATAMAR-NAO-EXECUTAR.rvt",
+      "sha256": "b491460fb73deddf6e9552fc15fc6708254dce15733eb5b528e8a7fbc3fbcb6c"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\R161-configuracao-IFC-CV.json",
+      "sha256": "56b11a98eefcd476296913f4bf22755078506ec9e589952ba62e2dfa6bc2310c"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Intercambio-H03-R161-R160-NAO-EXECUTAR\\R161-configuracao-IFC-releitura-nativa.json",
+      "sha256": "6c84ab714d4fe226b67b97c5db3c198df933571adad7440f31b7a51d3da48d2a"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\R178-CAD-CONTORNO-PATAMAR-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "c4d32251d41d473140a15bed273687b7d7fba201272cfe8cc335da2569ca5f71"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\R178-CAD-CONTORNO-PATAMAR-NAO-EXECUTAR\\Arquivos do projeto\\r178-cad-patamar-controle.IFC",
+      "sha256": "6ab9afaf1dffcbb9ca75a86136f8687e422aa850fe9fb6e34b48b5ab25096256"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Escada-H03-R178-CONTORNO-PATAMAR-NAO-EXECUTAR\\CAD-SAP\\grelha_SAP2000_escada_N1.$2k",
+      "sha256": "015d1cc3917748efdd602d4c4db08c2e2bd7a752ef2bc69d70279595d03690e6"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\R178-BIM-CONTORNO-PATAMAR-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sha256": "89bbdd3eb42abf699ced6579a2751428a8702fe67110ef4cddb24dddb7a71f0a"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\R178-BIM-CONTORNO-PATAMAR-NAO-EXECUTAR\\Arquivos do projeto\\r178-bim-patamar-controle.IFC",
+      "sha256": "d0efc1542c929962197bcb15c438afac4c200e73a5bd8d8d21687985ff73a8bd"
+    },
+    {
+      "path": "D:\\TCC\\outputs\\Escada-H03-R178-CONTORNO-PATAMAR-NAO-EXECUTAR\\BIM-SAP\\grelha_SAP2000_escada_TCC-7a6267fd-N1.$2k",
+      "sha256": "8a48e98dfb8f5e75d4f2cf671787ec6ae07376af4933ea683df73a0cf9b7375d"
+    }
+  ],
+  "frontDifferenceIsNotAnUnsupportedGapAtCheckedBeamFace": true,
+  "completeRevitEberickLandingMeshEquivalence": false,
+  "stairFinishCompatibilityCompleted": false,
+  "nativeSupportRotationAndReinforcementReviewed": false,
+  "structuralApproval": false,
+  "numericalEpsilonM": 1e-09,
+  "sectionVertexRoundingDecimalPlaces": 9,
+  "numericalParametersAreNotConstructionTolerances": true,
+  "timing": {
+    "nativeProcessingExecuted": false,
+    "fullFlowTimeMeasured": false,
+    "newCadBimPerformanceComparison": false
+  }
+}
