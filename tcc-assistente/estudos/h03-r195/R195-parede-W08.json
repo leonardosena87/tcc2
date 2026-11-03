@@ -1,0 +1,223 @@
+{
+  "revision": "H03/R195",
+  "adoptedFor": [
+    "CAD",
+    "BIM"
+  ],
+  "removedOpening": "T-J4-01",
+  "resolvedClash": "V16/J4",
+  "nature": "Revisão arquitetônica comum, excluída do retrabalho específico de cada software.",
+  "widthM": 1.95,
+  "wallThicknessM": 0.15,
+  "hypothesisKNPerM2": 1.565,
+  "lowerAreaM2": 2.4453,
+  "upperAreaM2": 8.4162,
+  "netPanelM2": 10.8615,
+  "netPanelWeightKN": 16.9982475,
+  "addedMasonryM2": 4.64,
+  "addedMasonryWeightKN": 7.2616,
+  "upperWeightKN": 13.171353,
+  "upperLoadIfFullySupportedOnV16_KNPerM": 6.75454,
+  "calculatedNativeLineLoad": null,
+  "assumptions": "Pano livre de 1,95 m, do piso +0,22 ao intradorso +6,09 m. Desconto de V16 em toda a largura. Incremento compara o mesmo modelo com e sem J4. Exclui esquadria removida, vergas e acabamento sobre concreto.",
+  "disposition": "Triagem geométrica. Definir como cada pano descarrega, conferir cargas já cadastradas e eventuais apoios intermediários antes do lançamento.",
+  "eberickReprocessed": false,
+  "baselineBeamLoadAudit": {
+    "reference": "H03/R178",
+    "branches": {
+      "CAD": {
+        "portico": {
+          "exportSha256": "5797a4758dbba6d58cca9880e2a346a278cc4d0a18969d8717eca4d23920be18",
+          "frameIds": [
+            "42"
+          ],
+          "nativeUnits": "Kgf, cm, C",
+          "distributedRows": [
+            {
+              "Frame": "42",
+              "LoadPat": "G1",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,5000",
+              "FOverLB": "-1,5000"
+            }
+          ]
+        },
+        "escada": {
+          "exportSha256": "015d1cc3917748efdd602d4c4db08c2e2bd7a752ef2bc69d70279595d03690e6",
+          "frameIds": [
+            "27",
+            "165",
+            "167",
+            "169",
+            "171"
+          ],
+          "nativeUnits": "Kgf, cm, C",
+          "distributedRows": [
+            {
+              "Frame": "27",
+              "LoadPat": "G1",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,5000",
+              "FOverLB": "-1,5000"
+            },
+            {
+              "Frame": "165",
+              "LoadPat": "G1",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,5000",
+              "FOverLB": "-1,5000"
+            },
+            {
+              "Frame": "167",
+              "LoadPat": "G1",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,5000",
+              "FOverLB": "-1,5000"
+            },
+            {
+              "Frame": "169",
+              "LoadPat": "G1",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,5000",
+              "FOverLB": "-1,5000"
+            },
+            {
+              "Frame": "171",
+              "LoadPat": "G1",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,5000",
+              "FOverLB": "-1,5000"
+            }
+          ]
+        }
+      },
+      "BIM": {
+        "portico": {
+          "exportSha256": "8b8e4b33bd19cd91196636f8ae8ab6a868039dc19f66bcc45c3965f957def5d1",
+          "frameIds": [
+            "42"
+          ],
+          "nativeUnits": "Kgf, cm, C",
+          "distributedRows": [
+            {
+              "Frame": "42",
+              "LoadPat": "G1",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,5000",
+              "FOverLB": "-1,5000"
+            }
+          ]
+        },
+        "escada": {
+          "exportSha256": "8a48e98dfb8f5e75d4f2cf671787ec6ae07376af4933ea683df73a0cf9b7375d",
+          "frameIds": [
+            "27",
+            "165",
+            "167",
+            "169",
+            "171"
+          ],
+          "nativeUnits": "Kgf, cm, C",
+          "distributedRows": [
+            {
+              "Frame": "27",
+              "LoadPat": "G1",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,5000",
+              "FOverLB": "-1,5000"
+            },
+            {
+              "Frame": "165",
+              "LoadPat": "G1",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,5000",
+              "FOverLB": "-1,5000"
+            },
+            {
+              "Frame": "167",
+              "LoadPat": "G1",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,5000",
+              "FOverLB": "-1,5000"
+            },
+            {
+              "Frame": "169",
+              "LoadPat": "G1",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,5000",
+              "FOverLB": "-1,5000"
+            },
+            {
+              "Frame": "171",
+              "LoadPat": "G1",
+              "CoordSys": "LOCAL",
+              "Type": "Force",
+              "Dir": "2",
+              "DistType": "RelDist",
+              "RelDistA": "0",
+              "RelDistB": "1",
+              "FOverLA": "-1,5000",
+              "FOverLB": "-1,5000"
+            }
+          ]
+        }
+      }
+    },
+    "scope": "Atribuições distribuídas diretas na seção 20x30 da V16. Exclui análise de forças nodais, reações das lajes e cadastro posterior."
+  }
+}
