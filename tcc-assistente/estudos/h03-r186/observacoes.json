@@ -1,0 +1,32 @@
+{
+  "method": "Transcricao manual das planilhas nativas R182, consultadas na R186; nao OCR automatizado",
+  "displayPrecision": {"forceKn": "0.01", "momentKnM": "0.01"},
+  "CAD": {
+    "V2": {
+      "sectionCm": [20, 45],
+      "nodesMdKnM": {"P2": "-31.17", "P5": "-36.90"},
+      "envelope": {"initialShearMagnitudeKn": "41.49", "finalShearMagnitudeKn": "46.30", "positiveMdKnM": "32.22", "negativeMdKnM": "-36.90", "torsionEnvelopeMagnitudeKnM": "0.05"},
+      "sources": ["CAD-V2-nos-0.png", "CAD-V2-secao-0.png", "CAD-V2-envoltoria-0.png"]
+    },
+    "V14": {
+      "sectionCm": [20, 16],
+      "nodesMdKnM": {"P5": "-7.96", "P11": "-5.62"},
+      "envelope": {"initialShearMagnitudeKn": "22.18", "finalShearMagnitudeKn": "15.36", "positiveMdKnM": "1.69", "negativeMdKnM": "-7.96", "torsionEnvelopeMagnitudeKnM": "0.16"},
+      "sources": ["CAD-V14-nos-0.png", "CAD-V14-secao-0.png", "CAD-V14-envoltoria-0.png"]
+    }
+  },
+  "BIM": {
+    "V2": {
+      "sectionsCmInNativeOrder": [[20, 16], [20, 45]],
+      "nodesMdKnM": {"P6": "-5.62", "P5": "-36.90", "P4": "-31.17"},
+      "nativeNode2Error": "D16 / A07, conforme diagnostico R182",
+      "span1": {"initialShearMagnitudeKn": "15.36", "finalShearMagnitudeKn": "22.18", "positiveMdKnM": "1.69", "negativeMdKnM": "-7.96", "torsionEnvelopeMagnitudeKnM": "0.16"},
+      "span2": {"initialShearMagnitudeKn": "46.30", "finalShearMagnitudeKn": "41.49", "positiveMdKnM": "32.22", "negativeMdKnM": "-36.90", "torsionEnvelopeMagnitudeKnM": "0.05"},
+      "sources": ["BIM-V2-nos-0.png", "BIM-V2-secoes-0.png", "BIM-V2-envoltoria-0.png"]
+    }
+  },
+  "pairing": [
+    {"cadGroup": "V14", "bimGroup": "V2", "bimSpan": "span1", "nativeDirectionsReversed": true},
+    {"cadGroup": "V2", "bimGroup": "V2", "bimSpan": "span2", "nativeDirectionsReversed": true}
+  ]
+}
