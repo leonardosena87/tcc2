@@ -1,0 +1,64 @@
+{
+  "revision": "H03/R202",
+  "flow": "BIM",
+  "baseline": "H03/R201",
+  "nature": "ensaios de secao da V2, candidato de estudo",
+  "tests": [
+    {
+      "sectionsCm": [
+        [
+          60,
+          16
+        ],
+        [
+          20,
+          45
+        ]
+      ],
+      "result": "D16/A07 no no 2 mantidos",
+      "middleMomentKNm": -37.57
+    },
+    {
+      "sectionsCm": [
+        [
+          60,
+          16
+        ],
+        [
+          60,
+          45
+        ]
+      ],
+      "result": "D16 eliminado; armadura calculada; Aviso 38 nos tres apoios",
+      "negativeMomentsKNm": [
+        -9.22,
+        -37.74,
+        -30.26
+      ],
+      "topBars": [
+        "6 phi 8",
+        "11 phi 10",
+        "5 phi 10"
+      ],
+      "positiveMomentsKNm": [
+        3.51,
+        55.94
+      ],
+      "bottomBars": [
+        "6 phi 8",
+        "5 phi 10"
+      ]
+    }
+  ],
+  "currentPRJ": "D:\\TCC\\outputs\\R202-BIM-VIGA-FAIXA-ESTUDO-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+  "currentSHA256": "3efbadcb05a51a0b61751cf0ecddb4fd372954d630651b0bc2ce2fc503246192",
+  "acceptedAsFinal": false,
+  "cadReplicated": false,
+  "authoringRevitCADUpdated": false,
+  "nativeTimingFinalRun": "00:00:09",
+  "timeScope": "tempo nativo somente do segundo ensaio. Primeiro ensaio sem exportacao separada de tempo nativo",
+  "V1": "Aviso 19 continua pendente; programa nao dimensiona flexao obliqua",
+  "architectureAndSupportCompatibilityPending": true,
+  "finalApproval": false,
+  "correctionRankingValid": false
+}
