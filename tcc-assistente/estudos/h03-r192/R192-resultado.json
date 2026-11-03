@@ -1,0 +1,183 @@
+{
+  "revision": "H03/R192",
+  "recordedAtUtc": "2026-11-03T14:40:24.551053+00:00",
+  "branch": "CAD",
+  "projectPath": "D:\\TCC\\outputs\\R192-CAD-ENSAIO-ENCONTRO-PATAMAR-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+  "projectSha256": "f99b160413d4fb2416df7ec9a66ef5c810a44cfe62638c940c849113de74ce83",
+  "zipCrcValid": true,
+  "sourceProjectUnchanged": true,
+  "R182ControlHashesPreserved": true,
+  "intervention": {
+    "upperOrdinaryBarAtLE3LE1WidthBeforeCm": 0,
+    "upperOrdinaryBarWidthAfterCm": 20,
+    "widthConfirmedAfterProcessing": true,
+    "savedProjectHashChanged": true,
+    "postReopenVerificationPerformed": false,
+    "inheritedLowerOrdinaryBarHypotheticalWidthCm": 20,
+    "inheritedAnchorage": "gancho",
+    "inheritedAdjacentSlabAnchorageEnabled": true,
+    "newPhysicalBeam": false,
+    "newPhysicalColumns": false,
+    "supportingConcreteDetailVerified": false,
+    "thresholdsRaisedToSuppressError": false
+  },
+  "integrity": {
+    "openingWarningObserved": true,
+    "nativeVerificationPerformed": true,
+    "recalculatedBeforeIntervention": true,
+    "savedRecalculatedControlSha256": "b3d7f9175a59b377b638b163bcfb37282b5148e14fcfcc7df00dbbc149016e77",
+    "savedRecalculatedControlPath": "D:\\TCC\\outputs\\Escada-H03-R192-ENCONTRO-PATAMAR-NAO-EXECUTAR\\CAD-controle-recalculado.prj",
+    "finalSaveMethod": "Botao de disco; hash alterado"
+  },
+  "stages": {
+    "controle": {
+      "reportSha256": "cd20bd756fe22fd5c551c3b2d7f162759fdaba8d4b0ea3ef9f28f57d5045db26",
+      "nativeReport": {
+        "levels": {
+          "N2": {
+            "nativeLevelName": "N2",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 15,
+                "reportedError": 0
+              },
+              "Lajes": {
+                "reportedSuccess": 5,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          },
+          "N1": {
+            "nativeLevelName": "N1",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 16,
+                "reportedError": 0
+              },
+              "Lajes": {
+                "reportedSuccess": 9,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          }
+        },
+        "nativeTotalSeconds": 6,
+        "nativeDimensioningSeconds": 2,
+        "dimensioningTimeIsIncludedInTotal": true,
+        "reportedSuccessMayIncludeWarnings": true,
+        "stairPassCannotBeInferredFromReportedSlabCounts": true
+      },
+      "observedTiming": {
+        "startUtc": "2026-11-03T14:13:01.199Z",
+        "firstConfirmedUtc": "2026-11-03T14:13:21.035Z",
+        "elapsedSeconds": 19.836,
+        "includesObservationLatency": true,
+        "isActiveWorkTime": false,
+        "completeFlowMeasured": false
+      },
+      "LE3": "D31/A11",
+      "failingDiametersMm": [
+        6.3,
+        8,
+        10,
+        12.5,
+        16
+      ]
+    },
+    "ensaio": {
+      "reportSha256": "6add613bc24f2c39dd1d0dd196b3d6df0c80f5bd4a6a716809ad8c3b77644bec",
+      "nativeReport": {
+        "levels": {
+          "N2": {
+            "nativeLevelName": "N2",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 15,
+                "reportedError": 0
+              },
+              "Lajes": {
+                "reportedSuccess": 5,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          },
+          "N1": {
+            "nativeLevelName": "N1",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 16,
+                "reportedError": 0
+              },
+              "Lajes": {
+                "reportedSuccess": 9,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          }
+        },
+        "nativeTotalSeconds": 7,
+        "nativeDimensioningSeconds": 2,
+        "dimensioningTimeIsIncludedInTotal": true,
+        "reportedSuccessMayIncludeWarnings": true,
+        "stairPassCannotBeInferredFromReportedSlabCounts": true
+      },
+      "observedTiming": {
+        "startUtc": "2026-11-03T14:18:39.489Z",
+        "firstConfirmedUtc": "2026-11-03T14:19:03.984Z",
+        "elapsedSeconds": 24.495,
+        "includesObservationLatency": true,
+        "isActiveWorkTime": false,
+        "completeFlowMeasured": false
+      },
+      "LE3": "D31/A11",
+      "failingDiametersMm": [
+        6.3,
+        8,
+        10,
+        12.5,
+        16
+      ]
+    }
+  },
+  "reportedCategoryCountsEqual": true,
+  "LE3A11Resolved": false,
+  "displayedLE3Summary": {
+    "Mdx_kNmPerM": 5.46,
+    "Mdy_kNmPerM": 1.91,
+    "Ndx_kN": 87.97,
+    "Rdx_kN": -1.71,
+    "maxDeflectionCm": -0.05,
+    "evidence": "CAD-ensaio-esforcos.png",
+    "isIdentificationOfGoverningSupport": false,
+    "isCompleteELSVerification": false
+  },
+  "interpretation": "A largura hipotetica de 20 cm no encontro LE3/LE1 nao eliminou D31/A11 nesta configuracao. O bordo governante e o comprimento fisico de ancoragem continuam por determinar.",
+  "inheritedShearCheckWaiverRequiresReview": true,
+  "BIMReplicatePerformed": false,
+  "freshGeometryAndLoadExportAudited": false,
+  "fullAnalyticalEquivalenceVerified": false,
+  "allStructuralElementsSuccessfullyDesigned": false,
+  "structuralApproval": false,
+  "fullPairedFlowComparisonFinished": false,
+  "wholeFlowProductivityRankingPermitted": false
+}

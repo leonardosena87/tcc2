@@ -1,0 +1,128 @@
+Window: "AltoQi Eberick 2025 Infinity - [R192-CAD-ENSAIO-ENCONTRO-PATAMAR-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [R192-CAD-ENSAIO-ENCONTRO-PATAMAR-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		14457 diálogo Edição da barra Secondary Actions: Raise
+			14458 text Multiplicador da rigidez à:
+			14459 text Flexão
+			14460 editar (settable, string) Flexão Value: 1 ID: 101
+			14461 text Torção
+			14462 editar (settable, string) Torção Value: 1 ID: 102
+			14463 text Axial
+			14464 editar (settable, string) Axial Value: 1 ID: 103
+			14465 text Vinculação da extremidade
+			14466 caixa de combinação (settable, string) Vinculação da extremidade Value: Engastado ID: 104
+				14467 text (settable, string) Vinculação da extremidade Value: Engastado
+				14468 botão Abrir ID: DropDown
+			14469 botão OK ID: 1
+			14470 botão Cancelar ID: 2
+			14471 botão Ajuda ID: 9
+			14472 barra de título (settable, string) Value: Edição da barra
+		6987 janela Valores Secondary Actions: Raise
+			6988 painel
+			6989 barra de título (settable, string) Value: Valores
+		6990 janela Legenda Secondary Actions: Raise
+			6991 painel
+			6992 barra de título (settable, string) Value: Legenda
+		6993 painel OpenGL Generic Window
+			6994 painel
+		45 Barra de status
+			14473 custom
+				14474 item de menu Elástico - Axiais
+			14475 text (disabled) Combinação
+			14476 caixa de combinação (settable, string) Baixo Value: Concreto
+				14477 Lista
+					14478 item de lista (selectable) Concreto
+					14479 item de lista (selectable) Alvenaria
+					14480 item de lista (selectable) Aço
+					14481 item de lista (selectable) Fundações
+					14482 item de lista (selectable) Incêndio
+					14483 item de lista (selectable) Construção
+					14484 item de lista (selectable) Ação isolada
+			14485 caixa de combinação (settable, string) Baixo Value: 1.4G1+1.4G2+1.4Q+0.7QT
+				14486 Lista
+					14487 item de lista (selectable) 1.4G1+1.4G2+0.7Q+1.4QT
+					14488 item de lista (selectable) 1.4G1+1.4G2+0.7Q+0.7QT
+					14489 item de lista (selectable) 1.4G1+1.4G2
+					14490 item de lista (selectable) 1.4G1+1.4G2+1.4QT
+					14491 item de lista (selectable) 1.4G1+1.4G2+1.4Q+0.7QT
+					14492 item de lista (selectable) 1.4G1+1.4G2+1.4Q
+					14493 item de lista (selectable) G1+G2+0.7Q+1.4QT
+					14494 item de lista (selectable) G1+G2+0.7Q+0.7QT
+					14495 item de lista (selectable) G1+G2
+					14496 item de lista (selectable) G1+G2+1.4QT
+			14497 text (disabled) Escala
+			14498 caixa de combinação (settable, string) Baixo Value: 100 %
+				14499 Lista
+					14500 item de lista (selectable) 100 %
+					14501 item de lista (selectable) 95 %
+					14502 item de lista (selectable) 90 %
+					14503 item de lista (selectable) 85 %
+					14504 item de lista (selectable) 80 %
+					14505 item de lista (selectable) 75 %
+					14506 item de lista (selectable) 70 %
+					14507 item de lista (selectable) 65 %
+					14508 item de lista (selectable) 60 %
+					14509 item de lista (selectable) 55 %
+					14510 item de lista (selectable) 50 %
+					14511 item de lista (selectable) 45 %
+					14512 item de lista (selectable) 40 %
+					14513 item de lista (selectable) 35 %
+					14514 item de lista (selectable) 30 %
+					14515 item de lista (selectable) 25 %
+					14516 item de lista (selectable) 20 %
+					14517 item de lista (selectable) 15 %
+					14518 item de lista (selectable) 10 %
+					14519 item de lista (selectable) 5 %
+			14520 editar (settable, string) Value: 1
+			14521 text (disabled) x
+			14522 botão Vista superior
+			14523 botão Vista frontal
+		91 painel
+			92 botão de divisão
+				93 elevador
+				94 painel
+					95 tabulação Grelha-Escadas-N1
+						14524 item de tabulação (selectable) Notícias
+						14525 item de tabulação (selectable) Escadas-N1
+						14526 item de tabulação (selectable) Croqui-N1 (altura 157.4)
+						14527 item de tabulação (selectable) Grelha-Escadas-N1
+					99 painel
+						7052 painel
+							14528 custom
+				103 painel
+					104 tabulação
+						14529 item de tabulação (selectable)
+					107 painel
+						108 janela Edificação Secondary Actions: Raise
+							109 painel
+								110 painel Projeto
+									111 painel
+									112 árvore ID: 101
+										2822 item da árvore (selectable, disabled) Pavimentos
+											2823 item da árvore (selectable, disabled) N2
+											2824 item da árvore (selectable, disabled) N1
+											2825 item da árvore (selectable, disabled) N0
+										2826 item da árvore (selectable, disabled) Pilares em prumada
+										2827 item da árvore (selectable, disabled) Cortes
+										2828 item da árvore (selectable, disabled) Gerenciador de desenhos
+										2829 item da árvore (selectable, disabled) Modelos 3D
+		121 barra de menus
+		14457 diálogo Edição da barra Secondary Actions: Raise
+			14458 text Multiplicador da rigidez à:
+			14459 text Flexão
+			14460 editar (settable, string) Flexão Value: 1 ID: 101
+			14461 text Torção
+			14462 editar (settable, string) Torção Value: 1 ID: 102
+			14463 text Axial
+			14464 editar (settable, string) Axial Value: 1 ID: 103
+			14465 text Vinculação da extremidade
+			14466 caixa de combinação (settable, string) Vinculação da extremidade Value: Engastado ID: 104
+				14467 text (settable, string) Vinculação da extremidade Value: Engastado
+				14468 botão Abrir ID: DropDown
+			14469 botão OK ID: 1
+			14470 botão Cancelar ID: 2
+			14471 botão Ajuda ID: 9
+			14472 barra de título (settable, string) Value: Edição da barra
+
+The focused UI element is 14457 diálogo Edição da barra Secondary Actions: Raise.
+
+Focused element: 14457 diálogo Edição da barra Secondary Actions: Raise

@@ -1,0 +1,130 @@
+Window: "AltoQi Eberick 2025 Infinity - [R192-CAD-ENSAIO-ENCONTRO-PATAMAR-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [R192-CAD-ENSAIO-ENCONTRO-PATAMAR-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		4719 diálogo Barra Secondary Actions: Raise
+			4720 grupo Dados da barra ID: 801
+			4721 text Largura ID: 802
+			4722 editar (settable, string) Largura Value: 20 ID: 803
+			4723 text cm ID: 804
+			4724 grupo Cargas ID: 807
+			4725 text Carga de parede ID: 808
+			4726 text 0.00 kN/m ID: 809
+			4727 text Carga extra ID: 812
+			4728 editar (disabled, settable, string) Carga extra Value: 0 ID: 813
+			4729 text kN/m ID: 814
+			4730 botão Lançar... ID: 810
+			4731 botão Remover ID: 811
+			4732 botão Editar... ID: 815
+			4733 botão Remover ID: 816
+			4734 botão OK ID: 1
+			4735 botão Cancelar ID: 2
+			4736 botão Desenho... ID: 817
+			4737 botão Ajuda ID: 9
+			4738 barra de título (settable, string) Value: Barra
+		45 Barra de status
+			4789 custom
+				4790 text Editar
+				4791 editar (settable, string)
+				4792 text 492.7,98.4
+				4793 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					4794 Lista
+						4795 item de lista (selectable) 1:1
+						4796 item de lista (selectable) 1:2
+						4797 item de lista (selectable) 1:5
+						4798 item de lista (selectable) 1:10
+						4799 item de lista (selectable) 1:12.5
+						4800 item de lista (selectable) 1:15
+						4801 item de lista (selectable) 1:20
+						4802 item de lista (selectable) 1:25
+						4803 item de lista (selectable) 1:30
+						4804 item de lista (selectable) 1:40
+						4805 item de lista (selectable) 1:50
+						4806 item de lista (selectable) 1:60
+						4807 item de lista (selectable) 1:75
+						4808 item de lista (selectable) 1:100
+						4809 item de lista (selectable) 1:200
+						4810 item de lista (selectable) 1:250
+						4811 item de lista (selectable) 1:500
+						4812 item de lista (selectable) 1:1000
+			4813 botão Atualizar
+			4814 botão Enquadrar
+			4815 botão Aproximar
+			4816 botão Afastar
+			4817 botão Zoom
+			4818 botão Zoom anterior
+			4819 botão Deslocar
+			4820 caixa de seleção Ortogonal
+			4821 caixa de seleção Captura personalizada
+			4822 botão Opções da captura personalizada
+			4823 caixa de seleção Quadrante
+			4824 caixa de seleção Centro
+			4825 caixa de seleção Ponto médio
+			4826 caixa de seleção Extremidade
+			4827 caixa de seleção Ponto no elemento
+			4828 caixa de seleção Intersecção
+			4829 caixa de seleção Perpendicular
+			4830 caixa de seleção Ponto intermediário
+			4831 caixa de seleção Ponto quadrante
+			4832 caixa de seleção Ponto na intersecção
+			4833 caixa de seleção Ponto relativo
+		91 painel
+			92 botão de divisão
+				93 elevador
+				94 painel
+					95 tabulação Croqui-N1 (altura 157.4)
+						4834 item de tabulação (selectable) Notícias
+						4835 item de tabulação (selectable) Escadas-N1
+						4836 item de tabulação (selectable) Croqui-N1 (altura 157.4)
+					99 painel
+						3964 painel
+							3965 painel Croqui-N1 (altura 157.4)
+								3966 painel TCadPlotWindow
+				103 painel
+					104 tabulação
+						4837 item de tabulação (selectable)
+						4838 item de tabulação (selectable)
+					107 painel
+						108 janela Edificação Secondary Actions: Raise
+							109 painel
+								110 painel Projeto
+									111 painel
+									112 árvore ID: 101
+										2822 item da árvore (selectable, disabled) Pavimentos
+											2823 item da árvore (selectable, disabled) N2
+											2824 item da árvore (selectable, disabled) N1
+											2825 item da árvore (selectable, disabled) N0
+										2826 item da árvore (selectable, disabled) Pilares em prumada
+										2827 item da árvore (selectable, disabled) Cortes
+										2828 item da árvore (selectable, disabled) Gerenciador de desenhos
+										2829 item da árvore (selectable, disabled) Modelos 3D
+		121 barra de menus
+		4719 diálogo Barra Secondary Actions: Raise
+			4720 grupo Dados da barra ID: 801
+			4721 text Largura ID: 802
+			4722 editar (settable, string) Largura Value: 20 ID: 803
+			4723 text cm ID: 804
+			4724 grupo Cargas ID: 807
+			4725 text Carga de parede ID: 808
+			4726 text 0.00 kN/m ID: 809
+			4727 text Carga extra ID: 812
+			4728 editar (disabled, settable, string) Carga extra Value: 0 ID: 813
+			4729 text kN/m ID: 814
+			4730 botão Lançar... ID: 810
+			4731 botão Remover ID: 811
+			4732 botão Editar... ID: 815
+			4733 botão Remover ID: 816
+			4734 botão OK ID: 1
+			4735 botão Cancelar ID: 2
+			4736 botão Desenho... ID: 817
+			4737 botão Ajuda ID: 9
+			4738 barra de título (settable, string) Value: Barra
+
+Document text: ```
+Editar
+492.7,98.4
+```
+
+Focused element: 4719 diálogo Barra Secondary Actions: Raise
+
+Document text:
+Editar
+492.7,98.4

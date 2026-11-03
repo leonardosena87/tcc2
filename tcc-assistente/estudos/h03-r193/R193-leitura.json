@@ -1,0 +1,471 @@
+{
+  "revision": "H03/R193",
+  "inspectedBranch": "CAD",
+  "readOnly": true,
+  "sourceProject": "D:\\TCC\\outputs\\R192-CAD-ENSAIO-ENCONTRO-PATAMAR-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+  "sourceProjectSha256": "f99b160413d4fb2416df7ec9a66ef5c810a44cfe62638c940c849113de74ce83",
+  "geometryReferenceRevision": "H03/R178",
+  "diagram": "Elástico - Axiais",
+  "combination": "1.4G1+1.4G2+1.4Q+0.7QT",
+  "legendMinMaxKNPerM": [
+    -165.05,
+    87.97
+  ],
+  "samples": {
+    "309": {
+      "displayedValuesKNPerM": [
+        86.52,
+        87.97
+      ],
+      "evidence": "CAD-axiais-barra309-0.png",
+      "sha256": "67be1df0b265ec7ef53b1c92c88e183f018b1145eda77f0bb8ceffccd39015d1"
+    },
+    "315": {
+      "displayedValuesKNPerM": [
+        -1.44,
+        0.0
+      ],
+      "evidence": "CAD-axiais-base-vizinha-0.png",
+      "sha256": "5c0835d5977fddb9b83f3c3ee728c7c77a4f17f9cbc2943f998264c280869cca"
+    },
+    "321": {
+      "displayedValuesKNPerM": [
+        -1.44,
+        0.0
+      ],
+      "evidence": "CAD-axiais-base-centro-0.png",
+      "sha256": "39d0d2dca619debe32e6921cd391f58cd56ec57be7c4f01e0a7e7ebd22a2538d"
+    },
+    "327": {
+      "displayedValuesKNPerM": [
+        60.5,
+        61.94
+      ],
+      "evidence": "CAD-axiais-base-outra-lateral-0.png",
+      "sha256": "24e686004d5f9027a98b952fe8db06c10170f83921a7e59649fed91c2cf1f8b3"
+    },
+    "304": {
+      "displayedValuesKNPerM": [
+        38.65,
+        40.09
+      ],
+      "evidence": "CAD-axiais-proximo-patamar-0.png",
+      "sha256": "e6a055110856a182386dd61e95f5a3c65dbeacaa398cb3e14e9ebb4ec59c3525"
+    }
+  },
+  "geometryReferences": {
+    "CAD": {
+      "source": "D:\\TCC\\outputs\\Escada-H03-R178-CONTORNO-PATAMAR-NAO-EXECUTAR\\CAD-SAP\\grelha_SAP2000_escada_N1.$2k",
+      "sha256": "015d1cc3917748efdd602d4c4db08c2e2bd7a752ef2bc69d70279595d03690e6",
+      "frames": {
+        "309": {
+          "endsCm": [
+            [
+              528.75,
+              299.18,
+              35.74
+            ],
+            [
+              528.75,
+              321.58,
+              20.0
+            ]
+          ],
+          "edgeJointId": "260",
+          "edgeCoordinatesCm": [
+            528.75,
+            321.58,
+            20.0
+          ],
+          "sameJointFrameIds": [
+            "287",
+            "289",
+            "309"
+          ],
+          "directRestraints": [],
+          "directSprings": []
+        },
+        "315": {
+          "endsCm": [
+            [
+              506.25,
+              299.18,
+              35.74
+            ],
+            [
+              506.25,
+              321.58,
+              20.0
+            ]
+          ],
+          "edgeJointId": "259",
+          "edgeCoordinatesCm": [
+            506.25,
+            321.58,
+            20.0
+          ],
+          "sameJointFrameIds": [
+            "289",
+            "291",
+            "315"
+          ],
+          "directRestraints": [],
+          "directSprings": []
+        },
+        "321": {
+          "endsCm": [
+            [
+              483.75,
+              299.18,
+              35.74
+            ],
+            [
+              483.75,
+              321.58,
+              20.0
+            ]
+          ],
+          "edgeJointId": "255",
+          "edgeCoordinatesCm": [
+            483.75,
+            321.58,
+            20.0
+          ],
+          "sameJointFrameIds": [
+            "291",
+            "293",
+            "321"
+          ],
+          "directRestraints": [],
+          "directSprings": []
+        },
+        "327": {
+          "endsCm": [
+            [
+              461.25,
+              299.18,
+              35.74
+            ],
+            [
+              461.25,
+              321.58,
+              20.0
+            ]
+          ],
+          "edgeJointId": "249",
+          "edgeCoordinatesCm": [
+            461.25,
+            321.58,
+            20.0
+          ],
+          "sameJointFrameIds": [
+            "21",
+            "293",
+            "327"
+          ],
+          "directRestraints": [],
+          "directSprings": []
+        },
+        "304": {
+          "endsCm": [
+            [
+              528.75,
+              97.58,
+              177.4
+            ],
+            [
+              528.75,
+              119.98,
+              161.66
+            ]
+          ],
+          "edgeJointId": "205",
+          "edgeCoordinatesCm": [
+            528.75,
+            97.58,
+            177.4
+          ],
+          "sameJointFrameIds": [
+            "170",
+            "286",
+            "304"
+          ],
+          "directRestraints": [],
+          "directSprings": []
+        }
+      },
+      "idealizedEndSupports": [
+        {
+          "frame": "163",
+          "lowJoint": "252",
+          "highJoint": "246",
+          "lowerCm": [
+            450.0,
+            321.58,
+            0.0
+          ],
+          "upperCm": [
+            450.0,
+            321.58,
+            20.0
+          ],
+          "restraintsAtLowJoint": {
+            "Joint": "252",
+            "U1": "YES",
+            "U2": "YES",
+            "U3": "YES",
+            "R1": "YES",
+            "R2": "YES",
+            "R3": "YES"
+          },
+          "connectedAtHighJoint": [
+            "21",
+            "163",
+            "303"
+          ]
+        },
+        {
+          "frame": "164",
+          "lowJoint": "261",
+          "highJoint": "258",
+          "lowerCm": [
+            540.0,
+            321.58,
+            0.0
+          ],
+          "upperCm": [
+            540.0,
+            321.58,
+            20.0
+          ],
+          "restraintsAtLowJoint": {
+            "Joint": "261",
+            "U1": "YES",
+            "U2": "YES",
+            "U3": "YES",
+            "R1": "YES",
+            "R2": "YES",
+            "R3": "YES"
+          },
+          "connectedAtHighJoint": [
+            "164",
+            "287",
+            "302"
+          ]
+        }
+      ]
+    },
+    "BIM": {
+      "source": "D:\\TCC\\outputs\\Escada-H03-R178-CONTORNO-PATAMAR-NAO-EXECUTAR\\BIM-SAP\\grelha_SAP2000_escada_TCC-7a6267fd-N1.$2k",
+      "sha256": "8a48e98dfb8f5e75d4f2cf671787ec6ae07376af4933ea683df73a0cf9b7375d",
+      "frames": {
+        "309": {
+          "endsCm": [
+            [
+              528.75,
+              299.18,
+              35.74
+            ],
+            [
+              528.75,
+              321.58,
+              20.0
+            ]
+          ],
+          "edgeJointId": "259",
+          "edgeCoordinatesCm": [
+            528.75,
+            321.58,
+            20.0
+          ],
+          "sameJointFrameIds": [
+            "287",
+            "289",
+            "309"
+          ],
+          "directRestraints": [],
+          "directSprings": []
+        },
+        "315": {
+          "endsCm": [
+            [
+              506.25,
+              299.18,
+              35.74
+            ],
+            [
+              506.25,
+              321.58,
+              20.0
+            ]
+          ],
+          "edgeJointId": "261",
+          "edgeCoordinatesCm": [
+            506.25,
+            321.58,
+            20.0
+          ],
+          "sameJointFrameIds": [
+            "289",
+            "291",
+            "315"
+          ],
+          "directRestraints": [],
+          "directSprings": []
+        },
+        "321": {
+          "endsCm": [
+            [
+              483.75,
+              299.18,
+              35.74
+            ],
+            [
+              483.75,
+              321.58,
+              20.0
+            ]
+          ],
+          "edgeJointId": "257",
+          "edgeCoordinatesCm": [
+            483.75,
+            321.58,
+            20.0
+          ],
+          "sameJointFrameIds": [
+            "291",
+            "293",
+            "321"
+          ],
+          "directRestraints": [],
+          "directSprings": []
+        },
+        "327": {
+          "endsCm": [
+            [
+              461.25,
+              299.18,
+              35.74
+            ],
+            [
+              461.25,
+              321.58,
+              20.0
+            ]
+          ],
+          "edgeJointId": "251",
+          "edgeCoordinatesCm": [
+            461.25,
+            321.58,
+            20.0
+          ],
+          "sameJointFrameIds": [
+            "21",
+            "293",
+            "327"
+          ],
+          "directRestraints": [],
+          "directSprings": []
+        },
+        "304": {
+          "endsCm": [
+            [
+              528.75,
+              97.58,
+              177.4
+            ],
+            [
+              528.75,
+              119.98,
+              161.66
+            ]
+          ],
+          "edgeJointId": "225",
+          "edgeCoordinatesCm": [
+            528.75,
+            97.58,
+            177.4
+          ],
+          "sameJointFrameIds": [
+            "170",
+            "286",
+            "304"
+          ],
+          "directRestraints": [],
+          "directSprings": []
+        }
+      },
+      "idealizedEndSupports": [
+        {
+          "frame": "163",
+          "lowJoint": "254",
+          "highJoint": "248",
+          "lowerCm": [
+            450.0,
+            321.58,
+            0.0
+          ],
+          "upperCm": [
+            450.0,
+            321.58,
+            20.0
+          ],
+          "restraintsAtLowJoint": {
+            "Joint": "254",
+            "U1": "YES",
+            "U2": "YES",
+            "U3": "YES",
+            "R1": "YES",
+            "R2": "YES",
+            "R3": "YES"
+          },
+          "connectedAtHighJoint": [
+            "21",
+            "163",
+            "303"
+          ]
+        },
+        {
+          "frame": "164",
+          "lowJoint": "260",
+          "highJoint": "256",
+          "lowerCm": [
+            540.0,
+            321.58,
+            0.0
+          ],
+          "upperCm": [
+            540.0,
+            321.58,
+            20.0
+          ],
+          "restraintsAtLowJoint": {
+            "Joint": "260",
+            "U1": "YES",
+            "U2": "YES",
+            "U3": "YES",
+            "R1": "YES",
+            "R2": "YES",
+            "R3": "YES"
+          },
+          "connectedAtHighJoint": [
+            "164",
+            "287",
+            "302"
+          ]
+        }
+      ]
+    }
+  },
+  "observedEndRestraint309": "Engastado",
+  "displayedLocalStiffnessMultipliers309": {
+    "flexion": 1,
+    "torsion": 1,
+    "axial": 1
+  },
+  "geometryMatchIsCrossRevision": true,
+  "fullCombinationEnvelopeInspected": false,
+  "sampleShowsGoverningAnchorageLength": false,
+  "BIMForcesMeasured": false,
+  "structuralApproval": false
+}
