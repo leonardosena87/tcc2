@@ -1,0 +1,32 @@
+[
+  {
+    "revisao": "R196",
+    "cenario": "Parede W08 integral",
+    "CAD_s": 7,
+    "BIM_s": 7,
+    "dimensionamento_CAD_s": 2,
+    "dimensionamento_BIM_s": 2,
+    "repeticoes_por_fluxo": 1,
+    "fonte": "h03-r196/R196-resultado.json"
+  },
+  {
+    "revisao": "R201",
+    "cenario": "ELS com rigidez fissurada e dimensionamento selecionado herdado",
+    "CAD_s": 9,
+    "BIM_s": 9,
+    "dimensionamento_CAD_s": 2,
+    "dimensionamento_BIM_s": 2,
+    "repeticoes_por_fluxo": 1,
+    "fonte": "h03-r201/README.md"
+  },
+  {
+    "revisao": "R205",
+    "cenario": "ELS com rigidez fissurada e dimensionamento integral",
+    "CAD_s": 10,
+    "BIM_s": 10,
+    "dimensionamento_CAD_s": 3,
+    "dimensionamento_BIM_s": 3,
+    "repeticoes_por_fluxo": 1,
+    "fonte": "h03-r205/R205-resultado.json"
+  }
+]
