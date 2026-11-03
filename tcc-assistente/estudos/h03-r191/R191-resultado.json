@@ -1,0 +1,173 @@
+{
+  "revision": "H03/R191",
+  "recordedAtUtc": "2026-11-03T14:11:00.900678+00:00",
+  "branch": "CAD",
+  "projectPath": "D:\\TCC\\outputs\\R191-CAD-ENSAIO-ANCORAGEM-ADJACENTE-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+  "projectSha256": "3df555df637fad8e4754711baff22a978ebb5dca8197107bbdb5a2983bd85d48",
+  "zipCrcValid": true,
+  "sourceProjectUnchanged": true,
+  "R182ControlHashesPreserved": true,
+  "intervention": {
+    "adjacentSlabAnchorageEnabled": true,
+    "retainedAfterSaveAndReopen": true,
+    "stateEvidence": "Capturas CAD-ancoragem-adjacente-confirmada-2.png e CAD-ancoragem-adjacente-reaberto-1.png; AX nao informa estado do checkbox",
+    "inheritedLowerOrdinaryBarHypotheticalWidthCm": 20,
+    "inheritedAnchorage": "gancho",
+    "geometryEdited": false,
+    "newPhysicalColumns": false,
+    "supportingConcreteDetailVerified": false,
+    "thresholdsRaisedToSuppressError": false
+  },
+  "integrity": {
+    "openingWarningObserved": true,
+    "nativeVerificationPerformed": true,
+    "recalculatedBeforeIntervention": true,
+    "nativeControlSaveConfirmed": false,
+    "excludedStaleControlCopy": "D:\\TCC\\outputs\\Escada-H03-R191-ANCORAGEM-ADJACENTE-NAO-EXECUTAR\\CAD-controle-apos-integridade.prj",
+    "excludedStaleCopySha256": "3887182d08439e5b1f38b92a393dd025f55d8c95dbbf9374bb94f9d16e4ddb5c",
+    "staleCopyExplanation": "Ctrl+S nao persistiu o controle recalculado. A copia tem bytes da fonte R189; nao e prova de salvamento do controle. Relatorio e AX registram o controle efetivamente processado.",
+    "finalSaveMethod": "Botao de disco, alteracao de hash e reabertura conferidas"
+  },
+  "stages": {
+    "controle": {
+      "reportSha256": "b0a6f6ec95d3f8edeb87b73a09631901310dcd285833a5e76193abfe814c467c",
+      "nativeReport": {
+        "levels": {
+          "N2": {
+            "nativeLevelName": "N2",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 15,
+                "reportedError": 0
+              },
+              "Lajes": {
+                "reportedSuccess": 5,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          },
+          "N1": {
+            "nativeLevelName": "N1",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 16,
+                "reportedError": 0
+              },
+              "Lajes": {
+                "reportedSuccess": 9,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          }
+        },
+        "nativeTotalSeconds": 7,
+        "nativeDimensioningSeconds": 2,
+        "dimensioningTimeIsIncludedInTotal": true,
+        "reportedSuccessMayIncludeWarnings": true,
+        "stairPassCannotBeInferredFromReportedSlabCounts": true
+      },
+      "observedTiming": {
+        "startUtc": "2026-11-03T13:44:48.861Z",
+        "firstConfirmedUtc": "2026-11-03T13:45:07.451Z",
+        "elapsedSeconds": 18.59,
+        "includesObservationLatency": true,
+        "isActiveWorkTime": false,
+        "completeFlowMeasured": false
+      },
+      "LE3": "D31/A11",
+      "failingDiametersMm": [
+        6.3,
+        8,
+        10,
+        12.5,
+        16
+      ]
+    },
+    "ensaio": {
+      "reportSha256": "311fefbf55db1cc22f2af35715a24229d5e6a396aeeb6f3f8dc98b05fa71eff9",
+      "nativeReport": {
+        "levels": {
+          "N2": {
+            "nativeLevelName": "N2",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 15,
+                "reportedError": 0
+              },
+              "Lajes": {
+                "reportedSuccess": 5,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          },
+          "N1": {
+            "nativeLevelName": "N1",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 16,
+                "reportedError": 0
+              },
+              "Lajes": {
+                "reportedSuccess": 9,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          }
+        },
+        "nativeTotalSeconds": 7,
+        "nativeDimensioningSeconds": 2,
+        "dimensioningTimeIsIncludedInTotal": true,
+        "reportedSuccessMayIncludeWarnings": true,
+        "stairPassCannotBeInferredFromReportedSlabCounts": true
+      },
+      "observedTiming": {
+        "startUtc": "2026-11-03T13:51:44.506Z",
+        "firstConfirmedUtc": "2026-11-03T13:52:01.923Z",
+        "elapsedSeconds": 17.417,
+        "includesObservationLatency": true,
+        "isActiveWorkTime": false,
+        "completeFlowMeasured": false
+      },
+      "LE3": "D31/A11",
+      "failingDiametersMm": [
+        6.3,
+        8,
+        10,
+        12.5,
+        16
+      ]
+    }
+  },
+  "nativeReportsEqual": true,
+  "LE3ErrorRetainedAfterReopen": true,
+  "LE3A11Resolved": false,
+  "interpretation": "Habilitar ancoragem adjacente nesta configuracao nao eliminou D31/A11. Nao identifica o bordo governante nem valida a ancoragem fisica.",
+  "inheritedShearCheckWaiverRequiresReview": true,
+  "BIMReplicatePerformed": false,
+  "freshGeometryAndLoadExportAudited": false,
+  "fullAnalyticalEquivalenceVerified": false,
+  "allStructuralElementsSuccessfullyDesigned": false,
+  "structuralApproval": false,
+  "fullPairedFlowComparisonFinished": false,
+  "wholeFlowProductivityRankingPermitted": false
+}

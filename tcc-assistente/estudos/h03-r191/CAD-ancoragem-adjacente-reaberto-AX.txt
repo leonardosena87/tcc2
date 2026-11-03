@@ -1,0 +1,143 @@
+Window: "AltoQi Eberick 2025 Infinity - [R191-CAD-ENSAIO-ANCORAGEM-ADJACENTE-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [R191-CAD-ENSAIO-ANCORAGEM-ADJACENTE-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		15293 diálogo Dimensionamento [Lajes] Secondary Actions: Raise
+			15294 grupo Armadura positiva
+			15295 text Comprimento mínimo do trecho
+			15296 editar (settable, string) Comprimento mínimo do trecho Value: 100 ID: 3001
+			15297 text cm
+			15298 text Espaçamento máximo
+			15299 text Principal
+			15300 editar (settable, string) Principal Value: 20 ID: 3026
+			15301 text cm
+			15302 text Secundária
+			15303 editar (settable, string) Secundária Value: 25 ID: 3027
+			15304 text cm
+			15305 grupo Ancoragem
+			15306 text Momento positivo mínimo a ser considerado na ancoragem
+			15307 editar (settable, string) Momento positivo mínimo a ser considerado na ancoragem Value: 100 ID: 3071
+			15308 text Kgf.m
+			15309 text Tração mínima a ser considerada na ancoragem
+			15310 editar (settable, string) Tração mínima a ser considerada na ancoragem Value: 100 ID: 3072
+			15311 text Kgf/m
+			15312 caixa de seleção Permitir ancoragem na laje adjacente ID: 3073
+			15313 grupo Aberturas ID: 3076
+			15314 caixa de seleção Dispensar armadura de reforço em aberturas circulares ID: 3077
+			15315 caixa de seleção Permitir abertura interceptando nervura em laje pré-fabricada ID: 3078
+			15316 grupo Armadura das continuidades
+			15317 text Diâmetro mínimo
+			15318 caixa de combinação (settable, string) Diâmetro mínimo Value: 6.3 ID: 3008
+				15319 text (settable, string) Diâmetro mínimo Value: 6.3
+				15320 botão Abrir ID: DropDown
+			15321 text Espaçamento máximo
+			15322 editar (settable, string) Espaçamento máximo Value: 20 ID: 3012
+			15323 text cm
+			15324 grupo Cisalhamento
+			15325 caixa de seleção Dispensar verificação ao cisalhamento ID: 3062
+			15326 text Espaçamento múltiplo
+			15327 caixa de combinação (settable, string) Espaçamento múltiplo Value: 1.0 ID: 3042
+				15328 text (settable, string) Espaçamento múltiplo Value: 1.0
+				15329 botão Abrir ID: DropDown
+			15330 text cm
+			15331 text Espaçamento mínimo
+			15332 editar (settable, string) Espaçamento mínimo Value: 5 ID: 3045
+			15333 text cm
+			15334 text Espaçamento máximo
+			15335 botão de opção (selectable) Definido por norma ID: 3048
+			15336 botão de opção (selectable) Adotar ID: 3049
+			15337 editar (disabled, settable, string) Value: 50 ID: 3051
+			15338 text % d
+			15339 botão Limites... ID: 3084
+			15340 botão Coeficientes... ID: 3081
+			15341 botão Nervuras... ID: 3080
+			15342 botão Regiões... ID: 3083
+			15343 botão Punção... ID: 3082
+			15344 botão Radier... ID: 3090
+			15345 botão OK ID: 1
+			15346 botão Cancelar ID: 2
+			15347 botão Ajuda ID: 9
+			15348 tabulação ID: 12320
+				15349 item de tabulação (selectable) Pilares e NR
+				15350 item de tabulação (selectable) Pilares PM
+				15351 item de tabulação (selectable) Vigas
+				15352 item de tabulação (selectable) Vigas PM
+				15353 item de tabulação (selectable) Lajes
+				15354 item de tabulação (selectable) Sapatas
+				15355 item de tabulação (selectable) Blocos
+				15356 item de tabulação (selectable) Muros
+				15357 item de tabulação (selectable) Alvenaria
+				15358 item de tabulação (selectable) Protensão
+			15359 barra de título (settable, string) Value: Dimensionamento [Lajes]
+				15360 botão Ajuda de contexto
+		45 Barra de status
+		46 painel
+			47 botão de divisão
+				48 elevador
+				49 painel
+					50 tabulação Notícias
+						15363 item de tabulação (selectable) Notícias
+					52 painel
+						14993 painel
+							14994 painel (disabled) status.altoqi.com.br
+								14995 painel (disabled)
+								14996 região status.altoqi.com.br - Conteúdo da Web
+									14997 região
+										14998 região
+										14999 região
+											15000 região
+												15001 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													15002 gráfico
+													15003 título Hum… Não consigo chegar a esta página
+													15004 text status.altoqi.com.br
+													15005 text se recusou a se conectar.
+													15006 text Tente:
+													15007 Lista
+														15008 item de lista •Verificando a conexão
+														15009 item de lista •Verificação de proxy e firewall
+															15010 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													15011 text ERR_CONNECTION_REFUSED
+													15012 botão Atualizar ID: reload-button
+													15013 text Microsoft Edge
+												15014 região
+				75 painel
+					76 tabulação
+						15364 item de tabulação (selectable)
+					78 painel
+						79 janela Edificação Secondary Actions: Raise
+							80 painel
+								81 painel Projeto
+									82 painel
+									15186 árvore ID: 101
+										15187 item da árvore (selectable, disabled) Pavimentos
+											15188 item da árvore (selectable, disabled) N2
+											15189 item da árvore (selectable, disabled) N1
+											15190 item da árvore (selectable, disabled) N0
+										15191 item da árvore (selectable, disabled) Pilares em prumada
+										15192 item da árvore (selectable, disabled) Cortes
+										15193 item da árvore (selectable, disabled) Gerenciador de desenhos
+										15194 item da árvore (selectable, disabled) Modelos 3D
+		92 barra de menus
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```
+
+Focused element: 15293 diálogo Dimensionamento [Lajes] Secondary Actions: Raise
+
+Document text:
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge

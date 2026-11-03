@@ -1,0 +1,157 @@
+Window: "AltoQi Eberick 2025 Infinity - [R191-CAD-ENSAIO-ANCORAGEM-ADJACENTE-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [R191-CAD-ENSAIO-ANCORAGEM-ADJACENTE-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		14670 diálogo Dimensionamento [Lajes] Secondary Actions: Raise
+			14671 grupo Armadura positiva
+			14672 text Comprimento mínimo do trecho
+			14673 editar (settable, string) Comprimento mínimo do trecho Value: 100 ID: 3001
+			14674 text cm
+			14675 text Espaçamento máximo
+			14676 text Principal
+			14677 editar (settable, string) Principal Value: 20 ID: 3026
+			14678 text cm
+			14679 text Secundária
+			14680 editar (settable, string) Secundária Value: 25 ID: 3027
+			14681 text cm
+			14682 grupo Ancoragem
+			14683 text Momento positivo mínimo a ser considerado na ancoragem
+			14684 editar (settable, string) Momento positivo mínimo a ser considerado na ancoragem Value: 100 ID: 3071
+			14685 text Kgf.m
+			14686 text Tração mínima a ser considerada na ancoragem
+			14687 editar (settable, string) Tração mínima a ser considerada na ancoragem Value: 100 ID: 3072
+			14688 text Kgf/m
+			14689 caixa de seleção Permitir ancoragem na laje adjacente ID: 3073
+			14690 grupo Aberturas ID: 3076
+			14691 caixa de seleção Dispensar armadura de reforço em aberturas circulares ID: 3077
+			14692 caixa de seleção Permitir abertura interceptando nervura em laje pré-fabricada ID: 3078
+			14693 grupo Armadura das continuidades
+			14694 text Diâmetro mínimo
+			14695 caixa de combinação (settable, string) Diâmetro mínimo Value: 6.3 ID: 3008
+				14696 text (settable, string) Diâmetro mínimo Value: 6.3
+				14697 botão Abrir ID: DropDown
+			14698 text Espaçamento máximo
+			14699 editar (settable, string) Espaçamento máximo Value: 20 ID: 3012
+			14700 text cm
+			14701 grupo Cisalhamento
+			14702 caixa de seleção Dispensar verificação ao cisalhamento ID: 3062
+			14703 text Espaçamento múltiplo
+			14704 caixa de combinação (settable, string) Espaçamento múltiplo Value: 1.0 ID: 3042
+				14705 text (settable, string) Espaçamento múltiplo Value: 1.0
+				14706 botão Abrir ID: DropDown
+			14707 text cm
+			14708 text Espaçamento mínimo
+			14709 editar (settable, string) Espaçamento mínimo Value: 5 ID: 3045
+			14710 text cm
+			14711 text Espaçamento máximo
+			14712 botão de opção (selectable) Definido por norma ID: 3048
+			14713 botão de opção (selectable) Adotar ID: 3049
+			14714 editar (disabled, settable, string) Value: 50 ID: 3051
+			14715 text % d
+			14716 botão Limites... ID: 3084
+			14717 botão Coeficientes... ID: 3081
+			14718 botão Nervuras... ID: 3080
+			14719 botão Regiões... ID: 3083
+			14720 botão Punção... ID: 3082
+			14721 botão Radier... ID: 3090
+			14722 botão OK ID: 1
+			14723 botão Cancelar ID: 2
+			14724 botão Ajuda ID: 9
+			14725 tabulação ID: 12320
+				14726 item de tabulação (selectable) Pilares e NR
+				14727 item de tabulação (selectable) Pilares PM
+				14728 item de tabulação (selectable) Vigas
+				14729 item de tabulação (selectable) Vigas PM
+				14730 item de tabulação (selectable) Lajes
+				14731 item de tabulação (selectable) Sapatas
+				14732 item de tabulação (selectable) Blocos
+				14733 item de tabulação (selectable) Muros
+				14734 item de tabulação (selectable) Alvenaria
+				14735 item de tabulação (selectable) Protensão
+			14736 barra de título (settable, string) Value: Dimensionamento [Lajes]
+				14737 botão Ajuda de contexto
+		45 Barra de status
+		46 painel
+			47 botão de divisão
+				48 elevador
+				49 painel
+					50 tabulação Escadas-N1
+						14741 item de tabulação (selectable) Notícias
+						14742 item de tabulação (selectable) Escadas-N1
+					52 painel
+						13994 painel
+							13995 painel Projeto
+								13996 painel PaneSplitter
+									13997 painel HSplitter
+										13998 painel paneTabela
+											13999 painel ID: 901
+												14000 painel
+													14001 editar Value: E1 ID: 40338
+												14002 painel
+												14003 painel
+												14004 barra de rolagem (settable, float) Value: 0
+													14005 botão Uma linha acima ID: UpButton
+													14006 botão Uma página acima ID: UpPageButton
+													14007 elevador Posição ID: ScrollbarThumb
+													14008 botão Uma página abaixo ID: DownPageButton
+													14009 botão Uma linha abaixo ID: DownButton
+											14010 painel ID: 10012
+												14011 painel
+												14012 painel
+												14013 painel
+												14014 barra de rolagem (settable, float) Value: 0
+													14015 botão Uma linha acima ID: UpButton
+													14016 botão Uma página acima ID: UpPageButton
+													14017 elevador Posição ID: ScrollbarThumb
+													14018 botão Uma página abaixo ID: DownPageButton
+													14019 botão Uma linha abaixo ID: DownButton
+											14337 painel ID: 10012
+												14338 painel
+												14339 painel
+												14340 painel
+												14341 barra de rolagem (settable, float) Value: 0
+													14342 botão Uma linha acima ID: UpButton
+													14343 botão Uma página acima ID: UpPageButton
+													14344 elevador Posição ID: ScrollbarThumb
+													14345 botão Uma página abaixo ID: DownPageButton
+													14346 botão Uma linha abaixo ID: DownButton
+											14020 painel ID: 1439
+											14021 painel ID: 2041
+											14022 painel ID: 2043
+											14023 painel ID: 26581
+											14024 painel ID: 26630
+											14025 painel ID: 26621
+											14026 painel (disabled) ID: 1440
+											14027 painel ID: 1435
+											14028 painel ID: 1436
+											14029 painel ID: 1441
+											14030 painel ID: 2046
+											14031 painel ID: 1100
+										14032 painel VSplitter
+											14033 painel paneCroqui
+												14034 painel CAD
+													14035 painel
+											14036 painel paneCAD
+												14037 painel CAD
+													14038 painel
+												14039 text Laje LE3 Erro D31 - Erro no cálculo da armadura principal (direção X). ID: 410
+				75 painel
+					76 tabulação
+						14743 item de tabulação (selectable)
+					78 painel
+						79 janela Edificação Secondary Actions: Raise
+							80 painel
+								81 painel Projeto
+									82 painel
+									13796 árvore ID: 101
+										14415 item da árvore (selectable, disabled) Pavimentos
+											14416 item da árvore (selectable, disabled) N2
+											14417 item da árvore (selectable, disabled) N1
+											14418 item da árvore (selectable, disabled) N0
+										14419 item da árvore (selectable, disabled) Pilares em prumada
+										14420 item da árvore (selectable, disabled) Cortes
+										14421 item da árvore (selectable, disabled) Gerenciador de desenhos
+										14422 item da árvore (selectable, disabled) Modelos 3D
+		92 barra de menus
+
+The focused UI element is 14670 diálogo Dimensionamento [Lajes] Secondary Actions: Raise.
+
+Focused element: 14670 diálogo Dimensionamento [Lajes] Secondary Actions: Raise

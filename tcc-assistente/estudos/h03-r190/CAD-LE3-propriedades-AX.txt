@@ -1,0 +1,215 @@
+Window: "AltoQi Eberick 2025 Infinity - [R189-CAD-SENSIBILIDADE-APOIO-LE3-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [R189-CAD-SENSIBILIDADE-APOIO-LE3-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		11103 diálogo Lance de escada Secondary Actions: Raise
+			11104 grupo ID: 991
+			11105 text Nome ID: 992
+			11106 editar (settable, string) Nome Value: LE3 ID: 993
+			11107 text Escada ID: 994
+			11108 caixa de combinação (settable, string) Escada Value: E1 ID: 995
+				11109 text (settable, string) Escada Value: E1
+				11110 botão Abrir ID: DropDown
+			11111 botão + ID: 996
+			11112 botão Grelha... ID: 997
+			11113 grupo Cargas ID: 1100
+			11114 text Grupo ID: 1234
+			11115 caixa de combinação (settable, string) Grupo Value: Nenhum ID: 1235
+				11116 text (settable, string) Grupo Value: Nenhum
+				11117 botão Abrir ID: DropDown
+			11118 text Acidental ID: 1101
+			11119 editar (settable, string) Acidental Value: 2.5 ID: 1102
+			11120 text kN/m² ID: 1103
+			11121 text Extra ID: 1108
+			11122 editar (disabled, settable, string) Extra Value: 0 ID: 1109
+			11123 text kN/m² ID: 1110
+			11124 text Temperatura e retração ID: 1282
+			11125 editar (disabled, settable, string) Temperatura e retração Value: 0 ID: 1113
+			11126 text °C ID: 1114
+			11127 text °C ID: 1115
+			11128 text Revestimento ID: 1104
+			11129 editar (settable, string) Revestimento Value: 1 ID: 1105
+			11130 text kN/m² ID: 1106
+			11131 botão ... ID: 1107
+			11132 botão Editar... ID: 1111
+			11133 botão Remover ID: 1112
+			11134 botão Editar... ID: 1280
+			11135 botão Remover ID: 1281
+			11136 grupo Seção ID: 1120
+			11137 text Tipo ID: 1121
+			11138 caixa de combinação (settable, string) Tipo Value: Fundo plano ID: 1122
+				11139 text (settable, string) Tipo Value: Fundo plano
+				11140 botão Abrir ID: DropDown
+			11141 text Espessura ID: 1123
+			11142 editar (settable, string) Espessura Value: 14 ID: 1124
+			11143 text cm ID: 1125
+			11144 text Piso ID: 1126
+			11145 editar (settable, string) Piso Value: 28 ID: 1127
+			11146 text cm ID: 1128
+			11147 text Espelho ID: 1129
+			11148 editar (settable, string) Espelho Value: 17.825 ID: 1130
+			11149 text cm ID: 1131
+			11150 text Primeira face ID: 1132
+			11151 editar (settable, string) Primeira face Value: 0 ID: 1133
+			11152 text cm ID: 1134
+			11153 text cm ID: 1135
+			11154 botão Ajustar... ID: 1136
+			11155 botão OK ID: 1
+			11156 botão Cancelar ID: 2
+			11157 botão Desenho... ID: 547
+			11158 botão Ajuda ID: 9
+			11159 barra de título (settable, string) Value: Lance de escada
+		45 Barra de status
+			11316 custom
+				11317 text Editar
+				11318 editar (settable, string)
+				11319 text 489.0,218.9
+				11320 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					11321 Lista
+						11322 item de lista (selectable) 1:1
+						11323 item de lista (selectable) 1:2
+						11324 item de lista (selectable) 1:5
+						11325 item de lista (selectable) 1:10
+						11326 item de lista (selectable) 1:12.5
+						11327 item de lista (selectable) 1:15
+						11328 item de lista (selectable) 1:20
+						11329 item de lista (selectable) 1:25
+						11330 item de lista (selectable) 1:30
+						11331 item de lista (selectable) 1:40
+						11332 item de lista (selectable) 1:50
+						11333 item de lista (selectable) 1:60
+						11334 item de lista (selectable) 1:75
+						11335 item de lista (selectable) 1:100
+						11336 item de lista (selectable) 1:200
+						11337 item de lista (selectable) 1:250
+						11338 item de lista (selectable) 1:500
+						11339 item de lista (selectable) 1:1000
+			11340 botão Atualizar
+			11341 botão Enquadrar
+			11342 botão Aproximar
+			11343 botão Afastar
+			11344 botão Zoom
+			11345 botão Zoom anterior
+			11346 botão Deslocar
+			11347 caixa de seleção Ortogonal
+			11348 caixa de seleção Captura personalizada
+			11349 botão Opções da captura personalizada
+			11350 caixa de seleção Quadrante
+			11351 caixa de seleção Centro
+			11352 caixa de seleção Ponto médio
+			11353 caixa de seleção Extremidade
+			11354 caixa de seleção Ponto no elemento
+			11355 caixa de seleção Intersecção
+			11356 caixa de seleção Perpendicular
+			11357 caixa de seleção Ponto intermediário
+			11358 caixa de seleção Ponto quadrante
+			11359 caixa de seleção Ponto na intersecção
+			11360 caixa de seleção Ponto relativo
+		46 painel
+			47 botão de divisão
+				48 elevador
+				49 painel
+					50 tabulação Croqui-N1 (altura 157.4)
+						11361 item de tabulação (selectable) Notícias
+						11362 item de tabulação (selectable) Croqui-N0
+						11363 item de tabulação (selectable) Escadas-N1
+						11364 item de tabulação (selectable) Grelha-Escadas-N1
+						11365 item de tabulação (selectable) Croqui-N1 (altura 157.4)
+					52 painel
+						11098 painel
+							11099 painel Croqui-N1 (altura 157.4)
+								11100 painel TCadPlotWindow
+				75 painel
+					76 tabulação
+						11366 item de tabulação (selectable)
+						11367 item de tabulação (selectable)
+					78 painel
+						79 janela Edificação Secondary Actions: Raise
+							80 painel
+								81 painel Projeto
+									82 painel
+									2432 árvore ID: 101
+										5120 item da árvore (selectable, disabled) Pavimentos
+											5121 item da árvore (selectable, disabled) N2
+											4068 item da árvore (selectable, disabled) N1
+												5273 item da árvore (selectable, disabled) Croqui
+												5274 item da árvore (selectable, disabled) Croqui (altura 157.4)
+												5275 item da árvore (selectable, disabled) Forma
+												5276 item da árvore (selectable, disabled) Forma (altura 157.4)
+												5277 item da árvore (selectable, disabled) Desenho
+												5278 item da árvore (selectable, disabled) Lajes
+												5279 item da árvore (selectable, disabled) Escadas
+												5280 item da árvore (selectable, disabled) Pilares
+												5281 item da árvore (selectable, disabled) Vigas
+											5122 item da árvore (selectable, disabled) N0
+										5123 item da árvore (selectable, disabled) Pilares em prumada
+										5124 item da árvore (selectable, disabled) Cortes
+										4066 item da árvore (selectable, disabled) Gerenciador de desenhos
+										5125 item da árvore (selectable, disabled) Modelos 3D
+		92 barra de menus
+		11103 diálogo Lance de escada Secondary Actions: Raise
+			11104 grupo ID: 991
+			11105 text Nome ID: 992
+			11106 editar (settable, string) Nome Value: LE3 ID: 993
+			11107 text Escada ID: 994
+			11108 caixa de combinação (settable, string) Escada Value: E1 ID: 995
+				11109 text (settable, string) Escada Value: E1
+				11110 botão Abrir ID: DropDown
+			11111 botão + ID: 996
+			11112 botão Grelha... ID: 997
+			11113 grupo Cargas ID: 1100
+			11114 text Grupo ID: 1234
+			11115 caixa de combinação (settable, string) Grupo Value: Nenhum ID: 1235
+				11116 text (settable, string) Grupo Value: Nenhum
+				11117 botão Abrir ID: DropDown
+			11118 text Acidental ID: 1101
+			11119 editar (settable, string) Acidental Value: 2.5 ID: 1102
+			11120 text kN/m² ID: 1103
+			11121 text Extra ID: 1108
+			11122 editar (disabled, settable, string) Extra Value: 0 ID: 1109
+			11123 text kN/m² ID: 1110
+			11124 text Temperatura e retração ID: 1282
+			11125 editar (disabled, settable, string) Temperatura e retração Value: 0 ID: 1113
+			11126 text °C ID: 1114
+			11127 text °C ID: 1115
+			11128 text Revestimento ID: 1104
+			11129 editar (settable, string) Revestimento Value: 1 ID: 1105
+			11130 text kN/m² ID: 1106
+			11131 botão ... ID: 1107
+			11132 botão Editar... ID: 1111
+			11133 botão Remover ID: 1112
+			11134 botão Editar... ID: 1280
+			11135 botão Remover ID: 1281
+			11136 grupo Seção ID: 1120
+			11137 text Tipo ID: 1121
+			11138 caixa de combinação (settable, string) Tipo Value: Fundo plano ID: 1122
+				11139 text (settable, string) Tipo Value: Fundo plano
+				11140 botão Abrir ID: DropDown
+			11141 text Espessura ID: 1123
+			11142 editar (settable, string) Espessura Value: 14 ID: 1124
+			11143 text cm ID: 1125
+			11144 text Piso ID: 1126
+			11145 editar (settable, string) Piso Value: 28 ID: 1127
+			11146 text cm ID: 1128
+			11147 text Espelho ID: 1129
+			11148 editar (settable, string) Espelho Value: 17.825 ID: 1130
+			11149 text cm ID: 1131
+			11150 text Primeira face ID: 1132
+			11151 editar (settable, string) Primeira face Value: 0 ID: 1133
+			11152 text cm ID: 1134
+			11153 text cm ID: 1135
+			11154 botão Ajustar... ID: 1136
+			11155 botão OK ID: 1
+			11156 botão Cancelar ID: 2
+			11157 botão Desenho... ID: 547
+			11158 botão Ajuda ID: 9
+			11159 barra de título (settable, string) Value: Lance de escada
+
+Document text: ```
+Editar
+489.0,218.9
+```
+
+Focused element: 11103 diálogo Lance de escada Secondary Actions: Raise
+
+Document text:
+Editar
+489.0,218.9
