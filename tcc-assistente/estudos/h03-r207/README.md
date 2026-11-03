@@ -38,3 +38,14 @@ Procedimento operacional consultado: [AltoQi — cargas em um trecho de viga](ht
 Após reabrir o BIM salvo, consultou-se a planilha da V16. O painel Nó exibiu momentos negativos de -21,28 / -18,15 / -19,21 / -22,36 kN.m, com 4 phi 8 nos três primeiros pontos e 3 phi 10 no último. O painel Vão exibiu comprimento livre de 195 cm, Md positivo 17,19 kN.m e armadura inferior de 2 phi 10; o painel Cisalhamento mostrou estribos mínimos phi 6,3 c/15 cm, dois ramos. São dados de saída do programa para esta hipótese, sujeitos à revisão dos avisos globais e da distribuição equivalente. As capturas foram preservadas.
 
 Na V2, o painel Nó exibiu -5,61 / -36,97 / -31,18 kN.m em P6/P5/P4 e D16 nas células de armadura superior. Consultado o resultado de bitolas no P5, o programa mostrou A07 (taxa de armadura acima da configurada) para 8, 10, 12,5, 16 e 20 mm. Não se aumentou esse limite. A consulta confirma que trocar a bitola isoladamente não resolveu esse apoio; a revisão de concepção permanece necessária.
+
+
+## Sensibilidade da aproximação da parede
+
+Calculou-se isoladamente uma viga prismática de Euler-Bernoulli com L = 2,13 m e EI constante, sob a parcela W08. A parede real ocupa x = 0,09 a 2,04 m, com q = 6,75454 kN/m. O ensaio utiliza q = 1,23 / 6,7545 / 1,23 kN/m nos intervalos 0–0,11 / 0,11–2,02 / 2,02–2,13 m.
+
+Integrou-se exatamente q vezes as funções de Hermite N = [1−3s²+2s³; L(s−2s²+s³); 3s²−2s³; L(−s²+s³)], com s = x/L. A diferença no vetor equivalente foi [0,000171 kN; −0,00570233 kN.m; 0,000171 kN; +0,00570233 kN.m]. Verificou-se o equilíbrio de resultantes e a simetria por asserções numéricas.
+
+Para a condição simplesmente apoiada, utilizou-se M(x) = W x/2 − Σ q [(x−a)positivo² − (x−b)positivo²]/2. Os extremos da diferença foram avaliados nas mudanças de carga e nas raízes da diferença de cortante. O maior módulo da diferença de momento foi 0,00609003 kN.m. Para a condição biengastada, subtraiu-se o momento equivalente de extremidade, obtendo-se 0,00570234 kN.m de maior diferença absoluta. Os pontos críticos e os vetores constam de R207-sensibilidade-viga-isolada.json.
+
+Esse teste quantifica uma pequena perturbação local em duas condições idealizadas e apoia o uso do ensaio como aproximação acadêmica. Não demonstra convergência ou limita os efeitos no pórtico espacial, nas lajes, na torção, na fissuração e na interação com a escada. A conclusão do projeto depende da revisão global e das pendências já registradas.

@@ -1,0 +1,124 @@
+{
+  "scope": "Sensibilidade isolada da carga W08 em viga prismatica Euler-Bernoulli de 2.13m, EI constante. Nao resolve portico Eberick, grelha, fissuracao, torcao ou dimensionamento.",
+  "actual_loads_m_kN_m": [
+    [
+      0.09,
+      2.04,
+      6.75454
+    ]
+  ],
+  "equivalent_loads_m_kN_m": [
+    [
+      0,
+      0.11,
+      1.23
+    ],
+    [
+      0.11,
+      2.02,
+      6.7545
+    ],
+    [
+      2.02,
+      2.13,
+      1.23
+    ]
+  ],
+  "Hermite_equivalent_vector_actual_kN_kNm": [
+    6.585676499999999,
+    2.5271374118661964,
+    6.585676500000003,
+    -2.5271374118661964
+  ],
+  "Hermite_equivalent_vector_model_kN_kNm": [
+    6.585847500000001,
+    2.5214350838615003,
+    6.585847499999999,
+    -2.521435083861502
+  ],
+  "vector_difference": [
+    0.00017100000000169757,
+    -0.005702328004696167,
+    0.0001709999999963685,
+    0.00570232800469439
+  ],
+  "simply_supported_critical_points": [
+    {
+      "x_m": 0,
+      "delta_moment_kNm": 0.0
+    },
+    {
+      "x_m": 0.09,
+      "delta_moment_kNm": -0.0049661100000000236
+    },
+    {
+      "x_m": 0.11,
+      "delta_moment_kNm": -0.0060717819999999145
+    },
+    {
+      "x_m": 2.02,
+      "delta_moment_kNm": -0.006071782000001136
+    },
+    {
+      "x_m": 2.04,
+      "delta_moment_kNm": -0.004966109999998025
+    },
+    {
+      "x_m": 2.13,
+      "delta_moment_kNm": 3.552713678800501e-15
+    },
+    {
+      "x_m": 0.0001390243902438384,
+      "delta_moment_kNm": 1.1886585365842618e-08
+    },
+    {
+      "x_m": 1.064999999985123,
+      "delta_moment_kNm": -0.00609002249999957
+    },
+    {
+      "x_m": 2.129860975609756,
+      "delta_moment_kNm": 1.1886584161402425e-08
+    }
+  ],
+  "fixed_fixed_critical_points": [
+    {
+      "x_m": 0,
+      "delta_moment_kNm": 0.005702328004696167
+    },
+    {
+      "x_m": 0.09,
+      "delta_moment_kNm": 0.0007362180046961431
+    },
+    {
+      "x_m": 0.11,
+      "delta_moment_kNm": -0.0003694539953037479
+    },
+    {
+      "x_m": 2.02,
+      "delta_moment_kNm": -0.00036945399530496914
+    },
+    {
+      "x_m": 2.04,
+      "delta_moment_kNm": 0.0007362180046981415
+    },
+    {
+      "x_m": 2.13,
+      "delta_moment_kNm": 0.005702328004699719
+    },
+    {
+      "x_m": 0.0001390243902438384,
+      "delta_moment_kNm": 0.005702339891281533
+    },
+    {
+      "x_m": 1.064999999985123,
+      "delta_moment_kNm": -0.0003876944953034034
+    },
+    {
+      "x_m": 2.129860975609756,
+      "delta_moment_kNm": 0.005702339891280328
+    }
+  ],
+  "max_abs_delta_moment_simply_supported_kNm": 0.00609002249999957,
+  "max_abs_delta_moment_fixed_fixed_kNm": 0.005702339891281533,
+  "method": "Integracao exata de polinomios cubicos de Hermite; extremos de diferenca de momento nos pontos de quebra de carga e nas raizes de diferenca de cortante. Sinal de carga positivo para baixo."
+}
