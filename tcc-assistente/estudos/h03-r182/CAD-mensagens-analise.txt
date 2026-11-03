@@ -1,0 +1,160 @@
+
+
+Mensagens da análise
+
+CONSTRUÇÃO DO MODELO ESTRUTURAL
+    Pavimento N0 construído com sucesso
+    Pavimento N1 construído com sucesso
+    Pavimento N2 construído com sucesso
+    Tempo consumido na construção do modelo: 00:00:00
+
+CÁLCULO DOS PAINÉIS DE LAJES
+
+    PAVIMENTO N2 - calculado por Grelha
+    Número de nós: 412
+    Largura da semi-banda: 14
+    Matriz de rigidez: 1225 x 85 (0.80 Mb)
+    Bloco mínimo de memória: 0.06 Mb
+    Quantidade de memória física disp.: 7267.04 Mb
+    Matriz de rigidez: memória física
+
+    Verificação da precisão do cálculo
+        Nenhuma diferença encontrada.
+
+    Tempo de processamento do pórtico: 00:00:00
+
+    PAVIMENTO N1 - calculado por Grelha
+    Número de nós: 448
+    Largura da semi-banda: 13
+    Matriz de rigidez: 1333 x 78 (0.80 Mb)
+    Bloco mínimo de memória: 0.05 Mb
+    Quantidade de memória física disp.: 7259.56 Mb
+    Matriz de rigidez: memória física
+
+    Verificação da precisão do cálculo
+        Nenhuma diferença encontrada.
+
+    Tempo de processamento do pórtico: 00:00:00
+    Número de nós: 261
+    Largura da semi-banda: 34
+    Matriz de rigidez: 1499 x 204 (2.35 Mb)
+    Bloco mínimo de memória: 0.32 Mb
+    Quantidade de memória física disp.: 7209.34 Mb
+    Matriz de rigidez: memória física
+
+    Verificação da precisão do cálculo
+        Nenhuma diferença encontrada.
+
+    Tempo de processamento do pórtico: 00:00:00
+
+    PAVIMENTO N0 - nenhuma laje no pavimento
+    Tempo consumido no cálculo dos painéis: 00:00:01
+
+PROCESSAMENTO DO PÓRTICO ESPACIAL
+    Número de nós: 84
+    Largura da semi-banda: 25
+    Matriz de rigidez: 447 x 150 (0.52 Mb)
+    Bloco mínimo de memória: 0.17 Mb
+    Quantidade de memória física disp.: 7212.49 Mb
+    Matriz de rigidez: memória física
+
+    Verificação da precisão do cálculo
+        Nenhuma diferença encontrada.
+
+    Verificação de estabilidade (Gama-Z)
+        X+ = 1.07 (limite 1.10)
+        X- = 1.07 (limite 1.10)
+        Y+ = 1.07 (limite 1.10)
+        Y- = 1.07 (limite 1.10)
+
+    Imperfeições geométricas globais
+        Desaprumo global
+            1/363
+        Deslocamento médio no topo
+            Eixo X: 0.08
+            Eixo Y: 0.07
+
+    Cálculo do efeito P-Delta
+
+        Deslocamentos médios no pavimento N2
+
+        Antes da 1ª iteração 
+            Acidental: dx = 0.01, dy = 0.01
+            Vento X+: dx = 0.74, dy = 0.00
+            Vento X-: dx = -0.74, dy = 0.00
+            Vento Y+: dx = 0.00, dy = 1.06
+            Vento Y-: dx = 0.00, dy = -1.06
+            Desaprumo X+: dx = 0.08, dy = 0.00
+            Desaprumo X-: dx = -0.08, dy = 0.00
+            Desaprumo Y+: dx = 0.00, dy = 0.07
+            Desaprumo Y-: dx = 0.00, dy = -0.07
+            Q_TELHADO_MANUTENCAO: dx = 0.00, dy = 0.00
+
+        Antes da 2ª iteração 
+            Acidental: dx = 0.01, dy = 0.01
+            Vento X+: dx = 0.82, dy = 0.00
+            Vento X-: dx = -0.82, dy = 0.00
+            Vento Y+: dx = 0.00, dy = 1.15
+            Vento Y-: dx = 0.00, dy = -1.15
+            Desaprumo X+: dx = 0.08, dy = 0.00
+            Desaprumo X-: dx = -0.08, dy = 0.00
+            Desaprumo Y+: dx = 0.00, dy = 0.07
+            Desaprumo Y-: dx = 0.00, dy = -0.07
+            Q_TELHADO_MANUTENCAO: dx = 0.00, dy = 0.00
+
+        Antes da 3ª iteração 
+            Acidental: dx = 0.01, dy = 0.01
+            Vento X+: dx = 0.82, dy = 0.00
+            Vento X-: dx = -0.82, dy = 0.00
+            Vento Y+: dx = 0.00, dy = 1.15
+            Vento Y-: dx = 0.00, dy = -1.15
+            Desaprumo X+: dx = 0.09, dy = 0.00
+            Desaprumo X-: dx = -0.09, dy = 0.00
+            Desaprumo Y+: dx = 0.00, dy = 0.07
+            Desaprumo Y-: dx = 0.00, dy = -0.07
+            Q_TELHADO_MANUTENCAO: dx = 0.00, dy = 0.00
+
+        Resultado final
+            Acidental: dx = 0.01, dy = 0.01
+            Vento X+: dx = 0.83, dy = 0.00
+            Vento X-: dx = -0.83, dy = 0.00
+            Vento Y+: dx = 0.00, dy = 1.15
+            Vento Y-: dx = 0.00, dy = -1.15
+            Desaprumo X+: dx = 0.09, dy = 0.00
+            Desaprumo X-: dx = -0.09, dy = 0.00
+            Desaprumo Y+: dx = 0.00, dy = 0.07
+            Desaprumo Y-: dx = 0.00, dy = -0.07
+            Q_TELHADO_MANUTENCAO: dx = 0.00, dy = 0.00
+
+    Tempo de processamento do pórtico: 00:00:00
+    Quantidade de memória física disp.: 7179.61 Mb
+    Matriz de rigidez: memória física
+
+DIMENSIONAMENTO DOS ELEMENTOS
+
+Pavimento N2
+    Pilares: 11 Com sucesso
+    Vigas: 15 Com sucesso
+    Lajes: 5 Com sucesso
+
+Pavimento N1
+    Pilares: 11 Com sucesso
+    Vigas: 16 Com sucesso
+    Lajes: 9 Com sucesso
+
+    Tempo de dimensionamento dos elementos: 00:00:02
+
+CÁLCULO DAS FLECHAS NO PÓRTICO
+    Número de nós: 84
+    Largura da semi-banda: 25
+    Matriz de rigidez: 447 x 150 (0.52 Mb)
+    Bloco mínimo de memória: 0.17 Mb
+    Quantidade de memória física disp.: 7184.43 Mb
+    Matriz de rigidez: memória física
+
+    Verificação da precisão do cálculo
+        Nenhuma diferença encontrada.
+
+    Tempo consumido no cálculo das flechas no pórtico: 00:00:00
+
+Tempo total de processamento: 00:00:07

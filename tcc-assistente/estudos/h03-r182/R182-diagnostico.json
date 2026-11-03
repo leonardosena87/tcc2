@@ -1,0 +1,288 @@
+{
+  "revision": "H03/R182",
+  "recordedAtUtc": "2026-11-03T04:58:50.002818+00:00",
+  "branches": {
+    "CAD": {
+      "projectPath": "D:\\TCC\\outputs\\R182-CAD-DIAGNOSTICO-DIMENSIONAMENTO-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "projectSha256": "63b0428c15652b4baf0695dfd33f9619c0a60652f4a9342c14c5d36e3f6d3351",
+      "projectZipValid": true,
+      "sourceR178FilesUnchanged": 24,
+      "nativeReportPath": "D:\\TCC\\outputs\\Diagnostico-H03-R182-DIMENSIONAMENTO-NAO-EXECUTAR\\CAD-mensagens-analise.docx",
+      "nativeReportSha256": "7172c19397d57282d7255f2a060bc31ec7978ef3488106328162619d4bff2e18",
+      "nativeDimensioningReport": {
+        "levels": {
+          "N2": {
+            "nativeLevelName": "N2",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 15,
+                "reportedError": 0
+              },
+              "Lajes": {
+                "reportedSuccess": 5,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          },
+          "N1": {
+            "nativeLevelName": "N1",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 16,
+                "reportedError": 0
+              },
+              "Lajes": {
+                "reportedSuccess": 9,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          }
+        },
+        "nativeTotalSeconds": 7,
+        "nativeDimensioningSeconds": 2,
+        "dimensioningTimeIsIncludedInTotal": true,
+        "reportedSuccessMayIncludeWarnings": true,
+        "stairPassCannotBeInferredFromReportedSlabCounts": true
+      },
+      "observedClickToFirstConfirmedCompletionSeconds": 21.613,
+      "observedIntervalIncludesToolAndObservationLatency": true,
+      "observedIntervalIsNotNativeProcessingTime": true,
+      "integrityWarningAtOpening": true,
+      "nativeIntegrityCheckPerformedBeforeProcessing": true,
+      "sourceNotReplacedByDiagnosticCopy": true,
+      "fullFlowTimeMeasured": false,
+      "staircaseUiObservation": {
+        "LE1": "calculado",
+        "LE2": "calculado",
+        "LE3": "Erro D31",
+        "LE3Message": "Erro no calculo da armadura principal (direcao X)",
+        "LE3DiameterResultsMm": {
+          "6.3": "Erro A11 - Largura do apoio insuficiente",
+          "8.0": "Erro A11 - Largura do apoio insuficiente",
+          "10.0": "Erro A11 - Largura do apoio insuficiente",
+          "12.5": "Erro A11 - Largura do apoio insuficiente",
+          "16.0": "Erro A11 - Largura do apoio insuficiente"
+        },
+        "sourceImages": [
+          "CAD-LE3-armadura-diagnostico-0.png",
+          "CAD-LE3-D31-detalhe-0.png"
+        ],
+        "observationMethod": "Leitura visual da planilha nativa e do resultado por bitola; nao OCR automatico"
+      },
+      "postDiagnosticGeometryAndLoadRetentionNotVerifiedByFreshExport": true,
+      "structuralApproval": false
+    },
+    "BIM": {
+      "projectPath": "D:\\TCC\\outputs\\R182-BIM-DIAGNOSTICO-DIMENSIONAMENTO-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "projectSha256": "44515fc4a1752f3923d835c554391fb553937d7a41f7266dd552043712ad22e9",
+      "projectZipValid": true,
+      "sourceR178FilesUnchanged": 31,
+      "nativeReportPath": "D:\\TCC\\outputs\\Diagnostico-H03-R182-DIMENSIONAMENTO-NAO-EXECUTAR\\BIM-mensagens-analise.docx",
+      "nativeReportSha256": "5a35a13b3f8eb3074c2e5579c3ca84cf7edcc6e9617cad16c6c2511977aadf0b",
+      "nativeDimensioningReport": {
+        "levels": {
+          "N2": {
+            "nativeLevelName": "TCC-7a6267fd-N2",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 9,
+                "reportedError": 0
+              },
+              "Lajes": {
+                "reportedSuccess": 5,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          },
+          "N1": {
+            "nativeLevelName": "TCC-7a6267fd-N1",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 11,
+                "reportedError": 1
+              },
+              "Lajes": {
+                "reportedSuccess": 9,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          },
+          "N0": {
+            "nativeLevelName": "TCC-7a6267fd-N0",
+            "reportedCategories": {},
+            "emptyLevelBlockIsNotAZeroCount": true
+          }
+        },
+        "nativeTotalSeconds": 7,
+        "nativeDimensioningSeconds": 2,
+        "dimensioningTimeIsIncludedInTotal": true,
+        "reportedSuccessMayIncludeWarnings": true,
+        "stairPassCannotBeInferredFromReportedSlabCounts": true
+      },
+      "observedClickToFirstConfirmedCompletionSeconds": 19.525,
+      "observedIntervalIncludesToolAndObservationLatency": true,
+      "observedIntervalIsNotNativeProcessingTime": true,
+      "integrityWarningAtOpening": false,
+      "nativeIntegrityCheckPerformedBeforeProcessing": false,
+      "sourceNotReplacedByDiagnosticCopy": true,
+      "fullFlowTimeMeasured": false,
+      "staircaseUiObservation": {
+        "LE1": "calculado",
+        "LE2": "calculado",
+        "LE3": "Erro D31",
+        "LE3Message": "Erro no calculo da armadura principal (direcao X)",
+        "LE3DiameterResultsMm": {
+          "6.3": "Erro A11 - Largura do apoio insuficiente",
+          "8.0": "Erro A11 - Largura do apoio insuficiente",
+          "10.0": "Erro A11 - Largura do apoio insuficiente",
+          "12.5": "Erro A11 - Largura do apoio insuficiente",
+          "16.0": "Erro A11 - Largura do apoio insuficiente"
+        },
+        "sourceImages": [
+          "BIM-LE3-armadura-diagnostico-0.png",
+          "BIM-LE3-D31-detalhe-0.png"
+        ],
+        "observationMethod": "Leitura visual da planilha nativa e do resultado por bitola; nao OCR automatico"
+      },
+      "postDiagnosticGeometryAndLoadRetentionNotVerifiedByFreshExport": true,
+      "structuralApproval": false
+    }
+  },
+  "selection": {
+    "N2": [
+      "Vigas",
+      "Pilares",
+      "Lajes"
+    ],
+    "N1": [
+      "Vigas",
+      "Pilares",
+      "Lajes",
+      "Escadas"
+    ],
+    "N0": [],
+    "foundationsExcluded": true
+  },
+  "options": {
+    "ELU": true,
+    "selectedSuperstructureDimensioning": true,
+    "frameDeflectionConfiguredRigidity": true,
+    "slabDeflection": false,
+    "dynamic": false,
+    "constructionStages": false,
+    "semiRigidRedistributionLimitCheck": false
+  },
+  "BIMV2NativeObservation": {
+    "level": "TCC-7a6267fd-N1",
+    "error": "D16",
+    "nodeNumber": 2,
+    "nodeName": "P5",
+    "message": "Erro na armadura negativa (no 2). Nenhuma bitola configurada pode ser usada.",
+    "diameterResultsMm": {
+      "8.0": "Erro A07 - Taxa de armadura maior que a configurada",
+      "10.0": "Erro A07 - Taxa de armadura maior que a configurada",
+      "12.5": "Erro A07 - Taxa de armadura maior que a configurada",
+      "16.0": "Erro A07 - Taxa de armadura maior que a configurada",
+      "20.0": "Erro A07 - Taxa de armadura maior que a configurada"
+    },
+    "sectionsCm": [
+      [
+        20,
+        16
+      ],
+      [
+        20,
+        45
+      ]
+    ],
+    "node2MdKnM": -36.9,
+    "observationMethod": "Leitura visual das planilhas e resultados por bitola",
+    "sourceImages": [
+      "BIM-V2-no2-resultados-armadura-0.png",
+      "BIM-V2-no2-bitolas-complemento-0.png",
+      "BIM-V2-secoes-0.png"
+    ],
+    "maximumSteelRatioConfigurationNotChanged": true,
+    "ratioLimitValueNotRead": true
+  },
+  "baselineR178V2PhysicalMapping": [
+    {
+      "bimName": "V2",
+      "bimGuid": "0KG6sgrliHyOyDa4iZOUxp",
+      "cadName": "V2",
+      "cadGuid": "0ybZq2qoaHyOy801fzsd4G",
+      "minM": [
+        0.10000000000000053,
+        3.8,
+        2.75
+      ],
+      "maxM": [
+        4.300000000000001,
+        4.0,
+        3.2
+      ],
+      "closedOrthogonalPrismsEqualAt1eMinus7M": true,
+      "triangleDiagonalEqualityNotRequiredForSamePrism": true,
+      "basedOnBaselineR178IfcNotAFreshR182Export": true
+    },
+    {
+      "bimName": "V2",
+      "bimGuid": "0KG6t8rliHyOyDa4iZOUxp",
+      "cadName": "V14",
+      "cadGuid": "1g4q1lqomHyOy801fzsd4G",
+      "minM": [
+        4.5,
+        3.8,
+        3.04
+      ],
+      "maxM": [
+        6.4,
+        4.0,
+        3.2
+      ],
+      "closedOrthogonalPrismsEqualAt1eMinus7M": true,
+      "triangleDiagonalEqualityNotRequiredForSamePrism": true,
+      "basedOnBaselineR178IfcNotAFreshR182Export": true
+    }
+  ],
+  "beamGroupingDiffersBetweenBranches": true,
+  "causalAttributionToGroupingNotProven": true,
+  "allStructuralElementsSuccessfullyDesigned": false,
+  "nativeSummaryIsNotCompleteStairStatus": true,
+  "fullPairedFlowComparisonFinished": false,
+  "completeNativeModelEquivalenceVerified": false,
+  "finalReinforcementReviewed": false,
+  "structuralApproval": false,
+  "nativeTimingSingleObservationEach": true,
+  "nativeTimingCannotRankEntireWorkflows": true,
+  "references": [
+    {
+      "title": "Erro D16 - Erro na armadura negativa",
+      "url": "https://suporte.altoqi.com.br/hc/pt-br/articles/360000680694"
+    },
+    {
+      "title": "Erro D31 - Erro no calculo da armadura principal",
+      "url": "https://suporte.altoqi.com.br/hc/pt-br/articles/360000681913"
+    }
+  ]
+}
