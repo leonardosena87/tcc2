@@ -31,3 +31,10 @@ Pasta: D:/TCC/outputs/W08-H03-R207-ENSAIO. Contém exportações separadas CAD/B
 Continuam pendentes a decisão final da distribuição W08 superior, o apoio do pano inferior, a V2 no BIM e sua equivalência geométrica com o CAD, a verificação simultânea da V1 e os avisos remanescentes. O desligamento às 22h foi informado pelo usuário; esta etapa não alterou seu agendamento.
 
 Procedimento operacional consultado: [AltoQi — cargas em um trecho de viga](https://suporte.altoqi.com.br/hc/pt-br/articles/360046158854), [AltoQi — carga linear](https://suporte.altoqi.com.br/hc/pt-br/articles/360058309854). Para a próxima análise da V2: [AltoQi — D16](https://suporte.altoqi.com.br/hc/pt-br/articles/360000680694).
+
+
+## Conferência complementar no BIM
+
+Após reabrir o BIM salvo, consultou-se a planilha da V16. O painel Nó exibiu momentos negativos de -21,28 / -18,15 / -19,21 / -22,36 kN.m, com 4 phi 8 nos três primeiros pontos e 3 phi 10 no último. O painel Vão exibiu comprimento livre de 195 cm, Md positivo 17,19 kN.m e armadura inferior de 2 phi 10; o painel Cisalhamento mostrou estribos mínimos phi 6,3 c/15 cm, dois ramos. São dados de saída do programa para esta hipótese, sujeitos à revisão dos avisos globais e da distribuição equivalente. As capturas foram preservadas.
+
+Na V2, o painel Nó exibiu -5,61 / -36,97 / -31,18 kN.m em P6/P5/P4 e D16 nas células de armadura superior. Consultado o resultado de bitolas no P5, o programa mostrou A07 (taxa de armadura acima da configurada) para 8, 10, 12,5, 16 e 20 mm. Não se aumentou esse limite. A consulta confirma que trocar a bitola isoladamente não resolveu esse apoio; a revisão de concepção permanece necessária.
