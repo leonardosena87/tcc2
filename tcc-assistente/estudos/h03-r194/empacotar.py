@@ -55,6 +55,29 @@ def build(work):
         include("Evidencias/" + name, STUDIES / f"h03-r{rev}" / name)
     include("Evidencias/R83-tempo-Revit-fim.json", BASE / "outputs/Autoria-H03-R83-SINCRONIZACAO-GEOMETRICA-NAO-EXECUTAR/R83-tempo-Revit-fim.json")
     include("Evidencias/Protocolo.md", BASE / "PROTOCOLO-COMPARACAO-H03.md")
+    window = json.loads(read(author / "R160-candidato-comum.json"))["windowJ4BoxInterpretedM"]
+    prism_audit = json.loads(read(STUDIES / "h03-r185/R185-reconciliacao-vigas.json"))
+    intersections = {}
+    for branch, source in prism_audit["sources"].items():
+        if hashlib.sha256(Path(source["path"]).read_bytes()).hexdigest() != source["sha256"]:
+            raise ValueError("IFC diferente da referência R178")
+        hits = []
+        for piece in prism_audit["branches"][branch]["pieces"]:
+            if not piece["closedPrismValidated"]:
+                raise ValueError("Geometria sem validação prismática")
+            beam = piece["signature"]
+            lower = [max(window[i], beam[i]) for i in range(3)]
+            upper = [min(window[i+3], beam[i+3]) for i in range(3)]
+            dims = [round(b-a, 7) for a,b in zip(lower, upper)]
+            if min(dims) > 0:
+                hits.append(dict(beam=piece["name"], guid=piece["guid"], minM=lower, maxM=upper, dimensionsM=dims))
+        if len(hits) != 1 or hits[0]["beam"] != "V16" or hits[0]["dimensionsM"] != [1.6,.15,.30]:
+            raise ValueError("Rever a interferência J4 e a figura antes de distribuir")
+        intersections[branch] = hits
+    geometry = work / "j4-fonte.json"
+    geometry.write_text(json.dumps(dict(windowBoxM=window, windowAssumption="Peitoril referido ao piso +0,22 m",
+        coordinateSources=prism_audit["sources"], intersections=intersections), indent=2, ensure_ascii=False),encoding="utf-8")
+    include("Evidencias/J4-V16.json", geometry)
     include("Resultados.html", HERE / "Resultados.html")
     manifest = json.dumps(files, ensure_ascii=False, indent=2).encode("utf-8")
     archive = work / "H03-R194-revisao-academica.zip"
