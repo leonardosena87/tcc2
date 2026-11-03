@@ -1,0 +1,153 @@
+Window: "AltoQi Eberick 2025 Infinity - [R188-CAD-ANCORAGEM-LE3-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [R188-CAD-ANCORAGEM-LE3-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		16961 diálogo Detalhamento [Lajes] Secondary Actions: Raise
+			16962 grupo Geral ID: 3152
+			16963 text Escala das lajes ID: 3185
+			16964 caixa de combinação (settable, string) Escala das lajes Value: 1:50 ID: 3101
+				16965 text (settable, string) Escala das lajes Value: 1:50
+				16966 botão Abrir ID: DropDown
+			16967 botão ... ID: 3102
+			16968 text Ancoragem da armadura ID: 3105
+			16969 caixa de combinação (settable, string) Ancoragem da armadura Value: gancho ID: 3106
+				16970 text (settable, string) Ancoragem da armadura Value: gancho
+				16971 botão Abrir ID: DropDown
+			16972 caixa de seleção Evitar o traspasse de 100% das barras na mesma direção ID: 3107
+			16973 caixa de seleção Representar nome conforme simbologia da forma ID: 3184
+			16974 caixa de seleção Hachurar vigas no detalhamento ID: 3195
+			16975 caixa de seleção Otimizar detalhamento ID: 3191
+			16976 text Redução da indicação ID: 3192
+			16977 editar (settable, string) Redução da indicação Value: 25 ID: 3193
+			16978 text % ID: 3194
+			16979 caixa de seleção Gerar tabela de armaduras variáveis ID: 5139
+			16980 grupo Separar plantas ID: 3151
+			16981 caixa de seleção Regiões maciças ID: 3128
+			16982 caixa de seleção Armaduras positivas em X e Y ID: 3129
+			16983 caixa de seleção Armaduras negativas em X e Y ID: 3130
+			16984 grupo Aberturas ID: 3090
+			16985 caixa de seleção Adotar armadura de reforço em furos ID: 3091
+			16986 caixa de seleção Separar detalhamento das aberturas ID: 3180
+			16987 text Escala ID: 3179
+			16988 caixa de combinação (disabled, settable, string) Escala Value: 1:50 ID: 3178
+				16989 text (settable, string) Escala Value: 1:50
+				16990 botão Abrir ID: DropDown
+			16991 grupo Armadura no apoio ID: 3163
+			16992 text Distância máxima para detalhar armadura até a extremidade do apoio ID: 3166
+			16993 editar (settable, string) Distância máxima para detalhar armadura até a extremidade do apoio Value: 15 ID: 3109
+			16994 text cm ID: 3165
+			16995 grupo Armadura negativa ID: 3145
+			16996 text Ancoragem da laje em balanço
+			16997 editar (settable, string) Ancoragem da laje em balanço Value: 1.5 ID: 3131
+			16998 text x
+			16999 caixa de seleção Agrupar continuidade pela maior armadura ID: 3141
+			17000 caixa de seleção Cotar dobras ID: 3108
+			17001 grupo Cotas na planta ID: 3162
+			17002 caixa de seleção Positivas ID: 3110
+			17003 caixa de seleção Exibir linhas de chamada ID: 3111
+			17004 caixa de seleção Negativas ID: 3112
+			17005 caixa de seleção Negativas adicionais ID: 3113
+			17006 caixa de seleção Cotar direção principal ID: 3114
+			17007 grupo Descrição das armaduras ID: 3150
+			17008 text Armaduras positivas ID: 3147
+			17009 caixa de combinação (settable, string) Armaduras positivas Value: Completa ID: 3154
+				17010 text (settable, string) Armaduras positivas Value: Completa
+				17011 botão Abrir ID: DropDown
+			17012 text Distância em relação à extremidade ID: 3172
+			17013 editar (disabled, settable, string) Distância em relação à extremidade Value: 40 ID: 3173
+			17014 text cm ID: 3174
+			17015 text Armaduras negativas ID: 3146
+			17016 caixa de combinação (settable, string) Armaduras negativas Value: Sucinta ID: 3153
+				17017 text (settable, string) Armaduras negativas Value: Sucinta
+				17018 botão Abrir ID: DropDown
+			17019 caixa de seleção Usar fundo opaco ID: 3175
+			17020 botão Arm. complementares... ID: 3132
+			17021 botão Escadas... ID: 3100
+			17022 botão Reservatórios... ID: 6114
+			17023 botão Detalhes típicos... ID: 3176
+			17024 botão OK ID: 1
+			17025 botão Cancelar ID: 2
+			17026 botão Ajuda ID: 9
+			17027 tabulação ID: 12320
+				17028 item de tabulação (selectable) Pilares e NR
+				17029 item de tabulação (selectable) Pilares PM
+				17030 item de tabulação (selectable) Vigas
+				17031 item de tabulação (selectable) Vigas PM
+				17032 item de tabulação (selectable) Lajes
+				17033 item de tabulação (selectable) Sapatas
+				17034 item de tabulação (selectable) Blocos
+				17035 item de tabulação (selectable) Muros
+				17036 item de tabulação (selectable) Protensão
+			17037 barra de título (settable, string) Value: Detalhamento [Lajes]
+				17038 botão Ajuda de contexto
+		15906 Barra de status
+		15907 painel
+			15908 botão de divisão
+				15909 elevador
+				15910 painel
+					15911 tabulação Notícias
+						17049 item de tabulação (selectable) Notícias
+					15915 painel
+						16699 painel
+							16700 painel (disabled) status.altoqi.com.br
+								16701 painel (disabled)
+								16702 região status.altoqi.com.br - Conteúdo da Web
+									16703 região
+										16704 região
+										16705 região
+											16706 região
+												16707 documento status.altoqi.com.br Value: chrome-error://chromewebdata/ ID: RootWebArea
+													16708 gráfico
+													16709 título Hum… Não consigo chegar a esta página
+													16710 text status.altoqi.com.br
+													16711 text se recusou a se conectar.
+													16712 text Tente:
+													16713 Lista
+														16714 item de lista •Verificando a conexão
+														16715 item de lista •Verificação de proxy e firewall
+															16716 link Verificação de proxy e firewall Value: chrome-error://chromewebdata/#buttons
+													16717 text ERR_CONNECTION_REFUSED
+													16718 botão Atualizar ID: reload-button
+													16719 text Microsoft Edge
+												16720 região
+				15966 painel
+					15967 tabulação
+						17050 item de tabulação (selectable)
+					15969 painel
+						15970 janela Edificação Secondary Actions: Raise
+							15971 painel
+								15972 painel Projeto
+									15973 painel
+									16922 árvore ID: 101
+										16923 item da árvore (selectable, disabled) Pavimentos
+											16924 item da árvore (selectable, disabled) N2
+											16925 item da árvore (selectable, disabled) N1
+											16926 item da árvore (selectable, disabled) N0
+										16927 item da árvore (selectable, disabled) Pilares em prumada
+										16928 item da árvore (selectable, disabled) Cortes
+										16929 item da árvore (selectable, disabled) Gerenciador de desenhos
+										16930 item da árvore (selectable, disabled) Modelos 3D
+		15992 barra de menus
+
+Document text: ```
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge
+```
+
+Focused element: 16961 diálogo Detalhamento [Lajes] Secondary Actions: Raise
+
+Document text:
+￼
+Hum… Não consigo chegar a esta página
+status.altoqi.com.br se recusou a se conectar.
+Tente:
+•Verificando a conexão
+•Verificação de proxy e firewall
+ERR_CONNECTION_REFUSED
+Atualizar
+Microsoft Edge

@@ -1,0 +1,180 @@
+{
+  "revision": "H03/R188",
+  "recordedAtUtc": "2026-11-03T13:11:59.008126+00:00",
+  "branches": {
+    "CAD": {
+      "sourceProjectPath": "D:\\TCC\\outputs\\R184-CAD-ENSAIO-GANCHO-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sourceProjectSha256": "019e20fb9322a23f0fb2078f656a58e7914147c5ae97e8d4ebb50bec5f61c305",
+      "sourceUnchanged": true,
+      "experimentalProjectPath": "D:\\TCC\\outputs\\R188-CAD-ANCORAGEM-LE3-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "experimentalProjectSha256": "e2bd1414be2be4410b58e377e0dd9cea95dcc32bbbdb48b942329f5a94dff212",
+      "reportPath": "D:\\TCC\\outputs\\Escada-H03-R188-ANCORAGEM-LE3-NAO-EXECUTAR\\CAD-mensagens.docx",
+      "reportSha256": "1931c9708ceff6cdac08530a83d0d91669911ed0916f24bd892bdbbd3ccebdac",
+      "nativeReport": {
+        "levels": {
+          "N2": {
+            "nativeLevelName": "N2",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 15,
+                "reportedError": 0
+              },
+              "Lajes": {
+                "reportedSuccess": 5,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          },
+          "N1": {
+            "nativeLevelName": "N1",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 16,
+                "reportedError": 0
+              },
+              "Lajes": {
+                "reportedSuccess": 9,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          }
+        },
+        "nativeTotalSeconds": 7,
+        "nativeDimensioningSeconds": 2,
+        "dimensioningTimeIsIncludedInTotal": true,
+        "reportedSuccessMayIncludeWarnings": true,
+        "stairPassCannotBeInferredFromReportedSlabCounts": true
+      },
+      "anchorage": "gancho",
+      "lap100PercentAvoidanceUncheckedInCapturedDialog": true,
+      "hookAppliedAndRecalculated": true,
+      "hookRetainedInReopenedDialogScreenshot": true,
+      "stairsPositiveTable": {
+        "LE1": "calculado",
+        "LE2": "calculado",
+        "LE3": "D31"
+      },
+      "LE3DiameterErrors": {
+        "6.3": "A11",
+        "8.0": "A11",
+        "10.0": "A11",
+        "12.5": "A11",
+        "16.0": "A11"
+      },
+      "observedInterval": {
+        "startUtc": "2026-11-03T12:53:24.597Z",
+        "meaning": "Intervalo do comando ate primeira observacao, inclui latencia. Nao fluxo completo.",
+        "firstConfirmedUtc": "2026-11-03T12:53:43.767Z",
+        "elapsedSeconds": 19.17
+      },
+      "completeFlowMeasured": false,
+      "geometryAndLoadRetentionAuditedByFreshExport": false
+    },
+    "BIM": {
+      "sourceProjectPath": "D:\\TCC\\outputs\\R184-BIM-ENSAIO-GANCHO-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sourceProjectSha256": "44515fc4a1752f3923d835c554391fb553937d7a41f7266dd552043712ad22e9",
+      "sourceUnchanged": true,
+      "experimentalProjectPath": "D:\\TCC\\outputs\\R188-BIM-ANCORAGEM-LE3-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "experimentalProjectSha256": "485e63dfde0f7ec9a93680a02b121d0b92fc1b07b3a2e3301245a51ad029ae34",
+      "reportPath": "D:\\TCC\\outputs\\Escada-H03-R188-ANCORAGEM-LE3-NAO-EXECUTAR\\BIM-mensagens.docx",
+      "reportSha256": "13ad4d7e6b2233774de087bcfca60fc764530906302a3f6e089ad7500f266109",
+      "nativeReport": {
+        "levels": {
+          "N2": {
+            "nativeLevelName": "TCC-7a6267fd-N2",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 9,
+                "reportedError": 0
+              },
+              "Lajes": {
+                "reportedSuccess": 5,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          },
+          "N1": {
+            "nativeLevelName": "TCC-7a6267fd-N1",
+            "reportedCategories": {
+              "Pilares": {
+                "reportedSuccess": 11,
+                "reportedError": 0
+              },
+              "Vigas": {
+                "reportedSuccess": 11,
+                "reportedError": 1
+              },
+              "Lajes": {
+                "reportedSuccess": 9,
+                "reportedError": 0
+              }
+            },
+            "emptyLevelBlockIsNotAZeroCount": false
+          },
+          "N0": {
+            "nativeLevelName": "TCC-7a6267fd-N0",
+            "reportedCategories": {},
+            "emptyLevelBlockIsNotAZeroCount": true
+          }
+        },
+        "nativeTotalSeconds": 7,
+        "nativeDimensioningSeconds": 2,
+        "dimensioningTimeIsIncludedInTotal": true,
+        "reportedSuccessMayIncludeWarnings": true,
+        "stairPassCannotBeInferredFromReportedSlabCounts": true
+      },
+      "anchorage": "gancho",
+      "lap100PercentAvoidanceUncheckedInCapturedDialog": true,
+      "hookAppliedAndRecalculated": true,
+      "hookRetainedInReopenedDialogScreenshot": true,
+      "stairsPositiveTable": {
+        "LE1": "calculado",
+        "LE2": "calculado",
+        "LE3": "D31"
+      },
+      "LE3DiameterErrors": {
+        "6.3": "A11",
+        "8.0": "A11",
+        "10.0": "A11",
+        "12.5": "A11",
+        "16.0": "A11"
+      },
+      "observedInterval": {
+        "startUtc": "2026-11-03T13:04:01.330Z",
+        "meaning": "Intervalo do comando ate primeira observacao, inclui latencia. Nao fluxo completo.",
+        "firstConfirmedUtc": "2026-11-03T13:04:21.479Z",
+        "elapsedSeconds": 20.149
+      },
+      "completeFlowMeasured": false,
+      "geometryAndLoadRetentionAuditedByFreshExport": false
+    }
+  },
+  "R182ReferenceProjectHashesPreserved": true,
+  "experimentOrder": [
+    "CAD",
+    "BIM"
+  ],
+  "pairedHookExperimentCompleted": true,
+  "LE3StillD31A11Both": true,
+  "specificFailingSupportEdgeNotYetIdentified": true,
+  "interpretation": "Selecionar gancho nao foi suficiente para eliminar A11 na condicao testada em nenhum receptor. Nao se conclui que gancho seja inviavel em toda configuracao.",
+  "thresholdsNotRaisedToSuppressError": true,
+  "structuralApproval": false,
+  "fullPairedFlowComparisonFinished": false,
+  "wholeFlowProductivityRankingPermitted": false
+}
