@@ -1,0 +1,2911 @@
+{
+  "revision": "H03/R180",
+  "createdAtUtc": "2026-11-03T03:19:18.457Z",
+  "scope": "Adendo de arquivos temporais diretos versionados R142-R178; sem somar o historico R124/R141 ou calcular total de fluxo",
+  "sourceUniverse": "Um exemplar local do repositorio por arquivo de tempo/observacao; sem varredura de copias em D:/TCC e sem expansao arbitraria de resultados",
+  "counts": {
+    "sourceFiles": 71,
+    "records": 74,
+    "withDuration": 62,
+    "withoutDuration": 12,
+    "unassignedBranch": 48,
+    "nativeSoftwareProcessingMeasures": 2,
+    "overlappingPairs": 18
+  },
+  "sources": [
+    {
+      "source": "tcc-assistente/estudos/h03-r142/R142-tempo-script.json",
+      "sha256": "13ed1bfa6befe4d65880d856139856cd1f4a3205f3ea7351da3a7b60abef6896"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r143/CAD-processamento-tempo.json",
+      "sha256": "25700273670dc4b948d846cc4a07232a1d9a37a9cc354a22823acde3e0f89105"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r144/R144-tempo-script.json",
+      "sha256": "f246362ba7508aa555001e6e1d93d32197a76d4aa8c96984d6d7935b33f924b6"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r145/BIM-tempo-sessao.json",
+      "sha256": "4d965bf064f2da30b0d13b14668531d363dd2f42a0b61767103eb6422e551b3c"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r145/CAD-tempo-sessao.json",
+      "sha256": "780cc66557dd344de6183b592f19e698f491ee4e2dcf51084131192c44ed7e47"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r146/BIM-processamento-tempo.json",
+      "sha256": "2d383036e772c16815f9217dadbe70962452ba082fa04f5976b2f0832c765395"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r146/BIM-sessao-tempo.json",
+      "sha256": "86d16b41278c69e41ad4043d75749c7381211e584156dae6fd80c4ed31b966ff"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r146/CAD-processamento-tempo.json",
+      "sha256": "a7eb596dc5f21891fbe2b4a4902811485be194b6125030eea1ee8a1c6ea95432"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r146/CAD-sessao-tempo.json",
+      "sha256": "3201792e801c603be635dc787bb4b292065655bfda976ea40890fbd2545f2d61"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r147/R147-tempo-script.json",
+      "sha256": "4210cf494a76636001dbc8752e9f2db7c2907161292ab4f70f8bda353efa5cdf"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r148/BIM-processamento-tempo.json",
+      "sha256": "0d752eb35c298d43987f46ed7d1fd7d3bbdc8c0fca254a12fed85a69db416a9e"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r148/BIM-sessao-tempo.json",
+      "sha256": "310c98d6c72b5cfdc595a6b56f1a4f4e085dc90b6a653a8438ee31d7a6923ae9"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r148/CAD-processamento-tempo.json",
+      "sha256": "df9bcf2d78cd8d70829bade009d0f40c23bdb3bf0826351ea398a64a447a9ef6"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r148/CAD-sessao-tempo.json",
+      "sha256": "aa805100d37346d1799a88e46f39a0066cb055fc45be771f31e1c898c7850ce9"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r149/R149-tempo-script.json",
+      "sha256": "4031dc40a33eff580e08632b9d8498aeda3437bbbb86a172d8c1895eda41570a"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r150/BIM-sessao-tempo.json",
+      "sha256": "1aec826d6e31ed23cd98c78d7592b18dcf83e562e76709f00d735a149867d68d"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r151/R151-tempo-script.json",
+      "sha256": "0c1e9ec01f36de206f28d7f6979e771fae8dc2e8511ae63e2ae9156a5bc03d33"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r152/R152-tempo-script.json",
+      "sha256": "0457d91f27e34686b3dc0fc901c9e1b8745bb0fd6d7c27f607104aebe48990ef"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r153/CAD-sessao-tempo.json",
+      "sha256": "0cade9b77cb7129c7b6129717285b39313fd0072789f461df3e2dd1258086e31"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r153/R153-tempo-script.json",
+      "sha256": "ee6610e9b4148c8eb9c712965113f5a9b58119b70555bddd4225000b34f6cc89"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r154/R154-tempo-script.json",
+      "sha256": "2204e256edde75b66cc4cd389f503d7911f1d59e8c7b720ac998895471fb4ce5"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r155/R155-tempos.json",
+      "sha256": "5c781bd3d12cb3c045b1636203135b6b4d4f10857a5b72899ff41469eb8c026a"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r156/R156-tempo-script.json",
+      "sha256": "a5526d09b69072e4c7aeb5a4710ccfd7326b7a644846872c3a545179779dac73"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r157/R157-tempos.json",
+      "sha256": "dad52195b925fd2d952a0f39065d4a110119eb989b87f87464b7086572c1dc71"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r157/Revit-interferencia-observacao.json",
+      "sha256": "57c576d6bd0ac3b5c769cab8b51c1d51a86572f3ef895e63296531d111fcdec0"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r158/R158-tempo-script.json",
+      "sha256": "95bf87e5ced809cd302458ad07d5fad9c94167e37017e5d64a5010418bfc705c"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r159/R159-Eberick-exportacao-observacao.json",
+      "sha256": "7f94f9977e8046e0e685bb761e3ec5d3c5c107aace5bf46deca00c5db5fd13c9"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r159/R159-Eberick-recepcao-observacao.json",
+      "sha256": "282db6c8461ee97333da73a05896b2a5c48ff76b004e6b86e51c1294743481ff"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r159/R159-IFC-exportacao-observacao.json",
+      "sha256": "93c0a382d1bea16c72ab8738b92fba61d90d020a629b650076534b9a631b784c"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r159/R159-interferencia-observacao.json",
+      "sha256": "2675aa925c18a6810d953faabe893230282b528e13f91c7a0ee0892509b64380"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r159/R159-quarta-tentativa-observacao.json",
+      "sha256": "ccce5b464d78b76cbf46984f62cb55f7e42bf1868376e9c4dd26810548ea294d"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r159/R159-segunda-tentativa-observacao.json",
+      "sha256": "150a44eb65b0432523add7c66c5b5d1ff46ee3b2c4ec3aa9ee46cb94c2591914"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r159/R159-terceira-tentativa-observacao.json",
+      "sha256": "71467edd27957c60b8e87abb72af32936416aef6abf2c7f37490c6728af4079b"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r160/R160-Revit-aplicacao-observacao.json",
+      "sha256": "8f467be3bc53a47bc6ba1918bbbeb8de878070494a28653535a5f24145d313eb"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r161/R161-Eberick-exportacao-observacao.json",
+      "sha256": "b0a8c994d2d057b241a456b74a45939ddafbe571b47c99389fe7aa714839fc1c"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r161/R161-Eberick-recepcao-observacao.json",
+      "sha256": "c30ed35dc76e00a5db71fb2211b8e6c37f721aa98c9afa683323ae16dfc66582"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r161/R161-IFC-exportacao-observacao.json",
+      "sha256": "e77a2db11c416b2ccb6a592f305c2f44a81464ea55fcd3b328cc71b9a9db6d4a"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r161/R161-tempos-parciais.json",
+      "sha256": "3cd97f0ba32215d6fef9e11aa51fdd16a353eac2ca9fd3d4778b7781b6af7c6d"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r162/R162-exportacao-observacao.json",
+      "sha256": "4a1e0d3f6e1ebfdf41dc4f8aaacc5847c44afc0d1db670aa48e07de088e69220"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r162/R162-recepcao-observacao.json",
+      "sha256": "8e094c900157f2b8a0a1340908132cc3be7ebf31e093abbb0054ea1da6e6108d"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r164/R164-exportacao-observacao.json",
+      "sha256": "33d0856138f031210f95f80fafa05af7b3f3f301bf1d5f55f1d82fc04f85e215"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r164/R164-reabertura-observacao.json",
+      "sha256": "58927e471598656273c0db9573cf15d37c38085d8fadf941177acfca8a1fb787"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r164/R164-recepcao-observacao.json",
+      "sha256": "b7b481037877a6f6bf8660bc1d21a23b3ecc832f6732e164cbc004177879ee37"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r165/R165-correcao-contorno-observacao.json",
+      "sha256": "6bdd91b2993042afca57b167533798f0feca2d91dca85c87a5ca24b54b45f8ac"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r165/R165-correcao-nos-observacao.json",
+      "sha256": "92c124f744b02bb44d293a2af2dc1608e5e92c69f1e616be1fab521d75169aff"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r165/R165-correcao-observacao.json",
+      "sha256": "db8144cef425da1b605db012952561d38a2080f4141e9d8b675c5dabfa36da43"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r165/R165-reabertura-observacao.json",
+      "sha256": "67b86522c6bfd01b98574337b2099f231014ad00dd61b9d5badc61e9159176d8"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r166/R166-reabertura-observacao.json",
+      "sha256": "6c1bbc991f9b9a4ca69eaa29bebbfdc2a831643ee4d72b9906b60093a12b990b"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r166/R166-recepcao-observacao.json",
+      "sha256": "c4fa4f6a83ad43768d37ed83448c2c83c99fa1238efad1879a0f4a54bbd946fd"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r167/R167-N1-observacao.json",
+      "sha256": "a0a84e9b9e4c8b931575074a24fadc46c9881311411632fb4c20b510f5e5ba5b"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r167/R167-N2-observacao.json",
+      "sha256": "d0d44c5cc1da92d03dd42602f8ab1d32ffc6aa861a760ee5311221efb07ff3d0"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r167/R167-lancamento-observacao.json",
+      "sha256": "2ae55f44e20e7c84104deb6ef916d1f4d0e43daa45162c0a00c9c324952b833a"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r167/R167-reabertura-observacao.json",
+      "sha256": "4366dfce0d379787ef74ffd380be1a48451bdcd6dd4395ab8d40bb10137eceeb"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r169/R169-correcao-observacao.json",
+      "sha256": "4573c17f5f00a119a3039b292a1863f5b2c7e18a6f1cf054ae526b1634c0c437"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r171/R171-correcao-tempo.json",
+      "sha256": "b3912b0431c6831c8c11ff3d02e123886217b546823ff562977faa5b78dc91ca"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r172/BIM-processamento-tempo.json",
+      "sha256": "019f022f7daabfe69be5c7a4e58b023c09e3a30546c4d5bd13a3df71db91ecc5"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r172/BIM-sessao-tempo.json",
+      "sha256": "5d403a8d2c7d193e799aaf8746953f09a194cbe2ca656f6b23da22d0e682d525"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r172/CAD-processamento-tempo.json",
+      "sha256": "7c011d428e5166903f6d775b51d1004732177ef8a63d1906c6a23396576032bb"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r172/CAD-reprocessamento-tempo.json",
+      "sha256": "33c31cc48813ae990115fa7c4cef0a4ab67bb2fe00b56572f1199248dc20de63"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r172/CAD-sessao-tempo.json",
+      "sha256": "d487428bab94e4f5c529f1cab97355f189d284e881de9c5696c29f36ed6b220e"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r173/R173-analise-tempo.json",
+      "sha256": "b16ba80a6d39ff751bb672d3a4dff1ad75e6a9a7f51ffa9f47f2e66169edd417"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r175/R175-cargas-primeiro-save-tempo.json",
+      "sha256": "bfcf9f0000d27bcd76b33ab42641aafd90aa607d4bc861de17c022f7dc77e62e"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r175/R175-cargas-processamento-tempo.json",
+      "sha256": "429ce5961a7f0d74ece6f1497456974d0e69cd1fd38b4c9e9cb252f2dca6f88b"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r175/R175-nos-primeiro-save-tempo.json",
+      "sha256": "b350afe35119d4de2c672d4ad1859cf43632f8988663568cc7f54330a9fec7ca"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r175/R175-processamento-tempo.json",
+      "sha256": "00b51f9572549238c10ead45f6a7de02766d5503db8b9cc2be13c3ec9e553667"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r175/R175-sessao-com-releitura-tempo.json",
+      "sha256": "9c33d4d1564f6cd446a98da1c079b4c090bc7727b4ef0f78656ca89d81d153f0"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r176/CAD-exportacao-tempo.json",
+      "sha256": "b2fab4a62ddf282e47eb014940e8e5d6e04851e8ae19c5c04c56968dae5a7c53"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r177/BIM-tres-partes-primeiro-save-tempo.json",
+      "sha256": "4c1e76c9f79ee3b0a50ffd6a5d37c97a822dd1e4601a7188595afdb777ffede9"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r177/CAD-exportacao-tempo.json",
+      "sha256": "0870255d1db751656dd1399acca2d2f979314167faaf1a9f489e6a87502811cc"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r177/CAD-segmento-dois-lances-tempo.json",
+      "sha256": "04d3be4412edd4e7f8988dc1077fb7ebc5cef40b26164323972f0a180da25cbd"
+    },
+    {
+      "source": "tcc-assistente/estudos/h03-r178/R178-tempos.json",
+      "sha256": "1f63ae093b79c742d2872ca102208f11f4cea3f7f7e6ce4c61cee1565e3aad2c"
+    }
+  ],
+  "excluded": [
+    {
+      "revision": 178,
+      "name": "BIM-correcao-primeiro-save.json",
+      "reason": "marco de inicio ou fim isolado; usar intervalo consolidado"
+    },
+    {
+      "revision": 178,
+      "name": "CAD-correcao-primeiro-save.json",
+      "reason": "marco de inicio ou fim isolado; usar intervalo consolidado"
+    }
+  ],
+  "records": [
+    {
+      "id": "R142/R142-tempo-script.json",
+      "revision": 142,
+      "name": "R142-tempo-script.json",
+      "source": "tcc-assistente/estudos/h03-r142/R142-tempo-script.json",
+      "sha256": "13ed1bfa6befe4d65880d856139856cd1f4a3205f3ea7351da3a7b60abef6896",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "execucao_de_script_sem_tempo_total_da_etapa",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Somente execução de extração, checagem e relatório; exclui autoria, leitura visual, pesquisa e inferência IA",
+      "startUtc": "2026-11-02T01:22:27.011Z",
+      "endUtc": "2026-11-02T01:22:30.017Z",
+      "durationMs": 3005.3385000010167,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 3005.3385000010167
+        }
+      ],
+      "utcDifferenceMs": 3006,
+      "durationMinusUtcMs": -0.661499998983345,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {
+        "eligibleForFinalFlowRanking": false
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R143/CAD-processamento-tempo.json",
+      "revision": 143,
+      "name": "CAD-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r143/CAD-processamento-tempo.json",
+      "sha256": "25700273670dc4b948d846cc4a07232a1d9a37a9cc354a22823acde3e0f89105",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "analise estatica linear e deslocamentos portico rigidez configurada; sem dimensionamento e sem flechas lajes",
+      "startUtc": "2026-11-02T03:40:32.997Z",
+      "endUtc": "2026-11-02T03:40:44.346Z",
+      "durationMs": 11348.888499999419,
+      "durationOrigin": "campo explicito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracao_observacao_ms",
+          "ms": 11348.888499999419
+        }
+      ],
+      "utcDifferenceMs": 11349,
+      "durationMinusUtcMs": -0.11150000058114529,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R144/R144-tempo-script.json",
+      "revision": 144,
+      "name": "R144-tempo-script.json",
+      "source": "tcc-assistente/estudos/h03-r144/R144-tempo-script.json",
+      "sha256": "f246362ba7508aa555001e6e1d93d32197a76d4aa8c96984d6d7935b33f924b6",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "execucao_de_script_sem_tempo_total_da_etapa",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": "2026-11-02T04:11:53.647Z",
+      "endUtc": "2026-11-02T04:11:55.522Z",
+      "durationMs": 1875.0770000006014,
+      "durationOrigin": "campo explicito do registro",
+      "durationCandidates": [
+        {
+          "field": "scriptDurationMs",
+          "ms": 1875.0770000006014
+        }
+      ],
+      "utcDifferenceMs": 1875,
+      "durationMinusUtcMs": 0.07700000060140155,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {
+        "notFlowOrWholeAiEffort": true
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R145/BIM-tempo-sessao.json",
+      "revision": 145,
+      "name": "BIM-tempo-sessao.json",
+      "source": "tcc-assistente/estudos/h03-r145/BIM-tempo-sessao.json",
+      "sha256": "4d965bf064f2da30b0d13b14668531d363dd2f42a0b61767103eb6422e551b3c",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "edicao manual assistida de G2 em quatro lajes N1, salvar fechar reabrir, releitura individual quatro alteradas mais L5/L6 controles, fechar; sem processamento/exportacao",
+      "startUtc": "2026-11-02T04:22:59.571Z",
+      "endUtc": "2026-11-02T04:30:59.208Z",
+      "durationMs": 479636.94839999825,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 479636.94839999825
+        }
+      ],
+      "utcDifferenceMs": 479637,
+      "durationMinusUtcMs": -0.051600001752376556,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": false,
+      "originalKnownLimits": {
+        "finalFlowRankingAllowed": false,
+        "limitation": "Inclui latencia, observacoes e compactacao do contexto apos fechamento. BIM executado depois de CAD, com aprendizagem e agrupamento de operacoes; nao representa tempo puro nem comparacao final."
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R145/CAD-tempo-sessao.json",
+      "revision": 145,
+      "name": "CAD-tempo-sessao.json",
+      "source": "tcc-assistente/estudos/h03-r145/CAD-tempo-sessao.json",
+      "sha256": "780cc66557dd344de6183b592f19e698f491ee4e2dcf51084131192c44ed7e47",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "edicao manual assistida de G2 em quatro lajes N1, salvar fechar reabrir, releitura individual quatro alteradas mais L5/L6 controles, fechar; sem processamento/exportacao",
+      "startUtc": "2026-11-02T04:14:58.102Z",
+      "endUtc": "2026-11-02T04:22:59.569Z",
+      "durationMs": 481466.08399999887,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 481466.08399999887
+        }
+      ],
+      "utcDifferenceMs": 481467,
+      "durationMinusUtcMs": -0.9160000011324883,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": false,
+      "originalKnownLimits": {
+        "finalFlowRankingAllowed": false
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R146/BIM-processamento-tempo.json",
+      "revision": 146,
+      "name": "BIM-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r146/BIM-processamento-tempo.json",
+      "sha256": "2d383036e772c16815f9217dadbe70962452ba082fa04f5976b2f0832c765395",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": "2026-11-02T04:35:07.549Z",
+      "endUtc": "2026-11-02T04:35:12.361Z",
+      "durationMs": 4811.810400001705,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 4811.810400001705
+        }
+      ],
+      "utcDifferenceMs": 4812,
+      "durationMinusUtcMs": -0.18959999829530716,
+      "parentIntervalIds": [
+        "R146/BIM-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R146/BIM-sessao-tempo.json",
+      "revision": 146,
+      "name": "BIM-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r146/BIM-sessao-tempo.json",
+      "sha256": "86d16b41278c69e41ad4043d75749c7381211e584156dae6fd80c4ed31b966ff",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "abrir copia R145, processar estatica e deslocamentos portico rigidez configurada, capturar resumo, salvar e fechar",
+      "startUtc": "2026-11-02T04:34:33.696Z",
+      "endUtc": "2026-11-02T04:35:34.365Z",
+      "durationMs": 60668.764600001276,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "wallMs",
+          "ms": 60668.764600001276
+        }
+      ],
+      "utcDifferenceMs": 60669,
+      "durationMinusUtcMs": -0.2353999987244606,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": false,
+      "originalKnownLimits": {
+        "finalFlowRankingAllowed": false
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R146/CAD-processamento-tempo.json",
+      "revision": 146,
+      "name": "CAD-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r146/CAD-processamento-tempo.json",
+      "sha256": "a7eb596dc5f21891fbe2b4a4902811485be194b6125030eea1ee8a1c6ea95432",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": "2026-11-02T04:34:00.988Z",
+      "endUtc": "2026-11-02T04:34:11.982Z",
+      "durationMs": 10994.652400001884,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 10994.652400001884
+        }
+      ],
+      "utcDifferenceMs": 10994,
+      "durationMinusUtcMs": 0.6524000018835068,
+      "parentIntervalIds": [
+        "R146/CAD-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R146/CAD-sessao-tempo.json",
+      "revision": 146,
+      "name": "CAD-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r146/CAD-sessao-tempo.json",
+      "sha256": "3201792e801c603be635dc787bb4b292065655bfda976ea40890fbd2545f2d61",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "abrir copia R145, processar estatica e deslocamentos portico rigidez configurada, capturar resumo, salvar e fechar",
+      "startUtc": "2026-11-02T04:33:20.404Z",
+      "endUtc": "2026-11-02T04:34:33.695Z",
+      "durationMs": 73290.99640000239,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "wallMs",
+          "ms": 73290.99640000239
+        }
+      ],
+      "utcDifferenceMs": 73291,
+      "durationMinusUtcMs": -0.0035999976098537445,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": false,
+      "originalKnownLimits": {
+        "finalFlowRankingAllowed": false
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R147/R147-tempo-script.json",
+      "revision": 147,
+      "name": "R147-tempo-script.json",
+      "source": "tcc-assistente/estudos/h03-r147/R147-tempo-script.json",
+      "sha256": "4210cf494a76636001dbc8752e9f2db7c2907161292ab4f70f8bda353efa5cdf",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "execucao_de_script_sem_tempo_total_da_etapa",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": "2026-11-02T04:40:57.870Z",
+      "endUtc": "2026-11-02T04:41:00.410Z",
+      "durationMs": 2539.9040000011155,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 2539.9040000011155
+        }
+      ],
+      "utcDifferenceMs": 2540,
+      "durationMinusUtcMs": -0.09599999888450839,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {
+        "notFlowOrWholeAiEffort": true
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R148/BIM-processamento-tempo.json",
+      "revision": 148,
+      "name": "BIM-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r148/BIM-processamento-tempo.json",
+      "sha256": "0d752eb35c298d43987f46ed7d1fd7d3bbdc8c0fca254a12fed85a69db416a9e",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": "2026-11-02T04:56:28.271Z",
+      "endUtc": "2026-11-02T04:56:46.812Z",
+      "durationMs": 18541.97069999948,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 18541.97069999948
+        }
+      ],
+      "utcDifferenceMs": 18541,
+      "durationMinusUtcMs": 0.9706999994814396,
+      "parentIntervalIds": [
+        "R148/BIM-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {
+        "includesIntermediate87PercentObservation": true
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R148/BIM-sessao-tempo.json",
+      "revision": 148,
+      "name": "BIM-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r148/BIM-sessao-tempo.json",
+      "sha256": "310c98d6c72b5cfdc595a6b56f1a4f4e085dc90b6a653a8438ee31d7a6923ae9",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "abrir configurar selecao dimensionar consultar categorias e amostra de avisos, salvar e fechar; exploratorio nao ranking; inclui retomada e resposta usuario escada",
+      "startUtc": "2026-11-02T04:54:40.744Z",
+      "endUtc": "2026-11-02T09:15:43.433Z",
+      "durationMs": 15662690.2361,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "wallMs",
+          "ms": 15662690.2361
+        }
+      ],
+      "utcDifferenceMs": 15662689,
+      "durationMinusUtcMs": 1.236099999397993,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": false,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R148/CAD-processamento-tempo.json",
+      "revision": 148,
+      "name": "CAD-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r148/CAD-processamento-tempo.json",
+      "sha256": "df9bcf2d78cd8d70829bade009d0f40c23bdb3bf0826351ea398a64a447a9ef6",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": "2026-11-02T04:45:27.415Z",
+      "endUtc": "2026-11-02T04:45:43.738Z",
+      "durationMs": 16323.201200000942,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 16323.201200000942
+        }
+      ],
+      "utcDifferenceMs": 16323,
+      "durationMinusUtcMs": 0.2012000009417534,
+      "parentIntervalIds": [
+        "R148/CAD-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {
+        "includesIntermediate78PercentObservation": true
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R148/CAD-sessao-tempo.json",
+      "revision": 148,
+      "name": "CAD-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r148/CAD-sessao-tempo.json",
+      "sha256": "aa805100d37346d1799a88e46f39a0066cb055fc45be771f31e1c898c7850ce9",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "abrir configurar selecao dimensionar consultar categorias e amostra de avisos, reposicionar janela, salvar e fechar; exploratorio nao ranking",
+      "startUtc": "2026-11-02T04:43:53.510Z",
+      "endUtc": "2026-11-02T04:54:40.743Z",
+      "durationMs": 647232.6210999973,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "wallMs",
+          "ms": 647232.6210999973
+        }
+      ],
+      "utcDifferenceMs": 647233,
+      "durationMinusUtcMs": -0.3789000026881695,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": false,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R149/R149-tempo-script.json",
+      "revision": 149,
+      "name": "R149-tempo-script.json",
+      "source": "tcc-assistente/estudos/h03-r149/R149-tempo-script.json",
+      "sha256": "4031dc40a33eff580e08632b9d8498aeda3437bbbb86a172d8c1895eda41570a",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "execucao_de_script_sem_tempo_total_da_etapa",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": "2026-11-02T09:22:19.167Z",
+      "endUtc": "2026-11-02T09:22:20.542Z",
+      "durationMs": 1374.0203999986988,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 1374.0203999986988
+        }
+      ],
+      "utcDifferenceMs": 1375,
+      "durationMinusUtcMs": -0.9796000013011508,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {
+        "notFlowOrWholeAiEffort": true
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R150/BIM-sessao-tempo.json",
+      "revision": 150,
+      "name": "BIM-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r150/BIM-sessao-tempo.json",
+      "sha256": "1aec826d6e31ed23cd98c78d7592b18dcf83e562e76709f00d735a149867d68d",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "consulta V2 N1, aba No, resultados por bitola no2, secoes; fechar sem salvar/reprocessar",
+      "startUtc": "2026-11-02T09:25:43.163Z",
+      "endUtc": "2026-11-02T09:30:34.861Z",
+      "durationMs": 291697.8931000009,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "wallMs",
+          "ms": 291697.8931000009
+        }
+      ],
+      "utcDifferenceMs": 291698,
+      "durationMinusUtcMs": -0.10689999908208847,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": false,
+      "originalKnownLimits": {
+        "finalRankingAllowed": false
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R151/R151-tempo-script.json",
+      "revision": 151,
+      "name": "R151-tempo-script.json",
+      "source": "tcc-assistente/estudos/h03-r151/R151-tempo-script.json",
+      "sha256": "0c1e9ec01f36de206f28d7f6979e771fae8dc2e8511ae63e2ae9156a5bc03d33",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "execucao_de_script_sem_tempo_total_da_etapa",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": "2026-11-02T09:40:52.112Z",
+      "endUtc": "2026-11-02T09:40:53.636Z",
+      "durationMs": 1524.0589999957592,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 1524.0589999957592
+        }
+      ],
+      "utcDifferenceMs": 1524,
+      "durationMinusUtcMs": 0.058999995759222656,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {
+        "notFlowOrWholeAiEffort": true
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R152/R152-tempo-script.json",
+      "revision": 152,
+      "name": "R152-tempo-script.json",
+      "source": "tcc-assistente/estudos/h03-r152/R152-tempo-script.json",
+      "sha256": "0457d91f27e34686b3dc0fc901c9e1b8745bb0fd6d7c27f607104aebe48990ef",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "execucao_de_script_sem_tempo_total_da_etapa",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "execução inicial de cálculo e geração; não esforço total nem tempo de fluxo",
+      "startUtc": "2026-11-02T10:27:05.509Z",
+      "endUtc": "2026-11-02T10:27:07.047Z",
+      "durationMs": 1539.237899996806,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 1539.237899996806
+        }
+      ],
+      "utcDifferenceMs": 1538,
+      "durationMinusUtcMs": 1.237899996805936,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R153/CAD-sessao-tempo.json",
+      "revision": 153,
+      "name": "CAD-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r153/CAD-sessao-tempo.json",
+      "sha256": "0cade9b77cb7129c7b6129717285b39313fd0072789f461df3e2dd1258086e31",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "iniciar AutoCAD, aviso recuperação, abrir DXF, ajustar vista, salvar DWG, fechar/reabrir e exportar DXF; inclui navegação, falhas de foco e capturas",
+      "startUtc": "2026-11-02T10:41:24.535Z",
+      "endUtc": "2026-11-02T10:48:18.360Z",
+      "durationMs": 413824.8123999983,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "wallMs",
+          "ms": 413824.8123999983
+        }
+      ],
+      "utcDifferenceMs": 413825,
+      "durationMinusUtcMs": -0.1876000016927719,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": false,
+      "originalKnownLimits": {
+        "rankingAllowed": false
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R153/R153-tempo-script.json",
+      "revision": 153,
+      "name": "R153-tempo-script.json",
+      "source": "tcc-assistente/estudos/h03-r153/R153-tempo-script.json",
+      "sha256": "ee6610e9b4148c8eb9c712965113f5a9b58119b70555bddd4225000b34f6cc89",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "execucao_de_script_sem_tempo_total_da_etapa",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "cálculo/exportação/render inicial; não esforço total de IA ou tempo de fluxo",
+      "startUtc": "2026-11-02T10:40:14.342Z",
+      "endUtc": "2026-11-02T10:40:17.256Z",
+      "durationMs": 2912.2361000045203,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 2912.2361000045203
+        }
+      ],
+      "utcDifferenceMs": 2914,
+      "durationMinusUtcMs": -1.7638999954797328,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R154/R154-tempo-script.json",
+      "revision": 154,
+      "name": "R154-tempo-script.json",
+      "source": "tcc-assistente/estudos/h03-r154/R154-tempo-script.json",
+      "sha256": "2204e256edde75b66cc4cd389f503d7911f1d59e8c7b720ac998895471fb4ce5",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "execucao_de_script_sem_tempo_total_da_etapa",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "cálculo e atualização de definição; não tempo de fluxo ou esforço total da IA",
+      "startUtc": "2026-11-02T11:03:12.373Z",
+      "endUtc": "2026-11-02T11:03:12.391Z",
+      "durationMs": 17.591499999980442,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 17.591499999980442
+        }
+      ],
+      "utcDifferenceMs": 18,
+      "durationMinusUtcMs": -0.4085000000195578,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R155/R155-tempos.json",
+      "revision": 155,
+      "name": "R155-tempos.json",
+      "source": "tcc-assistente/estudos/h03-r155/R155-tempos.json",
+      "sha256": "5c781bd3d12cb3c045b1636203135b6b4d4f10857a5b72899ff41469eb8c026a",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": "2026-11-02T11:13:35.872Z",
+      "endUtc": "2026-11-02T11:34:16.598Z",
+      "durationMs": 1240727.9020000026,
+      "durationOrigin": "campo explicito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMonotonicMs",
+          "ms": 1240727.9020000026
+        }
+      ],
+      "utcDifferenceMs": 1240726,
+      "durationMinusUtcMs": 1.9020000025629997,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {
+        "sessionIncludesWaitingBuildFixAndUiFailures": true,
+        "humanActiveTimeUnknown": true,
+        "aiInferenceTimeUnknown": true,
+        "usableForFlowRanking": false,
+        "doNotSumNestedIntervals": true
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R156/R156-tempo-script.json",
+      "revision": 156,
+      "name": "R156-tempo-script.json",
+      "source": "tcc-assistente/estudos/h03-r156/R156-tempo-script.json",
+      "sha256": "a5526d09b69072e4c7aeb5a4710ccfd7326b7a644846872c3a545179779dac73",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "execucao_de_script_sem_tempo_total_da_etapa",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": "2026-11-02T11:40:34.559Z",
+      "endUtc": "2026-11-02T11:40:35.845Z",
+      "durationMs": 1285.606999997981,
+      "durationOrigin": "campo explicito do registro",
+      "durationCandidates": [
+        {
+          "field": "scriptMs",
+          "ms": 1285.606999997981
+        }
+      ],
+      "utcDifferenceMs": 1286,
+      "durationMinusUtcMs": -0.39300000201910734,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R157/R157-tempos.json",
+      "revision": 157,
+      "name": "R157-tempos.json",
+      "source": "tcc-assistente/estudos/h03-r157/R157-tempos.json",
+      "sha256": "dad52195b925fd2d952a0f39065d4a110119eb989b87f87464b7086572c1dc71",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": "2026-11-02T11:44:51.047Z",
+      "endUtc": "2026-11-02T11:53:43.276Z",
+      "durationMs": 532229.8596999943,
+      "durationOrigin": "campo explicito do registro",
+      "durationCandidates": [
+        {
+          "field": "sessionElapsedMonotonicMs",
+          "ms": 532229.8596999943
+        }
+      ],
+      "utcDifferenceMs": 532229,
+      "durationMinusUtcMs": 0.8596999943256378,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {
+        "includesNavigationCaptureWaitingAndReasoning": true,
+        "solverCpuTimeUnknown": true,
+        "aiInferenceTimeUnknown": true,
+        "usableForPairedCadBimRanking": false,
+        "doNotSumNestedIntervals": true
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R157/Revit-interferencia-observacao.json",
+      "revision": 157,
+      "name": "Revit-interferencia-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r157/Revit-interferencia-observacao.json",
+      "sha256": "57c576d6bd0ac3b5c769cab8b51c1d51a86572f3ef895e63296531d111fcdec0",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": null,
+      "durationOrigin": "não disponível",
+      "durationCandidates": [],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R158/R158-tempo-script.json",
+      "revision": 158,
+      "name": "R158-tempo-script.json",
+      "source": "tcc-assistente/estudos/h03-r158/R158-tempo-script.json",
+      "sha256": "95bf87e5ced809cd302458ad07d5fad9c94167e37017e5d64a5010418bfc705c",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "execucao_de_script_sem_tempo_total_da_etapa",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": "2026-11-02T12:10:34.645Z",
+      "endUtc": "2026-11-02T12:10:36.458Z",
+      "durationMs": 1813.0158999993,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 1813.0158999993
+        }
+      ],
+      "utcDifferenceMs": 1813,
+      "durationMinusUtcMs": 0.015899999300017953,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R159/R159-Eberick-exportacao-observacao.json",
+      "revision": 159,
+      "name": "R159-Eberick-exportacao-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r159/R159-Eberick-exportacao-observacao.json",
+      "sha256": "7f94f9977e8046e0e685bb761e3ec5d3c5c107aace5bf46deca00c5db5fd13c9",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Intervalo até leitura de controle após a geração IFC4; inclui auditoria e deliberação posteriores, não é tempo de CPU.",
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": null,
+      "durationOrigin": "não disponível",
+      "durationCandidates": [],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R159/R159-Eberick-recepcao-observacao.json",
+      "revision": 159,
+      "name": "R159-Eberick-recepcao-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r159/R159-Eberick-recepcao-observacao.json",
+      "sha256": "282db6c8461ee97333da73a05896b2a5c48ff76b004e6b86e51c1294743481ff",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Criação experimental a partir do menu de modelo externo até Ctrl+S e observação. Inclui navegação, conferência, esperas e deliberação; não é fluxo BIM total nem tempo de CPU.",
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": null,
+      "durationOrigin": "não disponível",
+      "durationCandidates": [],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R159/R159-IFC-exportacao-observacao.json",
+      "revision": 159,
+      "name": "R159-IFC-exportacao-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r159/R159-IFC-exportacao-observacao.json",
+      "sha256": "93c0a382d1bea16c72ab8738b92fba61d90d020a629b650076534b9a631b784c",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Intervalos de sessão até observação; incluem navegação, chamadas e raciocínio; não representam CPU nem fluxo BIM completo.",
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": null,
+      "durationOrigin": "não disponível",
+      "durationCandidates": [],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R159/R159-interferencia-observacao.json",
+      "revision": 159,
+      "name": "R159-interferencia-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r159/R159-interferencia-observacao.json",
+      "sha256": "2675aa925c18a6810d953faabe893230282b528e13f91c7a0ee0892509b64380",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": null,
+      "durationOrigin": "não disponível",
+      "durationCandidates": [],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R159/R159-quarta-tentativa-observacao.json",
+      "revision": 159,
+      "name": "R159-quarta-tentativa-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r159/R159-quarta-tentativa-observacao.json",
+      "sha256": "ccce5b464d78b76cbf46984f62cb55f7e42bf1868376e9c4dd26810548ea294d",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "tentativa_descartada",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": 50600.505500003695,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 50600.505500003695
+        }
+      ],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R159/R159-segunda-tentativa-observacao.json",
+      "revision": 159,
+      "name": "R159-segunda-tentativa-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r159/R159-segunda-tentativa-observacao.json",
+      "sha256": "150a44eb65b0432523add7c66c5b5d1ff46ee3b2c4ec3aa9ee46cb94c2591914",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "tentativa_descartada",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": 47371.549400001764,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 47371.549400001764
+        }
+      ],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R159/R159-terceira-tentativa-observacao.json",
+      "revision": 159,
+      "name": "R159-terceira-tentativa-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r159/R159-terceira-tentativa-observacao.json",
+      "sha256": "71467edd27957c60b8e87abb72af32936416aef6abf2c7f37490c6728af4079b",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "tentativa_descartada",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": 85633.12519999593,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 85633.12519999593
+        }
+      ],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R160/R160-Revit-aplicacao-observacao.json",
+      "revision": 160,
+      "name": "R160-Revit-aplicacao-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r160/R160-Revit-aplicacao-observacao.json",
+      "sha256": "8f467be3bc53a47bc6ba1918bbbeb8de878070494a28653535a5f24145d313eb",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Clique no comando até observação após fechamento do resumo; exclui preparo, compilação e intervenção humana. Não é CPU nem fluxo completo.",
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": null,
+      "durationOrigin": "não disponível",
+      "durationCandidates": [],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R161/R161-Eberick-exportacao-observacao.json",
+      "revision": 161,
+      "name": "R161-Eberick-exportacao-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r161/R161-Eberick-exportacao-observacao.json",
+      "sha256": "b0a8c994d2d057b241a456b74a45939ddafbe571b47c99389fe7aa714839fc1c",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Gerar IFC4 ate observacao da interface; nao inclui preparacao nem auditoria e nao representa fluxo completo.",
+      "startUtc": "2026-11-02T18:24:19.905Z",
+      "endUtc": "2026-11-02T18:24:20.959Z",
+      "durationMs": 1054,
+      "durationOrigin": "diferença de horários UTC, sem medição monotônica declarada",
+      "durationCandidates": [],
+      "utcDifferenceMs": 1054,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R161/R161-Eberick-recepcao-observacao.json",
+      "revision": 161,
+      "name": "R161-Eberick-recepcao-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r161/R161-Eberick-recepcao-observacao.json",
+      "sha256": "c30ed35dc76e00a5db71fb2211b8e6c37f721aa98c9afa683323ae16dfc66582",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Selecao do IFC bruto ate observacao apos Salvar pela barra; abertura humana do assistente anterior ao cronometro; sem conferencia posterior nem calculo.",
+      "startUtc": "2026-11-02T18:18:44.141Z",
+      "endUtc": "2026-11-02T18:22:08.822Z",
+      "durationMs": 204681,
+      "durationOrigin": "diferença de horários UTC, sem medição monotônica declarada",
+      "durationCandidates": [],
+      "utcDifferenceMs": 204681,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R161/R161-IFC-exportacao-observacao.json",
+      "revision": 161,
+      "name": "R161-IFC-exportacao-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r161/R161-IFC-exportacao-observacao.json",
+      "sha256": "e77a2db11c416b2ccb6a592f305c2f44a81464ea55fcd3b328cc71b9a9db6d4a",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Importar configuracao, salvar releitura, definir destino e exportar. Intervalo do clique Exportar esta contido no intervalo de preparacao; nao somar. Nao e tempo total BIM nem tempo puro de CPU.",
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": null,
+      "durationOrigin": "não disponível",
+      "durationCandidates": [],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {
+        "usableForRanking": false
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R161/R161-tempos-parciais.json",
+      "revision": 161,
+      "name": "R161-tempos-parciais.json",
+      "source": "tcc-assistente/estudos/h03-r161/R161-tempos-parciais.json",
+      "sha256": "3cd97f0ba32215d6fef9e11aa51fdd16a353eac2ca9fd3d4778b7781b6af7c6d",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Abertura da copia CAD, tentativas de edicao, nivel intermediario e lancamento da V16; IFC de controle medido separadamente.",
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": null,
+      "durationOrigin": "não disponível",
+      "durationCandidates": [],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {
+        "readyForRanking": false
+      },
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R162/R162-exportacao-observacao.json",
+      "revision": 162,
+      "name": "R162-exportacao-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r162/R162-exportacao-observacao.json",
+      "sha256": "4a1e0d3f6e1ebfdf41dc4f8aaacc5847c44afc0d1db670aa48e07de088e69220",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Clique Gerar controle IFC4 ate observacao de retorno; nao e tempo completo da etapa ou fluxo BIM.",
+      "startUtc": "2026-11-02T18:43:11.398Z",
+      "endUtc": "2026-11-02T18:43:12.589Z",
+      "durationMs": 1191,
+      "durationOrigin": "diferença de horários UTC, sem medição monotônica declarada",
+      "durationCandidates": [],
+      "utcDifferenceMs": 1191,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R162/R162-recepcao-observacao.json",
+      "revision": 162,
+      "name": "R162-recepcao-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r162/R162-recepcao-observacao.json",
+      "sha256": "8e094c900157f2b8a0a1340908132cc3be7ebf31e093abbb0054ea1da6e6108d",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Selecao da variante IFC ate observacao apos Salvar; inclui tentativas de nome/foco, exclui criacao do codigo e geracao/auditoria da variante.",
+      "startUtc": "2026-11-02T18:36:53.821Z",
+      "endUtc": "2026-11-02T18:41:29.482Z",
+      "durationMs": 275661,
+      "durationOrigin": "diferença de horários UTC, sem medição monotônica declarada",
+      "durationCandidates": [],
+      "utcDifferenceMs": 275661,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R164/R164-exportacao-observacao.json",
+      "revision": 164,
+      "name": "R164-exportacao-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r164/R164-exportacao-observacao.json",
+      "sha256": "33d0856138f031210f95f80fafa05af7b3f3f301bf1d5f55f1d82fc04f85e215",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Clique Gerar ate observacao seguinte, nao etapa completa de exportacao.",
+      "startUtc": "2026-11-02T19:24:55.421Z",
+      "endUtc": "2026-11-02T19:24:57.750Z",
+      "durationMs": 2329,
+      "durationOrigin": "diferença de horários UTC, sem medição monotônica declarada",
+      "durationCandidates": [],
+      "utcDifferenceMs": 2329,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R164/R164-reabertura-observacao.json",
+      "revision": 164,
+      "name": "R164-reabertura-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r164/R164-reabertura-observacao.json",
+      "sha256": "58927e471598656273c0db9573cf15d37c38085d8fadf941177acfca8a1fb787",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": null,
+      "durationOrigin": "não disponível",
+      "durationCandidates": [],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R164/R164-recepcao-observacao.json",
+      "revision": 164,
+      "name": "R164-recepcao-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r164/R164-recepcao-observacao.json",
+      "sha256": "b7b481037877a6f6bf8660bc1d21a23b3ecc832f6732e164cbc004177879ee37",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Selecao do IFC derivado ate observacao apos Salvar; inclui foco e espera da planificacao, exclui desenvolvimento do codigo, geracao da variante e conferencia posterior.",
+      "startUtc": "2026-11-02T19:20:10.240Z",
+      "endUtc": "2026-11-02T19:22:47.980Z",
+      "durationMs": 157740,
+      "durationOrigin": "diferença de horários UTC, sem medição monotônica declarada",
+      "durationCandidates": [],
+      "utcDifferenceMs": 157740,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R165/R165-correcao-contorno-observacao.json",
+      "revision": 165,
+      "name": "R165-correcao-contorno-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r165/R165-correcao-contorno-observacao.json",
+      "sha256": "6bdd91b2993042afca57b167533798f0feca2d91dca85c87a5ca24b54b45f8ac",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Selecao inicial V15 ate salvar apos secao, dois nos e relancamento da L5; inclui tentativas, pesquisa, auditorias intermediarias e foco.",
+      "startUtc": "2026-11-02T19:32:08.861Z",
+      "endUtc": "2026-11-02T20:11:38.001Z",
+      "durationMs": 2369140,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 2369140
+        }
+      ],
+      "utcDifferenceMs": 2369140,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R165/R165-correcao-nos-observacao.json",
+      "revision": 165,
+      "name": "R165-correcao-nos-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r165/R165-correcao-nos-observacao.json",
+      "sha256": "92c124f744b02bb44d293a2af2dc1608e5e92c69f1e616be1fab521d75169aff",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Selecao inicial V15 ate salvar apos editar dois nos; inclui tentativas, auditoria intermediaria, pesquisa de comando e mensagem do usuario.",
+      "startUtc": "2026-11-02T19:32:08.861Z",
+      "endUtc": "2026-11-02T20:02:06.217Z",
+      "durationMs": 1797356,
+      "durationOrigin": "diferença de horários UTC, sem medição monotônica declarada",
+      "durationCandidates": [],
+      "utcDifferenceMs": 1797356,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R165/R165-correcao-observacao.json",
+      "revision": 165,
+      "name": "R165-correcao-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r165/R165-correcao-observacao.json",
+      "sha256": "db8144cef425da1b605db012952561d38a2080f4141e9d8b675c5dabfa36da43",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Inicio da selecao V15 ate observacao apos Salvar; inclui pesquisa de comando e tentativas de selecao/foco. Exclui copia previa e auditoria posterior.",
+      "startUtc": "2026-11-02T19:32:08.861Z",
+      "endUtc": "2026-11-02T19:38:25.220Z",
+      "durationMs": 376359,
+      "durationOrigin": "diferença de horários UTC, sem medição monotônica declarada",
+      "durationCandidates": [],
+      "utcDifferenceMs": 376359,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R165/R165-reabertura-observacao.json",
+      "revision": 165,
+      "name": "R165-reabertura-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r165/R165-reabertura-observacao.json",
+      "sha256": "67b86522c6bfd01b98574337b2099f231014ad00dd61b9d5badc61e9159176d8",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": null,
+      "durationOrigin": "não disponível",
+      "durationCandidates": [],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R166/R166-reabertura-observacao.json",
+      "revision": 166,
+      "name": "R166-reabertura-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r166/R166-reabertura-observacao.json",
+      "sha256": "6c1bbc991f9b9a4ca69eaa29bebbfdc2a831643ee4d72b9906b60093a12b990b",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": null,
+      "durationOrigin": "não disponível",
+      "durationCandidates": [],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R166/R166-recepcao-observacao.json",
+      "revision": 166,
+      "name": "R166-recepcao-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r166/R166-recepcao-observacao.json",
+      "sha256": "c4fa4f6a83ad43768d37ed83448c2c83c99fa1238efad1879a0f4a54bbd946fd",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Selecao do IFC ate observacao apos salvar; inclui configuracao do ultimo CAD, foco e planificacao.",
+      "startUtc": "2026-11-02T20:19:47.562Z",
+      "endUtc": "2026-11-02T20:22:39.152Z",
+      "durationMs": 171590,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 171590
+        }
+      ],
+      "utcDifferenceMs": 171590,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R167/R167-N1-observacao.json",
+      "revision": 167,
+      "name": "R167-N1-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r167/R167-N1-observacao.json",
+      "sha256": "a0a84e9b9e4c8b931575074a24fadc46c9881311411632fb4c20b510f5e5ba5b",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Comando laje ate salvar cinco lajes no N1; exclui copia e inclui configuracao/observacoes.",
+      "startUtc": "2026-11-02T20:33:24.393Z",
+      "endUtc": "2026-11-02T20:35:07.207Z",
+      "durationMs": 102814,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 102814
+        }
+      ],
+      "utcDifferenceMs": 102814,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R167/R167-N2-observacao.json",
+      "revision": 167,
+      "name": "R167-N2-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r167/R167-N2-observacao.json",
+      "sha256": "d0d44c5cc1da92d03dd42602f8ab1d32ffc6aa861a760ee5311221efb07ff3d0",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Comando laje N2 ate salvar cinco lajes na cobertura; inclui parametrizacao e observacoes.",
+      "startUtc": "2026-11-02T20:35:28.864Z",
+      "endUtc": "2026-11-02T20:36:19.387Z",
+      "durationMs": 50523,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 50523
+        }
+      ],
+      "utcDifferenceMs": 50523,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R167/R167-lancamento-observacao.json",
+      "revision": 167,
+      "name": "R167-lancamento-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r167/R167-lancamento-observacao.json",
+      "sha256": "2ae55f44e20e7c84104deb6ef916d1f4d0e43daa45162c0a00c9c324952b833a",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Comando laje inicial ate salvar 11 lajes e tres barras de contorno da varanda; inclui foco, tentativas, pesquisa local e observacoes.",
+      "startUtc": "2026-11-02T20:33:24.393Z",
+      "endUtc": "2026-11-02T20:45:27.041Z",
+      "durationMs": 722648,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 722648
+        }
+      ],
+      "utcDifferenceMs": 722648,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R167/R167-reabertura-observacao.json",
+      "revision": 167,
+      "name": "R167-reabertura-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r167/R167-reabertura-observacao.json",
+      "sha256": "4366dfce0d379787ef74ffd380be1a48451bdcd6dd4395ab8d40bb10137eceeb",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": null,
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": null,
+      "durationOrigin": "não disponível",
+      "durationCandidates": [],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R169/R169-correcao-observacao.json",
+      "revision": 169,
+      "name": "R169-correcao-observacao.json",
+      "source": "tcc-assistente/estudos/h03-r169/R169-correcao-observacao.json",
+      "sha256": "4573c17f5f00a119a3039b292a1863f5b2c7e18a6f1cf054ae526b1634c0c437",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Engastar lajes no trecho compartilhado V12 L4/L6 ate salvar, incluindo diagnostico nativo N1 e observacoes.",
+      "startUtc": "2026-11-02T21:30:33.010Z",
+      "endUtc": "2026-11-02T21:31:49.087Z",
+      "durationMs": 76077,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 76077
+        }
+      ],
+      "utcDifferenceMs": 76077,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R171/R171-correcao-tempo.json",
+      "revision": 171,
+      "name": "R171-correcao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r171/R171-correcao-tempo.json",
+      "sha256": "b3912b0431c6831c8c11ff3d02e123886217b546823ff562977faa5b78dc91ca",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Abrir croqui N0, localizar comando, selecionar 11 pilares, converter apoios, verificar lancamento e salvar. Inclui captura e tentativas.",
+      "startUtc": "2026-11-02T21:45:24.290Z",
+      "endUtc": "2026-11-02T21:48:57.941Z",
+      "durationMs": 213651,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 213651
+        }
+      ],
+      "utcDifferenceMs": 213651,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R172/BIM-processamento-tempo.json",
+      "revision": 172,
+      "name": "BIM-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r172/BIM-processamento-tempo.json",
+      "sha256": "019f022f7daabfe69be5c7a4e58b023c09e3a30546c4d5bd13a3df71db91ecc5",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Comando ate primeira captura de estado; conferir se corresponde ao termino.",
+      "startUtc": "2026-11-02T22:06:12.473Z",
+      "endUtc": "2026-11-02T22:06:17.227Z",
+      "durationMs": 4754,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 4754
+        }
+      ],
+      "utcDifferenceMs": 4754,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [
+        "R172/BIM-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R172/BIM-sessao-tempo.json",
+      "revision": 172,
+      "name": "BIM-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r172/BIM-sessao-tempo.json",
+      "sha256": "5d403a8d2c7d193e799aaf8746953f09a194cbe2ca656f6b23da22d0e682d525",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Selecao da copia BIM, alinhamento das opcoes, analise, captura do resumo, salvar e fechar.",
+      "startUtc": "2026-11-02T22:05:02.225Z",
+      "endUtc": "2026-11-02T22:07:19.192Z",
+      "durationMs": 136967,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 136967
+        }
+      ],
+      "utcDifferenceMs": 136967,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R172/CAD-processamento-tempo.json",
+      "revision": 172,
+      "name": "CAD-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r172/CAD-processamento-tempo.json",
+      "sha256": "7c011d428e5166903f6d775b51d1004732177ef8a63d1906c6a23396576032bb",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Comando ate registro apos primeira captura de termino; inclui latencia da automacao e uma rodada de observacao.",
+      "startUtc": "2026-11-02T21:58:07.059Z",
+      "endUtc": "2026-11-02T21:58:34.483Z",
+      "durationMs": 27424,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 27424
+        }
+      ],
+      "utcDifferenceMs": 27424,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [
+        "R172/CAD-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R172/CAD-reprocessamento-tempo.json",
+      "revision": 172,
+      "name": "CAD-reprocessamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r172/CAD-reprocessamento-tempo.json",
+      "sha256": "33c31cc48813ae990115fa7c4cef0a4ab67bb2fe00b56572f1199248dc20de63",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Nova execucao apos Salvar como, comando ate primeira captura de estado.",
+      "startUtc": "2026-11-02T22:02:26.469Z",
+      "endUtc": "2026-11-02T22:02:31.342Z",
+      "durationMs": 4873,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 4873
+        }
+      ],
+      "utcDifferenceMs": 4873,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [
+        "R172/CAD-sessao-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R172/CAD-sessao-tempo.json",
+      "revision": 172,
+      "name": "CAD-sessao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r172/CAD-sessao-tempo.json",
+      "sha256": "d487428bab94e4f5c529f1cab97355f189d284e881de9c5696c29f36ed6b220e",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Selecao da copia CAD, analise, aviso de pasta, Salvar como, segunda analise, captura, salvar e fechar.",
+      "startUtc": "2026-11-02T21:57:14.375Z",
+      "endUtc": "2026-11-02T22:03:52.656Z",
+      "durationMs": 398281,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 398281
+        }
+      ],
+      "utcDifferenceMs": 398281,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R173/R173-analise-tempo.json",
+      "revision": 173,
+      "name": "R173-analise-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r173/R173-analise-tempo.json",
+      "sha256": "b16ba80a6d39ff751bb672d3a4dff1ad75e6a9a7f51ffa9f47f2e66169edd417",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "comando OK ate observacao de processamento concluido com avisos; inclui captura/latencia, nao e tempo puro do solver",
+      "startUtc": "2026-11-02T22:34:08.002Z",
+      "endUtc": "2026-11-02T22:34:22.865Z",
+      "durationMs": 14863,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 14863
+        }
+      ],
+      "utcDifferenceMs": 14863,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R175/R175-cargas-primeiro-save-tempo.json",
+      "revision": 175,
+      "name": "R175-cargas-primeiro-save-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r175/R175-cargas-primeiro-save-tempo.json",
+      "sha256": "bfcf9f0000d27bcd76b33ab42641aafd90aa607d4bc861de17c022f7dc77e62e",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Sessao R175 ate primeiro save apos 13 nos G/QT; inclui criacao de nos, diagnostico intermediario, exportacoes e latencia de orquestracao; nao CPU nem tempo exclusivo de lancamento",
+      "startUtc": "2026-11-02T23:24:03.759Z",
+      "endUtc": "2026-11-02T23:49:39.760Z",
+      "durationMs": 1536001,
+      "durationOrigin": "campo explicito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracaoMs",
+          "ms": 1536001
+        }
+      ],
+      "utcDifferenceMs": 1536001,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R175/R175-cargas-processamento-tempo.json",
+      "revision": 175,
+      "name": "R175-cargas-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r175/R175-cargas-processamento-tempo.json",
+      "sha256": "429ce5961a7f0d74ece6f1497456974d0e69cd1fd38b4c9e9cb252f2dca6f88b",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "OK de analise a observacao de processamento concluido com avisos; inclui latencia de ferramenta",
+      "startUtc": "2026-11-02T23:50:11.953Z",
+      "endUtc": "2026-11-02T23:50:28.111Z",
+      "durationMs": 16158,
+      "durationOrigin": "campo explicito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracaoMs",
+          "ms": 16158
+        }
+      ],
+      "utcDifferenceMs": 16158,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [
+        "R175/R175-sessao-com-releitura-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R175/R175-nos-primeiro-save-tempo.json",
+      "revision": 175,
+      "name": "R175-nos-primeiro-save-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r175/R175-nos-primeiro-save-tempo.json",
+      "sha256": "b350afe35119d4de2c672d4ad1859cf43632f8988663568cc7f54330a9fec7ca",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "criacao dos 13 nos e verificacao antes de cargas; inclui navegacao e tentativas; nao fluxo completo",
+      "startUtc": "2026-11-02T23:24:03.759Z",
+      "endUtc": "2026-11-02T23:32:15.180Z",
+      "durationMs": 491421,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 491421
+        }
+      ],
+      "utcDifferenceMs": 491421,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R175/R175-processamento-tempo.json",
+      "revision": 175,
+      "name": "R175-processamento-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r175/R175-processamento-tempo.json",
+      "sha256": "00b51f9572549238c10ead45f6a7de02766d5503db8b9cc2be13c3ec9e553667",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "OK ate registro observado concluido com avisos; nao CPU isolada",
+      "startUtc": "2026-11-02T23:35:46.041Z",
+      "endUtc": "2026-11-02T23:36:15.412Z",
+      "durationMs": 29371,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 29371
+        }
+      ],
+      "utcDifferenceMs": 29371,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [
+        "R175/R175-cargas-primeiro-save-tempo.json",
+        "R175/R175-sessao-com-releitura-tempo.json"
+      ],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R175/R175-sessao-com-releitura-tempo.json",
+      "revision": 175,
+      "name": "R175-sessao-com-releitura-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r175/R175-sessao-com-releitura-tempo.json",
+      "sha256": "9c33d4d1564f6cd446a98da1c079b4c090bc7727b4ef0f78656ca89d81d153f0",
+      "branch": null,
+      "branchOrigin": "não atribuída: atividade compartilhada ou escopo não inequívoco",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Sessao completa R175 ate fechar apos releitura amostral de RC03 e RC11; inclui dois processamentos exportacoes e orquestracao; contem intervalo ate primeiro save",
+      "startUtc": "2026-11-02T23:24:03.759Z",
+      "endUtc": "2026-11-02T23:57:50.313Z",
+      "durationMs": 2026554,
+      "durationOrigin": "campo explicito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracaoMs",
+          "ms": 2026554
+        }
+      ],
+      "utcDifferenceMs": 2026554,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R176/CAD-exportacao-tempo.json",
+      "revision": 176,
+      "name": "CAD-exportacao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r176/CAD-exportacao-tempo.json",
+      "sha256": "b2fab4a62ddf282e47eb014940e8e5d6e04851e8ae19c5c04c56968dae5a7c53",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Consulta exportacao e fechamento; nao tempo do fluxo CAD completo",
+      "startUtc": "2026-11-03T00:03:30.165Z",
+      "endUtc": "2026-11-03T00:04:21.968Z",
+      "durationMs": 51803,
+      "durationOrigin": "campo explicito do registro",
+      "durationCandidates": [
+        {
+          "field": "duracaoMs",
+          "ms": 51803
+        }
+      ],
+      "utcDifferenceMs": 51803,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R177/BIM-tres-partes-primeiro-save-tempo.json",
+      "revision": 177,
+      "name": "BIM-tres-partes-primeiro-save-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r177/BIM-tres-partes-primeiro-save-tempo.json",
+      "sha256": "4c1e76c9f79ee3b0a50ffd6a5d37c97a822dd1e4601a7188595afdb777ffede9",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "BIM: preparacao nativa barras, patamar, dois lances, apoios numericos; inclui consulta, orquestracao e interrupcoes; nao tempo integral comparavel dos fluxos",
+      "startUtc": "2026-11-03T00:33:56.756Z",
+      "endUtc": "2026-11-03T00:56:05.317Z",
+      "durationMs": 1328561,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "elapsedMs",
+          "ms": 1328561
+        }
+      ],
+      "utcDifferenceMs": 1328561,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R177/CAD-exportacao-tempo.json",
+      "revision": 177,
+      "name": "CAD-exportacao-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r177/CAD-exportacao-tempo.json",
+      "sha256": "0870255d1db751656dd1399acca2d2f979314167faaf1a9f489e6a87502811cc",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Exportacao SAP2000 nativa incluindo escolha de pasta e observacao; nao e tempo total do fluxo.",
+      "startUtc": "2026-11-03T02:08:13.225Z",
+      "endUtc": "2026-11-03T02:09:14.658Z",
+      "durationMs": 61433,
+      "durationOrigin": "campo explicito do registro",
+      "durationCandidates": [
+        {
+          "field": "intervaloObservacionalMs",
+          "ms": 61433
+        }
+      ],
+      "utcDifferenceMs": 61433,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R177/CAD-segmento-dois-lances-tempo.json",
+      "revision": 177,
+      "name": "CAD-segmento-dois-lances-tempo.json",
+      "source": "tcc-assistente/estudos/h03-r177/CAD-segmento-dois-lances-tempo.json",
+      "sha256": "04d3be4412edd4e7f8988dc1077fb7ebc5cef40b26164323972f0a180da25cbd",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Retomada de selecao inferior, conclusao LE3, referencias e lancamento LE2, save. Nao inclui patamar e apoios ja preparados. Tempo observado com controle UI.",
+      "startUtc": "2026-11-03T01:50:47.994Z",
+      "endUtc": "2026-11-03T01:54:41.652Z",
+      "durationMs": 233658,
+      "durationOrigin": "campo explicito do registro",
+      "durationCandidates": [
+        {
+          "field": "decorridoMs",
+          "ms": 233658
+        }
+      ],
+      "utcDifferenceMs": 233658,
+      "durationMinusUtcMs": 0,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true
+    },
+    {
+      "id": "R178/CAD-correcao-intervalo",
+      "revision": 178,
+      "name": "CAD-correcao-intervalo",
+      "source": "tcc-assistente/estudos/h03-r178/R178-tempos.json",
+      "sha256": "1f63ae093b79c742d2872ca102208f11f4cea3f7f7e6ce4c61cee1565e3aad2c",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Reconstrucao experimental do contorno de LE1, apos exclusao em copia R178; R177 preservada",
+      "startUtc": "2026-11-03T02:31:37.763Z",
+      "endUtc": "2026-11-03T02:32:44.939Z",
+      "durationMs": 67176,
+      "durationOrigin": "diferença de horários UTC, sem medição monotônica declarada",
+      "durationCandidates": [],
+      "utcDifferenceMs": 67176,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true,
+      "sourceFragment": "CAD",
+      "includesConversationPause": false,
+      "scopeBoundariesUnequal": true
+    },
+    {
+      "id": "R178/CAD-processamento-nativo",
+      "revision": 178,
+      "name": "CAD-processamento-nativo",
+      "source": "tcc-assistente/estudos/h03-r178/R178-tempos.json",
+      "sha256": "1f63ae093b79c742d2872ca102208f11f4cea3f7f7e6ce4c61cee1565e3aad2c",
+      "branch": "CAD",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Tempo interno do relatorio nativo de analise parcial R178",
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": 5000,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 5000
+        }
+      ],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true,
+      "sourceFragment": "nativePartialProcessingSeconds.CAD",
+      "nativeSoftwareProcessingMeasure": true
+    },
+    {
+      "id": "R178/BIM-correcao-intervalo",
+      "revision": 178,
+      "name": "BIM-correcao-intervalo",
+      "source": "tcc-assistente/estudos/h03-r178/R178-tempos.json",
+      "sha256": "1f63ae093b79c742d2872ca102208f11f4cea3f7f7e6ce4c61cee1565e3aad2c",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "sessao_exploratoria",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Reconstrucao de LE1 na copia R178 BIM; procedimento aprendido no CAD; nao constitui ensaio cego",
+      "startUtc": "2026-11-03T02:38:51.157Z",
+      "endUtc": "2026-11-03T02:47:43.861Z",
+      "durationMs": 532704,
+      "durationOrigin": "diferença de horários UTC, sem medição monotônica declarada",
+      "durationCandidates": [],
+      "utcDifferenceMs": 532704,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true,
+      "sourceFragment": "BIM",
+      "includesConversationPause": true,
+      "scopeBoundariesUnequal": true
+    },
+    {
+      "id": "R178/BIM-processamento-nativo",
+      "revision": 178,
+      "name": "BIM-processamento-nativo",
+      "source": "tcc-assistente/estudos/h03-r178/R178-tempos.json",
+      "sha256": "1f63ae093b79c742d2872ca102208f11f4cea3f7f7e6ce4c61cee1565e3aad2c",
+      "branch": "BIM",
+      "branchOrigin": "prefixo do arquivo",
+      "category": "comando_ate_observacao_de_termino",
+      "phase": "Consultar o escopo original do registro",
+      "scope": "Tempo interno do relatorio nativo de analise parcial R178",
+      "startUtc": null,
+      "endUtc": null,
+      "durationMs": 6000,
+      "durationOrigin": "campo explícito do registro",
+      "durationCandidates": [
+        {
+          "field": "durationMs",
+          "ms": 6000
+        }
+      ],
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "parentIntervalIds": [],
+      "eligibleForFinalFlowRanking": false,
+      "pureSolverTime": false,
+      "isolatedAIInferenceMs": null,
+      "humanActiveMs": null,
+      "tokens": null,
+      "cost": null,
+      "humanInterventionOriginal": null,
+      "originalKnownLimits": {},
+      "explicitSourceFieldsPreserved": true,
+      "sourceFragment": "nativePartialProcessingSeconds.BIM",
+      "nativeSoftwareProcessingMeasure": true
+    }
+  ],
+  "overlaps": [
+    {
+      "a": "R146/BIM-processamento-tempo.json",
+      "b": "R146/BIM-sessao-tempo.json",
+      "overlapMs": 4812,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R146/CAD-processamento-tempo.json",
+      "b": "R146/CAD-sessao-tempo.json",
+      "overlapMs": 10994,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R148/BIM-processamento-tempo.json",
+      "b": "R148/BIM-sessao-tempo.json",
+      "overlapMs": 18541,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R148/CAD-processamento-tempo.json",
+      "b": "R148/CAD-sessao-tempo.json",
+      "overlapMs": 16323,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R165/R165-correcao-contorno-observacao.json",
+      "b": "R165/R165-correcao-nos-observacao.json",
+      "overlapMs": 1797356,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R165/R165-correcao-contorno-observacao.json",
+      "b": "R165/R165-correcao-observacao.json",
+      "overlapMs": 376359,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R165/R165-correcao-nos-observacao.json",
+      "b": "R165/R165-correcao-observacao.json",
+      "overlapMs": 376359,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R167/R167-N1-observacao.json",
+      "b": "R167/R167-lancamento-observacao.json",
+      "overlapMs": 102814,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R167/R167-N2-observacao.json",
+      "b": "R167/R167-lancamento-observacao.json",
+      "overlapMs": 50523,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R172/BIM-processamento-tempo.json",
+      "b": "R172/BIM-sessao-tempo.json",
+      "overlapMs": 4754,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R172/CAD-processamento-tempo.json",
+      "b": "R172/CAD-sessao-tempo.json",
+      "overlapMs": 27424,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R172/CAD-reprocessamento-tempo.json",
+      "b": "R172/CAD-sessao-tempo.json",
+      "overlapMs": 4873,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R175/R175-cargas-primeiro-save-tempo.json",
+      "b": "R175/R175-nos-primeiro-save-tempo.json",
+      "overlapMs": 491421,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R175/R175-cargas-primeiro-save-tempo.json",
+      "b": "R175/R175-processamento-tempo.json",
+      "overlapMs": 29371,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R175/R175-cargas-primeiro-save-tempo.json",
+      "b": "R175/R175-sessao-com-releitura-tempo.json",
+      "overlapMs": 1536001,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R175/R175-cargas-processamento-tempo.json",
+      "b": "R175/R175-sessao-com-releitura-tempo.json",
+      "overlapMs": 16158,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R175/R175-nos-primeiro-save-tempo.json",
+      "b": "R175/R175-sessao-com-releitura-tempo.json",
+      "overlapMs": 491421,
+      "parallelExecutionProven": false
+    },
+    {
+      "a": "R175/R175-processamento-tempo.json",
+      "b": "R175/R175-sessao-com-releitura-tempo.json",
+      "overlapMs": 29371,
+      "parallelExecutionProven": false
+    }
+  ],
+  "finalPairedFlowTotalCalculated": false,
+  "rankingsAllowed": false,
+  "isolatedAIInferenceMeasured": false,
+  "humanActiveTimeMeasured": false,
+  "tokensMeasured": false,
+  "costMeasured": false,
+  "centralTimingDatabaseModified": false,
+  "monographModified": false
+}
