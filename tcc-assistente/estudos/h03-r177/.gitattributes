@@ -1,0 +1,9 @@
+# Preservar os bytes usados no manifesto SHA-256, inclusive finais de linha.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Exportacoes nativas sao evidencias brutas; nao normalizar espacos/encoding.
+CAD-SAP/* -diff
+BIM-SAP/* -diff
+CAD-IFC/* -diff
+BIM-IFC/* -diff
+*-mensagens-segunda-analise.txt -diff
+CAD-resultados-reaberto-reprocessado.txt -diff
