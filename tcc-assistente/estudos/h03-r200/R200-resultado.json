@@ -1,0 +1,109 @@
+{
+  "revision": "H03/R200",
+  "nature": "Conferencia nativa das copias R199; sem alteracao de cargas ou secoes nesta revisao",
+  "sources": {
+    "CAD": {
+      "path": "D:\\TCC\\outputs\\R199-CAD-DOIS-ENGASTES-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "36bf6f047dc22ec457a6d58f1e855c6e10bd9afe735c371afc89e72f035c20d9",
+      "diagnosticSha256": "4f9ea8fe500a1b6bb1974355726f3fdd9e593eff4e7f32b982147af645d50509"
+    },
+    "BIM": {
+      "path": "D:\\TCC\\outputs\\R199-BIM-DOIS-ENGASTES-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sha256": "e8e56c298d01e5ad84206ecc13452e8dc8d73f7864b216bdad01b2cba363b28e",
+      "diagnosticSha256": "90bb11cf1638b1785e1bac062a0f13349d8f46b9c1aa74e39cac5eafdcf60d15"
+    }
+  },
+  "commonReadings": {
+    "V1_N0": {
+      "freeSpanCm": 70,
+      "nodeSpanCm": 88,
+      "permanentReactionKNm": 18.26,
+      "variableReactionKNm": 6.48,
+      "positiveMomentKNm": 0.89,
+      "bottomBars": "2 phi 8.0",
+      "negativeMomentsKNm": [
+        -2.02,
+        -2.34
+      ],
+      "topBarsBothEnds": "2 phi 8.0",
+      "BIM_stirrups": "phi 6.3 c/15, 2 ramos",
+      "CAD_stirrupsChecked": false
+    },
+    "V16_N1": {
+      "freeSpanCm": 195,
+      "nodeSpanCm": 213,
+      "wallLoadKNmDisplayed": 6.75,
+      "positiveMomentKNm": 17.17,
+      "bottomBars": "2 phi 10.0",
+      "negativeMomentsKNm": [
+        -21.31,
+        -22.4
+      ],
+      "topBarsEnds": [
+        "4 phi 8.0",
+        "3 phi 10.0"
+      ],
+      "stirrups": "phi 6.3 c/15, 2 ramos"
+    },
+    "stair": {
+      "continuities": [
+        "LE3-LE1",
+        "LE1-LE2"
+      ],
+      "nativePlanStatus": "calculado em R199",
+      "diagnosticWarnings": 3
+    }
+  },
+  "diagnosticCounts": {
+    "CAD": {
+      "N1_beams": [
+        15,
+        1,
+        0
+      ],
+      "N2_beams": [
+        14,
+        1,
+        0
+      ],
+      "N0_beams": [
+        0,
+        1,
+        0
+      ]
+    },
+    "BIM": {
+      "N1_beams": [
+        10,
+        1,
+        1
+      ],
+      "N2_beams": [
+        8,
+        1,
+        0
+      ],
+      "N0_beams": [
+        0,
+        1,
+        0
+      ]
+    }
+  },
+  "countOrder": [
+    "sucesso",
+    "avisos",
+    "erros"
+  ],
+  "limits": [
+    "Causas individuais dos avisos ainda pendentes",
+    "Flechas das lajes nao verificadas nos dois diagnosticos",
+    "Carga W08 entre faces e nos exige reconciliacao",
+    "3.8269 kN do pano inferior sem caminho de carga confirmado",
+    "13 sapatas com erro em cada copia; marcadores de apoio idealizado, fora do escopo de dimensionamento geotecnico",
+    "Comparacao de retrabalho depende de equivalencia de agrupamento das vigas",
+    "Sem medicao de tempo de processamento R200; foram gerados diagnosticos dos calculos R199"
+  ],
+  "finalApproval": false,
+  "correctionRankingValid": false
+}
