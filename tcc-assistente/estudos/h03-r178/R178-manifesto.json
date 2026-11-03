@@ -1,0 +1,160 @@
+{
+  "revision": "H03/R178",
+  "files": [
+    {
+      "relativePath": ".gitattributes",
+      "bytes": 241,
+      "sha256": "352a8527afdba47e10b78a86fa185a5a63952695127bed7ab1f9d4a1e80acf52"
+    },
+    {
+      "relativePath": "auditar_contorno.py",
+      "bytes": 6890,
+      "sha256": "531d4e4bcef8bcd93d8c469f61016432880c63f0c137c18a2651b27e6f6001a6"
+    },
+    {
+      "relativePath": "BIM-correcao-inicio.json",
+      "bytes": 155,
+      "sha256": "9bfd025305799a2a84f4b1f2125cbaf69503b92090fad96dc6755697986a73ac"
+    },
+    {
+      "relativePath": "BIM-correcao-primeiro-save.json",
+      "bytes": 154,
+      "sha256": "e09fee480a5ea5f8deb32bba8dca791abea9be21f945362ca0ac37ef72bf97fc"
+    },
+    {
+      "relativePath": "BIM-IFC/r178-bim-patamar-controle.IFC",
+      "bytes": 257451,
+      "sha256": "d0efc1542c929962197bcb15c438afac4c200e73a5bd8d8d21687985ff73a8bd"
+    },
+    {
+      "relativePath": "BIM-mensagens-analise.txt",
+      "bytes": 5123,
+      "sha256": "f4a2335d7136a1016d01b21963533bbf54db12df273df529c82605c6fdaaaba2"
+    },
+    {
+      "relativePath": "BIM-patamar-parametros-relancamento.txt",
+      "bytes": 8376,
+      "sha256": "71497f2c9af66fa0afc191fffef6fbbb59f6c2eb36775ae5913386a582d56e2d"
+    },
+    {
+      "relativePath": "BIM-resultados-analise.txt",
+      "bytes": 11979,
+      "sha256": "20d2289be9c9226259a1dd1fc7f91a997266c1710bcf1e7347a5f001646c42ea"
+    },
+    {
+      "relativePath": "BIM-SAP/grelha_SAP2000_escada_TCC-7a6267fd-N1.$2k",
+      "bytes": 252642,
+      "sha256": "8a48e98dfb8f5e75d4f2cf671787ec6ae07376af4933ea683df73a0cf9b7375d"
+    },
+    {
+      "relativePath": "BIM-SAP/grelha_SAP2000_laje_TCC-7a6267fd-N1.$2k",
+      "bytes": 550969,
+      "sha256": "88bd6c9f7eadfeed577d73fc29b4549f47463ff366e588a505a0c77ae46f8702"
+    },
+    {
+      "relativePath": "BIM-SAP/grelha_SAP2000_laje_TCC-7a6267fd-N2.$2k",
+      "bytes": 528267,
+      "sha256": "7a81bc325ec61c9bd36b94334b788147e502d492b6ffa4d2728a2c3a1f868d12"
+    },
+    {
+      "relativePath": "BIM-SAP/portico_SAP2000_elastico.$2k",
+      "bytes": 212259,
+      "sha256": "8b8e4b33bd19cd91196636f8ae8ab6a868039dc19f66bcc45c3965f957def5d1"
+    },
+    {
+      "relativePath": "CAD-correcao-inicio.json",
+      "bytes": 150,
+      "sha256": "79da5c05a31afeb3d24fff278f99eecbabc60a974b10afab17cbf831fd5ab100"
+    },
+    {
+      "relativePath": "CAD-correcao-primeiro-save.json",
+      "bytes": 121,
+      "sha256": "13e26174ed56b4d1625bf23469188aa2a3d43d6bcc9f030f5ebc5f095a10b6fd"
+    },
+    {
+      "relativePath": "CAD-IFC/r178-cad-patamar-controle.IFC",
+      "bytes": 257440,
+      "sha256": "6ab9afaf1dffcbb9ca75a86136f8687e422aa850fe9fb6e34b48b5ab25096256"
+    },
+    {
+      "relativePath": "CAD-mensagens-analise.txt",
+      "bytes": 5031,
+      "sha256": "47c15576d18e9c1fc6a0dcf1c725f0c715a0f2cee3b6dbd5e8c07f0d35cf0092"
+    },
+    {
+      "relativePath": "CAD-patamar-parametros-relancamento.txt",
+      "bytes": 7727,
+      "sha256": "c3fe90b8eaf92cb2fadf272e88a04ef67c890ace76212cc9bfa89af1b08c71c8"
+    },
+    {
+      "relativePath": "CAD-resultados-analise.txt",
+      "bytes": 11379,
+      "sha256": "a6a88c0590c70dc7b3cb3e9ccef247ff26b229bd1065d24827a563775c2cd897"
+    },
+    {
+      "relativePath": "CAD-SAP/grelha_SAP2000_escada_N1.$2k",
+      "bytes": 252624,
+      "sha256": "015d1cc3917748efdd602d4c4db08c2e2bd7a752ef2bc69d70279595d03690e6"
+    },
+    {
+      "relativePath": "CAD-SAP/grelha_SAP2000_laje_N1.$2k",
+      "bytes": 550969,
+      "sha256": "53667172525557e6f7c86e9565149762acd36fb953a0f7ddc0b7bad8f96bae0c"
+    },
+    {
+      "relativePath": "CAD-SAP/grelha_SAP2000_laje_N2.$2k",
+      "bytes": 528274,
+      "sha256": "f0be5ea16888742994d784714cb9c18e7d7f46d377228add14c3d12ff112960b"
+    },
+    {
+      "relativePath": "CAD-SAP/portico_SAP2000_elastico.$2k",
+      "bytes": 212228,
+      "sha256": "5797a4758dbba6d58cca9880e2a346a278cc4d0a18969d8717eca4d23920be18"
+    },
+    {
+      "relativePath": "consolidar_evidencias.py",
+      "bytes": 5052,
+      "sha256": "76cb6c970a12c983be4d41b7a069a2280e3ff86e888c6d6c6e01e04f90afa0d8"
+    },
+    {
+      "relativePath": "LEIA-ME-R178.md",
+      "bytes": 9243,
+      "sha256": "5245f2dc4f692988a28f4cbbc73e2d783eabc9581aa97f75159101e93364d3bf"
+    },
+    {
+      "relativePath": "R178-comparacao-CAD-BIM.json",
+      "bytes": 1925704,
+      "sha256": "39e839c7aa9b6f2f5aa456bfb146f3fb0167dbdef7e91206cc9e9f7800822438"
+    },
+    {
+      "relativePath": "R178-contorno-patamar.png",
+      "bytes": 102109,
+      "sha256": "e87d388db9a0f4c57208668ab3c8fd17f53ace7494b0ad8be05b415bd0a473d4"
+    },
+    {
+      "relativePath": "R178-ponteiro-atualizado.json",
+      "bytes": 12169,
+      "sha256": "034920942141202fdf22c9356f86b89a2963f83f20127295b5c8d63f1aaf4ac6"
+    },
+    {
+      "relativePath": "R178-preparacao.json",
+      "bytes": 11666,
+      "sha256": "3898ea56ccaa6d9da11f67eb71a4602b479dd48ab7ce950e9810124d220628ab"
+    },
+    {
+      "relativePath": "R178-tempos.json",
+      "bytes": 1336,
+      "sha256": "1f63ae093b79c742d2872ca102208f11f4cea3f7f7e6ce4c61cee1565e3aad2c"
+    },
+    {
+      "relativePath": "test_contorno.py",
+      "bytes": 924,
+      "sha256": "61da16c1ea8616ae4403c7edbc141fd554f510cc576d18af14ad1b497fbd262c"
+    },
+    {
+      "relativePath": "visualizar_contorno.py",
+      "bytes": 2915,
+      "sha256": "9b4b764a907326ed3ef0d945d1b3d01d27338779fd92cb73e5bbfbbde38b7c83"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "revision": "H03/R178",
+  "source": "Relatorios nativos e registros UTC de observacao",
+  "nativePartialProcessingSeconds": {
+    "CAD": 5,
+    "BIM": 6
+  },
+  "nativeProcessingSingleObservationEach": true,
+  "fullFlowMeasured": false,
+  "intervalsComparableAsProductivity": false,
+  "includeInFinalFlowTotals": false,
+  "reasons": [
+    "CAD inicia depois da exclusao do patamar",
+    "BIM inclui exclusao e pausa entre retomadas",
+    "BIM sucede o aprendizado do procedimento CAD"
+  ],
+  "CAD": {
+    "start": {
+      "startedAt": "2026-11-03T02:31:37.763Z",
+      "scope": "Reconstrucao experimental do contorno de LE1, apos exclusao em copia R178; R177 preservada"
+    },
+    "firstSave": {
+      "savedAt": "2026-11-03T02:32:44.939Z",
+      "scope": "LE1 relancado entre barras X450 e X645; sem auditoria IFC ainda"
+    },
+    "observedIntervalSeconds": 67.176
+  },
+  "BIM": {
+    "start": {
+      "startedAt": "2026-11-03T02:38:51.157Z",
+      "scope": "Reconstrucao de LE1 na copia R178 BIM; procedimento aprendido no CAD; nao constitui ensaio cego"
+    },
+    "firstSave": {
+      "savedAt": "2026-11-03T02:47:43.861Z",
+      "scope": "LE1 relancado entre barras X450 e X645; verificacao IFC ainda pendente; inclui pausa da conversa"
+    },
+    "observedIntervalSeconds": 532.704
+  }
+}

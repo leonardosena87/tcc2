@@ -1,0 +1,8 @@
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+CAD-SAP/* -diff
+BIM-SAP/* -diff
+CAD-IFC/* -diff
+BIM-IFC/* -diff
+*-mensagens-analise.txt -diff
+*-resultados-analise.txt -diff
+*-patamar-parametros-relancamento.txt -diff
