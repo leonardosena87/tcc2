@@ -1,0 +1,184 @@
+{
+  "CAD": {
+    "source": "D:\\TCC\\outputs\\R178-CAD-CONTORNO-PATAMAR-NAO-EXECUTAR\\Arquivos do projeto\\r178-cad-patamar-controle.IFC",
+    "sha256": "6ab9afaf1dffcbb9ca75a86136f8687e422aa850fe9fb6e34b48b5ab25096256",
+    "axisY": 3.9,
+    "sections": [
+      {
+        "name": "P11",
+        "type": "IfcColumn",
+        "min": [
+          6.4,
+          3.8,
+          0.2
+        ],
+        "max": [
+          6.7,
+          4.0,
+          3.2
+        ],
+        "guid": "1aoj6LqneHyOy801fzsd4G",
+        "widthTransverseCm": 20,
+        "outsideSouthCm": 20.0,
+        "outsideNorthCm": 20.0
+      },
+      {
+        "name": "P2",
+        "type": "IfcColumn",
+        "min": [
+          -0.1,
+          3.75,
+          0.2
+        ],
+        "max": [
+          0.1,
+          4.05,
+          3.2
+        ],
+        "guid": "33aLOhqnWHyOy801fzsd4G",
+        "widthTransverseCm": 30,
+        "outsideSouthCm": 15.0,
+        "outsideNorthCm": 15.0
+      },
+      {
+        "name": "P5",
+        "type": "IfcColumn",
+        "min": [
+          4.3,
+          3.75,
+          0.2
+        ],
+        "max": [
+          4.5,
+          4.05,
+          3.2
+        ],
+        "guid": "0zEP43qnaHyOy801fzsd4G",
+        "widthTransverseCm": 30,
+        "outsideSouthCm": 15.0,
+        "outsideNorthCm": 15.0
+      },
+      {
+        "name": "V14",
+        "type": "IfcBeam",
+        "min": [
+          4.5,
+          3.8,
+          3.04
+        ],
+        "max": [
+          6.4,
+          4.0,
+          3.2
+        ],
+        "guid": "1g4q1lqomHyOy801fzsd4G"
+      },
+      {
+        "name": "V2",
+        "type": "IfcBeam",
+        "min": [
+          0.1,
+          3.8,
+          2.75
+        ],
+        "max": [
+          4.3,
+          4.0,
+          3.2
+        ],
+        "guid": "0ybZq2qoaHyOy801fzsd4G"
+      }
+    ]
+  },
+  "BIM": {
+    "source": "D:\\TCC\\outputs\\R178-BIM-CONTORNO-PATAMAR-NAO-EXECUTAR\\Arquivos do projeto\\r178-bim-patamar-controle.IFC",
+    "sha256": "d0efc1542c929962197bcb15c438afac4c200e73a5bd8d8d21687985ff73a8bd",
+    "axisY": 3.9,
+    "sections": [
+      {
+        "name": "P4",
+        "type": "IfcColumn",
+        "min": [
+          -0.1,
+          3.75,
+          0.2
+        ],
+        "max": [
+          0.1,
+          4.05,
+          3.2
+        ],
+        "guid": "0KG6rlrliHyOyDa4iZOUxp",
+        "widthTransverseCm": 30,
+        "outsideSouthCm": 15.0,
+        "outsideNorthCm": 15.0
+      },
+      {
+        "name": "P5",
+        "type": "IfcColumn",
+        "min": [
+          4.3,
+          3.75,
+          0.2
+        ],
+        "max": [
+          4.5,
+          4.05,
+          3.2
+        ],
+        "guid": "0KG6rrrliHyOyDa4iZOUxp",
+        "widthTransverseCm": 30,
+        "outsideSouthCm": 15.0,
+        "outsideNorthCm": 15.0
+      },
+      {
+        "name": "P6",
+        "type": "IfcColumn",
+        "min": [
+          6.4,
+          3.8,
+          0.2
+        ],
+        "max": [
+          6.7,
+          4.0,
+          3.2
+        ],
+        "guid": "0KG6rxrliHyOyDa4iZOUxp",
+        "widthTransverseCm": 20,
+        "outsideSouthCm": 20.0,
+        "outsideNorthCm": 20.0
+      },
+      {
+        "name": "V2",
+        "type": "IfcBeam",
+        "min": [
+          0.1,
+          3.8,
+          2.75
+        ],
+        "max": [
+          4.3,
+          4.0,
+          3.2
+        ],
+        "guid": "0KG6sgrliHyOyDa4iZOUxp"
+      },
+      {
+        "name": "V2",
+        "type": "IfcBeam",
+        "min": [
+          4.5,
+          3.8,
+          3.04
+        ],
+        "max": [
+          6.4,
+          4.0,
+          3.2
+        ],
+        "guid": "0KG6t8rliHyOyDa4iZOUxp"
+      }
+    ]
+  }
+}
