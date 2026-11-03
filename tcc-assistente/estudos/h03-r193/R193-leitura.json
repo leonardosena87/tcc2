@@ -18,7 +18,19 @@
         87.97
       ],
       "evidence": "CAD-axiais-barra309-0.png",
-      "sha256": "67be1df0b265ec7ef53b1c92c88e183f018b1145eda77f0bb8ceffccd39015d1"
+      "sha256": "67be1df0b265ec7ef53b1c92c88e183f018b1145eda77f0bb8ceffccd39015d1",
+      "elasticBending": {
+        "displayedValuesKNmPerM": [
+          -7.04,
+          -4.01
+        ],
+        "evidence": "CAD-fletores-309.png",
+        "sha256": "c6cf24082eef21d657e6ee31296caeb7d4985e76a5d67925f213528fc7353bf4",
+        "legendMinMaxKNmPerM": [
+          -14.57,
+          7.35
+        ]
+      }
     },
     "315": {
       "displayedValuesKNPerM": [
@@ -50,7 +62,19 @@
         40.09
       ],
       "evidence": "CAD-axiais-proximo-patamar-0.png",
-      "sha256": "e6a055110856a182386dd61e95f5a3c65dbeacaa398cb3e14e9ebb4ec59c3525"
+      "sha256": "e6a055110856a182386dd61e95f5a3c65dbeacaa398cb3e14e9ebb4ec59c3525",
+      "elasticBending": {
+        "displayedValuesKNmPerM": [
+          0.0,
+          3.5
+        ],
+        "evidence": "CAD-fletores-304.png",
+        "sha256": "9295a83250604df3ce3b36e43bb191aef7db02ed235b027719a2a2005797f173",
+        "legendMinMaxKNmPerM": [
+          -14.57,
+          7.35
+        ]
+      }
     }
   },
   "geometryReferences": {

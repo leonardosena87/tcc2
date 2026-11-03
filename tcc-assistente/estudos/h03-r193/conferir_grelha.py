@@ -64,6 +64,10 @@ def main():
     for key, (suffix, values) in SAMPLES.items():
         file = OUT / f"CAD-axiais-{suffix}-0.png"
         samples[key] = dict(displayedValuesKNPerM=values, evidence=file.name, sha256=sha(file))
+    for key, moments in {"309": [-7.04,-4.01], "304": [0.00,3.50]}.items():
+        file = OUT / f"CAD-fletores-{key}.png"
+        samples[key]["elasticBending"] = dict(displayedValuesKNmPerM=moments, evidence=file.name,
+            sha256=sha(file), legendMinMaxKNmPerM=[-14.57,7.35])
     result = dict(revision="H03/R193", inspectedBranch="CAD", readOnly=True,
         sourceProject=str(project), sourceProjectSha256=sha(project), geometryReferenceRevision="H03/R178",
         diagram="Elástico - Axiais", combination="1.4G1+1.4G2+1.4Q+0.7QT", legendMinMaxKNPerM=[-165.05,87.97],
