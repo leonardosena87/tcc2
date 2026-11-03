@@ -1,0 +1,160 @@
+Window: "AltoQi Eberick 2025 Infinity - [R175-BIM-CARGAS-A1-A2-NAO-EXECUTAR (R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [R175-BIM-CARGAS-A1-A2-NAO-EXECUTAR (R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR)] Secondary Actions: Raise
+		66614 diálogo Nó Secondary Actions: Raise
+			66615 grupo Posição
+			66616 text X
+			66617 editar (settable, string) X Value: 547.5 ID: 544
+			66618 text Y
+			66619 editar (settable, string) Y Value: 705 ID: 545
+			66620 grupo Desenho ID: 905
+			66621 text Nível
+			66622 caixa de combinação (settable, string) Nível Value: CR-Vigas ID: 106
+				66623 text (settable, string) Nível Value: CR-Vigas
+				66624 botão Abrir ID: DropDown
+			66625 text Cor
+			66626 caixa de combinação (settable, string) Cor Value: ???? ID: 546
+				66627 text (settable, string) Cor Value: ????
+				66628 botão Abrir ID: DropDown
+			66629 text Tipo de linha
+			66630 caixa de combinação (settable, string) Tipo de linha Value:  ID: 543
+				66631 text (settable, string) Tipo de linha Value: 
+				66632 botão Abrir ID: DropDown
+			66633 grupo Furo ID: 900
+			66634 text Dimensão: ID: 901
+			66635 text <nenhum> ID: 902
+			66636 botão Lançar... ID: 903
+			66637 botão Remover ID: 904
+			66638 botão OK ID: 1
+			66639 botão Cancelar ID: 2
+			66640 botão Cargas... ID: 822
+			66641 botão Ajuda ID: 9
+			66642 barra de título (settable, string) Value: Nó
+		1 Barra de status
+			66643 custom
+				66644 text Editar
+				66645 editar (settable, string)
+				66646 text 547.5,704.6
+				66647 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					66648 Lista
+						66649 item de lista (selectable) 1:1
+						66650 item de lista (selectable) 1:2
+						66651 item de lista (selectable) 1:5
+						66652 item de lista (selectable) 1:10
+						66653 item de lista (selectable) 1:12.5
+						66654 item de lista (selectable) 1:15
+						66655 item de lista (selectable) 1:20
+						66656 item de lista (selectable) 1:25
+						66657 item de lista (selectable) 1:30
+						66658 item de lista (selectable) 1:40
+						66659 item de lista (selectable) 1:50
+						66660 item de lista (selectable) 1:60
+						66661 item de lista (selectable) 1:75
+						66662 item de lista (selectable) 1:100
+						66663 item de lista (selectable) 1:200
+						66664 item de lista (selectable) 1:250
+						66665 item de lista (selectable) 1:500
+						66666 item de lista (selectable) 1:1000
+			66667 botão Atualizar
+			66668 botão Enquadrar
+			66669 botão Aproximar
+			66670 botão Afastar
+			66671 botão Zoom
+			66672 botão Zoom anterior
+			66673 botão Deslocar
+			66674 caixa de seleção Ortogonal
+			66675 caixa de seleção Captura personalizada
+			66676 botão Opções da captura personalizada
+			66677 caixa de seleção Quadrante
+			66678 caixa de seleção Centro
+			66679 caixa de seleção Ponto médio
+			66680 caixa de seleção Extremidade
+			66681 caixa de seleção Ponto no elemento
+			66682 caixa de seleção Intersecção
+			66683 caixa de seleção Perpendicular
+			66684 caixa de seleção Ponto intermediário
+			66685 caixa de seleção Ponto quadrante
+			66686 caixa de seleção Ponto na intersecção
+			66687 caixa de seleção Ponto relativo
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Croqui-TCC-7a6267fd-N2
+						66688 item de tabulação (selectable) Notícias
+						66689 item de tabulação (selectable) Croqui-TCC-7a6267fd-N2
+					8 painel
+						65019 painel
+							65020 painel Croqui-TCC-7a6267fd-N2
+								65021 painel TCadPlotWindow
+				31 painel
+					32 tabulação
+						66690 item de tabulação (selectable)
+						66691 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									38 painel
+									64890 árvore ID: 101
+										64891 barra de rolagem (settable, float) Horizontal Value: 0 ID: NonClientHorizontalScrollBar
+											64892 botão Uma coluna à esquerda ID: UpButton
+											64893 elevador Posição ID: ScrollbarThumb
+											64894 botão Uma página à direita ID: DownPageButton
+											64895 botão Uma coluna à direita ID: DownButton
+										64896 item da árvore (selectable, disabled) Pavimentos
+											64897 item da árvore (selectable, disabled) TCC-7a6267fd-N2
+												64939 item da árvore (selectable, disabled) Croqui
+												64940 item da árvore (selectable, disabled) Forma
+												64941 item da árvore (selectable, disabled) Desenho
+												64942 item da árvore (selectable, disabled) H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR
+												64943 item da árvore (selectable, disabled) Lajes
+												64944 item da árvore (selectable, disabled) Pilares
+												64945 item da árvore (selectable, disabled) Vigas
+											64898 item da árvore (selectable, disabled) TCC-7a6267fd-N1
+											64899 item da árvore (selectable, disabled) TCC-7a6267fd-N0
+										64900 item da árvore (selectable, disabled) Pilares em prumada
+										64901 item da árvore (selectable, disabled) Cortes
+										64902 item da árvore (selectable, disabled) Gerenciador de desenhos
+										64903 item da árvore (selectable, disabled) Modelos 3D
+											64904 item da árvore (selectable, disabled) H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR
+		61 barra de menus
+		66614 diálogo Nó Secondary Actions: Raise
+			66615 grupo Posição
+			66616 text X
+			66617 editar (settable, string) X Value: 547.5 ID: 544
+			66618 text Y
+			66619 editar (settable, string) Y Value: 705 ID: 545
+			66620 grupo Desenho ID: 905
+			66621 text Nível
+			66622 caixa de combinação (settable, string) Nível Value: CR-Vigas ID: 106
+				66623 text (settable, string) Nível Value: CR-Vigas
+				66624 botão Abrir ID: DropDown
+			66625 text Cor
+			66626 caixa de combinação (settable, string) Cor Value: ???? ID: 546
+				66627 text (settable, string) Cor Value: ????
+				66628 botão Abrir ID: DropDown
+			66629 text Tipo de linha
+			66630 caixa de combinação (settable, string) Tipo de linha Value:  ID: 543
+				66631 text (settable, string) Tipo de linha Value: 
+				66632 botão Abrir ID: DropDown
+			66633 grupo Furo ID: 900
+			66634 text Dimensão: ID: 901
+			66635 text <nenhum> ID: 902
+			66636 botão Lançar... ID: 903
+			66637 botão Remover ID: 904
+			66638 botão OK ID: 1
+			66639 botão Cancelar ID: 2
+			66640 botão Cargas... ID: 822
+			66641 botão Ajuda ID: 9
+			66642 barra de título (settable, string) Value: Nó
+
+Document text: ```
+Editar
+547.5,704.6
+```
+
+Focused element: 66614 diálogo Nó Secondary Actions: Raise
+
+Document text:
+Editar
+547.5,704.6

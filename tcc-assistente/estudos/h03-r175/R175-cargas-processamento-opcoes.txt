@@ -1,0 +1,122 @@
+Window: "AltoQi Eberick 2025 Infinity - [R175-BIM-CARGAS-A1-A2-NAO-EXECUTAR (R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [R175-BIM-CARGAS-A1-A2-NAO-EXECUTAR (R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR)] Secondary Actions: Raise
+		1 Barra de status
+			60874 custom
+				60875 text Comando
+				60876 editar (settable, string)
+				60877 text 547.8,703.7
+				60878 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					60879 Lista
+						60880 item de lista (selectable) 1:1
+						60881 item de lista (selectable) 1:2
+						60882 item de lista (selectable) 1:5
+						60883 item de lista (selectable) 1:10
+						60884 item de lista (selectable) 1:12.5
+						60885 item de lista (selectable) 1:15
+						60886 item de lista (selectable) 1:20
+						60887 item de lista (selectable) 1:25
+						60888 item de lista (selectable) 1:30
+						60889 item de lista (selectable) 1:40
+						60890 item de lista (selectable) 1:50
+						60891 item de lista (selectable) 1:60
+						60892 item de lista (selectable) 1:75
+						60893 item de lista (selectable) 1:100
+						60894 item de lista (selectable) 1:200
+						60895 item de lista (selectable) 1:250
+						60896 item de lista (selectable) 1:500
+						60897 item de lista (selectable) 1:1000
+			60898 botão Atualizar
+			60899 botão Enquadrar
+			60900 botão Aproximar
+			60901 botão Afastar
+			60902 botão Zoom
+			60903 botão Zoom anterior
+			60904 botão Deslocar
+			60905 caixa de seleção Ortogonal
+			60906 caixa de seleção Captura personalizada
+			60907 botão Opções da captura personalizada
+			60908 caixa de seleção Quadrante
+			60909 caixa de seleção Centro
+			60910 caixa de seleção Ponto médio
+			60911 caixa de seleção Extremidade
+			60912 caixa de seleção Ponto no elemento
+			60913 caixa de seleção Intersecção
+			60914 caixa de seleção Perpendicular
+			60915 caixa de seleção Ponto intermediário
+			60916 caixa de seleção Ponto quadrante
+			60917 caixa de seleção Ponto na intersecção
+			60918 caixa de seleção Ponto relativo
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Croqui-TCC-7a6267fd-N2
+						60919 item de tabulação (selectable) Notícias
+						60920 item de tabulação (selectable) Croqui-TCC-7a6267fd-N2
+					8 painel
+						15448 painel
+							15449 painel Croqui-TCC-7a6267fd-N2
+								15450 painel TCadPlotWindow
+				31 painel
+					32 tabulação
+						60921 item de tabulação (selectable)
+						60922 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									38 painel
+									15251 árvore ID: 101
+										15252 barra de rolagem (settable, float) Horizontal Value: 0 ID: NonClientHorizontalScrollBar
+											15253 botão Uma coluna à esquerda ID: UpButton
+											15254 elevador Posição ID: ScrollbarThumb
+											15255 botão Uma página à direita ID: DownPageButton
+											15256 botão Uma coluna à direita ID: DownButton
+										60081 item da árvore (selectable) Pavimentos
+											60082 item da árvore (selectable) TCC-7a6267fd-N2
+											60083 item da árvore (selectable) TCC-7a6267fd-N1
+											60084 item da árvore (selectable) TCC-7a6267fd-N0
+										60085 item da árvore (selectable) Pilares em prumada
+										60086 item da árvore (selectable) Cortes
+										60087 item da árvore (selectable) Gerenciador de desenhos
+										60088 item da árvore (selectable) Modelos 3D
+											60089 item da árvore (selectable) H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR
+		61 barra de menus
+		60923 diálogo Análise da estrutura Secondary Actions: Raise
+			60924 grupo Estado-limite último (ELU) ID: 101
+			60925 caixa de seleção (disabled) Análise estática linear ID: 102
+			60926 caixa de seleção (disabled) Verificação das etapas construtivas ID: 103
+			60927 caixa de seleção Dimensionamento dos elementos ID: 104
+			60928 caixa de seleção (disabled) Dimensionar apenas elementos selecionados ID: 105
+			60929 botão (disabled) ... ID: 106
+			60930 caixa de seleção Verificar limites de redistribuição em nós semirrígidos ID: 107
+			60931 grupo Estado-limite de deformações excessivas (ELS-DEF) ID: 108
+			60932 caixa de seleção Determinação dos deslocamentos do pórtico ID: 109
+			60933 botão de opção (selectable) Adotar rigidez configurada ID: 110
+			60934 botão de opção (selectable) Calcular rigidez fissurada ID: 111
+			60935 caixa de seleção Determinação dos deslocamentos das lajes ID: 112
+			60936 botão de opção (selectable, disabled) Adotar rigidez configurada ID: 113
+			60937 botão de opção (selectable, disabled) Calcular rigidez fissurada ID: 114
+			60938 caixa de seleção (disabled) Verificar apenas pavimentos selecionados ID: 115
+			60939 botão (disabled) ... ID: 116
+			60940 grupo Estado-limite de vibrações excessivas (ELS-VE) ID: 117
+			60941 caixa de seleção Análise dinâmica do pórtico ID: 118
+			60942 caixa de seleção Análise dinâmica das lajes ID: 119
+			60943 caixa de seleção (disabled) Verificar apenas pavimentos selecionados ID: 120
+			60944 botão (disabled) ... ID: 121
+			60945 botão OK ID: 1
+			60946 botão Cancelar ID: 2
+			60947 botão Configurar... ID: 122
+			60948 botão Ajuda ID: 9
+			60949 barra de título (settable, string) Value: Análise da estrutura
+
+Document text: ```
+Comando
+547.8,703.7
+```
+
+Focused element: 0 janela AltoQi Eberick 2025 Infinity - [R175-BIM-CARGAS-A1-A2-NAO-EXECUTAR (R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR)] Secondary Actions: Raise
+
+Document text:
+Comando
+547.8,703.7

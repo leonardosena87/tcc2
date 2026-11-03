@@ -1,0 +1,396 @@
+{
+  "revision": "H03/R175",
+  "recordedAtUtc": "2026-11-02T23:21:09.794500+00:00",
+  "sourceRoot": "D:\\TCC\\outputs\\R174-BIM-CARGAS-COBERTURA-NAO-EXECUTAR",
+  "targetRoot": "D:\\TCC\\outputs\\R175-BIM-CARGAS-A1-A2-NAO-EXECUTAR",
+  "sourceFiles": [
+    {
+      "relativePath": "_DADOS_\\ConfigFolder.qib",
+      "sha256": "b2e8c6c10dd5a9580e5faffdc85942782726412e2c0b6dcf331c4187579c6436"
+    },
+    {
+      "relativePath": "_DADOS_\\EdificacaoEberick.ini",
+      "sha256": "5d46ec955dba43d7fa3dea31953f9c20b130521de24088454113aa7bb6a55091"
+    },
+    {
+      "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\logo.gif",
+      "sha256": "b38857f1c1da842e6113c6464464d20c048457a36f01bb42519595ddebaab728"
+    },
+    {
+      "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\Relatorio_de_importacao_de_elementos_IFC.docx",
+      "sha256": "2fa2f52431feaac8e6aa693486a9b3a42fa54f7f1834e73925b536a5b1253f78"
+    },
+    {
+      "relativePath": "Arquivos do projeto\\Modelo 3D.IFC",
+      "sha256": "0e7607e3f72fed6c1c098bd17ddd1062be701c74c6b18db3887e0cc35b03ac3b"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak",
+      "sha256": "b8d3c76612e2fac813cdd2f6f6b1736c5c6ab2df11044c1ffc4fecf8de8f7aa4"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak-g2",
+      "sha256": "557a4dbc1597e1c0fbad82561907f075abb56064b242a391c6d7185ad19f3152"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak-g3",
+      "sha256": "bb4ccf947d96ccfaa1dc02ca3671488390789c45f2b0ccc56e67b597d2fed813"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.ini",
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sha256": "8276615ab7bcfb72b8ccd42de467c0f6087225b627bc2486c6578e823871858c"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-cad",
+      "sha256": "d05292b2cc3ca3ed45d02c72ffc1263b49cf6711822a82c6c326f9969e4b9250"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-g2",
+      "sha256": "557a4dbc1597e1c0fbad82561907f075abb56064b242a391c6d7185ad19f3152"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-g3",
+      "sha256": "bb4ccf947d96ccfaa1dc02ca3671488390789c45f2b0ccc56e67b597d2fed813"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav",
+      "sha256": "8276615ab7bcfb72b8ccd42de467c0f6087225b627bc2486c6578e823871858c"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav-g2",
+      "sha256": "557a4dbc1597e1c0fbad82561907f075abb56064b242a391c6d7185ad19f3152"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav-g3",
+      "sha256": "bb4ccf947d96ccfaa1dc02ca3671488390789c45f2b0ccc56e67b597d2fed813"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.x2",
+      "sha256": "2c9ea7a9ca9581e5a94925f4be30be963a5d9c7b26775bd7f82491f4f0e04666"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.x3",
+      "sha256": "2598fb93f745a779ae2b0ea51fa39a58ee02aac93ee831c03824b7f2005d55a6"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.oq3d",
+      "sha256": "00c25740bc63036e47ed84bb2e9404b0090d06d188da938f7e203e108cd4b9d5"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\Planificacao_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini",
+      "sha256": "bf20a78e7f28d18448ab1f2622aebe1e2e88998dac1e06c046d8457431a261d7"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\Vinculo_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini",
+      "sha256": "e2b4947978d79aa191e88fe60443dac03d45ab4bb9988c68c7867d058c9a3042"
+    }
+  ],
+  "rows": [
+    {
+      "id": "RC01",
+      "xCm": 110.0,
+      "yCm": 0,
+      "zCm": 639.0,
+      "G": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.419551,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "QT": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.0725,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "source": "R98/R99 A1/A2"
+    },
+    {
+      "id": "RC02",
+      "xCm": 330.0,
+      "yCm": 0,
+      "zCm": 639.0,
+      "G": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.419551,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "QT": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.0725,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "source": "R98/R99 A1/A2"
+    },
+    {
+      "id": "RC03",
+      "xCm": 547.5,
+      "yCm": 0,
+      "zCm": 639.0,
+      "G": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.387289,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "QT": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.048125,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "source": "R98/R99 A1/A2"
+    },
+    {
+      "id": "RC04",
+      "xCm": 110.0,
+      "yCm": 390.0,
+      "zCm": 639.0,
+      "G": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -2.566112,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "QT": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.93875,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "source": "R98/R99 A1/A2"
+    },
+    {
+      "id": "RC05",
+      "xCm": 330.0,
+      "yCm": 390.0,
+      "zCm": 639.0,
+      "G": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -2.566112,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "QT": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.93875,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "source": "R98/R99 A1/A2"
+    },
+    {
+      "id": "RC06",
+      "xCm": 547.5,
+      "yCm": 390.0,
+      "zCm": 639.0,
+      "G": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -2.507791,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "QT": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.894688,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "source": "R98/R99 A1/A2"
+    },
+    {
+      "id": "RC07",
+      "xCm": 732.5,
+      "yCm": 390.0,
+      "zCm": 639.0,
+      "G": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.807804,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "QT": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.610313,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "source": "R98/R99 A1/A2"
+    },
+    {
+      "id": "RC08",
+      "xCm": 887.5,
+      "yCm": 390.0,
+      "zCm": 639.0,
+      "G": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.807804,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "QT": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.610313,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "source": "R98/R99 A1/A2"
+    },
+    {
+      "id": "RC09",
+      "xCm": 110.0,
+      "yCm": 705.0,
+      "zCm": 639.0,
+      "G": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.146561,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "QT": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.86625,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "source": "R98/R99 A1/A2"
+    },
+    {
+      "id": "RC10",
+      "xCm": 330.0,
+      "yCm": 705.0,
+      "zCm": 639.0,
+      "G": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.146561,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "QT": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.86625,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "source": "R98/R99 A1/A2"
+    },
+    {
+      "id": "RC11",
+      "xCm": 547.5,
+      "yCm": 705.0,
+      "zCm": 639.0,
+      "G": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.120503,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "QT": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.846563,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "source": "R98/R99 A1/A2"
+    },
+    {
+      "id": "RC12",
+      "xCm": 732.5,
+      "yCm": 705.0,
+      "zCm": 639.0,
+      "G": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.807804,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "QT": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.610313,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "source": "R98/R99 A1/A2"
+    },
+    {
+      "id": "RC13",
+      "xCm": 887.5,
+      "yCm": 705.0,
+      "zCm": 639.0,
+      "G": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.807804,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "QT": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.610313,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "source": "R98/R99 A1/A2"
+    }
+  ],
+  "preserveFiveColumnSupportLoads": true,
+  "nativeChangesPerformed": false,
+  "structuralApproval": false
+}

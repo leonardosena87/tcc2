@@ -1,0 +1,7878 @@
+{
+  "checkedVectors": [
+    {
+      "id": "RC01",
+      "joint": "33",
+      "positionCm": [
+        110.0,
+        0,
+        639.0
+      ],
+      "action": "G",
+      "loadPattern": "G2",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.419551,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -141.9551,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "94",
+        "95"
+      ]
+    },
+    {
+      "id": "RC01",
+      "joint": "33",
+      "positionCm": [
+        110.0,
+        0,
+        639.0
+      ],
+      "action": "QT",
+      "loadPattern": "QT",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.0725,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -107.25,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "94",
+        "95"
+      ]
+    },
+    {
+      "id": "RC02",
+      "joint": "51",
+      "positionCm": [
+        330.0,
+        0,
+        639.0
+      ],
+      "action": "G",
+      "loadPattern": "G2",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.419551,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -141.9551,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "93",
+        "94"
+      ]
+    },
+    {
+      "id": "RC02",
+      "joint": "51",
+      "positionCm": [
+        330.0,
+        0,
+        639.0
+      ],
+      "action": "QT",
+      "loadPattern": "QT",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.0725,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -107.25,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "93",
+        "94"
+      ]
+    },
+    {
+      "id": "RC03",
+      "joint": "52",
+      "positionCm": [
+        547.5,
+        0,
+        639.0
+      ],
+      "action": "G",
+      "loadPattern": "G2",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.387289,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -138.7289,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "91",
+        "92"
+      ]
+    },
+    {
+      "id": "RC03",
+      "joint": "52",
+      "positionCm": [
+        547.5,
+        0,
+        639.0
+      ],
+      "action": "QT",
+      "loadPattern": "QT",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.048125,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -104.8125,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "91",
+        "92"
+      ]
+    },
+    {
+      "id": "RC04",
+      "joint": "17",
+      "positionCm": [
+        110.0,
+        390.0,
+        639.0
+      ],
+      "action": "G",
+      "loadPattern": "G2",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -2.566112,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -256.6112,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "82",
+        "83"
+      ]
+    },
+    {
+      "id": "RC04",
+      "joint": "17",
+      "positionCm": [
+        110.0,
+        390.0,
+        639.0
+      ],
+      "action": "QT",
+      "loadPattern": "QT",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.93875,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -193.875,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "82",
+        "83"
+      ]
+    },
+    {
+      "id": "RC05",
+      "joint": "32",
+      "positionCm": [
+        330.0,
+        390.0,
+        639.0
+      ],
+      "action": "G",
+      "loadPattern": "G2",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -2.566112,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -256.6112,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "81",
+        "82"
+      ]
+    },
+    {
+      "id": "RC05",
+      "joint": "32",
+      "positionCm": [
+        330.0,
+        390.0,
+        639.0
+      ],
+      "action": "QT",
+      "loadPattern": "QT",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.93875,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -193.875,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "81",
+        "82"
+      ]
+    },
+    {
+      "id": "RC06",
+      "joint": "36",
+      "positionCm": [
+        547.5,
+        390.0,
+        639.0
+      ],
+      "action": "G",
+      "loadPattern": "G2",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -2.507791,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -250.7791,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "79",
+        "80"
+      ]
+    },
+    {
+      "id": "RC06",
+      "joint": "36",
+      "positionCm": [
+        547.5,
+        390.0,
+        639.0
+      ],
+      "action": "QT",
+      "loadPattern": "QT",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.894688,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -189.4688,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "79",
+        "80"
+      ]
+    },
+    {
+      "id": "RC07",
+      "joint": "56",
+      "positionCm": [
+        732.5,
+        390.0,
+        639.0
+      ],
+      "action": "G",
+      "loadPattern": "G2",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.807804,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -80.7804,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "84",
+        "85"
+      ]
+    },
+    {
+      "id": "RC07",
+      "joint": "56",
+      "positionCm": [
+        732.5,
+        390.0,
+        639.0
+      ],
+      "action": "QT",
+      "loadPattern": "QT",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.610313,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -61.0313,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "84",
+        "85"
+      ]
+    },
+    {
+      "id": "RC08",
+      "joint": "60",
+      "positionCm": [
+        887.5,
+        390.0,
+        639.0
+      ],
+      "action": "G",
+      "loadPattern": "G2",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.807804,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -80.7804,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "85",
+        "86"
+      ]
+    },
+    {
+      "id": "RC08",
+      "joint": "60",
+      "positionCm": [
+        887.5,
+        390.0,
+        639.0
+      ],
+      "action": "QT",
+      "loadPattern": "QT",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.610313,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -61.0313,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "85",
+        "86"
+      ]
+    },
+    {
+      "id": "RC09",
+      "joint": "8",
+      "positionCm": [
+        110.0,
+        705.0,
+        639.0
+      ],
+      "action": "G",
+      "loadPattern": "G2",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.146561,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -114.6561,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "75",
+        "76"
+      ]
+    },
+    {
+      "id": "RC09",
+      "joint": "8",
+      "positionCm": [
+        110.0,
+        705.0,
+        639.0
+      ],
+      "action": "QT",
+      "loadPattern": "QT",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.86625,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -86.625,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "75",
+        "76"
+      ]
+    },
+    {
+      "id": "RC10",
+      "joint": "16",
+      "positionCm": [
+        330.0,
+        705.0,
+        639.0
+      ],
+      "action": "G",
+      "loadPattern": "G2",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.146561,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -114.6561,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "74",
+        "75"
+      ]
+    },
+    {
+      "id": "RC10",
+      "joint": "16",
+      "positionCm": [
+        330.0,
+        705.0,
+        639.0
+      ],
+      "action": "QT",
+      "loadPattern": "QT",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.86625,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -86.625,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "74",
+        "75"
+      ]
+    },
+    {
+      "id": "RC11",
+      "joint": "21",
+      "positionCm": [
+        547.5,
+        705.0,
+        639.0
+      ],
+      "action": "G",
+      "loadPattern": "G2",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -1.120503,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -112.0503,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "72",
+        "73"
+      ]
+    },
+    {
+      "id": "RC11",
+      "joint": "21",
+      "positionCm": [
+        547.5,
+        705.0,
+        639.0
+      ],
+      "action": "QT",
+      "loadPattern": "QT",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.846563,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -84.6563,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "72",
+        "73"
+      ]
+    },
+    {
+      "id": "RC12",
+      "joint": "37",
+      "positionCm": [
+        732.5,
+        705.0,
+        639.0
+      ],
+      "action": "G",
+      "loadPattern": "G2",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.807804,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -80.7804,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "71",
+        "72"
+      ]
+    },
+    {
+      "id": "RC12",
+      "joint": "37",
+      "positionCm": [
+        732.5,
+        705.0,
+        639.0
+      ],
+      "action": "QT",
+      "loadPattern": "QT",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.610313,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -61.0313,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "71",
+        "72"
+      ]
+    },
+    {
+      "id": "RC13",
+      "joint": "45",
+      "positionCm": [
+        887.5,
+        705.0,
+        639.0
+      ],
+      "action": "G",
+      "loadPattern": "G2",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.807804,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -80.7804,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "70",
+        "71"
+      ]
+    },
+    {
+      "id": "RC13",
+      "joint": "45",
+      "positionCm": [
+        887.5,
+        705.0,
+        639.0
+      ],
+      "action": "QT",
+      "loadPattern": "QT",
+      "inputVectorNative": {
+        "Fx": 0,
+        "Fy": 0,
+        "Fz": -0.610313,
+        "Mx": 0,
+        "My": 0,
+        "Mz": 0
+      },
+      "exportedVector": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "F3": -61.0313,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0
+      },
+      "connectedFrames": [
+        "70",
+        "71"
+      ]
+    }
+  ],
+  "checkedVectorCount": 26,
+  "checkedComponents": 156,
+  "jointCount": 123,
+  "frameCount": 147,
+  "unchangedTables": [
+    "JOINT COORDINATES",
+    "JOINT RESTRAINT ASSIGNMENTS",
+    "COMBINATION DEFINITIONS",
+    "LOAD PATTERN DEFINITIONS",
+    "LOAD CASE DEFINITIONS",
+    "CASE - STATIC 1 - LOAD ASSIGNMENTS",
+    "CASE - STATIC 4 - NONLINEAR PARAMETERS",
+    "CONNECTIVITY - FRAME",
+    "FRAME SECTION ASSIGNMENTS",
+    "FRAME OUTPUT STATION ASSIGNMENTS",
+    "FRAME LOCAL AXES ASSIGNMENTS 1 - TYPICAL",
+    "FRAME LOADS - DISTRIBUTED",
+    "FRAME SECTION PROPERTIES 01 - GENERAL",
+    "MATERIAL PROPERTIES 01 - GENERAL",
+    "MATERIAL PROPERTIES 02 - BASIC MECHANICAL PROPERTIES",
+    "PROGRAM CONTROL"
+  ],
+  "geometryUnchangedDuringLoadEdition": true,
+  "rawLoadChanges": {
+    "JOINT LOADS - FORCE": {
+      "removed": [
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-129,7926",
+            "Joint": "41",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "-6,8491",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-74,6474",
+            "Joint": "41",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "0,2105",
+            "M3": "0,0000"
+          },
+          "count": 1
+        }
+      ],
+      "added": [
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-114,6561",
+            "Joint": "8",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-86,6250",
+            "Joint": "8",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-114,6561",
+            "Joint": "16",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-86,6250",
+            "Joint": "16",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-256,6112",
+            "Joint": "17",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-193,8750",
+            "Joint": "17",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-112,0503",
+            "Joint": "21",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-84,6563",
+            "Joint": "21",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-256,6112",
+            "Joint": "32",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-193,8750",
+            "Joint": "32",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-141,9551",
+            "Joint": "33",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-107,2500",
+            "Joint": "33",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-250,7791",
+            "Joint": "36",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-189,4688",
+            "Joint": "36",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-80,7804",
+            "Joint": "37",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-61,0313",
+            "Joint": "37",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-145,6605",
+            "Joint": "41",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "-10,4987",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-86,6360",
+            "Joint": "41",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "-2,5469",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-80,7804",
+            "Joint": "45",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-61,0313",
+            "Joint": "45",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-141,9551",
+            "Joint": "51",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-107,2500",
+            "Joint": "51",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-138,7289",
+            "Joint": "52",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-104,8125",
+            "Joint": "52",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-80,7804",
+            "Joint": "56",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-61,0313",
+            "Joint": "56",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-80,7804",
+            "Joint": "60",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-61,0313",
+            "Joint": "60",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "0,0000",
+            "M3": "0,0000"
+          },
+          "count": 1
+        }
+      ]
+    },
+    "FRAME LOADS - POINT": {
+      "removed": [
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,3726",
+            "Frame": "69",
+            "LoadPat": "G2",
+            "RelDist": "0,0668",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-16,0939",
+            "Frame": "69",
+            "LoadPat": "G2",
+            "RelDist": "0,2401",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,5429",
+            "Frame": "69",
+            "LoadPat": "G2",
+            "RelDist": "0,4134",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-17,4033",
+            "Frame": "69",
+            "LoadPat": "G2",
+            "RelDist": "0,5866",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-25,6911",
+            "Frame": "69",
+            "LoadPat": "G2",
+            "RelDist": "0,7599",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-11,8431",
+            "Frame": "69",
+            "LoadPat": "G2",
+            "RelDist": "0,9332",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0204",
+            "Frame": "69",
+            "LoadPat": "QT",
+            "RelDist": "0,0668",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0384",
+            "Frame": "69",
+            "LoadPat": "QT",
+            "RelDist": "0,2401",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0205",
+            "Frame": "69",
+            "LoadPat": "QT",
+            "RelDist": "0,4134",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0135",
+            "Frame": "69",
+            "LoadPat": "QT",
+            "RelDist": "0,5866",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0101",
+            "Frame": "69",
+            "LoadPat": "QT",
+            "RelDist": "0,7599",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0281",
+            "Frame": "69",
+            "LoadPat": "QT",
+            "RelDist": "0,9332",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-10,9494",
+            "Frame": "70",
+            "LoadPat": "G2",
+            "RelDist": "0,2988",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-20,0738",
+            "Frame": "70",
+            "LoadPat": "G2",
+            "RelDist": "0,9227",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-2,1871",
+            "Frame": "70",
+            "LoadPat": "QT",
+            "RelDist": "0,2988",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-3,0331",
+            "Frame": "70",
+            "LoadPat": "QT",
+            "RelDist": "0,9227",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-13,6466",
+            "Frame": "71",
+            "LoadPat": "G2",
+            "RelDist": "0,2698",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-11,7751",
+            "Frame": "71",
+            "LoadPat": "G2",
+            "RelDist": "0,5777",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-11,3002",
+            "Frame": "71",
+            "LoadPat": "G2",
+            "RelDist": "0,8856",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-1,1428",
+            "Frame": "71",
+            "LoadPat": "QT",
+            "RelDist": "0,2698",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,5540",
+            "Frame": "71",
+            "LoadPat": "QT",
+            "RelDist": "0,5777",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,3051",
+            "Frame": "71",
+            "LoadPat": "QT",
+            "RelDist": "0,8856",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-11,3550",
+            "Frame": "72",
+            "LoadPat": "G2",
+            "RelDist": "0,1622",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-11,9205",
+            "Frame": "72",
+            "LoadPat": "G2",
+            "RelDist": "0,4202",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-13,2621",
+            "Frame": "72",
+            "LoadPat": "G2",
+            "RelDist": "0,6781",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-17,1791",
+            "Frame": "72",
+            "LoadPat": "G2",
+            "RelDist": "0,9361",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,1516",
+            "Frame": "72",
+            "LoadPat": "QT",
+            "RelDist": "0,1622",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0432",
+            "Frame": "72",
+            "LoadPat": "QT",
+            "RelDist": "0,4202",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0571",
+            "Frame": "72",
+            "LoadPat": "QT",
+            "RelDist": "0,6781",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,2300",
+            "Frame": "72",
+            "LoadPat": "QT",
+            "RelDist": "0,9361",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-29,8726",
+            "Frame": "73",
+            "LoadPat": "G2",
+            "RelDist": "0,3372",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-18,3679",
+            "Frame": "73",
+            "LoadPat": "G2",
+            "RelDist": "0,7854",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,7506",
+            "Frame": "73",
+            "LoadPat": "QT",
+            "RelDist": "0,3372",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,9800",
+            "Frame": "73",
+            "LoadPat": "QT",
+            "RelDist": "0,7854",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-12,9711",
+            "Frame": "74",
+            "LoadPat": "G2",
+            "RelDist": "0,2150",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-29,1032",
+            "Frame": "74",
+            "LoadPat": "G2",
+            "RelDist": "0,6636",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,3250",
+            "Frame": "74",
+            "LoadPat": "QT",
+            "RelDist": "0,2150",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,4890",
+            "Frame": "74",
+            "LoadPat": "QT",
+            "RelDist": "0,6636",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-17,6790",
+            "Frame": "75",
+            "LoadPat": "G2",
+            "RelDist": "0,0555",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-14,3320",
+            "Frame": "75",
+            "LoadPat": "G2",
+            "RelDist": "0,2778",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-13,1619",
+            "Frame": "75",
+            "LoadPat": "G2",
+            "RelDist": "0,5000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-12,5514",
+            "Frame": "75",
+            "LoadPat": "G2",
+            "RelDist": "0,7222",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-12,5662",
+            "Frame": "75",
+            "LoadPat": "G2",
+            "RelDist": "0,9445",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,1777",
+            "Frame": "75",
+            "LoadPat": "QT",
+            "RelDist": "0,0555",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0843",
+            "Frame": "75",
+            "LoadPat": "QT",
+            "RelDist": "0,2778",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0456",
+            "Frame": "75",
+            "LoadPat": "QT",
+            "RelDist": "0,5000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0203",
+            "Frame": "75",
+            "LoadPat": "QT",
+            "RelDist": "0,7222",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0056",
+            "Frame": "75",
+            "LoadPat": "QT",
+            "RelDist": "0,9445",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-13,8377",
+            "Frame": "76",
+            "LoadPat": "G2",
+            "RelDist": "0,3364",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,1569",
+            "Frame": "76",
+            "LoadPat": "G2",
+            "RelDist": "0,7850",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0642",
+            "Frame": "76",
+            "LoadPat": "QT",
+            "RelDist": "0,3364",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,1477",
+            "Frame": "76",
+            "LoadPat": "QT",
+            "RelDist": "0,7850",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "46,7605",
+            "Frame": "77",
+            "LoadPat": "G2",
+            "RelDist": "0,0668",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-34,4184",
+            "Frame": "77",
+            "LoadPat": "G2",
+            "RelDist": "0,2401",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-24,7606",
+            "Frame": "77",
+            "LoadPat": "G2",
+            "RelDist": "0,4134",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-27,0928",
+            "Frame": "77",
+            "LoadPat": "G2",
+            "RelDist": "0,5866",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-51,7095",
+            "Frame": "77",
+            "LoadPat": "G2",
+            "RelDist": "0,7599",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "11,6400",
+            "Frame": "77",
+            "LoadPat": "G2",
+            "RelDist": "0,9332",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-1,9818",
+            "Frame": "77",
+            "LoadPat": "QT",
+            "RelDist": "0,0668",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,3310",
+            "Frame": "77",
+            "LoadPat": "QT",
+            "RelDist": "0,2401",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,1099",
+            "Frame": "77",
+            "LoadPat": "QT",
+            "RelDist": "0,4134",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0390",
+            "Frame": "77",
+            "LoadPat": "QT",
+            "RelDist": "0,5866",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0474",
+            "Frame": "77",
+            "LoadPat": "QT",
+            "RelDist": "0,7599",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,1197",
+            "Frame": "77",
+            "LoadPat": "QT",
+            "RelDist": "0,9332",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "12,4838",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,0486",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-51,7795",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,1776",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-25,9248",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,3065",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-19,7167",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,4355",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-18,7599",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,5645",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-21,2347",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,6934",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-32,9625",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,8224",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "18,4543",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,9514",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,1497",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,0486",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0746",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,1776",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0160",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,3065",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0081",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,4355",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0101",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,5645",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0066",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,6934",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0030",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,8224",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0014",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,9514",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-6,2637",
+            "Frame": "79",
+            "LoadPat": "G2",
+            "RelDist": "0,2057",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-21,8255",
+            "Frame": "79",
+            "LoadPat": "G2",
+            "RelDist": "0,4133",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-17,5443",
+            "Frame": "79",
+            "LoadPat": "G2",
+            "RelDist": "0,7353",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-16,7674",
+            "Frame": "79",
+            "LoadPat": "G2",
+            "RelDist": "0,8835",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,6479",
+            "Frame": "79",
+            "LoadPat": "QT",
+            "RelDist": "0,2057",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,5863",
+            "Frame": "79",
+            "LoadPat": "QT",
+            "RelDist": "0,4133",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,4551",
+            "Frame": "79",
+            "LoadPat": "QT",
+            "RelDist": "0,7353",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,1776",
+            "Frame": "79",
+            "LoadPat": "QT",
+            "RelDist": "0,8835",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-26,3523",
+            "Frame": "80",
+            "LoadPat": "G2",
+            "RelDist": "0,2524",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-25,3810",
+            "Frame": "80",
+            "LoadPat": "G2",
+            "RelDist": "0,3372",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,2302",
+            "Frame": "80",
+            "LoadPat": "G2",
+            "RelDist": "0,7571",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "12,2667",
+            "Frame": "80",
+            "LoadPat": "G2",
+            "RelDist": "0,7854",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0240",
+            "Frame": "80",
+            "LoadPat": "QT",
+            "RelDist": "0,2524",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0279",
+            "Frame": "80",
+            "LoadPat": "QT",
+            "RelDist": "0,3372",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,2448",
+            "Frame": "80",
+            "LoadPat": "QT",
+            "RelDist": "0,7571",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,5710",
+            "Frame": "80",
+            "LoadPat": "QT",
+            "RelDist": "0,7854",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-2,1124",
+            "Frame": "81",
+            "LoadPat": "G2",
+            "RelDist": "0,2150",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-55,1947",
+            "Frame": "81",
+            "LoadPat": "G2",
+            "RelDist": "0,6636",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,1063",
+            "Frame": "81",
+            "LoadPat": "QT",
+            "RelDist": "0,2150",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,1354",
+            "Frame": "81",
+            "LoadPat": "QT",
+            "RelDist": "0,6636",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-26,6481",
+            "Frame": "82",
+            "LoadPat": "G2",
+            "RelDist": "0,0555",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-19,8414",
+            "Frame": "82",
+            "LoadPat": "G2",
+            "RelDist": "0,2778",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-18,1257",
+            "Frame": "82",
+            "LoadPat": "G2",
+            "RelDist": "0,5000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-17,9646",
+            "Frame": "82",
+            "LoadPat": "G2",
+            "RelDist": "0,7222",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-20,6960",
+            "Frame": "82",
+            "LoadPat": "G2",
+            "RelDist": "0,9445",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0395",
+            "Frame": "82",
+            "LoadPat": "QT",
+            "RelDist": "0,0555",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0208",
+            "Frame": "82",
+            "LoadPat": "QT",
+            "RelDist": "0,2778",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0152",
+            "Frame": "82",
+            "LoadPat": "QT",
+            "RelDist": "0,5000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0115",
+            "Frame": "82",
+            "LoadPat": "QT",
+            "RelDist": "0,7222",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0067",
+            "Frame": "82",
+            "LoadPat": "QT",
+            "RelDist": "0,9445",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-32,9156",
+            "Frame": "83",
+            "LoadPat": "G2",
+            "RelDist": "0,3364",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "11,2882",
+            "Frame": "83",
+            "LoadPat": "G2",
+            "RelDist": "0,7850",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0098",
+            "Frame": "83",
+            "LoadPat": "QT",
+            "RelDist": "0,3364",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0904",
+            "Frame": "83",
+            "LoadPat": "QT",
+            "RelDist": "0,7850",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-10,3094",
+            "Frame": "84",
+            "LoadPat": "G2",
+            "RelDist": "0,2773",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-24,2550",
+            "Frame": "84",
+            "LoadPat": "G2",
+            "RelDist": "0,5804",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-8,2142",
+            "Frame": "84",
+            "LoadPat": "G2",
+            "RelDist": "1,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "1,3460",
+            "Frame": "84",
+            "LoadPat": "QT",
+            "RelDist": "0,2773",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,9100",
+            "Frame": "84",
+            "LoadPat": "QT",
+            "RelDist": "0,5804",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,2888",
+            "Frame": "84",
+            "LoadPat": "QT",
+            "RelDist": "1,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-8,2142",
+            "Frame": "85",
+            "LoadPat": "G2",
+            "RelDist": "0,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-13,3644",
+            "Frame": "85",
+            "LoadPat": "G2",
+            "RelDist": "0,1144",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-11,0286",
+            "Frame": "85",
+            "LoadPat": "G2",
+            "RelDist": "0,3334",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-10,5269",
+            "Frame": "85",
+            "LoadPat": "G2",
+            "RelDist": "0,4223",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-11,2046",
+            "Frame": "85",
+            "LoadPat": "G2",
+            "RelDist": "0,6666",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-10,8917",
+            "Frame": "85",
+            "LoadPat": "G2",
+            "RelDist": "0,7302",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-8,4275",
+            "Frame": "85",
+            "LoadPat": "G2",
+            "RelDist": "1,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,2888",
+            "Frame": "85",
+            "LoadPat": "QT",
+            "RelDist": "0,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,1668",
+            "Frame": "85",
+            "LoadPat": "QT",
+            "RelDist": "0,1144",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,1254",
+            "Frame": "85",
+            "LoadPat": "QT",
+            "RelDist": "0,3334",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,1678",
+            "Frame": "85",
+            "LoadPat": "QT",
+            "RelDist": "0,4223",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,6088",
+            "Frame": "85",
+            "LoadPat": "QT",
+            "RelDist": "0,6666",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,6969",
+            "Frame": "85",
+            "LoadPat": "QT",
+            "RelDist": "0,7302",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-1,2808",
+            "Frame": "85",
+            "LoadPat": "QT",
+            "RelDist": "1,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-8,4275",
+            "Frame": "86",
+            "LoadPat": "G2",
+            "RelDist": "0,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,2364",
+            "Frame": "86",
+            "LoadPat": "G2",
+            "RelDist": "0,0773",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "5,1294",
+            "Frame": "86",
+            "LoadPat": "G2",
+            "RelDist": "0,6754",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "10,4599",
+            "Frame": "86",
+            "LoadPat": "G2",
+            "RelDist": "0,7012",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-1,2808",
+            "Frame": "86",
+            "LoadPat": "QT",
+            "RelDist": "0,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-2,7752",
+            "Frame": "86",
+            "LoadPat": "QT",
+            "RelDist": "0,0773",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-3,9558",
+            "Frame": "86",
+            "LoadPat": "QT",
+            "RelDist": "0,6754",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-3,7445",
+            "Frame": "86",
+            "LoadPat": "QT",
+            "RelDist": "0,7012",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-4,1683",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,0486",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,4670",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,1776",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-13,0287",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,3066",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-12,6340",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,4355",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-13,1175",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,5645",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,1944",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,6935",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-22,2164",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,8224",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-2,8194",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,9514",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,1153",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,0486",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0437",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,1776",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0356",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,3066",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0409",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,4355",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0603",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,5645",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,1901",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,6935",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,2555",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,8224",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "6,4677",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,9514",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-1,5309",
+            "Frame": "88",
+            "LoadPat": "G2",
+            "RelDist": "0,0668",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-22,8470",
+            "Frame": "88",
+            "LoadPat": "G2",
+            "RelDist": "0,2401",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-16,2425",
+            "Frame": "88",
+            "LoadPat": "G2",
+            "RelDist": "0,4134",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,3103",
+            "Frame": "88",
+            "LoadPat": "G2",
+            "RelDist": "0,5866",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-17,2355",
+            "Frame": "88",
+            "LoadPat": "G2",
+            "RelDist": "0,7599",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "8,9618",
+            "Frame": "88",
+            "LoadPat": "G2",
+            "RelDist": "0,9332",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "6,0412",
+            "Frame": "88",
+            "LoadPat": "QT",
+            "RelDist": "0,0668",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,4544",
+            "Frame": "88",
+            "LoadPat": "QT",
+            "RelDist": "0,2401",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,1458",
+            "Frame": "88",
+            "LoadPat": "QT",
+            "RelDist": "0,4134",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,1395",
+            "Frame": "88",
+            "LoadPat": "QT",
+            "RelDist": "0,5866",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,4239",
+            "Frame": "88",
+            "LoadPat": "QT",
+            "RelDist": "0,7599",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "6,6359",
+            "Frame": "88",
+            "LoadPat": "QT",
+            "RelDist": "0,9332",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,9132",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,0486",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-18,9543",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,1776",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,4584",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,3066",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-14,9075",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,4355",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,5454",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,5645",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-18,0032",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,6935",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-27,0440",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,8224",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-8,6575",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,9514",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0013",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,0486",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0015",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,1776",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0010",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,3066",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0009",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,4355",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0011",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,5645",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0013",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,6935",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0013",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,8224",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0162",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,9514",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "2,0069",
+            "Frame": "90",
+            "LoadPat": "G2",
+            "RelDist": "0,0806",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-14,6599",
+            "Frame": "90",
+            "LoadPat": "G2",
+            "RelDist": "0,2484",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-13,7316",
+            "Frame": "90",
+            "LoadPat": "G2",
+            "RelDist": "0,4161",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-14,4324",
+            "Frame": "90",
+            "LoadPat": "G2",
+            "RelDist": "0,5839",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-18,0462",
+            "Frame": "90",
+            "LoadPat": "G2",
+            "RelDist": "0,7516",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0305",
+            "Frame": "90",
+            "LoadPat": "G2",
+            "RelDist": "0,9194",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,1423",
+            "Frame": "90",
+            "LoadPat": "QT",
+            "RelDist": "0,0806",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,1170",
+            "Frame": "90",
+            "LoadPat": "QT",
+            "RelDist": "0,2484",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0480",
+            "Frame": "90",
+            "LoadPat": "QT",
+            "RelDist": "0,4161",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0247",
+            "Frame": "90",
+            "LoadPat": "QT",
+            "RelDist": "0,5839",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0022",
+            "Frame": "90",
+            "LoadPat": "QT",
+            "RelDist": "0,7516",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0200",
+            "Frame": "90",
+            "LoadPat": "QT",
+            "RelDist": "0,9194",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "1,2079",
+            "Frame": "91",
+            "LoadPat": "G2",
+            "RelDist": "0,2429",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-20,1871",
+            "Frame": "91",
+            "LoadPat": "G2",
+            "RelDist": "0,7476",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0188",
+            "Frame": "91",
+            "LoadPat": "QT",
+            "RelDist": "0,2429",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0302",
+            "Frame": "91",
+            "LoadPat": "QT",
+            "RelDist": "0,7476",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-24,9853",
+            "Frame": "92",
+            "LoadPat": "G2",
+            "RelDist": "0,2523",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-8,7026",
+            "Frame": "92",
+            "LoadPat": "G2",
+            "RelDist": "0,7570",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0110",
+            "Frame": "92",
+            "LoadPat": "QT",
+            "RelDist": "0,2523",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0109",
+            "Frame": "92",
+            "LoadPat": "QT",
+            "RelDist": "0,7570",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-5,8411",
+            "Frame": "93",
+            "LoadPat": "G2",
+            "RelDist": "0,2150",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-26,0643",
+            "Frame": "93",
+            "LoadPat": "G2",
+            "RelDist": "0,6636",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0059",
+            "Frame": "93",
+            "LoadPat": "QT",
+            "RelDist": "0,2150",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0034",
+            "Frame": "93",
+            "LoadPat": "QT",
+            "RelDist": "0,6636",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-17,1703",
+            "Frame": "94",
+            "LoadPat": "G2",
+            "RelDist": "0,0555",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-14,7322",
+            "Frame": "94",
+            "LoadPat": "G2",
+            "RelDist": "0,2778",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-13,9395",
+            "Frame": "94",
+            "LoadPat": "G2",
+            "RelDist": "0,5000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-13,6856",
+            "Frame": "94",
+            "LoadPat": "G2",
+            "RelDist": "0,7222",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-14,2806",
+            "Frame": "94",
+            "LoadPat": "G2",
+            "RelDist": "0,9445",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0013",
+            "Frame": "94",
+            "LoadPat": "QT",
+            "RelDist": "0,0555",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0006",
+            "Frame": "94",
+            "LoadPat": "QT",
+            "RelDist": "0,2778",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0003",
+            "Frame": "94",
+            "LoadPat": "QT",
+            "RelDist": "0,7222",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0007",
+            "Frame": "94",
+            "LoadPat": "QT",
+            "RelDist": "0,9445",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-17,3420",
+            "Frame": "95",
+            "LoadPat": "G2",
+            "RelDist": "0,3364",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "1,7551",
+            "Frame": "95",
+            "LoadPat": "G2",
+            "RelDist": "0,7850",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0011",
+            "Frame": "95",
+            "LoadPat": "QT",
+            "RelDist": "0,3364",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0023",
+            "Frame": "95",
+            "LoadPat": "QT",
+            "RelDist": "0,7850",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-13,0241",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,0480",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-29,1816",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,1753",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-18,1258",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,3026",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,6762",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,4298",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,4367",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,5571",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-17,1979",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,6844",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-25,4650",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,8117",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-4,1528",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,9390",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0479",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,0480",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0190",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,1753",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0015",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,3026",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0065",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,4298",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0458",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,5571",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,1726",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,6844",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,4059",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,8117",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-1,7430",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,9390",
+            "Type": "Force"
+          },
+          "count": 1
+        }
+      ],
+      "added": [
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-4,3170",
+            "Frame": "69",
+            "LoadPat": "G2",
+            "RelDist": "0,0668",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-21,7067",
+            "Frame": "69",
+            "LoadPat": "G2",
+            "RelDist": "0,2401",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-17,9456",
+            "Frame": "69",
+            "LoadPat": "G2",
+            "RelDist": "0,4134",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-20,9284",
+            "Frame": "69",
+            "LoadPat": "G2",
+            "RelDist": "0,5866",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-37,4832",
+            "Frame": "69",
+            "LoadPat": "G2",
+            "RelDist": "0,7599",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-27,7246",
+            "Frame": "69",
+            "LoadPat": "G2",
+            "RelDist": "0,9332",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-3,5227",
+            "Frame": "69",
+            "LoadPat": "QT",
+            "RelDist": "0,0668",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-4,2790",
+            "Frame": "69",
+            "LoadPat": "QT",
+            "RelDist": "0,2401",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-1,8359",
+            "Frame": "69",
+            "LoadPat": "QT",
+            "RelDist": "0,4134",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-2,6768",
+            "Frame": "69",
+            "LoadPat": "QT",
+            "RelDist": "0,5866",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-8,9193",
+            "Frame": "69",
+            "LoadPat": "QT",
+            "RelDist": "0,7599",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-11,9707",
+            "Frame": "69",
+            "LoadPat": "QT",
+            "RelDist": "0,9332",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-29,1631",
+            "Frame": "70",
+            "LoadPat": "G2",
+            "RelDist": "0,2988",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-16,1546",
+            "Frame": "70",
+            "LoadPat": "G2",
+            "RelDist": "0,9227",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,9479",
+            "Frame": "70",
+            "LoadPat": "QT",
+            "RelDist": "0,2988",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0720",
+            "Frame": "70",
+            "LoadPat": "QT",
+            "RelDist": "0,9227",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-6,1097",
+            "Frame": "71",
+            "LoadPat": "G2",
+            "RelDist": "0,2698",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-4,1261",
+            "Frame": "71",
+            "LoadPat": "G2",
+            "RelDist": "0,5777",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "2,7632",
+            "Frame": "71",
+            "LoadPat": "G2",
+            "RelDist": "0,8856",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "4,5515",
+            "Frame": "71",
+            "LoadPat": "QT",
+            "RelDist": "0,2698",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "5,2250",
+            "Frame": "71",
+            "LoadPat": "QT",
+            "RelDist": "0,5777",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "10,3202",
+            "Frame": "71",
+            "LoadPat": "QT",
+            "RelDist": "0,8856",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,5709",
+            "Frame": "72",
+            "LoadPat": "G2",
+            "RelDist": "0,1622",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-6,3095",
+            "Frame": "72",
+            "LoadPat": "G2",
+            "RelDist": "0,4202",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-7,9686",
+            "Frame": "72",
+            "LoadPat": "G2",
+            "RelDist": "0,6781",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-9,5695",
+            "Frame": "72",
+            "LoadPat": "G2",
+            "RelDist": "0,9361",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "8,8587",
+            "Frame": "72",
+            "LoadPat": "QT",
+            "RelDist": "0,1622",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "4,1960",
+            "Frame": "72",
+            "LoadPat": "QT",
+            "RelDist": "0,4202",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "4,0564",
+            "Frame": "72",
+            "LoadPat": "QT",
+            "RelDist": "0,6781",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "5,9792",
+            "Frame": "72",
+            "LoadPat": "QT",
+            "RelDist": "0,9361",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-49,9019",
+            "Frame": "73",
+            "LoadPat": "G2",
+            "RelDist": "0,3372",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-55,8212",
+            "Frame": "73",
+            "LoadPat": "G2",
+            "RelDist": "0,7854",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-14,3821",
+            "Frame": "73",
+            "LoadPat": "QT",
+            "RelDist": "0,3372",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-27,3167",
+            "Frame": "73",
+            "LoadPat": "QT",
+            "RelDist": "0,7854",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-41,2284",
+            "Frame": "74",
+            "LoadPat": "G2",
+            "RelDist": "0,2150",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-47,0202",
+            "Frame": "74",
+            "LoadPat": "G2",
+            "RelDist": "0,6636",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-21,0240",
+            "Frame": "74",
+            "LoadPat": "QT",
+            "RelDist": "0,2150",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-13,0477",
+            "Frame": "74",
+            "LoadPat": "QT",
+            "RelDist": "0,6636",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-9,7463",
+            "Frame": "75",
+            "LoadPat": "G2",
+            "RelDist": "0,0555",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-10,3591",
+            "Frame": "75",
+            "LoadPat": "G2",
+            "RelDist": "0,2778",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-10,1365",
+            "Frame": "75",
+            "LoadPat": "G2",
+            "RelDist": "0,5000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-5,5431",
+            "Frame": "75",
+            "LoadPat": "G2",
+            "RelDist": "0,7222",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "3,7736",
+            "Frame": "75",
+            "LoadPat": "G2",
+            "RelDist": "0,9445",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "6,1709",
+            "Frame": "75",
+            "LoadPat": "QT",
+            "RelDist": "0,0555",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "3,0859",
+            "Frame": "75",
+            "LoadPat": "QT",
+            "RelDist": "0,2778",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "2,3313",
+            "Frame": "75",
+            "LoadPat": "QT",
+            "RelDist": "0,5000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "5,3152",
+            "Frame": "75",
+            "LoadPat": "QT",
+            "RelDist": "0,7222",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "12,3394",
+            "Frame": "75",
+            "LoadPat": "QT",
+            "RelDist": "0,9445",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-7,0813",
+            "Frame": "76",
+            "LoadPat": "G2",
+            "RelDist": "0,3364",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-6,9686",
+            "Frame": "76",
+            "LoadPat": "G2",
+            "RelDist": "0,7850",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "5,0404",
+            "Frame": "76",
+            "LoadPat": "QT",
+            "RelDist": "0,3364",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-5,5311",
+            "Frame": "76",
+            "LoadPat": "QT",
+            "RelDist": "0,7850",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "123,4897",
+            "Frame": "77",
+            "LoadPat": "G2",
+            "RelDist": "0,0668",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-55,2942",
+            "Frame": "77",
+            "LoadPat": "G2",
+            "RelDist": "0,2401",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-30,5708",
+            "Frame": "77",
+            "LoadPat": "G2",
+            "RelDist": "0,4134",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-32,9995",
+            "Frame": "77",
+            "LoadPat": "G2",
+            "RelDist": "0,5866",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-76,7657",
+            "Frame": "77",
+            "LoadPat": "G2",
+            "RelDist": "0,7599",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "83,4649",
+            "Frame": "77",
+            "LoadPat": "G2",
+            "RelDist": "0,9332",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "55,9887",
+            "Frame": "77",
+            "LoadPat": "QT",
+            "RelDist": "0,0668",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,4411",
+            "Frame": "77",
+            "LoadPat": "QT",
+            "RelDist": "0,2401",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-4,2798",
+            "Frame": "77",
+            "LoadPat": "QT",
+            "RelDist": "0,4134",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-4,4236",
+            "Frame": "77",
+            "LoadPat": "QT",
+            "RelDist": "0,5866",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-18,9779",
+            "Frame": "77",
+            "LoadPat": "QT",
+            "RelDist": "0,7599",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "54,1454",
+            "Frame": "77",
+            "LoadPat": "QT",
+            "RelDist": "0,9332",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "84,5902",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,0486",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-74,0703",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,1776",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-32,0931",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,3065",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-21,1198",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,4355",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-20,0438",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,5645",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-25,8489",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,6934",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-48,3176",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,8224",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "71,2339",
+            "Frame": "78",
+            "LoadPat": "G2",
+            "RelDist": "0,9514",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "54,6277",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,0486",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-16,9158",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,1776",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-4,6762",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,3065",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-1,0519",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,4355",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,9599",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,5645",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-3,4796",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,6934",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-11,5981",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,8224",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "39,8747",
+            "Frame": "78",
+            "LoadPat": "QT",
+            "RelDist": "0,9514",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-16,5782",
+            "Frame": "79",
+            "LoadPat": "G2",
+            "RelDist": "0,2057",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-26,2059",
+            "Frame": "79",
+            "LoadPat": "G2",
+            "RelDist": "0,4133",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-1,8424",
+            "Frame": "79",
+            "LoadPat": "G2",
+            "RelDist": "0,7353",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "2,5907",
+            "Frame": "79",
+            "LoadPat": "G2",
+            "RelDist": "0,8835",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-7,1450",
+            "Frame": "79",
+            "LoadPat": "QT",
+            "RelDist": "0,2057",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-2,7232",
+            "Frame": "79",
+            "LoadPat": "QT",
+            "RelDist": "0,4133",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "12,3182",
+            "Frame": "79",
+            "LoadPat": "QT",
+            "RelDist": "0,7353",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "14,8030",
+            "Frame": "79",
+            "LoadPat": "QT",
+            "RelDist": "0,8835",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-24,6552",
+            "Frame": "80",
+            "LoadPat": "G2",
+            "RelDist": "0,2524",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-34,8525",
+            "Frame": "80",
+            "LoadPat": "G2",
+            "RelDist": "0,3372",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-40,7747",
+            "Frame": "80",
+            "LoadPat": "G2",
+            "RelDist": "0,7571",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,9026",
+            "Frame": "80",
+            "LoadPat": "G2",
+            "RelDist": "0,7854",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "1,3062",
+            "Frame": "80",
+            "LoadPat": "QT",
+            "RelDist": "0,2524",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-7,1838",
+            "Frame": "80",
+            "LoadPat": "QT",
+            "RelDist": "0,3372",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-31,2249",
+            "Frame": "80",
+            "LoadPat": "QT",
+            "RelDist": "0,7571",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-21,8535",
+            "Frame": "80",
+            "LoadPat": "QT",
+            "RelDist": "0,7854",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-100,2296",
+            "Frame": "81",
+            "LoadPat": "G2",
+            "RelDist": "0,2150",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-75,0012",
+            "Frame": "81",
+            "LoadPat": "G2",
+            "RelDist": "0,6636",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-74,2359",
+            "Frame": "81",
+            "LoadPat": "QT",
+            "RelDist": "0,2150",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,0996",
+            "Frame": "81",
+            "LoadPat": "QT",
+            "RelDist": "0,6636",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "24,7270",
+            "Frame": "82",
+            "LoadPat": "G2",
+            "RelDist": "0,0555",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,8683",
+            "Frame": "82",
+            "LoadPat": "G2",
+            "RelDist": "0,2778",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-5,4531",
+            "Frame": "82",
+            "LoadPat": "G2",
+            "RelDist": "0,5000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "6,4906",
+            "Frame": "82",
+            "LoadPat": "G2",
+            "RelDist": "0,7222",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "41,7721",
+            "Frame": "82",
+            "LoadPat": "G2",
+            "RelDist": "0,9445",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "38,7754",
+            "Frame": "82",
+            "LoadPat": "QT",
+            "RelDist": "0,0555",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "15,6258",
+            "Frame": "82",
+            "LoadPat": "QT",
+            "RelDist": "0,2778",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "9,5592",
+            "Frame": "82",
+            "LoadPat": "QT",
+            "RelDist": "0,5000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "18,4650",
+            "Frame": "82",
+            "LoadPat": "QT",
+            "RelDist": "0,7222",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "47,1892",
+            "Frame": "82",
+            "LoadPat": "QT",
+            "RelDist": "0,9445",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-10,4034",
+            "Frame": "83",
+            "LoadPat": "G2",
+            "RelDist": "0,3364",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-32,4114",
+            "Frame": "83",
+            "LoadPat": "G2",
+            "RelDist": "0,7850",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "17,0183",
+            "Frame": "83",
+            "LoadPat": "QT",
+            "RelDist": "0,3364",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-32,9256",
+            "Frame": "83",
+            "LoadPat": "QT",
+            "RelDist": "0,7850",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-24,1877",
+            "Frame": "84",
+            "LoadPat": "G2",
+            "RelDist": "0,2773",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-30,5296",
+            "Frame": "84",
+            "LoadPat": "G2",
+            "RelDist": "0,5804",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-6,3919",
+            "Frame": "84",
+            "LoadPat": "G2",
+            "RelDist": "1,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-9,1394",
+            "Frame": "84",
+            "LoadPat": "QT",
+            "RelDist": "0,2773",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-3,8306",
+            "Frame": "84",
+            "LoadPat": "QT",
+            "RelDist": "0,5804",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "1,6656",
+            "Frame": "84",
+            "LoadPat": "QT",
+            "RelDist": "1,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-6,3919",
+            "Frame": "85",
+            "LoadPat": "G2",
+            "RelDist": "0,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-8,0378",
+            "Frame": "85",
+            "LoadPat": "G2",
+            "RelDist": "0,1144",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-6,6034",
+            "Frame": "85",
+            "LoadPat": "G2",
+            "RelDist": "0,3334",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-8,0600",
+            "Frame": "85",
+            "LoadPat": "G2",
+            "RelDist": "0,4223",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-5,6902",
+            "Frame": "85",
+            "LoadPat": "G2",
+            "RelDist": "0,6666",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-5,8636",
+            "Frame": "85",
+            "LoadPat": "G2",
+            "RelDist": "0,7302",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-3,2674",
+            "Frame": "85",
+            "LoadPat": "G2",
+            "RelDist": "1,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "1,6656",
+            "Frame": "85",
+            "LoadPat": "QT",
+            "RelDist": "0,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "4,1911",
+            "Frame": "85",
+            "LoadPat": "QT",
+            "RelDist": "0,1144",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "3,2180",
+            "Frame": "85",
+            "LoadPat": "QT",
+            "RelDist": "0,3334",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "1,6960",
+            "Frame": "85",
+            "LoadPat": "QT",
+            "RelDist": "0,4223",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "3,5575",
+            "Frame": "85",
+            "LoadPat": "QT",
+            "RelDist": "0,6666",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "3,1018",
+            "Frame": "85",
+            "LoadPat": "QT",
+            "RelDist": "0,7302",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "2,6178",
+            "Frame": "85",
+            "LoadPat": "QT",
+            "RelDist": "1,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-3,2674",
+            "Frame": "86",
+            "LoadPat": "G2",
+            "RelDist": "0,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-6,9273",
+            "Frame": "86",
+            "LoadPat": "G2",
+            "RelDist": "0,0773",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "2,6246",
+            "Frame": "86",
+            "LoadPat": "G2",
+            "RelDist": "0,6754",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "13,5474",
+            "Frame": "86",
+            "LoadPat": "G2",
+            "RelDist": "0,7012",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "2,6178",
+            "Frame": "86",
+            "LoadPat": "QT",
+            "RelDist": "0,0000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "3,5024",
+            "Frame": "86",
+            "LoadPat": "QT",
+            "RelDist": "0,0773",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-5,8482",
+            "Frame": "86",
+            "LoadPat": "QT",
+            "RelDist": "0,6754",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-1,4118",
+            "Frame": "86",
+            "LoadPat": "QT",
+            "RelDist": "0,7012",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-4,1789",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,0486",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,2688",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,1776",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-12,8739",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,3066",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-12,5034",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,4355",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-13,0602",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,5645",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,5435",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,6935",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-24,5711",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,8224",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-11,5824",
+            "Frame": "87",
+            "LoadPat": "G2",
+            "RelDist": "0,9514",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,1073",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,0486",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,1060",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,1776",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0814",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,3066",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0578",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,4355",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0170",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,5645",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,4538",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,6935",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-2,0345",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,8224",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,1530",
+            "Frame": "87",
+            "LoadPat": "QT",
+            "RelDist": "0,9514",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-5,8861",
+            "Frame": "88",
+            "LoadPat": "G2",
+            "RelDist": "0,0668",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-25,7657",
+            "Frame": "88",
+            "LoadPat": "G2",
+            "RelDist": "0,2401",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-17,4406",
+            "Frame": "88",
+            "LoadPat": "G2",
+            "RelDist": "0,4134",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-17,1395",
+            "Frame": "88",
+            "LoadPat": "G2",
+            "RelDist": "0,5866",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-22,8058",
+            "Frame": "88",
+            "LoadPat": "G2",
+            "RelDist": "0,7599",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "2,7329",
+            "Frame": "88",
+            "LoadPat": "G2",
+            "RelDist": "0,9332",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "2,7508",
+            "Frame": "88",
+            "LoadPat": "QT",
+            "RelDist": "0,0668",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-2,6596",
+            "Frame": "88",
+            "LoadPat": "QT",
+            "RelDist": "0,2401",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-1,0510",
+            "Frame": "88",
+            "LoadPat": "QT",
+            "RelDist": "0,4134",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-1,5215",
+            "Frame": "88",
+            "LoadPat": "QT",
+            "RelDist": "0,5866",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-4,6324",
+            "Frame": "88",
+            "LoadPat": "QT",
+            "RelDist": "0,7599",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "1,9297",
+            "Frame": "88",
+            "LoadPat": "QT",
+            "RelDist": "0,9332",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-8,2657",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,0486",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-26,0883",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,1776",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-17,8084",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,3066",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,9260",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,4355",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-16,8564",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,5645",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-21,7469",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,6935",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-39,1056",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,8224",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-22,6509",
+            "Frame": "89",
+            "LoadPat": "G2",
+            "RelDist": "0,9514",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-5,5563",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,0486",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-5,3884",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,1776",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-1,7745",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,3066",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,7685",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,4355",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,9894",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,5645",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-2,8271",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,6935",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-9,1115",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,8224",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-10,5884",
+            "Frame": "89",
+            "LoadPat": "QT",
+            "RelDist": "0,9514",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "2,7900",
+            "Frame": "90",
+            "LoadPat": "G2",
+            "RelDist": "0,0806",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-14,3367",
+            "Frame": "90",
+            "LoadPat": "G2",
+            "RelDist": "0,2484",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-13,6942",
+            "Frame": "90",
+            "LoadPat": "G2",
+            "RelDist": "0,4161",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-14,5953",
+            "Frame": "90",
+            "LoadPat": "G2",
+            "RelDist": "0,5839",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-18,7647",
+            "Frame": "90",
+            "LoadPat": "G2",
+            "RelDist": "0,7516",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,7183",
+            "Frame": "90",
+            "LoadPat": "G2",
+            "RelDist": "0,9194",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,4494",
+            "Frame": "90",
+            "LoadPat": "QT",
+            "RelDist": "0,0806",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,1272",
+            "Frame": "90",
+            "LoadPat": "QT",
+            "RelDist": "0,2484",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0198",
+            "Frame": "90",
+            "LoadPat": "QT",
+            "RelDist": "0,4161",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,1478",
+            "Frame": "90",
+            "LoadPat": "QT",
+            "RelDist": "0,5839",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,5451",
+            "Frame": "90",
+            "LoadPat": "QT",
+            "RelDist": "0,7516",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,5397",
+            "Frame": "90",
+            "LoadPat": "QT",
+            "RelDist": "0,9194",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "1,0341",
+            "Frame": "91",
+            "LoadPat": "G2",
+            "RelDist": "0,2429",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-7,8161",
+            "Frame": "91",
+            "LoadPat": "G2",
+            "RelDist": "0,7476",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,1124",
+            "Frame": "91",
+            "LoadPat": "QT",
+            "RelDist": "0,2429",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "9,3767",
+            "Frame": "91",
+            "LoadPat": "QT",
+            "RelDist": "0,7476",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-26,9677",
+            "Frame": "92",
+            "LoadPat": "G2",
+            "RelDist": "0,2523",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-37,1932",
+            "Frame": "92",
+            "LoadPat": "G2",
+            "RelDist": "0,7570",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-1,4867",
+            "Frame": "92",
+            "LoadPat": "QT",
+            "RelDist": "0,2523",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-21,5360",
+            "Frame": "92",
+            "LoadPat": "QT",
+            "RelDist": "0,7570",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-37,9456",
+            "Frame": "93",
+            "LoadPat": "G2",
+            "RelDist": "0,2150",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-35,7366",
+            "Frame": "93",
+            "LoadPat": "G2",
+            "RelDist": "0,6636",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-24,2615",
+            "Frame": "93",
+            "LoadPat": "QT",
+            "RelDist": "0,2150",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-7,3111",
+            "Frame": "93",
+            "LoadPat": "QT",
+            "RelDist": "0,6636",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-1,5180",
+            "Frame": "94",
+            "LoadPat": "G2",
+            "RelDist": "0,0555",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-6,9845",
+            "Frame": "94",
+            "LoadPat": "G2",
+            "RelDist": "0,2778",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-8,1528",
+            "Frame": "94",
+            "LoadPat": "G2",
+            "RelDist": "0,5000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-3,8035",
+            "Frame": "94",
+            "LoadPat": "G2",
+            "RelDist": "0,7222",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "7,0881",
+            "Frame": "94",
+            "LoadPat": "G2",
+            "RelDist": "0,9445",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "11,8244",
+            "Frame": "94",
+            "LoadPat": "QT",
+            "RelDist": "0,0555",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "5,8530",
+            "Frame": "94",
+            "LoadPat": "QT",
+            "RelDist": "0,2778",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "4,3718",
+            "Frame": "94",
+            "LoadPat": "QT",
+            "RelDist": "0,5000",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "7,4664",
+            "Frame": "94",
+            "LoadPat": "QT",
+            "RelDist": "0,7222",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "16,1452",
+            "Frame": "94",
+            "LoadPat": "QT",
+            "RelDist": "0,9445",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-9,7626",
+            "Frame": "95",
+            "LoadPat": "G2",
+            "RelDist": "0,3364",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-14,0505",
+            "Frame": "95",
+            "LoadPat": "G2",
+            "RelDist": "0,7850",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "5,7275",
+            "Frame": "95",
+            "LoadPat": "QT",
+            "RelDist": "0,3364",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-11,9437",
+            "Frame": "95",
+            "LoadPat": "QT",
+            "RelDist": "0,7850",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-14,2056",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,0480",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-29,9381",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,1753",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-17,9260",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,3026",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,6721",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,4298",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-15,5048",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,5571",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-18,0834",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,6844",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-30,8647",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,8117",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "8,2007",
+            "Frame": "96",
+            "LoadPat": "G2",
+            "RelDist": "0,9390",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,9404",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,0480",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,5526",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,1753",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,1495",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,3026",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "0,0096",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,4298",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,0056",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,5571",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-0,4964",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,6844",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "-3,6737",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,8117",
+            "Type": "Force"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "LOCAL",
+            "Dir": "2",
+            "DistType": "RelDist",
+            "Force": "7,5904",
+            "Frame": "96",
+            "LoadPat": "QT",
+            "RelDist": "0,9390",
+            "Type": "Force"
+          },
+          "count": 1
+        }
+      ]
+    },
+    "jointRowsOutsideTargetNodes": {
+      "removed": [
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-129,7926",
+            "Joint": "41",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "-6,8491",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-74,6474",
+            "Joint": "41",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "0,2105",
+            "M3": "0,0000"
+          },
+          "count": 1
+        }
+      ],
+      "added": [
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-145,6605",
+            "Joint": "41",
+            "LoadPat": "G2",
+            "M1": "0,0000",
+            "M2": "-10,4987",
+            "M3": "0,0000"
+          },
+          "count": 1
+        },
+        {
+          "row": {
+            "CoordSys": "GLOBAL",
+            "F1": "0,0000",
+            "F2": "0,0000",
+            "F3": "-86,6360",
+            "Joint": "41",
+            "LoadPat": "QT",
+            "M1": "0,0000",
+            "M2": "-2,5469",
+            "M3": "0,0000"
+          },
+          "count": 1
+        }
+      ]
+    }
+  },
+  "framePointForceSumsByPatternAndLocalDirection": {
+    "before": {
+      "G1/2": -45159.840399999994,
+      "G2/2": -9397.196700000004,
+      "Q/2": -16533.1239,
+      "QT/2": -0.9150000000000027
+    },
+    "after": {
+      "G1/2": -45159.840399999994,
+      "G2/2": -9381.328099999995,
+      "Q/2": -16533.1239,
+      "QT/2": 11.073899999999922
+    }
+  },
+  "otherExportedLoadRowsUnchanged": false,
+  "nativeToExportNumericFactorObserved": 100,
+  "physicalSIConversionCalibrated": false,
+  "globalEquilibriumVerified": false,
+  "revision": "H03/R175",
+  "recordedAtUtc": "2026-11-02T23:59:45.749617+00:00",
+  "projectPath": "D:\\TCC\\outputs\\R175-BIM-CARGAS-A1-A2-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+  "projectSha256": "735ea69b5cbd0c95b92e88f6d25268452e5baf97a0c03ded19b4471a2974f849",
+  "sourceFilesUnchanged": true,
+  "protectedSourceFiles": 21,
+  "exports": {
+    "stale": {
+      "path": "D:\\TCC\\outputs\\Cargas-H03-R175-A1-A2-BIM-NAO-EXECUTAR\\analitico-nos-sem-cargas\\portico_SAP2000_elastico.$2k",
+      "sha256": "e16a32de9908d3f25ec2ca3e0d17888f300d713b162dac806852c0a4a1d3bc0f"
+    },
+    "before": {
+      "path": "D:\\TCC\\outputs\\Cargas-H03-R175-A1-A2-BIM-NAO-EXECUTAR\\analitico-apos-regenerar\\portico_SAP2000_elastico.$2k",
+      "sha256": "c4f34ff7d581fe168a3e3a0b5ebeeb44716a63f585e4401d51d3bb70ed612e8e"
+    },
+    "after": {
+      "path": "D:\\TCC\\outputs\\Cargas-H03-R175-A1-A2-BIM-NAO-EXECUTAR\\analitico-cargas-final\\portico_SAP2000_elastico.$2k",
+      "sha256": "ea9f8c41d1b08aa2e4882a1625d106beeb09ee5eda0c1fa11bc8407b661ba22a"
+    }
+  },
+  "rejectedStaleExport": {
+    "missingTargetNodes": [
+      "RC01",
+      "RC02",
+      "RC03",
+      "RC04",
+      "RC05",
+      "RC06",
+      "RC07",
+      "RC08",
+      "RC09",
+      "RC10",
+      "RC11",
+      "RC12",
+      "RC13"
+    ],
+    "jointCount": 110,
+    "frameCount": 134,
+    "accepted": false
+  },
+  "afterRegenerationTargetNodes": 13,
+  "afterRegenerationJointCount": 123,
+  "afterRegenerationFrameCount": 147,
+  "nativeReadbackSamples": [
+    {
+      "id": "RC03",
+      "action": "G",
+      "displayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": -1.38729,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "evidence": "R175-RC03-G-reaberto.txt",
+      "sha256": "03ec92c381a89f6a535e58368713d84b5e2d2d6a476976d9faa6444d7b321e28"
+    },
+    {
+      "id": "RC03",
+      "action": "QT",
+      "displayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": -1.04812,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "evidence": "R175-RC03-QT-reaberto.txt",
+      "sha256": "aad48eaefb7ffaa52fc4b934b6b5523d41cd3f61d252259073c37a573f8c929e"
+    },
+    {
+      "id": "RC11",
+      "action": "G",
+      "displayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": -1.1205,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "evidence": "R175-RC11-G-reaberto.txt",
+      "sha256": "e3248048d396c02805da99729bbbc570efd36bc097bda9eaf0b286a7a97773d2"
+    },
+    {
+      "id": "RC11",
+      "action": "QT",
+      "displayed": {
+        "Fx": 0.0,
+        "Fy": 0.0,
+        "Fz": -0.846563,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "evidence": "R175-RC11-QT-reaberto.txt",
+      "sha256": "cc6c07246bc53251f4649b0f3249e87436f74104b9ca2eb4dc1a1a46ea74cf42"
+    }
+  ],
+  "nativeReadbackComponents": 24,
+  "nativeReadbackSampleNotCensus": true,
+  "savedClosedReopened": true,
+  "projectBytesUnchangedDuringReadback": true,
+  "summary": {
+    "raw": "Cargas verticais: Peso próprio = 75.72 tf Adicional = 12.00 tf Acidental = 17.01 tf Q_TELHADO_MANUTENCAO = 1.78 tf Total = 106.51 tf Área aproximada = 132.41 m² Relação = 804.42 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.15 cm (limite 0.42) X- = 0.15 cm (limite 0.42) Y+ = 0.20 cm (limite 0.42) Y- = 0.20 cm (limite 0.42) Deslocamento relativo máximo do centro de massa (Vento): TCC-7a6267fd-N1 - Y- = 0.16 cm (limite 0.35) Verificação de estabilidade (Gama-Z): X+ = 1.07 (limite 1.10) X- = 1.06 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+7.47%) Vento X+: 0.74 »» 0.82 (+10.91%) Vento X-: 0.74 »» 0.82 (+10.91%) Vento Y+: 1.06 »» 1.15 (+8.30%) Vento Y-: 1.06 »» 1.15 (+8.30%) Desaprumo X+: 0.08 »» 0.08 (+10.76%) Desaprumo X-: 0.08 »» 0.08 (+10.75%) Desaprumo Y+: 0.06 »» 0.07 (+8.11%) Desaprumo Y-: 0.06 »» 0.07 (+8.11%)",
+    "verticalLoadsDisplayedTf": {
+      "Peso próprio": 75.72,
+      "Adicional": 12.0,
+      "Acidental": 17.01,
+      "Q_TELHADO_MANUTENCAO": 1.78,
+      "Total": 106.51
+    },
+    "horizontalDisplayedCm": {
+      "X+": {
+        "value": 0.15,
+        "displayedLimit": 0.42,
+        "unit": "cm"
+      },
+      "X-": {
+        "value": 0.15,
+        "displayedLimit": 0.42,
+        "unit": "cm"
+      },
+      "Y+": {
+        "value": 0.2,
+        "displayedLimit": 0.42,
+        "unit": "cm"
+      },
+      "Y-": {
+        "value": 0.2,
+        "displayedLimit": 0.42,
+        "unit": "cm"
+      }
+    },
+    "gammaZDisplayed": {
+      "X+": {
+        "value": 1.07,
+        "displayedLimit": 1.1,
+        "unit": null
+      },
+      "X-": {
+        "value": 1.06,
+        "displayedLimit": 1.1,
+        "unit": null
+      },
+      "Y+": {
+        "value": 1.06,
+        "displayedLimit": 1.1,
+        "unit": null
+      },
+      "Y-": {
+        "value": 1.05,
+        "displayedLimit": 1.1,
+        "unit": null
+      }
+    },
+    "relativeDisplayed": {
+      "floor": "TCC-7a6267fd-N1",
+      "direction": "Y-",
+      "valueCm": 0.16,
+      "displayedLimitCm": 0.35
+    },
+    "containsUnusualLoadAreaWarning": true
+  },
+  "sessionTime": {
+    "inicio": {
+      "utc": "2026-11-02T23:24:03.759Z",
+      "ms": 1793661843759
+    },
+    "fim": {
+      "utc": "2026-11-02T23:57:50.313Z",
+      "ms": 1793663870313
+    },
+    "duracaoMs": 2026554,
+    "escopo": "Sessao completa R175 ate fechar apos releitura amostral de RC03 e RC11; inclui dois processamentos exportacoes e orquestracao; contem intervalo ate primeiro save"
+  },
+  "containedTimeUntilFirstSave": {
+    "inicio": {
+      "utc": "2026-11-02T23:24:03.759Z",
+      "ms": 1793661843759
+    },
+    "fim": "2026-11-02T23:49:39.760Z",
+    "duracaoMs": 1536001,
+    "escopo": "Sessao R175 ate primeiro save apos 13 nos G/QT; inclui criacao de nos, diagnostico intermediario, exportacoes e latencia de orquestracao; nao CPU nem tempo exclusivo de lancamento"
+  },
+  "doNotAddContainedTimes": true,
+  "staticAnalysisPerformed": true,
+  "porticoConfiguredStiffnessDisplacementsPerformed": true,
+  "dimensioningPerformed": false,
+  "slabDeflectionsPerformed": false,
+  "stairIntegratedInReceiver": false,
+  "fullAllLoadEqualityAgainstCadVerified": false,
+  "fullPairedFlowTimeMeasured": false,
+  "finalRankingAllowed": false,
+  "structuralApproval": false,
+  "frozenFiles": [
+    {
+      "relativePath": "_DADOS_\\ConfigFolder.qib",
+      "bytes": 6198,
+      "sha256": "b2e8c6c10dd5a9580e5faffdc85942782726412e2c0b6dcf331c4187579c6436"
+    },
+    {
+      "relativePath": "_DADOS_\\EdificacaoEberick.ini",
+      "bytes": 269,
+      "sha256": "e9b1186e507e8cb474d835f52bb60aee6ccf2332df9d3f6c4540f2c1389c9fa8"
+    },
+    {
+      "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\logo.gif",
+      "bytes": 3533,
+      "sha256": "b38857f1c1da842e6113c6464464d20c048457a36f01bb42519595ddebaab728"
+    },
+    {
+      "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\Relatorio_de_importacao_de_elementos_IFC.docx",
+      "bytes": 7793,
+      "sha256": "2fa2f52431feaac8e6aa693486a9b3a42fa54f7f1834e73925b536a5b1253f78"
+    },
+    {
+      "relativePath": "Arquivos do projeto\\Modelo 3D.IFC",
+      "bytes": 181703,
+      "sha256": "0e7607e3f72fed6c1c098bd17ddd1062be701c74c6b18db3887e0cc35b03ac3b"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak",
+      "bytes": 457091,
+      "sha256": "eecba6214992fceec0a97bac3ddad5e607998d2e90449fbf3e1998821ee99935"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak-g2",
+      "bytes": 254703,
+      "sha256": "4e201c1bec5d7a5d09b1fd64afd4823bc0805a5558ab5b73c64d9ea90af9c827"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak-g3",
+      "bytes": 239575,
+      "sha256": "dcdf1c29ff635044a1c10073933e02cb448102ededabca00a78da62f8b2ce07a"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.ini",
+      "bytes": 7850,
+      "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "bytes": 457981,
+      "sha256": "735ea69b5cbd0c95b92e88f6d25268452e5baf97a0c03ded19b4471a2974f849"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-cad",
+      "bytes": 225250,
+      "sha256": "d646377d827e2e91c9de6f871c35c7e058cdde3ca97bfb343e50acf40d9bf3f3"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-g2",
+      "bytes": 254703,
+      "sha256": "b9e229339eef98a08b69d384581ee2f762150deee245c2bd8f4c2b03197f2916"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-g3",
+      "bytes": 239575,
+      "sha256": "627135d483e57e95af901dd1150708695e954b74568c65ea8adec5d4e4b7e2df"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav",
+      "bytes": 457981,
+      "sha256": "735ea69b5cbd0c95b92e88f6d25268452e5baf97a0c03ded19b4471a2974f849"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav-g2",
+      "bytes": 254703,
+      "sha256": "b9e229339eef98a08b69d384581ee2f762150deee245c2bd8f4c2b03197f2916"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav-g3",
+      "bytes": 239575,
+      "sha256": "627135d483e57e95af901dd1150708695e954b74568c65ea8adec5d4e4b7e2df"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.x2",
+      "bytes": 5514987,
+      "sha256": "6d60813a7513f391bf7c167a3e55aa86acdd1cdbba40dddd8b227b4d9aeb3a9d"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.x3",
+      "bytes": 5152369,
+      "sha256": "ed195585e21464180acd951a96c5f10d298e33a8b011421b40390e2d8e660706"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.oq3d",
+      "bytes": 24945,
+      "sha256": "00c25740bc63036e47ed84bb2e9404b0090d06d188da938f7e203e108cd4b9d5"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\Planificacao_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini",
+      "bytes": 284,
+      "sha256": "bf20a78e7f28d18448ab1f2622aebe1e2e88998dac1e06c046d8457431a261d7"
+    },
+    {
+      "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\Vinculo_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini",
+      "bytes": 172,
+      "sha256": "e2b4947978d79aa191e88fe60443dac03d45ab4bb9988c68c7867d058c9a3042"
+    }
+  ]
+}

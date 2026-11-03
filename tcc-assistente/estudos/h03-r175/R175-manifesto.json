@@ -1,0 +1,514 @@
+{
+  "entries": [
+    {
+      "file": ".gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+      "bytes": 9
+    },
+    {
+      "file": ".gitignore",
+      "sha256": "01d8d0360f02a0c00e236a4eb2a1d8bdf83377acf442eaafad7a136bf14d6bb0",
+      "bytes": 21
+    },
+    {
+      "file": "analitico-apos-regenerar/grelha_SAP2000_laje_TCC-7a6267fd-N1.$2k",
+      "sha256": "b7bda9aebd27ea2f4a2e1370e20906848439f3b878fa6befabe7592bb95d1e4e",
+      "bytes": 549844
+    },
+    {
+      "file": "analitico-apos-regenerar/grelha_SAP2000_laje_TCC-7a6267fd-N2.$2k",
+      "sha256": "baf87a936e03c261b60559fcbea62017e7d7c7931200a2c1979f598669c8d361",
+      "bytes": 525162
+    },
+    {
+      "file": "analitico-apos-regenerar/portico_SAP2000_elastico.$2k",
+      "sha256": "c4f34ff7d581fe168a3e3a0b5ebeeb44716a63f585e4401d51d3bb70ed612e8e",
+      "bytes": 196972
+    },
+    {
+      "file": "analitico-cargas-final/grelha_SAP2000_laje_TCC-7a6267fd-N1.$2k",
+      "sha256": "b7bda9aebd27ea2f4a2e1370e20906848439f3b878fa6befabe7592bb95d1e4e",
+      "bytes": 549844
+    },
+    {
+      "file": "analitico-cargas-final/grelha_SAP2000_laje_TCC-7a6267fd-N2.$2k",
+      "sha256": "7a81bc325ec61c9bd36b94334b788147e502d492b6ffa4d2728a2c3a1f868d12",
+      "bytes": 528267
+    },
+    {
+      "file": "analitico-cargas-final/portico_SAP2000_elastico.$2k",
+      "sha256": "ea9f8c41d1b08aa2e4882a1625d106beeb09ee5eda0c1fa11bc8407b661ba22a",
+      "bytes": 200178
+    },
+    {
+      "file": "analitico-nos-sem-cargas/grelha_SAP2000_laje_TCC-7a6267fd-N1.$2k",
+      "sha256": "79ebd5e41cd53674d211af0cd699fc26b329c7a8d98b3ff3349842e3132aae94",
+      "bytes": 539093
+    },
+    {
+      "file": "analitico-nos-sem-cargas/grelha_SAP2000_laje_TCC-7a6267fd-N2.$2k",
+      "sha256": "d297e92869e1778a93bd5ebf81aa4779f01fa27327df4b8fca6084841480e406",
+      "bytes": 508205
+    },
+    {
+      "file": "analitico-nos-sem-cargas/portico_SAP2000_elastico.$2k",
+      "sha256": "e16a32de9908d3f25ec2ca3e0d17888f300d713b162dac806852c0a4a1d3bc0f",
+      "bytes": 166078
+    },
+    {
+      "file": "auditar_cobertura.py",
+      "sha256": "ad5289e0a85d2bb77b3bd8e664ee6ecd46f406eec8770a929b6670289fac631d",
+      "bytes": 10068
+    },
+    {
+      "file": "LEIA-ME-R175.md",
+      "sha256": "9960b35cb9ab34ed348facc65b9b1c7f61ae0c54ac4fc33d3cc908c7a820af99",
+      "bytes": 4283
+    },
+    {
+      "file": "R175-cargas-exportacao-concluida.txt",
+      "sha256": "c319d28efc092ca4b817071e022f9a39aea13c255f624976249cbd7cb9415e3d",
+      "bytes": 3896
+    },
+    {
+      "file": "R175-cargas-exportacao-opcoes.txt",
+      "sha256": "c5d75c3a18c347863be2337cb02d61ac4bd5194ccdf1a9b8221621c3461b82e6",
+      "bytes": 4472
+    },
+    {
+      "file": "R175-cargas-primeiro-save-tempo.json",
+      "sha256": "bfcf9f0000d27bcd76b33ab42641aafd90aa607d4bc861de17c022f7dc77e62e",
+      "bytes": 340
+    },
+    {
+      "file": "R175-cargas-primeiro-save.txt",
+      "sha256": "1bed45bb2eaf1fc5d80792d29f25937e9d5bdcd8e8ed9d7a4d50fa90ad3a4ab7",
+      "bytes": 3781
+    },
+    {
+      "file": "R175-cargas-processamento-opcoes.txt",
+      "sha256": "1b818940c84521f2287be1c3d639b6a7212a0afae23faf759bc2eb824f5a9693",
+      "bytes": 5671
+    },
+    {
+      "file": "R175-cargas-processamento-primeira-observacao.txt",
+      "sha256": "2595bf5fc5107bdff28cad62cd7ebd06c5b354a6cc3071e4eecec1f76799a36a",
+      "bytes": 50
+    },
+    {
+      "file": "R175-cargas-processamento-tempo.json",
+      "sha256": "429ce5961a7f0d74ece6f1497456974d0e69cd1fd38b4c9e9cb252f2dca6f88b",
+      "bytes": 212
+    },
+    {
+      "file": "R175-cargas-resumo-0.png",
+      "sha256": "424b07d97b951fd71ae7b4b2d7e7ee5acdf0b78f64a883d1c923c34be1844305",
+      "bytes": 195087
+    },
+    {
+      "file": "R175-cargas-resumo-1.png",
+      "sha256": "bf93697e2ba73c04444d5be5a02304a287ee35266d7800e669a8fd29e3375efe",
+      "bytes": 20235
+    },
+    {
+      "file": "R175-cargas-resumo-2.png",
+      "sha256": "e48b0105dae3538e22b6858da41241f120bde9e5c666c29bbff65fc6dce45d3b",
+      "bytes": 49248
+    },
+    {
+      "file": "R175-cargas-resumo-resultados.txt",
+      "sha256": "a1f21bf1a06e8f0bb36d8438078eebae59ee5896bc7bad1dde4d8f03ade57bac",
+      "bytes": 11906
+    },
+    {
+      "file": "R175-exportacao-concluida.txt",
+      "sha256": "bbffa85fd03993c7e7b83e1c0db1ee1e3426c11137c4461e84766a9baf77036e",
+      "bytes": 3902
+    },
+    {
+      "file": "R175-exportar-configuracao.txt",
+      "sha256": "f265fbc76029991a02f1e27703c44a69a66d7c5cc97ac811aae6f602cfac8de2",
+      "bytes": 4478
+    },
+    {
+      "file": "R175-G-RC01-RC02-preparado.txt",
+      "sha256": "1d70d4e60e532c6c37ebf184caaadf809ef0fa9bd58a0d57237166227021b725",
+      "bytes": 6190
+    },
+    {
+      "file": "R175-G-RC01-RC02-selecao.txt",
+      "sha256": "6299e88dc19013b946a058d8524742cf1b6b2bdc41567ce2a5c91ee1dd45b920",
+      "bytes": 3865
+    },
+    {
+      "file": "R175-G-RC03-preparado.txt",
+      "sha256": "a44fa4bbbd0b6f1d39aa70af5a273cd578178f6b4bd11eacc34fed634512934c",
+      "bytes": 6189
+    },
+    {
+      "file": "R175-G-RC03-selecao.png",
+      "sha256": "bf56a070c701d24cbb8924ee05dbdf3c86cddac741e427b826744578dd27dbe3",
+      "bytes": 182817
+    },
+    {
+      "file": "R175-G-RC03-selecao.txt",
+      "sha256": "2af98fd5677b4fd47bc39fb0bcc1476dbb7e1c6a76066f41e54e30d16fe8102d",
+      "bytes": 3881
+    },
+    {
+      "file": "R175-G-RC04-RC05-preparado.txt",
+      "sha256": "f48d19e2b296e9e33175f08af973eeeaf6f5f24096dc1838301276d1ca278543",
+      "bytes": 6189
+    },
+    {
+      "file": "R175-G-RC04-RC05-selecao.png",
+      "sha256": "45b3143840f10e0087feaf504589d7866aac9d1d75755140b6692af8b49f6606",
+      "bytes": 182796
+    },
+    {
+      "file": "R175-G-RC04-RC05-selecao.txt",
+      "sha256": "c41348461f9b550c142161eba602e482c8c7d35d5c0850b9438e817aa44aa74c",
+      "bytes": 3883
+    },
+    {
+      "file": "R175-G-RC06-preparado.txt",
+      "sha256": "eaca6bc1affc7dbe861a3215220abd825a25fd8fa6d6553f686a8ca141edc21f",
+      "bytes": 6192
+    },
+    {
+      "file": "R175-G-RC06-selecao.png",
+      "sha256": "e313d088b32fdfd1b857fecea5548dbed9c94ce35be13dcad368da67c590a8be",
+      "bytes": 182657
+    },
+    {
+      "file": "R175-G-RC06-selecao.txt",
+      "sha256": "e1cd2bcc5a8bdb0f063475a951df1269ac99d3c69274fb857d311a5f5a509664",
+      "bytes": 3883
+    },
+    {
+      "file": "R175-G-RC07-RC08-RC12-RC13-preparado.txt",
+      "sha256": "94fe8ca2b47be3e702aba9b835216b0f807cbe53900eaf3cd724735b507dc709",
+      "bytes": 6192
+    },
+    {
+      "file": "R175-G-RC07-RC08-RC12-RC13-selecao.png",
+      "sha256": "bde493f7449a9623ff8cea435c67fbb3df2868e21d43592be2dead9991d8caa3",
+      "bytes": 182722
+    },
+    {
+      "file": "R175-G-RC07-RC08-RC12-RC13-selecao.txt",
+      "sha256": "b75093499cc2eec870ed5ed031333ad1a10667ee5767b992ea46dfdeee197322",
+      "bytes": 3883
+    },
+    {
+      "file": "R175-G-RC09-RC10-preparado.txt",
+      "sha256": "a10f020c0eaf9d1d5cc8189ce18b7ea40fd645c3f0816124b6c12bc3662c6f6d",
+      "bytes": 6193
+    },
+    {
+      "file": "R175-G-RC09-RC10-selecao.png",
+      "sha256": "9494c036cfe920523f19a8ed0e301c92af3290eabd9504ade4b4b0bdb1ddc4e0",
+      "bytes": 182705
+    },
+    {
+      "file": "R175-G-RC09-RC10-selecao.txt",
+      "sha256": "7ea37dfb6602333d94479d0055190db706d0f1be9471e74dd74b5ed7ed12be76",
+      "bytes": 3883
+    },
+    {
+      "file": "R175-G-RC11-preparado.txt",
+      "sha256": "7d730ec45e0cf1d23947b65b6e81591b6bbe16a5912f918453e4b2015525d670",
+      "bytes": 6192
+    },
+    {
+      "file": "R175-G-RC11-selecao.png",
+      "sha256": "f160a9447591c19843fa566e930129588d46f21e7342fab2044292abd1e9c99a",
+      "bytes": 182752
+    },
+    {
+      "file": "R175-G-RC11-selecao.txt",
+      "sha256": "d6deba8bffdba2df99fc798aab1a16aa372fbe96b574f828296eddd8854ebccb",
+      "bytes": 3883
+    },
+    {
+      "file": "R175-nos-primeiro-save-tempo.json",
+      "sha256": "b350afe35119d4de2c672d4ad1859cf43632f8988663568cc7f54330a9fec7ca",
+      "bytes": 301
+    },
+    {
+      "file": "R175-preparacao-plano.json",
+      "sha256": "fb48556d63d134cd84d80436d5e0a47a6546ce2dc81cc2e39a3ab7eac60babc7",
+      "bytes": 9790
+    },
+    {
+      "file": "R175-processamento-configuracao.txt",
+      "sha256": "5bb950a5936d778234c62a8ddfedb70ba2411c634fd838928f1d2d5d5bca0cda",
+      "bytes": 5674
+    },
+    {
+      "file": "R175-processamento-observacao.txt",
+      "sha256": "2595bf5fc5107bdff28cad62cd7ebd06c5b354a6cc3071e4eecec1f76799a36a",
+      "bytes": 50
+    },
+    {
+      "file": "R175-processamento-tempo.json",
+      "sha256": "00b51f9572549238c10ead45f6a7de02766d5503db8b9cc2be13c3ec9e553667",
+      "bytes": 264
+    },
+    {
+      "file": "R175-QT-RC01-RC02-preparado.txt",
+      "sha256": "17a3b51e9fa17334f8c6c7eb1d06987c24a97312c59575fc5b96a65bfa4734d6",
+      "bytes": 6211
+    },
+    {
+      "file": "R175-QT-RC01-RC02-selecao.png",
+      "sha256": "27b927c68f7ebbb86a8bdfeb3866bc06461a8f50a3d5696c536a28992c37e9dd",
+      "bytes": 182873
+    },
+    {
+      "file": "R175-QT-RC01-RC02-selecao.txt",
+      "sha256": "30dfd1c9c17a0ebd6d421ab7de5d8682695a6dfcce1acef5c5b4df58f13c52aa",
+      "bytes": 3881
+    },
+    {
+      "file": "R175-QT-RC03-preparado.txt",
+      "sha256": "7523b29caf768dc788e9408f0adb39b33f419b4f92337b7eb8ee6b0df878e6a0",
+      "bytes": 6232
+    },
+    {
+      "file": "R175-QT-RC03-selecao.png",
+      "sha256": "bf56a070c701d24cbb8924ee05dbdf3c86cddac741e427b826744578dd27dbe3",
+      "bytes": 182817
+    },
+    {
+      "file": "R175-QT-RC03-selecao.txt",
+      "sha256": "9d71e01c308fee89610dc287a5c85a70e0a0482e94d185b4e5a132695d7d736a",
+      "bytes": 3881
+    },
+    {
+      "file": "R175-QT-RC04-RC05-preparado.txt",
+      "sha256": "29005bfa38857c3d2dd7a62612dab720272bf022d55170826ba0e031dfdbd391",
+      "bytes": 6232
+    },
+    {
+      "file": "R175-QT-RC04-RC05-selecao.png",
+      "sha256": "21ec523a90cc0e4d3efd31de575c5e9e08c9c5ebc0ed8193746c7c531e0500a0",
+      "bytes": 182768
+    },
+    {
+      "file": "R175-QT-RC04-RC05-selecao.txt",
+      "sha256": "f7ae976834c19bb09cab28bf588eff9ea8fa0c6d488614c6412a8db6edbf9fe1",
+      "bytes": 3883
+    },
+    {
+      "file": "R175-QT-RC06-preparado.txt",
+      "sha256": "e8e610301adb4ceee40de495e1b88454a900ffb9f890df4337a55c55f3c7bbbf",
+      "bytes": 6236
+    },
+    {
+      "file": "R175-QT-RC06-selecao.png",
+      "sha256": "e313d088b32fdfd1b857fecea5548dbed9c94ce35be13dcad368da67c590a8be",
+      "bytes": 182657
+    },
+    {
+      "file": "R175-QT-RC06-selecao.txt",
+      "sha256": "d0d62523cc6021ef2cd746525755edeba4891ce48fbaa58bf218e905a57b6ba8",
+      "bytes": 3883
+    },
+    {
+      "file": "R175-QT-RC07-RC08-RC12-RC13-preparado.txt",
+      "sha256": "d82839ff41f6b0bf99ba7908c0238ff33824e69bd0cee25a67c2521b3fc4757f",
+      "bytes": 6236
+    },
+    {
+      "file": "R175-QT-RC07-RC08-RC12-RC13-selecao.png",
+      "sha256": "32b6512a0eaa4d7567d37f79bc98d534fa4f5b66efb04fa135da61815dcffc15",
+      "bytes": 182768
+    },
+    {
+      "file": "R175-QT-RC07-RC08-RC12-RC13-selecao.txt",
+      "sha256": "6ab2247eaa29e5b230045e3f5f7256f93d2a509f57f01ef0a66a6792604d20a2",
+      "bytes": 3883
+    },
+    {
+      "file": "R175-QT-RC09-RC10-preparado.txt",
+      "sha256": "3c3ae1bb7e8098107a2336ae97c7a776c1ddeec19094aa2581e889a23a8a4ff7",
+      "bytes": 6236
+    },
+    {
+      "file": "R175-QT-RC09-RC10-selecao.png",
+      "sha256": "a092d83689f96b7cc118fa0cbe44dfc48190722286139d6ed81562d8cd4d3b5c",
+      "bytes": 182784
+    },
+    {
+      "file": "R175-QT-RC09-RC10-selecao.txt",
+      "sha256": "fd47f59d417a7dc0aaacafb7f7629c35c0efff8a11640841991b774c32b97df9",
+      "bytes": 3883
+    },
+    {
+      "file": "R175-QT-RC11-preparado.txt",
+      "sha256": "fda3fa2c32fb6fad06bace9918730df950632a1e507f92c2aa52fa9614e73f4a",
+      "bytes": 6236
+    },
+    {
+      "file": "R175-QT-RC11-selecao.png",
+      "sha256": "f160a9447591c19843fa566e930129588d46f21e7342fab2044292abd1e9c99a",
+      "bytes": 182752
+    },
+    {
+      "file": "R175-QT-RC11-selecao.txt",
+      "sha256": "765a381631420d51cea6ceb180a0cdb108739cc8504f98d55be8b524de05527e",
+      "bytes": 3883
+    },
+    {
+      "file": "R175-RC01-identidade-confirmada.txt",
+      "sha256": "59162f9a18fa262165e6ebaf075067445d04ed1f99799bc9b9c39299d263dbca",
+      "bytes": 6670
+    },
+    {
+      "file": "R175-RC01-identidade.txt",
+      "sha256": "40695c063c5e7bcdba0fbd8c87278383afc865be41ac9e66d1b1914a9d9e9cec",
+      "bytes": 4457
+    },
+    {
+      "file": "R175-RC01-no-inicial.txt",
+      "sha256": "aeb7cfa6a31ae34d67d6df6b945bddb16b5c538dfb327f8dab394d1aeae32e3f",
+      "bytes": 4649
+    },
+    {
+      "file": "R175-RC02-insercao.txt",
+      "sha256": "cffc301ef1366c364ac75821b51474baf80884ee7813463b9cdd89bb80933527",
+      "bytes": 4336
+    },
+    {
+      "file": "R175-RC03-G-reaberto.txt",
+      "sha256": "03ec92c381a89f6a535e58368713d84b5e2d2d6a476976d9faa6444d7b321e28",
+      "bytes": 10205
+    },
+    {
+      "file": "R175-RC03-identidade-reaberta.txt",
+      "sha256": "f4f8252244080efda42f2fa0155ce9a40444967cac6557c4dc82af001930daf3",
+      "bytes": 6674
+    },
+    {
+      "file": "R175-RC03-insercao.txt",
+      "sha256": "d60903191e8e0a32287823deb848daa057f2f280f3974480e8246cbeaf2f6dac",
+      "bytes": 4323
+    },
+    {
+      "file": "R175-RC03-QT-reaberto.txt",
+      "sha256": "aad48eaefb7ffaa52fc4b934b6b5523d41cd3f61d252259073c37a573f8c929e",
+      "bytes": 10271
+    },
+    {
+      "file": "R175-RC04-insercao.txt",
+      "sha256": "e7a4396ac45aef0e71b37924e2ba197931499f7dd0993f28e17414de85ee3ca8",
+      "bytes": 4323
+    },
+    {
+      "file": "R175-RC05-insercao.txt",
+      "sha256": "ea05629a21aea53710ec570df7cb0978204eefa9281df4401e6d900ae99c6efb",
+      "bytes": 4323
+    },
+    {
+      "file": "R175-RC06-insercao.txt",
+      "sha256": "36340dce665c1d773ef7a9fff42620ef9687e43340046bf49e383c5e5e76a4f0",
+      "bytes": 4323
+    },
+    {
+      "file": "R175-RC07-insercao.txt",
+      "sha256": "08fdd2812241c337d13d0aad19a7793863a5cf9ecad1170614835a37a691ebb3",
+      "bytes": 4323
+    },
+    {
+      "file": "R175-RC08-insercao.txt",
+      "sha256": "ccffe5c607ec8b4914af81160fec813cf3849f4587d340b7c08ea1e327d18365",
+      "bytes": 4340
+    },
+    {
+      "file": "R175-RC09-insercao.txt",
+      "sha256": "3f2e8fc555391eedfbd2e8b58525485d9586af5415cc03f1951d84b5b717bd02",
+      "bytes": 4323
+    },
+    {
+      "file": "R175-RC10-insercao.txt",
+      "sha256": "005189e9cf66375d105aed69e668ce31e93672b40026bc126d8974daf0b5143d",
+      "bytes": 4323
+    },
+    {
+      "file": "R175-RC11-G-reaberto.txt",
+      "sha256": "e3248048d396c02805da99729bbbc570efd36bc097bda9eaf0b286a7a97773d2",
+      "bytes": 9010
+    },
+    {
+      "file": "R175-RC11-identidade-reaberta.txt",
+      "sha256": "3e40080f4b7546648b93b5b9bb8e32a88d0f55b24e8a03158608396177b9f8ae",
+      "bytes": 6681
+    },
+    {
+      "file": "R175-RC11-insercao.txt",
+      "sha256": "94abf50fde0e6a85c9f25fbf7010e7a7a877949ff576e43051f22992c6a098a2",
+      "bytes": 4323
+    },
+    {
+      "file": "R175-RC11-QT-reaberto.txt",
+      "sha256": "cc6c07246bc53251f4649b0f3249e87436f74104b9ca2eb4dc1a1a46ea74cf42",
+      "bytes": 10281
+    },
+    {
+      "file": "R175-RC12-insercao.txt",
+      "sha256": "41852ed8c22948524fe5688dc663e67c33a799d675cd092874902194f6e8b473",
+      "bytes": 4340
+    },
+    {
+      "file": "R175-RC13-insercao.txt",
+      "sha256": "bf5852e284e16a6e6ce1d19c2c76c90c1e818a9a7e950ca3b04e9947fa1dd13f",
+      "bytes": 4323
+    },
+    {
+      "file": "R175-reabertura.txt",
+      "sha256": "3c2a605b2c94d903b3274cf19a9e9cfdfdf35a2cdba68cbff3f699f86f7f60a6",
+      "bytes": 3028
+    },
+    {
+      "file": "R175-resultado.json",
+      "sha256": "5a1d980b6dcc27daf3a127928a439da213e0441dd5634766470887bd58f5e3f5",
+      "bytes": 196818
+    },
+    {
+      "file": "R175-resumo-resultados.png",
+      "sha256": "cb0c5ad4e01ae25125e5dcde464cb041a5ad0fe42e523b9c2cf946be5093d247",
+      "bytes": 49299
+    },
+    {
+      "file": "R175-resumo-resultados.txt",
+      "sha256": "ca36eb1433391c39fa65caf9880fd95df6cf21fab16626b8a06c5d617751406a",
+      "bytes": 11909
+    },
+    {
+      "file": "R175-sessao-com-releitura-tempo.json",
+      "sha256": "9c33d4d1564f6cd446a98da1c079b4c090bc7727b4ef0f78656ca89d81d153f0",
+      "bytes": 364
+    },
+    {
+      "file": "R175-sessao-inicio.json",
+      "sha256": "ee6656a5d0c2a766c2bd35942bb9e516699b1bb3ae828862b368bb4385dcaa5e",
+      "bytes": 62
+    },
+    {
+      "file": "R175-validacao.json",
+      "sha256": "bbb69fa71fd64113e28c75366e886a6b3940b37b58f6aba5f88c9d2a1280c944",
+      "bytes": 302
+    },
+    {
+      "file": "R175-verificar-N2.txt",
+      "sha256": "b30dfa37b8e55328dc5903da446a8fea1bb21010b35edc55803e6f01845dd26c",
+      "bytes": 4603
+    },
+    {
+      "file": "test_auditar_cobertura.py",
+      "sha256": "ad68b35135e73546510a21c36312b5a877ff26c2e86ac7f97e81d92ab406dea2",
+      "bytes": 2275
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+Window: "AltoQi Eberick 2025 Infinity - [R175-BIM-CARGAS-A1-A2-NAO-EXECUTAR (R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR)]", App: Eberick.exe.
+	0 janela (disabled) AltoQi Eberick 2025 Infinity - [R175-BIM-CARGAS-A1-A2-NAO-EXECUTAR (R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR)] Secondary Actions: Raise
+		60999 diálogo (disabled) Análise Estática Linear Secondary Actions: Raise
+			61178 diálogo Análise Estática Linear Secondary Actions: Raise
+				61179 tabulação ID: 634
+					61180 item de tabulação (selectable) Resultados
+				61181 botão OK ID: 1
+				61182 botão Imprimir... ID: 644
+				61183 botão Relatórios... ID: 631
+				61184 botão Diagnóstico... ID: 1347
+				61185 botão Ajuda ID: 9
+				61186 editar Value: Cargas verticais: Peso próprio = 75.72 tf Adicional = 12.00 tf Acidental = 17.01 tf Q_TELHADO_MANUTENCAO = 1.78 tf Total = 106.51 tf Área aproximada = 132.41 m² Relação = 804.42 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.15 cm (limite 0.42) X- = 0.15 cm (limite 0.42) Y+ = 0.20 cm (limite 0.42) Y- = 0.20 cm (limite 0.42) Deslocamento relativo máximo do centro de massa (Vento): TCC-7a6267fd-N1 - Y- = 0.16 cm (limite 0.35) Verificação de estabilidade (Gama-Z): X+ = 1.07 (limite 1.10) X- = 1.06 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+7.47%) Vento X+: 0.74 »» 0.82 (+10.91%) Vento X-: 0.74 »» 0.82 (+10.91%) Vento Y+: 1.06 »» 1.15 (+8.30%) Vento Y-: 1.06 »» 1.15 (+8.30%) Desaprumo X+: 0.08 »» 0.08 (+10.76%) Desaprumo X-: 0.08 »» 0.08 (+10.75%) Desaprumo Y+: 0.06 »» 0.07 (+8.11%) Desaprumo Y-: 0.06 »» 0.07 (+8.11%)
+					61187 barra de rolagem (settable, float) Vertical Value: 0 ID: NonClientVerticalScrollBar
+						61188 botão Uma linha acima ID: UpButton
+						61189 elevador Posição ID: ScrollbarThumb
+						61190 botão Uma página abaixo ID: DownPageButton
+						61191 botão Uma linha abaixo ID: DownButton
+				61192 barra de título (settable, string) Value: Análise Estática Linear
+			61000 grupo Processamento ID: 635
+			61001 text Processamento ID: 535
+			61002 text Construir modelo estrutural ID: 532
+			61003 text Construir modelo estrutural ID: 533
+			61004 text Calcular painéis de lajes ID: 531
+			61005 text Calcular painéis de lajes ID: 534
+			61006 text Processar pórtico espacial ID: 530
+			61007 text Processar etapas construtivas ID: 632
+			61008 text Dimensionar elementos estruturais ID: 633
+			61009 text Dimensionar elementos estruturais ID: 639
+			61010 text Calcular flechas nas lajes ID: 640
+			61011 text Calcular flechas nas lajes ID: 637
+			61012 text Calcular flechas no pórtico ID: 638
+			61013 grupo Calcular flechas no pórtico ID: 636
+			61014 text Estrutura processada com avisos ID: 529
+			61015 text Estrutura processada com avisos ID: 944
+			61017 botão Resultados ID: 924
+			61018 botão Ajuda ID: 9
+			61079 botão OK ID: 1
+			61019 painel %d%% ID: 105
+			61020 barra de título (settable, string) Value: Análise Estática Linear
+		1 Barra de status (disabled)
+			61193 custom (disabled)
+				61194 text (disabled) Comando
+				61195 editar (disabled, settable, string)
+				61196 text (disabled) 547.8,703.7
+				61197 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					61198 Lista
+						61199 item de lista (selectable) 1:1
+						61200 item de lista (selectable) 1:2
+						61201 item de lista (selectable) 1:5
+						61202 item de lista (selectable) 1:10
+						61203 item de lista (selectable) 1:12.5
+						61204 item de lista (selectable) 1:15
+						61205 item de lista (selectable) 1:20
+						61206 item de lista (selectable) 1:25
+						61207 item de lista (selectable) 1:30
+						61208 item de lista (selectable) 1:40
+						61209 item de lista (selectable) 1:50
+						61210 item de lista (selectable) 1:60
+						61211 item de lista (selectable) 1:75
+						61212 item de lista (selectable) 1:100
+						61213 item de lista (selectable) 1:200
+						61214 item de lista (selectable) 1:250
+						61215 item de lista (selectable) 1:500
+						61216 item de lista (selectable) 1:1000
+			61217 botão (disabled) Atualizar
+			61218 botão (disabled) Enquadrar
+			61219 botão (disabled) Aproximar
+			61220 botão (disabled) Afastar
+			61221 botão (disabled) Zoom
+			61222 botão (disabled) Zoom anterior
+			61223 botão (disabled) Deslocar
+			61224 caixa de seleção (disabled) Ortogonal
+			61225 caixa de seleção (disabled) Captura personalizada
+			61226 botão (disabled) Opções da captura personalizada
+			61227 caixa de seleção (disabled) Quadrante
+			61228 caixa de seleção (disabled) Centro
+			61229 caixa de seleção (disabled) Ponto médio
+			61230 caixa de seleção (disabled) Extremidade
+			61231 caixa de seleção (disabled) Ponto no elemento
+			61232 caixa de seleção (disabled) Intersecção
+			61233 caixa de seleção (disabled) Perpendicular
+			61234 caixa de seleção (disabled) Ponto intermediário
+			61235 caixa de seleção (disabled) Ponto quadrante
+			61236 caixa de seleção (disabled) Ponto na intersecção
+			61237 caixa de seleção (disabled) Ponto relativo
+		2 painel (disabled)
+			3 botão de divisão (disabled)
+				4 elevador (disabled)
+				5 painel (disabled)
+					6 tabulação (disabled) Croqui-TCC-7a6267fd-N2
+						61238 item de tabulação (selectable, disabled) Notícias
+						61239 item de tabulação (selectable, disabled) Croqui-TCC-7a6267fd-N2
+					8 painel (disabled)
+						15448 painel (disabled)
+							15449 painel Croqui-TCC-7a6267fd-N2
+								15450 painel TCadPlotWindow
+				31 painel (disabled)
+					32 tabulação (disabled)
+						61240 item de tabulação (selectable, disabled)
+						61241 item de tabulação (selectable, disabled)
+					34 painel (disabled)
+						35 janela (disabled) Edificação Secondary Actions: Raise
+							36 painel (disabled)
+								37 painel Projeto
+									38 painel
+									15251 árvore ID: 101
+										15252 barra de rolagem (settable, float) Horizontal Value: 0 ID: NonClientHorizontalScrollBar
+											15253 botão Uma coluna à esquerda ID: UpButton
+											15254 elevador Posição ID: ScrollbarThumb
+											15255 botão Uma página à direita ID: DownPageButton
+											15256 botão Uma coluna à direita ID: DownButton
+										61070 item da árvore (selectable, disabled) Pavimentos
+											61071 item da árvore (selectable, disabled) TCC-7a6267fd-N2
+											61072 item da árvore (selectable, disabled) TCC-7a6267fd-N1
+											61073 item da árvore (selectable, disabled) TCC-7a6267fd-N0
+										61074 item da árvore (selectable, disabled) Pilares em prumada
+										61075 item da árvore (selectable, disabled) Cortes
+										61076 item da árvore (selectable, disabled) Gerenciador de desenhos
+										61077 item da árvore (selectable, disabled) Modelos 3D
+											61078 item da árvore (selectable, disabled) H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR
+		61 barra de menus (disabled)
+		61178 diálogo Análise Estática Linear Secondary Actions: Raise
+			61179 tabulação ID: 634
+				61180 item de tabulação (selectable) Resultados
+			61181 botão OK ID: 1
+			61182 botão Imprimir... ID: 644
+			61183 botão Relatórios... ID: 631
+			61184 botão Diagnóstico... ID: 1347
+			61185 botão Ajuda ID: 9
+			61186 editar Value: Cargas verticais: Peso próprio = 75.72 tf Adicional = 12.00 tf Acidental = 17.01 tf Q_TELHADO_MANUTENCAO = 1.78 tf Total = 106.51 tf Área aproximada = 132.41 m² Relação = 804.42 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.15 cm (limite 0.42) X- = 0.15 cm (limite 0.42) Y+ = 0.20 cm (limite 0.42) Y- = 0.20 cm (limite 0.42) Deslocamento relativo máximo do centro de massa (Vento): TCC-7a6267fd-N1 - Y- = 0.16 cm (limite 0.35) Verificação de estabilidade (Gama-Z): X+ = 1.07 (limite 1.10) X- = 1.06 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+7.47%) Vento X+: 0.74 »» 0.82 (+10.91%) Vento X-: 0.74 »» 0.82 (+10.91%) Vento Y+: 1.06 »» 1.15 (+8.30%) Vento Y-: 1.06 »» 1.15 (+8.30%) Desaprumo X+: 0.08 »» 0.08 (+10.76%) Desaprumo X-: 0.08 »» 0.08 (+10.75%) Desaprumo Y+: 0.06 »» 0.07 (+8.11%) Desaprumo Y-: 0.06 »» 0.07 (+8.11%)
+				61187 barra de rolagem (settable, float) Vertical Value: 0 ID: NonClientVerticalScrollBar
+					61188 botão Uma linha acima ID: UpButton
+					61189 elevador Posição ID: ScrollbarThumb
+					61190 botão Uma página abaixo ID: DownPageButton
+					61191 botão Uma linha abaixo ID: DownButton
+			61192 barra de título (settable, string) Value: Análise Estática Linear
+		60999 diálogo (disabled) Análise Estática Linear Secondary Actions: Raise
+			61178 diálogo Análise Estática Linear Secondary Actions: Raise
+				61179 tabulação ID: 634
+					61180 item de tabulação (selectable) Resultados
+				61181 botão OK ID: 1
+				61182 botão Imprimir... ID: 644
+				61183 botão Relatórios... ID: 631
+				61184 botão Diagnóstico... ID: 1347
+				61185 botão Ajuda ID: 9
+				61186 editar Value: Cargas verticais: Peso próprio = 75.72 tf Adicional = 12.00 tf Acidental = 17.01 tf Q_TELHADO_MANUTENCAO = 1.78 tf Total = 106.51 tf Área aproximada = 132.41 m² Relação = 804.42 kgf/m² AVISO: Relação de carga por área não usual para edifícios Deslocamento horizontal máximo do centro de massa (Vento): X+ = 0.15 cm (limite 0.42) X- = 0.15 cm (limite 0.42) Y+ = 0.20 cm (limite 0.42) Y- = 0.20 cm (limite 0.42) Deslocamento relativo máximo do centro de massa (Vento): TCC-7a6267fd-N1 - Y- = 0.16 cm (limite 0.35) Verificação de estabilidade (Gama-Z): X+ = 1.07 (limite 1.10) X- = 1.06 (limite 1.10) Y+ = 1.06 (limite 1.10) Y- = 1.05 (limite 1.10) Análise de 2ª ordem: Processo P-Delta Deslocamentos no topo da edificação: Acidental: 0.01 »» 0.01 (+7.47%) Vento X+: 0.74 »» 0.82 (+10.91%) Vento X-: 0.74 »» 0.82 (+10.91%) Vento Y+: 1.06 »» 1.15 (+8.30%) Vento Y-: 1.06 »» 1.15 (+8.30%) Desaprumo X+: 0.08 »» 0.08 (+10.76%) Desaprumo X-: 0.08 »» 0.08 (+10.75%) Desaprumo Y+: 0.06 »» 0.07 (+8.11%) Desaprumo Y-: 0.06 »» 0.07 (+8.11%)
+					61187 barra de rolagem (settable, float) Vertical Value: 0 ID: NonClientVerticalScrollBar
+						61188 botão Uma linha acima ID: UpButton
+						61189 elevador Posição ID: ScrollbarThumb
+						61190 botão Uma página abaixo ID: DownPageButton
+						61191 botão Uma linha abaixo ID: DownButton
+				61192 barra de título (settable, string) Value: Análise Estática Linear
+			61000 grupo Processamento ID: 635
+			61001 text Processamento ID: 535
+			61002 text Construir modelo estrutural ID: 532
+			61003 text Construir modelo estrutural ID: 533
+			61004 text Calcular painéis de lajes ID: 531
+			61005 text Calcular painéis de lajes ID: 534
+			61006 text Processar pórtico espacial ID: 530
+			61007 text Processar etapas construtivas ID: 632
+			61008 text Dimensionar elementos estruturais ID: 633
+			61009 text Dimensionar elementos estruturais ID: 639
+			61010 text Calcular flechas nas lajes ID: 640
+			61011 text Calcular flechas nas lajes ID: 637
+			61012 text Calcular flechas no pórtico ID: 638
+			61013 grupo Calcular flechas no pórtico ID: 636
+			61014 text Estrutura processada com avisos ID: 529
+			61015 text Estrutura processada com avisos ID: 944
+			61017 botão Resultados ID: 924
+			61018 botão Ajuda ID: 9
+			61079 botão OK ID: 1
+			61019 painel %d%% ID: 105
+			61020 barra de título (settable, string) Value: Análise Estática Linear
+
+Document text: ```
+Comando
+547.8,703.7
+```
+
+Focused element: 61178 diálogo Análise Estática Linear Secondary Actions: Raise
+
+Document text:
+Comando
+547.8,703.7

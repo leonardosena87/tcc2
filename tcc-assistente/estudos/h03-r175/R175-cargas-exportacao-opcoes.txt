@@ -1,0 +1,110 @@
+Window: "AltoQi Eberick 2025 Infinity - [R175-BIM-CARGAS-A1-A2-NAO-EXECUTAR (R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [R175-BIM-CARGAS-A1-A2-NAO-EXECUTAR (R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR)] Secondary Actions: Raise
+		1 Barra de status
+			62280 custom
+				62281 text Comando
+				62282 editar (settable, string)
+				62283 text 732.0,94.5
+				62284 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					62285 Lista
+						62286 item de lista (selectable) 1:1
+						62287 item de lista (selectable) 1:2
+						62288 item de lista (selectable) 1:5
+						62289 item de lista (selectable) 1:10
+						62290 item de lista (selectable) 1:12.5
+						62291 item de lista (selectable) 1:15
+						62292 item de lista (selectable) 1:20
+						62293 item de lista (selectable) 1:25
+						62294 item de lista (selectable) 1:30
+						62295 item de lista (selectable) 1:40
+						62296 item de lista (selectable) 1:50
+						62297 item de lista (selectable) 1:60
+						62298 item de lista (selectable) 1:75
+						62299 item de lista (selectable) 1:100
+						62300 item de lista (selectable) 1:200
+						62301 item de lista (selectable) 1:250
+						62302 item de lista (selectable) 1:500
+						62303 item de lista (selectable) 1:1000
+			62304 botão Atualizar
+			62305 botão Enquadrar
+			62306 botão Aproximar
+			62307 botão Afastar
+			62308 botão Zoom
+			62309 botão Zoom anterior
+			62310 botão Deslocar
+			62311 caixa de seleção Ortogonal
+			62312 caixa de seleção Captura personalizada
+			62313 botão Opções da captura personalizada
+			62314 caixa de seleção Quadrante
+			62315 caixa de seleção Centro
+			62316 caixa de seleção Ponto médio
+			62317 caixa de seleção Extremidade
+			62318 caixa de seleção Ponto no elemento
+			62319 caixa de seleção Intersecção
+			62320 caixa de seleção Perpendicular
+			62321 caixa de seleção Ponto intermediário
+			62322 caixa de seleção Ponto quadrante
+			62323 caixa de seleção Ponto na intersecção
+			62324 caixa de seleção Ponto relativo
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Croqui-TCC-7a6267fd-N2
+						62325 item de tabulação (selectable) Notícias
+						62326 item de tabulação (selectable) Croqui-TCC-7a6267fd-N2
+					8 painel
+						15448 painel
+							15449 painel Croqui-TCC-7a6267fd-N2
+								15450 painel TCadPlotWindow
+				31 painel
+					32 tabulação
+						62327 item de tabulação (selectable)
+						62328 item de tabulação (selectable)
+					34 painel
+						35 janela Edificação Secondary Actions: Raise
+							36 painel
+								37 painel Projeto
+									38 painel
+									15251 árvore ID: 101
+										15252 barra de rolagem (settable, float) Horizontal Value: 0 ID: NonClientHorizontalScrollBar
+											15253 botão Uma coluna à esquerda ID: UpButton
+											15254 elevador Posição ID: ScrollbarThumb
+											15255 botão Uma página à direita ID: DownPageButton
+											15256 botão Uma coluna à direita ID: DownButton
+										61389 item da árvore (selectable) Pavimentos
+											61390 item da árvore (selectable) TCC-7a6267fd-N2
+											61391 item da árvore (selectable) TCC-7a6267fd-N1
+											61392 item da árvore (selectable) TCC-7a6267fd-N0
+										61393 item da árvore (selectable) Pilares em prumada
+										61394 item da árvore (selectable) Cortes
+										61395 item da árvore (selectable) Gerenciador de desenhos
+										61396 item da árvore (selectable) Modelos 3D
+											61397 item da árvore (selectable) H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR
+		61 barra de menus
+		62329 diálogo Modelo SAP2000 Secondary Actions: Raise
+			62330 grupo
+			62331 caixa de seleção Pórtico unifilar ID: 101
+			62332 caixa de seleção Grelha das lajes ID: 102
+			62333 Lista ID: 104
+				62334 item de lista (selectable) TCC-7a6267fd-N2
+				62335 item de lista (selectable) TCC-7a6267fd-N1
+			62336 caixa de seleção (disabled) Grelha das escadas ID: 103
+			62337 Lista (disabled) ID: 105
+			62338 caixa de seleção Exportar seções ID: 106
+			62339 caixa de seleção Exportar coeficientes redutores das seções ID: 107
+			62340 botão OK ID: 1
+			62341 botão Cancelar ID: 2
+			62342 botão Ajuda ID: 9
+			62343 barra de título (settable, string) Value: Modelo SAP2000
+
+Document text: ```
+Comando
+732.0,94.5
+```
+
+Focused element: 15450 painel TCadPlotWindow
+
+Document text:
+Comando
+732.0,94.5
