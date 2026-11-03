@@ -1,0 +1,118 @@
+{
+  "revision": "H03/R189",
+  "recordedAtUtc": "2026-11-03T13:32:32.769975+00:00",
+  "branch": "CAD",
+  "experimentalProjectPath": "D:\\TCC\\outputs\\R189-CAD-SENSIBILIDADE-APOIO-LE3-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+  "experimentalProjectSha256": "3887182d08439e5b1f38b92a393dd025f55d8c95dbbf9374bb94f9d16e4ddb5c",
+  "experimentalProjectZipValid": true,
+  "sourceProjectPath": "D:\\TCC\\outputs\\R188-CAD-ANCORAGEM-LE3-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+  "sourceProjectSha256": "e2bd1414be2be4410b58e377e0dd9cea95dcc32bbbdb48b942329f5a94dff212",
+  "sourceProjectUnchanged": true,
+  "R182ReferenceProjectHashesPreserved": true,
+  "intervention": {
+    "applied": true,
+    "target": "Barra ordinaria horizontal do bordo inferior de LE3 no N0",
+    "initialWidthCm": 0,
+    "experimentalWidthCm": 20,
+    "retainedAfterRecalculation": true,
+    "inheritedAnchorageCriterion": "gancho no controle R188",
+    "newPhysicalMemberDefined": false,
+    "foundationDesigned": false,
+    "supportingMemberCapacityVerified": false
+  },
+  "reportPath": "D:\\TCC\\outputs\\Escada-H03-R189-SENSIBILIDADE-APOIO-NAO-EXECUTAR\\CAD-mensagens.docx",
+  "reportSha256": "96a50a4e6a56d55ac73d60160381b8b3d30d8cb351969a39c54942d746e43ba4",
+  "nativeReport": {
+    "levels": {
+      "N2": {
+        "nativeLevelName": "N2",
+        "reportedCategories": {
+          "Pilares": {
+            "reportedSuccess": 11,
+            "reportedError": 0
+          },
+          "Vigas": {
+            "reportedSuccess": 15,
+            "reportedError": 0
+          },
+          "Lajes": {
+            "reportedSuccess": 5,
+            "reportedError": 0
+          }
+        },
+        "emptyLevelBlockIsNotAZeroCount": false
+      },
+      "N1": {
+        "nativeLevelName": "N1",
+        "reportedCategories": {
+          "Pilares": {
+            "reportedSuccess": 11,
+            "reportedError": 0
+          },
+          "Vigas": {
+            "reportedSuccess": 16,
+            "reportedError": 0
+          },
+          "Lajes": {
+            "reportedSuccess": 9,
+            "reportedError": 0
+          }
+        },
+        "emptyLevelBlockIsNotAZeroCount": false
+      }
+    },
+    "nativeTotalSeconds": 8,
+    "nativeDimensioningSeconds": 2,
+    "dimensioningTimeIsIncludedInTotal": true,
+    "reportedSuccessMayIncludeWarnings": true,
+    "stairPassCannotBeInferredFromReportedSlabCounts": true
+  },
+  "stairsPositiveTable": {
+    "LE1": "calculado",
+    "LE2": "calculado",
+    "LE3": "D31"
+  },
+  "LE3DiameterErrors": {
+    "6.3": "A11",
+    "8.0": "A11",
+    "10.0": "A11",
+    "12.5": "A11",
+    "16.0": "A11"
+  },
+  "supplementalVisualReadings": {
+    "source": "CAD-LE3-secao-0.png / CAD-LE3-esforcos-0.png",
+    "method": "Transcricao visual da planilha nativa, sem OCR",
+    "LE3": {
+      "waistCm": 14,
+      "type": "Fundo plano",
+      "treadCm": 28,
+      "riserDisplayedCm": 17.82,
+      "MdxKnMPerM": 5.46,
+      "MdyKnMPerM": 1.91,
+      "NdxKn": 87.97,
+      "RdxKn": -1.71,
+      "displayedDeflectionCm": -0.05
+    },
+    "displayedDeflectionIsNotACompletedSlabELSCheck": true,
+    "localXMappingToGlobalCoordinatesNotYetVerified": true
+  },
+  "observedTiming": {
+    "startedAtUtc": "2026-11-03T13:24:24.485Z",
+    "firstCompletionScreenshotConfirmedAtUtc": "2026-11-03T13:24:44.184Z",
+    "elapsedSeconds": 19.699,
+    "includesToolObservationAndConfirmationLatency": true,
+    "completionTimestampRecordedAfterReviewingReturnedScreenshot": true,
+    "isNativeProcessingTime": false,
+    "isActiveWorkTime": false,
+    "completeFlowMeasured": false
+  },
+  "interpretation": "A largura hipotetica de 20 cm dessa barra, isoladamente, nao eliminou D31/A11. O ensaio nao identifica qual bordo governa e nao comprova uma solucao fisica de apoio.",
+  "comparisonIsPaired": false,
+  "BIMReplicatePerformed": false,
+  "freshGeometryAndLoadExportAudited": false,
+  "allStructuralElementsSuccessfullyDesigned": false,
+  "thresholdsRaisedToSuppressError": false,
+  "structuralApproval": false,
+  "fullPairedFlowComparisonFinished": false,
+  "wholeFlowProductivityRankingPermitted": false
+}
