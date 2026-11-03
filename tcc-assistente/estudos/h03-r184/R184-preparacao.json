@@ -1,0 +1,259 @@
+{
+  "revision": "H03/R184",
+  "preparedAtUtc": "2026-11-03T10:52:59.930724+00:00",
+  "plannedChange": "Somente Detalhamento Lajes: reta -> gancho; recalculo experimental de escadas",
+  "geometryChangePlanned": false,
+  "supportWidthChangePlanned": false,
+  "forceThresholdChangePlanned": false,
+  "originalReferencesPreserved": true,
+  "branches": {
+    "CAD": {
+      "sourceRoot": "D:\\TCC\\outputs\\R182-CAD-DIAGNOSTICO-DIMENSIONAMENTO-NAO-EXECUTAR",
+      "sourceFiles": [
+        {
+          "relativePath": "_DADOS_\\ConfigFolder.qib",
+          "sha256": "b52b05d0d5322ecde119fe7922c8527db4f08d1860cbd09fbd638b09e647f0d5"
+        },
+        {
+          "relativePath": "_DADOS_\\EdificacaoEberick.ini",
+          "sha256": "efb3e5a8a18a74d0a9224c40e8c780c4b3059779d3c68b41bfc9f93a0afc4b29"
+        },
+        {
+          "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\logo.gif",
+          "sha256": "b38857f1c1da842e6113c6464464d20c048457a36f01bb42519595ddebaab728"
+        },
+        {
+          "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\Mensagens_da_analise.docx",
+          "sha256": "7172c19397d57282d7255f2a060bc31ec7978ef3488106328162619d4bff2e18"
+        },
+        {
+          "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\~$nsagens_da_analise.docx",
+          "sha256": "885659d5c7edab26a8a1c07a67d4182e0b0046fab7e335232729707b1a797bda"
+        },
+        {
+          "relativePath": "Arquivos do projeto\\r177-cad-escada-controle.IFC",
+          "sha256": "bb353b5c93c816f762067906cb32aa6130fb7bef75e885c4cc5a6f754048824c"
+        },
+        {
+          "relativePath": "Arquivos do projeto\\r178-cad-patamar-controle.IFC",
+          "sha256": "6ab9afaf1dffcbb9ca75a86136f8687e422aa850fe9fb6e34b48b5ab25096256"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+          "sha256": "c4d32251d41d473140a15bed273687b7d7fba201272cfe8cc335da2569ca5f71"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-e2",
+          "sha256": "44e5b33246e2ab2023cf86537be8160059e5ef3ff99f6277f5c38b38d400be96"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+          "sha256": "d857f415c9a1000e3d2e666c64d7b4dd007593b4da2c613c5b773987ba05b927"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+          "sha256": "9c29e9e80de71c59a4a862c63aa5df2d7385b50665e84f6fdb05c5768fb9df45"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ERRLOG",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+          "sha256": "48c1c935c8a9f433d5aad2d9c7033dc60fc5c15b5303c26f4f987a2c0dffcaf2"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+          "sha256": "63b0428c15652b4baf0695dfd33f9619c0a60652f4a9342c14c5d36e3f6d3351"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+          "sha256": "59e4c6efd0d589dd260e6191e930c51c75554c66e940b883102d367b0e91af4e"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-e2",
+          "sha256": "8cca734ad44393839c5c87dc495d11b304a848ac4415b56120a0f0891af1881f"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+          "sha256": "2141d8150c88f2985cb9292c2eb0c5cdd6a50173e1e736b47cddeef778132ef3"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+          "sha256": "33b38b930b9aa538d22d4f664f693559fe4396fd8e8f29e6a3118bd695140de0"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+          "sha256": "63b0428c15652b4baf0695dfd33f9619c0a60652f4a9342c14c5d36e3f6d3351"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-e2",
+          "sha256": "8cca734ad44393839c5c87dc495d11b304a848ac4415b56120a0f0891af1881f"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+          "sha256": "2141d8150c88f2985cb9292c2eb0c5cdd6a50173e1e736b47cddeef778132ef3"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+          "sha256": "33b38b930b9aa538d22d4f664f693559fe4396fd8e8f29e6a3118bd695140de0"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.w2",
+          "sha256": "7e60c4d73b859feb932e6362832eddcef59fd989397e3f0ae8f6c54040a4f4c0"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+          "sha256": "d03e499994868354aefe24437ee2d9cbe3c0ab062a481ccabcec8151aac0efc4"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+          "sha256": "cb99d35d00d3dc7cf06a1302b76d875980233c5afc3a0401e0b053ecdc7c3a77"
+        },
+        {
+          "relativePath": "Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR_2508.log",
+          "sha256": "52c1fe3b0e81c05bd97ccc94d82f46100eef1987086dfd4bf4deed7dceff4eb7"
+        }
+      ],
+      "projectPath": "D:\\TCC\\outputs\\R184-CAD-ENSAIO-GANCHO-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "initialProjectSha256": "63b0428c15652b4baf0695dfd33f9619c0a60652f4a9342c14c5d36e3f6d3351"
+    },
+    "BIM": {
+      "sourceRoot": "D:\\TCC\\outputs\\R182-BIM-DIAGNOSTICO-DIMENSIONAMENTO-NAO-EXECUTAR",
+      "sourceFiles": [
+        {
+          "relativePath": "_DADOS_\\BCF\\tree.conf",
+          "sha256": "61d42b48b4f580be91ceaf6a13095f109584646c7f2c81b42fc1f27093177b56"
+        },
+        {
+          "relativePath": "_DADOS_\\ConfigFolder.qib",
+          "sha256": "b2e8c6c10dd5a9580e5faffdc85942782726412e2c0b6dcf331c4187579c6436"
+        },
+        {
+          "relativePath": "_DADOS_\\EdificacaoEberick.ini",
+          "sha256": "ca5de62cafa9374adbafa620471d1e8bf66bdeb1cb2aef2f0e008bd0e938d146"
+        },
+        {
+          "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\logo.gif",
+          "sha256": "b38857f1c1da842e6113c6464464d20c048457a36f01bb42519595ddebaab728"
+        },
+        {
+          "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\Mensagens_da_analise.docx",
+          "sha256": "5a35a13b3f8eb3074c2e5579c3ca84cf7edcc6e9617cad16c6c2511977aadf0b"
+        },
+        {
+          "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\Relatorio_de_importacao_de_elementos_IFC.docx",
+          "sha256": "2fa2f52431feaac8e6aa693486a9b3a42fa54f7f1834e73925b536a5b1253f78"
+        },
+        {
+          "relativePath": "Arquivos do projeto\\Documentos\\Eberick\\~$nsagens_da_analise.docx",
+          "sha256": "1f228d01a3e908ddde2a24fc75ab3c52f816fc442e0c7f946196ef13ab68fbb6"
+        },
+        {
+          "relativePath": "Arquivos do projeto\\Modelo 3D.IFC",
+          "sha256": "0e7607e3f72fed6c1c098bd17ddd1062be701c74c6b18db3887e0cc35b03ac3b"
+        },
+        {
+          "relativePath": "Arquivos do projeto\\R177-BIM-ESCADA-CORRIGIDA.IFC",
+          "sha256": "838b66fb1f364ac3aea0d88b4e9526dbf0ff85002187279fac5289983787eb94"
+        },
+        {
+          "relativePath": "Arquivos do projeto\\r178-bim-patamar-controle.IFC",
+          "sha256": "d0efc1542c929962197bcb15c438afac4c200e73a5bd8d8d21687985ff73a8bd"
+        },
+        {
+          "relativePath": "Projeto Eberick\\PerfilDeVistaPadrao.ini",
+          "sha256": "be7c6738466d991d62e00cda504518dbbf38f4ba5b9d91cb7c182b9e917120e1"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak",
+          "sha256": "f42e0b0e26084daeeef985021fe2b2e8ffc806873eef0618603ef660b9427bf3"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak-e2",
+          "sha256": "17ff9a617b2af2f6faf4a1254b7dcb8771668672b755ab6014819da9380aa39c"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak-g2",
+          "sha256": "924fc6647a51685b626aa26aa27aa81e1aac03dd63136db1feb51bee01e4eb3d"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak-g3",
+          "sha256": "fa40dd3244337fdaf63ea4a63954f879f8da328cc1107647d21977b0608e5a8c"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.ini",
+          "sha256": "9a268fa3fb78525f0d697a0fa99218fea51c9abb504fd11f8e0a60eed6f7b0c9"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+          "sha256": "44515fc4a1752f3923d835c554391fb553937d7a41f7266dd552043712ad22e9"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-cad",
+          "sha256": "3912d1d552118d442ad8fa8ede531abef36a8007f8962f50e8d09f226cc54644"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-e2",
+          "sha256": "f7e794b78139c7b59f655b153783a526d9bebadf1cf684b7f0971ff5d60e8b77"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-g2",
+          "sha256": "395bc0d791c137b9ebb049ee613dfaa7c7381bd717493d9fb28acfa5889ea03c"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-g3",
+          "sha256": "8160298e0eca080ec48ad0a9978625c469e2472baea88e61d02884932066576f"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav",
+          "sha256": "44515fc4a1752f3923d835c554391fb553937d7a41f7266dd552043712ad22e9"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav-e2",
+          "sha256": "f7e794b78139c7b59f655b153783a526d9bebadf1cf684b7f0971ff5d60e8b77"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav-g2",
+          "sha256": "395bc0d791c137b9ebb049ee613dfaa7c7381bd717493d9fb28acfa5889ea03c"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav-g3",
+          "sha256": "8160298e0eca080ec48ad0a9978625c469e2472baea88e61d02884932066576f"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.w2",
+          "sha256": "602e41fa1cfe08a888eae955e46d681d2fcad8201a0038c6968b75bed21f19d8"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.x2",
+          "sha256": "5b0002bb5d1b723a58a404d21aa7c453c36313fde646ebf60ef41c751b1147bd"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.x3",
+          "sha256": "17caa91228905f863cd42cf90c7fbfe1b9f228a112f142bb71edd15bd0742b58"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_2508.log",
+          "sha256": "8bb19d0734359c7dac07e642853b015ec504fac8f3a384f9ff1bea4bb6a52664"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.oq3d",
+          "sha256": "00c25740bc63036e47ed84bb2e9404b0090d06d188da938f7e203e108cd4b9d5"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\Planificacao_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini",
+          "sha256": "bf20a78e7f28d18448ab1f2622aebe1e2e88998dac1e06c046d8457431a261d7"
+        },
+        {
+          "relativePath": "Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D\\Vinculo_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini",
+          "sha256": "e2b4947978d79aa191e88fe60443dac03d45ab4bb9988c68c7867d058c9a3042"
+        }
+      ],
+      "projectPath": "D:\\TCC\\outputs\\R184-BIM-ENSAIO-GANCHO-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "initialProjectSha256": "44515fc4a1752f3923d835c554391fb553937d7a41f7266dd552043712ad22e9"
+    }
+  },
+  "inheritedExportsAreNotNewEvidence": true,
+  "fullSizingApproval": false
+}

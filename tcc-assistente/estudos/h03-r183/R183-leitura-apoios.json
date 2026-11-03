@@ -1,0 +1,66 @@
+{
+  "revision": "H03/R183",
+  "recordedAtUtc": "2026-11-03T10:52:38.022043+00:00",
+  "scope": "Consulta nativa de apoios e parametros; sem processamento ou correcao",
+  "sourceProjects": {
+    "CAD": {
+      "path": "D:\\TCC\\outputs\\R182-CAD-DIAGNOSTICO-DIMENSIONAMENTO-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "63b0428c15652b4baf0695dfd33f9619c0a60652f4a9342c14c5d36e3f6d3351",
+      "sha256AfterRead": "63b0428c15652b4baf0695dfd33f9619c0a60652f4a9342c14c5d36e3f6d3351",
+      "unchanged": true
+    },
+    "BIM": {
+      "path": "D:\\TCC\\outputs\\R182-BIM-DIAGNOSTICO-DIMENSIONAMENTO-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sha256": "44515fc4a1752f3923d835c554391fb553937d7a41f7266dd552043712ad22e9",
+      "sha256AfterRead": "44515fc4a1752f3923d835c554391fb553937d7a41f7266dd552043712ad22e9",
+      "unchanged": true
+    }
+  },
+  "observations": {
+    "CAD": {
+      "lowerBoundaryOrdinaryBarWidthCm": 0,
+      "slabAnchorageOption": "reta",
+      "slabMinimumPositiveMomentForAnchorageKgfM": 100,
+      "slabMinimumTensionForAnchorageKgfPerM": 100,
+      "allowAnchorageInAdjacentSlab": false,
+      "waiveSlabShearVerification": true,
+      "beamMaximumReinforcementRatioPercent": 2
+    },
+    "BIM": {
+      "lowerBoundaryOrdinaryBarWidthCm": 0,
+      "slabAnchorageOption": "reta",
+      "slabMinimumPositiveMomentForAnchorageKgfM": 100,
+      "slabMinimumTensionForAnchorageKgfPerM": 100,
+      "allowAnchorageInAdjacentSlab": false,
+      "waiveSlabShearVerification": true,
+      "beamMaximumReinforcementRatioPercent": 2
+    }
+  },
+  "observationMethod": "Leitura manual das telas nativas; capturas anexas. Nao e OCR automatizado.",
+  "lowerBoundaryLocation": "N0, barra horizontal entre AE1A e AE1B na extremidade inferior de LE3",
+  "conclusions": {
+    "selectedSettingsMatch": true,
+    "zeroWidthIsNotByItselfInvalid": true,
+    "exactFailingAnchorageEdgeIdentified": false,
+    "causalTestCompleted": false,
+    "shearVerificationRequiresReview": true,
+    "fullSizingApproved": false,
+    "newPhysicalBeamOrColumnCreated": false
+  },
+  "timing": {
+    "newNativeProcessing": false,
+    "nativeSeconds": null,
+    "fullFlowMeasured": false,
+    "auditSessionIsNotActiveWorkflowTime": true
+  },
+  "sources": [
+    {
+      "title": "Erro A11 - Largura do apoio insuficiente em lajes",
+      "url": "https://suporte.altoqi.com.br/hc/pt-br/articles/115003202014"
+    },
+    {
+      "title": "Como inserir os lances da escada?",
+      "url": "https://suporte.altoqi.com.br/hc/pt-br/articles/115002312454"
+    }
+  ]
+}

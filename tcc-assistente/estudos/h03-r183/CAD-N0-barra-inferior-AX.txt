@@ -1,0 +1,144 @@
+Window: "AltoQi Eberick 2025 Infinity - [R182-CAD-DIAGNOSTICO-DIMENSIONAMENTO-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)]", App: Eberick.exe.
+	0 janela AltoQi Eberick 2025 Infinity - [R182-CAD-DIAGNOSTICO-DIMENSIONAMENTO-NAO-EXECUTAR (H03_CAD_R49_LAJES_NAO_EXECUTAR)] Secondary Actions: Raise
+		826 diálogo Barra Secondary Actions: Raise
+			827 grupo Dados da barra ID: 801
+			828 text Largura ID: 802
+			829 editar (settable, string) Largura Value: 0 ID: 803
+			830 text cm ID: 804
+			831 grupo Cargas ID: 807
+			832 text Carga de parede ID: 808
+			833 text 0.00 kN/m ID: 809
+			834 text Carga extra ID: 812
+			835 editar (disabled, settable, string) Carga extra Value: 0 ID: 813
+			836 text kN/m ID: 814
+			837 botão Lançar... ID: 810
+			838 botão Remover ID: 811
+			839 botão Editar... ID: 815
+			840 botão Remover ID: 816
+			841 botão OK ID: 1
+			842 botão Cancelar ID: 2
+			843 botão Desenho... ID: 817
+			844 botão Ajuda ID: 9
+			845 barra de título (settable, string) Value: Barra
+		1 Barra de status
+			896 custom
+				897 text Editar
+				898 editar (settable, string)
+				899 text 487.0,324.3
+				900 caixa de combinação (disabled, settable, string) Baixo Value: 1:50
+					901 Lista
+						902 item de lista (selectable) 1:1
+						903 item de lista (selectable) 1:2
+						904 item de lista (selectable) 1:5
+						905 item de lista (selectable) 1:10
+						906 item de lista (selectable) 1:12.5
+						907 item de lista (selectable) 1:15
+						908 item de lista (selectable) 1:20
+						909 item de lista (selectable) 1:25
+						910 item de lista (selectable) 1:30
+						911 item de lista (selectable) 1:40
+						912 item de lista (selectable) 1:50
+						913 item de lista (selectable) 1:60
+						914 item de lista (selectable) 1:75
+						915 item de lista (selectable) 1:100
+						916 item de lista (selectable) 1:200
+						917 item de lista (selectable) 1:250
+						918 item de lista (selectable) 1:500
+						919 item de lista (selectable) 1:1000
+			920 botão Atualizar
+			921 botão Enquadrar
+			922 botão Aproximar
+			923 botão Afastar
+			924 botão Zoom
+			925 botão Zoom anterior
+			926 botão Deslocar
+			927 caixa de seleção Ortogonal
+			928 caixa de seleção Captura personalizada
+			929 botão Opções da captura personalizada
+			930 caixa de seleção Quadrante
+			931 caixa de seleção Centro
+			932 caixa de seleção Ponto médio
+			933 caixa de seleção Extremidade
+			934 caixa de seleção Ponto no elemento
+			935 caixa de seleção Intersecção
+			936 caixa de seleção Perpendicular
+			937 caixa de seleção Ponto intermediário
+			938 caixa de seleção Ponto quadrante
+			939 caixa de seleção Ponto na intersecção
+			940 caixa de seleção Ponto relativo
+		2 painel
+			3 botão de divisão
+				4 elevador
+				5 painel
+					6 tabulação Croqui-N0
+						941 item de tabulação (selectable) Notícias
+						942 item de tabulação (selectable) Escadas-N1
+						943 item de tabulação (selectable) Croqui-N0
+					9 painel
+						721 painel
+							722 painel Croqui-N0
+								723 painel TCadPlotWindow
+				56 painel
+					57 tabulação
+						944 item de tabulação (selectable)
+						945 item de tabulação (selectable)
+					59 painel
+						60 janela Edificação Secondary Actions: Raise
+							61 painel
+								62 painel Projeto
+									63 painel
+									64 árvore ID: 101
+										65 item da árvore (selectable, disabled) Pavimentos
+											66 item da árvore (selectable, disabled) N2
+											67 item da árvore (selectable, disabled) N1
+												68 item da árvore (selectable, disabled) Croqui
+												69 item da árvore (selectable, disabled) Croqui (altura 157.4)
+												70 item da árvore (selectable, disabled) Forma
+												71 item da árvore (selectable, disabled) Forma (altura 157.4)
+												72 item da árvore (selectable, disabled) Desenho
+												73 item da árvore (selectable, disabled) Lajes
+												74 item da árvore (selectable, disabled) Escadas
+												75 item da árvore (selectable, disabled) Pilares
+												76 item da árvore (selectable, disabled) Vigas
+											77 item da árvore (selectable, disabled) N0
+												656 item da árvore (selectable, disabled) Croqui
+												657 item da árvore (selectable, disabled) Forma
+												658 item da árvore (selectable, disabled) Desenho
+												659 item da árvore (selectable, disabled) Pilares
+												660 item da árvore (selectable, disabled) Sapatas
+										78 item da árvore (selectable, disabled) Pilares em prumada
+										79 item da árvore (selectable, disabled) Cortes
+										80 item da árvore (selectable, disabled) Gerenciador de desenhos
+										81 item da árvore (selectable, disabled) Modelos 3D
+		82 barra de menus
+		826 diálogo Barra Secondary Actions: Raise
+			827 grupo Dados da barra ID: 801
+			828 text Largura ID: 802
+			829 editar (settable, string) Largura Value: 0 ID: 803
+			830 text cm ID: 804
+			831 grupo Cargas ID: 807
+			832 text Carga de parede ID: 808
+			833 text 0.00 kN/m ID: 809
+			834 text Carga extra ID: 812
+			835 editar (disabled, settable, string) Carga extra Value: 0 ID: 813
+			836 text kN/m ID: 814
+			837 botão Lançar... ID: 810
+			838 botão Remover ID: 811
+			839 botão Editar... ID: 815
+			840 botão Remover ID: 816
+			841 botão OK ID: 1
+			842 botão Cancelar ID: 2
+			843 botão Desenho... ID: 817
+			844 botão Ajuda ID: 9
+			845 barra de título (settable, string) Value: Barra
+
+Document text: ```
+Editar
+487.0,324.3
+```
+
+Focused element: 826 diálogo Barra Secondary Actions: Raise
+
+Document text:
+Editar
+487.0,324.3

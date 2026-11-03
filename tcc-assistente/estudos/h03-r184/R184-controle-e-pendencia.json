@@ -1,0 +1,97 @@
+{
+  "revision": "H03/R184",
+  "recordedAtUtc": "2026-11-03T12:11:42.972559+00:00",
+  "sourceR182ProjectHashesPreserved": true,
+  "CAD": {
+    "nativeIntegrityCheckPerformed": true,
+    "baselineAnchorage": "reta",
+    "reportPath": "D:\\TCC\\outputs\\Escada-H03-R184-ENSAIO-GANCHO-NAO-EXECUTAR\\CAD-controle-reta-mensagens.docx",
+    "reportSha256": "c20711df0f2c2634b0343573f737b4cdace1a38d112fb9bb66214c6d5fedf87f",
+    "nativeReport": {
+      "levels": {
+        "N2": {
+          "nativeLevelName": "N2",
+          "reportedCategories": {
+            "Pilares": {
+              "reportedSuccess": 11,
+              "reportedError": 0
+            },
+            "Vigas": {
+              "reportedSuccess": 15,
+              "reportedError": 0
+            },
+            "Lajes": {
+              "reportedSuccess": 5,
+              "reportedError": 0
+            }
+          },
+          "emptyLevelBlockIsNotAZeroCount": false
+        },
+        "N1": {
+          "nativeLevelName": "N1",
+          "reportedCategories": {
+            "Pilares": {
+              "reportedSuccess": 11,
+              "reportedError": 0
+            },
+            "Vigas": {
+              "reportedSuccess": 16,
+              "reportedError": 0
+            },
+            "Lajes": {
+              "reportedSuccess": 9,
+              "reportedError": 0
+            }
+          },
+          "emptyLevelBlockIsNotAZeroCount": false
+        }
+      },
+      "nativeTotalSeconds": 7,
+      "nativeDimensioningSeconds": 2,
+      "dimensioningTimeIsIncludedInTotal": true,
+      "reportedSuccessMayIncludeWarnings": true,
+      "stairPassCannotBeInferredFromReportedSlabCounts": true
+    },
+    "baselineSavedProjectPath": "D:\\TCC\\outputs\\Escada-H03-R184-ENSAIO-GANCHO-NAO-EXECUTAR\\CAD-controle-reta.prj",
+    "baselineSavedProjectSha256": "3e89911446d18806bf1c70f6e186613f58cb2c7478e1a4ff240cdb799bef3a10",
+    "currentExperimentalProjectPath": "D:\\TCC\\outputs\\R184-CAD-ENSAIO-GANCHO-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+    "currentExperimentalProjectSha256": "019e20fb9322a23f0fb2078f656a58e7914147c5ae97e8d4ebb50bec5f61c305",
+    "LE1": "calculado",
+    "LE2": "calculado",
+    "LE3": "D31 / A11",
+    "LE3TestedDiametersMm": [
+      6.3,
+      8,
+      10,
+      12.5,
+      16
+    ],
+    "observedIntervalSeconds": 18.858,
+    "observedIntervalIncludesToolAndObservationLatency": true,
+    "accidentalLapOptionChangeDuringSelectionAttempt": true,
+    "lapOptionRestoredUncheckedBeforeLastSave": true,
+    "noReprocessingWithAccidentalLapOption": true,
+    "finalObservedAnchorage": "reta",
+    "hookRecalculationExecuted": false
+  },
+  "BIM": {
+    "projectPath": "D:\\TCC\\outputs\\R184-BIM-ENSAIO-GANCHO-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+    "copyUnchanged": true,
+    "nativeProcessingThisRevision": false,
+    "nativeSeconds": null,
+    "hookRecalculationExecuted": false
+  },
+  "hookTestStatus": "Pendente: a lista perdeu foco nas tentativas automaticas; nenhuma selecao de gancho confirmada",
+  "nativeFolderNameContainsIntendedTestNotProvenExecution": true,
+  "fullPairedTestCompleted": false,
+  "fullFlowMeasured": false,
+  "structuralApproval": false,
+  "sourceExportsAreInheritedNotFreshR184": true,
+  "timing": {
+    "CADNativeControlSeconds": 7,
+    "CADNativeSizingSecondsIncluded": 2,
+    "BIMNativeControlSeconds": null,
+    "hookTestSeconds": null,
+    "rankWholeFlows": false
+  }
+}
