@@ -215,8 +215,8 @@
       ],
       "saved_prj": {
         "path": "D:\\TCC\\outputs\\W08-H03-R207-ENSAIO\\Projetos-salvos\\BIM\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
-        "sha256": "a1beb6c9f1ee3389f15a6eeb6a14399cc3437ef78feea9e8ee5c08cd60ae5406",
-        "bytes": 1940428
+        "sha256": "7a1477364ceef33017e0ff93608d7f51030c4a80e5769cb5b7fc9ef3f3039880",
+        "bytes": 1941887
       },
       "time_status": "Relatorio emitido na sessao R207, apos recalculo confirmado."
     }
@@ -241,5 +241,11 @@
     "entered_outer_kN_m": 1.23,
     "strip_centroid_outward_shift_cm": 4.5,
     "note": "Preserva aproximadamente resultante e centroide global por simetria, mas altera distribuicao local. Exige avaliacao dos esforcos; nao declarar equivalencia exata de momentos."
+  },
+  "BIM_correction_interval": {
+    "start_utc": "2026-11-03T22:47:49.312Z",
+    "end_utc": "2026-11-03T22:52:00.212Z",
+    "elapsed_seconds": 250.9,
+    "includes": "Navegacao, capturas, raciocinio e edicao automatizada; nao tempo exclusivo do programa. CAD sem inicio comparavel registrado."
   }
 }
