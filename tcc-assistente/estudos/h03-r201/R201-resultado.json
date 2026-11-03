@@ -1,0 +1,55 @@
+{
+  "revision": "H03/R201",
+  "baseline": "H03/R199",
+  "change": "ELS-DEF do portico e lajes com calcular rigidez fissurada; analise estatica e dimensionamento com escopo herdado",
+  "sources": {
+    "CAD": {
+      "path": "D:\\TCC\\outputs\\R201-CAD-ELS-NAO-EXECUTAR\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "a653c0241b83da34cb3191fe2416e00d04c8d5ba57dcf2bd1583e0c5be49f7b8",
+      "diagnosticSha256": "91e79503acd1b9eda3e89d314769ba1540e277fdc22fa031855684bf06d2af5c",
+      "messagesSha256": "ac346cd57eef83037c8c61166997e19ce1155219b5d4656a424a8363ae63d4d7"
+    },
+    "BIM": {
+      "path": "D:\\TCC\\outputs\\R201-BIM-ELS-NAO-EXECUTAR\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sha256": "16e0d5658f2be522532addf49cac51bf7fd743fbf5828ed7bd9bcf3212250844",
+      "diagnosticSha256": "1d21768b7640ada1daa33e9886ab1c5cbec74b675b6651c373603decccc5bf9a",
+      "messagesSha256": "d84abe3d1b82312269c6176f65d1761f134c7f031a8aef5065dc05e0cf31ed3a"
+    }
+  },
+  "results": {
+    "CAD": {
+      "stairPiecesSuccess": 3,
+      "stairWarnings": 0,
+      "slabsSuccess": 11,
+      "slabWarnings": 0,
+      "excessiveDisplacementReported": false,
+      "N1_beamErrors": 0
+    },
+    "BIM": {
+      "stairPiecesSuccess": 3,
+      "stairWarnings": 0,
+      "slabsSuccess": 11,
+      "slabWarnings": 0,
+      "excessiveDisplacementReported": false,
+      "N1_beamErrors": 1
+    }
+  },
+  "processingSeconds": {
+    "CAD": 9,
+    "BIM": 9
+  },
+  "repetitions": 1,
+  "scope": "Verificacao nativa das deformacoes dos modelos academicos atuais",
+  "finalApproval": false,
+  "correctionRankingValid": false,
+  "pending": [
+    "V1 N0 Aviso 19 nos dois fluxos, flexao obliqua sem dimensionamento",
+    "V9 CAD / V11 BIM N1 Aviso 98, ancoragem de armadura de pele no no 3",
+    "V13_1 CAD / V3 BIM N2 Aviso 08, carga negativa",
+    "V2 BIM N1 erro D16 no no 2; agrupamento CAD difere",
+    "3 pilares N1 em cada fluxo com Aviso 10; 11 pilares N0 com Aviso 07",
+    "13 marcadores de sapata em cada fluxo com D175/D42, fundacoes fora do escopo",
+    "W08 reconciliar comprimento da carga e apoio do pano inferior",
+    "Numeros individuais de flechas, limites e hipoteses de fluencia ainda exigem leitura das planilhas e configuracoes"
+  ]
+}
