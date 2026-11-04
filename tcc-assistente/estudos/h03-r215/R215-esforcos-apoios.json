@@ -1,0 +1,1673 @@
+{
+  "revision": "H03-R215",
+  "sourceName": "Pav1_Fundacao_Combinacoes.docx",
+  "sourceSha256": "4ece60b04d4e5301b4aa4a77706f948cc1a7fd16d41ce88793348a245e30d13c",
+  "elements": {
+    "SAE1A": {
+      "headers": [
+        "Combinação",
+        "N(kN)",
+        "Mx(kN.m)",
+        "My(kN.m)",
+        "Vx(kN)",
+        "Vy(kN)",
+        "Mt(kN/m)"
+      ],
+      "rows": [
+        {
+          "label": "Peso próprio (G1)",
+          "kind": "case",
+          "N": 6.62,
+          "Mx": 0.0,
+          "My": -0.61,
+          "Vx": -8.14,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Adicional (G2)",
+          "kind": "case",
+          "N": 0.98,
+          "Mx": 0.0,
+          "My": -0.11,
+          "Vx": -1.29,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Solo (S)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Acidental (Q)",
+          "kind": "case",
+          "N": 2.61,
+          "Mx": 0.0,
+          "My": -0.22,
+          "Vx": -3.07,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Água (A)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Vento X+ (V1)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.03,
+          "Vx": 0.17,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Vento X- (V2)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": -0.03,
+          "Vx": -0.17,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Vento Y+ (V3)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": -0.06,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.3,
+          "Mt": 0.0
+        },
+        {
+          "label": "Vento Y- (V4)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.06,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": -0.3,
+          "Mt": 0.0
+        },
+        {
+          "label": "Desaprumo X+ (D1)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.01,
+          "Vx": 0.03,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Desaprumo X- (D2)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": -0.01,
+          "Vx": -0.03,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Desaprumo Y+ (D3)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": -0.01,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.03,
+          "Mt": 0.0
+        },
+        {
+          "label": "Desaprumo Y- (D4)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.01,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": -0.03,
+          "Mt": 0.0
+        },
+        {
+          "label": "Subpressão (AS)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Temperatura 1 (T1)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Temperatura 2 (T2)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Protensão (P)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Retração (R)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Q_TELHADO_MANUTENCAO (QT)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V1+0.6D1+QT",
+          "kind": "combination",
+          "N": 8.91,
+          "Mx": 0.0,
+          "My": -0.81,
+          "Vx": -10.84,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V1+D1+0.5QT",
+          "kind": "combination",
+          "N": 8.91,
+          "Mx": 0.0,
+          "My": -0.8,
+          "Vx": -10.83,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V2+0.6D2+QT",
+          "kind": "combination",
+          "N": 8.91,
+          "Mx": 0.0,
+          "My": -0.86,
+          "Vx": -11.09,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V2+D2+0.5QT",
+          "kind": "combination",
+          "N": 8.91,
+          "Mx": 0.0,
+          "My": -0.86,
+          "Vx": -11.11,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V3+0.6D3+QT",
+          "kind": "combination",
+          "N": 8.91,
+          "Mx": -0.04,
+          "My": -0.83,
+          "Vx": -10.97,
+          "Vy": 0.2,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V3+D3+0.5QT",
+          "kind": "combination",
+          "N": 8.91,
+          "Mx": -0.04,
+          "My": -0.83,
+          "Vx": -10.97,
+          "Vy": 0.21,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V4+0.6D4+QT",
+          "kind": "combination",
+          "N": 8.91,
+          "Mx": 0.04,
+          "My": -0.83,
+          "Vx": -10.97,
+          "Vy": -0.2,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V4+D4+0.5QT",
+          "kind": "combination",
+          "N": 8.91,
+          "Mx": 0.04,
+          "My": -0.83,
+          "Vx": -10.97,
+          "Vy": -0.21,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+V1+0.6D1+0.5QT",
+          "kind": "combination",
+          "N": 8.91,
+          "Mx": 0.0,
+          "My": -0.79,
+          "Vx": -10.77,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+V2+0.6D2+0.5QT",
+          "kind": "combination",
+          "N": 8.91,
+          "Mx": 0.0,
+          "My": -0.87,
+          "Vx": -11.16,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+V3+0.6D3+0.5QT",
+          "kind": "combination",
+          "N": 8.91,
+          "Mx": -0.06,
+          "My": -0.83,
+          "Vx": -10.97,
+          "Vy": 0.32,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+V4+0.6D4+0.5QT",
+          "kind": "combination",
+          "N": 8.91,
+          "Mx": 0.06,
+          "My": -0.83,
+          "Vx": -10.97,
+          "Vy": -0.32,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D1",
+          "kind": "combination",
+          "N": 7.61,
+          "Mx": 0.0,
+          "My": -0.71,
+          "Vx": -9.4,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D1+QT",
+          "kind": "combination",
+          "N": 7.61,
+          "Mx": 0.0,
+          "My": -0.71,
+          "Vx": -9.4,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D2",
+          "kind": "combination",
+          "N": 7.61,
+          "Mx": 0.0,
+          "My": -0.73,
+          "Vx": -9.47,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D2+QT",
+          "kind": "combination",
+          "N": 7.61,
+          "Mx": 0.0,
+          "My": -0.73,
+          "Vx": -9.47,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D3",
+          "kind": "combination",
+          "N": 7.61,
+          "Mx": -0.01,
+          "My": -0.72,
+          "Vx": -9.43,
+          "Vy": 0.03,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D3+QT",
+          "kind": "combination",
+          "N": 7.61,
+          "Mx": -0.01,
+          "My": -0.72,
+          "Vx": -9.43,
+          "Vy": 0.03,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D4",
+          "kind": "combination",
+          "N": 7.61,
+          "Mx": 0.01,
+          "My": -0.72,
+          "Vx": -9.43,
+          "Vy": -0.03,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D4+QT",
+          "kind": "combination",
+          "N": 7.61,
+          "Mx": 0.01,
+          "My": -0.72,
+          "Vx": -9.43,
+          "Vy": -0.03,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+0.6V1+0.6D1+0.5QT",
+          "kind": "combination",
+          "N": 10.22,
+          "Mx": 0.0,
+          "My": -0.92,
+          "Vx": -12.38,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+0.6V2+0.6D2+0.5QT",
+          "kind": "combination",
+          "N": 10.22,
+          "Mx": 0.0,
+          "My": -0.97,
+          "Vx": -12.63,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+0.6V3+0.6D3+0.5QT",
+          "kind": "combination",
+          "N": 10.22,
+          "Mx": -0.04,
+          "My": -0.94,
+          "Vx": -12.5,
+          "Vy": 0.2,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+0.6V4+0.6D4+0.5QT",
+          "kind": "combination",
+          "N": 10.22,
+          "Mx": 0.04,
+          "My": -0.94,
+          "Vx": -12.5,
+          "Vy": -0.2,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+D1",
+          "kind": "combination",
+          "N": 10.22,
+          "Mx": 0.0,
+          "My": -0.94,
+          "Vx": -12.47,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+D2",
+          "kind": "combination",
+          "N": 10.22,
+          "Mx": 0.0,
+          "My": -0.95,
+          "Vx": -12.54,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+D3",
+          "kind": "combination",
+          "N": 10.22,
+          "Mx": -0.01,
+          "My": -0.94,
+          "Vx": -12.5,
+          "Vy": 0.03,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+D4",
+          "kind": "combination",
+          "N": 10.22,
+          "Mx": 0.01,
+          "My": -0.94,
+          "Vx": -12.5,
+          "Vy": -0.03,
+          "Mt": 0.0
+        }
+      ],
+      "caseCount": 19,
+      "combinationCount": 28,
+      "extrema": {
+        "N": {
+          "label": "G1+G2+Q+0.6V1+0.6D1+0.5QT",
+          "kind": "combination",
+          "N": 10.22,
+          "Mx": 0.0,
+          "My": -0.92,
+          "Vx": -12.38,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        "Mx": {
+          "label": "Vento Y+ (V3)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": -0.06,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.3,
+          "Mt": 0.0
+        },
+        "My": {
+          "label": "G1+G2+Q+0.6V2+0.6D2+0.5QT",
+          "kind": "combination",
+          "N": 10.22,
+          "Mx": 0.0,
+          "My": -0.97,
+          "Vx": -12.63,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        "Vx": {
+          "label": "G1+G2+Q+0.6V2+0.6D2+0.5QT",
+          "kind": "combination",
+          "N": 10.22,
+          "Mx": 0.0,
+          "My": -0.97,
+          "Vx": -12.63,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        "Vy": {
+          "label": "G1+G2+0.5Q+V3+0.6D3+0.5QT",
+          "kind": "combination",
+          "N": 8.91,
+          "Mx": -0.06,
+          "My": -0.83,
+          "Vx": -10.97,
+          "Vy": 0.32,
+          "Mt": 0.0
+        },
+        "Mt": {
+          "label": "Peso próprio (G1)",
+          "kind": "case",
+          "N": 6.62,
+          "Mx": 0.0,
+          "My": -0.61,
+          "Vx": -8.14,
+          "Vy": 0.0,
+          "Mt": 0.0
+        }
+      }
+    },
+    "SAE1B": {
+      "headers": [
+        "Combinação",
+        "N(kN)",
+        "Mx(kN.m)",
+        "My(kN.m)",
+        "Vx(kN)",
+        "Vy(kN)",
+        "Mt(kN/m)"
+      ],
+      "rows": [
+        {
+          "label": "Peso próprio (G1)",
+          "kind": "case",
+          "N": 8.57,
+          "Mx": 0.0,
+          "My": 0.44,
+          "Vx": 8.14,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Adicional (G2)",
+          "kind": "case",
+          "N": 1.46,
+          "Mx": 0.0,
+          "My": 0.06,
+          "Vx": 1.29,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Solo (S)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Acidental (Q)",
+          "kind": "case",
+          "N": 3.17,
+          "Mx": 0.0,
+          "My": 0.17,
+          "Vx": 3.07,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Água (A)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Vento X+ (V1)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.03,
+          "Vx": 0.17,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Vento X- (V2)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": -0.03,
+          "Vx": -0.17,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Vento Y+ (V3)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": -0.06,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.3,
+          "Mt": 0.0
+        },
+        {
+          "label": "Vento Y- (V4)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.06,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": -0.3,
+          "Mt": 0.0
+        },
+        {
+          "label": "Desaprumo X+ (D1)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.01,
+          "Vx": 0.03,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Desaprumo X- (D2)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": -0.01,
+          "Vx": -0.03,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Desaprumo Y+ (D3)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": -0.01,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.04,
+          "Mt": 0.0
+        },
+        {
+          "label": "Desaprumo Y- (D4)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.01,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": -0.04,
+          "Mt": 0.0
+        },
+        {
+          "label": "Subpressão (AS)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Temperatura 1 (T1)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Temperatura 2 (T2)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Protensão (P)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Retração (R)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "Q_TELHADO_MANUTENCAO (QT)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": 0.0,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V1+0.6D1+QT",
+          "kind": "combination",
+          "N": 11.61,
+          "Mx": 0.0,
+          "My": 0.61,
+          "Vx": 11.09,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V1+D1+0.5QT",
+          "kind": "combination",
+          "N": 11.61,
+          "Mx": 0.0,
+          "My": 0.61,
+          "Vx": 11.11,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V2+0.6D2+QT",
+          "kind": "combination",
+          "N": 11.61,
+          "Mx": 0.0,
+          "My": 0.56,
+          "Vx": 10.84,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V2+D2+0.5QT",
+          "kind": "combination",
+          "N": 11.61,
+          "Mx": 0.0,
+          "My": 0.56,
+          "Vx": 10.83,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V3+0.6D3+QT",
+          "kind": "combination",
+          "N": 11.61,
+          "Mx": -0.04,
+          "My": 0.58,
+          "Vx": 10.97,
+          "Vy": 0.2,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V3+D3+0.5QT",
+          "kind": "combination",
+          "N": 11.61,
+          "Mx": -0.04,
+          "My": 0.58,
+          "Vx": 10.97,
+          "Vy": 0.22,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V4+0.6D4+QT",
+          "kind": "combination",
+          "N": 11.61,
+          "Mx": 0.04,
+          "My": 0.58,
+          "Vx": 10.97,
+          "Vy": -0.2,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+0.6V4+D4+0.5QT",
+          "kind": "combination",
+          "N": 11.61,
+          "Mx": 0.04,
+          "My": 0.58,
+          "Vx": 10.97,
+          "Vy": -0.22,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+V1+0.6D1+0.5QT",
+          "kind": "combination",
+          "N": 11.61,
+          "Mx": 0.0,
+          "My": 0.62,
+          "Vx": 11.16,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+V2+0.6D2+0.5QT",
+          "kind": "combination",
+          "N": 11.61,
+          "Mx": 0.0,
+          "My": 0.54,
+          "Vx": 10.77,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+V3+0.6D3+0.5QT",
+          "kind": "combination",
+          "N": 11.61,
+          "Mx": -0.06,
+          "My": 0.58,
+          "Vx": 10.97,
+          "Vy": 0.32,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+0.5Q+V4+0.6D4+0.5QT",
+          "kind": "combination",
+          "N": 11.61,
+          "Mx": 0.06,
+          "My": 0.58,
+          "Vx": 10.97,
+          "Vy": -0.32,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D1",
+          "kind": "combination",
+          "N": 10.03,
+          "Mx": 0.0,
+          "My": 0.5,
+          "Vx": 9.47,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D1+QT",
+          "kind": "combination",
+          "N": 10.03,
+          "Mx": 0.0,
+          "My": 0.5,
+          "Vx": 9.47,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D2",
+          "kind": "combination",
+          "N": 10.03,
+          "Mx": 0.0,
+          "My": 0.49,
+          "Vx": 9.4,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D2+QT",
+          "kind": "combination",
+          "N": 10.03,
+          "Mx": 0.0,
+          "My": 0.49,
+          "Vx": 9.4,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D3",
+          "kind": "combination",
+          "N": 10.03,
+          "Mx": -0.01,
+          "My": 0.5,
+          "Vx": 9.43,
+          "Vy": 0.04,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D3+QT",
+          "kind": "combination",
+          "N": 10.03,
+          "Mx": -0.01,
+          "My": 0.5,
+          "Vx": 9.43,
+          "Vy": 0.04,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D4",
+          "kind": "combination",
+          "N": 10.03,
+          "Mx": 0.01,
+          "My": 0.5,
+          "Vx": 9.43,
+          "Vy": -0.04,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+D4+QT",
+          "kind": "combination",
+          "N": 10.03,
+          "Mx": 0.01,
+          "My": 0.5,
+          "Vx": 9.43,
+          "Vy": -0.04,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+0.6V1+0.6D1+0.5QT",
+          "kind": "combination",
+          "N": 13.2,
+          "Mx": 0.0,
+          "My": 0.69,
+          "Vx": 12.63,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+0.6V2+0.6D2+0.5QT",
+          "kind": "combination",
+          "N": 13.2,
+          "Mx": 0.0,
+          "My": 0.64,
+          "Vx": 12.38,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+0.6V3+0.6D3+0.5QT",
+          "kind": "combination",
+          "N": 13.2,
+          "Mx": -0.04,
+          "My": 0.67,
+          "Vx": 12.5,
+          "Vy": 0.2,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+0.6V4+0.6D4+0.5QT",
+          "kind": "combination",
+          "N": 13.2,
+          "Mx": 0.04,
+          "My": 0.67,
+          "Vx": 12.5,
+          "Vy": -0.2,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+D1",
+          "kind": "combination",
+          "N": 13.2,
+          "Mx": 0.0,
+          "My": 0.68,
+          "Vx": 12.54,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+D2",
+          "kind": "combination",
+          "N": 13.2,
+          "Mx": 0.0,
+          "My": 0.66,
+          "Vx": 12.47,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+D3",
+          "kind": "combination",
+          "N": 13.2,
+          "Mx": -0.01,
+          "My": 0.67,
+          "Vx": 12.5,
+          "Vy": 0.04,
+          "Mt": 0.0
+        },
+        {
+          "label": "G1+G2+Q+D4",
+          "kind": "combination",
+          "N": 13.2,
+          "Mx": 0.01,
+          "My": 0.67,
+          "Vx": 12.5,
+          "Vy": -0.04,
+          "Mt": 0.0
+        }
+      ],
+      "caseCount": 19,
+      "combinationCount": 28,
+      "extrema": {
+        "N": {
+          "label": "G1+G2+Q+0.6V1+0.6D1+0.5QT",
+          "kind": "combination",
+          "N": 13.2,
+          "Mx": 0.0,
+          "My": 0.69,
+          "Vx": 12.63,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        "Mx": {
+          "label": "Vento Y+ (V3)",
+          "kind": "case",
+          "N": 0.0,
+          "Mx": -0.06,
+          "My": 0.0,
+          "Vx": 0.0,
+          "Vy": 0.3,
+          "Mt": 0.0
+        },
+        "My": {
+          "label": "G1+G2+Q+0.6V1+0.6D1+0.5QT",
+          "kind": "combination",
+          "N": 13.2,
+          "Mx": 0.0,
+          "My": 0.69,
+          "Vx": 12.63,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        "Vx": {
+          "label": "G1+G2+Q+0.6V1+0.6D1+0.5QT",
+          "kind": "combination",
+          "N": 13.2,
+          "Mx": 0.0,
+          "My": 0.69,
+          "Vx": 12.63,
+          "Vy": 0.0,
+          "Mt": 0.0
+        },
+        "Vy": {
+          "label": "G1+G2+0.5Q+V3+0.6D3+0.5QT",
+          "kind": "combination",
+          "N": 11.61,
+          "Mx": -0.06,
+          "My": 0.58,
+          "Vx": 10.97,
+          "Vy": 0.32,
+          "Mt": 0.0
+        },
+        "Mt": {
+          "label": "Peso próprio (G1)",
+          "kind": "case",
+          "N": 8.57,
+          "Mx": 0.0,
+          "My": 0.44,
+          "Vx": 8.14,
+          "Vy": 0.0,
+          "Mt": 0.0
+        }
+      }
+    }
+  },
+  "simultaneousPairs": [
+    {
+      "label": "Peso próprio (G1)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 15.19,
+        "Mx": 0.0,
+        "My": -0.17,
+        "Vx": 0.0,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Adicional (G2)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 2.44,
+        "Mx": 0.0,
+        "My": -0.05,
+        "Vx": 0.0,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Solo (S)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Vx": 0.0,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Acidental (Q)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 5.78,
+        "Mx": 0.0,
+        "My": -0.05,
+        "Vx": 0.0,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Água (A)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Vx": 0.0,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Vento X+ (V1)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": 0.0,
+        "My": 0.06,
+        "Vx": 0.34,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Vento X- (V2)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": 0.0,
+        "My": -0.06,
+        "Vx": -0.34,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Vento Y+ (V3)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": -0.12,
+        "My": 0.0,
+        "Vx": 0.0,
+        "Vy": 0.6,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Vento Y- (V4)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": 0.12,
+        "My": 0.0,
+        "Vx": 0.0,
+        "Vy": -0.6,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Desaprumo X+ (D1)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": 0.0,
+        "My": 0.02,
+        "Vx": 0.06,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Desaprumo X- (D2)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": 0.0,
+        "My": -0.02,
+        "Vx": -0.06,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Desaprumo Y+ (D3)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": -0.02,
+        "My": 0.0,
+        "Vx": 0.0,
+        "Vy": 0.07,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Desaprumo Y- (D4)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": 0.02,
+        "My": 0.0,
+        "Vx": 0.0,
+        "Vy": -0.07,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Subpressão (AS)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Vx": 0.0,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Temperatura 1 (T1)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Vx": 0.0,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Temperatura 2 (T2)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Vx": 0.0,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Protensão (P)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Vx": 0.0,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Retração (R)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Vx": 0.0,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "Q_TELHADO_MANUTENCAO (QT)",
+      "kind": "case",
+      "summedComponents": {
+        "N": 0.0,
+        "Mx": 0.0,
+        "My": 0.0,
+        "Vx": 0.0,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+0.5Q+0.6V1+0.6D1+QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 20.52,
+        "Mx": 0.0,
+        "My": -0.2,
+        "Vx": 0.25,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+0.5Q+0.6V1+D1+0.5QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 20.52,
+        "Mx": 0.0,
+        "My": -0.19,
+        "Vx": 0.28,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+0.5Q+0.6V2+0.6D2+QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 20.52,
+        "Mx": 0.0,
+        "My": -0.3,
+        "Vx": -0.25,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+0.5Q+0.6V2+D2+0.5QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 20.52,
+        "Mx": 0.0,
+        "My": -0.3,
+        "Vx": -0.28,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+0.5Q+0.6V3+0.6D3+QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 20.52,
+        "Mx": -0.08,
+        "My": -0.25,
+        "Vx": 0.0,
+        "Vy": 0.4,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+0.5Q+0.6V3+D3+0.5QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 20.52,
+        "Mx": -0.08,
+        "My": -0.25,
+        "Vx": 0.0,
+        "Vy": 0.43,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+0.5Q+0.6V4+0.6D4+QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 20.52,
+        "Mx": 0.08,
+        "My": -0.25,
+        "Vx": 0.0,
+        "Vy": -0.4,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+0.5Q+0.6V4+D4+0.5QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 20.52,
+        "Mx": 0.08,
+        "My": -0.25,
+        "Vx": 0.0,
+        "Vy": -0.43,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+0.5Q+V1+0.6D1+0.5QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 20.52,
+        "Mx": 0.0,
+        "My": -0.17,
+        "Vx": 0.39,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+0.5Q+V2+0.6D2+0.5QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 20.52,
+        "Mx": 0.0,
+        "My": -0.33,
+        "Vx": -0.39,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+0.5Q+V3+0.6D3+0.5QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 20.52,
+        "Mx": -0.12,
+        "My": -0.25,
+        "Vx": 0.0,
+        "Vy": 0.64,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+0.5Q+V4+0.6D4+0.5QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 20.52,
+        "Mx": 0.12,
+        "My": -0.25,
+        "Vx": 0.0,
+        "Vy": -0.64,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+D1",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 17.64,
+        "Mx": 0.0,
+        "My": -0.21,
+        "Vx": 0.07,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+D1+QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 17.64,
+        "Mx": 0.0,
+        "My": -0.21,
+        "Vx": 0.07,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+D2",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 17.64,
+        "Mx": 0.0,
+        "My": -0.24,
+        "Vx": -0.07,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+D2+QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 17.64,
+        "Mx": 0.0,
+        "My": -0.24,
+        "Vx": -0.07,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+D3",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 17.64,
+        "Mx": -0.02,
+        "My": -0.22,
+        "Vx": 0.0,
+        "Vy": 0.07,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+D3+QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 17.64,
+        "Mx": -0.02,
+        "My": -0.22,
+        "Vx": 0.0,
+        "Vy": 0.07,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+D4",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 17.64,
+        "Mx": 0.02,
+        "My": -0.22,
+        "Vx": 0.0,
+        "Vy": -0.07,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+D4+QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 17.64,
+        "Mx": 0.02,
+        "My": -0.22,
+        "Vx": 0.0,
+        "Vy": -0.07,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+Q+0.6V1+0.6D1+0.5QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 23.42,
+        "Mx": 0.0,
+        "My": -0.23,
+        "Vx": 0.25,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+Q+0.6V2+0.6D2+0.5QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 23.42,
+        "Mx": 0.0,
+        "My": -0.33,
+        "Vx": -0.25,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+Q+0.6V3+0.6D3+0.5QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 23.42,
+        "Mx": -0.08,
+        "My": -0.27,
+        "Vx": 0.0,
+        "Vy": 0.4,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+Q+0.6V4+0.6D4+0.5QT",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 23.42,
+        "Mx": 0.08,
+        "My": -0.27,
+        "Vx": 0.0,
+        "Vy": -0.4,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+Q+D1",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 23.42,
+        "Mx": 0.0,
+        "My": -0.26,
+        "Vx": 0.07,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+Q+D2",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 23.42,
+        "Mx": 0.0,
+        "My": -0.29,
+        "Vx": -0.07,
+        "Vy": 0.0,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+Q+D3",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 23.42,
+        "Mx": -0.02,
+        "My": -0.27,
+        "Vx": 0.0,
+        "Vy": 0.07,
+        "Mt": 0.0
+      }
+    },
+    {
+      "label": "G1+G2+Q+D4",
+      "kind": "combination",
+      "summedComponents": {
+        "N": 23.42,
+        "Mx": 0.02,
+        "My": -0.27,
+        "Vx": 0.0,
+        "Vy": -0.07,
+        "Mt": 0.0
+      }
+    }
+  ],
+  "componentsUseGlobalAxes": true,
+  "nativeMtHeaderKeptDespiteDimensionalAmbiguity": true,
+  "foundationCombinationsNotSilentlyClassifiedAsBeamELU": true,
+  "beamBiaxialSectionVerified": false,
+  "geotechnicalValidation": false,
+  "structuralApproval": false
+}
