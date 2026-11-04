@@ -1,0 +1,290 @@
+Diagnóstico da estrutura
+
+Distribuição das cargas verticais
+
+Ação
+Carregamentos (kN)
+Percentual (%)
+Peso próprio
+803.27
+70.2
+Adicional
+138.86
+12.1
+Acidental
+184.35
+16.1
+Q_TELHADO_MANUTENCAO
+17.80
+1.6
+TOTAL
+1144.28
+100.0
+
+
+Relação de carga por área
+
+Pavimento
+Carregamentos (kN)
+Área (m²)
+Carga/área (kN/m²)
+N2
+497.17
+67.67
+7.35
+N1
+621.97
+70.39
+8.84
+N0
+25.14
+-
+-
+TOTAL
+1144.28
+138.06
+8.29
+
+Estabilidade global
+
+Parâmetro
+Gama-Z
+1.06
+(lim 1.10)
+Deslocamento máximo dos pilares (cm)*
+0.17
+Deslocamento médio dos pilares (cm)*
+0.16
+Deslocamento máximo dos pilares* / Htotal
+1/4216
+Deslocamento médio dos pilares* / Htotal
+1/4497
+* Deslocamento dos pilares do último pavimento
+
+Parâmetro
+Máximo
+Direção
+Deslocamento horizontal (cm)
+0.15
+(lim 0.42)
+Vento Y+
+
+Processo P-Delta - Deslocamento no topo da edificação
+
+Carregamento
+Inicial
+Final
+Variação
+Acidental
+0.01
+0.01
+3.63%
+Vento X+
+0.58
+0.62
+7.98%
+Vento X-
+0.58
+0.62
+7.98%
+Vento Y+
+0.87
+0.93
+6.68%
+Vento Y-
+0.87
+0.93
+6.68%
+Desaprumo X+
+0.06
+0.07
+7.87%
+Desaprumo X-
+0.06
+0.07
+7.87%
+Desaprumo Y+
+0.06
+0.06
+6.55%
+Desaprumo Y-
+0.06
+0.06
+6.55%
+
+Índices de consumo de materiais
+
+Elemento
+Consumo por área
+Consumo por volume de concreto
+Concreto
+(m³/m²)
+Forma
+(m²/m²)
+Aço
+(kg/m²)
+Forma
+(m²/m³)
+Aço
+(kg/m³)
+Vigas
+0.05
+0.53
+3.81
+9.98
+71.42
+Pilares
+0.03
+0.52
+3.02
+16.25
+93.62
+Lajes
+0.12
+0.86
+3.08
+7.19
+25.76
+Escadas
+0.01
+0.09
+0.38
+10.31
+43.11
+TOTAL
+0.21
+2.01
+10.30
+9.38
+48.08
+Espessura média do projeto 21.4 cm
+
+Resumo de custos
+
+Relação custo por material (R$)
+Elemento
+Material
+Execução
+Total
+Aço
+18936.40
+4539.88
+23476.27
+Concreto
+15715.09
+4027.68
+19742.77
+Formas
+47602.91
+4812.35
+52415.26
+TOTAL
+82254.40
+13379.90
+95634.30
+
+
+Relação custo por área (R$/m²)
+Pavimento
+Material
+Execução
+Total
+N2
+551.58
+86.59
+638.17
+N1
+632.63
+105.76
+738.39
+TOTAL
+595.77
+96.91
+692.68
+
+Relação custo por elemento (R$)
+Elemento
+Material
+Execução
+Total
+Média
+Vigas
+18673.28
+5122.79
+23796.07
+767.62
+Pilares
+32902.68
+3534.15
+36436.83
+1071.67
+Lajes
+27043.92
+4039.95
+31083.87
+2825.81
+Escadas
+3634.52
+683.01
+4317.53
+4317.53
+TOTAL
+82254.40
+13379.90
+95634.30
+1050.93
+
+
+Dimensionamento dos elementos
+
+Elementos de concreto
+ Pavimento
+ Elementos
+Com sucesso
+Com avisos
+ Com erros
+N2
+Vigas
+14
+1
+0
+Lajes
+5
+0
+0
+Pilares
+11
+0
+0
+N1
+Vigas
+15
+0
+0
+Lajes
+6
+0
+0
+Pilares
+12
+0
+0
+Escadas
+3
+0
+0
+N0
+Vigas
+0
+1
+0
+Sapatas
+0
+0
+14
+Pilares
+0
+11
+0
+
+Nenhum elemento com deslocamento excessivo

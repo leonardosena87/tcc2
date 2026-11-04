@@ -2,6 +2,7 @@
 import argparse
 import importlib.util
 import json
+import re
 from pathlib import Path
 
 HERE = Path(__file__).parent
@@ -46,7 +47,10 @@ def p12_evidence(model):
                 geotechnicalValidation=False, baseRestraintIsStudyIdealization=True)
 
 
-def run(root):
+def run(root, revision='H03-R212'):
+    if not re.fullmatch(r'H03-R[0-9]+', revision):
+        raise ValueError('Identificador de revisão inválido')
+    prefix = revision.removeprefix('H03-')
     branches = {b: load_models(root, b) for b in ('CAD', 'BIM')}
     summary = {}
     for kind in ('portico', 'escada', 'N1', 'N2'):
@@ -60,7 +64,7 @@ def run(root):
                 if row['bimMinusCad'] is not None for key in ('F1', 'F2', 'F3')), default=0),
             maxMomentDifferenceKgfCm=max((abs(row['bimMinusCad'][key]) for row in differences
                 if row['bimMinusCad'] is not None for key in ('M1', 'M2', 'M3')), default=0))
-        (root / f'R212-comparacao-{kind}.json').write_text(
+        (root / f'{prefix}-comparacao-{kind}.json').write_text(
             json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8')
         summary[kind] = {k: v for k, v in result.items() if k not in ('tables', 'nodalLoadDifferences')}
         summary[kind]['nodalDifferences'] = delta
@@ -73,10 +77,10 @@ def run(root):
             summary[kind]['differentSectionProperties'] = result['tables'][
                 'FRAME SECTION PROPERTIES 01 - GENERAL']
     evidence = {branch: p12_evidence(branches[branch]['portico'][1]) for branch in branches}
-    output = dict(revision='H03-R212', comparisons=summary, P12=evidence,
+    output = dict(revision=revision, comparisons=summary, P12=evidence,
                   nativeSAPSolverExecuted=False, fullNativeEquivalenceVerified=False,
                   localAxesReversalsNotSilentlyEquated=True, structuralApproval=False)
-    (root / 'R212-auditoria-resumo.json').write_text(
+    (root / f'{prefix}-auditoria-resumo.json').write_text(
         json.dumps(output, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({kind: dict(counts=entry['counts'],
         geometry=entry['frameUndirectedEndpointMultisetsEqual'],
@@ -87,4 +91,6 @@ def run(root):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('folder', type=Path)
-    run(parser.parse_args().folder)
+    parser.add_argument('--revision', default='H03-R212')
+    args = parser.parse_args()
+    run(args.folder, args.revision)

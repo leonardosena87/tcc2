@@ -1,0 +1,752 @@
+{
+  "revision": "H03-R213",
+  "comparisons": {
+    "portico": {
+      "jointCoordinateMultisetsEqual": true,
+      "frameUndirectedEndpointMultisetsEqual": true,
+      "sectionPropertiesByUndirectedSegmentEqual": true,
+      "nodalLoadPositionPatternKeysEqual": true,
+      "counts": {
+        "CAD": {
+          "joints": 148,
+          "frames": 183
+        },
+        "BIM": {
+          "joints": 148,
+          "frames": 183
+        }
+      },
+      "allExportedTablesEqualAfterSpatialNormalization": false,
+      "comparisonAtExportedPrecision": true,
+      "reverseFrameDirectionsNotSilentlyEquated": true,
+      "unknownMissingInformationNotValidated": true,
+      "completeNativeModelEquivalenceVerified": false,
+      "structuralApproval": false,
+      "nodalDifferences": {
+        "rows": 21,
+        "unmatched": 0,
+        "maxForceDifferenceKgf": 0.04210000000000491,
+        "maxMomentDifferenceKgfCm": 0.009699999999995157
+      },
+      "tableCountsAndEquality": {
+        "JOINT COORDINATES": {
+          "equal": true,
+          "cadRows": 148,
+          "bimRows": 148
+        },
+        "JOINT RESTRAINT ASSIGNMENTS": {
+          "equal": true,
+          "cadRows": 14,
+          "bimRows": 14
+        },
+        "JOINT LOADS - FORCE": {
+          "equal": false,
+          "cadRows": 213,
+          "bimRows": 213
+        },
+        "COMBINATION DEFINITIONS": {
+          "equal": true,
+          "cadRows": 324,
+          "bimRows": 324
+        },
+        "LOAD PATTERN DEFINITIONS": {
+          "equal": true,
+          "cadRows": 12,
+          "bimRows": 12
+        },
+        "LOAD CASE DEFINITIONS": {
+          "equal": true,
+          "cadRows": 13,
+          "bimRows": 13
+        },
+        "CASE - STATIC 1 - LOAD ASSIGNMENTS": {
+          "equal": true,
+          "cadRows": 16,
+          "bimRows": 16
+        },
+        "CASE - STATIC 4 - NONLINEAR PARAMETERS": {
+          "equal": true,
+          "cadRows": 1,
+          "bimRows": 1
+        },
+        "CONNECTIVITY - FRAME": {
+          "equal": false,
+          "cadRows": 183,
+          "bimRows": 183
+        },
+        "FRAME SECTION ASSIGNMENTS": {
+          "equal": false,
+          "cadRows": 183,
+          "bimRows": 183
+        },
+        "FRAME OUTPUT STATION ASSIGNMENTS": {
+          "equal": false,
+          "cadRows": 183,
+          "bimRows": 183
+        },
+        "FRAME RELEASE ASSIGNMENTS 1 - GENERAL": {
+          "equal": true,
+          "cadRows": 2,
+          "bimRows": 2
+        },
+        "FRAME LOCAL AXES ASSIGNMENTS 1 - TYPICAL": {
+          "equal": true,
+          "cadRows": 48,
+          "bimRows": 48
+        },
+        "FRAME LOADS - DISTRIBUTED": {
+          "equal": false,
+          "cadRows": 101,
+          "bimRows": 101
+        },
+        "FRAME LOADS - POINT": {
+          "equal": false,
+          "cadRows": 912,
+          "bimRows": 912
+        },
+        "FRAME SECTION PROPERTIES 01 - GENERAL": {
+          "equal": true,
+          "cadRows": 15,
+          "bimRows": 15
+        },
+        "MATERIAL PROPERTIES 01 - GENERAL": {
+          "equal": true,
+          "cadRows": 4,
+          "bimRows": 4
+        },
+        "MATERIAL PROPERTIES 02 - BASIC MECHANICAL PROPERTIES": {
+          "equal": true,
+          "cadRows": 4,
+          "bimRows": 4
+        },
+        "PROGRAM CONTROL": {
+          "equal": true,
+          "cadRows": 1,
+          "bimRows": 1
+        }
+      },
+      "exports": {
+        "CAD": {
+          "name": "portico_SAP2000_elastico.$2k",
+          "sha256": "e86125d51c45c84004721945006e2ff526b5bb43970b14a8142d307ed42e2c6d"
+        },
+        "BIM": {
+          "name": "portico_SAP2000_elastico.$2k",
+          "sha256": "33dace1587490254f53a3e557d34f2e1dfbd8ed9dc3d7d2bae89cf9797703b4b"
+        }
+      }
+    },
+    "escada": {
+      "jointCoordinateMultisetsEqual": true,
+      "frameUndirectedEndpointMultisetsEqual": true,
+      "sectionPropertiesByUndirectedSegmentEqual": true,
+      "nodalLoadPositionPatternKeysEqual": true,
+      "counts": {
+        "CAD": {
+          "joints": 298,
+          "frames": 389
+        },
+        "BIM": {
+          "joints": 298,
+          "frames": 389
+        }
+      },
+      "allExportedTablesEqualAfterSpatialNormalization": false,
+      "comparisonAtExportedPrecision": true,
+      "reverseFrameDirectionsNotSilentlyEquated": true,
+      "unknownMissingInformationNotValidated": true,
+      "completeNativeModelEquivalenceVerified": false,
+      "structuralApproval": false,
+      "nodalDifferences": {
+        "rows": 0,
+        "unmatched": 0,
+        "maxForceDifferenceKgf": 0,
+        "maxMomentDifferenceKgfCm": 0
+      },
+      "tableCountsAndEquality": {
+        "JOINT COORDINATES": {
+          "equal": true,
+          "cadRows": 298,
+          "bimRows": 298
+        },
+        "JOINT RESTRAINT ASSIGNMENTS": {
+          "equal": true,
+          "cadRows": 25,
+          "bimRows": 25
+        },
+        "JOINT SPRING ASSIGNMENTS 1 - UNCOUPLED": {
+          "equal": true,
+          "cadRows": 11,
+          "bimRows": 11
+        },
+        "JOINT LOADS - FORCE": {
+          "equal": true,
+          "cadRows": 10,
+          "bimRows": 10
+        },
+        "COMBINATION DEFINITIONS": {
+          "equal": true,
+          "cadRows": 324,
+          "bimRows": 324
+        },
+        "LOAD PATTERN DEFINITIONS": {
+          "equal": true,
+          "cadRows": 12,
+          "bimRows": 12
+        },
+        "LOAD CASE DEFINITIONS": {
+          "equal": true,
+          "cadRows": 13,
+          "bimRows": 13
+        },
+        "CASE - STATIC 1 - LOAD ASSIGNMENTS": {
+          "equal": true,
+          "cadRows": 16,
+          "bimRows": 16
+        },
+        "CASE - STATIC 4 - NONLINEAR PARAMETERS": {
+          "equal": true,
+          "cadRows": 1,
+          "bimRows": 1
+        },
+        "CONNECTIVITY - FRAME": {
+          "equal": false,
+          "cadRows": 389,
+          "bimRows": 389
+        },
+        "FRAME SECTION ASSIGNMENTS": {
+          "equal": false,
+          "cadRows": 389,
+          "bimRows": 389
+        },
+        "FRAME OUTPUT STATION ASSIGNMENTS": {
+          "equal": false,
+          "cadRows": 389,
+          "bimRows": 389
+        },
+        "FRAME RELEASE ASSIGNMENTS 1 - GENERAL": {
+          "equal": true,
+          "cadRows": 18,
+          "bimRows": 18
+        },
+        "FRAME LOCAL AXES ASSIGNMENTS 1 - TYPICAL": {
+          "equal": true,
+          "cadRows": 201,
+          "bimRows": 201
+        },
+        "FRAME LOADS - DISTRIBUTED": {
+          "equal": false,
+          "cadRows": 888,
+          "bimRows": 888
+        },
+        "FRAME SECTION PROPERTIES 01 - GENERAL": {
+          "equal": true,
+          "cadRows": 29,
+          "bimRows": 29
+        },
+        "MATERIAL PROPERTIES 01 - GENERAL": {
+          "equal": true,
+          "cadRows": 2,
+          "bimRows": 2
+        },
+        "MATERIAL PROPERTIES 02 - BASIC MECHANICAL PROPERTIES": {
+          "equal": true,
+          "cadRows": 2,
+          "bimRows": 2
+        },
+        "PROGRAM CONTROL": {
+          "equal": true,
+          "cadRows": 1,
+          "bimRows": 1
+        }
+      },
+      "exports": {
+        "CAD": {
+          "name": "grelha_SAP2000_escada_N1.$2k",
+          "sha256": "c7c885e1c7ccfcce3299c0f2903f0a51d01031af7d91c01f8011e0963b814dc4"
+        },
+        "BIM": {
+          "name": "grelha_SAP2000_escada_TCC-7a6267fd-N1.$2k",
+          "sha256": "c8dfa2d4d9b17a2013b8ad097534c893a9641900fad2466fc3431595939c231a"
+        }
+      }
+    },
+    "N1": {
+      "jointCoordinateMultisetsEqual": true,
+      "frameUndirectedEndpointMultisetsEqual": true,
+      "sectionPropertiesByUndirectedSegmentEqual": false,
+      "nodalLoadPositionPatternKeysEqual": true,
+      "counts": {
+        "CAD": {
+          "joints": 473,
+          "frames": 844
+        },
+        "BIM": {
+          "joints": 473,
+          "frames": 844
+        }
+      },
+      "allExportedTablesEqualAfterSpatialNormalization": false,
+      "comparisonAtExportedPrecision": true,
+      "reverseFrameDirectionsNotSilentlyEquated": true,
+      "unknownMissingInformationNotValidated": true,
+      "completeNativeModelEquivalenceVerified": false,
+      "structuralApproval": false,
+      "nodalDifferences": {
+        "rows": 0,
+        "unmatched": 0,
+        "maxForceDifferenceKgf": 0,
+        "maxMomentDifferenceKgfCm": 0
+      },
+      "tableCountsAndEquality": {
+        "JOINT COORDINATES": {
+          "equal": true,
+          "cadRows": 473,
+          "bimRows": 473
+        },
+        "JOINT RESTRAINT ASSIGNMENTS": {
+          "equal": true,
+          "cadRows": 449,
+          "bimRows": 449
+        },
+        "JOINT SPRING ASSIGNMENTS 1 - UNCOUPLED": {
+          "equal": true,
+          "cadRows": 12,
+          "bimRows": 12
+        },
+        "COMBINATION DEFINITIONS": {
+          "equal": true,
+          "cadRows": 324,
+          "bimRows": 324
+        },
+        "LOAD PATTERN DEFINITIONS": {
+          "equal": true,
+          "cadRows": 12,
+          "bimRows": 12
+        },
+        "LOAD CASE DEFINITIONS": {
+          "equal": true,
+          "cadRows": 13,
+          "bimRows": 13
+        },
+        "CASE - STATIC 1 - LOAD ASSIGNMENTS": {
+          "equal": true,
+          "cadRows": 16,
+          "bimRows": 16
+        },
+        "CASE - STATIC 4 - NONLINEAR PARAMETERS": {
+          "equal": true,
+          "cadRows": 1,
+          "bimRows": 1
+        },
+        "CONNECTIVITY - FRAME": {
+          "equal": false,
+          "cadRows": 844,
+          "bimRows": 844
+        },
+        "FRAME SECTION ASSIGNMENTS": {
+          "equal": false,
+          "cadRows": 844,
+          "bimRows": 844
+        },
+        "FRAME OUTPUT STATION ASSIGNMENTS": {
+          "equal": false,
+          "cadRows": 844,
+          "bimRows": 844
+        },
+        "FRAME RELEASE ASSIGNMENTS 1 - GENERAL": {
+          "equal": true,
+          "cadRows": 137,
+          "bimRows": 137
+        },
+        "FRAME RELEASE ASSIGNMENTS 2 - PARTIAL FIXITY": {
+          "equal": true,
+          "cadRows": 1,
+          "bimRows": 1
+        },
+        "FRAME LOADS - DISTRIBUTED": {
+          "equal": false,
+          "cadRows": 2102,
+          "bimRows": 2102
+        },
+        "FRAME SECTION PROPERTIES 01 - GENERAL": {
+          "equal": false,
+          "cadRows": 24,
+          "bimRows": 24
+        },
+        "MATERIAL PROPERTIES 01 - GENERAL": {
+          "equal": true,
+          "cadRows": 2,
+          "bimRows": 2
+        },
+        "MATERIAL PROPERTIES 02 - BASIC MECHANICAL PROPERTIES": {
+          "equal": true,
+          "cadRows": 2,
+          "bimRows": 2
+        },
+        "PROGRAM CONTROL": {
+          "equal": true,
+          "cadRows": 1,
+          "bimRows": 1
+        }
+      },
+      "exports": {
+        "CAD": {
+          "name": "grelha_SAP2000_laje_N1.$2k",
+          "sha256": "f9cecca5a4d66dfaddd68127947f1a185a8e9ccc5f26b0b532aba02d2f5a8ae0"
+        },
+        "BIM": {
+          "name": "grelha_SAP2000_laje_TCC-7a6267fd-N1.$2k",
+          "sha256": "f0de81f529e48e4b96fef38871ca8776b38c7668bea1fdb282020f7bc7f314ff"
+        }
+      },
+      "differentSectionProperties": {
+        "equal": false,
+        "cadRows": 24,
+        "bimRows": 24,
+        "onlyCad": [
+          {
+            "row": {
+              "AMod": 1.0,
+              "Area": 600.0,
+              "I22": 45000.0,
+              "I2Mod": 1.0,
+              "I33": 20000.0,
+              "I3Mod": 1.0,
+              "JMod": 0.6,
+              "Material": "C-25A",
+              "Shape": "Rectangular",
+              "TorsConst": 46953.09,
+              "t2": 30.0,
+              "t3": 20.0
+            },
+            "count": 1
+          }
+        ],
+        "onlyBim": [
+          {
+            "row": {
+              "AMod": 1.0,
+              "Area": 600.0,
+              "I22": 45000.0,
+              "I2Mod": 1.0,
+              "I33": 18540.0,
+              "I3Mod": 1.0,
+              "JMod": 0.6,
+              "Material": "C-25A",
+              "Shape": "Rectangular",
+              "TorsConst": 46953.09,
+              "t2": 30.0,
+              "t3": 20.0
+            },
+            "count": 1
+          }
+        ]
+      }
+    },
+    "N2": {
+      "jointCoordinateMultisetsEqual": true,
+      "frameUndirectedEndpointMultisetsEqual": true,
+      "sectionPropertiesByUndirectedSegmentEqual": true,
+      "nodalLoadPositionPatternKeysEqual": true,
+      "counts": {
+        "CAD": {
+          "joints": 443,
+          "frames": 794
+        },
+        "BIM": {
+          "joints": 443,
+          "frames": 794
+        }
+      },
+      "allExportedTablesEqualAfterSpatialNormalization": false,
+      "comparisonAtExportedPrecision": true,
+      "reverseFrameDirectionsNotSilentlyEquated": true,
+      "unknownMissingInformationNotValidated": true,
+      "completeNativeModelEquivalenceVerified": false,
+      "structuralApproval": false,
+      "nodalDifferences": {
+        "rows": 9,
+        "unmatched": 0,
+        "maxForceDifferenceKgf": 0.0002999999999957481,
+        "maxMomentDifferenceKgfCm": 0.0
+      },
+      "tableCountsAndEquality": {
+        "JOINT COORDINATES": {
+          "equal": true,
+          "cadRows": 443,
+          "bimRows": 443
+        },
+        "JOINT RESTRAINT ASSIGNMENTS": {
+          "equal": true,
+          "cadRows": 412,
+          "bimRows": 412
+        },
+        "JOINT SPRING ASSIGNMENTS 1 - UNCOUPLED": {
+          "equal": true,
+          "cadRows": 11,
+          "bimRows": 11
+        },
+        "JOINT LOADS - FORCE": {
+          "equal": false,
+          "cadRows": 36,
+          "bimRows": 36
+        },
+        "COMBINATION DEFINITIONS": {
+          "equal": true,
+          "cadRows": 324,
+          "bimRows": 324
+        },
+        "LOAD PATTERN DEFINITIONS": {
+          "equal": true,
+          "cadRows": 12,
+          "bimRows": 12
+        },
+        "LOAD CASE DEFINITIONS": {
+          "equal": true,
+          "cadRows": 13,
+          "bimRows": 13
+        },
+        "CASE - STATIC 1 - LOAD ASSIGNMENTS": {
+          "equal": true,
+          "cadRows": 16,
+          "bimRows": 16
+        },
+        "CASE - STATIC 4 - NONLINEAR PARAMETERS": {
+          "equal": true,
+          "cadRows": 1,
+          "bimRows": 1
+        },
+        "CONNECTIVITY - FRAME": {
+          "equal": false,
+          "cadRows": 794,
+          "bimRows": 794
+        },
+        "FRAME SECTION ASSIGNMENTS": {
+          "equal": false,
+          "cadRows": 794,
+          "bimRows": 794
+        },
+        "FRAME OUTPUT STATION ASSIGNMENTS": {
+          "equal": false,
+          "cadRows": 794,
+          "bimRows": 794
+        },
+        "FRAME RELEASE ASSIGNMENTS 1 - GENERAL": {
+          "equal": true,
+          "cadRows": 150,
+          "bimRows": 150
+        },
+        "FRAME LOADS - DISTRIBUTED": {
+          "equal": false,
+          "cadRows": 2001,
+          "bimRows": 2001
+        },
+        "FRAME SECTION PROPERTIES 01 - GENERAL": {
+          "equal": true,
+          "cadRows": 8,
+          "bimRows": 8
+        },
+        "MATERIAL PROPERTIES 01 - GENERAL": {
+          "equal": true,
+          "cadRows": 2,
+          "bimRows": 2
+        },
+        "MATERIAL PROPERTIES 02 - BASIC MECHANICAL PROPERTIES": {
+          "equal": true,
+          "cadRows": 2,
+          "bimRows": 2
+        },
+        "PROGRAM CONTROL": {
+          "equal": true,
+          "cadRows": 1,
+          "bimRows": 1
+        }
+      },
+      "exports": {
+        "CAD": {
+          "name": "grelha_SAP2000_laje_N2.$2k",
+          "sha256": "ed23da81acb8f420ae285da364f8b5b010d2910419fd418d423e9960b0b47c91"
+        },
+        "BIM": {
+          "name": "grelha_SAP2000_laje_TCC-7a6267fd-N2.$2k",
+          "sha256": "9ae9fca2a187e36e57e5eb36cbd58376efcda881bd8fc5b0ede7184f80e585fc"
+        }
+      }
+    }
+  },
+  "P12": {
+    "CAD": {
+      "jointsCm": {
+        "12": [
+          355.0,
+          390.0,
+          320.0
+        ],
+        "28": [
+          355.0,
+          390.0,
+          177.4
+        ],
+        "47": [
+          355.0,
+          390.0,
+          20.0
+        ],
+        "67": [
+          355.0,
+          390.0,
+          0.0
+        ]
+      },
+      "verticalFramesCm": [
+        [
+          "14",
+          [
+            [
+              355.0,
+              390.0,
+              0.0
+            ],
+            [
+              355.0,
+              390.0,
+              20.0
+            ]
+          ]
+        ],
+        [
+          "27",
+          [
+            [
+              355.0,
+              390.0,
+              20.0
+            ],
+            [
+              355.0,
+              390.0,
+              177.4
+            ]
+          ]
+        ],
+        [
+          "58",
+          [
+            [
+              355.0,
+              390.0,
+              177.4
+            ],
+            [
+              355.0,
+              390.0,
+              320.0
+            ]
+          ]
+        ]
+      ],
+      "restraint": {
+        "Joint": "67",
+        "U1": "YES",
+        "U2": "YES",
+        "U3": "YES",
+        "R1": "YES",
+        "R2": "YES",
+        "R3": "YES"
+      },
+      "continuousAtIntermediateLevel": true,
+      "noColumnAboveN1": true,
+      "geotechnicalValidation": false,
+      "baseRestraintIsStudyIdealization": true
+    },
+    "BIM": {
+      "jointsCm": {
+        "13": [
+          355.0,
+          390.0,
+          320.0
+        ],
+        "31": [
+          355.0,
+          390.0,
+          177.4
+        ],
+        "53": [
+          355.0,
+          390.0,
+          20.0
+        ],
+        "74": [
+          355.0,
+          390.0,
+          0.0
+        ]
+      },
+      "verticalFramesCm": [
+        [
+          "14",
+          [
+            [
+              355.0,
+              390.0,
+              0.0
+            ],
+            [
+              355.0,
+              390.0,
+              20.0
+            ]
+          ]
+        ],
+        [
+          "27",
+          [
+            [
+              355.0,
+              390.0,
+              20.0
+            ],
+            [
+              355.0,
+              390.0,
+              177.4
+            ]
+          ]
+        ],
+        [
+          "58",
+          [
+            [
+              355.0,
+              390.0,
+              177.4
+            ],
+            [
+              355.0,
+              390.0,
+              320.0
+            ]
+          ]
+        ]
+      ],
+      "restraint": {
+        "Joint": "74",
+        "U1": "YES",
+        "U2": "YES",
+        "U3": "YES",
+        "R1": "YES",
+        "R2": "YES",
+        "R3": "YES"
+      },
+      "continuousAtIntermediateLevel": true,
+      "noColumnAboveN1": true,
+      "geotechnicalValidation": false,
+      "baseRestraintIsStudyIdealization": true
+    }
+  },
+  "nativeSAPSolverExecuted": false,
+  "fullNativeEquivalenceVerified": false,
+  "localAxesReversalsNotSilentlyEquated": true,
+  "structuralApproval": false
+}
