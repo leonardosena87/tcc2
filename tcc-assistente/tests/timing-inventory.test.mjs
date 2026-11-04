@@ -2,6 +2,18 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {utc,classify,overlaps} from '../estudos/h03-r86/inventariar-tempos.mjs';
 
+test('intervalos R211/R213 em segundos conservam unidade e limites sem virar tempo de solver',()=>{
+  const a=classify({wallSeconds:399.739,startUtc:'2026-11-04T15:53:40.278Z',endUtc:'2026-11-04T16:00:20.017Z'});
+  assert.equal(a.durationMs,399739);assert.equal(a.utcDifferenceMs,399739);
+  assert.equal(a.durationField,'wallSeconds');assert.equal(a.durationSourceUnit,'s');
+  const b=classify({intervalo_observado_s:1241.641,inicio:'2026-11-04T12:37:37.124Z',fim:'2026-11-04T12:58:18.765Z'});
+  assert.equal(b.durationMs,1241641);assert.equal(b.utcDifferenceMs,1241641);
+  assert.equal(b.eligibleForFinalFlowRanking,false);
+  assert.throws(()=>classify({wallSeconds:-1}),/negativa/);
+  const c=classify({durationMs:1000,wallSeconds:2});
+  assert.equal(c.durationMs,1000);assert.deepEqual(c.sourceSeconds,{wallSeconds:2});
+});
+
 test('inventory does not invent a timezone or turn an absent duration into zero',()=>{
   assert.equal(utc('2026-10-30T12:00:00'),null);
   assert.equal(utc({utc:'2026-10-30T12:00:00Z'}),'2026-10-30T12:00:00.000Z');
@@ -10,6 +22,9 @@ test('inventory does not invent a timezone or turn an absent duration into zero'
 });
 test('consolidated containers are identified without counting their nested intervals again',()=>{
   const r=classify({records:[{elapsedMs:9000}]});assert.equal(r.classification,'container_nao_expandido');assert.equal(r.durationMs,null);
+  const array=classify([{elapsedMs:9000},{elapsedMs:8000}]);
+  assert.equal(array.classification,'container_nao_expandido');assert.equal(array.durationMs,null);
+  assert.throws(()=>classify(null),/nao e objeto/);
 });
 test('elapsed and UTC differences are retained separately instead of silently replacing a measurement',()=>{
   const r=classify({elapsedMs:9500,startUtc:'2026-10-30T12:00:00Z',endUtc:'2026-10-30T12:00:10Z',rankingAllowed:true});

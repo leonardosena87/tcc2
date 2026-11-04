@@ -1,0 +1,121 @@
+{
+  "revision": "H03/R216",
+  "createdAtUtc": "2026-11-04T22:00:36.550Z",
+  "files": 307,
+  "counts": {
+    "registro_sem_duracao_principal": 79,
+    "intervalo_com_duracao": 209,
+    "container_nao_expandido": 19
+  },
+  "overlappingPairs": 31,
+  "recentRecords": [
+    {
+      "id": "T160",
+      "source": "outputs/ELS-H03-R201/tempos-observados.json",
+      "sha256": "aea2871efca5a3afda627678c2edc93178c96f71bf10967d8ec65cb308dd1e43",
+      "group": "historico_exploratorio",
+      "classification": "registro_sem_duracao_principal",
+      "durationMs": null,
+      "durationField": null,
+      "durationSourceUnit": null,
+      "sourceSeconds": {},
+      "otherDurationFields": {},
+      "startUtc": null,
+      "endUtc": null,
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "containsNestedRecords": false,
+      "scope": null,
+      "branch": null,
+      "status": null,
+      "knownInterruption": false,
+      "eligibleForFinalFlowRanking": false
+    },
+    {
+      "id": "T209",
+      "source": "outputs/H03-R213-CONTINUIDADE-CAD-NAO-EXECUTAR/R213-tempo-observado.json",
+      "sha256": "4caf7725329d7311c7ea17581f7bb4233b23b3081a478742bd7bba024911a6fc",
+      "group": "historico_exploratorio",
+      "classification": "intervalo_com_duracao",
+      "durationMs": 399739,
+      "durationField": "wallSeconds",
+      "durationSourceUnit": "s",
+      "sourceSeconds": {
+        "wallSeconds": 399.739
+      },
+      "otherDurationFields": {},
+      "startUtc": "2026-11-04T15:53:40.278Z",
+      "endUtc": "2026-11-04T16:00:20.017Z",
+      "utcDifferenceMs": 399739,
+      "durationMinusUtcMs": 0,
+      "containsNestedRecords": false,
+      "scope": "Intervalo observado: seleção de vigas para unificar até salvamento final após conferência/exportação; não inclui recuperação inicial do Eberick nem abertura.",
+      "branch": null,
+      "status": null,
+      "knownInterruption": false,
+      "eligibleForFinalFlowRanking": false
+    },
+    {
+      "id": "T289",
+      "source": "outputs/V2-H03-R211-CAD-EQUIVALENTE-NAO-EXECUTAR/R211-tempos-observados.json",
+      "sha256": "9be683f4531f6055138e0b66968c46156050339661b8b65a6f587326f55993d2",
+      "group": "historico_exploratorio",
+      "classification": "intervalo_com_duracao",
+      "durationMs": 1241641,
+      "durationField": "intervalo_observado_s",
+      "durationSourceUnit": "s",
+      "sourceSeconds": {
+        "intervalo_observado_s": 1241.641
+      },
+      "otherDurationFields": {},
+      "startUtc": "2026-11-04T12:37:37.124Z",
+      "endUtc": "2026-11-04T12:58:18.765Z",
+      "utcDifferenceMs": 1241641,
+      "durationMinusUtcMs": 0,
+      "containsNestedRecords": false,
+      "scope": null,
+      "branch": null,
+      "status": null,
+      "knownInterruption": false,
+      "eligibleForFinalFlowRanking": false
+    },
+    {
+      "id": "T303",
+      "source": "outputs/W08-H03-R206-DELIMITACAO-NAO-EXECUTAR/tempos-recentes-por-cenario.json",
+      "sha256": "a0824b764c113307d514419e237acf9a44b282680e51ab4e57a92e2aab21e5b6",
+      "group": "historico_exploratorio",
+      "classification": "container_nao_expandido",
+      "durationMs": null,
+      "durationField": null,
+      "durationSourceUnit": null,
+      "sourceSeconds": {},
+      "otherDurationFields": {},
+      "startUtc": null,
+      "endUtc": null,
+      "utcDifferenceMs": null,
+      "durationMinusUtcMs": null,
+      "containsNestedRecords": true,
+      "scope": null,
+      "branch": null,
+      "status": null,
+      "knownInterruption": false,
+      "eligibleForFinalFlowRanking": false
+    }
+  ],
+  "fullFlowTotals": {
+    "CAD": null,
+    "BIM": null
+  },
+  "isolatedAIWorkOnMainBuilding": {
+    "inferenceSeconds": null,
+    "tokens": null,
+    "cost": null
+  },
+  "finalRankingAllowed": false,
+  "limitations": [
+    "Arquivos diretos tempo*.json: relatorios nativos DOCX/TXT e tempos embutidos em README nao sao varridos por este inventario.",
+    "Intervalos observados incluem navegacao, raciocinio, capturas e possiveis interrupcoes; nao sao tempo ativo puro.",
+    "Nao somar registros sobrepostos, revisoes exploratorias, demonstracoes ou tempo interno de calculo ao intervalo que ja o contem.",
+    "Nao ha pares completos de autoria, intercambio, complementacao e verificacao final para classificar CAD/BIM."
+  ]
+}
