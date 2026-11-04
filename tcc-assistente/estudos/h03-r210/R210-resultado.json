@@ -1,0 +1,32 @@
+{
+  "revisao": "H03-R210",
+  "data": "2026-11-04",
+  "fluxo": "BIM-Eberick",
+  "natureza": "ensaio academico - nao executar",
+  "P6_secao_cm": [30, 30],
+  "P6_niveis_conferidos_cm": [20, 320, 639],
+  "P12_mantido_da_R209": true,
+  "V2_secoes_cm_ordem_P6_P4": [[30,16],[30,20],[30,45]],
+  "V2_vaos_livres_cm": [190,65,335],
+  "V2_Md_negativo_kNm_P6_P5_P12_P4": [-8.40,-5.69,-26.65,-22.28],
+  "V2_Md_positivo_kNm": [2.42,6.35,27.21],
+  "N1_vigas_sucesso_aviso_erro": [12,0,0],
+  "N1_escadas_sucesso_aviso_erro": [3,0,0],
+  "N1_pilares_sucesso_aviso_erro": [10,2,0],
+  "carga_vertical_total_kN": 1144.28,
+  "area_aproximada_m2": 138.06,
+  "tempo_processamento_nativo_segundos": 9,
+  "tempo_fluxo_completo_segundos": null,
+  "comparacao_pareada_CAD_concluida": false,
+  "sincronizado_Revit_DWG": false,
+  "compatibilidade_P6_porta_P3": "indeterminada - folga nominal menor que incerteza da referencia",
+  "pendencias": [
+    "N1 P3 e P4 Aviso 10",
+    "N2 V3 Aviso 08",
+    "N0 viga com aviso e 11 pilares com avisos",
+    "14 sapatas com erro - fora do escopo e sem sondagem",
+    "apoios idealizados, reacoes e continuidade",
+    "detalhamento, ancoragem e montagem",
+    "compatibilizacao arquitetonica e fluxo CAD equivalente"
+  ]
+}
