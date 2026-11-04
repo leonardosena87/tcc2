@@ -1,0 +1,100 @@
+{
+  "createdAt": "2026-11-04T22:40:36.128280+00:00",
+  "nativeProjects": [
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\H03-R217-V1-VERIFICACAO-NAO-EXECUTAR\\CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "1bb22b8316417a11f53d9506483910593aad11f26d8db2548c72c969d651ca53",
+      "crc": "OK"
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\H03-R217-V1-VERIFICACAO-NAO-EXECUTAR\\BIM\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sha256": "84ce9482e16afdeac95c3301fbbae63c52dc2555e069c3c7b4a239b0618348b2",
+      "crc": "OK"
+    }
+  ],
+  "nativeModelChanged": false,
+  "fullVerificationComplete": false,
+  "classification": "Correcao estrutural comum aos dois fluxos; nao e perda exclusiva de interoperabilidade.",
+  "testResult": {
+    "auxiliaryAnalyticalTestsPassed": 10,
+    "timingInventoryTestsPassed": 8
+  },
+  "maxNativeReportDifference": 0.0,
+  "detailing": {
+    "status": "DETALHE_ATUAL_NAO_ATENDE_A_TRIAGEM_TRANSVERSAL",
+    "fullVerificationComplete": false,
+    "nativeModelChanged": false,
+    "dv_mm": 259.7,
+    "dh_mm": 159.7,
+    "vrd2_vertical_kN": 225.3825,
+    "vrd2_horizontal_kN": 207.89517857142854,
+    "max_vv_kN": 18.474999999999998,
+    "max_vh_kN": 15.547736006000001,
+    "spacing_limit_mm": 95.82,
+    "current_spacing_mm": 150,
+    "current_spacing_passes": false,
+    "trial_spacing_mm": 90,
+    "trial_spacing_passes": true,
+    "transverse_leg_spacing_vertical_mm": 133.7,
+    "transverse_leg_spacing_horizontal_mm": 233.7,
+    "transverse_horizontal_limit_mm": 159.7,
+    "current_horizontal_leg_spacing_passes": false,
+    "trial_midheight_leg_spacing_mm": 116.85,
+    "trial_midheight_leg_spacing_passes": true,
+    "trial_concrete_ignored_shear_index": 0.6216065790425802,
+    "vrd2_linear_envelope_index": 0.15675817847307855,
+    "anchorage": {
+      "fbd_MPa": 2.885584410016926,
+      "basic_mm": 301.3480438737898,
+      "minimum_mm": 100,
+      "trial_force_bound_kN": 34.381109054,
+      "trial_area_ratio": 0.7865889966455575,
+      "straight_trial_required_mm": 237.03705547178575,
+      "hooked_trial_required_mm": 165.92593883025,
+      "nominal_available_mm": 170,
+      "status": "NAO_FECHADA; triagem conservadora, sem comprovar distribuicao por barra, dobras, nos e apoios"
+    },
+    "limitations": [
+      "Grelha R214 reconstruida linearmente; calibracao vertical nao valida a componente horizontal.",
+      "Sem verificacao completa de ELS, nos, ancoragens, compatibilidade de apoio ou contato com solo.",
+      "Envoltoria de flexao por combinacao; nao e vetor simultaneo de uma secao.",
+      "Indice com piso de momento vertical 8 kN.m e sensibilidade ao valor nativo, nao substitui todas as exigencias normativas."
+    ]
+  },
+  "controls": {
+    "CAD": {
+      "vertical_abs_error_kNm": 0.004642667500000031,
+      "relativeResidual": 3.6782888044385577e-06,
+      "shearSensitivity_kappa_5_over_6": {
+        "gridMhMax": 1.63195853016,
+        "gridVhMax": 14.828583951999999
+      }
+    },
+    "BIM": {
+      "vertical_abs_error_kNm": 0.004687908900000037,
+      "relativeResidual": 3.2741877207918507e-06,
+      "shearSensitivity_kappa_5_over_6": {
+        "gridMhMax": 1.6319585619399999,
+        "gridVhMax": 14.828542932000001
+      }
+    }
+  },
+  "results": {
+    "CAD": {
+      "combination": "1.4G1+1.4G2+1.4Q+0.84V1+0.84D1+0.7QT",
+      "mv_bound": 2.385,
+      "mh_bound": 1.78063240918,
+      "utilization": 0.4582743681163497,
+      "with_native_min": 0.9670494248308832
+    },
+    "BIM": {
+      "combination": "1.4G1+1.4G2+1.4Q+0.84V1+0.84D1+0.7QT",
+      "mv_bound": 2.385,
+      "mh_bound": 1.78046843586,
+      "utilization": 0.4582552244889351,
+      "with_native_min": 0.9670338976993613
+    }
+  }
+}
