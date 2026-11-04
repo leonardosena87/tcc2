@@ -1,0 +1,69 @@
+{
+  "revisao": "H03-R211",
+  "fluxo": "CAD-Eberick",
+  "data": "2026-11-04",
+  "nao_executar": true,
+  "base": "CAD R207 preservado",
+  "P11_equivale_BIM_P6": true,
+  "P11_secao_cm": [
+    30,
+    30
+  ],
+  "P12_cm": [
+    355,
+    390
+  ],
+  "P12_secao_cm": [
+    20,
+    30
+  ],
+  "V2_secoes_cm_P2_a_P5": [
+    [
+      30,
+      45
+    ],
+    [
+      30,
+      20
+    ]
+  ],
+  "V14_secao_cm": [
+    30,
+    16
+  ],
+  "vigas_N1_sucesso_aviso_erro": [
+    16,
+    0,
+    0
+  ],
+  "escadas_N1_sucesso_aviso_erro": [
+    3,
+    0,
+    0
+  ],
+  "pilares_N1_sucesso_aviso_erro": [
+    10,
+    2,
+    0
+  ],
+  "total_kN": 1144.28,
+  "area_m2": 138.06,
+  "processamento_nativo_final_s": 9,
+  "BIM_R210_processamento_nativo_final_s": 9,
+  "tempo_fluxo_completo_s": null,
+  "comparacao_produtividade_fechada": false,
+  "sincronizado_Revit_DWG": false,
+  "P12_largura_superior_tabela_no_CAD_BIM_cm": [
+    0,
+    20
+  ],
+  "P12_prumada_principal_em_ambos": "somente L2, nivel320cm, altura300cm",
+  "pendencias": [
+    "avisos da superestrutura",
+    "apoios idealizados e reacoes",
+    "diferencas de agrupamento e detalhamento",
+    "compatibilizacao arquitetonica",
+    "autoria RVT/DWG atualizada",
+    "medicao pareada dos fluxos"
+  ]
+}
