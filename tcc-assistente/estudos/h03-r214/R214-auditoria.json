@@ -1,0 +1,250 @@
+{
+  "revision": "H03-R214",
+  "genericComparisons": {
+    "portico": {
+      "jointCoordinateMultisetsEqual": true,
+      "frameUndirectedEndpointMultisetsEqual": true,
+      "sectionPropertiesByUndirectedSegmentEqual": true,
+      "nodalLoadPositionPatternKeysEqual": true,
+      "counts": {
+        "CAD": {
+          "joints": 148,
+          "frames": 183
+        },
+        "BIM": {
+          "joints": 148,
+          "frames": 183
+        }
+      },
+      "allExportedTablesEqualAfterSpatialNormalization": false,
+      "comparisonAtExportedPrecision": true,
+      "reverseFrameDirectionsNotSilentlyEquated": true,
+      "unknownMissingInformationNotValidated": true,
+      "completeNativeModelEquivalenceVerified": false,
+      "structuralApproval": false,
+      "sectionDifferences": {
+        "equal": true,
+        "cadRows": 15,
+        "bimRows": 15,
+        "onlyCad": [],
+        "onlyBim": []
+      }
+    },
+    "escada": {
+      "jointCoordinateMultisetsEqual": true,
+      "frameUndirectedEndpointMultisetsEqual": true,
+      "sectionPropertiesByUndirectedSegmentEqual": true,
+      "nodalLoadPositionPatternKeysEqual": true,
+      "counts": {
+        "CAD": {
+          "joints": 298,
+          "frames": 389
+        },
+        "BIM": {
+          "joints": 298,
+          "frames": 389
+        }
+      },
+      "allExportedTablesEqualAfterSpatialNormalization": false,
+      "comparisonAtExportedPrecision": true,
+      "reverseFrameDirectionsNotSilentlyEquated": true,
+      "unknownMissingInformationNotValidated": true,
+      "completeNativeModelEquivalenceVerified": false,
+      "structuralApproval": false,
+      "sectionDifferences": {
+        "equal": true,
+        "cadRows": 29,
+        "bimRows": 29,
+        "onlyCad": [],
+        "onlyBim": []
+      }
+    },
+    "N1": {
+      "jointCoordinateMultisetsEqual": true,
+      "frameUndirectedEndpointMultisetsEqual": true,
+      "sectionPropertiesByUndirectedSegmentEqual": false,
+      "nodalLoadPositionPatternKeysEqual": true,
+      "counts": {
+        "CAD": {
+          "joints": 473,
+          "frames": 844
+        },
+        "BIM": {
+          "joints": 473,
+          "frames": 844
+        }
+      },
+      "allExportedTablesEqualAfterSpatialNormalization": false,
+      "comparisonAtExportedPrecision": true,
+      "reverseFrameDirectionsNotSilentlyEquated": true,
+      "unknownMissingInformationNotValidated": true,
+      "completeNativeModelEquivalenceVerified": false,
+      "structuralApproval": false,
+      "sectionDifferences": {
+        "equal": false,
+        "cadRows": 24,
+        "bimRows": 24,
+        "onlyCad": [
+          {
+            "row": {
+              "AMod": 1.0,
+              "Area": 600.0,
+              "I22": 45000.0,
+              "I2Mod": 1.0,
+              "I33": 20000.0,
+              "I3Mod": 1.0,
+              "JMod": 0.6,
+              "Material": "C-25A",
+              "Shape": "General",
+              "TorsConst": 46953.09,
+              "t2": 1.0,
+              "t3": 1.0
+            },
+            "count": 1
+          }
+        ],
+        "onlyBim": [
+          {
+            "row": {
+              "AMod": 1.0,
+              "Area": 600.0,
+              "I22": 45000.0,
+              "I2Mod": 1.0,
+              "I33": 18540.0,
+              "I3Mod": 1.0,
+              "JMod": 0.6,
+              "Material": "C-25A",
+              "Shape": "General",
+              "TorsConst": 46953.09,
+              "t2": 1.0,
+              "t3": 1.0
+            },
+            "count": 1
+          }
+        ]
+      }
+    },
+    "N2": {
+      "jointCoordinateMultisetsEqual": true,
+      "frameUndirectedEndpointMultisetsEqual": true,
+      "sectionPropertiesByUndirectedSegmentEqual": true,
+      "nodalLoadPositionPatternKeysEqual": true,
+      "counts": {
+        "CAD": {
+          "joints": 443,
+          "frames": 794
+        },
+        "BIM": {
+          "joints": 443,
+          "frames": 794
+        }
+      },
+      "allExportedTablesEqualAfterSpatialNormalization": false,
+      "comparisonAtExportedPrecision": true,
+      "reverseFrameDirectionsNotSilentlyEquated": true,
+      "unknownMissingInformationNotValidated": true,
+      "completeNativeModelEquivalenceVerified": false,
+      "structuralApproval": false,
+      "sectionDifferences": {
+        "equal": true,
+        "cadRows": 8,
+        "bimRows": 8,
+        "onlyCad": [],
+        "onlyBim": []
+      }
+    }
+  },
+  "regeneratedBimN1Section": {
+    "SectionName": "R30x20",
+    "Material": "C-25A",
+    "Shape": "Rectangular",
+    "t2": "30,00",
+    "t3": "20,00",
+    "Area": "600,00",
+    "TorsConst": "46953,09",
+    "I33": "18540,00",
+    "I22": "45000,00",
+    "AMod": "1",
+    "JMod": "0,6",
+    "I2Mod": "1",
+    "I3Mod": "1"
+  },
+  "provenance": [
+    {
+      "group": "CAD",
+      "kind": "escada",
+      "name": "grelha_SAP2000_escada_N1.$2k",
+      "sha256": "4b1b7eb28396594c2eafba6d2bcb003f9ec0b3bbb15e8cbe7357f425c2e4d40f"
+    },
+    {
+      "group": "CAD",
+      "kind": "N1",
+      "name": "grelha_SAP2000_laje_N1.$2k",
+      "sha256": "d00710f95169bb7bb211e7b443c06c9658ffc7b09ce0abae8dd6b873a0968cdc"
+    },
+    {
+      "group": "CAD",
+      "kind": "N2",
+      "name": "grelha_SAP2000_laje_N2.$2k",
+      "sha256": "47bedbdbc680263abedf9df71c8cd7ee1399e0c10a9424adf2d93c98005180f2"
+    },
+    {
+      "group": "CAD",
+      "kind": "portico",
+      "name": "portico_SAP2000_elastico.$2k",
+      "sha256": "1ec41b6673fb2c076df8f8f2d090d7771267d6bd4714512f072c28920c9a8869"
+    },
+    {
+      "group": "BIM",
+      "kind": "escada",
+      "name": "grelha_SAP2000_escada_TCC-7a6267fd-N1.$2k",
+      "sha256": "65eefadd2023619acc5c21cfac548b4b0de74abd6639d0ced80a3e9b797543c1"
+    },
+    {
+      "group": "BIM",
+      "kind": "N1",
+      "name": "grelha_SAP2000_laje_TCC-7a6267fd-N1.$2k",
+      "sha256": "cd0d6e29c550d6c620c35c84a6feccdb85397d4b6f75efb471860c18aba4ab2e"
+    },
+    {
+      "group": "BIM",
+      "kind": "N2",
+      "name": "grelha_SAP2000_laje_TCC-7a6267fd-N2.$2k",
+      "sha256": "11726783d781ca136bf550ae5a0039148a7c9588c831faf6eff624c7c05cc93b"
+    },
+    {
+      "group": "BIM",
+      "kind": "portico",
+      "name": "portico_SAP2000_elastico.$2k",
+      "sha256": "dfc7e6b1adb9246d6c015bb1f11d8ab104764e81e17348ca3ed5f3e29c32d97d"
+    },
+    {
+      "group": "BIM-regerado",
+      "kind": "escada",
+      "name": "grelha_SAP2000_escada_TCC-7a6267fd-N1.$2k",
+      "sha256": "c8dfa2d4d9b17a2013b8ad097534c893a9641900fad2466fc3431595939c231a"
+    },
+    {
+      "group": "BIM-regerado",
+      "kind": "N1",
+      "name": "grelha_SAP2000_laje_TCC-7a6267fd-N1.$2k",
+      "sha256": "f0de81f529e48e4b96fef38871ca8776b38c7668bea1fdb282020f7bc7f314ff"
+    },
+    {
+      "group": "BIM-regerado",
+      "kind": "N2",
+      "name": "grelha_SAP2000_laje_TCC-7a6267fd-N2.$2k",
+      "sha256": "9ae9fca2a187e36e57e5eb36cbd58376efcda881bd8fc5b0ede7184f80e585fc"
+    },
+    {
+      "group": "BIM-regerado",
+      "kind": "portico",
+      "name": "portico_SAP2000_elastico.$2k",
+      "sha256": "33dace1587490254f53a3e557d34f2e1dfbd8ed9dc3d7d2bae89cf9797703b4b"
+    }
+  ],
+  "internalCauseProved": false,
+  "nativeSAPSolverExecuted": false,
+  "structuralApproval": false,
+  "fullPairedFlowTimeMeasured": false
+}

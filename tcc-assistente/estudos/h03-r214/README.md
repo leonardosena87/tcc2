@@ -1,0 +1,15 @@
+# H03/R214 — Controle da divergência de inércia
+
+Preservou-se a R212. Criaram-se cópias independentes BIM R212 e CAD R213 em D:/TCC/outputs/H03-R214-INERCIA-BIM-NAO-EXECUTAR. Exportou-se cada fluxo com Exportar seções desmarcado e Exportar coeficientes redutores marcado: pórtico, grelhas N1/N2 e escada. As saídas foram armazenadas em BIM-generico e CAD-generico. Não houve cálculo no SAP2000.
+
+A [documentação do fabricante](https://suporte.altoqi.com.br/hc/pt-br/articles/360016037073) informa que, sem Exportar seções, a exportação usa propriedades genéricas calculadas pelo Eberick. Esse controle evita atribuir automaticamente a divergência à reconstrução da seção retangular no programa externo. A diferença permanece no N1: área600 cm2, I22=45000 cm4, I33=20000 cm4 no CAD e18540 cm4 no BIM. As geometrias dos quatro modelos coincidem; as propriedades por segmento coincidem nos outros três modelos. Isso não demonstra equivalência de todas as cargas, vínculos internos e critérios.
+
+Na vista Modelo elástico > Barras editadas do BIM, a captura apresentou as barras verdes, sem destaque diferente na região investigada. Essa inspeção visual não exclui toda edição interna. O diálogo Modelo do trecho curto mostrou os modificadores de flexão iguais a1, com vínculos Engastar nas duas extremidades e flexibilização com pilar permitida.
+
+Como controle de regeneração, alterou-se provisoriamente a altura do trecho curto BIM de20 para21 cm e confirmou-se o diálogo. Reabriu-se imediatamente o mesmo trecho e restaurou-se20 cm, antes de qualquer cálculo. Não se salvou nem calculou uma variante de21 cm. Reprocessou-se a configuração final30x20 com dimensionamento integral e deslocamentos por rigidez fissurada, salvou-se o projeto e reexportou-se com seções e redutores para BIM-regerado. A inércia I33 permaneceu18540 cm4. O controle não demonstra a origem física ou numérica dessa diferença; não se atribui a um defeito do programa, ao IFC ou à inteligência artificial sem evidência adicional.
+
+O diagnóstico BIM regenerado mantém N1 com12 vigas,12 pilares,6 lajes e3 elementos de escada com sucesso, sem erro ou aviso nesses grupos. No N2 há8 vigas com sucesso e1 com aviso,5 lajes e11 pilares com sucesso. No N0 permanecem1 viga e11 pilares com aviso e14 sapatas com erro. Não foi listado deslocamento excessivo. Nenhum aviso foi dispensado para produzir esse resultado. Os vínculos e fundações continuam idealizados, com a fundação fora do escopo de dimensionamento.
+
+A revisão é um ensaio de controle; não transforma CAD R213/BIM R214 em comparação de produtividade pareada. Não se mediu novo tempo nativo, esforço computacional da IA ou duração total dos fluxos. As alterações não foram sincronizadas com os arquivos de autoria Revit/AutoCAD. Não há liberação para execução.
+
+Reprodução: `python tcc-assistente/estudos/h03-r214/auditar.py "D:/TCC/outputs/H03-R214-INERCIA-BIM-NAO-EXECUTAR"`. A auditoria produz os confrontos completos locais e um resumo com hashes das12 exportações, além da seção de controle. Os quatro testes existentes do comparador R176 foram utilizados; não são ensaios de resistência ou validação normativa.

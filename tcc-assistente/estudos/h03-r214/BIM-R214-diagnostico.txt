@@ -1,0 +1,290 @@
+Diagnóstico da estrutura
+
+Distribuição das cargas verticais
+
+Ação
+Carregamentos (kN)
+Percentual (%)
+Peso próprio
+803.27
+70.2
+Adicional
+138.86
+12.1
+Acidental
+184.35
+16.1
+Q_TELHADO_MANUTENCAO
+17.80
+1.6
+TOTAL
+1144.28
+100.0
+
+
+Relação de carga por área
+
+Pavimento
+Carregamentos (kN)
+Área (m²)
+Carga/área (kN/m²)
+TCC-7a6267fd-N2
+497.17
+67.67
+7.35
+TCC-7a6267fd-N1
+621.97
+70.39
+8.84
+TCC-7a6267fd-N0
+25.14
+-
+-
+TOTAL
+1144.28
+138.06
+8.29
+
+Estabilidade global
+
+Parâmetro
+Gama-Z
+1.06
+(lim 1.10)
+Deslocamento máximo dos pilares (cm)*
+0.17
+Deslocamento médio dos pilares (cm)*
+0.16
+Deslocamento máximo dos pilares* / Htotal
+1/4220
+Deslocamento médio dos pilares* / Htotal
+1/4488
+* Deslocamento dos pilares do último pavimento
+
+Parâmetro
+Máximo
+Direção
+Deslocamento horizontal (cm)
+0.16
+(lim 0.42)
+Vento Y+
+
+Processo P-Delta - Deslocamento no topo da edificação
+
+Carregamento
+Inicial
+Final
+Variação
+Acidental
+0.01
+0.01
+3.64%
+Vento X+
+0.58
+0.62
+7.98%
+Vento X-
+0.58
+0.62
+7.98%
+Vento Y+
+0.87
+0.93
+6.68%
+Vento Y-
+0.87
+0.93
+6.68%
+Desaprumo X+
+0.06
+0.07
+7.87%
+Desaprumo X-
+0.06
+0.07
+7.87%
+Desaprumo Y+
+0.06
+0.06
+6.55%
+Desaprumo Y-
+0.06
+0.06
+6.55%
+
+Índices de consumo de materiais
+
+Elemento
+Consumo por área
+Consumo por volume de concreto
+Concreto
+(m³/m²)
+Forma
+(m²/m²)
+Aço
+(kg/m²)
+Forma
+(m²/m³)
+Aço
+(kg/m³)
+Vigas
+0.05
+0.53
+3.73
+9.98
+69.76
+Pilares
+0.03
+0.52
+3.02
+16.25
+93.62
+Lajes
+0.12
+0.86
+3.21
+7.19
+26.86
+Escadas
+0.01
+0.09
+0.38
+10.31
+43.19
+TOTAL
+0.21
+2.01
+10.34
+9.38
+48.28
+Espessura média do projeto 21.4 cm
+
+Resumo de custos
+
+Relação custo por material (R$)
+Elemento
+Material
+Execução
+Total
+Aço
+19025.82
+4591.16
+23616.98
+Concreto
+15715.09
+4027.68
+19742.77
+Formas
+47602.91
+4812.35
+52415.26
+TOTAL
+82343.82
+13431.19
+95775.01
+
+
+Relação custo por área (R$/m²)
+Pavimento
+Material
+Execução
+Total
+TCC-7a6267fd-N2
+549.85
+86.30
+636.16
+TCC-7a6267fd-N1
+635.56
+106.76
+742.32
+TOTAL
+596.42
+97.28
+693.70
+
+Relação custo por elemento (R$)
+Elemento
+Material
+Execução
+Total
+Média
+Vigas
+18515.91
+5104.72
+23620.63
+1073.66
+Pilares
+32902.68
+3534.15
+36436.83
+1071.67
+Lajes
+27289.43
+4108.93
+31398.36
+2854.40
+Escadas
+3635.80
+683.39
+4319.19
+4319.19
+TOTAL
+82343.82
+13431.19
+95775.01
+1167.99
+
+
+Dimensionamento dos elementos
+
+Elementos de concreto
+ Pavimento
+ Elementos
+Com sucesso
+Com avisos
+ Com erros
+TCC-7a6267fd-N2
+Vigas
+8
+1
+0
+Lajes
+5
+0
+0
+Pilares
+11
+0
+0
+TCC-7a6267fd-N1
+Vigas
+12
+0
+0
+Lajes
+6
+0
+0
+Pilares
+12
+0
+0
+Escadas
+3
+0
+0
+TCC-7a6267fd-N0
+Vigas
+0
+1
+0
+Sapatas
+0
+0
+14
+Pilares
+0
+11
+0
+
+Nenhum elemento com deslocamento excessivo
