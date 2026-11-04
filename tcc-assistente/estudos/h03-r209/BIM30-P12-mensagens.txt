@@ -1,0 +1,189 @@
+
+
+Mensagens da análise
+
+CONSTRUÇÃO DO MODELO ESTRUTURAL
+    Pavimento TCC-7a6267fd-N0 construído com sucesso
+    Pavimento TCC-7a6267fd-N1 construído com sucesso
+    Pavimento TCC-7a6267fd-N2 construído com sucesso
+    Tempo consumido na construção do modelo: 00:00:00
+
+CÁLCULO DOS PAINÉIS DE LAJES
+
+    PAVIMENTO TCC-7a6267fd-N2 - calculado por Grelha
+    Número de nós: 412
+    Largura da semi-banda: 19
+    Matriz de rigidez: 1225 x 117 (1.10 Mb)
+    Bloco mínimo de memória: 0.11 Mb
+    Quantidade de memória física disp.: 16495.66 Mb
+    Matriz de rigidez: memória física
+
+    Verificação da precisão do cálculo
+        Nenhuma diferença encontrada.
+
+    Tempo de processamento do pórtico: 00:00:00
+
+    PAVIMENTO TCC-7a6267fd-N1 - calculado por Grelha
+    Número de nós: 449
+    Largura da semi-banda: 13
+    Matriz de rigidez: 1335 x 78 (0.81 Mb)
+    Bloco mínimo de memória: 0.05 Mb
+    Quantidade de memória física disp.: 16467.06 Mb
+    Matriz de rigidez: memória física
+
+    Verificação da precisão do cálculo
+        Nenhuma diferença encontrada.
+
+    Tempo de processamento do pórtico: 00:00:00
+    Número de nós: 270
+    Largura da semi-banda: 35
+    Matriz de rigidez: 1547 x 212 (2.52 Mb)
+    Bloco mínimo de memória: 0.34 Mb
+    Quantidade de memória física disp.: 16467.79 Mb
+    Matriz de rigidez: memória física
+
+    Verificação da precisão do cálculo
+        Nenhuma diferença encontrada.
+
+    Tempo de processamento do pórtico: 00:00:00
+
+    PAVIMENTO TCC-7a6267fd-N0 - nenhuma laje no pavimento
+    Tempo consumido no cálculo dos painéis: 00:00:02
+
+PROCESSAMENTO DO PÓRTICO ESPACIAL
+    Número de nós: 90
+    Largura da semi-banda: 24
+    Matriz de rigidez: 477 x 144 (0.53 Mb)
+    Bloco mínimo de memória: 0.16 Mb
+    Quantidade de memória física disp.: 16450.93 Mb
+    Matriz de rigidez: memória física
+
+    Verificação da precisão do cálculo
+        Nenhuma diferença encontrada.
+
+    Verificação de estabilidade (Gama-Z)
+        X+ = 1.06 (limite 1.10)
+        X- = 1.06 (limite 1.10)
+        Y+ = 1.06 (limite 1.10)
+        Y- = 1.06 (limite 1.10)
+
+    Imperfeições geométricas globais
+        Desaprumo global
+            1/363
+        Deslocamento médio no topo
+            Eixo X: 0.06
+            Eixo Y: 0.06
+
+    Cálculo do efeito P-Delta
+
+        Deslocamentos médios no pavimento TCC-7a6267fd-N2
+
+        Antes da 1ª iteração
+            Acidental: dx = 0.01, dy = 0.01
+            Vento X+: dx = 0.57, dy = -0.01
+            Vento X-: dx = -0.57, dy = 0.01
+            Vento Y+: dx = -0.01, dy = 0.88
+            Vento Y-: dx = 0.01, dy = -0.88
+            Desaprumo X+: dx = 0.06, dy = 0.00
+            Desaprumo X-: dx = -0.06, dy = 0.00
+            Desaprumo Y+: dx = 0.00, dy = 0.06
+            Desaprumo Y-: dx = 0.00, dy = -0.06
+            Q_TELHADO_MANUTENCAO: dx = 0.00, dy = 0.00
+
+        Antes da 2ª iteração
+            Acidental: dx = 0.01, dy = 0.01
+            Vento X+: dx = 0.62, dy = -0.01
+            Vento X-: dx = -0.62, dy = 0.01
+            Vento Y+: dx = -0.01, dy = 0.94
+            Vento Y-: dx = 0.01, dy = -0.94
+            Desaprumo X+: dx = 0.07, dy = 0.00
+            Desaprumo X-: dx = -0.07, dy = 0.00
+            Desaprumo Y+: dx = 0.00, dy = 0.06
+            Desaprumo Y-: dx = 0.00, dy = -0.06
+            Q_TELHADO_MANUTENCAO: dx = 0.00, dy = 0.00
+
+        Resultado final
+            Acidental: dx = 0.01, dy = 0.01
+            Vento X+: dx = 0.62, dy = -0.01
+            Vento X-: dx = -0.62, dy = 0.01
+            Vento Y+: dx = -0.01, dy = 0.94
+            Vento Y-: dx = 0.01, dy = -0.94
+            Desaprumo X+: dx = 0.07, dy = 0.00
+            Desaprumo X-: dx = -0.07, dy = 0.00
+            Desaprumo Y+: dx = 0.00, dy = 0.06
+            Desaprumo Y-: dx = 0.00, dy = -0.06
+            Q_TELHADO_MANUTENCAO: dx = 0.00, dy = 0.00
+
+    Tempo de processamento do pórtico: 00:00:00
+    Quantidade de memória física disp.: 16377.59 Mb
+    Matriz de rigidez: memória física
+
+DIMENSIONAMENTO DOS ELEMENTOS
+
+Pavimento TCC-7a6267fd-N2
+    Pilares: 11 Com sucesso
+    Vigas: 9 Com sucesso
+    Lajes: 5 Com sucesso
+
+Pavimento TCC-7a6267fd-N1
+    Pilares: 12 Com sucesso
+    Vigas: 12 Com sucesso
+    Lajes: 9 Com sucesso
+
+Pavimento TCC-7a6267fd-N0
+    Pilares: 11 Com sucesso
+    Vigas: 1 Com sucesso
+    Sapatas: 14 com erro
+
+    Tempo de dimensionamento dos elementos: 00:00:03
+
+CÁLCULO DAS FLECHAS NAS LAJES
+
+    PAVIMENTO TCC-7a6267fd-N2 - calculado por Grelha
+    Número de nós: 412
+    Largura da semi-banda: 19
+    Matriz de rigidez: 1225 x 117 (1.10 Mb)
+    Bloco mínimo de memória: 0.11 Mb
+    Quantidade de memória física disp.: 16369.95 Mb
+    Matriz de rigidez: memória física
+
+    Verificação da precisão do cálculo
+        Nenhuma diferença encontrada.
+
+    PAVIMENTO TCC-7a6267fd-N1 - calculado por Grelha
+    Número de nós: 449
+    Largura da semi-banda: 13
+    Matriz de rigidez: 1335 x 78 (0.81 Mb)
+    Bloco mínimo de memória: 0.05 Mb
+    Quantidade de memória física disp.: 16373.45 Mb
+    Matriz de rigidez: memória física
+
+    Verificação da precisão do cálculo
+        Nenhuma diferença encontrada.
+    Número de nós: 270
+    Largura da semi-banda: 35
+    Matriz de rigidez: 1547 x 212 (2.52 Mb)
+    Bloco mínimo de memória: 0.34 Mb
+    Quantidade de memória física disp.: 16363.18 Mb
+    Matriz de rigidez: memória física
+
+    Verificação da precisão do cálculo
+        Nenhuma diferença encontrada.
+
+    PAVIMENTO TCC-7a6267fd-N0 - nenhuma laje no pavimento
+    Tempo consumido no cálculo dos painéis: 00:00:01
+
+CÁLCULO DAS FLECHAS NO PÓRTICO
+    Número de nós: 90
+    Largura da semi-banda: 22
+    Matriz de rigidez: 477 x 132 (0.49 Mb)
+    Bloco mínimo de memória: 0.13 Mb
+    Quantidade de memória física disp.: 16387.73 Mb
+    Matriz de rigidez: memória física
+
+    Verificação da precisão do cálculo
+        Nenhuma diferença encontrada.
+
+    Tempo consumido no cálculo das flechas no pórtico: 00:00:00
+
+Tempo total de processamento: 00:00:09

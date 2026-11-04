@@ -1,0 +1,57 @@
+{
+  "proposal": "Pilar novo em x3.55m y3.90m, secao20x30cm rotacao0, para estudo de reducao do vao V2. Nao adotado.",
+  "column_box_m": [
+    3.45,
+    3.75,
+    3.65,
+    4.05
+  ],
+  "reference_sha256": "19815379aa1689af29df8454af013661af7cb39d617ef10963245e0252dd812c",
+  "checks": [
+    {
+      "floor": "T",
+      "opening": {
+        "id": "T-P4-02",
+        "tag": "P4",
+        "x": 1.25,
+        "y": 3.9,
+        "x2": 3.25,
+        "y2": 3.9,
+        "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+        "coordinateUncertaintyM": 0.05,
+        "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+      },
+      "note": "Triagem nominal: novo apoio fora do vao horizontal da cozinha; P5 original entre portas permanece. Conferir croqui, altura e folhas."
+    },
+    {
+      "floor": "S",
+      "opening": {
+        "id": "S-P2-01",
+        "tag": "P2",
+        "x": 4.4,
+        "y": 3.05,
+        "x2": 4.4,
+        "y2": 3.75,
+        "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+        "coordinateUncertaintyM": 0.05,
+        "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+      },
+      "note": "Triagem nominal: novo apoio fora do vao horizontal da cozinha; P5 original entre portas permanece. Conferir croqui, altura e folhas."
+    },
+    {
+      "floor": "S",
+      "opening": {
+        "id": "S-P2-02",
+        "tag": "P2",
+        "x": 4.4,
+        "y": 4.05,
+        "x2": 4.4,
+        "y2": 4.75,
+        "source": "Leitura manual do recorte arquitetônico; localização aproximada",
+        "coordinateUncertaintyM": 0.05,
+        "uncertaintyMeaning": "Margem de triagem adotada; não tolerância normativa nem precisão de levantamento"
+      },
+      "note": "Triagem nominal: novo apoio fora do vao horizontal da cozinha; P5 original entre portas permanece. Conferir croqui, altura e folhas."
+    }
+  ]
+}

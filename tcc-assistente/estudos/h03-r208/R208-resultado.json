@@ -84,27 +84,33 @@
     }
   ],
   "support_geometry": {
-    "assumption": "Viga e pilar centrados, larguras lidas da planilha No, nao substitui verificacao de alinhamento ou ancoragem",
+    "assumption": "P6/P5/P4: secoes e rotacoes conferidas pela interface em R209. Projecoes para eixos coincidentes; ainda exige verificacao do vao efetivo e alinhamento.",
     "columns": [
       "P6",
       "P5",
       "P4"
     ],
-    "column_transverse_width_cm": [
+    "beam40_outside_each_side_cm": [
+      10,
+      5,
+      5
+    ],
+    "beam30_outside_each_side_cm": [
+      5,
+      0,
+      0
+    ],
+    "pending": "Conferir dimensoes e alinhamentos por lance; compatibilizar pilar/regiao de apoio, detalhar armadura de compressao e ancoragem, recalcular e repetir no CAD equivalente.",
+    "correction_R209": "A leitura transversal anterior estava incorreta. Em N1: P4/P5 b20 h30 rot0 => X20 Y30; P6 b20 h30 rot90 => X30 Y20. A largura da guia No acompanha a direcao da viga X, e nao deve ser tratada como largura transversal Y.",
+    "column_width_along_beam_X_cm": [
       30,
       20,
       20
     ],
-    "beam40_outside_each_side_cm": [
-      5,
-      10,
-      10
-    ],
-    "beam30_outside_each_side_cm": [
-      0,
-      5,
-      5
-    ],
-    "pending": "Conferir dimensoes e alinhamentos por lance; compatibilizar pilar/regiao de apoio, detalhar armadura de compressao e ancoragem, recalcular e repetir no CAD equivalente."
+    "column_transverse_Y_cm": [
+      20,
+      30,
+      30
+    ]
   }
 }

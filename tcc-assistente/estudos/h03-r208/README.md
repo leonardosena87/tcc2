@@ -23,7 +23,7 @@ No ensaio de 30 cm, o painel Nó exibiu −6,84 / −37,73 / −31,14 kN.m e D16
 
 ## Compatibilização dos apoios
 
-A planilha Nó exibiu larguras transversais de apoio de 30 cm em P6 e 20 cm em P5/P4. Para uma viga de 40 cm centrada, a diferença geométrica corresponde a 5 cm além de cada face em P6 e 10 cm em P5/P4. Esse cálculo pressupõe eixos coincidentes e não substitui a conferência do vão efetivo e dos alinhamentos. A condição deve ser revista no lançamento e no detalhamento, conforme o [procedimento AltoQi para o Aviso 38](https://suporte.altoqi.com.br/hc/pt-br/articles/360007183014).
+Correção de interpretação na R209: a planilha Nó exibiu comprimentos no sentido da viga, de 30 cm em P6 e 20 cm em P5/P4. A consulta das seções e rotações no croqui confirmou dimensões transversais de 20 cm em P6 e 30 cm em P5/P4. Para uma viga de 40 cm centrada, a diferença geométrica corresponde a 10 cm além de cada face em P6 e 5 cm em P5/P4. Esse cálculo pressupõe eixos coincidentes e não substitui a conferência do vão efetivo e dos alinhamentos. A condição deve ser revista no lançamento e no detalhamento, conforme o [procedimento AltoQi para o Aviso 38](https://suporte.altoqi.com.br/hc/pt-br/articles/360007183014).
 
 A alternativa com armadura calculada exige compatibilizar a região de apoio, verificar se eventual mudança de seção dos pilares cabe na arquitetura, conferir sua continuidade entre pavimentos e recalcular a estrutura. Repetir no CAD uma geometria escolhida depende dessa definição. Alargar arbitrariamente o pilar ou desconsiderar o aviso não fecha a verificação da ligação. A revisão das regiões de apoio deve considerar as armaduras superiores e inferiores, a transmissão de esforços e a interferência com portas e circulação.
 
