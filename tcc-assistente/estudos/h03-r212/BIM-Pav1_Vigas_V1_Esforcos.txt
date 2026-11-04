@@ -1,0 +1,137 @@
+
+
+Esforços da Viga V1
+
+fck = 25.00 MPa
+Ecs = 24150 MPa
+Cobrimento = 3.00 cm
+Peso específico = 25.00 kN/m³
+
+
+Dados
+
+
+
+
+
+
+
+
+Pilar
+Trecho
+Apoio
+1 e 1o
+(cm)
+Larg
+Barra
+(cm)
+Carga distribuída - Viga
+
+Carga distribuída - Lajes (*)
+
+Temperatura
+Caso T1
+Caso T2
+(ºC)
+Retração
+(‰)
+
+
+
+Perm.
+(kN/m)
+Acid.
+(kN/m)
+Perm.
+(kN/m)
+Acid.
+(kN/m)
+
+
+AE1A
+
+20.00
+
+
+
+
+
+
+1
+88.00
+70.00
+70.00
+1.50
+0.00
+18.53
+6.57
+
+
+AE1B
+
+20.00
+
+
+
+
+
+
+* A carga distribuída proveniente das lajes apresentada no relatório é uma média das reações das barras da grelha ligadas ao trecho,  e não é usada pelo programa no dimensionamento da viga. Para o dimensionamento, o programa usa os esforços obtidos a partir da análise da estrutura.
+
+Envoltória
+
+
+
+
+
+
+
+Pilar
+Trecho
+Esforço axial
+
+Vd
+(kN)
+Rmáx
+(kN)
+Mdmáx
+(kN.m)
+Md+
+(kN.m)
+Md-
+(kN.m)
+
+Nd
+(kN)
+Rd
+(kN)
+
+
+
+
+
+AE1A
+
+
+
+8.65
+
+
+
+1
+17.51
+0.00
+18.47
+
+0.90
+
+
+
+-2.04
+
+-2.38
+AE1B
+
+
+
+11.29

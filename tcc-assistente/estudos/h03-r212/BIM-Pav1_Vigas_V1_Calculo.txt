@@ -1,0 +1,135 @@
+
+
+Cálculo da viga V1
+
+Pavimento TCC-7a6267fd-N0 - Lance 1
+
+fck = 25.00 MPa
+Ecs = 24150 MPa
+Cobrimento = 3.00 cm
+Peso específico = 25.00 kN/m³
+
+DIMENSIONAMENTO DA ARMADURA POSITIVA
+
+Vão
+
+trechos
+Seção
+Flexão
+Torção
+Final
+1
+
+1-1
+retangular
+
+bw = 20.00 cm
+h = 30.00 cm
+Md = 8.00 kN.m
+As = 0.72 cm²
+A's = 0.00 cm²
+yLN = 1.03 cm
+
+
+As = 0.90 cm²
+(2ø8.0 - 1.01 cm²)
+d = 26.10 cm
+% armad. = 0.17
+
+
+F = 0.00 kN
+M = 0.55 kN.m
+fiss = 0.00 mm
+
+DIMENSIONAMENTO DA ARMADURA NEGATIVA
+
+Nó
+Flexão
+Final
+1
+
+Md = 8.00 kN.m
+As = 0.72 cm²
+A's = 0.00 cm²
+yLN = 1.03 cm
+
+As = 0.90 cm²
+(2ø8.0 - 1.01 cm²)
+d = 26.10 cm
+% armad. = 0.17
+
+
+F = 0.00 kN
+M = 1.24 kN.m
+fiss = 0.00 mm
+2
+
+Md = 8.00 kN.m
+As = 0.72 cm²
+A's = 0.00 cm²
+yLN = 1.03 cm
+
+As = 0.90 cm²
+(2ø8.0 - 1.01 cm²)
+d = 26.10 cm
+% armad. = 0.17
+
+
+F = 0.00 kN
+M = 1.45 kN.m
+fiss = 0.01 mm
+
+
+DIMENSIONAMENTO DA ARMADURA TRANSVERSAL
+
+Modelo de cálculo
+I
+Inclinação bielas
+45
+
+Verificação de esforços limites
+Vão
+trechos
+Cisalhamento
+Torção
+Cisalhamento + Torção
+1
+ 1-1
+Vd = 18.47 kN
+VRd2 = 226.51 kN
+Td = 0.00 kN.m
+TRd2 = 13.06 kN.m
+Vd/VRd2 + Td/TRd2 = 0.08
+
+Vão
+
+trechos
+ARMADURA DE CISALHAMENTO
+
+
+
+ARMADURA DE TORÇÃO
+
+
+Dados
+cisalham
+Armad. à
+esquerda
+Armad. mínima
+Armad. à
+direita
+Dados torção
+Armad. de
+torção
+1
+
+ 1-1
+d = 26.10 cm
+Vc0 = 40.17 kN
+k = 1.00
+
+
+Vmin = 44.68 kN
+Aswmin = 2.05 cm²
+(2 ramos)
+ø 6.3 c/ 15
