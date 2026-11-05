@@ -1,0 +1,49 @@
+{
+  "recordedAt": "2026-11-05T08:54:26.16165-03:00",
+  "revision": "R218",
+  "nativeProjects": [
+    {
+      "branch": "CAD",
+      "path": "CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "c3e7976a6a2d9e7506e3770d1e35dc798cdf935cb70be02d7ea3335b1ac16e63",
+      "originalSha256": "1bb22b8316417a11f53d9506483910593aad11f26d8db2548c72c969d651ca53",
+      "originalPreserved": true,
+      "crc": "OK",
+      "skinBarsReadBackAfterReopen": "2x2 fi8",
+      "complementaryDrawing": "CAD\\Desenhos\\Estrutural\\N0\\R218-V1-COMPLEMENTO-EXTERNO.cad",
+      "drawingSha256": "e65eb4207e31f1d94baa7b5c825a091c9f29ac924f7578cfeae0df0fcb244f73"
+    },
+    {
+      "branch": "BIM",
+      "path": "BIM\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sha256": "2b4e28063b45d367329d522b05f5fb2d1f5ca98b02a0a9b78ff1dc432a1861d3",
+      "originalSha256": "84ce9482e16afdeac95c3301fbbae63c52dc2555e069c3c7b4a239b0618348b2",
+      "originalPreserved": true,
+      "crc": "OK",
+      "skinBarsReadBackAfterReopen": "2x2 fi8",
+      "complementaryDrawing": "BIM\\Desenhos\\Estrutural\\TCC-7a6267fd-N0\\R218-V1-COMPLEMENTO-EXTERNO.cad",
+      "drawingSha256": "8595d7f853933a45601b1b5e7232da09e068368ef3761e4be915b9ee27e39fb6"
+    }
+  ],
+  "fullVerificationComplete": false,
+  "globalStirrupLimitChanged": false,
+  "nativeStirrupSpacingCm": 15,
+  "externalMaximumSpacingCm": 9,
+  "externalSkinBars": 4,
+  "externalCrossTiesPerPosition": 2,
+  "nativeSkinSettingAppliedToV1": true,
+  "externalDetailImportedAndSavedBoth": true,
+  "steelScheduleUpdatedForExternalDetail": false,
+  "pending": [
+    "Aviso 19",
+    "Aviso 98 em ambas as extremidades da pele",
+    "Verificacao das ancoragens longitudinais, dobras, montagem e ligacao aos apoios"
+  ],
+  "timing": {
+    "pairedExperiment": false,
+    "durationSeconds": null,
+    "tokens": null,
+    "inferenceSeconds": null,
+    "reason": "Revisao interrompida entre sessoes; sem cronometro continuo confiavel. CAD exigiu recuperacao e processamento global; BIM teve recalculo individual da V1. Nao comparar os intervalos como ensaio pareado."
+  }
+}
