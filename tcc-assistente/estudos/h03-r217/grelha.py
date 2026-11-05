@@ -66,7 +66,7 @@ def condense(k, f, released):
     return k, f
 
 
-def solve(path, shear_factor=None):
+def solve(path, shear_factor=None, expected_v1_area_cm2=600, v1_bounds_cm=(451,539)):
     m=parse(path.read_text(encoding='cp1252'))
     t=m['tables']
     def by(table,key):return {r[key]:r for r in t[table]}
@@ -100,8 +100,8 @@ def solve(path, shear_factor=None):
         kg=rot.T@k@rot
         rows.extend(np.repeat(dof,12));cols.extend(np.tile(dof,12));vals.extend(kg.ravel())
         forces[dof]+=rot.T@f
-        if a[1:]==b[1:]==(321.58,20.) and 451<=min(a[0],b[0]) and max(a[0],b[0])<=539:
-            assert a[0]<b[0] and number(s['Area'])==600
+        if a[1:]==b[1:]==(321.58,20.) and v1_bounds_cm[0]<=min(a[0],b[0]) and max(a[0],b[0])<=v1_bounds_cm[1]:
+            assert a[0]<b[0] and number(s['Area'])==expected_v1_area_cm2
             assert np.all(loads[key][2]==0) and axes.get(key,{}).get('Angle','0')=='0'
             members[key]=(dof,k,rot,f,a,b)
     K=coo_matrix((vals,(rows,cols)),shape=(nd,nd)).tocsc()
@@ -127,5 +127,5 @@ def solve(path, shear_factor=None):
     for key,(dof,k,rot,f,a,b) in sorted(members.items(),key=lambda p:p[1][4][0]):
         end=k@rot@d[dof]-f
         output.append(dict(frame=key,x_cm=[a[0],b[0]],case_end_local={c:end[:,i].round(6).tolist() for i,c in enumerate(CASES)}))
-    assert len(output)==5 and sum(v['x_cm'][1]-v['x_cm'][0] for v in output)==88
+    assert len(output)==5 and sum(v['x_cm'][1]-v['x_cm'][0] for v in output)==v1_bounds_cm[1]-v1_bounds_cm[0]
     return dict(relative_residual=rel_res,segments=output)

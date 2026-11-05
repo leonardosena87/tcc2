@@ -60,7 +60,7 @@ def capacity(h,b,n):
     return response(x)[1]
 
 
-def branch(grillage,doc):
+def branch(grillage,doc,width_mm=200,height_mm=300,v1_bounds_cm=(451,539)):
     model=parse(grillage.read_text(encoding='cp1252'))
     rows=records(doc)
     combos={}
@@ -68,7 +68,7 @@ def branch(grillage,doc):
         combos.setdefault(r['ComboName'],{})[r['CaseName']]=number(r['ScaleFactor'])
     if set(combos)!={k for k in rows if '+' in k and not k.endswith(')')}:
         raise ValueError('Combinações diferentes entre relatório e exportação')
-    grid=solve(grillage)
+    grid=solve(grillage,expected_v1_area_cm2=width_mm*height_mm/100,v1_bounds_cm=v1_bounds_cm)
     # A calibração nominal histórica e a conversão física diferem 1,93%.
     # Para a solicitação usar a maior das duas escalas. Não recalibrar por caso.
     force_factor=max(.01,.00980665)
@@ -102,14 +102,14 @@ def branch(grillage,doc):
         mv=max(abs(native[k]) for k in ('mvi','mvf','mvpos'))+.005
         # Verificação do ramo de baixa compressão/tração. A linha de interação
         # usa um domínio convexo conservador com os mínimos dos dois extremos.
-        rv=min(capacity(300,200,n) for n in (nlo,nhi))
-        rh=min(capacity(200,300,n) for n in (nlo,nhi))
+        rv=min(capacity(height_mm,width_mm,n) for n in (nlo,nhi))
+        rh=min(capacity(width_mm,height_mm,n) for n in (nlo,nhi))
         checks.append(dict(combination=label,mv_bound=mv,mh_bound=mh,vv_bound=max(abs(native['vvi']),abs(native['vvf']))+.005,
                            vh_bound=vh,n_interval=[nlo,nhi],mrv_lower=rv,mrh_lower=rh,
                            utilization=mv/rv+mh/rh,with_native_min=max(8,mv)/rv+mh/rh,
                            torsion_bound=torsion_bound,
                            section_values=points))
-    sensitivity=solve(grillage,shear_factor=5/6)
+    sensitivity=solve(grillage,shear_factor=5/6,expected_v1_area_cm2=width_mm*height_mm/100,v1_bounds_cm=v1_bounds_cm)
     sensitive_mh=0.
     sensitive_vh=0.
     for co in combos.values():

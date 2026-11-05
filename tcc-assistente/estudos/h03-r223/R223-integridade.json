@@ -1,0 +1,739 @@
+{
+  "revision": "R223",
+  "recordedAt": "2026-11-05T21:38:45.387660+00:00",
+  "projects": [
+    {
+      "branch": "CAD",
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "25392ea6409d0f30cfec2ef00d30b8c65dee88244b6a1d3556d17ce9be17a060",
+      "sourceR222Preserved": true,
+      "sourceSha256": "c062f09b695ce34590fdd72e3e18eecd040316b44a404fe1f996cf318b9f59cb",
+      "crc": "OK"
+    },
+    {
+      "branch": "BIM",
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sha256": "1a332816717515e7b20ecd977d51cb05284136e9d4bcedf0a52eb2247bfca25c",
+      "sourceR222Preserved": true,
+      "sourceSha256": "7af11ff076becd265037624c63986b304372f844d2131f47e8f62744b0beec64",
+      "crc": "OK"
+    }
+  ],
+  "appliedNative": [
+    "V1 N0: 30x30 cm, topo +0,20 m",
+    "AE1A/AE1B: B=H=30 cm, altura20 cm, elevacao0, engastados; apoios idealizados",
+    "ELU/dimensionamento geral e ELS com rigidez fissurada nos dois fluxos"
+  ],
+  "nativeDetail": {
+    "upper": "3 fi8 com gancho projetado27cm",
+    "lower": "4 fi8 com gancho10cm",
+    "skin": "2x2 fi8",
+    "stirrup": "8 fi6,3 c15"
+  },
+  "pillarContinuityObserved": {
+    "CAD": [
+      "P2",
+      "P9"
+    ],
+    "BIM": [
+      "P3",
+      "P4"
+    ],
+    "reinforcement": "6 fi10 em L3/L2/L1"
+  },
+  "timings": {
+    "CADNativeSeconds": 10,
+    "BIMNativeSeconds": 11,
+    "fullWorkflowSeconds": null,
+    "tokenUsage": null,
+    "inferenceSeconds": null
+  },
+  "automaticNativeSizingMessages": "Superestrutura: Com sucesso; sapatas:14 com erro em cada fluxo",
+  "nativeSizingSuccessIsApproval": false,
+  "fullVerificationComplete": false,
+  "drawingExternalOnly": true,
+  "externalHookAppliedToNative": false,
+  "externalDXFImported": false,
+  "authoringRevitCADSynchronized": false,
+  "staleItems": [
+    "Diagnostico_estrutura.docx herdado da R222",
+    "Desenhos R218 herdados: secao20x30 e complemento c9; somente historico"
+  ],
+  "files": [
+    {
+      "path": "BIM/_DADOS_/BCF/tree.conf",
+      "bytes": 139,
+      "sha256": "61d42b48b4f580be91ceaf6a13095f109584646c7f2c81b42fc1f27093177b56"
+    },
+    {
+      "path": "BIM/_DADOS_/ConfigFolder.qib",
+      "bytes": 6168,
+      "sha256": "c4163fa263e6ec2eaa4608d5edea1b8c434bee885fa97fbfb568da62d03a59d0"
+    },
+    {
+      "path": "BIM/_DADOS_/Default.cad",
+      "bytes": 91542,
+      "sha256": "9275ecf9dbf79f42bb7f6959dad4fb403cb1b1e64d0bed82bd54969a01a84b06"
+    },
+    {
+      "path": "BIM/_DADOS_/Default.prf",
+      "bytes": 428,
+      "sha256": "52e07f653f8a3eb989617748e9e39feab872f483bb30692e410db1906f831973"
+    },
+    {
+      "path": "BIM/_DADOS_/EdificacaoEberick.ini",
+      "bytes": 276,
+      "sha256": "2dc4378f51f833259492f9118c9125173c6a3cdde64096acdf858427bf615f2b"
+    },
+    {
+      "path": "BIM/_DADOS_/NomenclaturePattern.qib",
+      "bytes": 2548,
+      "sha256": "45022217ee732aed25a52b4dcfa00db579dc2a83c1c5f39bc146353d78de49df"
+    },
+    {
+      "path": "BIM/_DADOS_/Project.db",
+      "bytes": 90112,
+      "sha256": "43b3958963d00020eeccbe01c494dbc90f0f33adfa4a47e2bad5e9a8866758f9"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/Documentos/Eberick/Diagnostico_estrutura.docx",
+      "bytes": 32635,
+      "sha256": "fd4a1a1b19b6a700844e0c19e37d331b0ed3f27b7e9667cee63f3c67f254f84c"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/Documentos/Eberick/Distribuicao das cargas verticais.bmp",
+      "bytes": 1080054,
+      "sha256": "afc82fc2fcf16fe91f214f036cfc0626dbc856049ea76fd1bee5d495491b5da7"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/Documentos/Eberick/Distribuicao do custo por elemento.bmp",
+      "bytes": 1080054,
+      "sha256": "e1f7b0713107d44fe8f92169c164ff9807a2a7e6304069ea203030216b0d1479"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/Documentos/Eberick/Distribuicao do custo por origem.bmp",
+      "bytes": 1080054,
+      "sha256": "d55a05ab241720c5e4a0f9fc9206bf7d1dc06f6ba82296488f9bb5b340f0ac7d"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/Documentos/Eberick/logo.gif",
+      "bytes": 3533,
+      "sha256": "b38857f1c1da842e6113c6464464d20c048457a36f01bb42519595ddebaab728"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/Documentos/Eberick/Mensagens_da_analise.docx",
+      "bytes": 8694,
+      "sha256": "d650c521d558ffb7a54a4d4483107dc9c61d455ab30087ebcc07b160cd22026f"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/Documentos/Eberick/Pav1_Fundacao_Combinacoes.docx",
+      "bytes": 19308,
+      "sha256": "4ece60b04d4e5301b4aa4a77706f948cc1a7fd16d41ce88793348a245e30d13c"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/Documentos/Eberick/Pav1_Vigas_Combinacoes.docx",
+      "bytes": 33309,
+      "sha256": "7edc9231b1604f4f791b510bbf54ad038be84c19d8acb48687a5ac97ce9c1064"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/Documentos/Eberick/Pav1_Vigas_V1_Calculo.docx",
+      "bytes": 9269,
+      "sha256": "d760aba546a6c2c6f9e9fbf5426d2c9ab2165b12b3c8985ef7bcb47e8188d1fc"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/Documentos/Eberick/Pav1_Vigas_V1_Esforcos.docx",
+      "bytes": 9428,
+      "sha256": "c9f62869e2ed7f0d221255a7b9c6927b1c41efa66cdcc442e4a0d4e38bd63824"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/Documentos/Eberick/PilarPorElemento.bmp",
+      "bytes": 41710,
+      "sha256": "56595f666684a011917ce4e542f221b422d17764b226b7f1961079b6fd65ebd7"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/Documentos/Eberick/Projeto_CargasFundacao.docx",
+      "bytes": 12399,
+      "sha256": "6da524bce650c13a407b65f34393e80942fb0d5d6111a391609d08b7ce50db59"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/Documentos/Eberick/Relatorio_de_importacao_de_elementos_IFC.docx",
+      "bytes": 7793,
+      "sha256": "2fa2f52431feaac8e6aa693486a9b3a42fa54f7f1834e73925b536a5b1253f78"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/Modelo 3D.IFC",
+      "bytes": 181703,
+      "sha256": "0e7607e3f72fed6c1c098bd17ddd1062be701c74c6b18db3887e0cc35b03ac3b"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/R177-BIM-ESCADA-CORRIGIDA.IFC",
+      "bytes": 257646,
+      "sha256": "838b66fb1f364ac3aea0d88b4e9526dbf0ff85002187279fac5289983787eb94"
+    },
+    {
+      "path": "BIM/Arquivos do projeto/r178-bim-patamar-controle.IFC",
+      "bytes": 257451,
+      "sha256": "d0efc1542c929962197bcb15c438afac4c200e73a5bd8d8d21687985ff73a8bd"
+    },
+    {
+      "path": "BIM/Desenhos/Estrutural/TCC-7a6267fd-N0/R218-V1-COMPLEMENTO-EXTERNO.cad",
+      "bytes": 129420,
+      "sha256": "8595d7f853933a45601b1b5e7232da09e068368ef3761e4be915b9ee27e39fb6"
+    },
+    {
+      "path": "BIM/Desenhos/Estrutural/TCC-7a6267fd-N0/R218-V1-COMPLEMENTO-EXTERNO.cad-bak",
+      "bytes": 11055,
+      "sha256": "a01a9c094547ea485e3e4ae4b21a1713f7633d5c6190c1cf7d5c0a93e087d39d"
+    },
+    {
+      "path": "BIM/Desenhos/Estrutural/TCC-7a6267fd-N0/R218-V1-COMPLEMENTO-EXTERNO.cad-sav",
+      "bytes": 11055,
+      "sha256": "a01a9c094547ea485e3e4ae4b21a1713f7633d5c6190c1cf7d5c0a93e087d39d"
+    },
+    {
+      "path": "BIM/Desenhos/Estrutural/TCC-7a6267fd-N0/R218-V1-NATIVO-C15-REFERENCIA.cad",
+      "bytes": 160108,
+      "sha256": "dd4575c53f1d35927c841b0d5832cb9110bfc152cd4ab1cf45492ba732c20953"
+    },
+    {
+      "path": "BIM/Desenhos/Estrutural/TCC-7a6267fd-N0/R218-V1-NATIVO-C15-REFERENCIA.cad-bak",
+      "bytes": 20257,
+      "sha256": "51e23a934e19adac65b3a5471f0dc5c7ad255996feaac6221f6d31bc6434b485"
+    },
+    {
+      "path": "BIM/Desenhos/Estrutural/TCC-7a6267fd-N0/R218-V1-NATIVO-C15-REFERENCIA.cad-sav",
+      "bytes": 20257,
+      "sha256": "51e23a934e19adac65b3a5471f0dc5c7ad255996feaac6221f6d31bc6434b485"
+    },
+    {
+      "path": "BIM/LEIA-R223-ANTES-DE-USAR.txt",
+      "bytes": 527,
+      "sha256": "134054f9826deb70e51e17b694809966908599466cb8a9470d3dfa184c841dd5"
+    },
+    {
+      "path": "BIM/Projeto Eberick/PerfilDeVistaPadrao.ini",
+      "bytes": 1942,
+      "sha256": "be7c6738466d991d62e00cda504518dbbf38f4ba5b9d91cb7c182b9e917120e1"
+    },
+    {
+      "path": "BIM/Projeto Eberick/PórticounifilarHiddenStoreys.qib",
+      "bytes": 408,
+      "sha256": "29dd3d1475f4be55d2de6ec4de7516d969f01995e668ff50a3aae2a06c879397"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak",
+      "bytes": 1996828,
+      "sha256": "35c0448c6603f547a0eb06aac562714c69fc314db80278069387d747c5701141"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak-e2",
+      "bytes": 77262,
+      "sha256": "d588b8d464c50033834c3d6a58f59af2c577459bf28baf49ad54da459e2e04ae"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak-g2",
+      "bytes": 375635,
+      "sha256": "cbdcd80c12283cda354c8bd0389117dcb7a816cc6f456df7e644842264992f32"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.bak-g3",
+      "bytes": 317890,
+      "sha256": "500d74952570762ba381d4df2c79f016ba6b07021b1700585fa843583674a3c4"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.f2",
+      "bytes": 5550730,
+      "sha256": "f5e9f65a6318743df922bbc72e1e71a169b7791ce6c874c0e24ebace3a2f77b2"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.f3",
+      "bytes": 5158569,
+      "sha256": "c7b11903919f8cdef6c2e40bb303f6b5dd1e3651d037a5f13505a00c2207cc1e"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.ini",
+      "bytes": 7975,
+      "sha256": "fd0af78167284a6a48137fd8e162cbf407009fbbc8a072ea652fe6b0db932664"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.l2",
+      "bytes": 2689831,
+      "sha256": "0e9bd147aa039c644839a3c6bd979c7fb936e20cda834d7ba0623bc5ad0088aa"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "bytes": 1996828,
+      "sha256": "1a332816717515e7b20ecd977d51cb05284136e9d4bcedf0a52eb2247bfca25c"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-cad",
+      "bytes": 266177,
+      "sha256": "0181aa1c652f3e2103a48447e7743633326679dc49a5146f50700580f95142db"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-e2",
+      "bytes": 77262,
+      "sha256": "d588b8d464c50033834c3d6a58f59af2c577459bf28baf49ad54da459e2e04ae"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-g2",
+      "bytes": 375635,
+      "sha256": "cbdcd80c12283cda354c8bd0389117dcb7a816cc6f456df7e644842264992f32"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj-g3",
+      "bytes": 317890,
+      "sha256": "500d74952570762ba381d4df2c79f016ba6b07021b1700585fa843583674a3c4"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav",
+      "bytes": 2000241,
+      "sha256": "7af11ff076becd265037624c63986b304372f844d2131f47e8f62744b0beec64"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav-e2",
+      "bytes": 77262,
+      "sha256": "54ba0fb68dfa4d64f23d7fdbea3247fa922a2c4aaf129377a179bcf1e67316ef"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav-g2",
+      "bytes": 375635,
+      "sha256": "6b3812dd78da8602253c36a85149f79e20cde53abd1a24aad6d297a0bed1be57"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.sav-g3",
+      "bytes": 317890,
+      "sha256": "093245a877cb5b560a0c4baa231e9d04ea75529a10d6935217495d58bc1eb35e"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.w2",
+      "bytes": 2689831,
+      "sha256": "e54aff39f8fdb2e5b793dc4baadb8ff09ee1c97297c16293d48d2c13447dcd2c"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.x2",
+      "bytes": 5549482,
+      "sha256": "12c71e4c40beb82acec1fc431b660516f5a16420d5c1ea514a79891222eaa865"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.x3",
+      "bytes": 5158569,
+      "sha256": "057b24ccf8b2c28c5f7dec86a73fe66f097a02963265160d74f3d2111e8beb4f"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_29444.log",
+      "bytes": 17297,
+      "sha256": "cee2cc9e7c135c4a81d06aa04c07e2b008563cc1496e856418b27aef94cfc5c5"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D/H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.oq3d",
+      "bytes": 24945,
+      "sha256": "00c25740bc63036e47ed84bb2e9404b0090d06d188da938f7e203e108cd4b9d5"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D/Planificacao_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini",
+      "bytes": 284,
+      "sha256": "bf20a78e7f28d18448ab1f2622aebe1e2e88998dac1e06c046d8457431a261d7"
+    },
+    {
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR_Modelos 3D/Vinculo_H03-R160-R166-DERIVADO-3-NIVEIS-NAO-EXECUTAR.ini",
+      "bytes": 172,
+      "sha256": "9a9ad6d693431822d6065e1473d1a4767d8d1ef6c78b5595ce685bcc28e5f27a"
+    },
+    {
+      "path": "BIM-calculo-concluido.png",
+      "bytes": 127408,
+      "sha256": "577ded3377d6786c18a6cd40572c3fae2dcddec97d6e9553bb94a1e5964a4a03"
+    },
+    {
+      "path": "BIM-combinacoes-herdadas-R222.docx",
+      "bytes": 33284,
+      "sha256": "11f34041a25ae61e8fea142705689ac001867195457c71fa9e8084da748cc893"
+    },
+    {
+      "path": "BIM-generico/grelha_SAP2000_escada_TCC-7a6267fd-N1.$2k",
+      "bytes": 256977,
+      "sha256": "5909388d509dc4015be8c521591c6e3d9ab843442c8fd16e6a891d8ee02b696b"
+    },
+    {
+      "path": "BIM-generico/grelha_SAP2000_laje_TCC-7a6267fd-N1.$2k",
+      "bytes": 547872,
+      "sha256": "cd0d6e29c550d6c620c35c84a6feccdb85397d4b6f75efb471860c18aba4ab2e"
+    },
+    {
+      "path": "BIM-generico/grelha_SAP2000_laje_TCC-7a6267fd-N2.$2k",
+      "bytes": 523126,
+      "sha256": "11726783d781ca136bf550ae5a0039148a7c9588c831faf6eff624c7c05cc93b"
+    },
+    {
+      "path": "BIM-generico/portico_SAP2000_elastico.$2k",
+      "bytes": 218990,
+      "sha256": "fa5065441abdf889619237b5965ca914f5167dc0bfd5d4ecf4b901f428c869e5"
+    },
+    {
+      "path": "BIM-mensagens-herdadas-R222.docx",
+      "bytes": 8699,
+      "sha256": "1895f0737c7cdc7140c15282de1c750a90332efccb2662d3aa0435a8af21794d"
+    },
+    {
+      "path": "BIM-mensagens-R223.txt",
+      "bytes": 6268,
+      "sha256": "6da66232f4f3796437f8207bc914438884596467659dc188b44ea708228ba4f2"
+    },
+    {
+      "path": "BIM-opcoes-calculo.png",
+      "bytes": 156503,
+      "sha256": "6a3534af62f4463858c866461cdd44fc9174c6215db9b0bab97862f78cec8e97"
+    },
+    {
+      "path": "BIM-P3-continuidade.png",
+      "bytes": 178053,
+      "sha256": "4b337cf20f8ca73d03386a8d29c9781abc6332f89d822b389ebf80b3e6cc0e33"
+    },
+    {
+      "path": "BIM-P4-continuidade.png",
+      "bytes": 177626,
+      "sha256": "cbee37093f82d520f0bdf72d412b96b8f17a350ae32b46b9b80568b634ab0e81"
+    },
+    {
+      "path": "BIM-resultados.png",
+      "bytes": 140715,
+      "sha256": "506639fb13107d29dd387759765fce8f453ac7c9caec91d7a2b2a9267384fb5e"
+    },
+    {
+      "path": "BIM-V1-detalhe-avisos.png",
+      "bytes": 150631,
+      "sha256": "303f3f200e8e00ed527ee52e862905ebc03f235000f11f4156e1c735fc3e2c35"
+    },
+    {
+      "path": "BIM-verificacao-parcial.json",
+      "bytes": 206361,
+      "sha256": "2b34084f2d2560e5d1de9292c574a962741723b0285da02997ed755671b8ca53"
+    },
+    {
+      "path": "CAD/_DADOS_/ConfigFolder.qib",
+      "bytes": 6168,
+      "sha256": "519079db6c7d2bcd9c3b60cd6ad0e398a9958bb0cee41d66ad0585005bc909ed"
+    },
+    {
+      "path": "CAD/_DADOS_/Default.cad",
+      "bytes": 97790,
+      "sha256": "611882335164c41ec62b6b5ae06541c293646590c9dfadec2792b45085fcb083"
+    },
+    {
+      "path": "CAD/_DADOS_/Default.cad-bak",
+      "bytes": 91542,
+      "sha256": "9275ecf9dbf79f42bb7f6959dad4fb403cb1b1e64d0bed82bd54969a01a84b06"
+    },
+    {
+      "path": "CAD/_DADOS_/Default.prf",
+      "bytes": 363,
+      "sha256": "69631dca01f32a3c060149f68d8342d8b4298b243c5a13dcf06d93e7055c27d9"
+    },
+    {
+      "path": "CAD/_DADOS_/EdificacaoEberick.ini",
+      "bytes": 226,
+      "sha256": "515fe917cf237e2919edf431ff65b37911a58b8d4fc0a2f9d2d9633b3dbe9f80"
+    },
+    {
+      "path": "CAD/_DADOS_/NomenclaturePattern.qib",
+      "bytes": 2506,
+      "sha256": "508fe95b084e4bf92e7674d8f45cc8c1c47ff8a77be165cae1bf06f027787e79"
+    },
+    {
+      "path": "CAD/_DADOS_/Project.db",
+      "bytes": 90112,
+      "sha256": "4bd1ef61d2d6d72c618b8aa9e1c4305096e503efdf2ea13027a35eb00e583f37"
+    },
+    {
+      "path": "CAD/_DADOS_/TreesNodesStatus/ProjectTreeNodeStatus.json",
+      "bytes": 399,
+      "sha256": "c2b2a35776b2b151341cb021172b626843a6d5e21390d331a8979d9e4298aa2e"
+    },
+    {
+      "path": "CAD/Arquivos do projeto/Documentos/Eberick/Diagnostico_estrutura.docx",
+      "bytes": 32594,
+      "sha256": "04ef1e876c5da46ce0efa6daa8a311d84d63e8c204d768765125b9fa07f8cc1c"
+    },
+    {
+      "path": "CAD/Arquivos do projeto/Documentos/Eberick/Distribuicao das cargas verticais.bmp",
+      "bytes": 1080054,
+      "sha256": "afc82fc2fcf16fe91f214f036cfc0626dbc856049ea76fd1bee5d495491b5da7"
+    },
+    {
+      "path": "CAD/Arquivos do projeto/Documentos/Eberick/Distribuicao do custo por elemento.bmp",
+      "bytes": 1080054,
+      "sha256": "ea983a4f57601c4212d573c2df1c2632f1e8fdfccd3357ed7d8bc82cd351e63c"
+    },
+    {
+      "path": "CAD/Arquivos do projeto/Documentos/Eberick/Distribuicao do custo por origem.bmp",
+      "bytes": 1080054,
+      "sha256": "67ab2280ad9a25d4b03ec8294bf6902c2570dc1230be0e7e7ffbead7c6df1a41"
+    },
+    {
+      "path": "CAD/Arquivos do projeto/Documentos/Eberick/logo.gif",
+      "bytes": 3533,
+      "sha256": "b38857f1c1da842e6113c6464464d20c048457a36f01bb42519595ddebaab728"
+    },
+    {
+      "path": "CAD/Arquivos do projeto/Documentos/Eberick/Mensagens_da_analise.docx",
+      "bytes": 8667,
+      "sha256": "6ff9278137f1b5a2714b501ec15984cc11118b8cb74bb877487573d8191e6ce6"
+    },
+    {
+      "path": "CAD/Arquivos do projeto/Documentos/Eberick/Pav1_Vigas_Combinacoes.docx",
+      "bytes": 33292,
+      "sha256": "322227ba3d00b71984f95e14271125754abfb8cce85ecd5c61ee88c55e19d9d0"
+    },
+    {
+      "path": "CAD/Arquivos do projeto/r177-cad-escada-controle.IFC",
+      "bytes": 257501,
+      "sha256": "bb353b5c93c816f762067906cb32aa6130fb7bef75e885c4cc5a6f754048824c"
+    },
+    {
+      "path": "CAD/Arquivos do projeto/r178-cad-patamar-controle.IFC",
+      "bytes": 257440,
+      "sha256": "6ab9afaf1dffcbb9ca75a86136f8687e422aa850fe9fb6e34b48b5ab25096256"
+    },
+    {
+      "path": "CAD/Desenhos/Estrutural/N0/R218-V1-COMPLEMENTO-EXTERNO.cad",
+      "bytes": 135195,
+      "sha256": "e65eb4207e31f1d94baa7b5c825a091c9f29ac924f7578cfeae0df0fcb244f73"
+    },
+    {
+      "path": "CAD/Desenhos/Estrutural/N0/R218-V1-COMPLEMENTO-EXTERNO.cad-bak",
+      "bytes": 129420,
+      "sha256": "37541238ff5af209c4d2daa5802b3b66d66effb870ee675b4aeee34a2fefb724"
+    },
+    {
+      "path": "CAD/Desenhos/Estrutural/N0/R218-V1-COMPLEMENTO-EXTERNO.cad-sav",
+      "bytes": 11055,
+      "sha256": "a01a9c094547ea485e3e4ae4b21a1713f7633d5c6190c1cf7d5c0a93e087d39d"
+    },
+    {
+      "path": "CAD/Desenhos/Estrutural/N0/R218-V1-NATIVO-C15-REFERENCIA.cad",
+      "bytes": 160056,
+      "sha256": "dcc68a39963c1b4db5fe9debba14d1c761e8ac7f3985db83063f879a2ce0c425"
+    },
+    {
+      "path": "CAD/Desenhos/Estrutural/N0/R218-V1-NATIVO-C15-REFERENCIA.cad-bak",
+      "bytes": 20205,
+      "sha256": "0f57d3f6869fb95cb6bdb1c6c2068d8ed7392e066c0eb25b8d02894e0e9b91b7"
+    },
+    {
+      "path": "CAD/Desenhos/Estrutural/N0/R218-V1-NATIVO-C15-REFERENCIA.cad-sav",
+      "bytes": 20205,
+      "sha256": "0f57d3f6869fb95cb6bdb1c6c2068d8ed7392e066c0eb25b8d02894e0e9b91b7"
+    },
+    {
+      "path": "CAD/LEIA-R223-ANTES-DE-USAR.txt",
+      "bytes": 527,
+      "sha256": "134054f9826deb70e51e17b694809966908599466cb8a9470d3dfa184c841dd5"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.bak",
+      "bytes": 1981553,
+      "sha256": "49203d0d656b1e0c40bee6fe4c42e46039a464a8822a7fcccbc12a1d8a192be7"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-e2",
+      "bytes": 77262,
+      "sha256": "2b7acdd0f0dd24cdfe3b8c748780d57be9ad1a6b3c0c77b67a86cc00d1ed9cc5"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g2",
+      "bytes": 343246,
+      "sha256": "7c38105496487b5f596ba39f0ba857b148db11665960481fa85313451b59b64a"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.bak-g3",
+      "bytes": 317891,
+      "sha256": "73fa84c1e29963b7675fb6b0437e784452990d0ada5c1a5d1b43ad03ddace8e2"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.f2",
+      "bytes": 5549482,
+      "sha256": "30e5595bb4eb1dc6ed622611f06892f44bc54d0ce79d0b298c4897dcef2cf818"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.f3",
+      "bytes": 5158569,
+      "sha256": "fac51c19339b560548a5941faf98b9a1ff13f2a70cd8a7c9e080991a8abe6c58"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.ini",
+      "bytes": 7935,
+      "sha256": "e3c868053cdd47ceba5ec0d406d0a75b342e5e008cc38ff99ce1ce1fe628cd47"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.l2",
+      "bytes": 2689831,
+      "sha256": "1ad2f3eed5402a0f41696bd6df6ebc3b74adfca907a667424b7d97713a712444"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "bytes": 1984074,
+      "sha256": "25392ea6409d0f30cfec2ef00d30b8c65dee88244b6a1d3556d17ce9be17a060"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-cad",
+      "bytes": 244526,
+      "sha256": "1c9468be94030ffa64c1906ceef972651e86e691b643ba06ffbd36943238630f"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-e2",
+      "bytes": 77262,
+      "sha256": "2b7acdd0f0dd24cdfe3b8c748780d57be9ad1a6b3c0c77b67a86cc00d1ed9cc5"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g2",
+      "bytes": 343246,
+      "sha256": "7c38105496487b5f596ba39f0ba857b148db11665960481fa85313451b59b64a"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj-g3",
+      "bytes": 317891,
+      "sha256": "73fa84c1e29963b7675fb6b0437e784452990d0ada5c1a5d1b43ad03ddace8e2"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav",
+      "bytes": 1984074,
+      "sha256": "25392ea6409d0f30cfec2ef00d30b8c65dee88244b6a1d3556d17ce9be17a060"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-e2",
+      "bytes": 77262,
+      "sha256": "2b7acdd0f0dd24cdfe3b8c748780d57be9ad1a6b3c0c77b67a86cc00d1ed9cc5"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g2",
+      "bytes": 343246,
+      "sha256": "7c38105496487b5f596ba39f0ba857b148db11665960481fa85313451b59b64a"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.sav-g3",
+      "bytes": 317891,
+      "sha256": "73fa84c1e29963b7675fb6b0437e784452990d0ada5c1a5d1b43ad03ddace8e2"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.w2",
+      "bytes": 2689831,
+      "sha256": "ce212bc497ebb2988357daed33152512449def748fe23ae79ae7e856266b12e0"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.x2",
+      "bytes": 5549482,
+      "sha256": "8ebc9a4d369074e25b49cb93b7e9affa17821606c2914076d80741383c56ad52"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.x3",
+      "bytes": 5158569,
+      "sha256": "065b7cfbfd5bfdde19d69ae40ecbedc53f59f971a36ba8a2b14851929fb78e52"
+    },
+    {
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR_29444.log",
+      "bytes": 34600,
+      "sha256": "68d80501c7311c18ec1fbff242b6e2bd5961f6ed227b1f11d248e7357da1adff"
+    },
+    {
+      "path": "CAD-AE1A-hipotese-interface.png",
+      "bytes": 130735,
+      "sha256": "4a047e362a0ee22688d7bab29b9da73446891ca056e497ca09fddb67f6a8414f"
+    },
+    {
+      "path": "CAD-AE1B-hipotese-interface.png",
+      "bytes": 130970,
+      "sha256": "d49633e533d7c5542751f89ecaab01c8c155df4661313290c1b0b2529a5163f0"
+    },
+    {
+      "path": "CAD-calculo-concluido.png",
+      "bytes": 124284,
+      "sha256": "8dbea49b0159b8531e34c280970aaf3095372b8ee88f349d0552f7119e654490"
+    },
+    {
+      "path": "CAD-combinacoes-herdadas-R222.docx",
+      "bytes": 33273,
+      "sha256": "14042551120c04eb121dc8403a485264ac15deeef6a6581d3bbb55a59eba62f4"
+    },
+    {
+      "path": "CAD-generico/grelha_SAP2000_escada_N1.$2k",
+      "bytes": 256963,
+      "sha256": "3875cff9c3bcd9311d273bd9b73bbe342c1ae9a989a25f719b4735020b0d4cf5"
+    },
+    {
+      "path": "CAD-generico/grelha_SAP2000_laje_N1.$2k",
+      "bytes": 547872,
+      "sha256": "d00710f95169bb7bb211e7b443c06c9658ffc7b09ce0abae8dd6b873a0968cdc"
+    },
+    {
+      "path": "CAD-generico/grelha_SAP2000_laje_N2.$2k",
+      "bytes": 523133,
+      "sha256": "47bedbdbc680263abedf9df71c8cd7ee1399e0c10a9424adf2d93c98005180f2"
+    },
+    {
+      "path": "CAD-generico/portico_SAP2000_elastico.$2k",
+      "bytes": 219007,
+      "sha256": "ea6facab5bb9833f875b162ac34f5381369d3a163f10403e0481ba4072d399c3"
+    },
+    {
+      "path": "CAD-mensagens-herdadas-R222.docx",
+      "bytes": 8675,
+      "sha256": "717095886d0d08221d4faa7028eb08e97200a2589b47763455e05089bfa0be2a"
+    },
+    {
+      "path": "CAD-mensagens-R223.txt",
+      "bytes": 6098,
+      "sha256": "cba61fd3845ce8a0fe5b832a7ba625efb2939245694ca35fe0ab0cc59b4ed59f"
+    },
+    {
+      "path": "CAD-opcoes-calculo.png",
+      "bytes": 147413,
+      "sha256": "e2cabe37b3cbb5b0b207a96cb0affc2d8d071c4854bf5c96e5ccf22396b729bb"
+    },
+    {
+      "path": "CAD-P2-continuidade.png",
+      "bytes": 166009,
+      "sha256": "98deb07962a5bb0b0d6ee1f42c7e74774139bc09dfda2d1e8537a08bf6302226"
+    },
+    {
+      "path": "CAD-P9-continuidade.png",
+      "bytes": 165682,
+      "sha256": "66529d6c95e91bf8934cd0ae56c0725a300bb5577e3854542f186576538cbc0c"
+    },
+    {
+      "path": "CAD-resultados-nativos.txt",
+      "bytes": 11186,
+      "sha256": "07eab6ad223f326ba8ced610a3e6f41211eb6eaf74447b309d9edea7432d6385"
+    },
+    {
+      "path": "CAD-V1-30x30-primeiro-detalhe.png",
+      "bytes": 143111,
+      "sha256": "6b1b4d0bd3d740b467aa62f9776b6bd7913d9287c9e1337d20a67560b3ce30fa"
+    },
+    {
+      "path": "CAD-verificacao-parcial.json",
+      "bytes": 207869,
+      "sha256": "1518cd4b87212622537f14b15461a8d58da37bb0051cedcf955f8b64a6ffa196"
+    },
+    {
+      "path": "R223-relatorio.md",
+      "bytes": 9474,
+      "sha256": "bc59bbe257d8eb4da1b1e3acaa38bebe57907138c6af4f447d84cff593ac6b21"
+    },
+    {
+      "path": "R223-resultados.json",
+      "bytes": 456043,
+      "sha256": "26c0bae37846e40e3a7d79b46a759ea36fa15c0b14f24c417fb39b5e4c139cb8"
+    },
+    {
+      "path": "R223-V1-ANCORAGEM-ESTUDO-NAO-EXECUTAR.dxf",
+      "bytes": 7563,
+      "sha256": "f38fa6c6649f98c428dc12e68758f511fb26ec186b6f89a27b98447d91c2937c"
+    },
+    {
+      "path": "R223-V1-ANCORAGEM-ESTUDO-NAO-EXECUTAR.png",
+      "bytes": 89579,
+      "sha256": "29dfce69b56843c2b483279c760f6b84dd7be408a5dbb24343788fb9acc6fdd3"
+    }
+  ]
+}
