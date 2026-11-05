@@ -1,0 +1,563 @@
+{
+  "CAD": {
+    "element": "V13_1",
+    "report": "CAD/Arquivos do projeto/Documentos/Eberick/Pav3_Vigas_Combinacoes.docx",
+    "sha256": "6e7e55a043ad1a60bb7af13e07f707e2eb3dff6649efbddead33167b905d06be",
+    "cases": 19,
+    "combinations": 68,
+    "segmentsPerCase": 3,
+    "extrema": {
+      "q": {
+        "minimum": -2.33,
+        "minimumCase": "1.4G1+1.4G2+1.4Q+1.4D1",
+        "minimumSegment": 3,
+        "maximum": 17.73,
+        "maximumCase": "1.4G1+1.4G2+1.4Q+0.84V4+0.84D4+0.7QT",
+        "maximumSegment": 1
+      },
+      "n_t": {
+        "minimum": 0.0,
+        "minimumCase": "1.4G1+1.4G2+0.7Q+0.84V1+0.84D1+1.4QT",
+        "minimumSegment": 1,
+        "maximum": 0.0,
+        "maximumCase": "G1+G2+1.4Q+1.4D4",
+        "maximumSegment": 3
+      },
+      "n_c": {
+        "minimum": 2.7,
+        "minimumCase": "G1+G2+1.4D2",
+        "minimumSegment": 1,
+        "maximum": 4.85,
+        "maximumCase": "1.4G1+1.4G2+1.4Q+0.84V2+0.84D2+0.7QT",
+        "maximumSegment": 3
+      },
+      "mvi": {
+        "minimum": -13.16,
+        "minimumCase": "1.4G1+1.4G2+1.4Q+0.84V2+0.84D2+0.7QT",
+        "minimumSegment": 1,
+        "maximum": 4.61,
+        "maximumCase": "1.4G1+1.4G2+0.7Q+1.4V2+0.84D2+0.7QT",
+        "maximumSegment": 3
+      },
+      "mvf": {
+        "minimum": -8.01,
+        "minimumCase": "1.4G1+1.4G2+0.7Q+1.4V1+0.84D1+0.7QT",
+        "minimumSegment": 3,
+        "maximum": 4.61,
+        "maximumCase": "1.4G1+1.4G2+0.7Q+1.4V2+0.84D2+0.7QT",
+        "maximumSegment": 2
+      },
+      "mvpos": {
+        "minimum": 1.27,
+        "minimumCase": "G1+G2+0.7Q+1.4V2+0.84D2+0.7QT",
+        "minimumSegment": 1,
+        "maximum": 7.27,
+        "maximumCase": "1.4G1+1.4G2+1.4Q+0.84V1+0.84D1+0.7QT",
+        "maximumSegment": 2
+      },
+      "mhi": {
+        "minimum": -0.35,
+        "minimumCase": "1.4G1+1.4G2+0.7Q+1.4V4+0.84D4+0.7QT",
+        "minimumSegment": 3,
+        "maximum": 1.64,
+        "maximumCase": "1.4G1+1.4G2+0.7Q+1.4V4+0.84D4+0.7QT",
+        "maximumSegment": 1
+      },
+      "mhf": {
+        "minimum": -1.02,
+        "minimumCase": "1.4G1+1.4G2+0.7Q+1.4V4+0.84D4+0.7QT",
+        "minimumSegment": 3,
+        "maximum": 1.01,
+        "maximumCase": "1.4G1+1.4G2+0.7Q+1.4V4+0.84D4+0.7QT",
+        "maximumSegment": 1
+      },
+      "mhpos": {
+        "minimum": 0.0,
+        "minimumCase": "1.4G1+1.4G2+0.7Q+0.84V1+0.84D1+1.4QT",
+        "minimumSegment": 1,
+        "maximum": 0.0,
+        "maximumCase": "G1+G2+1.4Q+1.4D4",
+        "maximumSegment": 3
+      },
+      "vvi": {
+        "minimum": -11.29,
+        "minimumCase": "1.4G1+1.4G2+1.4Q+0.84V1+0.84D1+0.7QT",
+        "minimumSegment": 3,
+        "maximum": 27.1,
+        "maximumCase": "1.4G1+1.4G2+1.4Q+0.84V2+0.84D2+0.7QT",
+        "maximumSegment": 1
+      },
+      "vvf": {
+        "minimum": -14.43,
+        "minimumCase": "1.4G1+1.4G2+1.4Q+0.84V2+0.84D2+0.7QT",
+        "minimumSegment": 1,
+        "maximum": 9.73,
+        "maximumCase": "1.4G1+1.4G2+1.4Q+0.84V1+0.84D1+0.7QT",
+        "maximumSegment": 2
+      },
+      "vhi": {
+        "minimum": -0.19,
+        "minimumCase": "G1+G2+0.7Q+1.4V3+0.84D3+0.7QT",
+        "minimumSegment": 1,
+        "maximum": 0.88,
+        "maximumCase": "1.4G1+1.4G2+0.7Q+1.4V4+0.84D4+0.7QT",
+        "maximumSegment": 3
+      },
+      "vhf": {
+        "minimum": -0.88,
+        "minimumCase": "1.4G1+1.4G2+0.7Q+1.4V4+0.84D4+0.7QT",
+        "minimumSegment": 1,
+        "maximum": 0.19,
+        "maximumCase": "G1+G2+0.7Q+1.4V3+0.84D3+0.7QT",
+        "maximumSegment": 3
+      },
+      "mt": {
+        "minimum": 0.01,
+        "minimumCase": "G1+G2+0.7Q+1.4V3+0.84D3+0.7QT",
+        "minimumSegment": 1,
+        "maximum": 0.1,
+        "maximumCase": "1.4G1+1.4G2+0.7Q+1.4V4+0.84D4+0.7QT",
+        "maximumSegment": 3
+      }
+    }
+  },
+  "BIM": {
+    "element": "V3",
+    "report": "BIM/Arquivos do projeto/Documentos/Eberick/Pav3_Vigas_Combinacoes.docx",
+    "sha256": "8ec2a7dba2bb9b8751a6db5a74bf9a4a92c1171b433088af44274a9b39ba640b",
+    "cases": 19,
+    "combinations": 68,
+    "segmentsPerCase": 3,
+    "extrema": {
+      "q": {
+        "minimum": -2.33,
+        "minimumCase": "1.4G1+1.4G2+1.4Q+1.4D1",
+        "minimumSegment": 3,
+        "maximum": 17.73,
+        "maximumCase": "1.4G1+1.4G2+1.4Q+0.84V4+0.84D4+0.7QT",
+        "maximumSegment": 1
+      },
+      "n_t": {
+        "minimum": 0.0,
+        "minimumCase": "1.4G1+1.4G2+0.7Q+0.84V1+0.84D1+1.4QT",
+        "minimumSegment": 1,
+        "maximum": 0.0,
+        "maximumCase": "G1+G2+1.4Q+1.4D4",
+        "maximumSegment": 3
+      },
+      "n_c": {
+        "minimum": 2.7,
+        "minimumCase": "G1+G2+1.4D2",
+        "minimumSegment": 1,
+        "maximum": 4.85,
+        "maximumCase": "1.4G1+1.4G2+1.4Q+0.84V2+0.84D2+0.7QT",
+        "maximumSegment": 3
+      },
+      "mvi": {
+        "minimum": -13.16,
+        "minimumCase": "1.4G1+1.4G2+1.4Q+0.84V2+0.84D2+0.7QT",
+        "minimumSegment": 1,
+        "maximum": 4.61,
+        "maximumCase": "1.4G1+1.4G2+0.7Q+1.4V2+0.84D2+0.7QT",
+        "maximumSegment": 3
+      },
+      "mvf": {
+        "minimum": -8.01,
+        "minimumCase": "1.4G1+1.4G2+0.7Q+1.4V1+0.84D1+0.7QT",
+        "minimumSegment": 3,
+        "maximum": 4.61,
+        "maximumCase": "1.4G1+1.4G2+0.7Q+1.4V2+0.84D2+0.7QT",
+        "maximumSegment": 2
+      },
+      "mvpos": {
+        "minimum": 1.27,
+        "minimumCase": "G1+G2+0.7Q+1.4V2+0.84D2+0.7QT",
+        "minimumSegment": 1,
+        "maximum": 7.27,
+        "maximumCase": "1.4G1+1.4G2+1.4Q+0.84V1+0.84D1+0.7QT",
+        "maximumSegment": 2
+      },
+      "mhi": {
+        "minimum": -0.35,
+        "minimumCase": "1.4G1+1.4G2+0.7Q+1.4V4+0.84D4+0.7QT",
+        "minimumSegment": 3,
+        "maximum": 1.64,
+        "maximumCase": "1.4G1+1.4G2+0.7Q+1.4V4+0.84D4+0.7QT",
+        "maximumSegment": 1
+      },
+      "mhf": {
+        "minimum": -1.02,
+        "minimumCase": "1.4G1+1.4G2+0.7Q+1.4V4+0.84D4+0.7QT",
+        "minimumSegment": 3,
+        "maximum": 1.01,
+        "maximumCase": "1.4G1+1.4G2+0.7Q+1.4V4+0.84D4+0.7QT",
+        "maximumSegment": 1
+      },
+      "mhpos": {
+        "minimum": 0.0,
+        "minimumCase": "1.4G1+1.4G2+0.7Q+0.84V1+0.84D1+1.4QT",
+        "minimumSegment": 1,
+        "maximum": 0.0,
+        "maximumCase": "G1+G2+1.4Q+1.4D4",
+        "maximumSegment": 3
+      },
+      "vvi": {
+        "minimum": -11.29,
+        "minimumCase": "1.4G1+1.4G2+1.4Q+0.84V1+0.84D1+0.7QT",
+        "minimumSegment": 3,
+        "maximum": 27.11,
+        "maximumCase": "1.4G1+1.4G2+1.4Q+0.84V2+0.84D2+0.7QT",
+        "maximumSegment": 1
+      },
+      "vvf": {
+        "minimum": -14.43,
+        "minimumCase": "1.4G1+1.4G2+1.4Q+0.84V2+0.84D2+0.7QT",
+        "minimumSegment": 1,
+        "maximum": 9.73,
+        "maximumCase": "1.4G1+1.4G2+1.4Q+0.84V1+0.84D1+0.7QT",
+        "maximumSegment": 2
+      },
+      "vhi": {
+        "minimum": -0.19,
+        "minimumCase": "G1+G2+0.7Q+1.4V3+0.84D3+0.7QT",
+        "minimumSegment": 1,
+        "maximum": 0.88,
+        "maximumCase": "1.4G1+1.4G2+0.7Q+1.4V4+0.84D4+0.7QT",
+        "maximumSegment": 3
+      },
+      "vhf": {
+        "minimum": -0.88,
+        "minimumCase": "1.4G1+1.4G2+0.7Q+1.4V4+0.84D4+0.7QT",
+        "minimumSegment": 1,
+        "maximum": 0.19,
+        "maximumCase": "G1+G2+0.7Q+1.4V3+0.84D3+0.7QT",
+        "maximumSegment": 3
+      },
+      "mt": {
+        "minimum": 0.01,
+        "minimumCase": "G1+G2+0.7Q+1.4V3+0.84D3+0.7QT",
+        "minimumSegment": 1,
+        "maximum": 0.1,
+        "maximumCase": "1.4G1+1.4G2+0.7Q+1.4V4+0.84D4+0.7QT",
+        "maximumSegment": 3
+      }
+    }
+  },
+  "comparison": {
+    "comparedValues": 3654,
+    "differingValues": 37,
+    "maxPrintedAbsoluteDifference": 0.010000000000001563,
+    "differences": [
+      {
+        "case": "1.4G1+1.4G2+0.7Q+0.84V2+1.4D2+0.7QT",
+        "segment": 1,
+        "field": "mvi",
+        "CAD": -12.24,
+        "BIM": -12.25,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "1.4G1+1.4G2+0.7Q+0.84V3+1.4D3+0.7QT",
+        "segment": 1,
+        "field": "vhi",
+        "CAD": 0.05,
+        "BIM": 0.04,
+        "difference": 0.010000000000000002
+      },
+      {
+        "case": "1.4G1+1.4G2+0.7Q+0.84V3+1.4D3+0.7QT",
+        "segment": 1,
+        "field": "vhf",
+        "CAD": -0.05,
+        "BIM": -0.04,
+        "difference": 0.010000000000000002
+      },
+      {
+        "case": "1.4G1+1.4G2+0.7Q+0.84V3+1.4D3+0.7QT",
+        "segment": 2,
+        "field": "vhi",
+        "CAD": 0.05,
+        "BIM": 0.04,
+        "difference": 0.010000000000000002
+      },
+      {
+        "case": "1.4G1+1.4G2+0.7Q+0.84V3+1.4D3+0.7QT",
+        "segment": 2,
+        "field": "vhf",
+        "CAD": -0.05,
+        "BIM": -0.04,
+        "difference": 0.010000000000000002
+      },
+      {
+        "case": "1.4G1+1.4G2+0.7Q+0.84V3+1.4D3+0.7QT",
+        "segment": 3,
+        "field": "vhi",
+        "CAD": 0.05,
+        "BIM": 0.04,
+        "difference": 0.010000000000000002
+      },
+      {
+        "case": "1.4G1+1.4G2+0.7Q+0.84V3+1.4D3+0.7QT",
+        "segment": 3,
+        "field": "vhf",
+        "CAD": -0.05,
+        "BIM": -0.04,
+        "difference": 0.010000000000000002
+      },
+      {
+        "case": "1.4G1+1.4G2+0.7Q+0.84V4+0.84D4+1.4QT",
+        "segment": 2,
+        "field": "mhf",
+        "CAD": -0.22,
+        "BIM": -0.23,
+        "difference": 0.010000000000000009
+      },
+      {
+        "case": "1.4G1+1.4G2+0.7Q+0.84V4+0.84D4+1.4QT",
+        "segment": 3,
+        "field": "mhi",
+        "CAD": -0.22,
+        "BIM": -0.23,
+        "difference": 0.010000000000000009
+      },
+      {
+        "case": "1.4G1+1.4G2+0.7Q+0.84V4+1.4D4+0.7QT",
+        "segment": 1,
+        "field": "vvi",
+        "CAD": 23.99,
+        "BIM": 24.0,
+        "difference": 0.010000000000001563
+      },
+      {
+        "case": "1.4G1+1.4G2+0.7Q+0.84V4+1.4D4+0.7QT",
+        "segment": 2,
+        "field": "vvi",
+        "CAD": 10.84,
+        "BIM": 10.85,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "1.4G1+1.4G2+1.4D1",
+        "segment": 1,
+        "field": "n_c",
+        "CAD": 3.91,
+        "BIM": 3.9,
+        "difference": 0.010000000000000231
+      },
+      {
+        "case": "1.4G1+1.4G2+1.4D1",
+        "segment": 2,
+        "field": "n_c",
+        "CAD": 3.91,
+        "BIM": 3.9,
+        "difference": 0.010000000000000231
+      },
+      {
+        "case": "1.4G1+1.4G2+1.4D1",
+        "segment": 3,
+        "field": "n_c",
+        "CAD": 3.91,
+        "BIM": 3.9,
+        "difference": 0.010000000000000231
+      },
+      {
+        "case": "1.4G1+1.4G2+1.4D2",
+        "segment": 2,
+        "field": "vvi",
+        "CAD": 9.91,
+        "BIM": 9.92,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "1.4G1+1.4G2+1.4D2+1.4QT",
+        "segment": 1,
+        "field": "mvi",
+        "CAD": -10.25,
+        "BIM": -10.26,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "1.4G1+1.4G2+1.4Q+0.84V1+0.84D1+0.7QT",
+        "segment": 1,
+        "field": "vvf",
+        "CAD": -12.62,
+        "BIM": -12.63,
+        "difference": 0.010000000000001563
+      },
+      {
+        "case": "1.4G1+1.4G2+1.4Q+0.84V2+0.84D2+0.7QT",
+        "segment": 1,
+        "field": "vvi",
+        "CAD": 27.1,
+        "BIM": 27.11,
+        "difference": 0.00999999999999801
+      },
+      {
+        "case": "1.4G1+1.4G2+1.4Q+D1",
+        "segment": 1,
+        "field": "n_c",
+        "CAD": 4.78,
+        "BIM": 4.77,
+        "difference": 0.010000000000000675
+      },
+      {
+        "case": "1.4G1+1.4G2+1.4Q+D1",
+        "segment": 2,
+        "field": "n_c",
+        "CAD": 4.78,
+        "BIM": 4.77,
+        "difference": 0.010000000000000675
+      },
+      {
+        "case": "1.4G1+1.4G2+1.4Q+D1",
+        "segment": 3,
+        "field": "n_c",
+        "CAD": 4.78,
+        "BIM": 4.77,
+        "difference": 0.010000000000000675
+      },
+      {
+        "case": "1.4G1+1.4G2+1.4Q+D2",
+        "segment": 1,
+        "field": "n_c",
+        "CAD": 4.71,
+        "BIM": 4.7,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "1.4G1+1.4G2+1.4Q+D2",
+        "segment": 1,
+        "field": "mvi",
+        "CAD": -11.83,
+        "BIM": -11.84,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "1.4G1+1.4G2+1.4Q+D2",
+        "segment": 2,
+        "field": "n_c",
+        "CAD": 4.71,
+        "BIM": 4.7,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "1.4G1+1.4G2+1.4Q+D2",
+        "segment": 3,
+        "field": "n_c",
+        "CAD": 4.71,
+        "BIM": 4.7,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "1.4G1+1.4G2+1.4Q+D2",
+        "segment": 3,
+        "field": "mvf",
+        "CAD": -5.93,
+        "BIM": -5.92,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "1.4G1+1.4G2+D1+1.4QT",
+        "segment": 1,
+        "field": "n_c",
+        "CAD": 3.96,
+        "BIM": 3.95,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "1.4G1+1.4G2+D1+1.4QT",
+        "segment": 2,
+        "field": "n_c",
+        "CAD": 3.96,
+        "BIM": 3.95,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "1.4G1+1.4G2+D1+1.4QT",
+        "segment": 3,
+        "field": "n_c",
+        "CAD": 3.96,
+        "BIM": 3.95,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "G1+G2+0.7Q+0.84V4+1.4D4+0.7QT",
+        "segment": 3,
+        "field": "mvf",
+        "CAD": -4.29,
+        "BIM": -4.28,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "G1+G2+0.7Q+0.84V4+1.4D4+0.7QT",
+        "segment": 3,
+        "field": "vvf",
+        "CAD": 5.96,
+        "BIM": 5.95,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "G1+G2+0.7Q+1.4V1+0.84D1+0.7QT",
+        "segment": 1,
+        "field": "vvf",
+        "CAD": -7.83,
+        "BIM": -7.84,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "G1+G2+1.4D2",
+        "segment": 3,
+        "field": "mvf",
+        "CAD": -3.34,
+        "BIM": -3.33,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "G1+G2+1.4D2+1.4QT",
+        "segment": 2,
+        "field": "vvf",
+        "CAD": 4.84,
+        "BIM": 4.83,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "G1+G2+1.4D3",
+        "segment": 3,
+        "field": "vvi",
+        "CAD": -5.95,
+        "BIM": -5.94,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "G1+G2+1.4D4",
+        "segment": 1,
+        "field": "mvi",
+        "CAD": -6.88,
+        "BIM": -6.89,
+        "difference": 0.009999999999999787
+      },
+      {
+        "case": "G1+G2+1.4Q+1.4D4",
+        "segment": 1,
+        "field": "vvf",
+        "CAD": -10.06,
+        "BIM": -10.07,
+        "difference": 0.009999999999999787
+      }
+    ],
+    "samePrintedValues": false,
+    "normativeOrStructuralApproval": false
+  },
+  "scope": "Tres subdivisoes de carregamento de um vao; nao tres vaos independentes",
+  "nativeReinforcement": {
+    "upperContinuous": "2 N4 fi8 C376; trecho329; ganchos24/27cm",
+    "upperLeftAdditional": "1 N3 fi8 C109; trecho87; gancho24cm",
+    "lower": "2 N2 fi8 C345; trecho329; ganchos10/10cm",
+    "stirrups": "19 N1 fi6.3 C88 c15"
+  },
+  "nativeReinforcementSource": "Capturas CAD/BIM-cobertura-antes.png; leitura visual, nao extracao do PRJ",
+  "warning08Resolved": false,
+  "nativeReinforcementModified": false,
+  "fullVerificationComplete": false,
+  "newNativeProcessingTimingSeconds": null
+}
