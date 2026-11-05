@@ -1,0 +1,59 @@
+{
+  "revision": "R220",
+  "projects": [
+    {
+      "branch": "CAD",
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "86d8e3fa87407aabde5984bd68c9357c3f7fb23e3ad52edc3281ab4cd5fae2ae",
+      "sourceR218Sha256": "c3e7976a6a2d9e7506e3770d1e35dc798cdf935cb70be02d7ea3335b1ac16e63",
+      "crc": "OK",
+      "positiveHooksApplied": true,
+      "V1Bottom": {
+        "bars": "2 fi8",
+        "hooksCm": 10,
+        "mainSegmentCm": 104,
+        "nativeCutLengthCm": 120
+      },
+      "coverBottom": {
+        "bars": "2 fi8",
+        "hooksCm": 10,
+        "mainSegmentCm": 329,
+        "nativeCutLengthCm": 345
+      }
+    },
+    {
+      "branch": "BIM",
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sha256": "71e7da429fd3489a056ae2b358ad58f2a9024d0e3cfe9c146f392f80ce0ab72f",
+      "sourceR218Sha256": "2b4e28063b45d367329d522b05f5fb2d1f5ca98b02a0a9b78ff1dc432a1861d3",
+      "crc": "OK",
+      "positiveHooksApplied": true,
+      "V1Bottom": {
+        "bars": "2 fi8",
+        "hooksCm": 10,
+        "mainSegmentCm": 104,
+        "nativeCutLengthCm": 120
+      },
+      "coverBottom": {
+        "bars": "2 fi8",
+        "hooksCm": 10,
+        "mainSegmentCm": 329,
+        "nativeCutLengthCm": 345
+      }
+    }
+  ],
+  "globalDetailingSettingChanged": true,
+  "globalStirrupLimitChanged": false,
+  "fullVerificationComplete": false,
+  "warningsRetained": [
+    "19",
+    "98",
+    "08"
+  ],
+  "CADRecoveryAndFullProcessing": true,
+  "BIMFullProcessing": false,
+  "pairedTiming": false,
+  "nativeCalculationSeconds": null,
+  "tokens": null,
+  "inferenceSeconds": null
+}
