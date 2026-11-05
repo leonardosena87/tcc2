@@ -1,0 +1,85 @@
+{
+  "revision": "R222",
+  "recordedAt": "2026-11-05T18:12:57.264403+00:00",
+  "projects": [
+    {
+      "branch": "CAD",
+      "path": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "c062f09b695ce34590fdd72e3e18eecd040316b44a404fe1f996cf318b9f59cb",
+      "sourceSha256": "83ca773c1bf990577dcc8415c9bb868056ae99b8bebbc7f7c82714f781785f5a",
+      "sourcePreserved": true,
+      "crc": "OK",
+      "diagnosticReport": "CAD/Arquivos do projeto/Documentos/Eberick/Diagnostico_estrutura.docx",
+      "reportSha256": "04ef1e876c5da46ce0efa6daa8a311d84d63e8c204d768765125b9fa07f8cc1c",
+      "V1BottomRetained": "4 fi8",
+      "pillars": "P2/P9",
+      "pillarAsCm2": [
+        4.71,
+        4.71,
+        4.71
+      ],
+      "pillarOperation": "Uniformizar abaixo; gravado e reaberto"
+    },
+    {
+      "branch": "BIM",
+      "path": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sha256": "7af11ff076becd265037624c63986b304372f844d2131f47e8f62744b0beec64",
+      "sourceSha256": "63eb97158ab1ed4634c82c83e58835861065529a5cda05b51a7763ca09b75184",
+      "sourcePreserved": true,
+      "crc": "OK",
+      "diagnosticReport": "BIM/Arquivos do projeto/Documentos/Eberick/Diagnostico_estrutura.docx",
+      "reportSha256": "fd4a1a1b19b6a700844e0c19e37d331b0ed3f27b7e9667cee63f3c67f254f84c",
+      "V1BottomRetained": "4 fi8",
+      "pillars": "P4/P3",
+      "pillarAsCm2": [
+        4.71,
+        4.71,
+        4.71
+      ],
+      "pillarOperation": "Conferencia da uniformizacao existente"
+    }
+  ],
+  "fullVerificationComplete": false,
+  "fullFrameProcessing": false,
+  "pendingElementSizingDuringReport": true,
+  "pairedTiming": false,
+  "calculationSeconds": null,
+  "tokens": null,
+  "changes": [
+    "CAD: P2 e P9 com 6 fi10 nos tres lances"
+  ],
+  "remaining": [
+    "V1: Aviso19 e ancoragens externas incompletas",
+    "Cobertura: Aviso08",
+    "Apoios e compatibilizacao",
+    "Sincronizar autoria Revit/CAD e resultados finais"
+  ],
+  "nativeDiagnostic": {
+    "totalVerticalLoadKN": {
+      "CAD": 1144.28,
+      "BIM": 1144.28
+    },
+    "gammaZ": {
+      "CAD": 1.06,
+      "BIM": 1.06
+    },
+    "horizontalDisplacementCm": {
+      "CAD": 0.15,
+      "BIM": 0.16
+    },
+    "horizontalLimitCm": 0.42,
+    "automaticSuperstructureErrors": {
+      "CAD": 0,
+      "BIM": 0
+    },
+    "foundationErrorsOutsideDimensioningScope": {
+      "CAD": 14,
+      "BIM": 14
+    },
+    "idealizedBasePillarWarnings": {
+      "CAD": 11,
+      "BIM": 11
+    },
+    "structuralApproval": false
+  }
+}
