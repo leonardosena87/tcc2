@@ -1,0 +1,146 @@
+{
+  "revision": "H03/R229",
+  "preparation": {
+    "revision": "H03/R229",
+    "preparedUtc": "2026-11-06T12:47:47.477131-03:00",
+    "sourceIfc": "H03-R225-Revit-COORDENACAO-NAO-EXECUTAR.ifc",
+    "sourceSha256": "d67649691c7d352499b5a6343059808f796d19ecfad8b7c74c1cd41048ed9964",
+    "derivedIfc": "H03-R229-IFC4-DERIVADO-QUATRO-NIVEIS-NAO-EXECUTAR.ifc",
+    "derivedSha256": "59ac642812c8c508237090422e96068138354663a4c3000cfb68ace1a326dfaf",
+    "originalUnchanged": true,
+    "storeysBeforeM": {
+      "0.0": "Nível 1",
+      "0.17": "TCC-R159-BASE-VIRTUAL-017-APOIO-PENDENTE",
+      "0.2": "TCC-7a6267fd-N0",
+      "0.22": "TCC-R155-PISO-ACABADO-022",
+      "1.77411765": "TCC-R159-PATAMAR-CONCRETO",
+      "3.0": "Nível 2",
+      "3.2": "TCC-7a6267fd-N1",
+      "3.25": "TCC-R155-PISO-ACABADO-325",
+      "6.39": "TCC-7a6267fd-N2"
+    },
+    "storeysAfterM": {
+      "0.2": "TCC-7a6267fd-N0",
+      "1.77411765": "TCC-R159-PATAMAR-CONCRETO",
+      "3.2": "TCC-7a6267fd-N1",
+      "6.39": "TCC-7a6267fd-N2"
+    },
+    "preservedElementMetadataCount": 72,
+    "preservedWorldPointClouds": 71,
+    "preservedMaterialPropertySets": 22,
+    "schemaIssuesBeforeAndAfter": 0,
+    "stairContainerRemap": {
+      "guid": "1ltUz0oN12IOfJpAa5zY0R",
+      "fromM": 0.17,
+      "toM": 0.2,
+      "worldShapeChanged": false
+    },
+    "scriptSeconds": 2.388868599999114,
+    "nativeRevitExport": false,
+    "eberickReceptionVerified": false,
+    "nominalBeamGeometryCorrected": false,
+    "structuralApproval": false
+  },
+  "eberickReceptionVerified": true,
+  "nativeReopened": true,
+  "receptionTiming": {
+    "startUtc": "2026-11-06T15:49:07.548Z",
+    "endUtc": "2026-11-06T15:51:05.871Z",
+    "elapsedSeconds": 118.32355959999934,
+    "scope": "Do aceite do seletor do IFC ao estado observado apos Ctrl+B. Inclui interacao assistida, planificacao, importacao e salvamento. Exclui normalizacao do IFC, exportacao de controle, correcao e calculo."
+  },
+  "criteria": "Configuração do último projeto aberto, CAD R227",
+  "reportIdsClassesAndSourceLevelsMatch": true,
+  "reportCounts": {
+    "Vigas": 32,
+    "Pilares": 23
+  },
+  "inputStoreysM": {
+    "TCC-7a6267fd-N0": 0.2,
+    "TCC-R159-PATAMAR-CONCRETO": 1.77411765,
+    "TCC-7a6267fd-N1": 3.2,
+    "TCC-7a6267fd-N2": 6.39
+  },
+  "controlStoreysM": {
+    "TCC-7a6267fd-N0": 0.2,
+    "TCC-R159-PATAMAR-CONCRETO": 1.77411765,
+    "TCC-7a6267fd-N1": 3.2,
+    "TCC-7a6267fd-N2": 6.39
+  },
+  "controlCountsBefore": {
+    "IfcBeam": 33,
+    "IfcColumn": 67
+  },
+  "controlCountsAfter": {
+    "IfcBeam": 35,
+    "IfcColumn": 33
+  },
+  "shortColumnPartsBefore": 23,
+  "shortColumnPartsAfter": 0,
+  "sectionDifferenceMarksBefore": [
+    "V10-N1",
+    "V10-N2",
+    "V12-N1",
+    "V13-N2",
+    "V15-N1",
+    "V3-N1",
+    "V3-N2",
+    "V3B-N1",
+    "V4A-N1",
+    "V4A-N2",
+    "V4B-N1",
+    "V4B-N2",
+    "V9-N2"
+  ],
+  "sectionDifferenceMarksAfter": [
+    "V10-N1",
+    "V10-N2",
+    "V12-N1",
+    "V13-N2",
+    "V15-N1",
+    "V3-N1",
+    "V3-N2",
+    "V3B-N1",
+    "V4A-N1",
+    "V4A-N2",
+    "V4B-N1",
+    "V4B-N2",
+    "V9-N2"
+  ],
+  "axialBoxGapsBefore": [
+    "V2-N2"
+  ],
+  "axialBoxGapsAfter": [
+    "P11-N2",
+    "P5-N2",
+    "V2-N2"
+  ],
+  "uniquePartMatches": {
+    "beam": 35,
+    "column": 33
+  },
+  "controlCoverAndConcrete": [
+    {
+      "values": [
+        "C-25",
+        3.0,
+        "2"
+      ],
+      "parts": 68
+    }
+  ],
+  "originalR225AndReceiversR228Unchanged": true,
+  "structuralConnectivityVerified": false,
+  "structuralApproval": false,
+  "fullBimFlowTimeMeasured": false,
+  "hashes": {
+    "H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR/H03-R225-Revit-COORDENACAO-NAO-EXECUTAR.ifc": "d67649691c7d352499b5a6343059808f796d19ecfad8b7c74c1cd41048ed9964",
+    "H03-R229-IFC4-QUATRO-NIVEIS-NAO-EXECUTAR/H03-R229-IFC4-DERIVADO-QUATRO-NIVEIS-NAO-EXECUTAR.ifc": "59ac642812c8c508237090422e96068138354663a4c3000cfb68ace1a326dfaf",
+    "H03-R229-IFC4-QUATRO-NIVEIS-NAO-EXECUTAR/R229-BIM-QUATRO-NIVEIS-NAO-EXECUTAR/Projeto Eberick/R229-BIM-QUATRO-NIVEIS-NAO-EXECUTAR.prj": "254326c4e8a43923c0c3b85dd85413077a38e031149d3a0385e5ad99dc0bb759",
+    "H03-R229-IFC4-QUATRO-NIVEIS-NAO-EXECUTAR/R229-BIM-QUATRO-NIVEIS-NAO-EXECUTAR/Arquivos do projeto/Modelo 3D.IFC": "ad25720d8c3b2f71dab8315e60635bafa44b5eb40277c7e379f41ebe6dce887f",
+    "H03-R229-IFC4-QUATRO-NIVEIS-NAO-EXECUTAR/R229-BIM-QUATRO-NIVEIS-NAO-EXECUTAR/Arquivos do projeto/Documentos/Eberick/Relatorio_de_importacao_de_elementos_IFC.docx": "68afcb3e7abf2e217d2ee22496d1a048d153c5a57ea93a99e1d702196d390ce4",
+    "H03-R229-IFC4-QUATRO-NIVEIS-NAO-EXECUTAR/R229-tempo-observado.json": "a3914438d9492290784cd623ea33ec443075ba9f1ce42da2d829f4e85dcb5b31",
+    "H03-R229-IFC4-QUATRO-NIVEIS-NAO-EXECUTAR/R229-preparacao.json": "0470ab1888b6ef14da2b226dfada1b9cfc64fae31402709ce7c7db18002f0192",
+    "H03-R228-RECEPCAO-R225-NAO-EXECUTAR/R228-auditoria.json": "d8ab5a3ef5a13e41c510558c03840d034900350b0a17a25190efbf78242279d1"
+  }
+}
