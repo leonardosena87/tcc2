@@ -1,0 +1,178 @@
+{
+  "revision": "R226",
+  "nativeReports": {
+    "CAD-V1": {
+      "file": "CAD-V1-N0-calculo-detalhado.docx",
+      "sha256": "cf9414b436522d7fc8aa764daca16932ead4f23683854a7bfbb924db3ef7028f",
+      "fields": {
+        "Md": [
+          12.0,
+          12.0,
+          12.0
+        ],
+        "fiss": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Vd": [
+          18.96
+        ],
+        "VRd2": [
+          339.77
+        ],
+        "Td": [
+          0.0
+        ],
+        "TRd2": [
+          29.7,
+          0.06
+        ]
+      }
+    },
+    "BIM-V1": {
+      "file": "BIM-V1-N0-calculo-detalhado.docx",
+      "sha256": "1c747097a0cad963aff4359fc799c422227f75a8f74866cfacdfb2b9945d5a8a",
+      "fields": {
+        "Md": [
+          12.0,
+          12.0,
+          12.0
+        ],
+        "fiss": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Vd": [
+          18.96
+        ],
+        "VRd2": [
+          339.77
+        ],
+        "Td": [
+          0.0
+        ],
+        "TRd2": [
+          29.7,
+          0.06
+        ]
+      }
+    },
+    "CAD-cobertura": {
+      "file": "CAD-V13_1-calculo-detalhado.docx",
+      "sha256": "b9e88351f940b221a5041572d653bca82c3b2dcf96e45875178e62522dc6d735",
+      "fields": {
+        "Md": [
+          8.0,
+          13.16,
+          0.0,
+          0.0,
+          8.01
+        ],
+        "fiss": [
+          0.05,
+          0.07,
+          0.05
+        ],
+        "Vd": [
+          27.1
+        ],
+        "VRd2": [
+          226.51
+        ],
+        "Td": [
+          0.1
+        ],
+        "TRd2": [
+          13.06,
+          0.13
+        ]
+      }
+    },
+    "BIM-cobertura": {
+      "file": "BIM-V3-calculo-detalhado.docx",
+      "sha256": "02a9cdd7696fbc09b73aca34f5847efb2e9a017f4de448039fae8129826168cb",
+      "fields": {
+        "Md": [
+          8.0,
+          13.16,
+          0.0,
+          0.0,
+          8.01
+        ],
+        "fiss": [
+          0.05,
+          0.07,
+          0.05
+        ],
+        "Vd": [
+          27.11
+        ],
+        "VRd2": [
+          226.51
+        ],
+        "Td": [
+          0.1
+        ],
+        "TRd2": [
+          13.06,
+          0.13
+        ]
+      }
+    }
+  },
+  "nativeFieldsDifferences": {
+    "V1": [],
+    "cobertura": [
+      {
+        "field": "Vd",
+        "occurrence": 1,
+        "CAD": 27.1,
+        "BIM": 27.11,
+        "difference": 0.00999999999999801
+      }
+    ]
+  },
+  "V1MinimumConfirmedKNm": 12,
+  "V1AuxiliaryLinearIndex": {
+    "CAD": 0.8508968453977612,
+    "BIM": 0.850892297910967
+  },
+  "oldFourCornerModelWith12Index": {
+    "CAD": 1.1928574865570944,
+    "BIM": 1.1928572000479427
+  },
+  "V1VisualDeflectionEnvelopeDisplayed": {
+    "CAD": "0.00",
+    "BIM": "0.00",
+    "unit": "cm",
+    "roundedDisplayNotExactZero": true
+  },
+  "coverBIMVisualDeflectionEnvelopeDisplayed": {
+    "value": "-0.11",
+    "unit": "cm",
+    "CADObservedThisRevision": false
+  },
+  "nativeProjects": [
+    {
+      "branch": "CAD",
+      "path": "D:\\TCC\\outputs\\H03-R224-FECHAMENTO-DETALHES-NAO-EXECUTAR\\CAD\\Projeto Eberick\\H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "26ddd1e3831c7741e125c49b4cf743d966ba2fe0133867a19acb19967a9cf4e7",
+      "unchanged": true,
+      "crc": "OK"
+    },
+    {
+      "branch": "BIM",
+      "path": "D:\\TCC\\outputs\\H03-R224-FECHAMENTO-DETALHES-NAO-EXECUTAR\\BIM\\Projeto Eberick\\R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sha256": "1a332816717515e7b20ecd977d51cb05284136e9d4bcedf0a52eb2247bfca25c",
+      "unchanged": true,
+      "crc": "OK"
+    }
+  ],
+  "newFullProcessingPerformed": false,
+  "coversWarning08Resolved": false,
+  "V1Warning19Resolved": false,
+  "connectionsAnchorageAndFullELSApproved": false,
+  "fullVerificationComplete": false
+}

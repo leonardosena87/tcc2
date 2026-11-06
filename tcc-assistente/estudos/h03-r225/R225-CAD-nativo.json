@@ -1,0 +1,84 @@
+{
+  "records": [
+    {
+      "level": "N0",
+      "stage": "salvar",
+      "startedUtc": "2026-11-05T22:28:04.398827+00:00",
+      "endedUtc": "2026-11-05T22:28:07.833949+00:00",
+      "processSeconds": 3.432170000000042,
+      "exitCode": 0,
+      "scope": "Inicializacao e script do CoreConsole; nao tempo total do fluxo"
+    },
+    {
+      "level": "N0",
+      "stage": "reabrir",
+      "startedUtc": "2026-11-05T22:28:07.834962+00:00",
+      "endedUtc": "2026-11-05T22:28:10.262735+00:00",
+      "processSeconds": 2.427193099996657,
+      "exitCode": 0,
+      "scope": "Inicializacao e script do CoreConsole; nao tempo total do fluxo"
+    },
+    {
+      "level": "PATAMAR",
+      "stage": "salvar",
+      "startedUtc": "2026-11-05T22:28:10.264111+00:00",
+      "endedUtc": "2026-11-05T22:28:13.624584+00:00",
+      "processSeconds": 3.359938299996429,
+      "exitCode": 0,
+      "scope": "Inicializacao e script do CoreConsole; nao tempo total do fluxo"
+    },
+    {
+      "level": "PATAMAR",
+      "stage": "reabrir",
+      "startedUtc": "2026-11-05T22:28:13.625501+00:00",
+      "endedUtc": "2026-11-05T22:28:15.903241+00:00",
+      "processSeconds": 2.277264100004686,
+      "exitCode": 0,
+      "scope": "Inicializacao e script do CoreConsole; nao tempo total do fluxo"
+    },
+    {
+      "level": "N1",
+      "stage": "salvar",
+      "startedUtc": "2026-11-05T22:28:15.904578+00:00",
+      "endedUtc": "2026-11-05T22:28:19.258075+00:00",
+      "processSeconds": 3.352919800003292,
+      "exitCode": 0,
+      "scope": "Inicializacao e script do CoreConsole; nao tempo total do fluxo"
+    },
+    {
+      "level": "N1",
+      "stage": "reabrir",
+      "startedUtc": "2026-11-05T22:28:19.259179+00:00",
+      "endedUtc": "2026-11-05T22:28:21.526676+00:00",
+      "processSeconds": 2.2670243000029586,
+      "exitCode": 0,
+      "scope": "Inicializacao e script do CoreConsole; nao tempo total do fluxo"
+    },
+    {
+      "level": "N2",
+      "stage": "salvar",
+      "startedUtc": "2026-11-05T22:28:21.527803+00:00",
+      "endedUtc": "2026-11-05T22:28:24.854220+00:00",
+      "processSeconds": 3.3258702000021003,
+      "exitCode": 0,
+      "scope": "Inicializacao e script do CoreConsole; nao tempo total do fluxo"
+    },
+    {
+      "level": "N2",
+      "stage": "reabrir",
+      "startedUtc": "2026-11-05T22:28:24.855161+00:00",
+      "endedUtc": "2026-11-05T22:28:27.278836+00:00",
+      "processSeconds": 2.4231002000014996,
+      "exitCode": 0,
+      "scope": "Inicializacao e script do CoreConsole; nao tempo total do fluxo"
+    }
+  ],
+  "startedUtc": "2026-11-05T22:28:04.396632+00:00",
+  "endedUtc": "2026-11-05T22:28:27.279354+00:00",
+  "sequentialProcessWallSeconds": 22.882735699997284,
+  "nativeEngine": "D:\\AutoCAD 2027\\accoreconsole.exe",
+  "complete": true,
+  "inputIsSharedCandidate": true,
+  "interoperabilityToEberickTested": false,
+  "fullWorkflowTimeMeasured": false
+}
