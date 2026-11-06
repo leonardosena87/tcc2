@@ -1,0 +1,315 @@
+{
+  "revision": "R227",
+  "branches": {
+    "CAD": {
+      "project": "CAD/Projeto Eberick/H03_CAD_R49_LAJES_NAO_EXECUTAR.prj",
+      "sha256": "94635c1206f7c0e3676df045c8959165ae748155da6509866b207a578b17c06d",
+      "crc": "OK",
+      "sourceR224Preserved": true,
+      "sourceR224Sha256": "26ddd1e3831c7741e125c49b4cf743d966ba2fe0133867a19acb19967a9cf4e7",
+      "sizingReportSha256": "8244eb4a9bd1323308bac77876aa60949c95185c2d33ab5838fb12a9ec302869",
+      "processingReportSha256": "6ab17b16392cdef7490b47324da6982f05bc9162614c41920d4420fadbabaf07",
+      "detail": {
+        "materialMPa": 25,
+        "coverCm": 3,
+        "MdKNm": [
+          8.0,
+          13.16,
+          0.0,
+          0.0,
+          8.01
+        ],
+        "upperAtBothSupports": "2phi10 - 1.57 cm2",
+        "lower": "2phi8 - 1.01 cm2",
+        "upperBendingRequiredCm2": [
+          1.2,
+          0.72
+        ],
+        "upperFinalRequiredCm2": [
+          1.2,
+          0.9
+        ],
+        "printedCrackMm": [
+          0.05,
+          0.08,
+          0.03
+        ],
+        "VdKN": [
+          27.1
+        ],
+        "continuousBarGeometrySource": "Capturas nativas apos detalhar, nao deduzida somente do relatorio"
+      },
+      "processing": {
+        "nativeTotalSeconds": 10,
+        "sizingRows": [
+          {
+            "kind": "Pilares",
+            "count": 11,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Vigas",
+            "count": 15,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Lajes",
+            "count": 5,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Pilares",
+            "count": 12,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Vigas",
+            "count": 15,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Lajes",
+            "count": 9,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Pilares",
+            "count": 11,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Vigas",
+            "count": 1,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Sapatas",
+            "count": 14,
+            "status": "com erro"
+          }
+        ],
+        "successfulAutomaticSizingIsStructuralApproval": false
+      },
+      "upperAnchorageScreen": {
+        "bondConditions": {
+          "good": {
+            "basicStraightMm": 376.68505484223715,
+            "sides": {
+              "left": {
+                "availableToStartOfBendMm": 228.7,
+                "bendingAreaRequiredLengthMm": 201.43632924906532,
+                "finalAreaSensitivityLengthMm": 201.43632924906532,
+                "bendingAreaMarginMm": 27.263670750934665,
+                "finalAreaSensitivityMarginMm": 27.263670750934665
+              },
+              "right": {
+                "availableToStartOfBendMm": 128.7,
+                "bendingAreaRequiredLengthMm": 120.86179754943919,
+                "finalAreaSensitivityLengthMm": 151.07724693679899,
+                "bendingAreaMarginMm": 7.8382024505608,
+                "finalAreaSensitivityMarginMm": -22.377246936798997
+              }
+            }
+          },
+          "poor": {
+            "basicStraightMm": 538.1215069174817,
+            "sides": {
+              "left": {
+                "availableToStartOfBendMm": 228.7,
+                "bendingAreaRequiredLengthMm": 287.76618464152193,
+                "finalAreaSensitivityLengthMm": 287.76618464152193,
+                "bendingAreaMarginMm": -59.06618464152194,
+                "finalAreaSensitivityMarginMm": -59.06618464152194
+              },
+              "right": {
+                "availableToStartOfBendMm": 128.7,
+                "bendingAreaRequiredLengthMm": 172.65971078491316,
+                "finalAreaSensitivityLengthMm": 215.82463848114148,
+                "bendingAreaMarginMm": -43.95971078491317,
+                "finalAreaSensitivityMarginMm": -87.12463848114149
+              }
+            }
+          }
+        },
+        "assumedCoverNormalToHookAtLeast3Phi": true,
+        "assumedBendPinMm": 50.0,
+        "actualCageAndPourJointVerified": false,
+        "finalAreaSensitivityIsNotNormativeAdoption": true,
+        "includesSupportNodeForceTransferVerification": false,
+        "references": [
+          "NBR 6118:2026 9.3, 9.4.2, 18.3.2.4.1",
+          "R227 Eberick: áreas de flexão e finais em cada nó"
+        ],
+        "conclusion": "Conferir apoio direito de 20 cm e interferência das dobras no nó"
+      },
+      "nativeGlobalObserved": {
+        "totalVerticalTf": 114.47,
+        "maxGammaZ": 1.06,
+        "maxHorizontalWindDisplacementCm": 0.15,
+        "nativeLoadPerAreaWarningStillDisplayed": true
+      }
+    },
+    "BIM": {
+      "project": "BIM/Projeto Eberick/R166-R160-3NIVEIS-CONFIG-CAD-NAO-EXECUTAR.prj",
+      "sha256": "4dd53448f484485b2582777736f115d081954a51a4643c0c16c2752a530b65f9",
+      "crc": "OK",
+      "sourceR224Preserved": true,
+      "sourceR224Sha256": "1a332816717515e7b20ecd977d51cb05284136e9d4bcedf0a52eb2247bfca25c",
+      "sizingReportSha256": "8f84294c213d5823d8d9036f9ea49f0509350c09de713af7d177f3b9f47d0d87",
+      "processingReportSha256": "586c26330e036f0963e1cec64a21170b35dc4394525ee09a489587b9d8a92b8e",
+      "detail": {
+        "materialMPa": 25,
+        "coverCm": 3,
+        "MdKNm": [
+          8.0,
+          13.16,
+          0.0,
+          0.0,
+          8.01
+        ],
+        "upperAtBothSupports": "2phi10 - 1.57 cm2",
+        "lower": "2phi8 - 1.01 cm2",
+        "upperBendingRequiredCm2": [
+          1.2,
+          0.72
+        ],
+        "upperFinalRequiredCm2": [
+          1.2,
+          0.9
+        ],
+        "printedCrackMm": [
+          0.05,
+          0.08,
+          0.03
+        ],
+        "VdKN": [
+          27.11
+        ],
+        "continuousBarGeometrySource": "Capturas nativas apos detalhar, nao deduzida somente do relatorio"
+      },
+      "processing": {
+        "nativeTotalSeconds": 10,
+        "sizingRows": [
+          {
+            "kind": "Pilares",
+            "count": 11,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Vigas",
+            "count": 9,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Lajes",
+            "count": 5,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Pilares",
+            "count": 12,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Vigas",
+            "count": 12,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Lajes",
+            "count": 9,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Pilares",
+            "count": 11,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Vigas",
+            "count": 1,
+            "status": "Com sucesso"
+          },
+          {
+            "kind": "Sapatas",
+            "count": 14,
+            "status": "com erro"
+          }
+        ],
+        "successfulAutomaticSizingIsStructuralApproval": false
+      },
+      "upperAnchorageScreen": {
+        "bondConditions": {
+          "good": {
+            "basicStraightMm": 376.68505484223715,
+            "sides": {
+              "left": {
+                "availableToStartOfBendMm": 228.7,
+                "bendingAreaRequiredLengthMm": 201.43632924906532,
+                "finalAreaSensitivityLengthMm": 201.43632924906532,
+                "bendingAreaMarginMm": 27.263670750934665,
+                "finalAreaSensitivityMarginMm": 27.263670750934665
+              },
+              "right": {
+                "availableToStartOfBendMm": 128.7,
+                "bendingAreaRequiredLengthMm": 120.86179754943919,
+                "finalAreaSensitivityLengthMm": 151.07724693679899,
+                "bendingAreaMarginMm": 7.8382024505608,
+                "finalAreaSensitivityMarginMm": -22.377246936798997
+              }
+            }
+          },
+          "poor": {
+            "basicStraightMm": 538.1215069174817,
+            "sides": {
+              "left": {
+                "availableToStartOfBendMm": 228.7,
+                "bendingAreaRequiredLengthMm": 287.76618464152193,
+                "finalAreaSensitivityLengthMm": 287.76618464152193,
+                "bendingAreaMarginMm": -59.06618464152194,
+                "finalAreaSensitivityMarginMm": -59.06618464152194
+              },
+              "right": {
+                "availableToStartOfBendMm": 128.7,
+                "bendingAreaRequiredLengthMm": 172.65971078491316,
+                "finalAreaSensitivityLengthMm": 215.82463848114148,
+                "bendingAreaMarginMm": -43.95971078491317,
+                "finalAreaSensitivityMarginMm": -87.12463848114149
+              }
+            }
+          }
+        },
+        "assumedCoverNormalToHookAtLeast3Phi": true,
+        "assumedBendPinMm": 50.0,
+        "actualCageAndPourJointVerified": false,
+        "finalAreaSensitivityIsNotNormativeAdoption": true,
+        "includesSupportNodeForceTransferVerification": false,
+        "references": [
+          "NBR 6118:2026 9.3, 9.4.2, 18.3.2.4.1",
+          "R227 Eberick: áreas de flexão e finais em cada nó"
+        ],
+        "conclusion": "Conferir apoio direito de 20 cm e interferência das dobras no nó"
+      },
+      "nativeGlobalObserved": {
+        "totalVerticalTf": 114.47,
+        "maxGammaZ": 1.06,
+        "maxHorizontalWindDisplacementCm": 0.16,
+        "nativeLoadPerAreaWarningStillDisplayed": true
+      }
+    }
+  },
+  "appliedThroughNativeInterface": true,
+  "binaryEngineeringFilesPatched": false,
+  "observedGeometry": "20x30cm, topo6.39m, comprimento335cm, vao livre285cm",
+  "nativeDrawing": "2N3phi10 C375, trecho329, ganchos29/22cm; 2N2phi8 C345; 19N1phi6.3c15",
+  "improvement": "Armadura superior continua; removida a interrupcao da barra adicional curta",
+  "coverWarning08StillDisplayed": true,
+  "anchorageAndNodeCongestionApproved": false,
+  "independentCompleteInvertedMomentEnvelopeVerification": false,
+  "globalWorkflowTimingSeconds": null,
+  "pairedProductivityRankingComplete": false,
+  "aiTokensMeasured": null,
+  "exclusiveHumanEditingTimeSeconds": null,
+  "fullVerificationComplete": false,
+  "structuralApproval": false
+}
