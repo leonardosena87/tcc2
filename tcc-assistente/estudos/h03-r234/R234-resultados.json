@@ -1,0 +1,45 @@
+{
+  "revision": "R234",
+  "sourceCadBeams": 16,
+  "receiverBeamParts": 18,
+  "retainedColumns": 35,
+  "retainedN2BeamParts": 15,
+  "allSectionsMatchCad": true,
+  "beamTopM": 3.2,
+  "allBeamsUniquelyMatchedToCad": true,
+  "noProjectionGapOutsideIntersectingSolids": true,
+  "allR233IdentitiesGeometryAndPsetsRetained": true,
+  "concreteClass": "C-25",
+  "coverCm": 3,
+  "geometryToleranceM": 0.0001,
+  "persistedAfterReopen": true,
+  "sourceR233ProjectUnchanged": true,
+  "timing": {
+    "startUtc": "2026-11-06T18:05:26.975Z",
+    "endUtc": "2026-11-06T18:44:44.9037560+00:00",
+    "wallClockSeconds": 2357.928756,
+    "monotonicSeconds": null,
+    "netActiveSeconds": null,
+    "interrupted": true,
+    "description": "Intervalo bruto do primeiro dialogo ao salvamento; inclui interrupcoes e reinicializacao da sessao de controle. Nao representa tempo ativo nem permite ranking direto."
+  },
+  "nativeVerificationAtOpening": {
+    "observedUtc": "2026-11-06T18:05:26.975Z",
+    "root": "D:/TCC/outputs/H03-R234-CAD-VIGAS-N1-NAO-EXECUTAR/CAD",
+    "nativeVerificationAtOpening": true,
+    "nativeVerificationAccepted": true,
+    "sourceGeometryPreservationPendingAudit": true
+  },
+  "hashes": {
+    "D:\\TCC\\outputs\\H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR\\R225-CAD-N1-COORDENACAO-NAO-EXECUTAR-retorno.dxf": "05e416ef179881419ddd7e68eb6ec5b2dff8c92d98a2c62fe6e148c4d2c70c32",
+    "D:\\TCC\\outputs\\H03-R234-CAD-VIGAS-N1-NAO-EXECUTAR\\CAD\\Projeto Eberick\\R228-CAD-DWG-BRUTO-NAO-EXECUTAR.prj": "28231dbb197130b1234ffb867e52356bba65efed594b94541a2d26aadf187427",
+    "D:\\TCC\\outputs\\H03-R233-CAD-VIGAS-N2-NAO-EXECUTAR\\CAD\\Projeto Eberick\\R228-CAD-DWG-BRUTO-NAO-EXECUTAR.prj": "aa435d73b938e3e2b9d2fe7425b635ce5b3750d991d12f8135b6ab34766c6e7d",
+    "D:\\TCC\\outputs\\H03-R234-CAD-VIGAS-N1-NAO-EXECUTAR\\CAD\\Arquivos do projeto\\Modelo 3D.IFC": "16637d7a3e170f79c70881a4b7fc2828876b9d985265ef1919a9dde2e5690770",
+    "D:\\TCC\\outputs\\H03-R234-CAD-VIGAS-N1-NAO-EXECUTAR\\R234-preparacao.json": "70fbbe5de0763e67917eb526bfb4445b4c9ac50173b57b3fc459b862d20b3902",
+    "D:\\TCC\\outputs\\H03-R234-CAD-VIGAS-N1-NAO-EXECUTAR\\R234-tempo-observado.json": "50942f29444007c7a924e391312685847e66e695ca4ae0af14f69b373534440f",
+    "D:\\TCC\\outputs\\H03-R233-CAD-VIGAS-N2-NAO-EXECUTAR\\CAD\\Arquivos do projeto\\Modelo 3D.IFC": "7faf652fa55a93a3ede4f297104f4fdb9d1e20241c3c52747127e9f32a8e90c8"
+  },
+  "loadsApplied": false,
+  "analyticalConnectivityVerified": false,
+  "structuralApproval": false
+}
