@@ -1,0 +1,134 @@
+{
+  "revision": "H03/R228",
+  "sourceRevision": "H03/R225",
+  "sourceCounts": {
+    "IfcBeam": 32,
+    "IfcColumn": 23,
+    "IfcRailing": 2,
+    "IfcSlab": 12,
+    "IfcStair": 1,
+    "IfcStairFlight": 2
+  },
+  "sourceStoreysM": {
+    "Nível 1": 0.0,
+    "TCC-R159-BASE-VIRTUAL-017-APOIO-PENDENTE": 0.17,
+    "TCC-7a6267fd-N0": 0.2,
+    "TCC-R155-PISO-ACABADO-022": 0.22,
+    "TCC-R159-PATAMAR-CONCRETO": 1.77411765,
+    "Nível 2": 3.0,
+    "TCC-7a6267fd-N1": 3.2,
+    "TCC-R155-PISO-ACABADO-325": 3.25,
+    "TCC-7a6267fd-N2": 6.39
+  },
+  "bimControlStoreysM": {
+    "TCC-7a6267fd-N0": 0.2,
+    "TCC-R155-PISO-ACABADO-022": 0.22,
+    "TCC-R159-PATAMAR-CONCRETO": 1.77411765,
+    "Nível 2": 3.0,
+    "TCC-7a6267fd-N1": 3.2,
+    "TCC-R155-PISO-ACABADO-325": 3.25,
+    "TCC-7a6267fd-N2": 6.39
+  },
+  "bimControlCounts": {
+    "IfcBeam": 33,
+    "IfcColumn": 67
+  },
+  "cadControlCounts": {},
+  "cadReferenceLevelsCm": {
+    "N0": 20,
+    "PATAMAR": 177.41,
+    "N1": 320,
+    "N2": 639
+  },
+  "cadReferenceReopenEvidence": {
+    "N0": "R228-CAD-reaberto-N0.png",
+    "PATAMAR": "R228-CAD-reaberto-PATAMAR.png",
+    "N1": "R228-CAD-reaberto-N1.png",
+    "N2": "R228-CAD-reaberto-N2.png"
+  },
+  "timings": {
+    "CAD": {
+      "inicioConfiguracaoUtc": "2026-11-06T15:29:54.17Z",
+      "inicioConfirmacaoPrimeiroDwgUtc": "2026-11-06T15:33:51.724Z",
+      "fimObservadoAposCtrlBUtc": "2026-11-06T15:37:08.528Z",
+      "segundosDesdeConfiguracao": 434.3582252999991,
+      "segundosDesdePrimeiroDwg": 196.8039046,
+      "intervalo": "Tempo corrido assistido. Inclui espera entre comandos, configuracao de quatro niveis no primeiro intervalo, selecao de escala, importacao e verificacao de quatro desenhos e salvamento. Inclui tentativa recuperada de navegacao na interface. Exclui autoria, relancamento estrutural e calculo. Escopo diferente do IFC."
+    },
+    "BIM": {
+      "startUtc": "2026-11-06T15:20:58.205Z",
+      "endUtc": "2026-11-06T15:24:51.707Z",
+      "elapsedSeconds": 233.50184869999998,
+      "start": "Confirmação do seletor do IFC",
+      "end": "Observação após Ctrl+B",
+      "scope": "Inclui configuração do assistente, planificação, importação, aviso, interação e latência. Exclui exportação, auditoria e correções.",
+      "matchedCadMeasurementAvailable": false
+    }
+  },
+  "fullFlowTimesMeasured": false,
+  "matchedScopeBetweenTimers": false,
+  "nativeReportCounts": {
+    "Vigas": 32,
+    "Pilares": 23
+  },
+  "reportIdsClassesAndSourceLevelsMatch": true,
+  "uniquePartMatches": {
+    "beam": 33,
+    "column": 67
+  },
+  "originsWithNominalSectionDifferences": [
+    "V10-N1",
+    "V10-N2",
+    "V12-N1",
+    "V13-N2",
+    "V15-N1",
+    "V3-N1",
+    "V3-N2",
+    "V3B-N1",
+    "V4A-N1",
+    "V4A-N2",
+    "V4B-N1",
+    "V4B-N2",
+    "V9-N2"
+  ],
+  "originsWithProjectionGaps": [
+    "V2-N2"
+  ],
+  "columnShortSegmentsUpTo5Cm": 23,
+  "concreteCoverExposureTuples": [
+    {
+      "values": [
+        "C-25",
+        3.0,
+        "2"
+      ],
+      "parts": 100
+    }
+  ],
+  "materialAssociationsInBimControl": 100,
+  "bimControlPartsWithMaterialPropertySets": 0,
+  "bimCriteriaCopiedFromLastProject": "CAD R227",
+  "cadCriteriaCopiedFromLastProject": "BIM R228",
+  "materialTransferIsolated": false,
+  "analyticalConnectivityVerified": false,
+  "rawModelsRecalculated": false,
+  "structuralApproval": false,
+  "comparisonToleranceM": 0.0002,
+  "hashes": {
+    "H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR/H03-R225-REVIT-COORDENACAO-NAO-EXECUTAR.rvt": "673b9be8ff16a239d9add12e6353248bc12283fb3274c1fa361c603904243d88",
+    "H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR/H03-R225-Revit-COORDENACAO-NAO-EXECUTAR.ifc": "d67649691c7d352499b5a6343059808f796d19ecfad8b7c74c1cd41048ed9964",
+    "H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR/R225-exportacao-ifc.json": "f6f8bff2517e59067ad599caca18a986ee2edb35e2796f63f2d8cef4d7df45f8",
+    "H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR/R225-IFC-auditoria.json": "c2092e518d36c6a4b9221982709c61b5d8a3aebd028d2b134f8c67f07daef915",
+    "H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR/R225-CAD-N0-COORDENACAO-NAO-EXECUTAR.dwg": "dc04b01be3106ce737473efa87ee337af042553eb8822b31d8a8c84eb7a380bf",
+    "H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR/R225-CAD-PATAMAR-COORDENACAO-NAO-EXECUTAR.dwg": "67b607542fb261ec7ef80b85eb005a3129f10379f3f48b2d98fe51f46d7e4328",
+    "H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR/R225-CAD-N1-COORDENACAO-NAO-EXECUTAR.dwg": "121499c09efa4ce90aadd140a0f5823ea47b42d8908b255025bf6a200e57df8b",
+    "H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR/R225-CAD-N2-COORDENACAO-NAO-EXECUTAR.dwg": "718adc32a18e24d07ce2c7d7a5b25a2c30a27bb3f94b0b2ae7f25814cdc85c7e",
+    "H03-R228-RECEPCAO-R225-NAO-EXECUTAR/R228-CAD-DWG-BRUTO-NAO-EXECUTAR/Arquivos do projeto/Modelo 3D.IFC": "39487919634f12a8303dce11d99e46b8115f9fd14d1c401904c93469cc9f1ac6",
+    "H03-R228-RECEPCAO-R225-NAO-EXECUTAR/R228-BIM-IFC4-BRUTO-NAO-EXECUTAR/Arquivos do projeto/Modelo 3D.IFC": "73632c83314a21cc368b72722bec1a0283c9055ed1dd7e9aefbf49421ec6cf95",
+    "H03-R228-RECEPCAO-R225-NAO-EXECUTAR/R228-BIM-IFC4-BRUTO-NAO-EXECUTAR/Arquivos do projeto/Documentos/Eberick/Relatorio_de_importacao_de_elementos_IFC.docx": "a039b30fcc5a21890a32e9af9403c9e1308c225bc21f59b0cad9d878f4d79a0a",
+    "H03-R228-RECEPCAO-R225-NAO-EXECUTAR/R228-BIM-IFC4-BRUTO-NAO-EXECUTAR/Projeto Eberick/R228-BIM-IFC4-BRUTO-NAO-EXECUTAR.prj": "d41d5b352f0adf8e114663386ec37952667588d580e03a6ab4701077c4b2a0f1",
+    "H03-R228-RECEPCAO-R225-NAO-EXECUTAR/R228-CAD-DWG-BRUTO-NAO-EXECUTAR/Projeto Eberick/R228-CAD-DWG-BRUTO-NAO-EXECUTAR.prj": "7852316c64dc8f9b9ee0daeb9be50898f4fb2714e700cafbc8d458b9535b571c",
+    "H03-R228-RECEPCAO-R225-NAO-EXECUTAR/R228-CAD-tempo-observado.json": "bb7ed063cb9c4771f48ac72ce76b4d85185c5c77418118478f82bc9c4bdfbfa4",
+    "H03-R228-RECEPCAO-R225-NAO-EXECUTAR/R228-BIM-tempo-observado.json": "6cd30c4252491c2cb6c088eb7501218845ca881c4158a61f2da6e72af914ca4b"
+  }
+}
