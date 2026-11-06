@@ -1,0 +1,45 @@
+{
+  "revision": "R233",
+  "sourceCadBeams": 14,
+  "receiverBeamParts": 15,
+  "retainedColumns": 35,
+  "allSections20x30Cm": true,
+  "beamTopM": 6.39,
+  "allBeamsUniquelyMatchedToCad": true,
+  "noProjectionGapOutsideColumnSupports": true,
+  "allR232ColumnIdentitiesGeometryAndPsetsRetained": true,
+  "concreteClass": "C-25",
+  "coverCm": 3,
+  "geometryToleranceM": 0.0001,
+  "persistedAfterReopen": true,
+  "sourceR232ProjectUnchanged": true,
+  "timing": {
+    "startedUtc": "2026-11-06T17:09:15.167Z",
+    "endedUtc": "2026-11-06T17:41:40.298Z",
+    "seconds": 1945.1304466999993,
+    "scope": "Lançamento e salvamento das 14 vigas N2; intervalo bruto assistido inclui interrupção do turno e retomada; não é tempo líquido de trabalho. Exclui cópia, abertura/verificação nativa anterior, exportação e auditoria posteriores.",
+    "interrupted": true,
+    "netActiveSeconds": null,
+    "kind": "observado prospectivamente, bruto com interrupção"
+  },
+  "nativeVerificationAtOpening": {
+    "openedFromFolder": "D:/TCC/outputs/H03-R233-CAD-VIGAS-N2-NAO-EXECUTAR/CAD",
+    "nativeVerificationWarning": true,
+    "nativeVerificationAccepted": true,
+    "geometryPreservationToCheckInExport": true,
+    "note": "Ao abrir a cópia, o programa recomendou Verificar projeto danificado. A rotina foi executada antes do lançamento; a conferência final deverá comparar os pilares preservados com R232.",
+    "observedUtc": "2026-11-06T17:09:15.167Z"
+  },
+  "hashes": {
+    "D:\\TCC\\outputs\\H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR\\R225-CAD-N2-COORDENACAO-NAO-EXECUTAR-retorno.dxf": "1e401af13286d05168ab905d24f2cd5c41e81676d050acc6c2eba364484a4c85",
+    "D:\\TCC\\outputs\\H03-R233-CAD-VIGAS-N2-NAO-EXECUTAR\\CAD\\Projeto Eberick\\R228-CAD-DWG-BRUTO-NAO-EXECUTAR.prj": "aa435d73b938e3e2b9d2fe7425b635ce5b3750d991d12f8135b6ab34766c6e7d",
+    "D:\\TCC\\outputs\\H03-R232-CAD-PILARES-NAO-EXECUTAR\\CAD\\Projeto Eberick\\R228-CAD-DWG-BRUTO-NAO-EXECUTAR.prj": "6863ef0174ce5404d3c56903b76ced7217c845d3a4ea44241b811ddc6380af95",
+    "D:\\TCC\\outputs\\H03-R233-CAD-VIGAS-N2-NAO-EXECUTAR\\CAD\\Arquivos do projeto\\Modelo 3D.IFC": "7faf652fa55a93a3ede4f297104f4fdb9d1e20241c3c52747127e9f32a8e90c8",
+    "D:\\TCC\\outputs\\H03-R233-CAD-VIGAS-N2-NAO-EXECUTAR\\R233-preparacao.json": "6127b726d82a8865ba55a53579b36b0c9887904f08db5728da281185adadf604",
+    "D:\\TCC\\outputs\\H03-R233-CAD-VIGAS-N2-NAO-EXECUTAR\\R233-tempo-observado.json": "407cc4d1a83fcb0256bdfb90977c814b45a0effb0a486a3797e2c61309edeed8",
+    "D:\\TCC\\outputs\\H03-R232-CAD-PILARES-NAO-EXECUTAR\\CAD\\Arquivos do projeto\\Modelo 3D.IFC": "12a674a6f17bac01440accab9071a061b2450c34541ead14096a11158a9f2c7c"
+  },
+  "loadsApplied": false,
+  "analyticalConnectivityVerified": false,
+  "structuralApproval": false
+}
