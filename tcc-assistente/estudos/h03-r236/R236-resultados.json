@@ -1,0 +1,53 @@
+{
+  "revision": "R236",
+  "scope": "Recepção recomposta de pilares e vigas; exclui lajes, escada, cargas e cálculo",
+  "cadNativeRevision": "R235",
+  "bimNativeRevision": "R231",
+  "partsPerFlow": 70,
+  "classCountsPerFlow": {
+    "IfcColumn": 35,
+    "IfcBeam": 35
+  },
+  "bijectionVerified": true,
+  "rectangularMeshesVerified": true,
+  "sourceIdentitiesPerFlow": {
+    "columns": 23,
+    "beams": 32
+  },
+  "geometryToleranceM": 0.0002,
+  "maximumCoordinateDifferenceM": 1.7650000000202226e-05,
+  "allConcretePropertiesEqual": true,
+  "pairsWithPropertyDifferences": 0,
+  "pairsWithDifferentNames": 64,
+  "levels": {
+    "N0": [
+      "TCC-7a6267fd-N0"
+    ],
+    "N1": [
+      "TCC-7a6267fd-N1"
+    ],
+    "N2": [
+      "TCC-7a6267fd-N2"
+    ],
+    "PATAMAR": [
+      "TCC-R159-PATAMAR-CONCRETO"
+    ]
+  },
+  "hashes": {
+    "D:\\TCC\\outputs\\H03-R235-CAD-VIGAS-ESCADA-NAO-EXECUTAR\\CAD\\Arquivos do projeto\\Modelo 3D.IFC": "d0fdaf434c45a450eff568614e46c6d19ada1b602b8712cf1d28c04aa9e53806",
+    "D:\\TCC\\outputs\\H03-R231-IFC4-CONTINUIDADE-NAO-EXECUTAR\\R231-BIM-SECOES-NOMINAIS-NAO-EXECUTAR\\Arquivos do projeto\\Modelo 3D.IFC": "93244164505897164e6033681d470d56f9ca532dc0ccd34bb921db3d68340dcd",
+    "D:\\TCC\\outputs\\H03-R235-CAD-VIGAS-ESCADA-NAO-EXECUTAR\\CAD\\Projeto Eberick\\R228-CAD-DWG-BRUTO-NAO-EXECUTAR.prj": "ab7c6da55d4f71ebd934870dc2300888a1da3c30904c8dd0e7a4622d349b0313",
+    "D:\\TCC\\outputs\\H03-R231-IFC4-CONTINUIDADE-NAO-EXECUTAR\\R231-BIM-SECOES-NOMINAIS-NAO-EXECUTAR\\Projeto Eberick\\R231-BIM-SECOES-NOMINAIS-NAO-EXECUTAR.prj": "0ed04c362ced3b2282f37c71fd9af6cc41150932d8c4b7cdb403dcd962cba8e8",
+    "D:\\TCC\\outputs\\H03-R231-IFC4-CONTINUIDADE-NAO-EXECUTAR\\R231-auditoria.json": "47092fa5758ef515f82aa33ec803e047059871cf077675063d0778e086a16421",
+    "D:\\TCC\\outputs\\H03-R232-CAD-PILARES-NAO-EXECUTAR\\R232-auditoria.json": "452fcd3149961345283dc2c76938ed8d5d5e50b93e240da016f1dadb932d2eac",
+    "D:\\TCC\\outputs\\H03-R233-CAD-VIGAS-N2-NAO-EXECUTAR\\R233-auditoria.json": "23af90bd185ecc98b2c4ef7f7fcb45660abe78d80eda0d21b1ce25fe44eeae1f",
+    "D:\\TCC\\outputs\\H03-R234-CAD-VIGAS-N1-NAO-EXECUTAR\\R234-auditoria.json": "17a1afc5c398601ef3ebecd8397260393de8f2ccb38cd6184a2a2c1a8fd8738d",
+    "D:\\TCC\\outputs\\H03-R235-CAD-VIGAS-ESCADA-NAO-EXECUTAR\\R235-auditoria.json": "ae99036bb78e84ab4b9f6a358fedfc6fd1ca9695a1e7f6830bb6b35fda3dcee7"
+  },
+  "modelsModified": false,
+  "analyticalConnectivityEquivalent": null,
+  "loadsComplete": false,
+  "structuralApproval": false,
+  "timeRankingValid": false,
+  "timeRankingReason": "Escopos diferentes; CAD contém interrupções; diagnóstico e preparação do BIM não estão integralmente cronometrados."
+}

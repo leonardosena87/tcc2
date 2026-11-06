@@ -1,0 +1,49 @@
+{
+  "revision": "R235",
+  "allNativeElements": 70,
+  "columns": 35,
+  "beamParts": 35,
+  "sourceCadBeamIdentitiesAccumulated": 32,
+  "addedBeamParts": 2,
+  "retainedR234Elements": 68,
+  "allR234IdentitiesGeometryAndPsetsRetained": true,
+  "allAddedSectionsMatchCad": true,
+  "geometryToleranceM": 0.0001,
+  "persistedAfterReopen": true,
+  "sourceR234ProjectUnchanged": true,
+  "timingBase": {
+    "startUtc": "2026-11-06T20:10:05.652Z",
+    "endUtc": "2026-11-06T20:15:47.087Z",
+    "monotonicSeconds": 341.43549519999976,
+    "interrupted": false,
+    "netActiveSeconds": null,
+    "scope": "Abrir croqui N0, lancar viga e salvar; inclui recuperacao de entrada de texto e consultas da interface; nao e solver nem fluxo completo",
+    "unsupportedEndpointWarnings": 2
+  },
+  "timingLanding": {
+    "startUtc": "2026-11-06T18:50:05.255Z",
+    "endUtc": "2026-11-06T20:09:55.019Z",
+    "monotonicSeconds": 4789.7650269,
+    "interrupted": true,
+    "netActiveSeconds": null,
+    "scope": "Abrir croqui PATAMAR, lancar viga e salvar; inclui interrupcao e retomada, nao usar para ranking"
+  },
+  "baseSupportPending": true,
+  "loadsApplied": false,
+  "analyticalConnectivityVerified": false,
+  "structuralApproval": false,
+  "hashes": {
+    "D:\\TCC\\outputs\\H03-R235-CAD-VIGAS-ESCADA-NAO-EXECUTAR\\CAD\\Projeto Eberick\\R228-CAD-DWG-BRUTO-NAO-EXECUTAR.prj": "ab7c6da55d4f71ebd934870dc2300888a1da3c30904c8dd0e7a4622d349b0313",
+    "D:\\TCC\\outputs\\H03-R234-CAD-VIGAS-N1-NAO-EXECUTAR\\CAD\\Projeto Eberick\\R228-CAD-DWG-BRUTO-NAO-EXECUTAR.prj": "28231dbb197130b1234ffb867e52356bba65efed594b94541a2d26aadf187427",
+    "D:\\TCC\\outputs\\H03-R235-CAD-VIGAS-ESCADA-NAO-EXECUTAR\\CAD\\Arquivos do projeto\\Modelo 3D.IFC": "d0fdaf434c45a450eff568614e46c6d19ada1b602b8712cf1d28c04aa9e53806",
+    "D:\\TCC\\outputs\\H03-R235-CAD-VIGAS-ESCADA-NAO-EXECUTAR\\R235-controle-antes-reabertura.ifc": "e8cfd80eae4da30ac3a0202e9e6701d3e09ca6d7c192b35c2ae17ed4de575442",
+    "D:\\TCC\\outputs\\H03-R234-CAD-VIGAS-N1-NAO-EXECUTAR\\CAD\\Arquivos do projeto\\Modelo 3D.IFC": "16637d7a3e170f79c70881a4b7fc2828876b9d985265ef1919a9dde2e5690770",
+    "D:\\TCC\\outputs\\H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR\\R225-CAD-N0-COORDENACAO-NAO-EXECUTAR-retorno.dxf": "815a9c15d9bb7a3076cb745a3e6baa697e6cc084c5b9a0c58daac3aba572da12",
+    "D:\\TCC\\outputs\\H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR\\R225-CAD-PATAMAR-COORDENACAO-NAO-EXECUTAR-retorno.dxf": "33f0aaba0cfa9529878a7991c04b63d4f2715bd2b855ceee60eda49322b05983",
+    "D:\\TCC\\outputs\\H03-R235-CAD-VIGAS-ESCADA-NAO-EXECUTAR\\R235-abertura.json": "862963c828cf1f6a2e1c231b2b48a74c8ae4cc7eaa56fc0a8bc11101603fccfc",
+    "D:\\TCC\\outputs\\H03-R235-CAD-VIGAS-ESCADA-NAO-EXECUTAR\\R235-preparacao.json": "aa0b8b4a37d922eb82bf2032b3dc79273573fa07508beaa61e1c55c150a5c3b1",
+    "D:\\TCC\\outputs\\H03-R235-CAD-VIGAS-ESCADA-NAO-EXECUTAR\\R235-reabertura.json": "f181af5caa7ed9d1df796b8dbb4647e3e84bba0ef9029f8168b4ee135786b722",
+    "D:\\TCC\\outputs\\H03-R235-CAD-VIGAS-ESCADA-NAO-EXECUTAR\\R235-tempo-base.json": "f58fb80a1095388690c068eb7815eb98ea05acda77aba0efb4b703190bbeda88",
+    "D:\\TCC\\outputs\\H03-R235-CAD-VIGAS-ESCADA-NAO-EXECUTAR\\R235-tempo-patamar.json": "28f80e25178f21abfc6d6cb41d91d31c98586b55e1cddd44d58d9e1a41cc29f5"
+  }
+}
