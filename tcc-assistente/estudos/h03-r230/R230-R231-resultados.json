@@ -1,0 +1,130 @@
+{
+  "persistencia": {
+    "retainedElements": 70,
+    "identitiesNamesGeometryAndPropertiesEqual": true,
+    "firstIfcSha256": "5b3ab51ed9c18733ee7a69f51178f2bc2c5497365f1ba99910680acfe714adaf",
+    "reopenedIfcSha256": "93244164505897164e6033681d470d56f9ca532dc0ccd34bb921db3d68340dcd"
+  },
+  "R231": {
+    "revision": "R231",
+    "reportCounts": {
+      "Vigas": 32,
+      "Pilares": 23
+    },
+    "reportIdsClassesAndLevelsMatch": true,
+    "controlCounts": {
+      "IfcBeam": 35,
+      "IfcColumn": 35
+    },
+    "uniquePartMatches": {
+      "beam": 35,
+      "column": 35
+    },
+    "unmatchedOrAmbiguousParts": [],
+    "originsWithMissingProjection": [],
+    "originsWithParts": 55,
+    "receptionTiming": {
+      "startUtc": "2026-11-06T16:28:26.961Z",
+      "endUtc": "2026-11-06T16:31:00.03Z",
+      "elapsedSeconds": 153.06995700000226,
+      "scope": "Do aceite do seletor do IFC ao estado observado apos Ctrl+B. Inclui interacao assistida, espera entre comandos, planificacao, importacao e salvamento. Exclui preparo da geometria, exportacao de controle, auditoria, complementacao e calculo."
+    },
+    "nativeReopened": true,
+    "sectionAndTopToleranceM": 0.0002,
+    "meshToleranceM": 1E-08,
+    "criteria": "Configuração do último projeto aberto, CAD R227",
+    "analyticalConnectivityVerified": false,
+    "loadsApplied": false,
+    "structuralApproval": false,
+    "hashes": {
+      "H03-R231-IFC4-CONTINUIDADE-NAO-EXECUTAR/R231-BIM-SECOES-NOMINAIS-NAO-EXECUTAR/Arquivos do projeto/Modelo 3D.IFC": "93244164505897164e6033681d470d56f9ca532dc0ccd34bb921db3d68340dcd",
+      "H03-R231-IFC4-CONTINUIDADE-NAO-EXECUTAR/R231-BIM-SECOES-NOMINAIS-NAO-EXECUTAR/Arquivos do projeto/Documentos/Eberick/Relatorio_de_importacao_de_elementos_IFC.docx": "ce9f44b9333c0080cbd4c7ee7d2579636bbca0908c82b335471eeec11ba3cffb",
+      "H03-R231-IFC4-CONTINUIDADE-NAO-EXECUTAR/R231-BIM-SECOES-NOMINAIS-NAO-EXECUTAR/Projeto Eberick/R231-BIM-SECOES-NOMINAIS-NAO-EXECUTAR.prj": "0ed04c362ced3b2282f37c71fd9af6cc41150932d8c4b7cdb403dcd962cba8e8",
+      "H03-R231-IFC4-CONTINUIDADE-NAO-EXECUTAR/R231-tempo-observado.json": "189eaf9e29bc8e19fea71a329d2dd42fe657b3502bfc1e54e2a33d31a36044ef",
+      "H03-R231-IFC4-CONTINUIDADE-NAO-EXECUTAR/H03-R231-IFC4-DERIVADO-CONTINUIDADE-NAO-EXECUTAR.ifc": "63559579aeee261a4858f9f2c7f00cc8a5fb42156100c9927aa723fb3fe1a33a",
+      "H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR/R225-exportacao-ifc.json": "f6f8bff2517e59067ad599caca18a986ee2edb35e2796f63f2d8cef4d7df45f8"
+    },
+    "preparation": {
+      "revision": "R231",
+      "preparedUtc": "2026-11-06T13:27:24.054488-03:00",
+      "inputSha256": "e388071d35244f38333da9c153155e93fe97e6a267a076387a895256ed56ff9d",
+      "nativeReadbackSha256": "f6f8bff2517e59067ad599caca18a986ee2edb35e2796f63f2d8cef4d7df45f8",
+      "outputSha256": "63559579aeee261a4858f9f2c7f00cc8a5fb42156100c9927aa723fb3fe1a33a",
+      "changedColumnBodies": 3,
+      "unchangedOtherBodies": 68,
+      "removedCutQuantitySets": 3,
+      "schemaIssueCount": 0,
+      "elapsedSeconds": 2.3639504999991914,
+      "structuralApproval": false
+    }
+  },
+  "R230": {
+    "revision": "R230",
+    "reportCounts": {
+      "Vigas": 32,
+      "Pilares": 23
+    },
+    "reportIdsClassesAndLevelsMatch": true,
+    "controlCounts": {
+      "IfcBeam": 35,
+      "IfcColumn": 33
+    },
+    "uniquePartMatches": {
+      "beam": 35,
+      "column": 33
+    },
+    "unmatchedOrAmbiguousParts": [],
+    "originsWithMissingProjection": [
+      "P11-N1",
+      "P11-N2",
+      "P12-N1",
+      "P5-N1",
+      "P5-N2"
+    ],
+    "originsWithParts": 53,
+    "receptionTiming": {
+      "startUtc": "2026-11-06T16:00:40.76Z",
+      "endUtc": "2026-11-06T16:02:53.288Z",
+      "elapsedSeconds": 132.52671419999936,
+      "scope": "Do aceite do seletor do IFC ao estado observado apos Ctrl+B. Inclui interacao assistida, planificacao, importacao e salvamento. Exclui preparo da geometria, exportacao de controle, auditoria, complementacao e calculo."
+    },
+    "nativeReopened": true,
+    "sectionAndTopToleranceM": 0.0002,
+    "meshToleranceM": 1E-08,
+    "criteria": "Configuração do último projeto aberto, CAD R227",
+    "analyticalConnectivityVerified": false,
+    "loadsApplied": false,
+    "structuralApproval": false,
+    "hashes": {
+      "H03-R230-IFC4-SECOES-NOMINAIS-NAO-EXECUTAR/R230-BIM-SECOES-NOMINAIS-NAO-EXECUTAR/Arquivos do projeto/Modelo 3D.IFC": "7cd0f11572c5de9a80c3b4cc3d190634ddea4f64d80203c09a747274069fedde",
+      "H03-R230-IFC4-SECOES-NOMINAIS-NAO-EXECUTAR/R230-BIM-SECOES-NOMINAIS-NAO-EXECUTAR/Arquivos do projeto/Documentos/Eberick/Relatorio_de_importacao_de_elementos_IFC.docx": "bb16777b01a1ebec2941f0eeeb391d2fce69794daf06b77e80c36e6add922cf2",
+      "H03-R230-IFC4-SECOES-NOMINAIS-NAO-EXECUTAR/R230-BIM-SECOES-NOMINAIS-NAO-EXECUTAR/Projeto Eberick/R230-BIM-SECOES-NOMINAIS-NAO-EXECUTAR.prj": "b527e4f97e53c0b9c5a146ff9755fe44b77ee539f0e0eb4dd81c622a29696374",
+      "H03-R230-IFC4-SECOES-NOMINAIS-NAO-EXECUTAR/R230-tempo-observado.json": "5eabb565c173c6d6cf4ccdf68c68392ebe66076c615c2c45e03242c92b9540d5",
+      "H03-R230-IFC4-SECOES-NOMINAIS-NAO-EXECUTAR/H03-R230-IFC4-DERIVADO-SECOES-NOMINAIS-NAO-EXECUTAR.ifc": "e388071d35244f38333da9c153155e93fe97e6a267a076387a895256ed56ff9d",
+      "H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR/R225-exportacao-ifc.json": "f6f8bff2517e59067ad599caca18a986ee2edb35e2796f63f2d8cef4d7df45f8"
+    },
+    "preparation": {
+      "revision": "H03/R230",
+      "preparedUtc": "2026-11-06T12:59:33.975834-03:00",
+      "inputSha256": "59ac642812c8c508237090422e96068138354663a4c3000cfb68ace1a326dfaf",
+      "nativeReadbackSha256": "f6f8bff2517e59067ad599caca18a986ee2edb35e2796f63f2d8cef4d7df45f8",
+      "outputSha256": "e388071d35244f38333da9c153155e93fe97e6a267a076387a895256ed56ff9d",
+      "originalInputsUnchanged": true,
+      "keptStoreysM": [
+        0.2,
+        1.77411765,
+        3.2,
+        6.39
+      ],
+      "restoredBeamBodies": 13,
+      "restoredColumnBodies": 2,
+      "unchangedOtherBodies": 56,
+      "schemaIssueCount": 0,
+      "prismaticGeometryForReceptionOnly": true,
+      "quantitySetsRemoved": 15,
+      "nativeRevitExport": false,
+      "structuralApproval": false,
+      "elapsedSeconds": 2.247461299997667
+    }
+  }
+}
