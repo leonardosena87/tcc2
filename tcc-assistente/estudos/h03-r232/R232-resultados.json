@@ -1,0 +1,44 @@
+{
+  "revision": "R232",
+  "inputSource": "DXF AutoCAD R225: polilinhas, rótulos e XDATA",
+  "sourceColumns": 23,
+  "nativeColumnSegments": 35,
+  "segmentsByLevel": {
+    "PATAMAR": 12,
+    "N1": 12,
+    "N2": 11
+  },
+  "allPositionsSectionsNamesAndVerticalIntervalsMatch": true,
+  "concreteClass": "C-25",
+  "coverCm": 3,
+  "persistedAfterReopen": true,
+  "nativeReopened": true,
+  "geometryToleranceM": 0.0001,
+  "hashes": {
+    "D:\\TCC\\outputs\\H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR\\R225-CAD-N1-COORDENACAO-NAO-EXECUTAR-retorno.dxf": "05e416ef179881419ddd7e68eb6ec5b2dff8c92d98a2c62fe6e148c4d2c70c32",
+    "D:\\TCC\\outputs\\H03-R225-AUTORIA-COORDENACAO-NAO-EXECUTAR\\R225-CAD-N2-COORDENACAO-NAO-EXECUTAR-retorno.dxf": "1e401af13286d05168ab905d24f2cd5c41e81676d050acc6c2eba364484a4c85",
+    "D:\\TCC\\outputs\\H03-R232-CAD-PILARES-NAO-EXECUTAR\\CAD\\Arquivos do projeto\\Modelo 3D.IFC": "12a674a6f17bac01440accab9071a061b2450c34541ead14096a11158a9f2c7c",
+    "D:\\TCC\\outputs\\H03-R232-CAD-PILARES-NAO-EXECUTAR\\CAD\\Projeto Eberick\\R228-CAD-DWG-BRUTO-NAO-EXECUTAR.prj": "6863ef0174ce5404d3c56903b76ced7217c845d3a4ea44241b811ddc6380af95",
+    "D:\\TCC\\outputs\\H03-R232-CAD-PILARES-NAO-EXECUTAR\\R232-tempo-observado.json": "d5c912d009d118bab192cd1620dc516ee2124a39f2edb690c87ef14b5b714b93",
+    "D:\\TCC\\outputs\\H03-R232-CAD-PILARES-NAO-EXECUTAR\\R232-tempo-correcao.json": "e7ad4f428718fed0cde82ecc7c920504801e97f22931e2eb1429be7286cf5c60"
+  },
+  "timing": {
+    "startedUtc": "2026-11-06T16:41:16.649Z",
+    "endedUtc": "2026-11-06T16:56:59.927Z",
+    "seconds": 943.2787735999972,
+    "scope": "Lançamento assistido de pilares CAD a partir dos DXF R225: 12 posições N1, cópia PATAMAR e N2, retirada de P12 somente em N2, salvamento nativo; inclui consulta à ajuda, conferência de desenhos, recuperações de interface e transição de contexto; exclui exportação, auditoria e reabertura posteriores.",
+    "timingKind": "observado prospectivamente, intervalo bruto assistido",
+    "expectedNativeSegments": 35
+  },
+  "correctionTiming": {
+    "startedUtc": "2026-11-06T16:59:28.091Z",
+    "endedUtc": "2026-11-06T17:00:18.893Z",
+    "seconds": 50.80216830000281,
+    "scope": "Correção de continuidade: copiar as 12 prumadas de PATAMAR ao nível N0 e salvar; início após primeira auditoria IFC com 23 colunas; não inclui exportação e auditoria de confirmação.",
+    "expectedExportedColumns": 35
+  },
+  "analyticalConnectivityVerified": false,
+  "loadsApplied": false,
+  "structuralApproval": false,
+  "sourceR228PrjUnchanged": true
+}
